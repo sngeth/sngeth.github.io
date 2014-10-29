@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter: rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Sid Ngeth'
+tagline:          'A blog about anything'
+description:      ''
+url:              http://sidngeth.com/
+
+author:
+  name:           'Sid Ngeth'
+  url:            https://sidngeth.com/
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://sngeth.github.io/
