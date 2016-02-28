@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Composed Method"
+comments: true
 ---
 Definition: Breaking down a method into smaller intention revealing methods
 
