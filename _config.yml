@@ -16,6 +16,7 @@ author:
   name:           'Sid Ngeth'
   url:            http://sidngeth.com/
 
+gems: [jekyll-paginate]
 paginate:         5
 
 github:
