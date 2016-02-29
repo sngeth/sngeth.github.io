@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blogging on GitHub"
+comments: true
 ---
 
 This is my new blog using Jekyll. It's hosted using GitHub Pages and using the theme and layout from [Poole](https://github.com/poole/poole) for now.
