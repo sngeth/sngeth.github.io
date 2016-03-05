@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Javascript click vs touch events"
+category: "Javascript"
 comments: true
 ---
 If your application needs to respond to both mobile touches and desktop

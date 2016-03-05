@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Composed Method"
+category: "Design Patterns"
 comments: true
 ---
 Definition: Breaking down a method into smaller intention revealing methods
@@ -22,7 +23,7 @@ In fact we can design our system top down and leave the implementation details
 for later.
 
 A pleasant side effect of intention revealing methods within this composed
-method is that we hide the implementation details of methods 
+method is that we hide the implementation details of methods
 making it more extensible and easier to modify. E.g.:
 
 ```ruby
