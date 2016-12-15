@@ -9,7 +9,7 @@ two families of classes? In a language like Ruby that does
 not support method overloading, we would need to rely on a low level
 pattern known as double dispatch.
 
-The example below illustrates the dependendecy on the class of the
+The example below illustrates the dependency on the class of the
 object(Doctor or Dentist) and the class of the input object(Adult or Child).
 If we don't use double dispatch we get a nasty case of if or switch
 statements
