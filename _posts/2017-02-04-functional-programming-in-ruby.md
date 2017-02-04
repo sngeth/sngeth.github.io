@@ -2,6 +2,7 @@
 layout: post
 title:  "Functional Programming in Ruby"
 comments: true
+category: ["Ruby", "Functional Programming"]
 ---
 Although I've been focusing learning functional programming through Elixir
 and Elm these days, it's interesting to go back to the first programming
@@ -51,7 +52,7 @@ area_rectangle = area.(x, y)
 area_triangle = 0.5 * area.call(x, y)
 
 puts area_rectangle     #200.0
-puts area_triangle      #100.0   
+puts area_triangle      #100.0
 ```
 
 Let's dig into an interesting example where we show partial function applications
