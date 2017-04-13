@@ -147,6 +147,8 @@ abbr[title] {
 /* Code */
 code,
 pre {
+  white-space: pre;
+  overflow: auto;
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
