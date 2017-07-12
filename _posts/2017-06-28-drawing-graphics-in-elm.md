@@ -20,55 +20,7 @@ elm package install elm-lang/html
 elm package install evancz/elm-graphics
 ```
 
-```elm
-import Color exposing (..)
-import Collage exposing (..)
-import Element exposing (..)
-import Html exposing (..)
-
-
--- MODEL
-{- We don't really need a useful model here yet so I am creating a
-model that is an empty record with a type alias of Game -}
-
-type alias Game = {}
-
-initialModel : Game
-initialModel = {}
-
--- VIEW
-{- We use the collage function which is is defined as
-collage : Int -> Int -> List Form -> Element
-
-The first two arguments are the size of our canvas. The third argument
-is a list of Forms which in our case simply consists a single rectangle
-Shape which is transformed into a Form when piped into the filled
-function. These are all then piped back into the toHtml function to
-convert into something the view can render.
--}
-
-(gameWidth, gameHeight) = (600, 400)
-
-view : Game -> Html msg
-view initialModel =
-  toHtml <|
-    collage gameWidth gameHeight
-      [ rect 300 200
-          |> filled (rgb 64 224 208)
-      ]
-
--- MAIN
-{- Notice the program's update function. Since this is just a static
-drawing for now there is really no need to define one. We can simply
-pass in an anonymous function that satifies the function type -}
-
-main =
-  Html.program { init = (initialModel, Cmd.none)
-               , view = view
-               , update = (\_ model -> (model, Cmd.none))
-               , subscriptions = (\_ -> Sub.none)
-               }
-```
+<script src="https://gist.github.com/sngeth/4b4004a8a284b66eb0c22339162857e5.js"></script>
 
 ### Summary:
 We learned how to render a "canvas" on the screen by using
