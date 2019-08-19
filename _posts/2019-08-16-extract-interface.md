@@ -45,7 +45,7 @@ public class Sale {
 ```
 
 Now we want to test our sale class. We create a test which will
-instantiate a ArtR56Display but suprise, it's connected to physical
+instantiate a ArtR56Display but suprise, it's connected to a physical
 cash register. It's not very convenient to write unit tests that rely on
 this sort of external dependency just to run. Other typical dependencies
 such as DB connections also suffer from this issue.
@@ -53,7 +53,7 @@ such as DB connections also suffer from this issue.
 So the solution here is to extract the display to an interface which has
 the side effect of promoting loose coupling and replaceability. It
 allows the Sale class to be extended but not modified. So in the future
-our Sale class can be hooked up it any other type of display.
+our Sale class can be hooked up to any other type of display.
 
 
 ```java
