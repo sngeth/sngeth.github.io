@@ -7,8 +7,8 @@ highlighter: rouge
 permalink:        pretty
 
 # Setup
-title:            'Sid Ngeth'
-tagline:          'A blog about anything'
+title:            "Sid Ngeth's Blog"
+tagline:          'A blog about anything (but mostly development)'
 description:      ''
 url:              http://sidngeth.com/
 baseurl: ""
@@ -21,3 +21,6 @@ paginate:         5
 
 github:
   repo:           https://github.com/sngeth
+
+plugins:
+  - jekyll-paginate
