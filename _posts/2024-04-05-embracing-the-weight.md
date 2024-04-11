@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Embracing the Weight"
+category: "Soft Skills"
 comments: false
 ---
 # Confronting Impostor Syndrome in Software Engineering and Powerlifting
