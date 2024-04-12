@@ -23,11 +23,17 @@ Something I saw in my last company was the idea of TDD or Testing culture. Princ
 
 ***Build the why:***
 Listing benefits that people already know isn’t going to necessarily help in my experience. Non technical people prefer ROI/Cost savings, data helps a lot. Listening and solving their major pain points from their point of view helps.
+If you are just simply trying to practice resume driven development or over optimize/refactor a piece of your code base with no convincable benefits, you are probably going to get shot down.
+
+On a random side note on Clean Code. I highly recommend this very informative debate between Bob Martin and Casey M:
+[https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md](https://github.com/unclebob/cmuratori-discussion/blob/main/cleancodeqa.md)
+It's a very good case study of two programmers coming from two different backgrounds on why they believe in their philosophies.
 
 ***Involve your team early:***
 I think a more effective approach is talking to your co-workers one by one, and listening to their ideas.
 You can then achieve better overall buy in now that everyone is on board.
-If you can then sell why your new idea or approach is saving them from a pain point, you are going to better be able to get consensus. Include team members in decision-making from the start, seeking their input and concerns. This fosters ownership and commitment to the change.
+If you can then sell why your new idea or approach is saving them from a pain point(or for non technical people, make $), you are going to better be able to get consensus.
+Include team members in decision-making from the start, seeking their input and concerns. This fosters ownership and commitment to the change.
 
 ***Provide Education and Training for Ease of adoptability:***
 
