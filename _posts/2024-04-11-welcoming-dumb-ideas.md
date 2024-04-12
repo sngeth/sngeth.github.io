@@ -22,18 +22,20 @@ Something I saw in my last company was the idea of TDD or Testing culture. Princ
 **Building organizational consensus:**
 
 ***Build the why:***
-Listing benefits that people already know isn’t going to necessarily help in my experience. Non technical people prefer ROI/Cost savings, data helps a lot.
+Listing benefits that people already know isn’t going to necessarily help in my experience. Non technical people prefer ROI/Cost savings, data helps a lot. Listening and solving their major pain points from their point of view helps.
 
 ***Involve your team early:***
-I think a more effective approach is talking to your co-workers one by one, and listening to their ideas. If you can then sell why your new idea or approach is saving them from a pain point, you are going to better be able to get consensus. Include team members in decision-making from the start, seeking their input and concerns. This fosters ownership and commitment to the change.
+I think a more effective approach is talking to your co-workers one by one, and listening to their ideas.
+You can then achieve better overall buy in now that everyone is on board.
+If you can then sell why your new idea or approach is saving them from a pain point, you are going to better be able to get consensus. Include team members in decision-making from the start, seeking their input and concerns. This fosters ownership and commitment to the change.
 
 ***Provide Education and Training for Ease of adoptability:***
 
 Offer training on testing importance, methodologies, and best practices. Empowering team members with knowledge helps them embrace the change confidently. To introduce a new process or idea, it must be low barrier or small investment for users to adopt. If it’s something completely ridiculous and creates more work it’s obviously a no.
 
-Having an “escape hatch” or a backup plan can provide reassurance and mitigate the fear of failure when implementing changes in a company. It allows for a safety net in case the change doesn’t yield the expected results or faces unforeseen challenges. This backup plan can include alternative strategies, contingency measures, or even a way to revert to previous processes if necessary
+Having an “escape hatch” or a backup plan can provide reassurance and mitigate the fear of failure when implementing changes in a company. It allows for a safety net in case the change doesn’t yield the expected results or faces unforeseen challenges. This backup plan can include alternative strategies, contingency measures, or even a way to revert to previous processes if necessary.
 
-Sometimes dumb ideas, can have benefits that you never thought, tying back into the idea that a company culture that embraces psychological safety will have a lot more potential for innovation.
+Sometimes dumb ideas, can have benefits that you never thought, tying back into the idea that a company culture that embraces psychological safety will have a lot more potential for innovation versus ideas simply mandated from an ivory tower.
 
 If all else fails just become the CEO of your own company 😂
 

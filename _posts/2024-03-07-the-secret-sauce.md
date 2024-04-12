@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Beyond Documentation: The Art of Reverse Engineering in Development"
+category: "General Skills"
 comments: false
 ---
 **Introduction:**
