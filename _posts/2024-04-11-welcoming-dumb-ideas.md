@@ -35,6 +35,7 @@ Something I experienced in my last company was the idea of Test Driven Developme
 
 Listing benefits that people already know isn’t going to necessarily help in my experience. Non technical people prefer ROI/Cost savings, data helps. Listening and solving their major pain points from their point of view helps.
 If you are just simply trying to practice resume driven development or over optimize/refactor a piece of your code base with no convincable benefits, you are probably going to get shot down.
+Avoid [Shiny Object Syndrome](https://en.wikipedia.org/wiki/Shiny_object_syndrome) for the sake of shiny.
 
 Principle 1: Fundamental Techniques in Handling People. By listening to their ideas and solving their major pain points, you're showing genuine interest in their perspective and fostering a positive relationship.
 
@@ -60,6 +61,7 @@ Include team members in decision-making from the start, seeking their input and 
 Principle 3: How to Win People to Your Way of Thinking. By including team members in decision-making from the start and seeking their input and concerns, you're showing respect for their opinions and making them feel valued. Additionally, your emphasis on selling the benefits of your ideas by addressing their pain points ties into the principle of appealing to the other person's interests.
 
 ## Conclusion
-Sometimes dumb ideas can have benefits that you never thought, tying back into the idea that a company culture that embraces psychological safety will have a lot more potential for innovation compared to ideas simply mandated from an ivory tower.
+Sometimes dumb ideas can have benefits that you never thought. It's more of a matter of building the proper consensus with your team.
+Tying back into the idea that a company culture that embraces psychological safety will have a lot more potential for innovation compared to ideas simply mandated from an ivory tower.
 If all else fails just become the CEO of your own company 😂
 
