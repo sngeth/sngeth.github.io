@@ -10,12 +10,12 @@ permalink:        pretty
 title:            "Sid Ngeth's Blog"
 tagline:          'A blog about anything (but mostly development)'
 description:      ''
-url:              http://sidngeth.com/
+url:              https://sngeth.com/
 baseurl: ""
 
 author:
   name:           'Sid Ngeth'
-  url:            http://sidngeth.com/
+  url:            https://sngeth.com/
 
 paginate:         5
 
