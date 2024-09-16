@@ -248,6 +248,18 @@ Create `lib/your_app_web/controllers/payment_html/new.html.heex`:
 </script>
 ```
 
+Create `lib/your_app_web/controllers/payment_html/thank_you.html.heex`:
+
+```heex
+<div class="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md text-center">
+  <h1 class="text-3xl font-bold mb-4">Thank You!</h1>
+  <p class="text-xl mb-4">Your payment of $<%= String.to_float(@amount) / 100 %> was successful.</p>
+  <p class="mb-6">We appreciate your business and hope you enjoy your purchase.</p>
+  <.link href={~p"/"} class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Return to Home
+  </.link>
+</div>
+```
 ### 8. Wire up the router
 
 In `lib/your_app_web/router.ex`:
