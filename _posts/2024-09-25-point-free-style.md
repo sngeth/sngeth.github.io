@@ -24,14 +24,14 @@ Haskell is known for its elegant use of function composition and point-free styl
 Here’s a simple example of a point-free function in Haskell:
 
 ```haskell
-makeGreeting' = (<>) . (<> " ")
+makeGreeting = (<>) . (<> " ")
 ```
 
 In this case:
 - The function `(<>)` is the string concatenation operator.
 - The expression `(<>) . (<> " ")` creates a new function that concatenates a space between two strings.
 
-When you call `makeGreeting' "hello" "george"`, it returns `"hello george"`. The magic of point-free style here is that you never explicitly mention the arguments `name1` or `name2` — everything is done through function composition.
+When you call `makeGreeting "hello" "world"`, it returns `"hello world"`. The magic of point-free style here is that you never explicitly mention the arguments `name1` or `name2` — everything is done through function composition.
 
 ### Benefits in Haskell
 
@@ -54,7 +54,7 @@ In this Elixir version:
 - The `&` symbol is a shorthand for anonymous functions.
 - `&1` and `&2` refer to the first and second arguments, respectively.
 
-This function behaves the same as its Haskell counterpart: calling `make_greeting.("hello", "george")` will return `"hello george"`.
+This function behaves the same as its Haskell counterpart: calling `make_greeting.("hello", "world")` will return `"hello world"`.
 
 ### Differences in Elixir
 
