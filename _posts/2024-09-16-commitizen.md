@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enhancing Your Codebase with Commitzen"
+title: "Enhancing Your Codebase with Commitizen"
 category: "Git"
 comments: true
 ---
