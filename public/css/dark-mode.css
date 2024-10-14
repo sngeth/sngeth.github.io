@@ -1,0 +1,50 @@
+body.dark-mode {
+  background-color: #272822;
+  color: #f8f8f2;
+}
+
+.dark-mode .sidebar {
+  background-color: #1e1f1c;
+}
+
+.dark-mode .sidebar-toggle {
+  color: #f8f8f2;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .sidebar-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .container a {
+  color: #66d9ef;
+}
+
+.dark-mode .masthead-title a {
+  color: #f8f8f2;
+}
+
+.dark-mode .masthead-title small {
+  color: #75715e;
+}
+
+.dark-mode code {
+  background-color: #3c3d38;
+  color: #e6db74;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.dark-mode h1,
+.dark-mode .container a,
+.dark-mode h2,
+.dark-mode h3 {
+  color: #81A1C1;
+}
+
+.dark-mode strong {
+  color: #A3BE8C;
+}
