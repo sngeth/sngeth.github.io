@@ -5,7 +5,6 @@
   {% include head.html %}
 
   <body class="theme-base-0c">
-
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
@@ -15,18 +14,44 @@
         <div class="container">
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+          <div class="masthead-content">
+            <h3 class="masthead-title">
+              <a href="/" title="Home">{{ site.title }}</a>
+              <small>{{ site.tagline }}</small>
+              <button id="dark-mode-toggle" style="vertical-align: middle; margin-left: 10px;" aria-label="Toggle Dark Mode">🌓</button>
+            </h3>
+          </div>
         </div>
       </div>
 
       <div class="container content">
-        {{ content }} 
+        {{ content }}
       </div>
     </div>
     <script id="dsq-count-scr" src="//sngeth.disqus.com/count.js"
       async></script>
+    <script>
+      const darkModeToggle = document.getElementById('dark-mode-toggle');
+      const body = document.body;
+
+      function setDarkMode(isDark) {
+        if (isDark) {
+          body.classList.add('dark-mode');
+          localStorage.setItem('darkMode', 'enabled');
+        } else {
+          body.classList.remove('dark-mode');
+          localStorage.setItem('darkMode', 'disabled');
+        }
+      }
+
+      darkModeToggle.addEventListener('click', () => {
+        setDarkMode(!body.classList.contains('dark-mode'));
+      });
+
+      // Check for saved user preference
+      if (localStorage.getItem('darkMode') === 'enabled') {
+        setDarkMode(true);
+      }
+    </script>
   </body>
 </html>
