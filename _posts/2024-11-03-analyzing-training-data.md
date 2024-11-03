@@ -55,7 +55,16 @@ defp do_binary_search(dp, target, min_improvement, left, right) when left < righ
       do_binary_search(dp, target, min_improvement, left, mid)
   end
 end
+
 defp do_binary_search(_, _, _, left, _), do: left
+
+defp reconstruct(nums, prev, pos, dp) do
+  case Map.get(prev, pos) do
+    nil -> [Enum.at(dp, pos)]
+    {prev_pos, prev_num} ->
+      reconstruct(nums, prev, prev_pos, dp) ++ [Enum.at(dp, pos)]
+  end
+end
 ```
 
 This algorithm finds the longest sequence of E1RMs where each value is at least `min_improvement` greater than the previous. Time complexity is O(n log n).
@@ -188,13 +197,13 @@ The output shows us the successful progression patterns:
    # With min_improvement = 2.5kg:
 
    Step 1: [100]
-   Step 2: [100, 102.5]
-   Step 3: [100, 101]       # Replace 102.5 with 101
-   Step 4: [100, 101, 105]  # New pile (>2.5kg improvement)
-   Step 5: [100, 101, 104]  # Replace 105 with 104
-   Step 6: [100, 101, 104, 108]  # New pile
+   Step 2: [100, 102.5]     # Valid as 102.5 - 100 = 2.5kg
+   Step 3: [100, 102.5]     # Skip 101 as it's lower than 102.5
+   Step 4: [100, 105]       # Replace 102.5 with 105 (better improvement)
+   Step 5: [100, 105]       # Skip 104 as it's lower than 105
+   Step 6: [100, 105, 108]  # Add 108 (valid 3kg improvement)
 
-   # Result: [100, 101, 104, 108] - Four block progression
+   # Result: [100, 105, 108] - Three block progression
    ```
 
 2. **Block Pattern Analysis**
