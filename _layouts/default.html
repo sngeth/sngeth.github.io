@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://sngeth.disqus.com http://sngeth.disqus.com https://c.disquscdn.com https://disqus.com https://d3js.org 'unsafe-inline'; style-src 'self' https://c.disquscdn.com 'unsafe-inline'; frame-src https://disqus.com; connect-src https://disqus.com;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://sngeth.disqus.com http://sngeth.disqus.com https://c.disquscdn.com https://disqus.com https://d3js.org https://unpkg.com 'unsafe-inline'; style-src 'self' https://c.disquscdn.com https://fonts.googleapis.com http://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com http://fonts.gstatic.com; frame-src https://disqus.com; connect-src https://disqus.com;">
 
   {% include head.html %}
 
@@ -53,5 +53,7 @@
         setDarkMode(true);
       }
     </script>
+
+    {% include mermaid.html %}
   </body>
 </html>
