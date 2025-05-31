@@ -38,6 +38,19 @@ body.dark-mode {
   border-radius: 4px;
 }
 
+.dark-mode .highlight,
+.dark-mode pre {
+  background-color: #3c3d38;
+}
+
+.dark-mode .highlight pre {
+  background-color: transparent;
+}
+
+.dark-mode pre code {
+  background-color: transparent;
+}
+
 .dark-mode h1,
 .dark-mode .container a,
 .dark-mode h2,
