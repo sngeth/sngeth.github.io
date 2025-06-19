@@ -2,6 +2,39 @@
 layout: default
 ---
 
+<!-- Recent Posts Section - Above the Fold -->
+<div class="recent-posts-header">
+  <h2>Recent Posts</h2>
+  <div class="recent-posts-grid">
+    {% for post in site.posts limit:6 %}
+      <a href="{{ post.url }}" class="recent-post-card">
+        <h3 class="recent-post-title">{{ post.title }}</h3>
+        <div class="recent-post-meta">
+          <time class="recent-post-date">{{ post.date | date: "%b %d, %Y" }}</time>
+          {% if post.categories.size > 0 %}
+            <div class="recent-post-categories">
+              {% for category in post.categories %}
+                <span class="recent-post-category">{{ category }}</span>
+              {% endfor %}
+            </div>
+          {% elsif post.category %}
+            <span class="recent-post-category">
+              {{ post.category }}
+            </span>
+          {% endif %}
+        </div>
+        {% if post.excerpt %}
+          <p class="recent-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+  <div class="recent-posts-footer">
+    <a href="/posts" class="view-all-posts">View All Posts →</a>
+  </div>
+</div>
+
+<!-- Main Posts -->
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">

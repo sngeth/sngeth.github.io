@@ -1,0 +1,33 @@
+<!-- Recent Posts Widget -->
+<div class="recent-posts-widget">
+  <h3 class="widget-title">Recent Posts</h3>
+  <div class="widget-posts">
+    {% for post in site.posts limit:10 %}
+      <article class="widget-post-item">
+        <a href="{{ post.url }}" class="widget-post-link">
+          <h4 class="widget-post-title">{{ post.title }}</h4>
+          <div class="widget-post-meta">
+            <time class="widget-post-date">{{ post.date | date: "%B %d, %Y" }}</time>
+            {% if post.category %}
+              <span class="widget-post-categories">
+                {% if post.category.size > 1 %}
+                  {% for cat in post.category %}
+                    <span class="widget-post-category">{{ cat }}</span>
+                  {% endfor %}
+                {% else %}
+                  <span class="widget-post-category">{{ post.category }}</span>
+                {% endif %}
+              </span>
+            {% endif %}
+          </div>
+          {% if post.excerpt %}
+            <p class="widget-post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          {% endif %}
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="widget-footer">
+    <a href="/" class="view-all-posts">View all posts →</a>
+  </div>
+</div>

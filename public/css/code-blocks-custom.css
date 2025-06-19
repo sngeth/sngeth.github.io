@@ -1,0 +1,198 @@
+/* Custom Code Block Styles - Modern Light Theme */
+
+/* Override the dark brown Monokai background */
+.highlight {
+  background-color: #f6f8fa !important; /* GitHub-style light gray */
+  color: #24292e !important;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Inline code */
+code {
+  background-color: #f6f8fa !important;
+  color: #0969da !important;
+  padding: 0.2em 0.4em !important;
+  font-size: 85% !important;
+  border-radius: 3px !important;
+  font-family: 'SF Mono', Monaco, 'Cascadia Mono', 'Roboto Mono', Consolas, 'Courier New', monospace !important;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f6f8fa !important;
+  border: 1px solid #e1e4e8 !important;
+  border-radius: 6px !important;
+  padding: 16px !important;
+  overflow: auto !important;
+  font-size: 85% !important;
+  line-height: 1.45 !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  color: inherit !important;
+}
+
+/* Syntax highlighting - GitHub-inspired light theme */
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf,
+.highlight .c1, .highlight .cs, .highlight .cm {
+  color: #6a737d !important; /* Comments - gray */
+  font-style: italic !important;
+}
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, 
+.highlight .kp, .highlight .kr, .highlight .kt {
+  color: #d73a49 !important; /* Keywords - red */
+}
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, 
+.highlight .s2, .highlight .se, .highlight .sh, .highlight .si, 
+.highlight .sx, .highlight .s1 {
+  color: #032f62 !important; /* Strings - dark blue */
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, 
+.highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #005cc5 !important; /* Numbers - blue */
+}
+
+.highlight .nf, .highlight .fm {
+  color: #6f42c1 !important; /* Functions - purple */
+}
+
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #e36209 !important; /* Variables - orange */
+}
+
+.highlight .o, .highlight .ow {
+  color: #d73a49 !important; /* Operators - red */
+}
+
+.highlight .na {
+  color: #005cc5 !important; /* Attributes - blue */
+}
+
+.highlight .nb {
+  color: #005cc5 !important; /* Built-ins - blue */
+}
+
+.highlight .nc, .highlight .no {
+  color: #6f42c1 !important; /* Classes/constants - purple */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    background-color: #161b22 !important;
+    color: #c9d1d9 !important;
+    border-color: #30363d !important;
+  }
+  
+  pre {
+    background-color: #161b22 !important;
+    border-color: #30363d !important;
+  }
+  
+  code {
+    background-color: #161b22 !important;
+    color: #79c0ff !important;
+  }
+  
+  /* Dark mode syntax colors */
+  .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf,
+  .highlight .c1, .highlight .cs, .highlight .cm {
+    color: #8b949e !important;
+  }
+  
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, 
+  .highlight .kp, .highlight .kr, .highlight .kt {
+    color: #ff7b72 !important;
+  }
+  
+  .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, 
+  .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, 
+  .highlight .sx, .highlight .s1 {
+    color: #a5d6ff !important;
+  }
+  
+  .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, 
+  .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+    color: #79c0ff !important;
+  }
+  
+  .highlight .nf, .highlight .fm {
+    color: #d2a8ff !important;
+  }
+  
+  .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+    color: #ffa657 !important;
+  }
+  
+  .highlight .o, .highlight .ow {
+    color: #ff7b72 !important;
+  }
+  
+  .highlight .na {
+    color: #79c0ff !important;
+  }
+  
+  .highlight .nb {
+    color: #79c0ff !important;
+  }
+  
+  .highlight .nc, .highlight .no {
+    color: #d2a8ff !important;
+  }
+}
+
+/* Alternative: One Dark Pro inspired theme - uncomment to use */
+/*
+.highlight {
+  background-color: #282c34 !important;
+  color: #abb2bf !important;
+  border: none !important;
+}
+
+pre {
+  background-color: #282c34 !important;
+  border: none !important;
+}
+
+code {
+  background-color: #2c313c !important;
+  color: #abb2bf !important;
+}
+
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf,
+.highlight .c1, .highlight .cs, .highlight .cm {
+  color: #5c6370 !important;
+}
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, 
+.highlight .kp, .highlight .kr, .highlight .kt {
+  color: #c678dd !important;
+}
+
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, 
+.highlight .s2, .highlight .se, .highlight .sh, .highlight .si, 
+.highlight .sx, .highlight .s1 {
+  color: #98c379 !important;
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, 
+.highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #d19a66 !important;
+}
+
+.highlight .nf, .highlight .fm {
+  color: #61afef !important;
+}
+
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #e06c75 !important;
+}
+*/

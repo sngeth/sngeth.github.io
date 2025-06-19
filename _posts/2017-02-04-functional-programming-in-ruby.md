@@ -2,7 +2,7 @@
 layout: post
 title:  "Functional Programming in Ruby"
 comments: true
-category: ["Ruby", "Functional Programming"]
+categories: ["Ruby", "Functional Programming"]
 ---
 Although I've been focusing learning functional programming through Elixir
 and Elm these days, it's interesting to go back to the first programming

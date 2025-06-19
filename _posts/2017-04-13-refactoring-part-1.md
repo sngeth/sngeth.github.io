@@ -2,7 +2,7 @@
 layout: post
 title:  "Refactoring Part 1"
 comments: true
-category: ["Ruby", "Refactoring"]
+categories: ["Ruby", "Refactoring"]
 ---
 You may hear many developers groan at working on a legacy code base out
 of control versus a greenfield project. However, I believe working in a

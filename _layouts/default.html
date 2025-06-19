@@ -4,7 +4,7 @@
 
   {% include head.html %}
 
-  <body class="theme-base-0c">
+  <body>
     {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
@@ -18,7 +18,6 @@
             <h3 class="masthead-title">
               <a href="/" title="Home">{{ site.title }}</a>
               <small>{{ site.tagline }}</small>
-              <button id="dark-mode-toggle" style="vertical-align: middle; margin-left: 10px;" aria-label="Toggle Dark Mode">🌓</button>
             </h3>
           </div>
         </div>
@@ -30,28 +29,42 @@
     </div>
     <script id="dsq-count-scr" src="//sngeth.disqus.com/count.js"
       async></script>
+
     <script>
-      const darkModeToggle = document.getElementById('dark-mode-toggle');
-      const body = document.body;
-
-      function setDarkMode(isDark) {
-        if (isDark) {
-          body.classList.add('dark-mode');
-          localStorage.setItem('darkMode', 'enabled');
-        } else {
-          body.classList.remove('dark-mode');
-          localStorage.setItem('darkMode', 'disabled');
-        }
-      }
-
-      darkModeToggle.addEventListener('click', () => {
-        setDarkMode(!body.classList.contains('dark-mode'));
+      // Close sidebar when clicking overlay or close button
+      document.addEventListener('DOMContentLoaded', function() {
+        const sidebarCheckbox = document.getElementById('sidebar-checkbox');
+        const wrap = document.querySelector('.wrap');
+        const sidebar = document.querySelector('.sidebar');
+        
+        // Close sidebar when clicking overlay
+        wrap.addEventListener('click', function(e) {
+          if (sidebarCheckbox.checked && e.target === wrap) {
+            sidebarCheckbox.checked = false;
+          }
+        });
+        
+        // Close sidebar when clicking the pseudo-element close button
+        // Since we can't directly click pseudo-elements, we'll detect clicks in the close button area
+        sidebar.addEventListener('click', function(e) {
+          if (sidebarCheckbox.checked) {
+            const rect = sidebar.getBoundingClientRect();
+            const closeButtonArea = {
+              x: rect.right - 48, // 3rem from right
+              y: rect.top + 16,   // 1rem from top
+              width: 32,          // 2rem width
+              height: 32          // 2rem height
+            };
+            
+            if (e.clientX >= closeButtonArea.x && 
+                e.clientX <= closeButtonArea.x + closeButtonArea.width &&
+                e.clientY >= closeButtonArea.y && 
+                e.clientY <= closeButtonArea.y + closeButtonArea.height) {
+              sidebarCheckbox.checked = false;
+            }
+          }
+        });
       });
-
-      // Check for saved user preference
-      if (localStorage.getItem('darkMode') === 'enabled') {
-        setDarkMode(true);
-      }
     </script>
 
     {% include mermaid.html %}
