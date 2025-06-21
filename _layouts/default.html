@@ -44,26 +44,6 @@
           }
         });
         
-        // Close sidebar when clicking the pseudo-element close button
-        // Since we can't directly click pseudo-elements, we'll detect clicks in the close button area
-        sidebar.addEventListener('click', function(e) {
-          if (sidebarCheckbox.checked) {
-            const rect = sidebar.getBoundingClientRect();
-            const closeButtonArea = {
-              x: rect.right - 48, // 3rem from right
-              y: rect.top + 16,   // 1rem from top
-              width: 32,          // 2rem width
-              height: 32          // 2rem height
-            };
-            
-            if (e.clientX >= closeButtonArea.x && 
-                e.clientX <= closeButtonArea.x + closeButtonArea.width &&
-                e.clientY >= closeButtonArea.y && 
-                e.clientY <= closeButtonArea.y + closeButtonArea.height) {
-              sidebarCheckbox.checked = false;
-            }
-          }
-        });
       });
     </script>
 

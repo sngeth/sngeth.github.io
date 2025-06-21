@@ -41,7 +41,14 @@
 
 html {
   font-family: 'PT Serif', Georgia, serif;
+  font-size: 16px;
   background-color: var(--tn-bg);
+}
+
+@media (min-width: 38rem) {
+  html {
+    font-size: 20px;
+  }
 }
 
 body {
@@ -849,24 +856,6 @@ a.sidebar-nav-item:focus {
   cursor: pointer;
 }
 
-/* Close button for mobile */
-#sidebar-checkbox:checked ~ .sidebar:after {
-  content: "✕";
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--tn-bg-highlight);
-  color: var(--tn-fg);
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1.2rem;
-  z-index: 60;
-}
 
 /* Ensure sidebar content fits properly */
 .sidebar-item {
