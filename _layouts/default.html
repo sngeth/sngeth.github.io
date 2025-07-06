@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://sngeth.disqus.com http://sngeth.disqus.com https://c.disquscdn.com https://disqus.com https://d3js.org https://unpkg.com 'unsafe-inline'; style-src 'self' https://c.disquscdn.com https://fonts.googleapis.com http://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com http://fonts.gstatic.com; frame-src https://disqus.com; connect-src https://disqus.com;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://sngeth.disqus.com http://sngeth.disqus.com https://c.disquscdn.com https://disqus.com https://d3js.org https://unpkg.com https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' https://c.disquscdn.com https://fonts.googleapis.com http://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com http://fonts.gstatic.com; frame-src https://disqus.com; connect-src 'self' https://disqus.com;">
 
   {% include head.html %}
 
@@ -29,6 +29,8 @@
     </div>
     <script id="dsq-count-scr" src="//sngeth.disqus.com/count.js"
       async></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 
     <script>
       // Close sidebar when clicking overlay or close button
@@ -45,6 +47,88 @@
         });
         
       });
+
+      // Search functionality
+      let fuse;
+      const searchInput = document.getElementById('search-input');
+      const searchResults = document.getElementById('search-results');
+      const mainSearchInput = document.getElementById('main-search-input');
+      const mainSearchResults = document.getElementById('main-search-results');
+      
+      if ((searchInput && searchResults) || (mainSearchInput && mainSearchResults)) {
+        // Load search data
+        fetch('/search.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Search data not found');
+            }
+            return response.json();
+          })
+          .then(data => {
+            fuse = new Fuse(data, {
+              keys: ['title', 'excerpt', 'categories'],
+              threshold: 0.3,
+              includeScore: true
+            });
+          })
+          .catch(error => {
+            console.warn('Search functionality unavailable:', error);
+            if (searchInput) {
+              searchInput.placeholder = 'search unavailable';
+              searchInput.disabled = true;
+            }
+            if (mainSearchInput) {
+              mainSearchInput.placeholder = 'search unavailable';
+              mainSearchInput.disabled = true;
+            }
+          });
+
+        // Handle search input
+        function handleSearchInput(input, results) {
+          if (!input || !results) return;
+          
+          input.addEventListener('input', function(e) {
+            const query = e.target.value.trim();
+            
+            if (query.length < 2) {
+              results.innerHTML = '';
+              return;
+            }
+            
+            if (!fuse) {
+              results.innerHTML = '<div class="search-no-results">search loading...</div>';
+              return;
+            }
+            
+            const searchResults = fuse.search(query);
+            displayResults(searchResults, results);
+          });
+        }
+
+        // Setup both search inputs
+        handleSearchInput(searchInput, searchResults);
+        handleSearchInput(mainSearchInput, mainSearchResults);
+
+        function displayResults(results, resultsContainer) {
+          if (results.length === 0) {
+            resultsContainer.innerHTML = '<div class="search-no-results">no results found</div>';
+            return;
+          }
+          
+          const html = results.slice(0, 5).map(result => {
+            const item = result.item;
+            return `
+              <a href="${item.url}" class="search-result">
+                <div class="search-result-title">${item.title}</div>
+                <div class="search-result-excerpt">${item.excerpt}</div>
+                <div class="search-result-date">${item.date}</div>
+              </a>
+            `;
+          }).join('');
+          
+          resultsContainer.innerHTML = html;
+        }
+      }
     </script>
 
     {% include mermaid.html %}

@@ -8,6 +8,11 @@
     <p>{{ site.description }}</p>
   </div>
 
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="search posts..." />
+    <div id="search-results"></div>
+  </div>
+
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
 
