@@ -92,16 +92,34 @@
             
             if (query.length < 2) {
               results.innerHTML = '';
+              results.classList.remove('show');
               return;
             }
             
             if (!fuse) {
               results.innerHTML = '<div class="search-no-results">search loading...</div>';
+              results.classList.add('show');
               return;
             }
             
             const searchResults = fuse.search(query);
             displayResults(searchResults, results);
+            results.classList.add('show');
+          });
+          
+          // Hide results when clicking outside
+          document.addEventListener('click', function(e) {
+            if (!input.contains(e.target) && !results.contains(e.target)) {
+              results.classList.remove('show');
+            }
+          });
+          
+          // Hide results on escape key
+          input.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+              results.classList.remove('show');
+              input.blur();
+            }
           });
         }
 
