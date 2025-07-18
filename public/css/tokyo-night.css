@@ -1,7 +1,7 @@
 /* Tokyo Night Theme for Jekyll Blog */
 
 :root {
-  /* Tokyo Night Colors */
+  /* Tokyo Night Dark Colors */
   --tn-bg: #1a1b26;
   --tn-bg-dark: #16161e;
   --tn-bg-highlight: #292e42;
@@ -33,10 +33,56 @@
   --tn-red1: #db4b4b;
 }
 
+/* Tokyo Night Light Theme */
+:root[data-theme="light"] {
+  --tn-bg: #d5d6db;
+  --tn-bg-dark: #e1e2e7;
+  --tn-bg-highlight: #c4c8da;
+  --tn-terminal-black: #9699a3;
+  --tn-fg: #343b58;
+  --tn-fg-dark: #4c505e;
+  --tn-fg-gutter: #a8adb7;
+  --tn-dark3: #8990b3;
+  --tn-comment: #9699a3;
+  --tn-dark5: #6172b0;
+  --tn-blue0: #3d59a1;
+  --tn-blue: #34548a;
+  --tn-cyan: #0f4b6e;
+  --tn-blue1: #166775;
+  --tn-blue2: #0e7c86;
+  --tn-blue5: #3e68d7;
+  --tn-blue6: #387068;
+  --tn-blue7: #8c6c3e;
+  --tn-magenta: #5a4a78;
+  --tn-magenta2: #c64343;
+  --tn-purple: #634f30;
+  --tn-orange: #965027;
+  --tn-yellow: #8f5e15;
+  --tn-green: #485e30;
+  --tn-green1: #387068;
+  --tn-green2: #166775;
+  --tn-teal: #166775;
+  --tn-red: #8c4351;
+  --tn-red1: #a91b0d;
+}
+
 /* Base styles */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth theme transition */
+html,
+body,
+.masthead,
+.sidebar,
+.search-result,
+.recent-post-card,
+.main-search-container #main-search-input,
+.main-search-container #main-search-results,
+.sidebar-toggle {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 html {
@@ -629,6 +675,54 @@ a.pagination-item:hover {
           transition: all .3s ease-in-out;
   box-sizing: border-box;
   padding: 0;
+}
+
+/* Theme Toggle */
+.theme-toggle-container {
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--tn-bg-highlight);
+  border: 1px solid var(--tn-fg-gutter);
+  border-radius: 8px;
+  color: var(--tn-fg);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--tn-bg);
+  border-color: var(--tn-blue);
+  transform: scale(1.02);
+}
+
+.theme-icon {
+  font-size: 0.875rem;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.theme-toggle-btn:hover .theme-icon {
+  transform: scale(1.1);
+}
+
+.theme-text {
+  text-transform: lowercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
   margin: 0;
 }
 
@@ -858,6 +952,17 @@ a.sidebar-nav-item:focus {
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
+/* Light mode hamburger menu */
+:root[data-theme="light"] .sidebar-toggle {
+  background-color: rgba(225, 226, 231, 0.9);
+  border-color: rgba(52, 59, 88, 0.2);
+}
+
+:root[data-theme="light"] .sidebar-toggle:hover {
+  background-color: rgba(196, 200, 218, 0.9);
+  border-color: rgba(52, 86, 138, 0.4);
+}
+
 .sidebar-toggle:before {
   display: inline-block;
   width: 1rem;
@@ -905,7 +1010,6 @@ a.sidebar-nav-item:focus {
 /* Ensure sidebar content fits properly */
 .sidebar-item {
   padding: 1rem;
-  border-bottom: 1px solid var(--tn-bg-highlight);
 }
 
 .sidebar-item:last-child {
