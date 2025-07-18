@@ -1,4 +1,10 @@
 Jekyll::Hooks.register :site, :post_write do |site|
+  # Only run during jekyll build, not jekyll serve
+  if site.config['serving'] == true
+    puts "⏭️  Skipping README generation during jekyll serve"
+    next
+  end
+  
   latest_posts = site.posts.docs.reverse.first(5)
 
   readme_content = <<~README
