@@ -12,9 +12,15 @@ layout: default
 <div class="recent-posts-header">
   <h2>Recent Posts</h2>
   <div class="recent-posts-grid">
-    {% for post in site.posts limit:6 %}
-      <a href="{{ post.url }}" class="recent-post-card">
-        <h3 class="recent-post-title">{{ post.title }}</h3>
+    {% assign pinned_posts = site.posts | where: "pinned", true %}
+    {% assign unpinned_posts = site.posts | where_exp: "post", "post.pinned != true" %}
+    {% assign all_posts = pinned_posts | concat: unpinned_posts %}
+
+    {% for post in all_posts limit:6 %}
+      <a href="{{ post.url }}" class="recent-post-card {% if post.pinned %}pinned-post{% endif %}">
+        <h3 class="recent-post-title">
+          {% if post.pinned %}<span class="pin-icon">📌</span> {% endif %}{{ post.title }}
+        </h3>
         <div class="recent-post-meta">
           <time class="recent-post-date">{{ post.date | date: "%b %d, %Y" }}</time>
           {% if post.categories.size > 0 %}

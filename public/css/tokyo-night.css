@@ -489,6 +489,30 @@ tbody tr:nth-child(odd) th {
   text-decoration: underline;
 }
 
+/* Pinned posts styling */
+.recent-post-card.pinned-post {
+  border-color: var(--tn-blue);
+  background: linear-gradient(135deg, var(--tn-bg-dark) 0%, rgba(122, 162, 247, 0.05) 100%);
+  position: relative;
+}
+
+.recent-post-card.pinned-post:hover {
+  border-color: var(--tn-cyan);
+  box-shadow: 0 6px 16px rgba(122, 162, 247, 0.15);
+}
+
+.pin-icon {
+  display: inline-block;
+  margin-right: 0.25rem;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+/* Light mode pinned posts */
+:root[data-theme="light"] .recent-post-card.pinned-post {
+  background: linear-gradient(135deg, var(--tn-bg-dark) 0%, rgba(61, 89, 161, 0.08) 100%);
+}
+
 /* Responsive grid for recent posts */
 @media (min-width: 600px) {
   .recent-posts-grid {
