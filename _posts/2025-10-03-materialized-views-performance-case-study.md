@@ -151,6 +151,162 @@ add_index :user_engagements, :user_id, unique: true
 
 postgres can use the index for lookups. filtering by high-value customers? instant.
 
+## why materialized views are faster: database internals
+
+ran `EXPLAIN ANALYZE` on both approaches to see what postgres is actually doing. the difference is wild.
+
+### raw query execution (7.1 seconds)
+
+```
+Limit  (cost=1666565.79..1666566.04 rows=100)
+  Buffers: shared hit=383450 read=135233 written=1559
+  ->  Sort  (top-N heapsort)
+        ->  GroupAggregate  (rows=100000)
+              ->  Merge Left Join  (rows=50455739)  ← 50 MILLION intermediate rows
+                    ->  Gather Merge (parallel workers: 2)
+                          ->  Incremental Sort
+                                ->  Merge Left Join (users + orders)
+                    ->  Materialize (user_activities, 5M rows)
+```
+
+what's happening:
+- joins 100k users + 1M orders + 5M activities
+- creates **50 million intermediate rows**
+- groups all 100k users
+- sorts by lifetime value
+- reads **135,233 disk blocks** from storage
+- takes top 100
+
+the query is scanning millions of rows, doing complex joins, aggregating, then sorting. postgres is working hard.
+
+### materialized view execution (7.4ms)
+
+```
+Limit  (cost=0.29..8.87 rows=100)
+  Buffers: shared hit=103
+  ->  Index Scan using index_user_engagements_on_user_id
+        Order By: lifetime_value DESC
+```
+
+what's happening:
+- uses index to read rows sorted by lifetime_value
+- reads **103 blocks** (all from cache)
+- stops after 100 rows
+
+no joins. no aggregation. no sorting. just reading pre-computed results.
+
+### buffer analysis: cache hits matter
+
+postgres tracks how often data is read from RAM (cache hits) vs disk:
+
+**base tables getting hammered by raw queries:**
+```
+order_items:      5.2M disk reads, 76% cache hit ❌
+user_activities:  1.3M disk reads, 91% cache hit ❌
+orders:           817K disk reads, 95% cache hit ⚠️
+```
+
+**materialized views:**
+```
+daily_sales:        37 disk reads, 99.88% cache hit ✅
+user_engagements: 9,612 disk reads, 99.71% cache hit ✅
+top_products:     1,168 disk reads, 99.87% cache hit ✅
+```
+
+disk reads are ~1000x slower than RAM. materialized views stay in cache because they're small and accessed frequently.
+
+### query cost comparison
+
+postgres estimates query cost before execution:
+
+| query | raw cost | view cost | ratio |
+|-------|----------|-----------|-------|
+| daily sales | 101,503 | 0.96 | 105,628x |
+| user engagement | 763,318 | 2.86 | 266,860x |
+| top products | 101,996 | 2.54 | 40,156x |
+
+these aren't execution times, they're cost units. includes disk I/O, CPU operations, memory usage. lower is better.
+
+raw query for user engagement costs **763,318 units**. materialized view: **2.86 units**.
+
+### the memory problem: external sorts
+
+raw daily sales query execution plan shows this:
+
+```
+Sort Method: external merge  Disk: 14208kB
+  Worker 0: Disk: 12200kB
+  Worker 1: Disk: 13736kB
+```
+
+sorting 1M rows doesn't fit in `work_mem`, so postgres spills to disk. writes ~40MB of temporary files across 3 parallel workers.
+
+disk I/O during sorting kills performance.
+
+materialized views? no sorting needed. data is already sorted via indexes.
+
+### sequential scans vs index scans
+
+checked how often postgres uses indexes vs scanning entire tables:
+
+**base tables:**
+```
+orders:      5.5M index scans (99.99% index usage) ✅
+users:       6.2M index scans (100% index usage)   ✅
+products:    7.0M index scans (100% index usage)   ✅
+```
+
+every raw query hits these tables with index lookups. millions of operations putting load on the database.
+
+**materialized views:**
+```
+category_revenues: 38,642 sequential scans (0 index scans) ✅
+top_products:       5,988 sequential scans (0 index scans) ✅
+daily_sales:            5 seq scans, 29,578 index scans   ✅
+```
+
+materialized views are small. sequential scans are actually faster than indexes for small tables (no index overhead).
+
+### real I/O impact
+
+ran `rails sql:analysis` to get detailed buffer statistics:
+
+**raw user engagement query:**
+- 135,233 disk blocks read
+- 383,450 cache blocks read
+- 1,559 blocks written (temp data)
+- 9.26 seconds execution
+
+**materialized view:**
+- 0 disk blocks read
+- 103 cache blocks read
+- 0 blocks written
+- 0.0074 seconds execution
+
+the raw query is doing 1300x more I/O. that's why it's slow.
+
+### tools for analysis
+
+added comprehensive SQL analysis tools to the repo:
+
+```bash
+# full analysis report
+rails sql:analysis
+
+# shows: execution plans, buffer usage, cache hit ratios,
+# index usage, query costs, table statistics
+
+# analyze specific query
+rails sql:analyze_query QUERY='SELECT * FROM orders WHERE status = "completed"'
+
+# compare raw vs materialized views
+rails benchmark:compare
+```
+
+the `EXPLAIN ANALYZE` output shows exactly what postgres is doing: parallel workers, sort methods, join types, buffer usage, actual row counts.
+
+check out [PERFORMANCE_ANALYSIS.md](https://github.com/sngeth/scenic-materialized-views-demo/blob/main/PERFORMANCE_ANALYSIS.md) in the repo for the complete breakdown with execution plans and statistics.
+
 ## refreshing the views
 
 views get stale. you need to refresh them.
