@@ -3,7 +3,7 @@ layout: post
 title: tracking your wins with git
 category: "Git"
 date: 2025-09-22
-pinned: true
+pinned: false
 ---
 
 another year down, and i'm trying to remember what i actually built this year. honestly? it's all a blur.
