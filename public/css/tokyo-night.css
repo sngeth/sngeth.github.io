@@ -1251,3 +1251,40 @@ dd {
   background-color: var(--tn-blue7);
   color: var(--tn-fg);
 }
+
+/* Reading List */
+.reading-list h2 {
+  color: var(--tn-magenta);
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--tn-bg-highlight);
+  padding-bottom: 0.25rem;
+}
+
+.reading-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.reading-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--tn-bg-highlight);
+}
+
+.reading-item a {
+  color: var(--tn-blue);
+  text-decoration: none;
+}
+
+.reading-item a:hover {
+  color: var(--tn-cyan);
+  text-decoration: underline;
+}
+
+.reading-meta {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--tn-comment);
+  margin-top: 0.15rem;
+}

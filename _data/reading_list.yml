@@ -1,0 +1,300 @@
+- title: "Quoting Kimi.ai @Kimi_Moonshot"
+  url: "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything"
+  date: 2026-03-20
+  source: Simon Willison
+  category: ai
+- title: OpenCode – The open source AI coding agent
+  url: "https://opencode.ai/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: Our commitment to Windows quality
+  url: "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: "Super Micro Shares Plunge 25% After Co-Founder Charged in $2.5B Smuggling Plot"
+  url: "https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-ai-chip-smuggling-plot/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: Chuck Norris has died
+  url: "https://variety.com/2026/film/news/chuck-norris-dead-walker-texas-ranger-dies-1236694953/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: "I'm OK being left behind, thanks"
+  url: "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: "Bitch: a history"
+  url: "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power?utm_source=rss-feed"
+  date: 2026-03-20
+  source: Aeon
+  category: philosophy
+- title: "Music, the Neural Harmonics of Emotion, and How Love Recomposes the Brain"
+  url: "https://www.themarginalian.org/2026/03/20/general-theory-of-love-music-emotion/"
+  date: 2026-03-20
+  source: The Marginalian
+  category: philosophy
+- title: Where Love Goes When It Goes
+  url: "https://www.themarginalian.org/2026/03/20/traversal-love/"
+  date: 2026-03-20
+  source: The Marginalian
+  category: philosophy
+- title: Thoughts on OpenAI acquiring Astral and uv/ruff/ty
+  url: "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything"
+  date: 2026-03-19
+  source: Simon Willison
+  category: ai
+- title: Running against time
+  url: "https://aeon.co/videos/movement-is-a-life-philosophy-for-an-87-year-old-runner?utm_source=rss-feed"
+  date: 2026-03-19
+  source: Aeon
+  category: philosophy
+- title: Geist in the machine
+  url: "https://aeon.co/essays/if-we-hope-to-build-artificial-souls-where-should-we-start?utm_source=rss-feed"
+  date: 2026-03-19
+  source: Aeon
+  category: philosophy
+- title: "Reweaving the Rainbow: Divinations for Living from the Science of Life"
+  url: "https://www.themarginalian.org/2026/03/19/reweaving-the-rainbow/"
+  date: 2026-03-19
+  source: The Marginalian
+  category: philosophy
+- title: "Do the Next Right Thing: Carl Jung on How to Live and the Origin of His Famous Tenet for Navigating Uncertainty"
+  url: "https://www.themarginalian.org/2026/03/19/carl-jung-next-right-thing/"
+  date: 2026-03-19
+  source: The Marginalian
+  category: philosophy
+- title: What Forgiveness Takes
+  url: "https://www.themarginalian.org/2026/03/19/forgiveness/"
+  date: 2026-03-19
+  source: The Marginalian
+  category: philosophy
+- title: "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally"
+  url: "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything"
+  date: 2026-03-18
+  source: Simon Willison
+  category: ai
+- title: Snowflake Cortex AI Escapes Sandbox and Executes Malware
+  url: "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything"
+  date: 2026-03-18
+  source: Simon Willison
+  category: ai
+- title: Izembek
+  url: "https://aeon.co/videos/could-one-road-forever-change-this-remote-alaskan-refuge?utm_source=rss-feed"
+  date: 2026-03-18
+  source: Aeon
+  category: philosophy
+- title: Quoting Ken Jin
+  url: "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything"
+  date: 2026-03-17
+  source: Simon Willison
+  category: ai
+- title: Abandoning ourselves
+  url: "https://aeon.co/essays/why-do-some-regrets-fade-while-others-persist-and-grow?utm_source=rss-feed"
+  date: 2026-03-17
+  source: Aeon
+  category: philosophy
+- title: Examples for the tcpdump and dig man pages
+  url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
+  date: 2026-03-10
+  source: Julia Evans
+  category: programming
+- title: Notes on Lagrange Interpolating Polynomials
+  url: "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/"
+  date: 2026-02-28
+  source: Eli Bendersky
+  category: programming
+- title: Notes on Linear Algebra for Polynomials
+  url: "https://eli.thegreenplace.net/2026/notes-on-linear-algebra-for-polynomials/"
+  date: 2026-02-25
+  source: Eli Bendersky
+  category: programming
+- title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
+  url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
+  date: 2026-02-18
+  source: The Gradient
+  category: ai
+- title: Notes on clarifying man pages
+  url: "https://jvns.ca/blog/2026/02/18/man-pages/"
+  date: 2026-02-18
+  source: Julia Evans
+  category: programming
+- title: Rewriting pycparser with the help of an LLM
+  url: "https://eli.thegreenplace.net/2026/rewriting-pycparser-with-the-help-of-an-llm/"
+  date: 2026-02-04
+  source: Eli Bendersky
+  category: programming
+- title: Some notes on starting to use Django
+  url: "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
+  date: 2026-01-27
+  source: Julia Evans
+  category: programming
+- title: Compiling Scheme to WebAssembly
+  url: "https://eli.thegreenplace.net/2026/compiling-scheme-to-webassembly/"
+  date: 2026-01-17
+  source: Eli Bendersky
+  category: programming
+- title: A data model for Git (and other docs updates)
+  url: "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
+  date: 2026-01-08
+  source: Julia Evans
+  category: programming
+- title: "Summary of reading: October - December 2025"
+  url: "https://eli.thegreenplace.net/2025/summary-of-reading-october-december-2025/"
+  date: 2025-12-31
+  source: Eli Bendersky
+  category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
+- title: "Can a little alcohol be healthy for lifters?"
+  url: "https://www.strongerbyscience.com/alcohol-lifters/"
+  date: 2025-12-10
+  source: Stronger By Science
+  category: strength
+- title: "Is training on back-to-back days bad?"
+  url: "https://www.strongerbyscience.com/training-back-to-back/"
+  date: 2025-12-03
+  source: Stronger By Science
+  category: strength
+- title: Notes on switching to Helix from vim
+  url: "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+  date: 2025-10-10
+  source: Julia Evans
+  category: programming
+- title: "Best Vegan Creatine (2026): Plant-Based Picks for Every Athlete"
+  url: "https://barbend.com/best-vegan-creatine/"
+  date: 2025-09-05
+  source: BarBend
+  category: strength
+- title: "Fueling the Future Deadlift World Record: Hafthor Björnsson’s 8,000-Calorie Diet"
+  url: "https://barbend.com/news/hafthor-bjornsson-8000-calorie-diet/"
+  date: 2025-09-04
+  source: BarBend
+  category: strength
+- title: 2026 Olympia Qualification Points System Announced
+  url: "https://barbend.com/news/2026-olympia-qualification-points-system/"
+  date: 2025-09-04
+  source: BarBend
+  category: strength
+- title: "Muscle Building: Whey Protein Continues to Perform Better Than Collagen"
+  url: "https://barbend.com/whey-protein-better-than-collagen/"
+  date: 2025-09-04
+  source: BarBend
+  category: strength
+- title: 4x Men’s Physique Olympia Champion Jeremy Buendia’s New Commercial Gym Tour
+  url: "https://barbend.com/news/jeremy-buendia-commercial-gym-stoik/"
+  date: 2025-09-04
+  source: BarBend
+  category: strength
+- title: AGI Is Not Multimodal
+  url: "https://thegradient.pub/agi-is-not-multimodal/"
+  date: 2025-06-04
+  source: The Gradient
+  category: ai
+- title: Why We Think
+  url: "https://lilianweng.github.io/posts/2025-05-01-thinking/"
+  date: 2025-05-01
+  source: Lilian Weng
+  category: ai
+- title: Reward Hacking in Reinforcement Learning
+  url: "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/"
+  date: 2024-11-28
+  source: Lilian Weng
+  category: ai
+- title: "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research"
+  url: "https://thegradient.pub/shape-symmetry-structure/"
+  date: 2024-11-16
+  source: The Gradient
+  category: ai
+- title: Steve Ballmer was an underrated CEO
+  url: "https://danluu.com/ballmer/"
+  date: 2024-10-28
+  source: Dan Luu
+  category: programming
+- title: "What's Missing From LLM Chatbots: A Sense of Purpose"
+  url: "https://thegradient.pub/dialog/"
+  date: 2024-09-09
+  source: The Gradient
+  category: ai
+- title: "How good can you be at Codenames without knowing any words?"
+  url: "https://danluu.com/codenames/"
+  date: 2024-08-11
+  source: Dan Luu
+  category: programming
+- title: We Need Positive Visions for AI Grounded in Wellbeing
+  url: "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
+  date: 2024-08-03
+  source: The Gradient
+  category: ai
+- title: Extrinsic Hallucinations in LLMs
+  url: "https://lilianweng.github.io/posts/2024-07-07-hallucination/"
+  date: 2024-07-07
+  source: Lilian Weng
+  category: ai
+- title: A discussion of discussions on AI bias
+  url: "https://danluu.com/ai-bias/"
+  date: 2024-06-16
+  source: Dan Luu
+  category: programming
+- title: What the FTC got wrong in the Google antitrust investigation
+  url: "https://danluu.com/ftc-google-antitrust/"
+  date: 2024-05-26
+  source: Dan Luu
+  category: programming
+- title: Diffusion Models for Video Generation
+  url: "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/"
+  date: 2024-04-12
+  source: Lilian Weng
+  category: ai
+- title: How web bloat impacts users with slow devices
+  url: "https://danluu.com/slow-device/"
+  date: 2024-03-16
+  source: Dan Luu
+  category: programming
+- title: Thinking about High-Quality Human Data
+  url: "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/"
+  date: 2024-02-05
+  source: Lilian Weng
+  category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy

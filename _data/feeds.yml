@@ -1,0 +1,52 @@
+# AI
+- name: Simon Willison
+  url: https://simonwillison.net/atom/everything/
+  category: ai
+
+- name: Lilian Weng
+  url: https://lilianweng.github.io/index.xml
+  category: ai
+
+- name: The Gradient
+  url: https://thegradient.pub/rss/
+  category: ai
+
+# Programming
+- name: Julia Evans
+  url: https://jvns.ca/atom.xml
+  category: programming
+
+- name: Dan Luu
+  url: https://danluu.com/atom.xml
+  category: programming
+
+- name: Eli Bendersky
+  url: https://eli.thegreenplace.net/feeds/all.atom.xml
+  category: programming
+
+- name: Hacker News Best
+  url: https://hnrss.org/best
+  category: programming
+
+# Philosophy
+- name: Daily Stoic
+  url: https://dailystoic.com/feed/
+  category: philosophy
+
+- name: Aeon
+  url: https://aeon.co/feed.rss
+  category: philosophy
+
+- name: The Marginalian
+  url: https://www.themarginalian.org/feed/
+  category: philosophy
+
+# Powerlifting / Strength Sports
+- name: Stronger By Science
+  url: https://www.strongerbyscience.com/feed/
+  category: strength
+
+- name: BarBend
+  url: https://barbend.com/feed/
+  category: strength
+

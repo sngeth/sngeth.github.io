@@ -15,6 +15,7 @@ baseurl: ""
 
 author:
   name:           'Sid Ngeth'
+  email:          'sngeth@gmail.com'
   url:            https://sngeth.com/
 
 paginate:         5
