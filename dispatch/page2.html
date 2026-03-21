@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sid Dispatch — Saturday, March 21, 2026 · Page 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+  :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--black);font-family:'Lora',Georgia,serif;font-size:15px;line-height:1.65;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px 48px;}
+  .top-bar{display:flex;justify-content:space-between;align-items:center;padding:10px 0 6px;border-bottom:1px solid var(--black);font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--mid);text-transform:uppercase;}
+  .masthead{text-align:center;padding:18px 0 12px;border-bottom:3px double var(--black);border-top:1px solid var(--black);margin-top:8px;}
+  .masthead-name{font-family:'UnifrakturMaguntia',cursive;font-size:clamp(48px,8vw,90px);line-height:1;color:var(--black);}
+  .masthead-tagline{font-family:'Lora',serif;font-style:italic;font-size:13px;color:var(--mid);margin:6px 0 8px;}
+  .masthead-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  .section-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;display:flex;align-items:center;gap:10px;margin:16px 0 10px;}
+  .section-label::after{content:'';flex:1;height:1px;background:var(--dark-red);opacity:.4;}
+  .main-grid{display:grid;grid-template-columns:1fr 1fr 1fr 280px;gap:0;margin-top:4px;}
+  .hn-col{grid-column:1/4;padding-right:28px;border-right:1px solid var(--light);}
+  .x-col{grid-column:4/5;background:var(--sidebar);margin:-4px -24px -48px 0;padding:12px 20px 40px;}
+  .story-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;}
+  .lead{grid-column:1/3;padding-right:24px;border-right:1px solid var(--light);padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .sec{grid-column:3/4;padding-left:22px;padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .bot-row{grid-column:1/4;display:grid;grid-template-columns:1fr 1fr;gap:0;padding-top:18px;}
+  .tert{padding-right:24px;border-right:1px solid var(--light);}
+  .tert:last-child{padding-right:0;padding-left:24px;border-right:none;}
+  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;}
+  .deck{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--mid);line-height:1.4;margin-bottom:10px;border-left:3px solid var(--dark-red);padding-left:12px;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+  .byline::before{content:'';display:inline-block;width:24px;height:1px;background:var(--mid);}
+  .body-text{font-family:'Lora',serif;font-size:14.5px;line-height:1.72;color:#1a1a1a;}
+  .body-text p+p{margin-top:10px;}
+  .drop-cap::first-letter{font-family:'Playfair Display',serif;font-size:68px;font-weight:900;float:left;line-height:.78;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .pull-quote{border-top:2px solid var(--black);border-bottom:1px solid var(--black);margin:14px 0;padding:10px 0;font-family:'Playfair Display',serif;font-style:italic;font-size:16px;line-height:1.4;color:var(--dark-red);}
+  .tag{display:inline-block;border:1px solid currentColor;padding:1px 5px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--dark-red);margin-bottom:6px;}
+  .sidebar-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;border-bottom:1px solid var(--dark-red);padding-bottom:6px;margin-bottom:16px;}
+  .x-item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--light);}
+  .x-item:last-child{border-bottom:none;}
+  .x-handle{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dark-red);font-weight:500;letter-spacing:.05em;margin-bottom:4px;}
+  .x-handle::before{content:'𝕏 ';font-size:11px;}
+  .x-headline{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;line-height:1.25;margin-bottom:6px;}
+  .x-body{font-family:'Lora',serif;font-size:13px;line-height:1.65;color:#2a2a2a;}
+  .page-nav{display:flex;justify-content:center;gap:24px;margin:32px 0 0;padding:16px 0;border-top:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .page-nav a{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dark-red);text-decoration:none;padding:6px 14px;border:1px solid var(--dark-red);}
+  .page-nav a:hover{background:var(--dark-red);color:#fff;}
+  .page-nav .current{background:var(--dark-red);color:#fff;}
+  footer{border-top:3px double var(--black);margin-top:32px;padding-top:10px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  .masthead{animation:fadeIn .6s ease both;}
+  .lead{animation:fadeIn .7s .1s ease both;}
+  .sec{animation:fadeIn .7s .2s ease both;}
+  .bot-row{animation:fadeIn .7s .3s ease both;}
+  .x-col{animation:fadeIn .7s .4s ease both;}
+  @media(max-width:900px){
+    .main-grid{grid-template-columns:1fr;}
+    .hn-col{grid-column:1;padding-right:0;border-right:none;}
+    .x-col{grid-column:1;margin:16px 0 0;padding:12px 0;}
+    .story-grid{grid-template-columns:1fr;}
+    .lead,.sec{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
+    .bot-row{grid-template-columns:1fr;}
+    .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
+    .tert:last-child{padding-left:0;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  
+  <div class="top-bar">
+    <span>Vol. 191 &nbsp;·&nbsp; No. 362</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 2 of 2 &nbsp;·&nbsp; Live Sources</span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Sid Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Saturday, March 21, 2026</span>
+      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
+    </div>
+  </div>
+  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div style="display:grid;grid-template-columns:1fr 1fr;">
+        
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Engineering · Performance</div>
+      <h2 class="headline" style="font-size:22px">TypeScript Outpaces Rust in Unexpected Parser Showdown</h2>
+      <div class="deck">*A performance paradox challenges conventional wisdom about compiled languages versus JavaScript runtimes*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47461094" target="_blank" style="color:inherit;text-decoration:none;">▲ 239 pts &nbsp;·&nbsp; 148 comments</a></div>
+      <div class="body-text"><p>In a counterintuitive finding that has set tech discourse ablaze, OpenUI's engineering team discovered that rewriting their WebAssembly parser from Rust into TypeScript actually improved execution speed—a result that defies the traditional performance hierarchy. The rewrite, which would seem to sacrifice the low-level efficiency gains that made Rust appealing in the first place, instead revealed fundamental inefficiencies in their original architecture that the higher-level abstraction forced them to confront and eliminate.</p><p>The performance gains illuminate a deeper truth about modern JavaScript engines and the sometimes-overlooked costs of premature optimization. By moving away from Rust's strict type system and memory model, the team was forced to reconsider their algorithmic approach entirely, discovering bottlenecks that had been masked by the language's safety guarantees. The parser now benefits from V8's aggressive JIT compilation and decades of JavaScript runtime optimization, suggesting that language choice matters less than architectural clarity.</p><p>The findings have reignited debate in the developer community about when WebAssembly truly buys you performance versus when it introduces unnecessary complexity. With 148 comments reflecting genuine disagreement about methodology and real-world applicability, the story serves as a reminder that the fastest solution often isn't the one written in the language marketed for speed.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">History · Open Source</div>
+      <h2 class="headline" style="font-size:22px">Archaeologists of Code Resurrect VisiCalc, the Spreadsheet That Changed Everything</h2>
+      <div class="deck">*A meticulous reverse-engineering project brings the world's first killer app back to computational life*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47410871" target="_blank" style="color:inherit;text-decoration:none;">▲ 214 pts &nbsp;·&nbsp; 79 comments</a></div>
+      <div class="body-text"><p>Three decades after VisiCalc revolutionized personal computing by making spreadsheets a mainstream tool, software archaeologist Zserge has accomplished something remarkable: a faithful reconstruction of the original 1979 application that cost Apple its early dominance and changed how we think about computation. Rather than a mere emulation, this is a thoughtful reimplementation that captures the essence of the program while making its logic transparent to modern developers.</p><p>The reconstruction effort reveals how constrained the original developers were by the Apple II's 64KB memory ceiling, yet how elegant their solutions became under pressure. VisiCalc's dependency graph system, automatic recalculation logic, and cell referencing scheme—features we now take for granted—emerge from the project as surprisingly sophisticated design decisions. The work demonstrates that constraints breed ingenuity; limitations that would cripple modern development actually forced VisiCalc's creators to think about problems with crystalline clarity.</p><p>For historians and engineers alike, the project functions as both preservation and pedagogy. It shows how a simple concept—a grid of cells that talk to each other—could escape the laboratory and become the productivity tool that kept personal computers from being expensive toys. The moderate engagement (79 comments) suggests this appeals to a specific audience of computing historians rather than drawing mainstream developer attention.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Infrastructure · Energy</div>
+      <h2 class="headline" style="font-size:22px">Spain's April Blackout Wasn't An Accident—It Was a Warning</h2>
+      <div class="deck">*Entso-E's unflinching report on the Iberian grid collapse exposes dangerous fragilities in Europe's energy infrastructure*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47452955" target="_blank" style="color:inherit;text-decoration:none;">▲ 205 pts &nbsp;·&nbsp; 99 comments</a></div>
+      <div class="body-text"><p>The European Network of Transmission System Operators released its final report on the April 28, 2025 blackout that plunged the Iberian Peninsula into darkness, and the findings paint a picture of cascading failures rooted not in single points of failure but in systemic vulnerabilities that persist across continental grids. The incident, which affected millions and reverberated through industrial and financial systems, wasn't a black swan but a gray swan—precisely the kind of stress-test failure that grid operators had worried about but failed to adequately prepare for.</p><p>The report traces a sequence that reads like a tragedy in acts: a renewable generation shortfall coincided with a thermal plant outage, overwhelming backup mechanisms designed for gentler load conditions. The automated systems that should have isolated failures and prevented cascade instead transmitted instability faster, their algorithms struggling with the speed and scale of the power imbalance. Most damning is Entso-E's finding that communication failures between regional operators created windows where no one understood what was happening across the system boundary.</p><p>Europe's accelerating transition to renewable energy—while essential for decarbonization—has created new failure modes that legacy infrastructure cannot handle. The 99 comments reflect genuine concern among energy professionals and policymakers about whether current investments in grid resilience match the increased complexity of modern power systems. The blackout becomes a forcing function for infrastructure investment, but only if the political will exists to act before the next incident.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">AI · Research</div>
+      <h2 class="headline" style="font-size:22px">Attention Residuals: A Structural Tweak Reshaping Transformer Architecture</h2>
+      <div class="deck">*MoonshotAI's technical contribution suggests fundamental improvements to how neural networks learn*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47458595" target="_blank" style="color:inherit;text-decoration:none;">▲ 192 pts &nbsp;·&nbsp; 25 comments</a></div>
+      <div class="body-text"><p>Buried in a GitHub repository with modest fanfare, MoonshotAI's work on attention residuals represents the kind of architectural innovation that compounds across thousands of downstream projects. The concept itself is elegant: by incorporating residual connections directly into the attention mechanism rather than treating them as a separate layer, the model achieves more efficient gradient flow and faster convergence during training. It's a small tweak with architectural significance.</p><p>The relatively light engagement (25 comments) suggests this work appeals primarily to practitioners actively building transformer models and research engineers refining existing architectures. The lack of flashy benchmarks or claims means it'll likely spread through quiet adoption rather than hype cycles—the kind of innovation that becomes so standard people forget it was ever novel. What matters is that the core idea is sound enough to change how thousands of models are built.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">AI · LLMs</div>
+      <h2 class="headline" style="font-size:22px">Mamba-3 Enters the Arena: Does State-Space Modeling Finally Challenge Transformers?</h2>
+      <div class="deck">*Together AI claims efficiency breakthroughs with a new generation of the Mamba architecture*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47419391" target="_blank" style="color:inherit;text-decoration:none;">▲ 172 pts &nbsp;·&nbsp; 25 comments</a></div>
+      <div class="body-text"><p>The third iteration of Mamba, a state-space model-based alternative to transformer architecture, arrives with promises that have become familiar in the AI community: better efficiency, competitive performance, and a fundamentally different approach to sequence modeling. Together AI's announcement of Mamba-3 suggests the architecture has matured beyond proof-of-concept into something production-ready, at least for certain applications where transformers' quadratic attention complexity becomes prohibitive.</p><p>State-space models operate on entirely different principles than attention mechanisms, using recurrent dynamics to process sequences without explicitly computing pairwise token relationships. If validated at scale, this could unlock models that scale more gracefully to extremely long contexts and require less computation during inference. Yet the architecture remains controversial within the research community, with questions about whether it truly matches transformer performance across diverse tasks or merely excels in narrow domains.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Design · UX</div>
+      <h2 class="headline" style="font-size:22px">A Design Catastrophe From 2017 Teaches Us We're Still Bad at Volume Controls</h2>
+      <div class="deck">*This deconstructed UI disaster proves that accessibility and basic usability remain afterthoughts in consumer electronics*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47423762" target="_blank" style="color:inherit;text-decoration:none;">▲ 162 pts &nbsp;·&nbsp; 80 comments</a></div>
+      <div class="body-text"><p>UX Design Medium's dissection of &quot;the worst volume control UI in the world&quot; from 2017 has resurfaced with fresh resonance, reminding us that poor design doesn't fade—it compounds. The article documents a volume control so unintuitive that it violates basic principles of affordance and feedback, creating a user experience where the intended function becomes a puzzle to be solved rather than an action to be performed. The specifics matter less than the broader indictment: engineers and designers shipped this knowing better.</p><p>What makes the piece resonate across 80 comments is its diagnosis of root cause. This isn't a case of ambitious design goals that didn't work out; it's a case of no one—or worse, everyone—having control of user experience decisions. Volume controls are ubiquitous precisely because they're simple; when even simplicity fails this badly, it indicates organizational dysfunction rather than design difficulty. The persistence of similar failures across consumer devices suggests we treat UX not as a core engineering constraint but as decoration applied after decisions are made.</p></div>
+    </div>
+      </div>
+    </div>
+    <div class="x-col">
+      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
+      <div class="x-body" style="color:var(--mid);font-style:italic;">No feed data today.</div>
+    </div>
+  </div>
+  
+    <div class="page-nav">
+      <a href="index.html">← Page 1</a>
+      <a class="current" href="page2.html">Page 2</a>
+    </div>
+  <footer>
+    <span>The Sid Dispatch &nbsp;·&nbsp; Saturday, March 21, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed</span>
+    <span>Generated 09:23 AM EDT</span>
+  </footer>
+</div>
+</body>
+</html>
