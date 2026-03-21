@@ -1,15 +1,30 @@
+- title: "When Your Parents Are Dying: Some of the Simplest, Most Difficult and Redemptive Life-Advice You’ll Ever Receive"
+  url: "https://www.themarginalian.org/2026/03/20/when-your-parents-are-dying-mary-gaitskill/"
+  date: 2026-03-21
+  source: The Marginalian
+  category: philosophy
+- title: "Turbo Pascal 3.02A, deconstructed"
+  url: "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything"
+  date: 2026-03-20
+  source: Simon Willison
+  category: ai
 - title: "Quoting Kimi.ai @Kimi_Moonshot"
   url: "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything"
   date: 2026-03-20
   source: Simon Willison
   category: ai
-- title: OpenCode – The open source AI coding agent
+- title: OpenCode – Open source AI coding agent
   url: "https://opencode.ai/"
   date: 2026-03-20
   source: Hacker News Best
   category: programming
 - title: Our commitment to Windows quality
   url: "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/"
+  date: 2026-03-20
+  source: Hacker News Best
+  category: programming
+- title: "Oregon school cell phone ban: 'Engaged students, joyful teachers'"
+  url: "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/"
   date: 2026-03-20
   source: Hacker News Best
   category: programming
@@ -20,11 +35,6 @@
   category: programming
 - title: Chuck Norris has died
   url: "https://variety.com/2026/film/news/chuck-norris-dead-walker-texas-ranger-dies-1236694953/"
-  date: 2026-03-20
-  source: Hacker News Best
-  category: programming
-- title: "I'm OK being left behind, thanks"
-  url: "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/"
   date: 2026-03-20
   source: Hacker News Best
   category: programming
@@ -68,11 +78,6 @@
   date: 2026-03-19
   source: The Marginalian
   category: philosophy
-- title: What Forgiveness Takes
-  url: "https://www.themarginalian.org/2026/03/19/forgiveness/"
-  date: 2026-03-19
-  source: The Marginalian
-  category: philosophy
 - title: "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally"
   url: "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything"
   date: 2026-03-18
@@ -88,11 +93,6 @@
   date: 2026-03-18
   source: Aeon
   category: philosophy
-- title: Quoting Ken Jin
-  url: "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything"
-  date: 2026-03-17
-  source: Simon Willison
-  category: ai
 - title: Abandoning ourselves
   url: "https://aeon.co/essays/why-do-some-regrets-fade-while-others-persist-and-grow?utm_source=rss-feed"
   date: 2026-03-17
