@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sid Dispatch — Saturday, March 21, 2026 · Page 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+  :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--black);font-family:'Lora',Georgia,serif;font-size:15px;line-height:1.65;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px 48px;}
+  .top-bar{display:flex;justify-content:space-between;align-items:center;padding:10px 0 6px;border-bottom:1px solid var(--black);font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--mid);text-transform:uppercase;}
+  .masthead{text-align:center;padding:18px 0 12px;border-bottom:3px double var(--black);border-top:1px solid var(--black);margin-top:8px;}
+  .masthead-name{font-family:'UnifrakturMaguntia',cursive;font-size:clamp(48px,8vw,90px);line-height:1;color:var(--black);}
+  .masthead-tagline{font-family:'Lora',serif;font-style:italic;font-size:13px;color:var(--mid);margin:6px 0 8px;}
+  .masthead-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  .section-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;display:flex;align-items:center;gap:10px;margin:16px 0 10px;}
+  .section-label::after{content:'';flex:1;height:1px;background:var(--dark-red);opacity:.4;}
+  .main-grid{display:grid;grid-template-columns:1fr 1fr 1fr 280px;gap:0;margin-top:4px;}
+  .hn-col{grid-column:1/4;padding-right:28px;border-right:1px solid var(--light);}
+  .x-col{grid-column:4/5;background:var(--sidebar);margin:-4px -24px -48px 0;padding:12px 20px 40px;}
+  .story-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;}
+  .lead{grid-column:1/3;padding-right:24px;border-right:1px solid var(--light);padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .sec{grid-column:3/4;padding-left:22px;padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .bot-row{grid-column:1/4;display:grid;grid-template-columns:1fr 1fr;gap:0;padding-top:18px;}
+  .tert{padding-right:24px;border-right:1px solid var(--light);}
+  .tert:last-child{padding-right:0;padding-left:24px;border-right:none;}
+  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;}
+  .deck{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--mid);line-height:1.4;margin-bottom:10px;border-left:3px solid var(--dark-red);padding-left:12px;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+  .byline::before{content:'';display:inline-block;width:24px;height:1px;background:var(--mid);}
+  .body-text{font-family:'Lora',serif;font-size:14.5px;line-height:1.72;color:#1a1a1a;}
+  .body-text p+p{margin-top:10px;}
+  .drop-cap::first-letter{font-family:'Playfair Display',serif;font-size:68px;font-weight:900;float:left;line-height:.78;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .pull-quote{border-top:2px solid var(--black);border-bottom:1px solid var(--black);margin:14px 0;padding:10px 0;font-family:'Playfair Display',serif;font-style:italic;font-size:16px;line-height:1.4;color:var(--dark-red);}
+  .tag{display:inline-block;border:1px solid currentColor;padding:1px 5px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--dark-red);margin-bottom:6px;}
+  .sidebar-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;border-bottom:1px solid var(--dark-red);padding-bottom:6px;margin-bottom:16px;}
+  .x-item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--light);}
+  .x-item:last-child{border-bottom:none;}
+  .x-handle{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dark-red);font-weight:500;letter-spacing:.05em;margin-bottom:4px;}
+  .x-handle::before{content:'𝕏 ';font-size:11px;}
+  .x-headline{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;line-height:1.25;margin-bottom:6px;}
+  .x-body{font-family:'Lora',serif;font-size:13px;line-height:1.65;color:#2a2a2a;}
+  .page-nav{display:flex;justify-content:center;gap:24px;margin:32px 0 0;padding:16px 0;border-top:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .page-nav a{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dark-red);text-decoration:none;padding:6px 14px;border:1px solid var(--dark-red);}
+  .page-nav a:hover{background:var(--dark-red);color:#fff;}
+  .page-nav .current{background:var(--dark-red);color:#fff;}
+  footer{border-top:3px double var(--black);margin-top:32px;padding-top:10px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  .masthead{animation:fadeIn .6s ease both;}
+  .lead{animation:fadeIn .7s .1s ease both;}
+  .sec{animation:fadeIn .7s .2s ease both;}
+  .bot-row{animation:fadeIn .7s .3s ease both;}
+  .x-col{animation:fadeIn .7s .4s ease both;}
+  @media(max-width:900px){
+    .main-grid{grid-template-columns:1fr;}
+    .hn-col{grid-column:1;padding-right:0;border-right:none;}
+    .x-col{grid-column:1;margin:16px 0 0;padding:12px 0;}
+    .story-grid{grid-template-columns:1fr;}
+    .lead,.sec{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
+    .bot-row{grid-template-columns:1fr;}
+    .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
+    .tert:last-child{padding-left:0;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  
+  <div class="top-bar">
+    <span>Vol. 192 &nbsp;·&nbsp; No. 359</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 4 of 7 &nbsp;·&nbsp; Live Sources</span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Sid Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Saturday, March 21, 2026</span>
+      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
+    </div>
+  </div>
+  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div style="display:grid;grid-template-columns:1fr 1fr;">
+        
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Open Source · Photography</div>
+      <h2 class="headline" style="font-size:22px">The RAW Processing Rebellion: How One Developer Cloned Fujifilm's Professional Studio in the Browser</h2>
+      <div class="deck">*A scrappy GitHub project challenges the gatekeeping of premium photo software*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47435081" target="_blank" style="color:inherit;text-decoration:none;">▲ 144 pts &nbsp;·&nbsp; 51 comments</a></div>
+      <div class="body-text"><p>In the shadowy corners of photographer forums, a quiet insurgency is brewing. A developer known as eggricesoy has published filmkit, a faithful webapp recreation of Fujifilm X RAW STUDIO—the $200+ proprietary software that Fujifilm reserves for its digital camera users. The 51 comments threading through the Hacker News discussion reveal the hunger: professionals and enthusiasts scrambling to test-drive a tool that gives them raw processing power without vendor lock-in.</p><p>What makes this particularly potent isn't just the audacity of cloning premium software. It's the technical sophistication required. RAW processing demands real-time manipulation of millions of color values, spatial filtering, and tone mapping—tasks that historically required desktop muscle. Yet here it runs in a browser, leveraging modern web standards to strip away the artificial scarcity that justifies the original's price tag.</p><p>Fujifilm has built its brand on the aesthetics of analog film, a seductive mythology that commands premium pricing. The filmkit project exposes a harder truth: that once the algorithms are reverse-engineered and the math is laid bare, the emperor's robe becomes just code. Whether this becomes a celebrated example of open-source democratization or a cease-and-desist waiting to happen remains to be seen.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Manufacturing · 3D Printing</div>
+      <h2 class="headline" style="font-size:22px">The Invisalign Hegemony: How One Orthodontics Brand Became the World's Largest 3D Printing Empire</h2>
+      <div class="deck">*Align Technology quietly captured an entire manufacturing paradigm*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47435028" target="_blank" style="color:inherit;text-decoration:none;">▲ 137 pts &nbsp;·&nbsp; 99 comments</a></div>
+      <div class="body-text"><p>Invisalign didn't invent 3D printing. But the company has perfected something far more valuable: the ruthless industrialization of it. While academic papers celebrate desktop printers and hobbyists tinker with resin tanks, Align Technology has built a shadow manufacturing infrastructure so vast that it makes industry titans look quaint. The 99 comments on Wired's investigation hint at the cognitive dissonance—a consumer health brand has become, by volume, the world's largest user of additive manufacturing technology.</p><p>The numbers are staggering. Every custom aligner tray represents a unique 3D model, printed at scale with tolerances that would make aerospace engineers wince. Invisalign ships millions of these per year across dozens of factories, each one a small fleet of production 3D printers humming 24/7. This isn't boutique manufacturing; this is an invisible, normalized assembly line that most people experience without ever realizing they're holding a 3D-printed medical device.</p><p>What Align cracked, where others fumbled, was the integration of software, materials science, and distribution logistics into a closed loop. The orthodontia market created captive demand; the company exploited that to perfect manufacturing at scale. It's a blueprint other industries are watching intently—and a reminder that the biggest shifts in manufacturing don't announce themselves with press releases; they hide in plain sight.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Web Development · Video Technology</div>
+      <h2 class="headline" style="font-size:22px">The Browser's Moment: Professional Video Editing Moves Into the Web With GPU Power</h2>
+      <div class="deck">*WebGPU and WebAssembly finally deliver the performance that made desktop editing untouchable*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47471601" target="_blank" style="color:inherit;text-decoration:none;">▲ 131 pts &nbsp;·&nbsp; 41 comments</a></div>
+      <div class="body-text"><p>For two decades, video editing has been the unreachable citadel of the web—a domain where browser makers conceded defeat and sent users to Final Cut Pro or Adobe Premiere. The assumption was physical law: video processing demands GPU access, frame-accurate timing, and memory bandwidth that browsers couldn't touch. The launch of tooscut.app, a fully functional video editor running entirely in-browser, shatters that assumption with the kind of quiet finality that makes industry orthodoxies crumble.</p><p>The technical feat here is real. WebGPU—the modern GPU API standard that's finally shipping in production browsers—provides direct compute access that previous generations of web standards blocked. Pair that with WebAssembly's ability to run compiled C++ libraries at near-native speeds, and suddenly the traditional constraints evaporate. A video editor that once required 50GB of installation space, expensive licensing, and hardware prerequisites now loads in a tab.</p><p>The 41 comments suggest early adopters testing limits, and what they're finding is revealing: actual usability for actual work. That changes the conversation from &quot;neat demo&quot; to &quot;why do I need Premiere anymore?&quot; The web's capture of productivity software has been gradual, then suddenly it's total. Video editing is the next domino to fall.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">AI · Labor Automation</div>
+      <h2 class="headline" style="font-size:22px">Claude Code Meets Main Street: Why an Industrial Piping Contractor Went Viral Using AI Coding</h2>
+      <div class="deck">*One tradesman's accidental discovery suggests AI is already reshaping blue-collar work*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47431288" target="_blank" style="color:inherit;text-decoration:none;">▲ 124 pts &nbsp;·&nbsp; 86 comments</a></div>
+      <div class="body-text"><p>Todd Saunders is not a software engineer. He runs an industrial piping contracting business—the kind of outfit that takes pride in precision, experience, and the kind of muscle memory that comes from decades on job sites. When he posted a video demonstrating Claude Code solving piping-design problems in real time, the tech world couldn't resist the narrative collision: AI hasn't just reached white-collar work, it's landing on the job site itself.</p><p>The 86 comments reveal a deeper undercurrent than mere novelty. Trade professionals are quietly discovering that code-generating AI isn't a threat to their expertise—it's a force multiplier. Saunders wasn't replaced; he was augmented. A tool that would have taken an engineer three hours to script took Claude three minutes, freeing Saunders to focus on the high-judgment work that automation can't touch: client relations, site logistics, safety oversight. The video went viral because it represents the first widely visible glimpse of AI in unglamorous, essential work.</p><p>This is the AI story nobody talks about in the Valley—not the existential risk, not the data centers, but the 52-year-old contractor who can now automate his own technical drudgework. As Copilot and Claude proliferate through the working world, this is what democratization actually looks like: not replacement, but the removal of false scarcity.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">AI · Language Models</div>
+      <h2 class="headline" style="font-size:22px">Meta's Omnilingual Gambit: Machine Translation for 1,600 Languages Is Both Triumph and Reckoning</h2>
+      <div class="deck">*Building AI that speaks the world's full linguistic diversity exposes uncomfortable questions about language extinction and power*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47421749" target="_blank" style="color:inherit;text-decoration:none;">▲ 115 pts &nbsp;·&nbsp; 32 comments</a></div>
+      <div class="body-text"><p>Meta researchers have achieved something algorithmically audacious: a machine translation system that operates across 1,600 languages, including dozens of dialects with fewer than 100,000 speakers. To accomplish this, they've had to confront a problem that transcends engineering: how do you train a neural network on languages that barely exist in digital form? The 32 comments suggest even the technical community is wrestling with what this achievement means beyond the lines of code.</p><p>The technical architecture is elegant. Meta's approach uses a massively multilingual training strategy with clever transfer learning—allowing the model to learn linguistic patterns from high-resource languages and apply them to their low-resource cousins. But elegance masks a deeper unease. Including endangered languages in Meta's system means encoding them into a corporate model that Meta controls, archives, and monetizes. It's preservation through capture, and the distinction matters.</p><p>This is the paradox haunting modern AI: Meta has done the linguistic community a genuine service—creating tools that can keep minority languages alive in digital spaces. Simultaneously, it's concentrating linguistic power in a single for-profit entity. The 1,600 languages now live inside Meta's infrastructure, subject to the company's terms of service, business decisions, and data practices. Whether that's salvation or colonization depends entirely on what Meta does next.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Electric Vehicles · Infrastructure</div>
+      <h2 class="headline" style="font-size:22px">BYD's EV Charging Breakthrough: The Engineering Leap That Might Not Matter Anyway</h2>
+      <div class="deck">*Lightning-fast charging technology meets an uncomfortable reality about what drivers actually want*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47466294" target="_blank" style="color:inherit;text-decoration:none;">▲ 115 pts &nbsp;·&nbsp; 170 comments</a></div>
+      <div class="body-text"><p>BYD engineers have done something genuinely impressive: they've pushed EV charging speed to the threshold of parity with gasoline pumps. The company's latest chargers can deliver 100-mile-range charges in under five minutes—a feat that required breakthroughs in power delivery, thermal management, and battery chemistry. The 170 comments on Wired's story, however, tell a revealing tale: the technical victory may have arrived too late to matter.</p><p>The uncomfortable truth buried in the engineering specs is this: driver behavior has already shifted. The framing of EV charging as a &quot;problem that needs solving like gas pumps&quot; assumes the goal is total feature parity. But interviews with early EV adopters reveal a different reality emerging. People with home chargers plug in overnight. Drivers on road trips have already reoriented their expectations around a 30-minute charging break as reasonable—time to grab coffee, use the bathroom, check emails. The psychological contract has already changed.</p><p>Where BYD's technology might matter most is oddly unsexy: reducing grid stress during peak charging hours, extending battery lifespan through gentler thermal profiles, and making urban DC fast-charging viable. But the &quot;will fast charging kill EV adoption&quot; anxiety that drove the engineering effort? That concern seems to have already resolved itself through sheer market adoption. BYD solved for a problem the market had already moved past, a reminder that sometimes the most impressive engineering arrives as a monument to yesterday's bottleneck.</p></div>
+    </div>
+      </div>
+      
+    </div>
+    <div class="x-col">
+      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
+      <div class="x-body" style="color:var(--mid);font-style:italic;">No feed data today.</div>
+    </div>
+  </div>
+  <div class="page-nav"><a  href="index.html">Page 1</a>
+      <a  href="page2.html">Page 2</a>
+      <a  href="page3.html">Page 3</a>
+      <a class="current" href="page4.html">Page 4</a>
+      <a  href="page5.html">Page 5</a>
+      <a  href="page6.html">Page 6</a>
+      <a  href="page7.html">Page 7</a></div>
+  <footer>
+    <span>The Sid Dispatch &nbsp;·&nbsp; Saturday, March 21, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed</span>
+    <span>Generated 09:48 PM EDT</span>
+  </footer>
+</div>
+</body>
+</html>

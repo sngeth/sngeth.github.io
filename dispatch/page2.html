@@ -72,9 +72,9 @@
 <div class="wrap">
   
   <div class="top-bar">
-    <span>Vol. 191 &nbsp;·&nbsp; No. 345</span>
+    <span>Vol. 192 &nbsp;·&nbsp; No. 359</span>
     <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 2 of 2 &nbsp;·&nbsp; Live Sources</span>
+    <span>Page 2 of 7 &nbsp;·&nbsp; Live Sources</span>
   </div>
   <div class="masthead">
     <div class="masthead-name">The Sid Dispatch</div>
@@ -91,79 +91,86 @@
       <div style="display:grid;grid-template-columns:1fr 1fr;">
         
     <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Open Source · Developer Tools</div>
-      <h2 class="headline" style="font-size:22px">Ghostling Emerges as Terminal Emulator That Dares to Challenge the Incumbents</h2>
-      <div class="deck">*A sleek new contender enters a crowded arena, armed with modern architecture and unapologetic ambition*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47461378" target="_blank" style="color:inherit;text-decoration:none;">▲ 245 pts &nbsp;·&nbsp; 46 comments</a></div>
-      <div class="body-text"><p>The terminal emulator market has grown complacent, dominated for years by aging stalwarts that prioritize backwards compatibility over innovation. Enter Ghostling, a fresh GitHub project that's already commanding serious attention from the developer community—245 points and climbing on Hacker News, with 46 engaged commenters picking apart its design decisions.</p><p>Ghostling positions itself as a modern rethinking of what a terminal should be in 2025, likely leveraging contemporary rendering stacks and cleaner code architecture than the aging C codebases it competes against. The project's rapid traction suggests developers are hungry for alternatives that don't sacrifice speed or elegance for feature bloat.</p><p>What's particularly notable is the quality of discussion in the comments: developers aren't reflexively defending their current tools, but seriously interrogating whether Ghostling solves real pain points—performance, GPU acceleration, theme customization. The conversation hints at a market genuinely ready for disruption.</p></div>
+      <div class="tag">Hardware · AI Infrastructure</div>
+      <h2 class="headline" style="font-size:22px">Tinybox Brings 120 Billion Parameters Home: The Offline AI Device That Changes Everything</h2>
+      <div class="deck">*A single box that runs massive language models without cloud dependency—the democratization of AI compute arrives*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47470773" target="_blank" style="color:inherit;text-decoration:none;">▲ 316 pts &nbsp;·&nbsp; 182 comments</a></div>
+      <div class="body-text"><p>The promise of AI has always been shadowed by a uncomfortable truth: you need Silicon Valley's servers to play. Not anymore. Tinygrad's Tinybox—a desktop-scale device packing 120 billion parameters—shatters that dependency by delivering industrial-grade language model inference on local hardware, no internet required, no API keys, no data exfiltration. For researchers, enterprises, and privacy-conscious developers, it's a watershed moment.</p><p>The device arrives as the latest volley in a three-year arms race to break the cloud-compute stranglehold. While Nvidia's dominance in GPU clustering remains unchallenged for training, the inference problem has been cracked open. Tinybox suggests that the future of AI won't be a centralized service rendered from Redmond or Mountain View—it'll be distributed, physical, and portable. At 120B parameters, you're operating in GPT-3 territory, capable of sophisticated reasoning without stuttering across network latency.</p><p>What's remarkable isn't just the engineering—it's the economics. Running a 120B model locally eliminates per-token costs that have turned generative AI into a subscription tax. For hobbyists and small teams, this is liberation. For large enterprises with compliance requirements, it's a non-negotiable win.</p></div>
     </div>
     <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Engineering · Performance</div>
-      <h2 class="headline" style="font-size:22px">The Counterintuitive Truth: Rewriting Rust WASM in TypeScript Made It Faster</h2>
-      <div class="deck">*OpenUI's parser experiment exposes the myth that compiled languages always win*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47461094" target="_blank" style="color:inherit;text-decoration:none;">▲ 242 pts &nbsp;·&nbsp; 148 comments</a></div>
-      <div class="body-text"><p>In a move that would seem algorithmic heresy to many, OpenUI's team took a high-performance WASM parser written in Rust—a language specifically chosen for speed and safety—and rewrote it in TypeScript. The result: measurable speed improvements that have sparked 148 intensely technical comments dissecting where the performance gains actually came from.</p><p>This isn't about TypeScript being intrinsically faster than Rust; rather, it's a meditation on the hidden costs of abstraction layers, WASM compilation overhead, and the specific optimizations modern JavaScript engines apply to well-written code. The rewrite likely benefited from decades of V8 tuning, more aggressive JIT compilation for TypeScript patterns, and the elimination of serialization boundaries between the parser and calling code.</p><p>The true lesson here is brutally pragmatic: language choice matters less than understanding your runtime's actual bottlenecks. OpenUI's experiment challenges the assumption that raw performance lives in the compiler, not the execution environment. For teams chasing single-digit percentile improvements, the findings could reshape how they approach architecture.</p></div>
+      <div class="tag">Security · Linux</div>
+      <h2 class="headline" style="font-size:22px">Ubuntu Ditches Four Decades of Blind Faith: sudo Finally Asks for Your Password</h2>
+      <div class="deck">*After 46 years of silent authentication, Linux's most iconic privilege-escalation command breaks a hallowed tradition*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47464134" target="_blank" style="color:inherit;text-decoration:none;">▲ 314 pts &nbsp;·&nbsp; 317 comments</a></div>
+      <div class="body-text"><p>Since 1980, sudo has been the quirk that made Unix admins smile: escalate to root without seeing a single keystroke feedback. Type your password into the void, trust that the bits are flowing, and move on. It became muscle memory for millions. Ubuntu 26.04 says enough. The new release finally divorces sudo from that silent-password paradigm, joining the visible-feedback camp that every other secure system abandoned years ago.</p><p>The change is deceptively profound. Keystroke feedback on password entry isn't cosmetic—it's a fundamental security principle. When you see asterisks bloom across your screen, you know your keystrokes are registering. You catch typos before they lock you out. You verify you're typing in the right field, not accidentally into a compromised prompt injection. The silent approach, charming in 1980, became a footgun in 2026.</p><p>Yet this decision unleashed an unexpected firestorm in the comments. Forty-six years of muscle memory doesn't vanish quietly. Greybeards howled about disruption; security researchers cited research suggesting visible feedback trains users toward better password hygiene. The philosophical divide is real: Is tradition worth preserving when it conflicts with usability? Ubuntu's answer is no.</p></div>
     </div>
     <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Computing History · Retrocomputing</div>
-      <h2 class="headline" style="font-size:22px">Archaeologist of Code Reconstructs VisiCalc From Scraps, Proving the Original Spreadsheet Still Sings</h2>
-      <div class="deck">*A meticulous digital reconstruction brings 1979's killer app back to life—and reveals why it changed everything*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47410871" target="_blank" style="color:inherit;text-decoration:none;">▲ 214 pts &nbsp;·&nbsp; 79 comments</a></div>
-      <div class="body-text"><p>Sergei Zeiger didn't just document VisiCalc; he excavated it. His reconstruction project carefully reverse-engineered the spreadsheet that launched a thousand tech fortunes, working from source fragments, documentation, and sheer archival obsession to resurrect the software that made personal computers worth owning. The 214 Hacker News points and 79 comments suggest this is more than nostalgia—it's archaeology for a technology generation that understands what was lost.</p><p>What's compelling is how VisiCalc's interface logic, once examined closely, reveals an elegance that modern spreadsheets have buried under layers of feature accumulation. The reconstruction allows us to see what Steve Jobs called &quot;the first killer app&quot;—not as a historical artifact, but as a still-functional proof of concept. It was simple, fast, and did one thing with such clarity that it rewrote enterprise software.</p><p>Zeiger's work is a reminder that understanding how we got here requires sometimes going back and actually using the tools that shaped the present. VisiCalc didn't have pivot tables, conditional formatting, or macros. It had a vision, and that was enough.</p></div>
+      <div class="tag">AI · Architecture</div>
+      <h2 class="headline" style="font-size:22px">Mamba-3: The State Transformer Takes the Next Leap Forward</h2>
+      <div class="deck">*Together AI's new state-space architecture pushes past transformer scaling laws—and raises uncomfortable questions about efficiency*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47419391" target="_blank" style="color:inherit;text-decoration:none;">▲ 278 pts &nbsp;·&nbsp; 50 comments</a></div>
+      <div class="body-text"><p>The transformer monopoly on sequence modeling is cracking. Mamba-3, announced by Together AI, represents the third generation of state-space models that bypass the quadratic attention bottleneck entirely—and the benchmarks are starting to whisper what researchers have long suspected: transformers aren't the only path to scale. Mamba-3 scales to billions of parameters while maintaining linear compute complexity during inference, a property that makes transformers look computationally extravagant by comparison.</p><p>What matters here isn't just speed. It's architectural diversity. For three years, the industry has poured all bets into transformer scaling, and the returns have been... adequate. Mamba-3 suggests an alternate narrative: specialized architectures for specialized workloads. Long-context processing, real-time streaming, embedded systems—these are domains where state-space models don't just compete; they dominate. The paper hints at performance parity with comparable transformer baselines, and superior memory efficiency.</p><p>The tech establishment, however, has billions invested in transformer-optimized silicon. Adoption will depend on whether vendors can be convinced that linear-complexity inference is worth the foundational shift. Mamba-3 is brilliant. Whether it's adopted is a question of economics, not engineering.</p></div>
     </div>
     <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Infrastructure · Energy Systems</div>
-      <h2 class="headline" style="font-size:22px">Spain and Portugal's April Blackout: The Anatomy of How Modern Grids Fail</h2>
-      <div class="deck">*Entso-E's final report reveals the cascade of errors that left the Iberian Peninsula in darkness*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47452955" target="_blank" style="color:inherit;text-decoration:none;">▲ 205 pts &nbsp;·&nbsp; 99 comments</a></div>
-      <div class="body-text"><p>The April 28, 2025 blackout that struck Spain and Portugal wasn't a single catastrophic failure—it was a symphony of cascading breakdowns, each one recoverable in isolation, collectively devastating when compressed into minutes. Entso-E's final report, now public, has generated 205 points of discussion and 99 comments from infrastructure engineers and policy observers who recognize the report as a blueprint for how modern power grids fail in the renewable energy era.</p><p>The report's findings expose the fragility of rapid grid transitions: as renewable penetration increases and traditional baseload plants retire, the margin for operator error compresses. A protection system misconfiguration, delayed communication between control centers, and the unexpected disconnection of a major transmission line created a domino effect that separated the Iberian Peninsula from the Continental European grid—a partition that demand-side management and available reserves simply couldn't contain in real time.</p><p>What's particularly unsettling for grid operators reading this report is that nothing was exotic. No unprecedented weather, no cyberattack, no component failure that exceeded design specifications. Just a series of ordinary decisions made under time pressure that, in hindsight, created a path to collapse. The implication for grid modernization projects globally is sobering: resilience isn't about eliminating single points of failure; it's about preventing humans and systems from aligning their failures in time.</p></div>
+      <div class="tag">Open Source · Leadership</div>
+      <h2 class="headline" style="font-size:22px">Deno's Leadership Crisis Signals a Reckoning for JavaScript's Scrappy Challenger</h2>
+      <div class="deck">*After years of positioning itself as Node.js's moral successor, the runtime faces structural headwinds that no technical innovation can solve*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47467746" target="_blank" style="color:inherit;text-decoration:none;">▲ 250 pts &nbsp;·&nbsp; 177 comments</a></div>
+      <div class="body-text"><p>Deno was supposed to be different. Ryan Dahl's 2018 confessional—&quot;10 Things I Regret About Node.js&quot;—became the founding manifesto for a technically superior JavaScript runtime that would avoid the design sins of its predecessor. For a brief moment, it genuinely seemed like Deno might carve out a serious slice of the JavaScript ecosystem. Then the brutal mathematics of open-source sustainability caught up.</p><p>The CEO departure (rendered as a mysterious 404 in industry whispers) reveals what Deno's technical prowess has never been able to mask: a business model crisis. Node.js won because it had Joyent's backing, then Joyent's corpse was buried, then it had the implicit support of the JavaScript empire. Deno had technical merit and not much else. A runtime can be better than its competitor and still lose if the competitor owns the cultural infrastructure. Deno did own pockets of developer enthusiasm—particularly among TypeScript purists and security-conscious teams—but enthusiasm doesn't pay salaries.</p><p>The layoffs and leadership vacuum signal something worse than a management reshuffle. They signal the slow-motion death of a viable alternative. Deno will likely survive as an open-source project, maintained by principled volunteers who believe in its architecture. But the dream of displacing Node as the JavaScript server runtime? That died the moment VC funding became the only runway. Sometimes the technically superior architecture loses. The market doesn't care about architectural purity.</p></div>
     </div>
     <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">AI Research · Neural Networks</div>
-      <h2 class="headline" style="font-size:22px">Attention Residuals: The Quiet Paper Rewriting How Transformers Learn</h2>
-      <div class="deck">*MoonshotAI's architecture tweak hints at fundamental improvements lurking in well-trodden mathematical ground*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47458595" target="_blank" style="color:inherit;text-decoration:none;">▲ 193 pts &nbsp;·&nbsp; 25 comments</a></div>
-      <div class="body-text"><p>Deep in the transformer literature, where thousands of papers add incremental tweaks to attention mechanisms, Moonshot AI's work on Attention Residuals represents exactly the kind of architectural insight that shifts paradigms—not by overthinking the problem, but by carefully reconsidering where signals flow. With 193 points and a notably lean 25 comments, this appears to be a paper that will accumulate citations long after the Hacker News discussion fades.</p><p>The core contribution seems deceptively simple: by reformulating how residual connections interact with attention heads, the architecture enables deeper networks with superior gradient flow and, critically, reduced training instability during scaling. This matters because transformer training is still dominated by mysterious phenomena—sudden loss spikes, attention collapse—that empirical tweaks address without full theoretical grounding.</p><p>The relatively modest comment count suggests this landed in a pure research-enthusiast crowd, not the startup-watching masses. That's telling. This is a paper that will matter more to people building next-generation models than to people building products. The architecture belongs in the baseline comparisons of every transformer variant that follows.</p></div>
+      <div class="tag">AI Research · Architecture</div>
+      <h2 class="headline" style="font-size:22px">Attention Residuals: The Quiet Architectural Tweak That Could Reshape Neural Networks</h2>
+      <div class="deck">*A Moonshot AI paper suggests a simple modification to attention mechanisms might unlock next-generation transformer efficiency*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47458595" target="_blank" style="color:inherit;text-decoration:none;">▲ 230 pts &nbsp;·&nbsp; 33 comments</a></div>
+      <div class="body-text"><p>In the dense GitHub repository of Moonshot AI, buried among implementation details and ablation studies, sits a deceptively simple idea: what if attention residuals—preserving identity mappings through attention layers—fundamentally change how transformers learn? The paper is spare on rhetoric and heavy on mathematics, but the implications are worth digging into. Attention Residuals proposes that explicitly modeling skip connections within attention mechanisms reduces training instability and improves convergence.</p><p>The concept isn't revolutionary in isolation. Residual connections have been neural network folklore since ResNet. But applying them explicitly to the attention mechanism itself, rather than wrapping them around attention as a whole, appears to unlock measurable gains. The GitHub repository contains reproducible implementations across multiple architectures, and early results suggest faster convergence and modest improvements in downstream task performance. It's the kind of architectural detail that sounds marginal until you realize it could compound across billions of parameters.</p><p>What's notable is the publication venue: a GitHub repository, not a major conference. This is increasingly where genuine architectural innovation lives—in the sparse territories between academia and industry, maintained by engineers who believe in showing their work. Whether Attention Residuals becomes a standard primitive or remains a technical footnote depends on adoption velocity among practitioners.</p></div>
     </div>
     <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">AI Research · Model Architecture</div>
-      <h2 class="headline" style="font-size:22px">Mamba-3 Arrives as the State-Space Alternative to Transformers Matures Into Practicality</h2>
-      <div class="deck">*Together AI's latest evolution suggests linear attention architectures are no longer experimental—they're competitive*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47419391" target="_blank" style="color:inherit;text-decoration:none;">▲ 176 pts &nbsp;·&nbsp; 27 comments</a></div>
-      <div class="body-text"><p>State-space models have lived for years in the shadow of transformers, mathematically elegant but practically constrained by limited scale and training efficiency. Together AI's Mamba-3 announcement, now at 176 points and 27 comments, signals a transition point: the alternative has grown up and is beginning to win on terms that matter—inference speed, memory efficiency, and, increasingly, training time parity.</p><p>Mamba's lineage traces back to careful theorists asking why transformers needed quadratic attention complexity when many natural language tasks had linear dependencies. The answer, refined through Mamba and Mamba-2, was that with proper state-space formulation and hardware-aware implementation, you could match transformer performance with fundamentally different computational properties. Mamba-3 appears to push this further, likely addressing the remaining gaps in long-context handling and architectural composability.</p><p>What's significant isn't that Mamba-3 will replace transformers—it won't, wholesale—but that it's forcing the research community to stop assuming transformer dominance is inevitable. The modest comment volume suggests this landed in a specialist crowd who understand that architectural diversity is a sign of a maturing field. State-space models are no longer the eccentric alternative; they're becoming the pragmatist's second option.</p></div>
+      <div class="tag">Urban Planning · Transportation</div>
+      <h2 class="headline" style="font-size:22px">Paris Paved Over Parking, Built a City for People Instead—And It Worked</h2>
+      <div class="deck">*Mayor Anne Hidalgo's radical parking removal strategy reshapes urban mobility while car-dependent cities watch in disbelief*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47466697" target="_blank" style="color:inherit;text-decoration:none;">▲ 225 pts &nbsp;·&nbsp; 339 comments</a></div>
+      <div class="body-text"><p>Anne Hidalgo didn't invent car skepticism—she just had the audacity to act on it. Since 2020, Paris has systematically removed parking spaces, converting them into bike lanes, green space, and pedestrian zones. The cultural backlash was predictable. The results have been something else: fewer cars, lower emissions, measurably higher quality of life, and a blueprint that should shame every North American city planner still zoning for parking maximums. The comments section erupted—because nothing polarizes quite like touching someone's ability to store a car for free on public land.</p><p>The numbers are damning to car-centric orthodoxy. Over 60,000 parking spaces removed. A corresponding 10% reduction in vehicular traffic. Cycling infrastructure that transformed entire neighborhoods. Public transit ridership up. The externalities of car storage—the real estate cost, the sprawl incentive, the dead concrete—finally got a mayor willing to name them as such. Paris didn't ban cars; it simply stopped subsidizing their presence through free parking.</p><p>For urban planners in Los Angeles, Toronto, or Sydney—cities still averaging 4-8 parking spaces per vehicle—Hidalgo's Paris is a cautionary tale and a permission slip. You can change the incentives. You can reclaim the land. The cars will adapt, and the city will breathe. That it required 46 years of political capital and a mayor willing to absorb international ridicule tells you everything about how hard it is to undo the infrastructure of convenience.</p></div>
     </div>
       </div>
+      
     </div>
     <div class="x-col">
       <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
       
     <div class="x-item">
-      <div class="x-handle">@Bojan Tunguz</div>
-      <div class="x-headline">When aspiration becomes commentary</div>
-      <div class="x-body">A two-word post that says everything about tech's obsession with goals without execution. Tunguz captures the performative nature of engineering discourse—where naming ambitions publicly substitutes for shipping. It's a perfect microcosm of how social platforms reward signal over substance.</div>
+      <div class="x-handle">@Sandy Petersen</div>
+      <div class="x-headline">Apocalyptic Posting Has Become Silicon Valley's Native Language</div>
+      <div class="x-body">This reads like a tech-bro lament dressed in religious garb—the kind of nihilism that masquerades as depth in spaces where everyone's supposed to be building the future. It matters because it signals how thoroughly despair has colonized the discourse among people with actual power to shape infrastructure.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@JLarky</div>
-      <div class="x-headline">Microservices theater meets engineering reality</div>
-      <div class="x-body">This cuts to the heart of modern architecture theater: distributed systems complexity justified by scalability needs that never materialize. JLarky exposes how cargo-cult engineering spreads when resume-building incentives trump pragmatism. It's a timely reminder that constraints breed better design than unlimited abstraction.</div>
+      <div class="x-handle">@Xenocosmography</div>
+      <div class="x-headline">Conspiracy Thinking Repackages Itself as Sophisticated Analysis</div>
+      <div class="x-body">The post tries to sound erudite by namedroppingContext (Epstein, Jiang Xueqin, immunity-building) while actually just mapping conspiracy thinking onto new targets. It reveals how conspiratorial reasoning has evolved from fringe forums into the playbook of people who position themselves as intellectual contrarians.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@Outa</div>
-      <div class="x-headline">Geopolitics has no place in tech feeds</div>
-      <div class="x-body">A post about 18th-century isolationism appearing in a tech feed signals algorithmic drift or account mission creep. It matters because it illustrates how X's engagement mechanics push creators toward culture-war commentary regardless of expertise. Tech discourse loses coherence when identity politics infiltrate niche communities.</div>
+      <div class="x-handle">@Pangyu 胖鱼</div>
+      <div class="x-headline">Influencer Narcissism Finds Its Ultimate Expression Online</div>
+      <div class="x-body">The joke here is that Jiang Xueqin became exactly what every Chinese entrepreneur fantasizes about: global relevance without earning it, treated as an oracle on geopolitics simply for existing loudly on the internet. It's a perfect distillation of how platforms reward confidence over credential.</div>
+    </div>
+    <div class="x-item">
+      <div class="x-handle">@LIN WEI</div>
+      <div class="x-headline">Remote Work Accidentally Automated Human Workers Into Obsolescence</div>
+      <div class="x-body">This is genuinely perceptive: WFH wasn't a worker victory but a structural reorganization that made humans look indistinguishable from replaceable agents. The post cuts through the productivity theater to show how remote infrastructure becomes the skeleton key for AI displacement—the system didn't fight back because it barely noticed the change.</div>
     </div>
     </div>
   </div>
-  
-    <div class="page-nav">
-      <a href="index.html">← Page 1</a>
+  <div class="page-nav"><a  href="index.html">Page 1</a>
       <a class="current" href="page2.html">Page 2</a>
-      <a href="archive/">Archive</a>
-    </div>
+      <a  href="page3.html">Page 3</a>
+      <a  href="page4.html">Page 4</a>
+      <a  href="page5.html">Page 5</a>
+      <a  href="page6.html">Page 6</a>
+      <a  href="page7.html">Page 7</a></div>
   <footer>
     <span>The Sid Dispatch &nbsp;·&nbsp; Saturday, March 21, 2026</span>
     <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed</span>
-    <span>Generated 09:31 AM EDT</span>
+    <span>Generated 09:48 PM EDT</span>
   </footer>
 </div>
 </body>
