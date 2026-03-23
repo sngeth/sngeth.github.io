@@ -66,13 +66,23 @@
     .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
     .tert:last-child{padding-left:0;}
   }
+  /* ── AUDIO PLAYER ── */
+  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
+  #dispatch-player.visible{transform:translateY(0);}
+  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
+  #dispatch-player button:hover{background:#fff;color:var(--black);}
+  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
+  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
+  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
+  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
+  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
 </style>
 </head>
 <body>
 <div class="wrap">
   
   <div class="top-bar">
-    <span>Vol. 193 &nbsp;·&nbsp; No. 342</span>
+    <span>Vol. 193 &nbsp;·&nbsp; No. 370</span>
     <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
     <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
   </div>
@@ -90,47 +100,47 @@
     <div class="hn-col">
       <div class="story-grid">
         <div class="lead">
-    <div class="tag">Web · Publishing</div>
-    <h1 class="headline" style="font-size:34px">PC Gamer's RSS Reader Guide Balloons to 37MB, Raising Questions About Digital Bloat</h1>
-    <div class="deck">*A comprehensive article on feed readers becomes a case study in why the web itself needs optimization*</div>
+    <div class="tag">Media · Web</div>
+    <h1 class="headline" style="font-size:34px">PC Gamer's RSS Reader Guide Becomes the Article That Ate Itself</h1>
+    <div class="deck">*A 37MB behemoth on feed readers proves the irony is very much alive—and downloading*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47480507" target="_blank" style="color:inherit;text-decoration:none;">▲ 639 pts &nbsp;·&nbsp; 295 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47480507" target="_blank" style="color:inherit;text-decoration:none;">▲ 750 pts &nbsp;·&nbsp; 343 comments</a>
     </div>
     <div class="body-text">
-      <p class="drop-cap">PC Gamer's recent deep-dive into RSS readers has become an inadvertent monument to modern web excess. The article, intended as a straightforward guide to feed aggregation tools, has swollen to a staggering 37 megabytes—a file size more appropriate for video games than text journalism. The bloat has ignited conversation among developers and readers alike about whether contemporary publishing practices have lost sight of efficiency entirely.</p><p>The irony cuts deep: an article recommending RSS readers, tools designed expressly to strip away the clutter of modern web publishing and deliver pure content, arrives as a bloated beast of embedded media, analytics trackers, and unoptimized assets. Readers report the piece downloading slowly on mobile connections and consuming substantial bandwidth—precisely the problems RSS was invented to solve decades ago.</p><p>The incident has reignited a long-simmering debate in tech circles: Has the web become so obsessed with engagement metrics and advertising infrastructure that basic performance has become an afterthought? For a publication writing about productivity tools, the message sent is uncomfortably mixed.</p>
-      <div class="pull-quote">An article recommending RSS readers arrives as a bloated beast—precisely the problem RSS was invented to solve.</div>
+      <p class="drop-cap">In what may be the year's most unintentionally on-the-nose commentary about digital excess, PC Gamer published a comprehensive guide to RSS readers this week that swelled to a staggering 37 megabytes—roughly the size of a complete PlayStation 1 game. The article, meant to shepherd readers toward lean, efficient feed aggregators, instead became a cautionary tale about bloat itself, spawning over 343 comments oscillating between bewilderment and dark humor.</p><p>The irony cuts deep. RSS—Really Simple Syndication—exists precisely because early internet evangelists wanted a lightweight alternative to the web's mounting cruft. Feed readers were built for efficiency, for stripping away ads and autoplay videos and tracking pixels, for letting users consume information at human speed. Yet here was a major tech publication delivering its thoughts on the subject as a file so corpulent it would choke connections on anything slower than broadband. Some readers reported the article failing to load entirely on mobile; others questioned whether the piece contained embedded video, high-resolution screenshots, or just catastrophic design choices.</p><p>The 750-point submission on Hacker News suggests the community smelled something rotten in the state of web publishing—a system where even advisory content about minimalism arrives bloated, unoptimized, and fundamentally at odds with its own message. It's a mirror held up to the entire medium: we built tools to escape the chaos, then used those tools to recreate it.</p>
+      <div class="pull-quote">A 37MB article recommending lightweight feed readers is the digital equivalent of a gym membership advertisement mailed via forklift.</div>
     </div></div>
         <div class="sec">
-    <div class="tag">Development · Infrastructure</div>
-    <h2 class="headline" style="font-size:21px">The Version Control Wars Aren't Over—They're Evolving Beyond Git</h2>
-    <div class="deck">*Bram Cohen examines how the next generation of developer tools will move beyond Git's architectural constraints*</div>
+    <div class="tag">Developer Tools · Infrastructure</div>
+    <h2 class="headline" style="font-size:21px">Version Control Stands at a Crossroads as Development Workflows Demand Reinvention</h2>
+    <div class="deck">*Git dominates, but distributed collaboration tools are prompting technologists to imagine what comes next*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47478401" target="_blank" style="color:inherit;text-decoration:none;">▲ 540 pts &nbsp;·&nbsp; 298 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47478401" target="_blank" style="color:inherit;text-decoration:none;">▲ 601 pts &nbsp;·&nbsp; 338 comments</a>
     </div>
     <div class="body-text">
-      <p>Git has dominated version control for nearly two decades, but according to prominent technologist Bram Cohen, its reign is beginning to show cracks. In a sweeping analysis of where version control is headed, Cohen argues that Git's distributed, content-addressable architecture—revolutionary in 2005—now constrains rather than enables modern development practices. The question isn't whether Git will disappear, but how its successors will address the scaling challenges and collaboration friction that today's teams face at unprecedented scale.</p><p>Cohen points to emerging systems that prioritize operational efficiency over Git's philosophical purity. Future version control will likely embrace hybrid models: centralized for performance where it matters, distributed for resilience where it's critical. The shift reflects a maturation in how teams actually work versus how version control theory suggests they should. Real-world requirements—handling massive monorepos, instant CI/CD feedback, and seamless collaboration across continents—demand rethinking at a fundamental level.</p>
+      <p>Bram Cohen, creator of BitTorrent and now principal architect at Sourceware Innovations, has ignited fresh debate about version control's trajectory in a substantive essay circulating through technical circles. With 601 points and 338 comments on Hacker News, the piece signals genuine ferment in how the development community thinks about code management—a domain where Git has enjoyed near-hegemonic dominance for nearly two decades.</p><p>Cohen's analysis digs into Git's architectural assumptions, built when distributed development was aspirational rather than mandatory. Modern software teams—sprawled across time zones, managing monorepos of staggering complexity, and increasingly reliant on AI-assisted coding—operate under constraints the 2005 Linux kernel couldn't foresee. The essay examines whether immutable history, merge conflict resolution, and traditional branching models remain the optimal substrate for 2026's collaborative chaos. The conversation threading through the comments reveals no consensus, but rather a profession grappling with whether its foundational tools need evolutionary pressure.</p><p>What's notable is less that critics exist—they always have—but that the questioning now includes serious practitioners who understand both Git's power and its brittle edges. The market hasn't moved, but the skepticism has mass.</p>
       
     </div></div>
         <div class="bot-row">
           <div class="tert">
-    <div class="tag">Technology · Access</div>
-    <h2 class="headline" style="font-size:19px">Project Nomad Aims to Make Knowledge Survival Non-Negotiable in an Unstable World</h2>
-    <div class="deck">*A new initiative tackles the infrastructure problem of digital preservation and offline access*</div>
+    <div class="tag">Culture · Labor</div>
+    <h2 class="headline" style="font-size:19px">The EU Relocation Question: Technical Professionals Weigh Remote Work Against Citizenship</h2>
+    <div class="deck">*As AI and automation reshape job markets, some developers and engineers are racing toward European residency*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47476821" target="_blank" style="color:inherit;text-decoration:none;">▲ 467 pts &nbsp;·&nbsp; 157 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47487436" target="_blank" style="color:inherit;text-decoration:none;">▲ 588 pts &nbsp;·&nbsp; 485 comments</a>
     </div>
     <div class="body-text">
-      <p>Project Nomad has launched with an ambitious mandate: ensure that critical knowledge remains accessible even when networks fail, institutions collapse, or corporate platforms vanish. The initiative addresses a real and growing vulnerability in our information ecosystem. As the cloud has centralized knowledge storage, the fragility has increased proportionally. A single data center outage, a platform shutdown, or worse—a conflict that severs digital infrastructure—can instantly erase access to essential information for millions.</p><p>The project's approach combines offline-first architecture, distributed storage, and curated content selection to create knowledge caches that survive catastrophic network events. Rather than attempting to replicate the entire internet, Project Nomad focuses on essential domains: medical information, agricultural techniques, educational content, and technical documentation. Early enthusiasm from development communities suggests genuine demand for this kind of resilience infrastructure, particularly in regions where connectivity remains intermittent.</p>
+      <p>A discussion about migrating to the European Union has accumulated 588 points and an unusually engaged 485 comments, suggesting the topic has struck a nerve among Hacker News's international readership. The piece examines the practical, legal, and existential calculus facing knowledge workers from North America, Asia, and elsewhere considering relocation to EU member states—a phenomenon accelerated by remote work normalization and deepening concerns about tech sector stability in traditional hubs.</p><p>The migration impulse reflects several colliding pressures: visa uncertainty in the United States, quality-of-life priorities that EU nations explicitly market to incoming professionals, and a suspicion among technologists that Europe's regulatory environment—however restrictive it seems—may prove more sustainable than the perpetual disruption cycles of Silicon Valley. Citizenship through residency offers not just legal stability but a kind of philosophical repositioning: away from the startup velocity cult and toward countries that have already decided to tax wealth and provide social infrastructure.</p><p>Yet the comments reveal friction. Cost of living in desirable European metros rivals or exceeds major US cities. Language barriers persist. The professional tech scene in many EU capitals remains thinner than concentrated talent clusters. Still, the sheer volume of engaged commentary—485 entries—suggests a generation of engineers genuinely reconsidering where their futures should be built, and whether that place remains the United States.</p>
       
     </div></div><div class="tert">
     <div class="tag">AI · Development</div>
-    <h2 class="headline" style="font-size:19px">Code Isn't Dying—It's Becoming Invisible, and That's the Real Story</h2>
-    <div class="deck">*New analysis challenges the prevailing narrative that AI will render programming obsolete*</div>
+    <h2 class="headline" style="font-size:19px">Reports of Code's Death Are Greatly Exaggerated, Argues Technologist in Counter-Narrative Piece</h2>
+    <div class="deck">*As AI generates headlines about &quot;no-code&quot; futures, working developers insist the abstraction layer remains thin*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47476315" target="_blank" style="color:inherit;text-decoration:none;">▲ 419 pts &nbsp;·&nbsp; 311 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47476315" target="_blank" style="color:inherit;text-decoration:none;">▲ 511 pts &nbsp;·&nbsp; 369 comments</a>
     </div>
     <div class="body-text">
-      <p>The recurring prediction that artificial intelligence will eliminate programming as a discipline fundamentally misunderstands both what code does and how technology adoption works. Steve Krouse's examination of this narrative cuts through the hype to reveal a more nuanced truth: code isn't disappearing, it's diffusing. Programming is becoming embedded in more domains, more tools, and more abstraction layers—making it simultaneously less visible and more essential than ever.</p><p>Every new &quot;no-code&quot; platform is actually layers of code written by specialists, abstracting complexity for non-specialists. Every AI model that generates code still requires developers to validate, integrate, and maintain it. The story of technology has never been about eliminating previous layers of abstraction; it's been about adding new ones on top. We still use assembly language concepts inside high-level compilers. We still reason about algorithms when using cloud platforms. The precision and rigor that programming demands hasn't lessened—it's been redistributed across a broader ecosystem of tools and practitioners.</p>
+      <p>Steve Krouse's essay &quot;Reports of Code's Death Are Greatly Exaggerated&quot; landed with 511 points and 369 comments, positioning itself as a necessary corrective to breathless coverage suggesting artificial intelligence will soon render programming itself obsolete. The piece arrives amid a cultural moment saturated with declarations that LLMs have made traditional coding irrelevant—a narrative that dominates conference talks, venture capital pitches, and tech media cycles.</p><p>Krouse's counterargument cuts into something concrete: the persistent gap between what current AI systems can do and what production systems actually require. Code generation tools excel at boilerplate, at pattern-matching against their training corpus, at the routine. But software that matters—systems handling financial transactions, medical data, infrastructure—still demands human judgment about correctness, security, and long-term maintainability. The abstraction of &quot;just describe what you want&quot; works only when you know precisely what you want, when the domain is well-understood, and when the costs of failure are acceptable. These conditions rarely converge in high-stakes environments.</p><p>The comment thread reveals a profession tired of premature eulogies. Experienced engineers acknowledge AI's leverage while insisting on the durability of their craft. There's an almost defiant note running through responses—a reassertion that understanding systems deeply, thinking through edge cases, and building for reliability remain irreducibly human skills. The 511-point score suggests this message resonates with an audience fatigued by hype.</p>
       
     </div></div>
         </div>
@@ -140,18 +150,18 @@
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
       
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Engineering · History</div>
+          <div class="tag">Programming · Legacy</div>
           <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Inside RollerCoaster Tycoon's Engine: The Lost Art of Ruthless Optimization</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">How RollerCoaster Tycoon Became Programming's Gold Standard for Efficient Code</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 400 · 116 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 498 · 134 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">AI · Open Source</div>
+          <div class="tag">Open Web · Publishing</div>
           <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Researchers Squeeze a 397-Billion Parameter AI Model Onto a Single Laptop</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">POSSE Philosophy Gains Traction as Creators Reclaim Content Ownership from Social Platforms</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 359 · 116 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 324 · 70 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
     </div>
     </div>
@@ -159,29 +169,29 @@
       <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
       
     <div class="x-item">
-      <div class="x-handle">@Zero Dark Twenty-Nine</div>
-      <div class="x-headline">The Epstein Files: Justice Delayed by Politics</div>
-      <div class="x-body">This thread documents how a high-profile criminal case became hostage to presidential politics—suggesting that institutional accountability depends less on facts than on who controls the DOJ. Whether factually complete or not, the post reflects a real erosion of faith in independent law enforcement, a crisis that transcends the specific case.</div>
+      <div class="x-handle">@Jon L. Noble</div>
+      <div class="x-headline">First Human Neuralink Patient Hits 100 Days</div>
+      <div class="x-body">Noble's milestone marks the first sustained proof-of-concept for brain-computer interfaces in human patients—moving Neuralink from lab curiosity to clinical reality. The casual tone obscures something profound: if the surgery felt routine, the normalization of neural implants has already begun. We're watching the earliest adopter class define what's possible.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@bubble boi</div>
-      <div class="x-headline">NYC's Infrastructure Collapse Hits Perception Crisis</div>
-      <div class="x-body">One sentence, one comparison, total devastation. This isn't about Uber—it's about a major American city's visible decay reaching a tipping point where casual observers equate it to a war zone. That's not hyperbole; it's a signal that quality-of-life failure is now obvious enough to reshape how people think about urban stability.</div>
+      <div class="x-handle">@memetic_sisyphus</div>
+      <div class="x-headline">Two-Word Reply That Says Everything</div>
+      <div class="x-body">This is peak social media commentary—a non-response that performs understanding while requiring interpretation. It's either exhausted agreement or knowing irony, which is precisely the point. In a feed drowning in hot takes, sometimes the sharpest move is ambiguous silence.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@signüll</div>
-      <div class="x-headline">When Products Become Their Own Marketing</div>
-      <div class="x-body">The post identifies the rare moment when build quality becomes so undeniable that users voluntarily become evangelists—without corporate conditioning. This matters because it's the inverse of modern marketing: organic virality emerges from substance, not strategy. Apple's constraint is real, but so is the insight that authenticity scales.</div>
+      <div class="x-handle">@Καλός</div>
+      <div class="x-headline">Antisemitic Conspiracy Framed as Tech Gossip</div>
+      <div class="x-body">This isn't analysis—it's violent rhetoric dressed in casual speculation, weaponizing a geopolitical event to target Jewish figures. It thrives in tech spaces where irony provides cover and algorithmic sorting rewards engagement over accuracy. It's worth flagging not to amplify, but to document how hate speech metastasizes on ostensibly apolitical platforms.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@dax</div>
-      <div class="x-headline">Self-Assessment Is Broken Across Domains</div>
-      <div class="x-body">Calorie intake and productivity gains share a structural problem: humans are terrible judges of their own behavior without external measurement. This matters because it exposes how startup culture's self-reported metrics (engagement, happiness, productivity gains) are likely wildly inflated. Data demands rigor; perception offers fiction.</div>
+      <div class="x-handle">@Wildminder</div>
+      <div class="x-headline">LLMs Shatter Anonymity's Last Illusion</div>
+      <div class="x-body">This cuts to the actual risk of large language models: they've made deanonymization trivial by finding patterns humans would miss across years of casual data. Reddit pseudonymity wasn't privacy—it was computational obscurity. That window is closing, and most users haven't realized their 'anonymous' archives are now readable to machines.</div>
     </div>
     <div class="x-item">
-      <div class="x-handle">@大顺利</div>
-      <div class="x-headline">Billionaires Treat Fertility as Asset Accumulation</div>
-      <div class="x-body">This post articulates an uncomfortable inversion: as wealth concentration accelerates, children become legible as capital assets for the ultra-rich, while ordinary people rationalize non-reproduction through poverty. It's not really about family—it's about how resource scarcity reshapes reproductive strategy, with children as the ultimate store of value.</div>
+      <div class="x-handle">@Zephyr</div>
+      <div class="x-headline">Cryptic Signal About Capital Flight</div>
+      <div class="x-body">Vague enough to be frustrating, sharp enough to matter—this hints at a reversal in Middle Eastern tech funding without explanation. Whether referring to Saudi Vision 2030 cooling or broader regional capital shifts, the casual understatement suggests informed observers see a meaningful trend worth noting.</div>
     </div>
     </div>
   </div>
@@ -190,8 +200,121 @@
   <footer>
     <span>The Sid Dispatch &nbsp;·&nbsp; Monday, March 23, 2026</span>
     <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:08 AM EDT</span>
+    <span>Generated 12:17 PM EDT</span>
   </footer>
 </div>
+
+<!-- ── AUDIO PLAYER ── -->
+<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
+<div id="dispatch-player">
+  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
+  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
+  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
+  <span id="player-title">The Sid Dispatch</span>
+  <span id="player-progress"></span>
+  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
+  <button onclick="closePlayer()" title="Close">✕</button>
+</div>
+<script>
+(function() {
+  const synth = window.speechSynthesis;
+  if (!synth) return;
+
+  let articles = [];
+  let current = 0;
+  let playing = false;
+  let speed = 1;
+  const speeds = [0.8, 1, 1.25, 1.5];
+  let speedIdx = 1;
+  let activeEl = null;
+
+  function collectArticles() {
+    const items = [];
+    // HN stories in DOM order
+    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
+      const h = el.querySelector('.headline');
+      const b = el.querySelector('.body-text');
+      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // X sidebar
+    document.querySelectorAll('.x-item').forEach(el => {
+      const h = el.querySelector('.x-headline');
+      const handle = el.querySelector('.x-handle');
+      const b = el.querySelector('.x-body');
+      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // RSS items
+    document.querySelectorAll('.rss-item').forEach(el => {
+      const h = el.querySelector('.rss-headline');
+      const b = el.querySelector('.rss-body');
+      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    return items;
+  }
+
+  function updateUI() {
+    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
+    document.getElementById('btn-play').classList.toggle('active', playing);
+    if (articles[current]) {
+      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
+      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
+      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
+    }
+    document.getElementById('btn-speed').textContent = speed + '×';
+    if (activeEl) activeEl.classList.remove('reading-active');
+    if (articles[current]) {
+      activeEl = articles[current].el;
+      activeEl.classList.add('reading-active');
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function speak() {
+    synth.cancel();
+    if (current >= articles.length) { playing = false; updateUI(); return; }
+    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
+    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
+    utt.rate = speed;
+    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
+    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
+    synth.speak(utt);
+    updateUI();
+  }
+
+  window.togglePlay = function() {
+    if (!articles.length) articles = collectArticles();
+    if (playing) { synth.pause(); playing = false; }
+    else if (synth.paused) { synth.resume(); playing = true; }
+    else { playing = true; speak(); }
+    updateUI();
+  };
+  window.nextArticle = function() {
+    synth.cancel();
+    if (current < articles.length - 1) current++;
+    if (playing) speak(); else updateUI();
+  };
+  window.prevArticle = function() {
+    synth.cancel();
+    if (current > 0) current--;
+    if (playing) speak(); else updateUI();
+  };
+  window.cycleSpeed = function() {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    speed = speeds[speedIdx];
+    if (playing) { synth.cancel(); speak(); } else updateUI();
+  };
+  window.togglePlayer = function() {
+    const p = document.getElementById('dispatch-player');
+    p.classList.toggle('visible');
+    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
+  };
+  window.closePlayer = function() {
+    synth.cancel();
+    playing = false;
+    document.getElementById('dispatch-player').classList.remove('visible');
+    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
+  };
+})();
+</script>
 </body>
 </html>
