@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Sid Dispatch — Tuesday, March 24, 2026 · Page 2</title>
+<title>The Sid Dispatch — Wednesday, March 25, 2026 · Page 2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
@@ -29,7 +29,13 @@
   .bot-row{grid-column:1/4;display:grid;grid-template-columns:1fr 1fr;gap:0;padding-top:18px;}
   .tert{padding-right:24px;border-right:1px solid var(--light);}
   .tert:last-child{padding-right:0;padding-left:24px;border-right:none;}
-  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;}
+  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;position:relative;}
+  .permalink{color:var(--dark-red);text-decoration:none;font-size:9px;vertical-align:middle;margin-left:8px;opacity:0;transition:opacity .2s;font-family:'IBM Plex Mono',monospace;letter-spacing:0;cursor:pointer;position:relative;}
+  .headline:hover .permalink,.x-item:hover .permalink{opacity:.6;}
+  .permalink:hover{opacity:1!important;}
+  .permalink .copied{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:var(--black);color:var(--cream);padding:2px 8px;border-radius:3px;font-size:9px;white-space:nowrap;opacity:0;transition:opacity .3s;pointer-events:none;}
+  .permalink .copied.show{opacity:1;}
+  .headline:target,.x-item:target{background:linear-gradient(120deg,rgba(139,26,26,.07) 0%,transparent 100%);border-radius:2px;padding:2px 4px;margin:-2px -4px;}
   .deck{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--mid);line-height:1.4;margin-bottom:10px;border-left:3px solid var(--dark-red);padding-left:12px;}
   .byline{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
   .byline::before{content:'';display:inline-block;width:24px;height:1px;background:var(--mid);}
@@ -82,7 +88,7 @@
 <div class="wrap">
   
   <div class="top-bar">
-    <span>Vol. 194 &nbsp;·&nbsp; No. 380</span>
+    <span>Vol. 195 &nbsp;·&nbsp; No. 350</span>
     <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
     <span>Page 2 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
   </div>
@@ -91,7 +97,7 @@
     <div class="masthead-tagline">"All the signal, none of the noise."</div>
     <div class="masthead-meta">
       <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Tuesday, March 24, 2026</span>
+      <span style="color:var(--black);font-weight:500;">Wednesday, March 25, 2026</span>
       <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
     </div>
   </div>
@@ -101,114 +107,102 @@
       <div style="display:grid;grid-template-columns:1fr 1fr;">
         
     <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">AI · Developer Tools</div>
-      <h2 class="headline" style="font-size:22px">Mozilla Launches Cq: The Stack Overflow That AI Agents Actually Need</h2>
-      <div class="deck">*A knowledge base designed from the ground up for machine learning models to query, learn, and improve their coding decisions*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47491466" target="_blank" style="color:inherit;text-decoration:none;">▲ 152 pts &nbsp;·&nbsp; 60 comments</a></div>
-      <div class="body-text"><p>Forget training your coding agents on scraped Stack Overflow posts and hope they internalize human wisdom. Mozilla AI has released Cq, a purpose-built knowledge repository that treats AI systems as first-class citizens—not second-class users trying to parse human-written Q&amp;A threads. The platform acknowledges a fundamental gap in the current toolchain: while large language models excel at generating code, they flounder when debugging, reasoning through edge cases, or learning from collective domain expertise. Cq bridges that chasm.</p><p>The architecture is deliberately stripped of the friction that makes Stack Overflow tolerable for humans but inefficient for machines. Rather than navigating voting systems, tangential comments, and accepted-answer dogmatism, agents query Cq's structured knowledge graph designed explicitly for programmatic reasoning. Early traction—152 points and 60 comments on Hacker News—suggests the developer community sees the void this fills. With 60 engaged comments, users are clearly wrestling with real questions: How does Cq prevent agents from learning bad practices? Can it handle rapidly evolving frameworks? Will it become the de facto training corpus for the next generation of coding LLMs?</p><p>The timing couldn't be sharper. As autonomous agents move from research labs into production pipelines, their knowledge bottlenecks become organizational chokepoints. Cq isn't just another tool—it's infrastructure for the shift toward AI-native development workflows.</p></div>
+      <div class="tag">Startups · Vertical SaaS</div>
+      <h2 class="headline" id="pest-control-s-unlikely-saas-visionary-why-this-founder-chos" style="font-size:22px"><a href="https://www.onhand.pro/p/i-wanted-to-build-vertical-saas-for-pest-control-i-took-a-technician-job-instead" target="_blank" style="color:inherit;text-decoration:none;">Pest Control's Unlikely SaaS Visionary: Why This Founder Chose the Field Over the Keyboard</a><span class="permalink" onclick="copyLink('pest-control-s-unlikely-saas-visionary-why-this-founder-chos')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A technician's boots-on-the-ground approach to understanding verticalized software—and the unglamorous truth about building for blue-collar industries.*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47509571" target="_blank" style="color:inherit;text-decoration:none;">▲ 312 pts &nbsp;·&nbsp; 126 comments</a></div>
+      <div class="body-text"><p>In a tech landscape obsessed with frictionless abstractions and market-agnostic platforms, one entrepreneur made a counterintuitive bet: to build software for pest control, he would first become a pest control technician. The decision, chronicled across 126 impassioned comments on Hacker News, cuts against conventional startup wisdom—the wisdom that says domain expertise can be outsourced, that customer discovery happens in coffee meetings, and that founders should stay close to their keyboards. Instead, this builder chose the van, the spray equipment, and the 6 a.m. callouts.</p><p>The move reveals a growing schism in how technical founders approach vertical SaaS. While many chase glossy enterprise markets or oversaturated horizontals, the most durable opportunities often hide in industries where software penetration remains dismal—and where every dollar of operational efficiency compounds into genuine competitive advantage. Pest control, with its fragmented small-operator ecosystem, its dependency on legacy systems, and its byzantine scheduling complexity, represents precisely the kind of unglamorous vertical where deep domain knowledge becomes a moat that capital and engineering talent alone cannot breach.</p><p>What emerges from the discussion is a portrait of conviction tested by reality. Building software for a field requires not just understanding workflows, but inhabiting them—feeling the friction of a technician's day, learning the regulatory landmines, and grasping why operators have resisted digitization for so long. This founder's willingness to sacrifice startup optics for authentic operational knowledge suggests a maturation in how serious builders approach verticalized software, trading speed for durability.</p></div>
     </div>
     <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">DevOps · Open Source</div>
-      <h2 class="headline" style="font-size:22px">Lnav Resurrects the Lost Art of Log File Navigation</h2>
-      <div class="deck">*A terminal utility that transforms the tedious archaeology of debugging into something resembling actual forensics*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47498924" target="_blank" style="color:inherit;text-decoration:none;">▲ 146 pts &nbsp;·&nbsp; 20 comments</a></div>
-      <div class="body-text"><p>System administrators have suffered for decades with log files—those cryptic, wall-to-wall text floods that demand the patience of a monk and the recall of an elephant. Lnav arrives as a quiet rebellion against this suffering, delivering a terminal-based viewer that treats logs with the seriousness they deserve. Rather than `tail -f` followed by desperate grep incantations, lnav parses, colorizes, and indexes logs intelligently, turning chaos into navigable narrative.</p><p>The appeal is immediate for anyone who's spent an hour digging through 50MB of Apache error logs. Lnav auto-detects log formats, correlates events across multiple files, and lets you jump to anomalies with fuzzy search and pattern matching. Its 146 points and 20 comments reflect a more niche but deeply satisfied constituency—DevOps engineers, SREs, and infrastructure teams for whom this is less a nice-to-have and more a daily productivity multiplier. The relatively sparse comment count suggests this isn't a revolutionary rethink but rather a mature, utilitarian tool that simply works without demanding ceremony.</p></div>
+      <div class="tag">Developer Tools · Open Source</div>
+      <h2 class="headline" id="email-md-promises-to-free-developers-from-html-email-hell-wi" style="font-size:22px"><a href="https://www.emailmd.dev/" target="_blank" style="color:inherit;text-decoration:none;">Email.md Promises to Free Developers From HTML Email Hell—With Pure Markdown</a><span class="permalink" onclick="copyLink('email-md-promises-to-free-developers-from-html-email-hell-wi')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A deceptively simple tool tackles one of web development's most persistent frustrations: making beautiful emails that actually render everywhere.*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47505144" target="_blank" style="color:inherit;text-decoration:none;">▲ 303 pts &nbsp;·&nbsp; 76 comments</a></div>
+      <div class="body-text"><p>Email remains the one medium where web standards go to die. While modern browsers compete to implement the latest CSS specifications, the email clients—Outlook, Gmail, Apple Mail—operate by their own obsolete rules, each with its own rendering quirks and capability gaps. Email.md, which garnered 303 points on Hacker News, takes a philosophical approach to this chaos: what if developers could write emails in Markdown and trust the tool to handle the nightmarish cross-client compilation?</p><p>The project addresses a legitimate pain point that has spawned an entire ecosystem of half-solutions. Template languages like Mjml and Inky have earned loyal followings, yet they require their own syntaxes and mental context-switching. Email.md's gambit is simpler: leverage Markdown's ubiquity and simplicity, then abstract away the email-specific guardrails—the inlining of CSS, the table-based layouts, the conditional comments for Outlook—into the compiler rather than the author's domain. If executed well, this trades the cognitive load of learning email-specific markup for the composure of Markdown syntax, which a generation of technical writers already instinctively understand.</p><p>The conversation around Email.md hints at broader developer frustration with email as a medium, and a growing appetite for tooling that makes opinionated, sensible choices about compatibility. Whether this particular tool becomes the standard or remains a niche utility likely depends on its handling of the messy edge cases—the newsletters requiring advanced layouts, the transactional emails demanding pixel-perfect designs. But the impulse it represents—automating away the worst parts of email production—deserves to succeed.</p></div>
     </div>
     <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Frontend · CSS</div>
-      <h2 class="headline" style="font-size:22px">CSS's Customizable Selects Are Beautiful—Until You Abuse Them</h2>
-      <div class="deck">*A deep dive into why web developers keep pushing styled form elements beyond their design-intended breaking points*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47429393" target="_blank" style="color:inherit;text-decoration:none;">▲ 123 pts &nbsp;·&nbsp; 5 comments</a></div>
-      <div class="body-text"><p>The HTML select element has always been a thorn in the frontend's side: rigid, browser-controlled, and stubbornly resistant to aesthetic customization. CSS-Tricks' latest investigation into &quot;abusing customizable selects&quot; examines what happens when developers bend the nascent CSS features meant to style dropdowns into shapes the spec authors never imagined. The piece arrives with just 123 points and 5 comments—a sign of specialist-level content for an audience that lives in CSS minutiae.</p><p>The core tension is architectural: browsers maintain tight control over form inputs for accessibility and security reasons, yet designers demand pixel-perfect control over every visual property. Modern CSS pseudo-elements and custom properties have created new playground for developers to push boundaries, but each workaround introduces fragility. The article likely walks through real-world abuse cases—nested layouts, animation hijinks, state management hacks—that technically work but violate the principle of least surprise. For frontend architects, it's a cautionary meditation on the cost of fighting browser defaults versus the cost of accepting constraints.</p></div>
+      <div class="tag">AI · Hardware Efficiency</div>
+      <h2 class="headline" id="google-s-turboquant-squeezes-ai-models-to-a-breaking-point-a" style="font-size:22px"><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/" target="_blank" style="color:inherit;text-decoration:none;">Google's TurboQuant Squeezes AI Models to a Breaking Point—And They Still Work</a><span class="permalink" onclick="copyLink('google-s-turboquant-squeezes-ai-models-to-a-breaking-point-a')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*Extreme compression techniques promise to democratize large language models, but the tradeoffs between efficiency and capability are becoming impossible to ignore.*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47513475" target="_blank" style="color:inherit;text-decoration:none;">▲ 186 pts &nbsp;·&nbsp; 39 comments</a></div>
+      <div class="body-text"><p>The largest AI models are colossal monuments to computational appetite—and increasingly, liabilities. As organizations grapple with the cost of serving these systems at scale, Google's research team has arrived with TurboQuant, a compression methodology so aggressive that it borders on the absurd: radically reduced bit-widths, extreme quantization, and losses that should theoretically cripple model performance. Yet the results, detailed in the company's latest research, suggest that something unexpected happens when you compress language models to the point of near-unrecognizability: they continue to think.</p><p>The research signals a pivotal moment in the AI efficiency frontier. For years, the industry has optimized for scale—bigger models, more parameters, more tokens. TurboQuant inverts that calculus: what if the same capabilities could be delivered at a fraction of the computational cost? The implications ripple across deployment scenarios, from edge inference to datacenter economics. A model that requires one-tenth the memory footprint or one-fifth the compute represents not just a numerical improvement but a categorical shift in who can afford to operate advanced AI. This is how software gets commodified—not through incremental optimization, but through research breakthroughs that redefine the constraints.</p><p>Yet the paper also exposes the uncomfortable frontier of model compression. At some point, aggressive quantization stops being an engineering refinement and becomes a question of capability versus cost. The conversation around TurboQuant, marked by careful technical discussion rather than breathless enthusiasm, suggests the community remains skeptical of any technique that promises dramatic efficiency gains without meaningful tradeoffs. Whether these models truly maintain their reasoning ability under extreme compression, or merely exhibit the illusion of competence on narrow benchmarks, remains an open and consequential question.</p></div>
     </div>
     <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Enterprise · Criticism</div>
-      <h2 class="headline" style="font-size:22px">Microsoft's Windows 11 &quot;Fixes&quot; Are an Insult to Users Who've Already Suffered</h2>
-      <div class="deck">*After bungling the OS redesign, Redmond offers cosmetic updates while ignoring the fundamental frustrations that drove users away*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47500335" target="_blank" style="color:inherit;text-decoration:none;">▲ 101 pts &nbsp;·&nbsp; 63 comments</a></div>
-      <div class="body-text"><p>Windows 11 launched as a rebrand masquerading as a reimagining. It promised user delight and delivered a scattered interface where critical features hid behind three layers of settings menus, start menu search degraded instead of improved, and design inconsistency became a feature. Now Microsoft is rolling out &quot;fixes,&quot; and for many long-suffering users, the gesture reads less as contrition and more as gaslighting—a fresh coat of paint over structural rot. Sam Bent's sharply titled critique (101 points, 63 engaged comments) captures the fury of an informed user base: Why pretend these are breakthroughs when they're belated corrections to self-inflicted wounds?</p><p>The 63 comments reveal a community battle-scarred by Windows 11's missteps, from the taskbar regression that stripped core functionality to the arbitrary hardware requirements that locked out perfectly capable machines. Microsoft's piecemeal approach—small UI tweaks, &quot;listening to feedback&quot;—rings hollow against the backdrop of users forced to downgrade to Windows 10 or switch ecosystems entirely. The real sin isn't the initial failure; it's the timeline between failure and meaningful remedy. In an era where Apple and Linux distros ship cohesive, thoughtful experiences, Microsoft's incremental fixes feel like damage control rather than genuine product leadership.</p><p>Until Redmond addresses the systemic confusion that makes Windows 11 feel like a work-in-progress rather than a finished product, flowers and apologies won't restore trust.</p></div>
+      <div class="tag">Operating Systems · Open Source</div>
+      <h2 class="headline" id="vitruvianos-resurrects-beos-s-vision-for-a-better-desktop-th" style="font-size:22px"><a href="https://v-os.dev" target="_blank" style="color:inherit;text-decoration:none;">VitruvianOS Resurrects BeOS's Vision for a Better Desktop—Three Decades Later</a><span class="permalink" onclick="copyLink('vitruvianos-resurrects-beos-s-vision-for-a-better-desktop-th')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A passionate retrocomputing project channels the elegance and usability of a dead operating system, asking whether nostalgia can become innovation.*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47512816" target="_blank" style="color:inherit;text-decoration:none;">▲ 159 pts &nbsp;·&nbsp; 77 comments</a></div>
+      <div class="body-text"><p>BeOS died in 2001, felled by market forces and the crushing momentum of Wintel hegemony. Yet three decades after its collapse, the operating system retains an almost mythical status among computing enthusiasts—a road not taken, a vision of desktop computing that valued coherence, elegance, and user experience before those virtues became fashionable. VitruvianOS, which sparked active debate across 77 Hacker News comments, represents the latest attempt to channel that legacy: a Linux-based desktop environment explicitly inspired by BeOS's design principles and visual language.</p><p>The project raises a subtle question about retro computing: is a BeOS-inspired OS valuable because it recaptures genuine usability insights that modern desktops abandoned, or is it primarily an exercise in aesthetic nostalgia? BeOS possessed real architectural innovations—its threading model, its filesystem philosophy, its commitment to responsiveness under load. If VitruvianOS merely apes the visual design while running conventional Linux, it risks becoming a theme rather than a platform. Conversely, if the team attempts to genuinely rethink desktop interaction through a BeOS-inflected lens, they're not resurrecting the past so much as using it as a Rosetta Stone for the future.</p><p>The conversation around VitruvianOS reflects a broader restlessness with the modern desktop. GNOME, KDE, and even macOS have grown increasingly complex, increasingly focused on mobile-style interaction patterns, increasingly willing to sacrifice user control for algorithmic curation. A desktop environment that prioritizes clarity, responsiveness, and directness—whether or not it explicitly evokes BeOS—addresses a real appetite. Whether VitruvianOS fulfills that promise depends less on visual fidelity to a 30-year-old OS and more on whether its creators understand *why* BeOS users were so devoted.</p></div>
     </div>
       </div>
       
   <div class="section-label" style="margin-top:28px;">From the Reading List &nbsp;·&nbsp; RSS</div>
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
     
-    <div style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+    <div id="rss-why-specs-alone-can-t-replace-human-coders" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
       <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">Why specs alone won't build your code</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="color:inherit;text-decoration:none;">Why Specs Alone Can't Replace Human Coders</a><span class="permalink" onclick="copyLink('rss-why-specs-alone-can-t-replace-human-coders')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Haskell for All &nbsp;·&nbsp; Tue, 17 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">Detailed specifications have a fatal flaw: they can't capture what agentic AI coders actually need to succeed. This post exposes the gap between human-written specs and machine-executable intent, forcing a reckoning with how we think about AI-assisted development.</div>
+      <div class="body-text" style="font-size:13.5px;">Detailed specifications have long promised to bridge the gap between intent and implementation, but they hit a wall when applied to agentic coding systems. This piece exposes the fundamental limitations of spec-driven development in an AI world, arguing that the problem isn't underspecification—it's that specifications can't capture the full context and judgment humans bring to code.</div>
     </div>
-    <div style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+    <div id="rss-search-your-codebase-by-what-it-means" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
       <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">Navigate repos by what code means</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="color:inherit;text-decoration:none;">Search Your Codebase by What It Means</a><span class="permalink" onclick="copyLink('rss-search-your-codebase-by-what-it-means')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Haskell for All &nbsp;·&nbsp; Mon, 16 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">Forget grep and file trees. Topic modeling lets you browse codebases by semantic meaning rather than file structure, making it dramatically faster to understand unfamiliar projects. It's a small shift that could reshape how developers explore large systems.</div>
+      <div class="body-text" style="font-size:13.5px;">Finding code by keyword search is broken; topic modeling offers a better way. This post shows how to navigate large repositories by semantic meaning rather than string matching, making exploratory refactoring and understanding unfamiliar systems dramatically faster.</div>
     </div>
-    <div style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+    <div id="rss-ai-coding-tools-need-better-ux-than-chat" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
       <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">Chat interfaces are holding back AI coding</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="color:inherit;text-decoration:none;">AI Coding Tools Need Better UX Than Chat</a><span class="permalink" onclick="copyLink('rss-ai-coding-tools-need-better-ux-than-chat')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Haskell for All &nbsp;·&nbsp; Sat, 07 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">Agentic coding tools are stuck in chat UX designed for humans, not machines. This argues for purpose-built interfaces that let AI actually reason about code at scale. Essential reading if you're tired of the hype and want to see what's actually possible.</div>
+      <div class="body-text" style="font-size:13.5px;">Chat interfaces feel natural but aren't optimal for how developers actually work. This essay argues that purpose-built tooling—not just smarter LLMs—is the real unlock for agentic coding, pointing toward the next generation of developer experience.</div>
     </div>
-    <div style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+    <div id="rss-duck-typing-safety-without-the-baggage" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
       <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <a href="https://thoughtbot.com/blog/meet-duck-typer-your-new-duck-typing-friend" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">Type-check duck typing without ceremony</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/meet-duck-typer-your-new-duck-typing-friend" target="_blank" style="color:inherit;text-decoration:none;">Duck Typing Safety Without the Baggage</a><span class="permalink" onclick="copyLink('rss-duck-typing-safety-without-the-baggage')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-23</div>
-      <div class="body-text" style="font-size:13.5px;">Duck Typer lets you keep Python and Ruby's flexibility while catching real bugs—missing methods, signature mismatches, and class drift—without annotations or boilerplate. It's pragmatism: the safety of static typing with the joy of dynamic languages.</div>
+      <div class="body-text" style="font-size:13.5px;">Duck Typer lets you keep Ruby's ergonomic dynamism while catching real bugs: missing methods, signature mismatches, and drift between classes. It's a practical middle path between strict typing and the chaos of untyped code.</div>
     </div>
-    <div style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+    <div id="rss-from-prompt-to-production-in-seven-days" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
       <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <a href="https://thoughtbot.com/blog/i-copied-a-prompt-and-built-a-management-system-in-a-week" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">How I built a system in three days</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/i-copied-a-prompt-and-built-a-management-system-in-a-week" target="_blank" style="color:inherit;text-decoration:none;">From Prompt to Production in Seven Days</a><span class="permalink" onclick="copyLink('rss-from-prompt-to-production-in-seven-days')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-19</div>
-      <div class="body-text" style="font-size:13.5px;">A real account of copying a prompt, combining it with meeting transcripts, and shipping a GTD-based management tool with Claude Code. It's a case study in leverage: what becomes possible when LLMs handle the scut work and humans focus on intention.</div>
+      <div class="body-text" style="font-size:13.5px;">An engineer borrowed a Claude prompt, fed it transcripts and rough ideas, and shipped a working GTD system with only three days of hands-on effort. A compelling case study in how AI coding tools are collapsing the iteration cycle from weeks to days.</div>
     </div>
-    <div style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+    <div id="rss-see-inside-your-llm-calls-with-opentelemetry" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
       <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <a href="https://thoughtbot.com/blog/observability-for-your-llm-powered-apps-otel-instrumentation-for-rubyllm" target="_blank" style="text-decoration:none;color:inherit;">
-        <div class="headline" style="font-size:18px;margin-bottom:6px;">See inside your LLM black boxes</div>
-      </a>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/observability-for-your-llm-powered-apps-otel-instrumentation-for-rubyllm" target="_blank" style="color:inherit;text-decoration:none;">See Inside Your LLM Calls with OpenTelemetry</a><span class="permalink" onclick="copyLink('rss-see-inside-your-llm-calls-with-opentelemetry')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
       <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-18</div>
-      <div class="body-text" style="font-size:13.5px;">LLM calls disappear into production darkness. This shows how to instrument RubyLLM with OpenTelemetry for real observability—tracking tokens, latency, errors, and behavior across your app. Essential for anyone running AI in production.</div>
+      <div class="body-text" style="font-size:13.5px;">LLM integrations are black boxes in production—slow to debug, impossible to optimize. Learn how to instrument RubyLLM apps with OpenTelemetry to get structured visibility into latency, costs, and failures where it matters most.</div>
     </div>
   </div>
     </div>
     <div class="x-col">
       <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
       
-    <div class="x-item">
-      <div class="x-handle">@Teortaxes</div>
-      <div class="x-headline">Hajnali Cycle Theory Vindicated Again</div>
-      <div class="x-body">DeepSeek's explosive rise validates decades-old predictions about technological disruption timing. When fringe theories start looking prescient, it's time to take them seriously—or at least understand why the market is.</div>
+    <div class="x-item" id="x-cryptic-confidence-in-uncertain-times">
+      <div class="x-handle">@Gait Analyst<span class="permalink" onclick="copyLink('x-cryptic-confidence-in-uncertain-times')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Cryptic confidence in uncertain times</div>
+      <div class="x-body">Three words carrying the weight of conviction without context—a tell that tech's true believers are regrouping. When platforms become echo chambers, even vague affirmations signal tribal realignment.</div>
     </div>
-    <div class="x-item">
-      <div class="x-handle">@Outa</div>
-      <div class="x-headline">Platform Dependency as Modern Servitude</div>
-      <div class="x-body">Whether Carlson chose it or not misses the point—his observation exposes how creator economics creates golden handcuffs. The real insight: algorithmic distribution is the new landlord.</div>
+    <div class="x-item" id="x-credit-gatekeeping-crushes-financial-mobility">
+      <div class="x-handle">@kalomaze<span class="permalink" onclick="copyLink('x-credit-gatekeeping-crushes-financial-mobility')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Credit gatekeeping crushes financial mobility</div>
+      <div class="x-body">The fintech revolution promised frictionless access; instead, it hardened the same institutional barriers it claimed to disrupt. Young people locked out of payment rails face a Catch-22 that no app can solve.</div>
     </div>
-    <div class="x-item">
-      <div class="x-handle">@goth</div>
-      <div class="x-headline">Utility Finds Value in Chaos</div>
-      <div class="x-body">Dismissing mass intelligence as dumb while extracting its value is the tech industry's favorite contradiction. This cuts to how AI training, crowd-sourced data, and network effects depend on populations they simultaneously mock.</div>
+    <div class="x-item" id="x-decentralization-meets-geopolitical-reality">
+      <div class="x-handle">@何流 | Liu He<span class="permalink" onclick="copyLink('x-decentralization-meets-geopolitical-reality')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Decentralization meets geopolitical reality</div>
+      <div class="x-body">Stating the obvious shouldn't be radical, yet it is—an implicit critique of the nation-state internet fragmenting before our eyes. This matters because the dream of a borderless web is actively dying.</div>
     </div>
     </div>
   </div>
   <div class="page-nav"><a  href="index.html">Page 1</a>
       <a class="current" href="page2.html">Page 2</a></div>
   <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Tuesday, March 24, 2026</span>
+    <span>The Sid Dispatch &nbsp;·&nbsp; Wednesday, March 25, 2026</span>
     <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:05 AM EDT</span>
+    <span>Generated 07:04 AM EDT</span>
   </footer>
 </div>
 
@@ -224,6 +218,15 @@
   <button onclick="closePlayer()" title="Close">✕</button>
 </div>
 <script>
+function copyLink(slug) {
+  var url = location.origin + location.pathname + '#' + slug;
+  navigator.clipboard.writeText(url).then(function() {
+    var el = document.getElementById(slug);
+    if (!el) return;
+    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
+    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
+  });
+}
 (function() {
   const synth = window.speechSynthesis;
   if (!synth) return;
