@@ -1,53 +1,73 @@
+- title: Auto mode for Claude Code
+  url: "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything"
+  date: 2026-03-24
+  source: Simon Willison
+  category: ai
+- title: Package Managers Need to Cool Down
+  url: "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything"
+  date: 2026-03-24
+  source: Simon Willison
+  category: ai
+- title: Quoting Christopher Mims
+  url: "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything"
+  date: 2026-03-24
+  source: Simon Willison
+  category: ai
+- title: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer
+  url: "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything"
+  date: 2026-03-24
+  source: Simon Willison
+  category: ai
 - title: Streaming experts
   url: "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything"
   date: 2026-03-24
   source: Simon Willison
   category: ai
-- title: Quoting Neurotica
-  url: "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything"
-  date: 2026-03-23
-  source: Simon Willison
-  category: ai
-- title: datasette-files 0.1a2
-  url: "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything"
-  date: 2026-03-23
-  source: Simon Willison
-  category: ai
-- title: Quoting David Abram
-  url: "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything"
-  date: 2026-03-23
-  source: Simon Willison
-  category: ai
-- title: Beats now have notes
-  url: "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything"
-  date: 2026-03-23
-  source: Simon Willison
-  category: ai
-- title: Claude Code Cheat Sheet
-  url: "https://cc.storyfox.cz"
-  date: 2026-03-23
+- title: "Is anybody else bored of talking about AI?"
+  url: "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/"
+  date: 2026-03-24
   source: Hacker News Best
   category: programming
-- title: FCC updates covered list to include foreign-made consumer routers
-  url: "https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers"
-  date: 2026-03-23
+- title: GitHub is once again down
+  url: "https://www.githubstatus.com/incidents/kp06czybl7dw"
+  date: 2026-03-24
   source: Hacker News Best
   category: programming
-- title: Autoresearch on an old research idea
-  url: "https://ykumar.me/blog/eclip-autoresearch/"
-  date: 2026-03-23
+- title: Goodbye to Sora
+  url: "https://twitter.com/soraofficialapp/status/2036532795984715896"
+  date: 2026-03-24
   source: Hacker News Best
   category: programming
-- title: "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects"
-  url: "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html"
-  date: 2026-03-23
+- title: Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains
+  url: "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/"
+  date: 2026-03-24
   source: Hacker News Best
   category: programming
-- title: iPhone 17 Pro Demonstrated Running a 400B LLM
-  url: "https://twitter.com/anemll/status/2035901335984611412"
-  date: 2026-03-23
+- title: "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller"
+  url: "https://videojs.org/blog/videojs-v10-beta-hello-world-again"
+  date: 2026-03-24
   source: Hacker News Best
   category: programming
+- title: The clock in our genes
+  url: "https://aeon.co/essays/far-from-junk-the-clock-in-our-dna-and-its-discoverer?utm_source=rss-feed"
+  date: 2026-03-24
+  source: Aeon
+  category: philosophy
+- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
+  url: "https://www.themarginalian.org/2026/03/24/bruce-springsteen-depression/"
+  date: 2026-03-24
+  source: The Marginalian
+  category: philosophy
+- title: "Create Dangerously: Albert Camus on the Power of Art as Resistance and Creativity as an Instrument of Freedom"
+  url: "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously/"
+  date: 2026-03-24
+  source: The Marginalian
+  category: philosophy
+- title: "The Invention of Zero: How Ancient Mesopotamia Created the Mathematical Concept of Nought and Ancient India Gave It Symbolic Form"
+  url: "https://www.themarginalian.org/2026/03/24/zero-robert-kaplan/"
+  date: 2026-03-24
+  source: The Marginalian
+  category: philosophy
 - title: The city that wasted nothing
   url: "https://aeon.co/videos/the-extraordinary-efficiency-of-japans-edo-economy?utm_source=rss-feed"
   date: 2026-03-23
@@ -68,21 +88,6 @@
   date: 2026-03-23
   source: The Marginalian
   category: philosophy
-- title: "The Music of Trees: Improvisation, Iteration, and the Science of Immortality"
-  url: "https://www.themarginalian.org/2026/03/22/old-growth-orion/"
-  date: 2026-03-22
-  source: The Marginalian
-  category: philosophy
-- title: "Place, Personhood, and the Hippocampus: The Fascinating Science of Magnetism, Autonoeic Consciousness, and What Makes Us Who We Are"
-  url: "https://www.themarginalian.org/2026/03/21/wayfinding-m-r-oconnor/"
-  date: 2026-03-22
-  source: The Marginalian
-  category: philosophy
-- title: "The Art of Solitude: Buddhist Scholar and Teacher Stephen Batchelor on Contemplative Practice and Creativity"
-  url: "https://www.themarginalian.org/2026/03/21/the-art-of-solitude-stephen-batchelor/"
-  date: 2026-03-21
-  source: The Marginalian
-  category: philosophy
 - title: "Bitch: a history"
   url: "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power?utm_source=rss-feed"
   date: 2026-03-20
@@ -90,11 +95,6 @@
   category: philosophy
 - title: Running against time
   url: "https://aeon.co/videos/movement-is-a-life-philosophy-for-an-87-year-old-runner?utm_source=rss-feed"
-  date: 2026-03-19
-  source: Aeon
-  category: philosophy
-- title: Geist in the machine
-  url: "https://aeon.co/essays/if-we-hope-to-build-artificial-souls-where-should-we-start?utm_source=rss-feed"
   date: 2026-03-19
   source: Aeon
   category: philosophy
