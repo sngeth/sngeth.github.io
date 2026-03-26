@@ -1,53 +1,73 @@
+- title: datasette-files-s3 0.1a1
+  url: "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything"
+  date: 2026-03-25
+  source: Simon Willison
+  category: ai
+- title: Thoughts on slowing the fuck down
+  url: "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything"
+  date: 2026-03-25
+  source: Simon Willison
+  category: ai
+- title: datasette-llm 0.1a1
+  url: "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything"
+  date: 2026-03-25
+  source: Simon Willison
+  category: ai
+- title: "LiteLLM Hack: Were You One of the 47,000?"
+  url: "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything"
+  date: 2026-03-25
+  source: Simon Willison
+  category: ai
+- title: "Running Tesla Model 3's computer on my desk using parts from crashed cars"
+  url: "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/"
+  date: 2026-03-25
+  source: Hacker News Best
+  category: programming
+- title: The EU still wants to scan  your private messages and photos
+  url: "https://fightchatcontrol.eu/?foo=bar"
+  date: 2026-03-25
+  source: Hacker News Best
+  category: programming
+- title: Meta and YouTube found negligent in landmark social media addiction case
+  url: "https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html"
+  date: 2026-03-25
+  source: Hacker News Best
+  category: programming
+- title: Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote
+  url: "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a"
+  date: 2026-03-25
+  source: Hacker News Best
+  category: programming
+- title: Antimatter has been transported for the first time
+  url: "https://www.nature.com/articles/d41586-026-00950-w"
+  date: 2026-03-25
+  source: Hacker News Best
+  category: programming
+- title: "Being in the world: technology and humanity"
+  url: "https://aeon.co/videos/as-technologies-mine-our-attention-we-must-look-to-artists?utm_source=rss-feed"
+  date: 2026-03-25
+  source: Aeon
+  category: philosophy
+- title: "Gardening as Resistance: Notes on Building Paradise"
+  url: "https://www.themarginalian.org/2026/03/25/gardening-art-resistance/"
+  date: 2026-03-25
+  source: The Marginalian
+  category: philosophy
+- title: How to Stop Doing and Start Living
+  url: "https://www.themarginalian.org/2026/03/25/the-comfort-of-crows/"
+  date: 2026-03-25
+  source: The Marginalian
+  category: philosophy
+- title: "Telling Is Listening: Ursula K. Le Guin on the Magic of Real Human Conversation"
+  url: "https://www.themarginalian.org/2026/03/25/telling-is-listening-ursula-k-le-guin-communication/"
+  date: 2026-03-25
+  source: The Marginalian
+  category: philosophy
 - title: Auto mode for Claude Code
   url: "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything"
   date: 2026-03-24
   source: Simon Willison
   category: ai
-- title: Package Managers Need to Cool Down
-  url: "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything"
-  date: 2026-03-24
-  source: Simon Willison
-  category: ai
-- title: Quoting Christopher Mims
-  url: "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything"
-  date: 2026-03-24
-  source: Simon Willison
-  category: ai
-- title: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer
-  url: "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything"
-  date: 2026-03-24
-  source: Simon Willison
-  category: ai
-- title: Streaming experts
-  url: "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything"
-  date: 2026-03-24
-  source: Simon Willison
-  category: ai
-- title: "Is anybody else bored of talking about AI?"
-  url: "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/"
-  date: 2026-03-24
-  source: Hacker News Best
-  category: programming
-- title: GitHub is once again down
-  url: "https://www.githubstatus.com/incidents/kp06czybl7dw"
-  date: 2026-03-24
-  source: Hacker News Best
-  category: programming
-- title: Goodbye to Sora
-  url: "https://twitter.com/soraofficialapp/status/2036532795984715896"
-  date: 2026-03-24
-  source: Hacker News Best
-  category: programming
-- title: Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains
-  url: "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/"
-  date: 2026-03-24
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller"
-  url: "https://videojs.org/blog/videojs-v10-beta-hello-world-again"
-  date: 2026-03-24
-  source: Hacker News Best
-  category: programming
 - title: The clock in our genes
   url: "https://aeon.co/essays/far-from-junk-the-clock-in-our-dna-and-its-discoverer?utm_source=rss-feed"
   date: 2026-03-24
@@ -63,11 +83,6 @@
   date: 2026-03-24
   source: The Marginalian
   category: philosophy
-- title: "The Invention of Zero: How Ancient Mesopotamia Created the Mathematical Concept of Nought and Ancient India Gave It Symbolic Form"
-  url: "https://www.themarginalian.org/2026/03/24/zero-robert-kaplan/"
-  date: 2026-03-24
-  source: The Marginalian
-  category: philosophy
 - title: The city that wasted nothing
   url: "https://aeon.co/videos/the-extraordinary-efficiency-of-japans-edo-economy?utm_source=rss-feed"
   date: 2026-03-23
@@ -78,24 +93,9 @@
   date: 2026-03-23
   source: Aeon
   category: philosophy
-- title: "Something Deeper Than Hope: Terry Tempest Williams on Our Stays Against Despair"
-  url: "https://www.themarginalian.org/2026/03/23/glorians/"
-  date: 2026-03-23
-  source: The Marginalian
-  category: philosophy
-- title: "Life, Loss, and the Wisdom of Rivers"
-  url: "https://www.themarginalian.org/2026/03/22/olivia-laing-to-the-river/"
-  date: 2026-03-23
-  source: The Marginalian
-  category: philosophy
 - title: "Bitch: a history"
   url: "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power?utm_source=rss-feed"
   date: 2026-03-20
-  source: Aeon
-  category: philosophy
-- title: Running against time
-  url: "https://aeon.co/videos/movement-is-a-life-philosophy-for-an-87-year-old-runner?utm_source=rss-feed"
-  date: 2026-03-19
   source: Aeon
   category: philosophy
 - title: Examples for the tcpdump and dig man pages
