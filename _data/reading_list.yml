@@ -1,3 +1,63 @@
+- title: "We Rewrote JSONata with AI in a Day, Saved $500K/Year"
+  url: "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything"
+  date: 2026-03-27
+  source: Simon Willison
+  category: ai
+- title: "The Bird in the Heart: Terry Tempest Williams on the Paradox of Transformation and How to Live with Uncertainty"
+  url: "https://www.themarginalian.org/2026/03/26/when-women-were-birds/"
+  date: 2026-03-27
+  source: The Marginalian
+  category: philosophy
+- title: My minute-by-minute response to the LiteLLM malware attack
+  url: "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything"
+  date: 2026-03-26
+  source: Simon Willison
+  category: ai
+- title: Quantization from the ground up
+  url: "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything"
+  date: 2026-03-26
+  source: Simon Willison
+  category: ai
+- title: "Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label"
+  url: "https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk"
+  date: 2026-03-26
+  source: Hacker News Best
+  category: programming
+- title: New York City hospitals drop Palantir as controversial AI firm expands in UK
+  url: "https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai"
+  date: 2026-03-26
+  source: Hacker News Best
+  category: programming
+- title: "We haven't seen the worst of what gambling and prediction markets will do"
+  url: "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what"
+  date: 2026-03-26
+  source: Hacker News Best
+  category: programming
+- title: My minute-by-minute response to the LiteLLM malware attack
+  url: "https://futuresearch.ai/blog/litellm-attack-transcript/"
+  date: 2026-03-26
+  source: Hacker News Best
+  category: programming
+- title: "Moving from GitHub to Codeberg, for lazy people"
+  url: "https://unterwaditzer.net/2025/codeberg.html"
+  date: 2026-03-26
+  source: Hacker News Best
+  category: programming
+- title: She never dances alone
+  url: "https://aeon.co/videos/a-joyful-dance-celebration-of-indigenous-matriarchy?utm_source=rss-feed"
+  date: 2026-03-26
+  source: Aeon
+  category: philosophy
+- title: "One China, one world"
+  url: "https://aeon.co/essays/why-china-insists-on-internal-unity-and-international-harmony?utm_source=rss-feed"
+  date: 2026-03-26
+  source: Aeon
+  category: philosophy
+- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
+  url: "https://www.themarginalian.org/2026/03/26/henry-james-the-beast-in-the-jungle/"
+  date: 2026-03-26
+  source: The Marginalian
+  category: philosophy
 - title: datasette-files-s3 0.1a1
   url: "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything"
   date: 2026-03-25
@@ -8,41 +68,6 @@
   date: 2026-03-25
   source: Simon Willison
   category: ai
-- title: datasette-llm 0.1a1
-  url: "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything"
-  date: 2026-03-25
-  source: Simon Willison
-  category: ai
-- title: "LiteLLM Hack: Were You One of the 47,000?"
-  url: "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything"
-  date: 2026-03-25
-  source: Simon Willison
-  category: ai
-- title: "Running Tesla Model 3's computer on my desk using parts from crashed cars"
-  url: "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/"
-  date: 2026-03-25
-  source: Hacker News Best
-  category: programming
-- title: The EU still wants to scan  your private messages and photos
-  url: "https://fightchatcontrol.eu/?foo=bar"
-  date: 2026-03-25
-  source: Hacker News Best
-  category: programming
-- title: Meta and YouTube found negligent in landmark social media addiction case
-  url: "https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html"
-  date: 2026-03-25
-  source: Hacker News Best
-  category: programming
-- title: Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote
-  url: "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a"
-  date: 2026-03-25
-  source: Hacker News Best
-  category: programming
-- title: Antimatter has been transported for the first time
-  url: "https://www.nature.com/articles/d41586-026-00950-w"
-  date: 2026-03-25
-  source: Hacker News Best
-  category: programming
 - title: "Being in the world: technology and humanity"
   url: "https://aeon.co/videos/as-technologies-mine-our-attention-we-must-look-to-artists?utm_source=rss-feed"
   date: 2026-03-25
@@ -63,39 +88,14 @@
   date: 2026-03-25
   source: The Marginalian
   category: philosophy
-- title: Auto mode for Claude Code
-  url: "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything"
-  date: 2026-03-24
-  source: Simon Willison
-  category: ai
 - title: The clock in our genes
   url: "https://aeon.co/essays/far-from-junk-the-clock-in-our-dna-and-its-discoverer?utm_source=rss-feed"
   date: 2026-03-24
   source: Aeon
   category: philosophy
-- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
-  url: "https://www.themarginalian.org/2026/03/24/bruce-springsteen-depression/"
-  date: 2026-03-24
-  source: The Marginalian
-  category: philosophy
-- title: "Create Dangerously: Albert Camus on the Power of Art as Resistance and Creativity as an Instrument of Freedom"
-  url: "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously/"
-  date: 2026-03-24
-  source: The Marginalian
-  category: philosophy
 - title: The city that wasted nothing
   url: "https://aeon.co/videos/the-extraordinary-efficiency-of-japans-edo-economy?utm_source=rss-feed"
   date: 2026-03-23
-  source: Aeon
-  category: philosophy
-- title: An African philosophy
-  url: "https://aeon.co/essays/how-lansana-keita-reinvigorated-african-philosophy?utm_source=rss-feed"
-  date: 2026-03-23
-  source: Aeon
-  category: philosophy
-- title: "Bitch: a history"
-  url: "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power?utm_source=rss-feed"
-  date: 2026-03-20
   source: Aeon
   category: philosophy
 - title: Examples for the tcpdump and dig man pages
