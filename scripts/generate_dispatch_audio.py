@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "mlx-audio",
+#     "mlx-audio @ git+https://github.com/Blaizzy/mlx-audio.git",
 #     "beautifulsoup4",
 #     "lxml",
 #     "pydub",
