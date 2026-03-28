@@ -26,6 +26,10 @@ from datetime import date
 from pathlib import Path
 
 from bs4 import BeautifulSoup
+import numpy as np
+from mlx_audio.tts.utils import load_model
+from mlx_audio.audio_io import write as audio_write
+from pydub import AudioSegment
 
 DISPATCH_DIR = Path(__file__).resolve().parent.parent / "dispatch"
 REPO = "sngeth/sngeth.github.io"
@@ -134,6 +138,46 @@ def extract_stories(html_path: Path) -> list[dict]:
     return stories
 
 
+def generate_story_audio(
+    model, text: str, voice: str, output_path: Path
+) -> float | None:
+    """Generate MP3 for a single story. Returns duration in seconds or None on failure."""
+    wav_path = output_path.with_suffix(".wav")
+    try:
+        for result in model.generate(text=text, voice=voice):
+            audio_write(str(wav_path), np.array(result.audio), result.sample_rate)
+            log.info(
+                "  Generated %.1fs audio (RTF: %.2fx, peak mem: %.1fGB)",
+                result.audio_duration,
+                result.real_time_factor,
+                result.peak_memory_usage,
+            )
+    except Exception as e:
+        log.warning("  TTS failed: %s", e)
+        return None
+
+    # Encode to 64kbps mono MP3
+    segment = AudioSegment.from_wav(str(wav_path))
+    segment = segment.set_channels(1)
+    segment.export(str(output_path), format="mp3", bitrate="64k")
+    wav_path.unlink()
+
+    duration_sec = len(segment) / 1000.0
+    return duration_sec
+
+
+def generate_full_edition(story_mp3s: list[Path], output_path: Path) -> float:
+    """Concatenate story MP3s with 1.5s silence between each. Returns total duration."""
+    silence = AudioSegment.silent(duration=1500)
+    combined = AudioSegment.empty()
+    for i, mp3 in enumerate(story_mp3s):
+        if i > 0:
+            combined += silence
+        combined += AudioSegment.from_mp3(str(mp3))
+    combined.export(str(output_path), format="mp3", bitrate="64k")
+    return len(combined) / 1000.0
+
+
 def main() -> None:
     args = parse_args()
 
@@ -171,8 +215,40 @@ def main() -> None:
         print(f"\nEstimated audio: ~{sum(len(s['text'].split()) for s in all_stories) // 150} min")
         return
 
-    # Phases 2-4 will be added in subsequent tasks
-    log.info("Audio generation not yet implemented. Use --dry-run to preview.")
+    # Phase 2: Generate audio
+    log.info("Loading Voxtral model (first run downloads ~8GB)...")
+    model = load_model(MODEL_ID)
+
+    tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
+    log.info("Working directory: %s", tmp_dir)
+
+    story_mp3s = []
+    story_durations = {}
+    for i, story in enumerate(all_stories, 1):
+        mp3_name = f"story-{i:02d}.mp3"
+        mp3_path = tmp_dir / mp3_name
+        log.info("Generating %s: %s...", mp3_name, story["headline"][:50])
+        duration = generate_story_audio(model, story["text"], args.voice, mp3_path)
+        if duration is not None:
+            story_mp3s.append(mp3_path)
+            story_durations[mp3_name] = duration
+            story["mp3_name"] = mp3_name
+            story["duration"] = duration
+        else:
+            log.warning("Skipping %s due to generation failure", mp3_name)
+
+    if not story_mp3s:
+        log.error("All story generations failed. Exiting.")
+        sys.exit(1)
+
+    full_path = tmp_dir / "full-edition.mp3"
+    log.info("Concatenating %d stories into full-edition.mp3...", len(story_mp3s))
+    full_duration = generate_full_edition(story_mp3s, full_path)
+    log.info("Full edition: %.1f min", full_duration / 60)
+
+    # Phases 3-4 will be added in subsequent tasks
+    log.info("Upload and HTML patching not yet implemented.")
+    log.info("Audio files in: %s", tmp_dir)
 
 
 if __name__ == "__main__":
