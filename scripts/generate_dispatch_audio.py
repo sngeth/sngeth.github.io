@@ -148,7 +148,7 @@ def generate_story_audio(
         for result in model.generate(text=text, voice=voice):
             audio_write(str(wav_path), np.array(result.audio), result.sample_rate)
             log.info(
-                "  Generated %.1fs audio (RTF: %.2fx, peak mem: %.1fGB)",
+                "  Generated %s audio (RTF: %.2fx, peak mem: %.1fGB)",
                 result.audio_duration,
                 result.real_time_factor,
                 result.peak_memory_usage,
