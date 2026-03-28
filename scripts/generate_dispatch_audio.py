@@ -371,6 +371,12 @@ def patch_html(
 def main() -> None:
     args = parse_args()
 
+    # Verify external tools
+    for tool in ["gh", "ffmpeg"]:
+        if subprocess.run(["which", tool], capture_output=True).returncode != 0:
+            log.error("%s not found. Install it first.", tool)
+            sys.exit(1)
+
     # Extract stories from both pages
     all_stories = []
     for page in ["index.html", "page2.html"]:
@@ -463,6 +469,10 @@ def main() -> None:
     patch_html(page1_path, page1_stories, base_url, edition_date, full_duration, is_page1=True)
     if page2_path.exists() and page2_stories:
         patch_html(page2_path, page2_stories, base_url, edition_date, full_duration, is_page1=False)
+
+    # Cleanup temp files
+    import shutil
+    shutil.rmtree(tmp_dir, ignore_errors=True)
 
     log.info("Done! Audio: %s, HTML patched.", base_url)
 
