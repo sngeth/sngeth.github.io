@@ -178,6 +178,196 @@ def generate_full_edition(story_mp3s: list[Path], output_path: Path) -> float:
     return len(combined) / 1000.0
 
 
+def upload_to_release(tag: str, title: str, files: list[Path]) -> str:
+    """Upload MP3s as GitHub Release assets. Returns the release download base URL."""
+    check = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", REPO],
+        capture_output=True,
+    )
+    if check.returncode == 0:
+        log.info("Deleting existing release %s...", tag)
+        subprocess.run(
+            ["gh", "release", "delete", tag, "--yes", "--cleanup-tag", "--repo", REPO],
+            check=True,
+        )
+
+    cmd = [
+        "gh", "release", "create", tag,
+        "--repo", REPO,
+        "--title", title,
+        "--notes", f"Auto-generated TTS audio for {tag.replace('dispatch-audio-', '')}",
+    ] + [str(f) for f in files]
+    log.info("Creating release %s with %d files...", tag, len(files))
+    subprocess.run(cmd, check=True)
+
+    return f"https://github.com/{REPO}/releases/download/{tag}"
+
+
+def strip_old_player(soup: BeautifulSoup) -> None:
+    """Remove the Web Speech API player elements if present."""
+    for id_ in ("dispatch-player", "player-toggle"):
+        el = soup.find(id=id_)
+        if el:
+            el.decompose()
+            log.info("  Stripped #%s", id_)
+
+    for script in soup.find_all("script"):
+        if script.string and (
+            "speechSynthesis" in script.string or "window.togglePlay" in script.string
+        ):
+            script.decompose()
+            log.info("  Stripped speechSynthesis script")
+
+    for style in soup.find_all("style"):
+        if style.string and ".reading-active" in style.string:
+            style.string = re.sub(
+                r"\.reading-active\s*\{[^}]*\}", "", style.string
+            )
+            log.info("  Stripped .reading-active CSS")
+
+    for style in soup.find_all("style"):
+        if style.string:
+            for sel in ("#dispatch-player", "#player-toggle", "#player-title", "#player-progress"):
+                style.string = re.sub(
+                    rf"{re.escape(sel)}[^{{]*\{{[^}}]*\}}", "", style.string
+                )
+
+
+def fmt_duration(seconds: float) -> str:
+    """Format seconds as M:SS."""
+    m, s = divmod(int(seconds), 60)
+    return f"{m}:{s:02d}"
+
+
+def inject_masthead_player(
+    soup: BeautifulSoup, full_edition_url: str, edition_date: str, duration: float
+) -> None:
+    """Inject 'The Daily Listen' masthead player between masthead and first section-label."""
+    masthead = soup.select_one(".masthead")
+    section_label = soup.select_one(".section-label")
+    if not masthead or not section_label:
+        log.warning("Could not find masthead or section-label for player injection")
+        return
+
+    player_html = f"""<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+  <audio id="masthead-audio" src="{full_edition_url}" preload="none" controls style="flex:1;height:36px;"></audio>
+  <div style="text-align:right;">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+    <div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">{edition_date} &middot; {fmt_duration(duration)}</div>
+  </div>
+</div>"""
+
+    player_tag = BeautifulSoup(player_html, "lxml").body.contents[0]
+    section_label.insert_before(player_tag)
+    log.info("  Injected masthead player")
+
+
+def inject_story_pills(
+    soup: BeautifulSoup, stories: list[dict], base_url: str
+) -> None:
+    """Inject LISTEN pill buttons after each story's .byline element."""
+    injected = 0
+    for story in stories:
+        if "mp3_name" not in story:
+            continue
+        byline = story["element"].find(class_="byline")
+        if not byline:
+            continue
+
+        url = f"{base_url}/{story['mp3_name']}"
+        dur = fmt_duration(story["duration"])
+        pill_html = (
+            f'<span class="listen-pill" data-src="{url}" '
+            f'style="display:inline-flex;align-items:center;gap:6px;'
+            f"padding:3px 10px;border:1px solid var(--light);border-radius:3px;"
+            f'margin-left:8px;cursor:pointer;font-family:\'IBM Plex Mono\',monospace;'
+            f'font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;">'
+            f'<span style="color:var(--dark-red);font-size:10px;">&#9654;</span>'
+            f" LISTEN &middot; {dur}</span>"
+        )
+        pill_tag = BeautifulSoup(pill_html, "lxml").body.contents[0]
+        byline.append(pill_tag)
+        injected += 1
+
+    log.info("  Injected %d story pills", injected)
+
+
+def inject_player_js(soup: BeautifulSoup) -> None:
+    """Inject minimal JS for per-story pill playback before </body>."""
+    js = """
+(function() {
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
+
+  var activePill = null;
+
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
+    }
+  }
+
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
+  }
+
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      player.src = src;
+      player.play();
+      activate(this);
+    });
+  });
+})();"""
+    script_tag = soup.new_tag("script")
+    script_tag.string = js
+    soup.body.append(script_tag)
+    log.info("  Injected player JavaScript")
+
+
+def patch_html(
+    html_path: Path,
+    stories: list[dict],
+    base_url: str,
+    edition_date: str,
+    full_duration: float,
+    is_page1: bool,
+) -> None:
+    """Patch a dispatch HTML file: strip old player, inject new players."""
+    log.info("Patching %s...", html_path.name)
+    soup = BeautifulSoup(html_path.read_text(), "lxml")
+
+    strip_old_player(soup)
+
+    if is_page1:
+        full_url = f"{base_url}/full-edition.mp3"
+        inject_masthead_player(soup, full_url, edition_date, full_duration)
+
+    inject_story_pills(soup, stories, base_url)
+    inject_player_js(soup)
+
+    html_path.write_text(soup.decode(formatter="minimal"))
+    log.info("  Wrote %s", html_path)
+
+
 def main() -> None:
     args = parse_args()
 
@@ -246,9 +436,35 @@ def main() -> None:
     full_duration = generate_full_edition(story_mp3s, full_path)
     log.info("Full edition: %.1f min", full_duration / 60)
 
-    # Phases 3-4 will be added in subsequent tasks
-    log.info("Upload and HTML patching not yet implemented.")
-    log.info("Audio files in: %s", tmp_dir)
+    # Phase 3: Upload to GitHub Releases
+    all_files = [full_path] + story_mp3s
+    title = f"Dispatch Audio \u2014 {args.date.isoformat()}"
+    base_url = upload_to_release(tag, title, all_files)
+    log.info("Uploaded to %s", base_url)
+
+    # Phase 4: Patch HTML files
+    page1_path = DISPATCH_DIR / "index.html"
+    page2_path = DISPATCH_DIR / "page2.html"
+
+    page1_stories = extract_stories(page1_path)
+    page2_stories = extract_stories(page2_path) if page2_path.exists() else []
+
+    audio_by_headline = {s["headline"]: s for s in all_stories if "mp3_name" in s}
+    for stories in [page1_stories, page2_stories]:
+        for s in stories:
+            match = audio_by_headline.get(s["headline"])
+            if match:
+                s["mp3_name"] = match["mp3_name"]
+                s["duration"] = match["duration"]
+
+    title_tag = BeautifulSoup(page1_path.read_text(), "lxml").title
+    edition_date = title_tag.string.split("\u2014")[-1].strip() if title_tag else args.date.isoformat()
+
+    patch_html(page1_path, page1_stories, base_url, edition_date, full_duration, is_page1=True)
+    if page2_path.exists() and page2_stories:
+        patch_html(page2_path, page2_stories, base_url, edition_date, full_duration, is_page1=False)
+
+    log.info("Done! Audio: %s, HTML patched.", base_url)
 
 
 if __name__ == "__main__":
