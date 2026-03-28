@@ -19,6 +19,7 @@ Releases, and patches HTML with <audio> players.
 import argparse
 import logging
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -154,6 +155,10 @@ def generate_story_audio(
             )
     except Exception as e:
         log.warning("  TTS failed: %s", e)
+        return None
+
+    if not wav_path.exists():
+        log.warning("  No audio output generated")
         return None
 
     # Encode to 64kbps mono MP3
@@ -371,12 +376,6 @@ def patch_html(
 def main() -> None:
     args = parse_args()
 
-    # Verify external tools
-    for tool in ["gh", "ffmpeg"]:
-        if subprocess.run(["which", tool], capture_output=True).returncode != 0:
-            log.error("%s not found. Install it first.", tool)
-            sys.exit(1)
-
     # Extract stories from both pages
     all_stories = []
     for page in ["index.html", "page2.html"]:
@@ -410,6 +409,12 @@ def main() -> None:
         print(f"\n  full-edition.mp3  (concatenation of all above)")
         print(f"\nEstimated audio: ~{sum(len(s['text'].split()) for s in all_stories) // 150} min")
         return
+
+    # Verify external tools (not needed for dry-run)
+    for tool in ["gh", "ffmpeg"]:
+        if subprocess.run(["which", tool], capture_output=True).returncode != 0:
+            log.error("%s not found. Install it first.", tool)
+            sys.exit(1)
 
     # Phase 2: Generate audio
     log.info("Loading Voxtral model (first run downloads ~8GB)...")
@@ -471,7 +476,6 @@ def main() -> None:
         patch_html(page2_path, page2_stories, base_url, edition_date, full_duration, is_page1=False)
 
     # Cleanup temp files
-    import shutil
     shutil.rmtree(tmp_dir, ignore_errors=True)
 
     log.info("Done! Audio: %s, HTML patched.", base_url)
