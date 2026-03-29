@@ -1,3 +1,48 @@
+- title: Quoting Matt Webb
+  url: "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
+  date: 2026-03-28
+  source: Simon Willison
+  category: ai
+- title: South Korea Mandates Solar Panels for Public Parking Lots
+  url: "https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ"
+  date: 2026-03-28
+  source: Hacker News Best
+  category: programming
+- title: CSS is DOOMed
+  url: "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/"
+  date: 2026-03-28
+  source: Hacker News Best
+  category: programming
+- title: Founder of GitLab battles cancer by founding companies
+  url: "https://sytse.com/cancer/"
+  date: 2026-03-28
+  source: Hacker News Best
+  category: programming
+- title: "I decompiled the White House's new app"
+  url: "https://thereallo.dev/blog/decompiling-the-white-house-app"
+  date: 2026-03-28
+  source: Hacker News Best
+  category: programming
+- title: "Folk are getting dangerously attached to AI that always tells them they're right"
+  url: "https://www.theregister.com/2026/03/27/sycophantic_ai_risks/"
+  date: 2026-03-28
+  source: Hacker News Best
+  category: programming
+- title: "The Courage to Be Yourself: Virginia Woolf on How to Hear Your Soul"
+  url: "https://www.themarginalian.org/2026/03/28/virginia-woolf-soul/"
+  date: 2026-03-28
+  source: The Marginalian
+  category: philosophy
+- title: "Emerson on Talent vs. Character, Our Resistance to Change, and the Key to True Personal Growth"
+  url: "https://www.themarginalian.org/2026/03/28/emerson-circles/"
+  date: 2026-03-28
+  source: The Marginalian
+  category: philosophy
+- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
+  url: "https://www.themarginalian.org/2026/03/28/martha-nussbaum-loves-knowledge/"
+  date: 2026-03-28
+  source: The Marginalian
+  category: philosophy
 - title: datasette-showboat 0.1a2
   url: "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything"
   date: 2026-03-27
@@ -18,31 +63,6 @@
   date: 2026-03-27
   source: Simon Willison
   category: ai
-- title: "DOJ confirms FBI Director Kash Patel's personal email was hacked"
-  url: "https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/"
-  date: 2026-03-27
-  source: Hacker News Best
-  category: programming
-- title: "If you don't opt out by Apr 24 GitHub will train on your private repos"
-  url: "https://news.ycombinator.com/item?id=47548243"
-  date: 2026-03-27
-  source: Hacker News Best
-  category: programming
-- title: Make macOS consistently bad unironically
-  url: "https://lr0.org/blog/p/macos/"
-  date: 2026-03-27
-  source: Hacker News Best
-  category: programming
-- title: AI got the blame for the Iran school bombing. The truth is more worrying
-  url: "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying"
-  date: 2026-03-27
-  source: Hacker News Best
-  category: programming
-- title: Desk for people who work at home with a cat
-  url: "https://soranews24.com/2026/03/27/japan-now-has-a-special-desk-for-people-who-work-at-home-with-a-pet-catphotos/"
-  date: 2026-03-27
-  source: Hacker News Best
-  category: programming
 - title: Catastrophe markets
   url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
   date: 2026-03-27
@@ -58,16 +78,6 @@
   date: 2026-03-27
   source: The Marginalian
   category: philosophy
-- title: "The Bird in the Heart: Terry Tempest Williams on the Paradox of Transformation and How to Live with Uncertainty"
-  url: "https://www.themarginalian.org/2026/03/26/when-women-were-birds/"
-  date: 2026-03-27
-  source: The Marginalian
-  category: philosophy
-- title: My minute-by-minute response to the LiteLLM malware attack
-  url: "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything"
-  date: 2026-03-26
-  source: Simon Willison
-  category: ai
 - title: She never dances alone
   url: "https://aeon.co/videos/a-joyful-dance-celebration-of-indigenous-matriarchy?utm_source=rss-feed"
   date: 2026-03-26
@@ -78,20 +88,10 @@
   date: 2026-03-26
   source: Aeon
   category: philosophy
-- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
-  url: "https://www.themarginalian.org/2026/03/26/henry-james-the-beast-in-the-jungle/"
-  date: 2026-03-26
-  source: The Marginalian
-  category: philosophy
 - title: "Being in the world: technology and humanity"
   url: "https://aeon.co/videos/as-technologies-mine-our-attention-we-must-look-to-artists?utm_source=rss-feed"
   date: 2026-03-25
   source: Aeon
-  category: philosophy
-- title: "Gardening as Resistance: Notes on Building Paradise"
-  url: "https://www.themarginalian.org/2026/03/25/gardening-art-resistance/"
-  date: 2026-03-25
-  source: The Marginalian
   category: philosophy
 - title: The clock in our genes
   url: "https://aeon.co/essays/far-from-junk-the-clock-in-our-dna-and-its-discoverer?utm_source=rss-feed"
