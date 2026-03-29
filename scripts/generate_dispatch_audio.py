@@ -33,6 +33,7 @@ from mlx_audio.audio_io import write as audio_write
 from pydub import AudioSegment
 
 DISPATCH_DIR = Path(__file__).resolve().parent.parent / "dispatch"
+AUDIO_DIR = DISPATCH_DIR / "audio"
 REPO = "sngeth/sngeth.github.io"
 MODEL_ID = "mlx-community/Voxtral-4B-TTS-2603-mlx-bf16"
 DEFAULT_VOICE = "casual_male"
@@ -54,6 +55,11 @@ def parse_args() -> argparse.Namespace:
         "--dry-run",
         action="store_true",
         help="Extract text and print plan without generating audio",
+    )
+    p.add_argument(
+        "--patch-only",
+        action="store_true",
+        help="Skip audio generation; patch HTML using existing release assets",
     )
     return p.parse_args()
 
@@ -201,15 +207,81 @@ def upload_to_release(tag: str, title: str, files: list[Path]) -> str:
         "--repo", REPO,
         "--title", title,
         "--notes", f"Auto-generated TTS audio for {tag.replace('dispatch-audio-', '')}",
-    ] + [str(f) for f in files]
-    log.info("Creating release %s with %d files...", tag, len(files))
+    ]
+    log.info("Creating release %s ...", tag)
     subprocess.run(cmd, check=True)
+
+    # Get release ID and auth token for asset upload
+    result = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", REPO, "--json", "databaseId", "--jq", ".databaseId"],
+        capture_output=True, text=True, check=True,
+    )
+    release_id = result.stdout.strip()
+    token = subprocess.run(
+        ["gh", "auth", "token"], capture_output=True, text=True, check=True,
+    ).stdout.strip()
+
+    # Upload each MP3 with correct Content-Type via uploads.github.com
+    upload_base = f"https://uploads.github.com/repos/{REPO}/releases/{release_id}/assets"
+    for f in files:
+        log.info("Uploading %s with Content-Type: audio/mpeg ...", f.name)
+        subprocess.run(
+            [
+                "curl", "--fail", "-s",
+                "-X", "POST",
+                "-H", f"Authorization: token {token}",
+                "-H", "Content-Type: audio/mpeg",
+                "--data-binary", f"@{f}",
+                f"{upload_base}?name={f.name}",
+            ],
+            check=True,
+        )
 
     return f"https://github.com/{REPO}/releases/download/{tag}"
 
 
+def fetch_release_durations(tag: str) -> tuple[dict[str, float], float]:
+    """Get MP3 durations from release asset sizes (no download needed).
+
+    For 64kbps mono MP3: duration_seconds = file_size_bytes / 8000.
+    """
+    import json as _json
+
+    result = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", REPO,
+         "--json", "assets", "--jq", ".assets[]|{name,size}"],
+        capture_output=True, text=True, check=True,
+    )
+
+    story_durations = {}
+    full_duration = 0.0
+    for line in result.stdout.strip().splitlines():
+        asset = _json.loads(line)
+        name, size = asset["name"], asset["size"]
+        duration = size / 8000.0  # 64kbps mono MP3
+        if name == "full-edition.mp3":
+            full_duration = duration
+        elif name.startswith("story-") and name.endswith(".mp3"):
+            story_durations[name] = duration
+
+    return story_durations, full_duration
+
+
 def strip_old_player(soup: BeautifulSoup) -> None:
-    """Remove the Web Speech API player elements if present."""
+    """Remove old Web Speech API player and any existing Voxtral players."""
+    # Remove previous Voxtral masthead player
+    for audio in soup.find_all("audio", id="masthead-audio"):
+        audio.parent.decompose()
+        log.info("  Stripped existing masthead player")
+
+    # Remove previous story pills and player JS
+    for pill in soup.select(".listen-pill"):
+        pill.decompose()
+    for script in soup.find_all("script"):
+        if script.string and "story-player" in script.string:
+            script.decompose()
+            log.info("  Stripped existing story-player script")
+
     for id_ in ("dispatch-player", "player-toggle"):
         el = soup.find(id=id_)
         if el:
@@ -255,7 +327,7 @@ def inject_masthead_player(
         return
 
     player_html = f"""<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
-  <audio id="masthead-audio" src="{full_edition_url}" preload="none" controls style="flex:1;height:36px;"></audio>
+  <audio id="masthead-audio" preload="none" controls style="flex:1;height:36px;"><source src="{full_edition_url}" type="audio/mpeg"></audio>
   <div style="text-align:right;">
     <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
     <div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">{edition_date} &middot; {fmt_duration(duration)}</div>
@@ -268,19 +340,28 @@ def inject_masthead_player(
 
 
 def inject_story_pills(
-    soup: BeautifulSoup, stories: list[dict], base_url: str
+    soup: BeautifulSoup, audio_map: dict[str, dict], base_url: str
 ) -> None:
-    """Inject LISTEN pill buttons after each story's .byline element."""
+    """Inject LISTEN pill buttons into each story by matching headlines in the soup.
+
+    audio_map: {headline_text: {"mp3_name": str, "duration": float}}
+    Finds headlines directly in the soup so element references are always valid.
+    """
     injected = 0
-    for story in stories:
-        if "mp3_name" not in story:
-            continue
-        byline = story["element"].find(class_="byline")
-        if not byline:
+
+    # Find all headline elements in this soup
+    for headline_el in soup.find_all(class_=["headline", "x-headline"]):
+        headline_text = clean_text(headline_el.get_text())
+        match = audio_map.get(headline_text)
+        if not match:
             continue
 
-        url = f"{base_url}/{story['mp3_name']}"
-        dur = fmt_duration(story["duration"])
+        # Prefer placing in byline if it exists as a sibling
+        byline = headline_el.find_next_sibling(class_="byline")
+        anchor = byline if byline else headline_el
+
+        url = f"{base_url}/{match['mp3_name']}"
+        dur = fmt_duration(match["duration"])
         pill_html = (
             f'<span class="listen-pill" data-src="{url}" '
             f'style="display:inline-flex;align-items:center;gap:6px;'
@@ -291,7 +372,10 @@ def inject_story_pills(
             f" LISTEN &middot; {dur}</span>"
         )
         pill_tag = BeautifulSoup(pill_html, "lxml").body.contents[0]
-        byline.append(pill_tag)
+        if byline:
+            byline.append(pill_tag)
+        else:
+            headline_el.insert_after(pill_tag)
         injected += 1
 
     log.info("  Injected %d story pills", injected)
@@ -336,9 +420,14 @@ def inject_player_js(soup: BeautifulSoup) -> None:
         deactivate();
         return;
       }
-      player.src = src;
-      player.play();
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
       activate(this);
+      player.play();
     });
   });
 })();"""
@@ -350,7 +439,7 @@ def inject_player_js(soup: BeautifulSoup) -> None:
 
 def patch_html(
     html_path: Path,
-    stories: list[dict],
+    audio_map: dict[str, dict],
     base_url: str,
     edition_date: str,
     full_duration: float,
@@ -366,7 +455,7 @@ def patch_html(
         full_url = f"{base_url}/full-edition.mp3"
         inject_masthead_player(soup, full_url, edition_date, full_duration)
 
-    inject_story_pills(soup, stories, base_url)
+    inject_story_pills(soup, audio_map, base_url)
     inject_player_js(soup)
 
     html_path.write_text(soup.decode(formatter="minimal"))
@@ -410,73 +499,94 @@ def main() -> None:
         print(f"\nEstimated audio: ~{sum(len(s['text'].split()) for s in all_stories) // 150} min")
         return
 
-    # Verify external tools (not needed for dry-run)
-    for tool in ["gh", "ffmpeg"]:
+    # Verify external tools
+    required_tools = ["gh"] if args.patch_only else ["gh", "ffmpeg"]
+    for tool in required_tools:
         if subprocess.run(["which", tool], capture_output=True).returncode != 0:
             log.error("%s not found. Install it first.", tool)
             sys.exit(1)
 
-    # Phase 2: Generate audio
-    log.info("Loading Voxtral model (first run downloads ~8GB)...")
-    model = load_model(MODEL_ID)
+    if args.patch_only:
+        # Verify release exists
+        check = subprocess.run(
+            ["gh", "release", "view", tag, "--repo", REPO],
+            capture_output=True,
+        )
+        if check.returncode != 0:
+            log.error("Release %s not found. Run without --patch-only first.", tag)
+            sys.exit(1)
 
-    tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
-    log.info("Working directory: %s", tmp_dir)
+        # Get durations from release asset sizes (no download needed)
+        story_durations, full_duration = fetch_release_durations(tag)
+        if not story_durations:
+            log.error("No story MP3s found in release %s.", tag)
+            sys.exit(1)
 
-    story_mp3s = []
-    story_durations = {}
-    for i, story in enumerate(all_stories, 1):
-        mp3_name = f"story-{i:02d}.mp3"
-        mp3_path = tmp_dir / mp3_name
-        log.info("Generating %s: %s...", mp3_name, story["headline"][:50])
-        duration = generate_story_audio(model, story["text"], args.voice, mp3_path)
-        if duration is not None:
-            story_mp3s.append(mp3_path)
-            story_durations[mp3_name] = duration
-            story["mp3_name"] = mp3_name
-            story["duration"] = duration
-        else:
-            log.warning("Skipping %s due to generation failure", mp3_name)
+        log.info("Found %d story MP3s in release (full edition: %.1f min)",
+                 len(story_durations), full_duration / 60)
 
-    if not story_mp3s:
-        log.error("All story generations failed. Exiting.")
-        sys.exit(1)
+        for i, story in enumerate(all_stories, 1):
+            mp3_name = f"story-{i:02d}.mp3"
+            if mp3_name in story_durations:
+                story["mp3_name"] = mp3_name
+                story["duration"] = story_durations[mp3_name]
+    else:
+        # Phase 2: Generate audio
+        log.info("Loading Voxtral model (first run downloads ~8GB)...")
+        model = load_model(MODEL_ID)
 
-    full_path = tmp_dir / "full-edition.mp3"
-    log.info("Concatenating %d stories into full-edition.mp3...", len(story_mp3s))
-    full_duration = generate_full_edition(story_mp3s, full_path)
-    log.info("Full edition: %.1f min", full_duration / 60)
+        tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
+        log.info("Working directory: %s", tmp_dir)
 
-    # Phase 3: Upload to GitHub Releases
-    all_files = [full_path] + story_mp3s
-    title = f"Dispatch Audio \u2014 {args.date.isoformat()}"
-    base_url = upload_to_release(tag, title, all_files)
-    log.info("Uploaded to %s", base_url)
+        story_mp3s = []
+        story_durations = {}
+        for i, story in enumerate(all_stories, 1):
+            mp3_name = f"story-{i:02d}.mp3"
+            mp3_path = tmp_dir / mp3_name
+            log.info("Generating %s: %s...", mp3_name, story["headline"][:50])
+            duration = generate_story_audio(model, story["text"], args.voice, mp3_path)
+            if duration is not None:
+                story_mp3s.append(mp3_path)
+                story_durations[mp3_name] = duration
+                story["mp3_name"] = mp3_name
+                story["duration"] = duration
+            else:
+                log.warning("Skipping %s due to generation failure", mp3_name)
+
+        if not story_mp3s:
+            log.error("All story generations failed. Exiting.")
+            sys.exit(1)
+
+        full_path = tmp_dir / "full-edition.mp3"
+        log.info("Concatenating %d stories into full-edition.mp3...", len(story_mp3s))
+        full_duration = generate_full_edition(story_mp3s, full_path)
+        log.info("Full edition: %.1f min", full_duration / 60)
+
+        # Phase 3: Upload to GitHub Releases
+        all_files = [full_path] + story_mp3s
+        title = f"Dispatch Audio \u2014 {args.date.isoformat()}"
+        base_url = upload_to_release(tag, title, all_files)
+        log.info("Uploaded to %s", base_url)
 
     # Phase 4: Patch HTML files
     page1_path = DISPATCH_DIR / "index.html"
     page2_path = DISPATCH_DIR / "page2.html"
 
-    page1_stories = extract_stories(page1_path)
-    page2_stories = extract_stories(page2_path) if page2_path.exists() else []
-
-    audio_by_headline = {s["headline"]: s for s in all_stories if "mp3_name" in s}
-    for stories in [page1_stories, page2_stories]:
-        for s in stories:
-            match = audio_by_headline.get(s["headline"])
-            if match:
-                s["mp3_name"] = match["mp3_name"]
-                s["duration"] = match["duration"]
+    audio_map = {
+        s["headline"]: {"mp3_name": s["mp3_name"], "duration": s["duration"]}
+        for s in all_stories if "mp3_name" in s
+    }
 
     title_tag = BeautifulSoup(page1_path.read_text(), "lxml").title
     edition_date = title_tag.string.split("\u2014")[-1].strip() if title_tag else args.date.isoformat()
 
-    patch_html(page1_path, page1_stories, base_url, edition_date, full_duration, is_page1=True)
-    if page2_path.exists() and page2_stories:
-        patch_html(page2_path, page2_stories, base_url, edition_date, full_duration, is_page1=False)
+    patch_html(page1_path, audio_map, base_url, edition_date, full_duration, is_page1=True)
+    if page2_path.exists():
+        patch_html(page2_path, audio_map, base_url, edition_date, full_duration, is_page1=False)
 
     # Cleanup temp files
-    shutil.rmtree(tmp_dir, ignore_errors=True)
+    if not args.patch_only:
+        shutil.rmtree(tmp_dir, ignore_errors=True)
 
     log.info("Done! Audio: %s, HTML patched.", base_url)
 
