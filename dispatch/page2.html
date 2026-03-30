@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>The Sid Dispatch — Sunday, March 29, 2026 · Page 2</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sid Dispatch — Monday, March 30, 2026 · Page 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,178 +73,264 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
+  #dispatch-player.visible{transform:translateY(0);}
+  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
+  #dispatch-player button:hover{background:#fff;color:var(--black);}
+  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
+  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
+  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
+  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
+  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
 </style>
 </head>
 <body>
 <div class="wrap">
-<div class="top-bar">
-<span>Vol. 199  ·  No. 389</span>
-<span>⬥   Tech · Markets · Discourse   ⬥</span>
-<span>Page 2 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  
+  <div class="top-bar">
+    <span>Vol. 200 &nbsp;·&nbsp; No. 368</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 2 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Sid Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Monday, March 30, 2026</span>
+      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
+    </div>
+  </div>
+  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div style="display:grid;grid-template-columns:1fr 1fr;">
+        
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Hardware · Consumer Rights</div>
+      <h2 class="headline" id="apple-s-keyboard-trap-why-macbook-repairs-have-become-a-tax-" style="font-size:22px"><a href="https://tobiasberg.net/posts/my-macbook-keyboard-is-broken-and-its-insanely-expensive-to-fix/" target="_blank" style="color:inherit;text-decoration:none;">Apple's Keyboard Trap: Why MacBook Repairs Have Become a Tax on Loyalty</a><span class="permalink" onclick="copyLink('apple-s-keyboard-trap-why-macbook-repairs-have-become-a-tax-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A broken spacebar shouldn't cost more than a used laptop, yet thousands of users face exactly that calculus*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47566143" target="_blank" style="color:inherit;text-decoration:none;">▲ 210 pts &nbsp;·&nbsp; 253 comments</a></div>
+      <div class="body-text"><p>The butterfly keyboard debacle has evolved from a design embarrassment into a financial extraction machine. Users report repair quotes exceeding $700 for what amounts to a component failure that should be trivial to fix—yet Apple's proprietary architecture and aggressive service pricing have created a perverse incentive structure where discarding a functional machine becomes more rational than repairing it. The mathematics are brutal: a MacBook Air keyboard replacement often costs nearly half the resale value of the device itself.</p><p>This isn't mere inconvenience; it's a systemic failure of consumer economics. Third-party repair shops face legal threats and parts scarcity, while Apple positions itself as the only legitimate repair channel. The result is a captive market where an $80 component failure mushrooms into a $700+ service call, turning a minor maintenance issue into a decision about whether to abandon the entire ecosystem.</p><p>The growing chorus of frustration signals a cracking point in Apple's service philosophy. As independent repair movements gain momentum and right-to-repair legislation advances globally, the company faces an uncomfortable reckoning: either normalize affordable repairs or watch customer loyalty—particularly among power users—migrate to manufacturers who don't punish hardware failures with financial hostage-taking.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Graphics · Digital Culture</div>
+      <h2 class="headline" id="pixel-perfect-nostalgia-why-demo-scene-graphics-still-mesmer" style="font-size:22px"><a href="https://www.datagubbe.se/aipixels/" target="_blank" style="color:inherit;text-decoration:none;">Pixel Perfect Nostalgia: Why Demo Scene Graphics Still Mesmerize in an Age of Photorealism</a><span class="permalink" onclick="copyLink('pixel-perfect-nostalgia-why-demo-scene-graphics-still-mesmer')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*The computational constraints that defined 1990s demos created an aesthetic that modern hardware still struggles to replicate*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47570666" target="_blank" style="color:inherit;text-decoration:none;">▲ 200 pts &nbsp;·&nbsp; 42 comments</a></div>
+      <div class="body-text"><p>There exists a peculiar paradox at the intersection of retro computing and modern rendering: the tightly constrained pixels of 1990s demo scene productions possess an ineffable visual charm that contemporary photorealistic engines often fail to capture. A new analysis explores why the deliberate limitations of low-resolution graphics—plasma effects, morphing blobs, tunnel animations��achieved a kind of aesthetic purity that emerges from creative constraint rather than computational abundance.</p><p>The demo scene emerged from necessity: programmers and artists working within kilobyte budgets developed techniques that maximized visual impact through mathematical elegance. Every effect had to earn its computational footprint. This forced optimization produced a visual language that's simultaneously alien and hypnotic—abstract enough to feel timeless, but bearing the unmistakable fingerprint of its era. Modern nostalgic appreciation isn't mere retro-fetishism; it's recognition that aesthetic power doesn't scale linearly with polygon counts or shader complexity.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Open Source · AI</div>
+      <h2 class="headline" id="the-ai-agent-revolution-could-resurrect-free-software-s-rele" style="font-size:22px"><a href="https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/" target="_blank" style="color:inherit;text-decoration:none;">The AI Agent Revolution Could Resurrect Free Software's Relevance—If the Commons Survives</a><span class="permalink" onclick="copyLink('the-ai-agent-revolution-could-resurrect-free-software-s-rele')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*Autonomous coding systems might finally make open-source projects a viable alternative to proprietary tools—or absorb them into corporate infrastructure*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47568028" target="_blank" style="color:inherit;text-decoration:none;">▲ 199 pts &nbsp;·&nbsp; 188 comments</a></div>
+      <div class="body-text"><p>The promise of coding agents cuts both ways for the free software movement. Autonomous systems trained to read, understand, and contribute to codebases could lower maintenance barriers for volunteer-driven projects, transforming the classic problem of abandoned libraries and dependency rot. A well-scaffolded agent might triage issues, propose patches, and handle tedious refactoring—work that currently consumes maintainer energy and drives burnout. In this scenario, open-source projects become viable long-term infrastructure rather than graveyard projects accumulating technical debt.</p><p>But the darker reading suggests coding agents could accelerate the consolidation of software power into the hands of corporations wealthy enough to fine-tune these systems. If only commercial entities can afford the compute and data necessary to deploy useful agents, the economic gravity pulls talent and resources away from community-driven development. The risk is that agents become a tool for extracting value from open-source ecosystems rather than sustaining them—scraped training data flowing into proprietary systems, with free software communities providing the unpaid intellectual labor.</p><p>The outcome depends entirely on whether free software communities can capture the benefits of agent technology before the window closes. Projects that figure out how to integrate AI-assisted contribution workflows into their governance models could experience a genuine renaissance. Those that don't may find themselves increasingly irrelevant—technically sound but architecturally obsolete.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Open Source · Browser Wars</div>
+      <h2 class="headline" id="waterfox-s-15-year-gambit-how-one-fork-survived-in-firefox-s" style="font-size:22px"><a href="https://www.waterfox.com/blog/15-years-of-forking/" target="_blank" style="color:inherit;text-decoration:none;">Waterfox's 15-Year Gambit: How One Fork Survived in Firefox's Shadow</a><span class="permalink" onclick="copyLink('waterfox-s-15-year-gambit-how-one-fork-survived-in-firefox-s')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A browser built on conviction rather than market share offers a lesson in sustainable open-source alternatives*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47545607" target="_blank" style="color:inherit;text-decoration:none;">▲ 189 pts &nbsp;·&nbsp; 32 comments</a></div>
+      <div class="body-text"><p>Most software forks die quietly, abandoned when the original project's momentum proves overwhelming. Waterfox, a Firefox derivative that's operated independently for over a decade and a half, represents an unusual counterpoint to that pattern. Born from frustration with Mozilla's direction on privacy and control, it persisted through multiple ownership changes, browser market upheaval, and a landscape increasingly hostile to alternatives. The fact that it still exists—and still commands a dedicated user base—says something profound about the specific niches that successful forks can occupy.</p><p>Waterfox's longevity stems from a clear ideological positioning rather than technical superiority. It offers something Firefox increasingly doesn't: transparency about governance, privacy-first defaults without corporate equivocation, and genuine user agency in feature prioritization. This isn't enough to challenge Chrome's dominance, but it's precisely enough to sustain a community that values principle over market share. The fork survives because it serves users Mozilla moved past—those who'd rather have a smaller browser aligned with their values than a larger one compromised by corporate interests.</p></div>
+    </div>
+      </div>
+      
+  <div class="section-label" style="margin-top:28px;">From the Reading List &nbsp;·&nbsp; RSS</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
+    
+    <div id="rss-specs-aren-t-code-yet-ai-pretends-they-are" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="color:inherit;text-decoration:none;">Specs Aren't Code—Yet AI Pretends They Are</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-yet-ai-pretends-they-are')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Tue, 17 Ma</div>
+      <div class="body-text" style="font-size:13.5px;">As AI coding agents proliferate, a critical gap emerges: detailed specifications alone cannot guide autonomous code generation reliably. This post exposes why the spec-as-code fantasy fails and what we're actually missing in agentic tooling.</div>
+    </div>
+    <div id="rss-search-your-codebase-by-what-it-does" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="color:inherit;text-decoration:none;">Search Your Codebase by What It Does</a><span class="permalink" onclick="copyLink('rss-search-your-codebase-by-what-it-does')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Mon, 16 Fe</div>
+      <div class="body-text" style="font-size:13.5px;">Topic modeling offers a radically different way to navigate large repositories—by semantic meaning rather than syntax or naming. If you've ever struggled to find that utility function you knew existed, this approach deserves your attention.</div>
+    </div>
+    <div id="rss-chat-interfaces-aren-t-the-future-of-ai-coding" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="color:inherit;text-decoration:none;">Chat Interfaces Aren't the Future of AI Coding</a><span class="permalink" onclick="copyLink('rss-chat-interfaces-aren-t-the-future-of-ai-coding')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Sat, 07 Fe</div>
+      <div class="body-text" style="font-size:13.5px;">Current AI dev tools are stuck in a chat-box paradigm that doesn't match how developers actually think. This essay outlines what truly better agentic coding interfaces could look like beyond conversational interfaces.</div>
+    </div>
+    <div id="rss-sidekiq-s-fetch-strategy-can-silently-lose-jobs" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/enhancing-job-reliability-with-sidekiq-pro-s-super-fetch-strategy" target="_blank" style="color:inherit;text-decoration:none;">Sidekiq's Fetch Strategy Can Silently Lose Jobs</a><span class="permalink" onclick="copyLink('rss-sidekiq-s-fetch-strategy-can-silently-lose-jobs')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-30</div>
+      <div class="body-text" style="font-size:13.5px;">Job queue reliability isn't guaranteed by default—core Sidekiq fetch behavior has a surprising failure mode that can drop data. Thoughtbot walks through the problem and how Sidekiq Pro's super fetch mitigates the risk.</div>
+    </div>
+    <div id="rss-why-bootstrap-beats-tailwind-for-server-rendered-apps" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/the-opinionated-thoughtbotter-bootstrap-is-the-superior-front-end-toolkit" target="_blank" style="color:inherit;text-decoration:none;">Why Bootstrap Beats Tailwind for Server-Rendered Apps</a><span class="permalink" onclick="copyLink('rss-why-bootstrap-beats-tailwind-for-server-rendered-apps')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-27</div>
+      <div class="body-text" style="font-size:13.5px;">The Bootstrap vs. Tailwind debate usually ignores server-rendered contexts. Steve Polito makes a contrarian case that Bootstrap's opinionated defaults and lower friction outweigh Tailwind's customization appeal for traditional server apps.</div>
+    </div>
+    <div id="rss-design-first-de-risk-projects-before-coding-starts" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/how-strategic-product-design-reduces-risk-before-you-write-code" target="_blank" style="color:inherit;text-decoration:none;">Design First: De-Risk Projects Before Coding Starts</a><span class="permalink" onclick="copyLink('rss-design-first-de-risk-projects-before-coding-starts')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-27</div>
+      <div class="body-text" style="font-size:13.5px;">Regulated industries demand upfront validation that coding can't fix retroactively. This post reveals how proactive product design catches compliance and safety risks early—saving teams from expensive rework down the line.</div>
+    </div>
+  </div>
+    </div>
+    <div class="x-col">
+      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
+      
+    <div class="x-item" id="x-starlink-s-silent-expansion-over-allied-territory">
+      <div class="x-handle">@Dima Zeniuk<span class="permalink" onclick="copyLink('x-starlink-s-silent-expansion-over-allied-territory')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Starlink's Silent Expansion Over Allied Territory</div>
+      <div class="x-body">A simple observation photo becomes geopolitical shorthand: American satellite infrastructure is now visibly global. When tech infrastructure becomes as noticeable as weather, it's worth asking who controls the sky—and whether allies notice or care.</div>
+    </div>
+    <div class="x-item" id="x-the-racism-olympics-nobody-wanted">
+      <div class="x-handle">@kache<span class="permalink" onclick="copyLink('x-the-racism-olympics-nobody-wanted')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">The Racism Olympics Nobody Wanted</div>
+      <div class="x-body">This post weaponizes comparative cultural criticism into performance art. By framing xenophobia as a competitive spectacle, it reveals how online discourse turns serious social problems into engagement fodder—ultimately trivializing what it claims to critique.</div>
+    </div>
+    <div class="x-item" id="x-x-becomes-the-new-international-incident-generator">
+      <div class="x-handle">@Critically Thinking &amp; Drinking<span class="permalink" onclick="copyLink('x-x-becomes-the-new-international-incident-generator')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">X Becomes the New International Incident Generator</div>
+      <div class="x-body">When even observers can't articulate what's happening on a platform in real-time, that platform has become unmoored from coherent discourse. This post is a meta-commentary on X's collapse into incomprehensible culture warfare.</div>
+    </div>
+    <div class="x-item" id="x-identity-politics-finds-its-strangest-battleground">
+      <div class="x-handle">@memetic_sisyphus<span class="permalink" onclick="copyLink('x-identity-politics-finds-its-strangest-battleground')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Identity Politics Finds Its Strangest Battleground</div>
+      <div class="x-body">Soccer nationalism plus ethnic identity equals a genuinely novel culture war vector. This suggests online movements are running out of conventional grievances and manufacturing niche tribal identities—a sign discourse has fragmented beyond repair.</div>
+    </div>
+    </div>
+  </div>
+  <div class="page-nav"><a  href="index.html">Page 1</a>
+      <a class="current" href="page2.html">Page 2</a></div>
+  <footer>
+    <span>The Sid Dispatch &nbsp;·&nbsp; Monday, March 30, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+    <span>Generated 07:05 AM EDT</span>
+  </footer>
 </div>
-<div class="masthead">
-<div class="masthead-name">The Sid Dispatch</div>
-<div class="masthead-tagline">"All the signal, none of the noise."</div>
-<div class="masthead-meta">
-<span>sngeth.github.io/dispatch</span>
-<span style="color:var(--black);font-weight:500;">Sunday, March 29, 2026</span>
-<span>Powered by Claude  ·  HN + 𝕏</span>
-</div>
-</div>
-<div class="section-label" style="margin-top:16px;">Extended Coverage  ·  Hacker News</div>
-<div class="main-grid">
-<div class="hn-col">
-<div style="display:grid;grid-template-columns:1fr 1fr;">
-<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Open Source · Systems Architecture</div>
-<h2 class="headline" id="the-paradigm-shift-why-linux-is-being-reframed-as-an-interpr" style="font-size:22px"><a href="https://astrid.tech/2026/03/28/0/linux-is-an-interpreter/" style="color:inherit;text-decoration:none;" target="_blank">The Paradigm Shift: Why Linux Is Being Reframed as an Interpreter, Not an Operating System</a><span class="permalink" onclick="copyLink('the-paradigm-shift-why-linux-is-being-reframed-as-an-interpr')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*A provocative rethinking of what Linux fundamentally does challenges decades of conventional wisdom in systems design*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47556359" style="color:inherit;text-decoration:none;" target="_blank">▲ 209 pts  ·  51 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-10.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:21</span></div>
-<div class="body-text"><p>A sweeping reexamination published on Astrid's technical platform argues that Linux's true nature has been mischaracterized for three decades—it is not, fundamentally, an operating system at all, but rather an interpreter executing hardware capabilities and user intent into tangible computation. The argument dismantles the monolithic kernel mythology by demonstrating how Linux translates between the abstract demands of userspace applications and the concrete constraints of physical processors, memory controllers, and I/O subsystems, functioning more as a sophisticated translation layer than as a controlling authority.</p><p>This reframing carries seismic implications for how engineers approach system design, debugging, and optimization. If Linux is an interpreter rather than an arbiter, it repositions the locus of performance bottlenecks and security vulnerabilities—no longer systemic flaws in the OS itself, but rather inefficiencies in how the interpreter maps high-level requests to low-level hardware operations. The distinction cascades through containerization, virtualization, and cloud architecture, where the interpreter metaphor elegantly explains phenomena that the traditional OS model struggles to illuminate.</p><p>The piece has galvanized the technical community with 209 upvotes and 51 comments, signaling genuine interest in reconceptualizing foundational assumptions. For practitioners accustomed to thinking in terms of kernel modules, syscalls, and privilege rings, the interpreter lens offers both philosophical coherence and practical diagnostic power—a reminder that even mature technologies can yield fresh insights when their premises are questioned.</p></div>
-</div>
-<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Health · Occupational Medicine</div>
-<h2 class="headline" id="the-hidden-epidemic-alzheimer-s-mortality-spikes-among-taxi-" style="font-size:22px"><a href="https://www.bmj.com/content/387/bmj-2024-082194" style="color:inherit;text-decoration:none;" target="_blank">The Hidden Epidemic: Alzheimer's Mortality Spikes Among Taxi and Ambulance Drivers</a><span class="permalink" onclick="copyLink('the-hidden-epidemic-alzheimer-s-mortality-spikes-among-taxi-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*A landmark BMJ study reveals occupational hazards that extend far beyond traffic dangers, pointing to chronic stress and environmental exposures as culprits*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47559481" style="color:inherit;text-decoration:none;" target="_blank">▲ 135 pts  ·  86 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-11.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:34</span></div>
-<div class="body-text"><p>A rigorous epidemiological study published in the British Medical Journal has exposed a troubling mortality gradient: taxi and ambulance drivers face significantly elevated rates of Alzheimer's disease and related dementias compared to the general population. The 2024 research, analyzing extensive occupational health records, suggests that years behind the wheel—characterized by circadian disruption, sustained psychological stress, traffic pollution exposure, and sedentary behavior—accumulate into neurological damage that manifests decades later as cognitive decline. The finding challenges the assumption that dementia risk is primarily genetic or age-determined, instead implicating workplace conditions as measurable contributors to neurodegeneration.</p><p>The mechanisms at play extend beyond simple wear-and-tear narratives. Chronic exposure to fine particulate matter and nitrogen oxides in urban traffic correlates with neuroinflammation and amyloid-beta accumulation—the pathological hallmarks of Alzheimer's disease. Simultaneously, the psychological demands of navigating congestion, managing volatile passengers, and maintaining vigilance under time pressure appear to dysregulate cortisol and immune function in ways that compromise the blood-brain barrier and accelerate neuronal loss. The study's 86 comments reflect the urgency with which occupational health specialists, epidemiologists, and policy makers are engaging with its implications.</p><p>The data demands institutional response: stricter regulations on shift lengths, air quality standards for vehicle cabins, mandatory cognitive screening for aging drivers, and workers' compensation reforms that recognize dementia as an occupational disease. For an industry that has long been defined by invisible labor, the research makes visible what years of exposure extract from the human brain.</p></div>
-</div>
-<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Open Source · Retro Computing</div>
-<h2 class="headline" id="against-all-odds-openbsd-s-unlikely-revival-on-motorola-s-fo" style="font-size:22px"><a href="http://miod.online.fr/software/openbsd/stories/m88k1.html" style="color:inherit;text-decoration:none;" target="_blank">Against All Odds: OpenBSD's Unlikely Revival on Motorola's Forgotten 88000 Processors</a><span class="permalink" onclick="copyLink('against-all-odds-openbsd-s-unlikely-revival-on-motorola-s-fo')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*A software archaeologist resurrects a dead computing platform, proving that technical preservation and curiosity can still kindle life in obsolete silicon*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47543186" style="color:inherit;text-decoration:none;" target="_blank">▲ 100 pts  ·  11 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-12.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:45</span></div>
-<div class="body-text"><p>In an audacious act of technical resurrection, OpenBSD has been successfully ported to the Motorola 88000 processor family—a RISC architecture that IBM and Motorola hoped would dethrone the Intel monopoly in the 1990s, only to be abandoned as the market consolidated around x86 and ARM. The achievement, documented by Miod Vallat, represents not merely a nostalgic curiosity but a demonstration of OpenBSD's architectural agility and the portable, well-layered design of its kernel. Where most modern operating systems are entangled with contemporary hardware assumptions and firmware expectations, OpenBSD's 88K port reveals an OS designed from its inception to transcend the accidents of any single processor generation.</p><p>The m88k implementation exposes both the elegance and fragility of the 88000 instruction set—a sophisticated but ultimately marginalized design that lacked the network effects and ecosystem lock-in that solidified x86 dominance. The processor featured elegant register windows, efficient load-store architecture, and provisions for parallel execution that presaged modern superscalar designs. Yet without a compelling software ecosystem or institutional backing, it remained a brilliant dead end. OpenBSD's port resurrects it as a functional curiosity, proving that the OS can adapt to any reasonably complete instruction set architecture.</p><p>While the 11 comments on the announcement suggest a niche audience, the deeper significance lies in OpenBSD's demonstrated commitment to portability and long-term stewardship of computing infrastructure. In an era of walled gardens, vendor lock-in, and planned obsolescence, the ability to revive and run production-grade operating systems on abandoned hardware becomes a form of digital preservation and intellectual freedom. The m88k port stands as a quiet monument to the belief that good software transcends the hardware it runs on.</p></div>
-</div>
-</div>
-<div class="section-label" style="margin-top:28px;">From the Reading List  ·  RSS</div>
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
-<div id="rss-why-specs-alone-won-t-replace-human-coders" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" style="color:inherit;text-decoration:none;" target="_blank">Why specs alone won't replace human coders</a><span class="permalink" onclick="copyLink('rss-why-specs-alone-won-t-replace-human-coders')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Tue, 17 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-13.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span></div>
-<div class="body-text" style="font-size:13.5px;">Detailed specifications hit a hard ceiling when it comes to AI-assisted development—they can't solve the fundamental limitations of agentic coding. If you're betting on specs to automate away programming work, this sharp analysis shows why that gamble will fail.</div>
-</div>
-<div id="rss-navigate-code-repos-by-what-they-mean" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" style="color:inherit;text-decoration:none;" target="_blank">Navigate code repos by what they mean</a><span class="permalink" onclick="copyLink('rss-navigate-code-repos-by-what-they-mean')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Mon, 16 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-14.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span></div>
-<div class="body-text" style="font-size:13.5px;">Topic modeling offers a radically different way to explore unfamiliar codebases: search by semantic meaning instead of grep-ing for keywords. For developers drowning in legacy systems or jumping between projects, this could be a genuine productivity breakthrough.</div>
-</div>
-<div id="rss-ai-coding-tools-need-better-design" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" style="color:inherit;text-decoration:none;" target="_blank">AI coding tools need better design</a><span class="permalink" onclick="copyLink('rss-ai-coding-tools-need-better-design')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Sat, 07 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-15.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
-<div class="body-text" style="font-size:13.5px;">Chat interfaces aren't the ceiling for AI dev tooling—they're just the starting point. This piece challenges the status quo of current AI assistants and sketches what genuinely useful developer tools could look like.</div>
-</div>
-<div id="rss-bootstrap-beats-tailwind-for-server-rendered-apps" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/the-opinionated-thoughtbotter-bootstrap-is-the-superior-front-end-toolkit" style="color:inherit;text-decoration:none;" target="_blank">Bootstrap beats Tailwind for server-rendered apps</a><span class="permalink" onclick="copyLink('rss-bootstrap-beats-tailwind-for-server-rendered-apps')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-27<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-16.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span></div>
-<div class="body-text" style="font-size:13.5px;">Steve Polito makes a contrarian case that Bootstrap, often dismissed as outdated, outperforms Tailwind for traditional server-rendered applications. Whether you agree, the debate clarifies trade-offs between customization, velocity, and maintainability that matter for real projects.</div>
-</div>
-<div id="rss-design-your-way-out-of-regulatory-headaches" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/how-strategic-product-design-reduces-risk-before-you-write-code" style="color:inherit;text-decoration:none;" target="_blank">Design your way out of regulatory headaches</a><span class="permalink" onclick="copyLink('rss-design-your-way-out-of-regulatory-headaches')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-27<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-17.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
-<div class="body-text" style="font-size:13.5px;">Thoughtbot's designers reveal how strategic product thinking catches costly problems before developers write a single line—especially critical in regulated industries. Smart upfront design can mean the difference between shipping and scrapping months of work.</div>
-</div>
-<div id="rss-ai-layoffs-aren-t-about-ai-capability" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/giant-robots-podcast-ep-606-ai-layoffs-are-bs" style="color:inherit;text-decoration:none;" target="_blank">AI layoffs aren't about AI capability</a><span class="permalink" onclick="copyLink('rss-ai-layoffs-aren-t-about-ai-capability')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-26<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-18.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span></div>
-<div class="body-text" style="font-size:13.5px;">The recent wave of industry layoffs blamed on AI may have little to do with artificial intelligence itself. This podcast cuts through the narrative to examine what's actually driving workforce reductions and why the AI scapegoat rings hollow.</div>
-</div>
-</div>
-</div>
-<div class="x-col">
-<div class="sidebar-label">More From the Feed  ·  𝕏</div>
-<div class="x-item" id="x-ai-as-confessional-the-therapy-loophole">
-<div class="x-handle">@tuyoi_katu_<span class="permalink" onclick="copyLink('x-ai-as-confessional-the-therapy-loophole')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">AI as Confessional: The Therapy Loophole</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-19.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:25</span>
-<div class="x-body">We're witnessing a weird inversion—people are using ChatGPT not for answers, but as a non-judgmental mirror. The post captures something real about AI's value proposition: it removes social friction from vulnerability. This isn't about AI being smart; it's about humans craving consequence-free articulation.</div>
-</div>
-<div class="x-item" id="x-posting-quality-has-entered-new-dimension">
-<div class="x-handle">@roon<span class="permalink" onclick="copyLink('x-posting-quality-has-entered-new-dimension')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Posting Quality Has Entered New Dimension</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-20.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span>
-<div class="x-body">This cryptic flex is itself a perfect specimen of the phenomenon it describes. It's the kind of meta-observation that only lands in tech circles where everyone tracks evolving communication norms. The vagueness is the point—acknowledging that baseline posting standards have fundamentally shifted.</div>
-</div>
-<div class="x-item" id="x-tolkien-s-genius-redemption-through-radical-empathy">
-<div class="x-handle">@Sandy Petersen<span class="permalink" onclick="copyLink('x-tolkien-s-genius-redemption-through-radical-empathy')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Tolkien's Genius: Redemption Through Radical Empathy</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-21.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:24</span>
-<div class="x-body">This reframes LOTR from adventure narrative to moral philosophy. Petersen's insight—that Gandalf's three eagles reveal Tolkien's insistence on saving the unsaveable—cuts to why the work endures. It's not the battles; it's the author's refusal to let anyone be irredeemable, even Gollum.</div>
-</div>
-<div class="x-item" id="x-one-word-infinite-subtext">
-<div class="x-handle">@Magills<span class="permalink" onclick="copyLink('x-one-word-infinite-subtext')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">One Word, Infinite Subtext</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-03-29/story-22.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
-<div class="x-body">Pure vibes with no context. Depends entirely on what preceded it, which means it's either maximally lazy or maximally efficient communication. In a feed of noise, this kind of minimalism either annoys or delights—no middle ground. That polarization is exactly why it works.</div>
-</div>
-</div>
-</div>
-<div class="page-nav"><a href="index.html">Page 1</a>
-<a class="current" href="page2.html">Page 2</a></div>
-<footer>
-<span>The Sid Dispatch  ·  Sunday, March 29, 2026</span>
-<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-<span>Generated 07:05 AM EDT</span>
-</footer>
-</div>
+
 <!-- ── AUDIO PLAYER ── -->
+<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
+<div id="dispatch-player">
+  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
+  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
+  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
+  <span id="player-title">The Sid Dispatch</span>
+  <span id="player-progress"></span>
+  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
+  <button onclick="closePlayer()" title="Close">✕</button>
+</div>
 <script>
+function copyLink(slug) {
+  var url = location.origin + location.pathname + '#' + slug;
+  navigator.clipboard.writeText(url).then(function() {
+    var el = document.getElementById(slug);
+    if (!el) return;
+    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
+    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
+  });
+}
 (function() {
-  var player = document.createElement('audio');
-  player.id = 'story-player';
-  player.preload = 'none';
-  document.body.appendChild(player);
+  const synth = window.speechSynthesis;
+  if (!synth) return;
 
-  var activePill = null;
+  let articles = [];
+  let current = 0;
+  let playing = false;
+  let speed = 1;
+  const speeds = [0.8, 1, 1.25, 1.5];
+  let speedIdx = 1;
+  let activeEl = null;
 
-  function deactivate() {
-    if (activePill) {
-      activePill.style.background = '';
-      activePill.style.color = 'var(--mid)';
-      activePill.style.borderColor = 'var(--light)';
-      activePill = null;
+  function collectArticles() {
+    const items = [];
+    // HN stories in DOM order
+    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
+      const h = el.querySelector('.headline');
+      const b = el.querySelector('.body-text');
+      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // X sidebar
+    document.querySelectorAll('.x-item').forEach(el => {
+      const h = el.querySelector('.x-headline');
+      const handle = el.querySelector('.x-handle');
+      const b = el.querySelector('.x-body');
+      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // RSS items
+    document.querySelectorAll('.rss-item').forEach(el => {
+      const h = el.querySelector('.rss-headline');
+      const b = el.querySelector('.rss-body');
+      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    return items;
+  }
+
+  function updateUI() {
+    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
+    document.getElementById('btn-play').classList.toggle('active', playing);
+    if (articles[current]) {
+      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
+      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
+      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
+    }
+    document.getElementById('btn-speed').textContent = speed + '×';
+    if (activeEl) activeEl.classList.remove('reading-active');
+    if (articles[current]) {
+      activeEl = articles[current].el;
+      activeEl.classList.add('reading-active');
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 
-  function activate(pill) {
-    deactivate();
-    activePill = pill;
-    pill.style.background = 'var(--dark-red)';
-    pill.style.color = '#fff';
-    pill.style.borderColor = 'var(--dark-red)';
+  function speak() {
+    synth.cancel();
+    if (current >= articles.length) { playing = false; updateUI(); return; }
+    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
+    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
+    utt.rate = speed;
+    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
+    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
+    synth.speak(utt);
+    updateUI();
   }
 
-  player.addEventListener('ended', deactivate);
-  player.addEventListener('error', deactivate);
-
-  document.querySelectorAll('.listen-pill').forEach(function(pill) {
-    pill.addEventListener('click', function() {
-      var src = this.getAttribute('data-src');
-      if (activePill === this && !player.paused) {
-        player.pause();
-        deactivate();
-        return;
-      }
-      while (player.firstChild) player.removeChild(player.firstChild);
-      var source = document.createElement('source');
-      source.src = src;
-      source.type = 'audio/mpeg';
-      player.appendChild(source);
-      player.load();
-      activate(this);
-      player.play();
-    });
-  });
-})();</script></body>
+  window.togglePlay = function() {
+    if (!articles.length) articles = collectArticles();
+    if (playing) { synth.pause(); playing = false; }
+    else if (synth.paused) { synth.resume(); playing = true; }
+    else { playing = true; speak(); }
+    updateUI();
+  };
+  window.nextArticle = function() {
+    synth.cancel();
+    if (current < articles.length - 1) current++;
+    if (playing) speak(); else updateUI();
+  };
+  window.prevArticle = function() {
+    synth.cancel();
+    if (current > 0) current--;
+    if (playing) speak(); else updateUI();
+  };
+  window.cycleSpeed = function() {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    speed = speeds[speedIdx];
+    if (playing) { synth.cancel(); speak(); } else updateUI();
+  };
+  window.togglePlayer = function() {
+    const p = document.getElementById('dispatch-player');
+    p.classList.toggle('visible');
+    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
+  };
+  window.closePlayer = function() {
+    synth.cancel();
+    playing = false;
+    document.getElementById('dispatch-player').classList.remove('visible');
+    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
+  };
+})();
+</script>
+</body>
 </html>
