@@ -65,8 +65,12 @@ def parse_args() -> argparse.Namespace:
 
 
 def clean_text(raw: str) -> str:
-    """Strip markdown-style *emphasis* and collapse whitespace."""
+    """Strip markdown-style *emphasis* and normalize for TTS."""
     text = re.sub(r"\*([^*]+)\*", r"\1", raw)
+    # Replace em-dashes with commas (em-dashes confuse TTS models)
+    text = text.replace("\u2014", ", ")
+    # Collapse repeated punctuation and whitespace
+    text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
@@ -87,6 +91,9 @@ def extract_stories(html_path: Path) -> list[dict]:
             headline_el = el.find(class_="headline", recursive=False)
             body_el = el.find(class_="body-text", recursive=False)
             if headline_el and body_el:
+                # Strip permalink/share buttons before extracting text
+                for junk in headline_el.select(".permalink"):
+                    junk.decompose()
                 headline = clean_text(headline_el.get_text())
                 deck_el = el.find(class_="deck", recursive=False)
                 deck = clean_text(deck_el.get_text()) if deck_el else ""
@@ -124,6 +131,9 @@ def extract_stories(html_path: Path) -> list[dict]:
         headline_el = el.select_one(".x-headline")
         body_el = el.select_one(".x-body")
         if headline_el:
+            # Strip permalink/share buttons before extracting text
+            for junk in el.select(".permalink"):
+                junk.decompose()
             handle = clean_text(handle_el.get_text()).replace("\U0001d54f", "").strip() if handle_el else ""
             headline = clean_text(headline_el.get_text())
             body = clean_text(body_el.get_text()) if body_el else ""
