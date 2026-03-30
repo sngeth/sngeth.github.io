@@ -1,33 +1,33 @@
+- title: Pretext
+  url: "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything"
+  date: 2026-03-29
+  source: Simon Willison
+  category: ai
+- title: Pretext — Under the Hood
+  url: "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything"
+  date: 2026-03-29
+  source: Simon Willison
+  category: ai
+- title: Python Vulnerability Lookup
+  url: "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything"
+  date: 2026-03-29
+  source: Simon Willison
+  category: ai
+- title: Ursula K. Le Guin on Suffering and Getting to the Other Side of Pain
+  url: "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering/"
+  date: 2026-03-29
+  source: The Marginalian
+  category: philosophy
+- title: "Gardening and the Creative Spirit: 200 Years of Great Writers and Artists on the Rewards of Soil and Seed"
+  url: "https://www.themarginalian.org/2026/03/29/writers-artists-gardens/"
+  date: 2026-03-29
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Matt Webb
   url: "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
   date: 2026-03-28
   source: Simon Willison
   category: ai
-- title: South Korea Mandates Solar Panels for Public Parking Lots
-  url: "https://www.reutersconnect.com/item/south-korea-mandates-solar-panels-for-public-parking-lots/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFZKRjFZQQ"
-  date: 2026-03-28
-  source: Hacker News Best
-  category: programming
-- title: CSS is DOOMed
-  url: "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/"
-  date: 2026-03-28
-  source: Hacker News Best
-  category: programming
-- title: Founder of GitLab battles cancer by founding companies
-  url: "https://sytse.com/cancer/"
-  date: 2026-03-28
-  source: Hacker News Best
-  category: programming
-- title: "I decompiled the White House's new app"
-  url: "https://thereallo.dev/blog/decompiling-the-white-house-app"
-  date: 2026-03-28
-  source: Hacker News Best
-  category: programming
-- title: "Folk are getting dangerously attached to AI that always tells them they're right"
-  url: "https://www.theregister.com/2026/03/27/sycophantic_ai_risks/"
-  date: 2026-03-28
-  source: Hacker News Best
-  category: programming
 - title: "The Courage to Be Yourself: Virginia Woolf on How to Hear Your Soul"
   url: "https://www.themarginalian.org/2026/03/28/virginia-woolf-soul/"
   date: 2026-03-28
@@ -48,35 +48,10 @@
   date: 2026-03-27
   source: Simon Willison
   category: ai
-- title: Quoting Richard Fontana
-  url: "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything"
-  date: 2026-03-27
-  source: Simon Willison
-  category: ai
-- title: Vibe coding SwiftUI apps is a lot of fun
-  url: "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything"
-  date: 2026-03-27
-  source: Simon Willison
-  category: ai
-- title: "We Rewrote JSONata with AI in a Day, Saved $500K/Year"
-  url: "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything"
-  date: 2026-03-27
-  source: Simon Willison
-  category: ai
 - title: Catastrophe markets
   url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
   date: 2026-03-27
   source: Aeon
-  category: philosophy
-- title: Corrective for a Broken Heart
-  url: "https://www.themarginalian.org/2026/03/27/corrective-for-a-broken-heart/"
-  date: 2026-03-27
-  source: The Marginalian
-  category: philosophy
-- title: The Most Important Thing to Remember About Your Mother
-  url: "https://www.themarginalian.org/2026/03/27/florida-scott-maxwell-mother/"
-  date: 2026-03-27
-  source: The Marginalian
   category: philosophy
 - title: She never dances alone
   url: "https://aeon.co/videos/a-joyful-dance-celebration-of-indigenous-matriarchy?utm_source=rss-feed"
