@@ -88,7 +88,7 @@
 <div class="wrap">
   
   <div class="top-bar">
-    <span>Vol. 201 &nbsp;·&nbsp; No. 342</span>
+    <span>Vol. 201 &nbsp;·&nbsp; No. 364</span>
     <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
     <span>Page 1 of 2 &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
   </div>
@@ -106,47 +106,47 @@
     <div class="hn-col">
       <div class="story-grid">
         <div class="lead">
-    <div class="tag">Security · Supply Chain</div>
-    <h1 class="headline" id="axios-library-poisoned-millions-of-downloads-weaponized-with" style="font-size:34px"><a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan" target="_blank" style="color:inherit;text-decoration:none;">Axios Library Poisoned: Millions of Downloads Weaponized With Remote Access Trojan</a><span class="permalink" onclick="copyLink('axios-library-poisoned-millions-of-downloads-weaponized-with')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*The npm ecosystem's trust deficit deepens as attackers compromise a foundational HTTP client used by Fortune 500 companies*</div>
+    <div class="tag">Security · AI</div>
+    <h1 class="headline" id="anthropic-s-claude-code-source-spills-across-npm-in-stunning" style="font-size:34px"><a href="https://twitter.com/Fried_rice/status/2038894956459290963" target="_blank" style="color:inherit;text-decoration:none;">Anthropic's Claude Code Source Spills Across NPM in Stunning Supply-Chain Mishap</a><span class="permalink" onclick="copyLink('anthropic-s-claude-code-source-spills-across-npm-in-stunning')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+    <div class="deck">*A map file bundled with the package exposed proprietary AI tooling logic, raising fresh questions about build artifact hygiene in high-stakes repos*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47582220" target="_blank" style="color:inherit;text-decoration:none;">▲ 877 pts &nbsp;·&nbsp; 313 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47584540" target="_blank" style="color:inherit;text-decoration:none;">▲ 1769 pts &nbsp;·&nbsp; 869 comments</a>
     </div>
     <div class="body-text">
-      <p class="drop-cap">The discovery that malicious versions of Axios—one of JavaScript's most downloaded HTTP libraries with over 30 million weekly downloads—had been published to npm represents a catastrophic breach in open-source trust infrastructure. Versions 1.6.3 and 1.6.4, released through a compromised maintainer account, contained a remote access trojan that established persistent backdoor access to any system running the infected code, potentially affecting thousands of production environments without their knowledge.</p><p>What makes this attack particularly insidious is its timing and precision. The trojan didn't immediately detonate; instead, it silently established command-and-control channels, giving attackers the ability to execute arbitrary code on affected systems—including web servers, CI/CD pipelines, and developer machines. For enterprises relying on Axios across microservices architectures, the blast radius could span entire cloud deployments before detection.</p><p>The incident exposes a structural vulnerability in npm's security model: account compromise remains a single point of failure for packages that millions depend upon. StepSecurity's analysis reveals the attack likely succeeded through credential theft rather than npm's weak authentication, a sobering reminder that npm's centralized trust model creates systemic risk at internet scale.</p>
-      <div class="pull-quote">The trojan didn't immediately detonate—it silently established command-and-control channels, giving attackers the ability to execute arbitrary code on affected systems.</div>
+      <p class="drop-cap">In what security researchers are calling a significant operational failure, Anthropic's Claude Code implementation—a cornerstone of the company's commercial AI toolkit—was partially exposed via an inadvertent source map file left in their NPM registry. The leak, surfaced by researcher Fried_rice on X, reveals not just file paths but fragments of the underlying logic governing how Claude handles code generation, tool invocation, and prompt routing. While Anthropic moved quickly to yank affected versions, the incident underscores a critical blindspot: even sophisticated AI companies can botch the fundamentals of secure build pipelines.</p><p>Source maps, technically benign debugging artifacts, become dangerous vectors when published alongside minified production code—they essentially hand attackers a skeleton key to proprietary logic. In Claude's case, the exposed patterns hint at internal implementation details for fake tool stubs, regex-based input filtering, and what some researchers are calling &quot;undercover mode,&quot; a feature that appears to constrain the model's outputs in ways not publicly documented. The leak suggests Anthropic's CI/CD practices may not have included automated scanning to strip such artifacts before release.</p><p>The fallout has been swift and acidic across developer communities. With 869 comments on the initial post and widespread circulation among security researchers, the incident has reignited debates about whether closed-source AI companies—even those billing themselves as safety-conscious—maintain the rigor expected of infrastructure maintainers. Anthropic has not publicly detailed which versions were affected or provided comprehensive remediation guidance, leaving downstream developers in the familiar fog of post-breach uncertainty.</p>
+      <div class="pull-quote">Source maps are debugging artifacts that become dangerous vectors when they hand attackers a skeleton key to proprietary logic.</div>
     </div></div>
         <div class="sec">
-    <div class="tag">Open Source · Hardware</div>
-    <h2 class="headline" id="from-spare-parts-to-network-hub-the-unexpected-renaissance-o" style="font-size:21px"><a href="https://nbailey.ca/post/router/" target="_blank" style="color:inherit;text-decoration:none;">From Spare Parts to Network Hub: The Unexpected Renaissance of DIY Router Engineering</a><span class="permalink" onclick="copyLink('from-spare-parts-to-network-hub-the-unexpected-renaissance-o')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A developer's experiment reveals that commodity hardware and creative Linux skills can challenge the router monoculture*</div>
+    <div class="tag">Security · Supply Chain</div>
+    <h2 class="headline" id="axios-npm-supply-chain-attack-delivers-remote-access-trojan-" style="font-size:21px"><a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan" target="_blank" style="color:inherit;text-decoration:none;">Axios NPM Supply Chain Attack Delivers Remote Access Trojan to Thousands of Projects</a><span class="permalink" onclick="copyLink('axios-npm-supply-chain-attack-delivers-remote-access-trojan-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*The popular HTTP client library was compromised at the registry level, marking an escalation in the sophistication and audacity of npm ecosystem attacks*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47574034" target="_blank" style="color:inherit;text-decoration:none;">▲ 692 pts &nbsp;·&nbsp; 238 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47582220" target="_blank" style="color:inherit;text-decoration:none;">▲ 1726 pts &nbsp;·&nbsp; 698 comments</a>
     </div>
     <div class="body-text">
-      <p>In an era where internet access funnels through a handful of vendor appliances, one developer's project demonstrates a delightfully subversive principle: virtually any hardware with enough processing power and network connectivity can become a router. The experiment documents the process of transforming modest devices—from Raspberry Pis to old laptops—into fully functional network infrastructure, complete with DHCP, DNS, and firewall capabilities using nothing but Linux distributions and open-source networking tools.</p><p>The technical elegance lies in the simplicity: modern Linux kernels contain everything needed for routing, VLAN segmentation, and traffic management. Most consumers remain tethered to proprietary firmware from ISPs and vendors precisely because the alternative seems too complex, yet this barrier exists largely through inertia rather than necessity. By documenting the actual implementation—from iptables rules to isc-dhcp-server configuration—the project dismantles the mythology that networking infrastructure requires specialized certification or corporate-grade hardware.</p><p>The implications ripple beyond hobbyist enthusiasm. As ISPs and device manufacturers increasingly embed surveillance, throttling algorithms, and backdoors into consumer routers, the ability to repurpose existing hardware into transparent, auditable network infrastructure becomes a form of technological self-defense.</p>
+      <p>The Node.js ecosystem suffered a serious blow this week when malicious versions of Axios—one of the most widely installed HTTP client libraries in the JavaScript world—began circulating through NPM with a fully functional remote access trojan embedded in the package. According to analysis from StepSecurity, the compromised releases were strategically versioned to evade immediate detection, installing a persistence mechanism that gave attackers command-line access to affected development environments and, by extension, any CI/CD systems pulling the tainted dependency.</p><p>What makes this attack particularly alarming is its surgical precision. Rather than blanket-bombing installations, the attackers appear to have targeted specific version strings, suggesting either credential compromise or a more nuanced supply-chain manipulation. The trojan payload was designed to execute silently during the npm install phase, establishing a reverse shell that communicated with attacker-controlled infrastructure. For any project in the dependency tree of Axios—which includes countless production applications, build systems, and development tools—the attack surface was effectively the entire machine.</p><p>The incident has reignited the eternal npm security debate: at what point does the convenience of centralized package distribution outweigh the risks of a single compromised library cascading across hundreds of thousands of projects? While the Axios maintainers and NPM's security team worked to contain the damage, the underlying truth remains stark: pulling a single popular dependency is like pulling a thread on the entire JavaScript ecosystem. Developers are being urged to audit their lockfiles and dependency chains immediately.</p>
       
     </div></div>
         <div class="bot-row">
           <div class="tert">
-    <div class="tag">Privacy · Government</div>
-    <h2 class="headline" id="when-the-watchers-become-the-watched-how-federal-apps-perfec" style="font-size:19px"><a href="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" target="_blank" style="color:inherit;text-decoration:none;">When the Watchers Become the Watched: How Federal Apps Perfected the Surveillance They Forbid Others</a><span class="permalink" onclick="copyLink('when-the-watchers-become-the-watched-how-federal-apps-perfec')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*White House and government applications embed tracking and telemetry that exceed the security concerns used to justify banning foreign platforms*</div>
+    <div class="tag">AI · Analysis</div>
+    <h2 class="headline" id="inside-the-claude-code-leak-fake-tools-regex-traps-and-the-h" style="font-size:19px"><a href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" target="_blank" style="color:inherit;text-decoration:none;">Inside the Claude Code Leak: Fake Tools, Regex Traps, and the Hidden Scaffolding of Anthropic's AI</a><span class="permalink" onclick="copyLink('inside-the-claude-code-leak-fake-tools-regex-traps-and-the-h')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*A deep forensic dive into what the exposed source reveals about how Claude actually works under the hood*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47577761" target="_blank" style="color:inherit;text-decoration:none;">▲ 574 pts &nbsp;·&nbsp; 206 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47586778" target="_blank" style="color:inherit;text-decoration:none;">▲ 396 pts &nbsp;·&nbsp; 165 comments</a>
     </div>
     <div class="body-text">
-      <p>The White House's official app, marketed as a civic engagement tool, arrived laden with telemetry infrastructure remarkably similar to the surveillance apparatus the U.S. government uses to justify prohibiting Chinese applications like TikTok and Huawei from American infrastructure. Analysis reveals the app contains Huawei's proprietary analytics framework—the very technology cited in Congressional hearings as a national security threat—alongside aggressive location tracking, behavioral monitoring, and data collection practices that would trigger regulatory alarm if deployed by private tech companies.</p><p>This contradiction exposes a particularly cynical form of hypocrisy in technology governance. Federal agencies preach about data minimization and user privacy while deploying applications that violate those same principles with apparent impunity. The White House app collects granular behavioral data, tracks user location patterns, and maintains persistent identifiers—all justified under the aegis of government infrastructure while equivalent features in competing platforms face legislative restrictions and public vilification.</p><p>The pattern repeats across federal agencies: apps designed to serve citizens incorporate tracking mechanisms that would be labeled &quot;spyware&quot; if deployed by commercial competitors. This dynamic reveals that government cybersecurity doctrine has less to do with protecting citizens and more to do with concentrating surveillance authority within state institutions, creating a technological asymmetry where citizens face monitored interfaces while government maintains opacity.</p>
+      <p>Researcher Alex Kim's detailed analysis of the Claude Code source leak goes beyond the initial panic, methodically unpacking what the exposed code actually tells us about Anthropic's engineering decisions. The findings paint a picture of a system far more constrained and deliberately limited than the marketing materials suggest—a Claude that doesn't just hallucinate differently, but is actively shaped by invisible guardrails embedded directly into its tool-calling mechanism.</p><p>Kim's forensic work highlights three particular revelations. First: &quot;fake tools&quot;—stub implementations that give Claude the appearance of capabilities it doesn't actually possess, used apparently to test prompt injection resilience. Second: aggressive regex-based input validation that silently strips or modifies user requests in ways the user cannot observe, a form of paternalism built into the wire protocol. Third, and most provocative: evidence of &quot;undercover mode,&quot; a behavioral state where Claude appears to operate under different instruction sets entirely, possibly triggered by specific prompt patterns or context windows.</p><p>The implications reverberate across AI safety debates. If Anthropic is engineering in opacity and constraint at the code level rather than relying purely on training-time alignment, it suggests institutional skepticism about whether RLHF and constitutional AI methods alone produce trustworthy outputs. Yet it also raises uncomfortable questions about disclosure and user consent—should developers know they're working with a system deliberately withholding information about its own constraints? Kim's analysis has become essential reading for anyone building on top of Claude.</p>
       
     </div></div><div class="tert">
-    <div class="tag">AI · Culture</div>
-    <h2 class="headline" id="ai-as-ghostwriter-why-outsourcing-your-voice-to-machines-hol" style="font-size:19px"><a href="https://alexhwoods.com/dont-let-ai-write-for-you/" target="_blank" style="color:inherit;text-decoration:none;">AI as Ghostwriter: Why Outsourcing Your Voice to Machines Hollows Your Authority</a><span class="permalink" onclick="copyLink('ai-as-ghostwriter-why-outsourcing-your-voice-to-machines-hol')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*As generative AI becomes the default writing tool, writers who surrender to automation risk surrendering their credibility*</div>
+    <div class="tag">Infrastructure · Analysis</div>
+    <h2 class="headline" id="github-s-invisible-miracle-a-decade-of-uptime-data-reveals-t" style="font-size:19px"><a href="https://damrnelson.github.io/github-historical-uptime/" target="_blank" style="color:inherit;text-decoration:none;">GitHub's Invisible Miracle: A Decade of Uptime Data Reveals the Reality Behind the Platform's Reliability</a><span class="permalink" onclick="copyLink('github-s-invisible-miracle-a-decade-of-uptime-data-reveals-t')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*A historical audit shows how the world's code repository achieved remarkable stability—or what it actually looks like when we measure what we thought we knew*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47573519" target="_blank" style="color:inherit;text-decoration:none;">▲ 571 pts &nbsp;·&nbsp; 194 comments</a>
+      <a href="https://news.ycombinator.com/item?id=47591928" target="_blank" style="color:inherit;text-decoration:none;">▲ 290 pts &nbsp;·&nbsp; 83 comments</a>
     </div>
     <div class="body-text">
-      <p>The seductive promise of AI-generated content—frictionless, instant, effortless—obscures a professional catastrophe unfolding in real time: the erosion of distinctive voice, the atrophy of argumentative rigor, and the replacement of earned authority with algorithmic mediocrity. Writers who outsource their prose to large language models don't merely delegate labor; they abdicate the very practice through which credibility forms—the struggle of articulating a thought worth reading, the discipline of revision, the personal investment that separates communication from content generation.</p><p>The problem isn't sophistication of output; modern LLMs produce grammatically flawless sentences at scale. It's the spiritual bankruptcy of ghost-written authority. When readers sense that words came from a training corpus rather than hard-won experience or genuine conviction, trust evaporates. Institutions from newsrooms to academia face the corrosive reality that AI writing generates plausible deniability but not persuasion—you can't lead with someone else's language, especially when that someone else is a statistical model trained on crowd-sourced mediocrity.</p><p>The writers who will matter most in an AI-saturated landscape are those who treat composition as craft rather than commodity—who write because clarity requires iteration, because thinking requires writing, because a voice builds authority through recognizable patterns of insight that no prompt could generate. In an age of infinite content, scarcity has shifted from production to authenticity.</p>
+      <p>Developer Darnell Nelson's meticulous reconstruction of GitHub's historical uptime paints an unexpectedly compelling picture of modern infrastructure reliability. By aggregating status page archives, incident reports, and community observations across more than a decade, Nelson documented not a flawless system but something more interesting: a platform that learned to fail gracefully and recovered aggressively. The data reveals GitHub's uptime hovering consistently in the 99.95% range—ambitious but achievable, not the mythical five-nines that some assume.</p><p>What emerges from the dataset is a narrative of deliberate engineering choices. GitHub's architecture appears optimized for partial degradation over total collapse; when something breaks, it tends to be writes or specific regional services, not the entire platform. Nelson's analysis identifies seasonal patterns, suggesting GitHub operates with predictable scaling challenges during peak developer hours (Monday mornings, post-incident discovery cycles). The data also reveals that publicized major incidents—the sort that get written up in postmortems—represent only a fraction of the actual disruptions users experience.</p><p>For companies building on GitHub or considering similar infrastructure plays, the implications are sobering. Perfect uptime is not the goal; predictable, measured degradation with rapid recovery is. Nelson's work serves as a reality check against both GitHub's own marketing and the mythologies that accumulate around well-established platforms. The real achievement isn't absence of failure—it's failure managed so competently that most users never notice.</p>
       
     </div></div>
         </div>
@@ -156,48 +156,48 @@
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
       
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Space · Engineering</div>
+          <div class="tag">Open Source · Engineering</div>
           <a href="../page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Artemis II Faces Showstopper Engineering Failures: NASA's Lunar Ambitions Grounded by Safety Realities</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Solvespace Brings Parametric CAD to Your Browser, No Installation Required</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 373 · 237 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 249 · 77 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Hardware · Innovation</div>
+          <div class="tag">Privacy · Regulation</div>
           <a href="../page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Hacking the Hardware: How $1 of Components Transformed a MacBook Into a Touchscreen Laptop</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">OkCupid Handed 3 Million Dating App Photos to Facial Recognition Firm Without User Consent, FTC Alleges</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 329 · 165 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 195 · 44 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
     </div>
     </div>
     <div class="x-col">
       <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
       
-    <div class="x-item" id="x-musk-weaponizes-x-as-soft-power-tool">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-weaponizes-x-as-soft-power-tool')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk Weaponizes X as Soft Power Tool</div>
-      <div class="x-body">This innocuous-sounding post is pure platform propaganda. By praising Japanese content, Musk signals X's role as a geopolitical amplifier favoring certain regions and narratives. It's a reminder that social networks aren't neutral: they're instruments of their owners' priorities.</div>
+    <div class="x-item" id="x-musk-signals-x-s-global-content-strategy-shift">
+      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-signals-x-s-global-content-strategy-shift')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Musk signals X's global content strategy shift</div>
+      <div class="x-body">This innocuous praise for Japanese creators masks a deeper play: Musk is positioning X as a platform where non-English content deserves algorithmic parity with Anglo-American posts. It's a direct challenge to TikTok's dominance in short-form discovery and a signal that X's algorithm will increasingly surface international creators.</div>
     </div>
-    <div class="x-item" id="x-grok-s-video-abilities-threaten-creative-labor">
-      <div class="x-handle">@Déborah<span class="permalink" onclick="copyLink('x-grok-s-video-abilities-threaten-creative-labor')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Grok's Video Abilities Threaten Creative Labor</div>
-      <div class="x-body">A 50-second film-quality video generated by AI isn't a neat demo—it's a warning shot across the bow of visual production. When synthetic media reaches this threshold, the entire downstream creative economy faces immediate disruption. This is the inflection point people should be tracking.</div>
+    <div class="x-item" id="x-grok-s-video-generation-reaches-hollywood-adjacent-territory">
+      <div class="x-handle">@Déborah<span class="permalink" onclick="copyLink('x-grok-s-video-generation-reaches-hollywood-adjacent-territory')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Grok's video generation reaches Hollywood-adjacent territory</div>
+      <div class="x-body">Fifty seconds of coherent video from a text prompt represents a meaningful leap in generative AI capability. This isn't just a demo—it's evidence that Musk's AI model is closing the gap with rivals like OpenAI's Sora, with the added advantage of native integration into X's distribution network.</div>
     </div>
-    <div class="x-item" id="x-tesla-s-japan-play-signals-supply-chain-reshoring">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-s-japan-play-signals-supply-chain-reshoring')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Tesla's Japan Play Signals Supply Chain Reshoring</div>
-      <div class="x-body">Burying industrial strategy inside casual praise for Panasonic reveals the real game: de-risking from China by deepening Japan partnerships. This isn't sentiment; it's geopolitical realignment dressed in corporate speak. Watch where capital flows, not what executives tweet.</div>
+    <div class="x-item" id="x-tesla-bet-on-japan-amid-supply-chain-reshuffling">
+      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-bet-on-japan-amid-supply-chain-reshuffling')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Tesla bet on Japan amid supply chain reshuffling</div>
+      <div class="x-body">Musk's emphasis on Japan isn't nostalgia—it's strategic. With supply chain concerns dominating EV manufacturing, publicly recommitting to Panasonic and Japanese infrastructure suggests Tesla is hedging against China dependency and Taiwan risk. This is geopolitical calculation dressed as gratitude.</div>
     </div>
-    <div class="x-item" id="x-misogynist-doomposting-masquerades-as-observation">
-      <div class="x-handle">@eugyppius<span class="permalink" onclick="copyLink('x-misogynist-doomposting-masquerades-as-observation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Misogynist Doomposting Masquerades as Observation</div>
-      <div class="x-body">This post trades in gendered contempt while making no actual point. It's the kind of corrosive content that poisons discourse by normalizing dehumanizing language. Its presence unchallenged on X illustrates why platform moderation remains fundamentally broken.</div>
+    <div class="x-item" id="x-misogynistic-bile-continues-to-fester-on-x-unchecked">
+      <div class="x-handle">@eugyppius<span class="permalink" onclick="copyLink('x-misogynistic-bile-continues-to-fester-on-x-unchecked')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Misogynistic bile continues to fester on X unchecked</div>
+      <div class="x-body">This post exemplifies how X's moderation vacuum permits virality for content that's simultaneously contemptuous and absurd. It matters because it shows how the platform has become a refuge for edgelords who weaponize shock value—and that's a feature, not a bug, to X's algorithm.</div>
     </div>
-    <div class="x-item" id="x-mental-health-crisis-or-algorithmic-cry-for-help">
-      <div class="x-handle">@ْ<span class="permalink" onclick="copyLink('x-mental-health-crisis-or-algorithmic-cry-for-help')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Mental Health Crisis or Algorithmic Cry for Help?</div>
-      <div class="x-body">A stark post expressing suicidal ideation deserves compassion, not editorial treatment. But its appearance here raises uncomfortable questions: does X's algorithm amplify extreme vulnerability for engagement? The platform's inability to distinguish signal from harm remains its most damning failure.</div>
+    <div class="x-item" id="x-extremist-posts-reveal-x-s-mental-health-crisis-vulnerabilit">
+      <div class="x-handle">@ْ<span class="permalink" onclick="copyLink('x-extremist-posts-reveal-x-s-mental-health-crisis-vulnerabilit')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Extremist posts reveal X's mental health crisis vulnerability</div>
+      <div class="x-body">This cryptic juxtaposition of suicidal ideation and marriage signals either dark humor or genuine distress amplified to an audience. It exemplifies how X has become a megaphone for psychological fragility without friction—a platform optimized for engagement regardless of human cost.</div>
     </div>
     </div>
   </div>
@@ -206,7 +206,7 @@
   <footer>
     <span>The Sid Dispatch &nbsp;·&nbsp; Tuesday, March 31, 2026</span>
     <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:03 AM EDT</span>
+    <span>Generated 05:28 PM EDT</span>
   </footer>
 </div>
 
