@@ -1,18 +1,78 @@
-- title: Pretext
-  url: "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything"
-  date: 2026-03-29
+- title: Axios compromised on NPM – Malicious versions drop remote access trojan
+  url: "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
+  date: 2026-03-31
+  source: Hacker News Best
+  category: programming
+- title: How Flamingos Got Their Pink
+  url: "https://www.themarginalian.org/2026/03/30/flamingos-pink/"
+  date: 2026-03-31
+  source: The Marginalian
+  category: philosophy
+- title: datasette-files 0.1a3
+  url: "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything"
+  date: 2026-03-30
   source: Simon Willison
   category: ai
-- title: Pretext — Under the Hood
-  url: "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything"
-  date: 2026-03-29
+- title: Quoting Georgi Gerganov
+  url: "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything"
+  date: 2026-03-30
   source: Simon Willison
   category: ai
-- title: Python Vulnerability Lookup
-  url: "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything"
-  date: 2026-03-29
+- title: datasette-llm 0.1a3
+  url: "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything"
+  date: 2026-03-30
   source: Simon Willison
   category: ai
+- title: Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer
+  url: "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything"
+  date: 2026-03-30
+  source: Simon Willison
+  category: ai
+- title: llm-mrchatterbox 0.1
+  url: "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything"
+  date: 2026-03-30
+  source: Simon Willison
+  category: ai
+- title: "Fedware: Government apps that spy harder than the apps they ban"
+  url: "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/"
+  date: 2026-03-30
+  source: Hacker News Best
+  category: programming
+- title: New Washington state law bans noncompete agreements
+  url: "https://www.seattletimes.com/business/local-business/new-washington-law-bans-noncompete-agreements/"
+  date: 2026-03-30
+  source: Hacker News Best
+  category: programming
+- title: "FTC action against Match and OkCupid for deceiving users, sharing personal data"
+  url: "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party"
+  date: 2026-03-30
+  source: Hacker News Best
+  category: programming
+- title: "CodingFont: A game to help you pick a coding font"
+  url: "https://www.codingfont.com/"
+  date: 2026-03-30
+  source: Hacker News Best
+  category: programming
+- title: A search for answers
+  url: "https://aeon.co/videos/in-search-of-truth-and-fun-at-princeton-university-1973?utm_source=rss-feed"
+  date: 2026-03-30
+  source: Aeon
+  category: philosophy
+- title: The hypercurious mind
+  url: "https://aeon.co/essays/how-the-hypercuriosity-of-adhd-may-have-helped-humans-thrive?utm_source=rss-feed"
+  date: 2026-03-30
+  source: Aeon
+  category: philosophy
+- title: Nick Cave on Creative Work as an Instrument of Self-Forgiveness and the Courage of Hope in Cynical Times
+  url: "https://www.themarginalian.org/2026/03/30/nick-cave-hope-faith-carnage-self-forgiveness/"
+  date: 2026-03-30
+  source: The Marginalian
+  category: philosophy
+- title: "A Stoic’s Key to Peace of Mind: Seneca on the Antidote to Anxiety"
+  url: "https://www.themarginalian.org/2026/03/30/seneca-anxiety/"
+  date: 2026-03-30
+  source: The Marginalian
+  category: philosophy
 - title: Ursula K. Le Guin on Suffering and Getting to the Other Side of Pain
   url: "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering/"
   date: 2026-03-29
@@ -23,31 +83,6 @@
   date: 2026-03-29
   source: The Marginalian
   category: philosophy
-- title: Quoting Matt Webb
-  url: "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
-  date: 2026-03-28
-  source: Simon Willison
-  category: ai
-- title: "The Courage to Be Yourself: Virginia Woolf on How to Hear Your Soul"
-  url: "https://www.themarginalian.org/2026/03/28/virginia-woolf-soul/"
-  date: 2026-03-28
-  source: The Marginalian
-  category: philosophy
-- title: "Emerson on Talent vs. Character, Our Resistance to Change, and the Key to True Personal Growth"
-  url: "https://www.themarginalian.org/2026/03/28/emerson-circles/"
-  date: 2026-03-28
-  source: The Marginalian
-  category: philosophy
-- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
-  url: "https://www.themarginalian.org/2026/03/28/martha-nussbaum-loves-knowledge/"
-  date: 2026-03-28
-  source: The Marginalian
-  category: philosophy
-- title: datasette-showboat 0.1a2
-  url: "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything"
-  date: 2026-03-27
-  source: Simon Willison
-  category: ai
 - title: Catastrophe markets
   url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
   date: 2026-03-27
@@ -61,16 +96,6 @@
 - title: "One China, one world"
   url: "https://aeon.co/essays/why-china-insists-on-internal-unity-and-international-harmony?utm_source=rss-feed"
   date: 2026-03-26
-  source: Aeon
-  category: philosophy
-- title: "Being in the world: technology and humanity"
-  url: "https://aeon.co/videos/as-technologies-mine-our-attention-we-must-look-to-artists?utm_source=rss-feed"
-  date: 2026-03-25
-  source: Aeon
-  category: philosophy
-- title: The clock in our genes
-  url: "https://aeon.co/essays/far-from-junk-the-clock-in-our-dna-and-its-discoverer?utm_source=rss-feed"
-  date: 2026-03-24
   source: Aeon
   category: philosophy
 - title: Examples for the tcpdump and dig man pages
