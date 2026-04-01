@@ -1,58 +1,78 @@
-- title: Axios compromised on NPM – Malicious versions drop remote access trojan
-  url: "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
+- title: datasette-extract 0.3a0
+  url: "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: datasette-enrichments-llm 0.2a0
+  url: "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: datasette-llm-usage 0.2a0
+  url: "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: datasette-llm 0.1a5
+  url: "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: Quoting Soohoon Choi
+  url: "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: "Summary of reading: January - March 2026"
+  url: "https://eli.thegreenplace.net/2026/summary-of-reading-january-march-2026/"
+  date: 2026-03-31
+  source: Eli Bendersky
+  category: programming
+- title: OpenAI closes funding round at an $852B valuation
+  url: "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
   date: 2026-03-31
   source: Hacker News Best
   category: programming
+- title: "GitHub's Historic Uptime"
+  url: "https://damrnelson.github.io/github-historical-uptime/"
+  date: 2026-03-31
+  source: Hacker News Best
+  category: programming
+- title: "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says"
+  url: "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/"
+  date: 2026-03-31
+  source: Hacker News Best
+  category: programming
+- title: Oracle slashes 30k jobs
+  url: "https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6/"
+  date: 2026-03-31
+  source: Hacker News Best
+  category: programming
+- title: "Microsoft: Copilot is for entertainment purposes only"
+  url: "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse"
+  date: 2026-03-31
+  source: Hacker News Best
+  category: programming
+- title: Banking beyond the law
+  url: "https://aeon.co/essays/the-underground-bankers-who-reshape-the-flow-of-global-money?utm_source=rss-feed"
+  date: 2026-03-31
+  source: Aeon
+  category: philosophy
+- title: "The Intelligence of Emotions: Philosopher Martha Nussbaum on How Storytelling Rewires Us and Why Befriending Our Neediness Is Essential for Happiness"
+  url: "https://www.themarginalian.org/2026/03/31/martha-nussbaum-upheavals-of-thought-neediness/"
+  date: 2026-03-31
+  source: The Marginalian
+  category: philosophy
+- title: "The Lonely City: Adventures in the Art of Being Alone"
+  url: "https://www.themarginalian.org/2026/03/31/the-lonely-city-olivia-laing/"
+  date: 2026-03-31
+  source: The Marginalian
+  category: philosophy
 - title: How Flamingos Got Their Pink
   url: "https://www.themarginalian.org/2026/03/30/flamingos-pink/"
   date: 2026-03-31
   source: The Marginalian
   category: philosophy
-- title: datasette-files 0.1a3
-  url: "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything"
-  date: 2026-03-30
-  source: Simon Willison
-  category: ai
-- title: Quoting Georgi Gerganov
-  url: "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything"
-  date: 2026-03-30
-  source: Simon Willison
-  category: ai
-- title: datasette-llm 0.1a3
-  url: "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything"
-  date: 2026-03-30
-  source: Simon Willison
-  category: ai
-- title: Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer
-  url: "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything"
-  date: 2026-03-30
-  source: Simon Willison
-  category: ai
-- title: llm-mrchatterbox 0.1
-  url: "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything"
-  date: 2026-03-30
-  source: Simon Willison
-  category: ai
-- title: "Fedware: Government apps that spy harder than the apps they ban"
-  url: "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/"
-  date: 2026-03-30
-  source: Hacker News Best
-  category: programming
-- title: New Washington state law bans noncompete agreements
-  url: "https://www.seattletimes.com/business/local-business/new-washington-law-bans-noncompete-agreements/"
-  date: 2026-03-30
-  source: Hacker News Best
-  category: programming
-- title: "FTC action against Match and OkCupid for deceiving users, sharing personal data"
-  url: "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party"
-  date: 2026-03-30
-  source: Hacker News Best
-  category: programming
-- title: "CodingFont: A game to help you pick a coding font"
-  url: "https://www.codingfont.com/"
-  date: 2026-03-30
-  source: Hacker News Best
-  category: programming
 - title: A search for answers
   url: "https://aeon.co/videos/in-search-of-truth-and-fun-at-princeton-university-1973?utm_source=rss-feed"
   date: 2026-03-30
@@ -73,16 +93,6 @@
   date: 2026-03-30
   source: The Marginalian
   category: philosophy
-- title: Ursula K. Le Guin on Suffering and Getting to the Other Side of Pain
-  url: "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering/"
-  date: 2026-03-29
-  source: The Marginalian
-  category: philosophy
-- title: "Gardening and the Creative Spirit: 200 Years of Great Writers and Artists on the Rewards of Soil and Seed"
-  url: "https://www.themarginalian.org/2026/03/29/writers-artists-gardens/"
-  date: 2026-03-29
-  source: The Marginalian
-  category: philosophy
 - title: Catastrophe markets
   url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
   date: 2026-03-27
@@ -90,11 +100,6 @@
   category: philosophy
 - title: She never dances alone
   url: "https://aeon.co/videos/a-joyful-dance-celebration-of-indigenous-matriarchy?utm_source=rss-feed"
-  date: 2026-03-26
-  source: Aeon
-  category: philosophy
-- title: "One China, one world"
-  url: "https://aeon.co/essays/why-china-insists-on-internal-unity-and-international-harmony?utm_source=rss-feed"
   date: 2026-03-26
   source: Aeon
   category: philosophy
@@ -142,11 +147,6 @@
   url: "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
   date: 2026-01-08
   source: Julia Evans
-  category: programming
-- title: "Summary of reading: October - December 2025"
-  url: "https://eli.thegreenplace.net/2025/summary-of-reading-october-december-2025/"
-  date: 2025-12-31
-  source: Eli Bendersky
   category: programming
 - title: "High volume vs high intensity: which builds more muscle?"
   url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
