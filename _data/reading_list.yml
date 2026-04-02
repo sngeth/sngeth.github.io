@@ -1,3 +1,23 @@
+- title: March 2026 sponsors-only newsletter
+  url: "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything"
+  date: 2026-04-02
+  source: Simon Willison
+  category: ai
+- title: Do Not Spare Yourself
+  url: "https://www.themarginalian.org/2026/04/01/no-te-salves/"
+  date: 2026-04-02
+  source: The Marginalian
+  category: philosophy
+- title: datasette-llm 0.1a6
+  url: "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
+- title: datasette-enrichments-llm 0.2a1
+  url: "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything"
+  date: 2026-04-01
+  source: Simon Willison
+  category: ai
 - title: datasette-extract 0.3a0
   url: "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything"
   date: 2026-04-01
@@ -8,50 +28,55 @@
   date: 2026-04-01
   source: Simon Willison
   category: ai
-- title: datasette-llm-usage 0.2a0
-  url: "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything"
+- title: "Artemis II lifts off: four astronauts begin 10-day lunar mission"
+  url: "https://www.theguardian.com/science/live/2026/apr/01/artemis-ii-launch-nasa-orion-moon-trip-live-updates"
   date: 2026-04-01
-  source: Simon Willison
-  category: ai
-- title: datasette-llm 0.1a5
-  url: "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything"
+  source: Hacker News Best
+  category: programming
+- title: DRAM pricing is killing the hobbyist SBC market
+  url: "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/"
   date: 2026-04-01
-  source: Simon Willison
-  category: ai
-- title: Quoting Soohoon Choi
-  url: "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything"
+  source: Hacker News Best
+  category: programming
+- title: SpaceX files to go public
+  url: "https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html"
   date: 2026-04-01
-  source: Simon Willison
-  category: ai
+  source: Hacker News Best
+  category: programming
+- title: "Live: Artemis II Launch Day Updates"
+  url: "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/"
+  date: 2026-04-01
+  source: Hacker News Best
+  category: programming
+- title: EmDash – A spiritual successor to WordPress that solves plugin security
+  url: "https://blog.cloudflare.com/emdash-wordpress/"
+  date: 2026-04-01
+  source: Hacker News Best
+  category: programming
+- title: The Medici’s lost garden of wonders
+  url: "https://aeon.co/videos/the-rise-and-fall-of-pratolino-tuscanys-proto-theme-park?utm_source=rss-feed"
+  date: 2026-04-01
+  source: Aeon
+  category: philosophy
+- title: "The Courage of Vulnerability: Teenage Frida Kahlo’s Moving Letters to Her First Love"
+  url: "https://www.themarginalian.org/2026/04/01/frida-kahlo-alejandro-gomez-arias-love-letters/"
+  date: 2026-04-01
+  source: The Marginalian
+  category: philosophy
+- title: "Why Are We Not Better Than We Are: How Poetry Saves Lives"
+  url: "https://www.themarginalian.org/2026/04/01/jon-mooallem-serious-face-poetry/"
+  date: 2026-04-01
+  source: The Marginalian
+  category: philosophy
+- title: The Three Elements of the Good Life
+  url: "https://www.themarginalian.org/2026/04/01/carl-rogers-good-life/"
+  date: 2026-04-01
+  source: The Marginalian
+  category: philosophy
 - title: "Summary of reading: January - March 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-january-march-2026/"
   date: 2026-03-31
   source: Eli Bendersky
-  category: programming
-- title: OpenAI closes funding round at an $852B valuation
-  url: "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
-  date: 2026-03-31
-  source: Hacker News Best
-  category: programming
-- title: "GitHub's Historic Uptime"
-  url: "https://damrnelson.github.io/github-historical-uptime/"
-  date: 2026-03-31
-  source: Hacker News Best
-  category: programming
-- title: "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says"
-  url: "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/"
-  date: 2026-03-31
-  source: Hacker News Best
-  category: programming
-- title: Oracle slashes 30k jobs
-  url: "https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6/"
-  date: 2026-03-31
-  source: Hacker News Best
-  category: programming
-- title: "Microsoft: Copilot is for entertainment purposes only"
-  url: "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse"
-  date: 2026-03-31
-  source: Hacker News Best
   category: programming
 - title: Banking beyond the law
   url: "https://aeon.co/essays/the-underground-bankers-who-reshape-the-flow-of-global-money?utm_source=rss-feed"
@@ -60,16 +85,6 @@
   category: philosophy
 - title: "The Intelligence of Emotions: Philosopher Martha Nussbaum on How Storytelling Rewires Us and Why Befriending Our Neediness Is Essential for Happiness"
   url: "https://www.themarginalian.org/2026/03/31/martha-nussbaum-upheavals-of-thought-neediness/"
-  date: 2026-03-31
-  source: The Marginalian
-  category: philosophy
-- title: "The Lonely City: Adventures in the Art of Being Alone"
-  url: "https://www.themarginalian.org/2026/03/31/the-lonely-city-olivia-laing/"
-  date: 2026-03-31
-  source: The Marginalian
-  category: philosophy
-- title: How Flamingos Got Their Pink
-  url: "https://www.themarginalian.org/2026/03/30/flamingos-pink/"
   date: 2026-03-31
   source: The Marginalian
   category: philosophy
@@ -83,24 +98,9 @@
   date: 2026-03-30
   source: Aeon
   category: philosophy
-- title: Nick Cave on Creative Work as an Instrument of Self-Forgiveness and the Courage of Hope in Cynical Times
-  url: "https://www.themarginalian.org/2026/03/30/nick-cave-hope-faith-carnage-self-forgiveness/"
-  date: 2026-03-30
-  source: The Marginalian
-  category: philosophy
-- title: "A Stoic’s Key to Peace of Mind: Seneca on the Antidote to Anxiety"
-  url: "https://www.themarginalian.org/2026/03/30/seneca-anxiety/"
-  date: 2026-03-30
-  source: The Marginalian
-  category: philosophy
 - title: Catastrophe markets
   url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
   date: 2026-03-27
-  source: Aeon
-  category: philosophy
-- title: She never dances alone
-  url: "https://aeon.co/videos/a-joyful-dance-celebration-of-indigenous-matriarchy?utm_source=rss-feed"
-  date: 2026-03-26
   source: Aeon
   category: philosophy
 - title: Examples for the tcpdump and dig man pages
