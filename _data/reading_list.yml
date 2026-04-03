@@ -1,8 +1,68 @@
+- title: "Michael Rosen’s Sad Book: A Beautiful Anatomy of Loss, Illustrated by Quentin Blake"
+  url: "https://www.themarginalian.org/2026/04/02/michael-rosens-sad-book-quentin-blake/"
+  date: 2026-04-03
+  source: The Marginalian
+  category: philosophy
+- title: "Highlights from my conversation about agentic engineering on Lenny's Podcast"
+  url: "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything"
+  date: 2026-04-02
+  source: Simon Willison
+  category: ai
+- title: "Gemma 4: Byte for byte, the most capable open models"
+  url: "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything"
+  date: 2026-04-02
+  source: Simon Willison
+  category: ai
+- title: llm-gemini 0.30
+  url: "https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything"
+  date: 2026-04-02
+  source: Simon Willison
+  category: ai
 - title: March 2026 sponsors-only newsletter
   url: "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything"
   date: 2026-04-02
   source: Simon Willison
   category: ai
+- title: "Tailscale's new macOS home"
+  url: "https://tailscale.com/blog/macos-notch-escape"
+  date: 2026-04-02
+  source: Hacker News Best
+  category: programming
+- title: Cursor 3
+  url: "https://cursor.com/blog/cursor-3"
+  date: 2026-04-02
+  source: Hacker News Best
+  category: programming
+- title: Google releases Gemma 4 open models
+  url: "https://deepmind.google/models/gemma/gemma-4/"
+  date: 2026-04-02
+  source: Hacker News Best
+  category: programming
+- title: Decisions that eroded trust in Azure – by a former Azure Core engineer
+  url: "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion"
+  date: 2026-04-02
+  source: Hacker News Best
+  category: programming
+- title: "Renewables reached nearly 50% of global electricity capacity last year"
+  url: "https://www.theregister.com/2026/04/01/renewables_generated_nearly_half_global_power/"
+  date: 2026-04-02
+  source: Hacker News Best
+  category: programming
+- title: The hidden world of plant roots
+  url: "https://aeon.co/videos/what-a-plants-decision-making-reveals-about-intelligence?utm_source=rss-feed"
+  date: 2026-04-02
+  source: Aeon
+  category: philosophy
+- title: The house is a work of art
+  url: "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition?utm_source=rss-feed"
+  date: 2026-04-02
+  source: Aeon
+  category: philosophy
+- title: "The Wild Iris: Nobel Laureate Louise Glück on the Door at the End of Your Suffering"
+  url: "https://www.themarginalian.org/2026/04/02/louse-gluck-wild-iris/"
+  date: 2026-04-02
+  source: The Marginalian
+  category: philosophy
 - title: Do Not Spare Yourself
   url: "https://www.themarginalian.org/2026/04/01/no-te-salves/"
   date: 2026-04-02
@@ -13,46 +73,6 @@
   date: 2026-04-01
   source: Simon Willison
   category: ai
-- title: datasette-enrichments-llm 0.2a1
-  url: "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything"
-  date: 2026-04-01
-  source: Simon Willison
-  category: ai
-- title: datasette-extract 0.3a0
-  url: "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything"
-  date: 2026-04-01
-  source: Simon Willison
-  category: ai
-- title: datasette-enrichments-llm 0.2a0
-  url: "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything"
-  date: 2026-04-01
-  source: Simon Willison
-  category: ai
-- title: "Artemis II lifts off: four astronauts begin 10-day lunar mission"
-  url: "https://www.theguardian.com/science/live/2026/apr/01/artemis-ii-launch-nasa-orion-moon-trip-live-updates"
-  date: 2026-04-01
-  source: Hacker News Best
-  category: programming
-- title: DRAM pricing is killing the hobbyist SBC market
-  url: "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/"
-  date: 2026-04-01
-  source: Hacker News Best
-  category: programming
-- title: SpaceX files to go public
-  url: "https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html"
-  date: 2026-04-01
-  source: Hacker News Best
-  category: programming
-- title: "Live: Artemis II Launch Day Updates"
-  url: "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/"
-  date: 2026-04-01
-  source: Hacker News Best
-  category: programming
-- title: EmDash – A spiritual successor to WordPress that solves plugin security
-  url: "https://blog.cloudflare.com/emdash-wordpress/"
-  date: 2026-04-01
-  source: Hacker News Best
-  category: programming
 - title: The Medici’s lost garden of wonders
   url: "https://aeon.co/videos/the-rise-and-fall-of-pratolino-tuscanys-proto-theme-park?utm_source=rss-feed"
   date: 2026-04-01
@@ -68,11 +88,6 @@
   date: 2026-04-01
   source: The Marginalian
   category: philosophy
-- title: The Three Elements of the Good Life
-  url: "https://www.themarginalian.org/2026/04/01/carl-rogers-good-life/"
-  date: 2026-04-01
-  source: The Marginalian
-  category: philosophy
 - title: "Summary of reading: January - March 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-january-march-2026/"
   date: 2026-03-31
@@ -83,24 +98,9 @@
   date: 2026-03-31
   source: Aeon
   category: philosophy
-- title: "The Intelligence of Emotions: Philosopher Martha Nussbaum on How Storytelling Rewires Us and Why Befriending Our Neediness Is Essential for Happiness"
-  url: "https://www.themarginalian.org/2026/03/31/martha-nussbaum-upheavals-of-thought-neediness/"
-  date: 2026-03-31
-  source: The Marginalian
-  category: philosophy
 - title: A search for answers
   url: "https://aeon.co/videos/in-search-of-truth-and-fun-at-princeton-university-1973?utm_source=rss-feed"
   date: 2026-03-30
-  source: Aeon
-  category: philosophy
-- title: The hypercurious mind
-  url: "https://aeon.co/essays/how-the-hypercuriosity-of-adhd-may-have-helped-humans-thrive?utm_source=rss-feed"
-  date: 2026-03-30
-  source: Aeon
-  category: philosophy
-- title: Catastrophe markets
-  url: "https://aeon.co/essays/what-is-the-real-cost-of-betting-on-weather-catastrophes?utm_source=rss-feed"
-  date: 2026-03-27
   source: Aeon
   category: philosophy
 - title: Examples for the tcpdump and dig man pages
