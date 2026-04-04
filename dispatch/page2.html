@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>The Sid Dispatch — Friday, April 3, 2026 · Page 2</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sid Dispatch — Saturday, April 4, 2026 · Page 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,239 +73,312 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
+  #dispatch-player.visible{transform:translateY(0);}
+  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
+  #dispatch-player button:hover{background:#fff;color:var(--black);}
+  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
+  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
+  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
+  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
+  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
 </style>
 </head>
 <body>
 <div class="wrap">
-<div class="top-bar">
-<span>Vol. 204  ·  No. 353</span>
-<span>⬥   Tech · Markets · Discourse   ⬥</span>
-<span>Page 2 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  
+  <div class="top-bar">
+    <span>Vol. 205 &nbsp;·&nbsp; No. 351</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 2 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Sid Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Saturday, April 4, 2026</span>
+      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
+    </div>
+  </div>
+  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div style="display:grid;grid-template-columns:1fr 1fr;">
+        
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Systems · Networking</div>
+      <h2 class="headline" id="the-seven-step-transformation-how-a-linux-host-becomes-netwo" style="font-size:22px"><a href="https://patrickmccanna.net/7-configuration-changes-that-turn-a-multi-homed-host-into-a-switch-router/" target="_blank" style="color:inherit;text-decoration:none;">The Seven-Step Transformation: How a Linux Host Becomes Network Infrastructure</a><span class="permalink" onclick="copyLink('the-seven-step-transformation-how-a-linux-host-becomes-netwo')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*Patrick McCanna dissects the kernel configurations that turn a generic machine into a serious routing engine*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47586885" target="_blank" style="color:inherit;text-decoration:none;">▲ 186 pts &nbsp;·&nbsp; 46 comments</a></div>
+      <div class="body-text"><p>The difference between a Linux box and a Linux router isn't inscribed in hardware—it's written in kernel parameters, routing tables, and interface configurations. Patrick McCanna's surgical breakdown of seven critical changes reveals how administrators can repurpose commodity hardware into production-grade network infrastructure without proprietary firmware or specialized silicon. The stakes are higher than they appear: misconfiguration at this layer cascades through entire networks, making the distinction between casual experimentation and operational necessity razor-thin.</p><p>McCanna's analysis cuts past the folklore that accumulates around router configuration. By isolating each lever—IP forwarding toggles, bridge versus routing modes, packet filtering rules—he exposes the mechanics that separate a multi-homed host from actual switching and routing behavior. The piece resonates because it grants readers permission to think of Linux not as a client operating system but as a first-class network citizen, capable of handling traffic patterns that would once required dedicated hardware purchases in the five-figure range.</p><p>This kind of infrastructure archaeology matters most to operators running lean deployments: homelab enthusiasts, cost-conscious startups, and organizations where vendor lock-in carries too high a price. The technical depth suggests this isn't tutorial theater—it's a master class in understanding what the kernel actually does when you ask it to move packets between networks.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Hardware · DIY</div>
+      <h2 class="headline" id="the-dial-up-revival-building-your-own-isp-on-a-raspberry-pi" style="font-size:22px"><a href="https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/" target="_blank" style="color:inherit;text-decoration:none;">The Dial-Up Revival: Building Your Own ISP on a Raspberry Pi</a><span class="permalink" onclick="copyLink('the-dial-up-revival-building-your-own-isp-on-a-raspberry-pi')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*Jeff Geerling resurrects the modem era to prove that connectivity infrastructure needn't depend on corporate gatekeepers*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47627527" target="_blank" style="color:inherit;text-decoration:none;">▲ 174 pts &nbsp;·&nbsp; 30 comments</a></div>
+      <div class="body-text"><p>The aesthetic might be retro, but Jeff Geerling's guide to building a functional dial-up ISP on Raspberry Pi hardware arrives at a moment when internet access has become stratified, unreliable, and geographically arbitrary. By walking through the mechanics of creating your own Point-to-Point Protocol (PPP) server on commodity $35 hardware, he demonstrates that the barrier to independent connectivity isn't technical—it's psychological. The dial-up ISP, once the gateway drug to online culture, has been theoretically democratized by cost-effective single-board computers and open-source networking stacks.</p><p>What makes this more than nostalgic cosplay is the underlying message: the infrastructure protocols that enabled the internet's early explosion haven't vanished—they've been absorbed into larger systems, layered beneath modern abstractions. Geerling's project peels back those layers, exposing PPP, modem emulation, and user authentication as tools still viable for building alternative networks. For rural communities with spotty broadband coverage, this kind of experimentation could bridge gaps that markets have left unfilled.</p></div>
+    </div>
+    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Languages · Embedded</div>
+      <h2 class="headline" id="tinygo-brings-webassembly-down-to-earth-and-into-embedded-sy" style="font-size:22px"><a href="https://tinygo.org/" target="_blank" style="color:inherit;text-decoration:none;">TinyGo Brings WebAssembly Down to Earth—and Into Embedded Systems</a><span class="permalink" onclick="copyLink('tinygo-brings-webassembly-down-to-earth-and-into-embedded-sy')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*A new compilation target collapses the boundary between high-level language convenience and bare-metal constraints*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47629116" target="_blank" style="color:inherit;text-decoration:none;">▲ 171 pts &nbsp;·&nbsp; 23 comments</a></div>
+      <div class="body-text"><p>WebAssembly was built for the browser, but TinyGo's embrace of WASM as an embedded systems target reveals something deeper: the abstraction is more universal than its origin story suggests. By allowing Go programs to compile directly to WebAssembly without a runtime, TinyGo creates a middle path between the interpretive overhead of traditional embedded scripting and the low-level pain of C. The achievement is architectural: Go's memory safety and garbage collection don't disappear on embedded targets, they simply operate within the constraints of the actual hardware.</p><p>This convergence matters because embedded systems development has long been bifurcated—systems people writing tight C, application people reaching for Python or JavaScript. TinyGo promises to collapse that division, letting developers write once and target multiple architectures without rewriting for memory limitations or bare-metal primitives. The WebAssembly layer becomes a portability abstraction, a universal bytecode format that can run on microcontrollers, browsers, and servers with minimal platform-specific code.</p></div>
+    </div>
+    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+      <div class="tag">Mobile · Containers</div>
+      <h2 class="headline" id="android-gets-a-linux-container-runtime-no-root-exploit-requi" style="font-size:22px"><a href="https://github.com/ExTV/Podroid" target="_blank" style="color:inherit;text-decoration:none;">Android Gets a Linux Container Runtime—No Root Exploit Required</a><span class="permalink" onclick="copyLink('android-gets-a-linux-container-runtime-no-root-exploit-requi')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+      <div class="deck">*Podroid unlocks containerized workloads on mobile devices without compromising the security model that protects billions of users*</div>
+      <div class="byline"><a href="https://news.ycombinator.com/item?id=47633131" target="_blank" style="color:inherit;text-decoration:none;">▲ 152 pts &nbsp;·&nbsp; 56 comments</a></div>
+      <div class="body-text"><p>The arrival of Podroid, a container runtime for Android that operates entirely within user-space permissions, marks a subtle but consequential shift in what mobile devices can execute. By circumventing the traditional root requirement that containers demand, Podroid enables developers to package and deploy Linux workloads on phones without triggering the security architecture Android spent a decade hardening. The technical elegance lies in accepting the sandboxing constraints as features rather than fighting them—containers become just another isolated environment alongside the app sandbox itself.</p><p>What opens up is less about running servers on your phone and more about the development workflow: testing containerized applications before deploying to production servers, running development databases locally, prototyping infrastructure changes on actual hardware before touching production. The 56 comments on the GitHub thread suggest the community is already imagining use cases the authors didn't anticipate. For developers who live on their devices, this removes a friction point that has historically required either carrying a laptop or losing the ability to rapidly iterate on containerized code.</p></div>
+    </div>
+      </div>
+      
+  <div class="section-label" style="margin-top:28px;">From the Reading List &nbsp;·&nbsp; RSS</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
+    
+    <div id="rss-specs-aren-t-code-even-when-they-re-detailed" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="color:inherit;text-decoration:none;">Specs Aren't Code, Even When They're Detailed</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-even-when-they-re-detailed')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Tue, 17 Ma</div>
+      <div class="body-text" style="font-size:13.5px;">Gabriel Gonzalez argues that specification documents, no matter how precise, fundamentally cannot replace executable code when it comes to agentic AI systems. This challenges the popular assumption that better prompting and detailed specs are sufficient for reliable AI-assisted development.</div>
+    </div>
+    <div id="rss-navigate-your-codebase-by-concept-not-by-file" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="color:inherit;text-decoration:none;">Navigate Your Codebase by Concept, Not by File</a><span class="permalink" onclick="copyLink('rss-navigate-your-codebase-by-concept-not-by-file')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Mon, 16 Fe</div>
+      <div class="body-text" style="font-size:13.5px;">What if you could explore a repository organized by meaning rather than directory structure? This post introduces topic modeling as a powerful alternative to traditional code browsing, potentially transforming how developers understand unfamiliar systems.</div>
+    </div>
+    <div id="rss-ai-tooling-must-evolve-beyond-the-chat-box" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="color:inherit;text-decoration:none;">AI Tooling Must Evolve Beyond the Chat Box</a><span class="permalink" onclick="copyLink('rss-ai-tooling-must-evolve-beyond-the-chat-box')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Haskell for All &nbsp;·&nbsp; Sat, 07 Fe</div>
+      <div class="body-text" style="font-size:13.5px;">Current AI dev tools are stuck in the chat interface paradigm, but they could be doing far more. This piece argues for fundamentally rethinking how we architect AI-assisted development to move past fundamental limitations.</div>
+    </div>
+    <div id="rss-thoughtbot-speaking-at-haggis-ruby-conf" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/attending-and-speaking-at-haggis-ruby" target="_blank" style="color:inherit;text-decoration:none;">Thoughtbot Speaking at Haggis Ruby Conf</a><span class="permalink" onclick="copyLink('rss-thoughtbot-speaking-at-haggis-ruby-conf')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-31</div>
+      <div class="body-text" style="font-size:13.5px;">Thoughtbot will be at Haggis Ruby in Glasgow on April 23-24—if you're attending, this is your heads-up to find them. A brief but useful note for Ruby developers in the UK conference circuit.</div>
+    </div>
+    <div id="rss-sidekiq-pro-s-super-fetch-prevents-silent-job-loss" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/enhancing-job-reliability-with-sidekiq-pro-s-super-fetch-strategy" target="_blank" style="color:inherit;text-decoration:none;">Sidekiq Pro's Super Fetch Prevents Silent Job Loss</a><span class="permalink" onclick="copyLink('rss-sidekiq-pro-s-super-fetch-prevents-silent-job-loss')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-03-30</div>
+      <div class="body-text" style="font-size:13.5px;">Standard Sidekiq fetch behavior can silently drop jobs under the right conditions. This technical deep-dive explains the failure mode and how Sidekiq Pro's super fetch strategy closes the gap for teams running critical background work.</div>
+    </div>
+    <div id="rss-the-web-becomes-a-dark-forest-with-ai" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" target="_blank" style="color:inherit;text-decoration:none;">The Web Becomes a Dark Forest With AI</a><span class="permalink" onclick="copyLink('rss-the-web-becomes-a-dark-forest-with-ai')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 27 Ma</div>
+      <div class="body-text" style="font-size:13.5px;">As AI agents proliferate online, the open web increasingly resembles a dark forest—hostile, deceptive, and optimized against observation. Ryan Dahl's sobering take on how AI is fundamentally changing the nature of internet architecture and trust.</div>
+    </div>
+    <div id="rss-rye-0-2-fixes-language-design-trap" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" target="_blank" style="color:inherit;text-decoration:none;">Rye 0.2 Fixes Language Design Trap</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-language-design-trap')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Wed, 04 Ma</div>
+      <div class="body-text" style="font-size:13.5px;">Ryan Dahl's latest update to Rye addresses a critical evaluation order footgun while introducing dot-words and streamlined constructors. For language designers and practitioners, this demonstrates how subtle ordering decisions can compound into usability nightmares—and how to fix them gracefully.</div>
+    </div>
+    <div id="rss-learn-rye-s-core-in-rapid-fire" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" target="_blank" style="color:inherit;text-decoration:none;">Learn Rye's Core in Rapid Fire</a><span class="permalink" onclick="copyLink('rss-learn-rye-s-core-in-rapid-fire')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 16 Ja</div>
+      <div class="body-text" style="font-size:13.5px;">Part two of Dahl's condensed Rye tutorial distills the language's essentials for the impatient learner. If you've been curious about Rye but lack hours to invest, this is your on-ramp.</div>
+    </div>
+    <div id="rss-building-your-own-private-llm-stack" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" target="_blank" style="color:inherit;text-decoration:none;">Building Your Own Private LLM Stack</a><span class="permalink" onclick="copyLink('rss-building-your-own-private-llm-stack')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Thu, 02 Ap</div>
+      <div class="body-text" style="font-size:13.5px;">Vitalik explores practical architecture for running powerful language models locally without surveillance or corporate intermediaries. As LLMs become infrastructure, this blueprint matters for anyone concerned about data sovereignty and inference independence.</div>
+    </div>
+    <div id="rss-decentralization-s-real-governance-challenge" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" target="_blank" style="color:inherit;text-decoration:none;">Decentralization's Real Governance Challenge</a><span class="permalink" onclick="copyLink('rss-decentralization-s-real-governance-challenge')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Tue, 30 De</div>
+      <div class="body-text" style="font-size:13.5px;">Rather than celebrating crypto's theoretical benefits, Vitalik examines the hard problem: how do decentralized systems actually balance competing interests and make decisions? Essential reading for anyone tired of ideological hand-waving.</div>
+    </div>
+    <div id="rss-why-governance-pluralism-beats-monoculture" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" target="_blank" style="color:inherit;text-decoration:none;">Why Governance Pluralism Beats Monoculture</a><span class="permalink" onclick="copyLink('rss-why-governance-pluralism-beats-monoculture')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Wed, 17 De</div>
+      <div class="body-text" style="font-size:13.5px;">Vitalik argues that allowing diverse governance models to coexist produces better outcomes than forcing universal standards. A refreshing counterpoint to Silicon Valley's one-size-fits-all mentality, grounded in practical reasoning.</div>
+    </div>
+    <div id="rss-fowler-s-latest-engineering-observations" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-02.html" target="_blank" style="color:inherit;text-decoration:none;">Fowler's Latest Engineering Observations</a><span class="permalink" onclick="copyLink('rss-fowler-s-latest-engineering-observations')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-02</div>
+      <div class="body-text" style="font-size:13.5px;">Martin Fowler's curated fragments capture timely insights from the frontlines of software architecture. A reliable digest for practitioners seeking signal amid noise.</div>
+    </div>
+    <div id="rss-why-your-coding-agents-need-better-guardrails" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/harness-engineering.html" target="_blank" style="color:inherit;text-decoration:none;">Why Your Coding Agents Need Better Guardrails</a><span class="permalink" onclick="copyLink('rss-why-your-coding-agents-need-better-guardrails')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-02</div>
+      <div class="body-text" style="font-size:13.5px;">Martin Fowler explores how to build effective harnesses around AI coding agents—thinking beyond raw capability to focus on safety, reliability, and team oversight. As these tools become production-critical, understanding governance mechanisms separates responsible adoption from reckless deployment.</div>
+    </div>
+    <div id="rss-embed-your-team-s-dna-into-code-standards" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
+      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html" target="_blank" style="color:inherit;text-decoration:none;">Embed Your Team's DNA Into Code Standards</a><span class="permalink" onclick="copyLink('rss-embed-your-team-s-dna-into-code-standards')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-03-31</div>
+      <div class="body-text" style="font-size:13.5px;">Fowler argues that encoding team standards isn't bureaucratic overhead—it's how you scale consistency and intent across distributed teams, especially as AI tools blur traditional code review boundaries. Making implicit norms explicit becomes your competitive advantage in maintaining quality at velocity.</div>
+    </div>
+  </div>
+    </div>
+    <div class="x-col">
+      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
+      
+    <div class="x-item" id="x-women-in-space-inspiration-meets-actual-progress">
+      <div class="x-handle">@Robotbeat ➐<span class="permalink" onclick="copyLink('x-women-in-space-inspiration-meets-actual-progress')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Women in space: inspiration meets actual progress</div>
+      <div class="x-body">Koch's lunar mission represents tangible progress in aerospace diversity, not just symbolic gestures. When major space achievements finally include women, it signals shifting institutional priorities—and that matters for talent pipelines downstream.</div>
+    </div>
+    <div class="x-item" id="x-vague-outrage-theater-doesn-t-move-needles">
+      <div class="x-handle">@End Wokeness<span class="permalink" onclick="copyLink('x-vague-outrage-theater-doesn-t-move-needles')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Vague outrage theater doesn't move needles</div>
+      <div class="x-body">This post exemplifies performative discourse: cryptic hand-wringing without substance. If a study deserves critique, name it, link it, and explain why. Innuendo-based takes waste attention in feeds already drowning in noise.</div>
+    </div>
+    <div class="x-item" id="x-usps-infrastructure-unglamorous-broken-critical">
+      <div class="x-handle">@SwiftOnSecurity<span class="permalink" onclick="copyLink('x-usps-infrastructure-unglamorous-broken-critical')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">USPS infrastructure: unglamorous, broken, critical</div>
+      <div class="x-body">Address standardization sounds boring until you realize it's foundational infrastructure—and apparently fragile. Security researchers spotting systemic weaknesses in government-adjacent systems is exactly the kind of accountability tech needs.</div>
+    </div>
+    <div class="x-item" id="x-open-source-ai-tooling-race-heats-up">
+      <div class="x-handle">@ollama<span class="permalink" onclick="copyLink('x-open-source-ai-tooling-race-heats-up')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+      <div class="x-headline">Open-source AI tooling race heats up</div>
+      <div class="x-body">Ollama's move to cloud-hosted inference democratizes access to frontier models at low cost, challenging OpenAI's pricing lock-in. This is distribution strategy as competitive weapon—making AI tools frictionless accelerates adoption and commoditizes inference.</div>
+    </div>
+    </div>
+  </div>
+  <div class="page-nav"><a  href="index.html">Page 1</a>
+      <a class="current" href="page2.html">Page 2</a></div>
+  <footer>
+    <span>The Sid Dispatch &nbsp;·&nbsp; Saturday, April 4, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+    <span>Generated 08:51 AM EDT</span>
+  </footer>
 </div>
-<div class="masthead">
-<div class="masthead-name">The Sid Dispatch</div>
-<div class="masthead-tagline">"All the signal, none of the noise."</div>
-<div class="masthead-meta">
-<span>sngeth.github.io/dispatch</span>
-<span style="color:var(--black);font-weight:500;">Friday, April 3, 2026</span>
-<span>Powered by Claude  ·  HN + 𝕏</span>
-</div>
-</div>
-<div class="section-label" style="margin-top:16px;">Extended Coverage  ·  Hacker News</div>
-<div class="main-grid">
-<div class="hn-col">
-<div style="display:grid;grid-template-columns:1fr 1fr;">
-<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Space · Engineering</div>
-<h2 class="headline" id="nasa-s-unsexy-engineering-triumph-why-a-space-toilet-matters" style="font-size:22px"><a href="https://www.scientificamerican.com/article/artemis-iis-toilet-is-a-moon-mission-milestone/" style="color:inherit;text-decoration:none;" target="_blank">NASA's Unsexy Engineering Triumph: Why a Space Toilet Matters for the Moon</a><span class="permalink" onclick="copyLink('nasa-s-unsexy-engineering-triumph-why-a-space-toilet-matters')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*The Artemis II waste management system represents a quantum leap in human spaceflight—and a humbling reminder that exploration lives in unglamorous details*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47609356" style="color:inherit;text-decoration:none;" target="_blank">▲ 256 pts  ·  110 comments</a></div>
-<div class="body-text"><p>A**stronauts don't talk about it, but NASA can't ignore it: the human body produces roughly 1.8 kilograms of waste per person per day, and the Artemis II mission to lunar orbit must keep four crew members alive and dignified for ten days without access to a gravity-enabled toilet.** The agency's solution—a redesigned waste management system that NASA calls a milestone—represents the kind of foundational engineering that separates fantasy from fact in deep space exploration. The system advances far beyond the Apollo-era bag-and-strap approach, incorporating improved suction technology and containment that prevents the kind of catastrophic contamination that could render a spacecraft uninhabitable.</p><p>The engineering challenges are brutally specific. In microgravity, human waste doesn't fall; it floats. Urine can separate into gas and liquid phases. Fecal matter becomes an aerosol hazard. The Artemis II toilet—officially called the Universal Waste Management System—uses centrifugal force and sealed containment to segregate solids and liquids, with a germicidal system that prevents bacterial proliferation in the confined environment. NASA tested dozens of prototypes with crews seated at every conceivable angle, collecting metrics on flow rates, seal integrity, and crew comfort levels that would mortify a Victorian engineer but fascinate a systems designer.</p><p>The broader implication haunts the space industry: nations that can't solve the waste problem aren't ready for the Moon. European and Chinese lunar programs watch these specifications closely. Without engineering elegance here, ambitious timelines collapse. As unsexy as it sounds, NASA's toilet breakthrough telegraphs a message—Artemis is serious about staying.</p></div>
-</div>
-<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Privacy · Geopolitics</div>
-<h2 class="headline" id="the-great-digital-decoupling-europe-builds-its-own-silicon-v" style="font-size:22px"><a href="https://only-eu.eu/en/" style="color:inherit;text-decoration:none;" target="_blank">The Great Digital Decoupling: Europe Builds Its Own Silicon Valley—Without Silicon Valley</a><span class="permalink" onclick="copyLink('the-great-digital-decoupling-europe-builds-its-own-silicon-v')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*A comprehensive catalog of 120+ European tech alternatives signals a quiet but seismic shift toward continental digital sovereignty*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47624741" style="color:inherit;text-decoration:none;" target="_blank">▲ 139 pts  ·  46 comments</a></div>
-<div class="body-text"><p>**The list reads like a parallel internet: email providers, cloud storage, productivity suites, mapping tools, and AI platforms—all built by Europeans, for Europeans, designed to run without funneling data to Mountain View or Cupertino.** Only-EU's meticulously curated directory of 120-plus applications represents more than mere redundancy; it embodies a strategic decoupling from American tech hegemony driven by regulatory frustration, data privacy concerns, and the dawning realization that digital infrastructure has become too consequential to outsource. From Proton Mail's encrypted communications to Nextcloud's self-hosted collaboration suite, these applications prove that European engineering can match American polish while delivering something Silicon Valley openly dismisses: user privacy as a design principle rather than an afterthought.</p><p>The momentum behind this movement shouldn't be underestimated. The EU's Digital Services Act and Digital Markets Act have pressured American giants while accelerating capital flow toward European founders. Venture firms now explicitly market "European champions" as a thesis. What began as niche preference among privacy advocates has become infrastructure preference among enterprises wary of American export controls and geopolitical unpredictability. A German manufacturer can now keep its supply chain data in German servers, encrypted against American subpoena and Chinese espionage alike.</p><p>Yet the catalog also exposes Europe's persistent fragmentation. Dozens of excellent services compete in verticals where American monopolies prevail through pure scale. Whether European alternatives achieve critical mass depends on whether regulatory protection morphs into genuine competitive advantage—or whether they remain comfortable niches for the conscientious.</p></div>
-</div>
-<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Open Source · Dev</div>
-<h2 class="headline" id="a-developer-built-an-entire-c-compiler-in-500-lines-of-shell" style="font-size:22px"><a href="https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19" style="color:inherit;text-decoration:none;" target="_blank">A Developer Built an Entire C Compiler in 500 Lines of Shell Script. It Works.</a><span class="permalink" onclick="copyLink('a-developer-built-an-entire-c-compiler-in-500-lines-of-shell')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*C89cc.sh proves that constraint breeds elegance—and challenges everything you thought you knew about compiler design*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47598413" style="color:inherit;text-decoration:none;" target="_blank">▲ 135 pts  ·  34 comments</a></div>
-<div class="body-text"><p>**In an era when programming tools bloat into gigabyte footprints, one developer uploaded a fully functional C89 compiler compressed into 500 lines of pure shell script—no dependencies beyond a Unix environment.** The C89cc.sh project exists partly as a technical demonstration of compiler fundamentals, partly as a philosophical statement about unnecessary complexity in modern software development. It accepts C89-compliant source code and produces 64-bit ELF binaries that execute directly, proving that parsing, code generation, and linking can be orchestrated by what most developers consider a scripting language rather than a "real" compiler toolkit.</p><p>The genius lies not in revolutionary algorithms but in ruthless pragmatism. Rather than implementing a complete abstract syntax tree, the compiler uses regex-based pattern matching and direct code emission—techniques that would horrify a computer science professor but that produce correct assembly output for the subset of C it targets. The resulting binaries run on x86-64 Linux systems, handling function calls, memory allocation, and conditional logic. For educational purposes or embedded systems where every kilobyte matters, C89cc.sh becomes genuinely useful, not merely a curiosity.</p><p>The project crystallizes a recurring tension in software engineering: optimization for developer experience versus optimization for system resources. Every major compiler infrastructure now prioritizes error messages, IDE integration, and compiler plugins over raw efficiency. C89cc.sh suggests that for developers working on legacy systems, embedded platforms, or in resource-constrained environments, the bloat represents not progress but needless tax on computational resources. Whether the industry will notice remains uncertain—but the proof that it's possible matters.</p></div>
-</div>
-<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-<div class="tag">Security · Privacy</div>
-<h2 class="headline" id="proton-meet-s-privacy-promise-crumbles-under-scrutiny" style="font-size:22px"><a href="https://www.sambent.com/proton-meet-isnt-what-they-told-you/" style="color:inherit;text-decoration:none;" target="_blank">Proton Meet's Privacy Promise Crumbles Under Scrutiny</a><span class="permalink" onclick="copyLink('proton-meet-s-privacy-promise-crumbles-under-scrutiny')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-<div class="deck">*The encrypted messaging company's video conferencing product falls short of claims, raising uncomfortable questions about infrastructure and trust*</div>
-<div class="byline"><a href="https://news.ycombinator.com/item?id=47624558" style="color:inherit;text-decoration:none;" target="_blank">▲ 108 pts  ·  84 comments</a></div>
-<div class="body-text"><p>**Proton Technologies marketed Proton Meet as an end-to-end encrypted alternative to Zoom and Google Meet, positioning the service as the privacy-conscious choice for sensitive communications.** The product's architecture, however, conceals architectural compromises that fundamentally undermine that narrative, according to a detailed technical analysis that dissects exactly where and how Proton's claims diverge from verifiable reality. The investigation reveals that while call signaling and certain metadata flows through Proton's infrastructure, the routing and session management patterns suggest less absolute encryption than marketing materials imply—a distinction that matters enormously when organizations stake security decisions on vendor promises.</p><p>The problem crystallizes around a specific technical point: true end-to-end encryption in video conferencing requires that no intermediary—including the service provider—maintain cryptographic access to session keys. Proton Meet's architecture, however, requires trust in Proton's servers for key exchange and call establishment. This differs fundamentally from Signal's approach and creates an attack surface where government legal process or sophisticated adversaries could potentially intercept communications at critical junctures. Proton's documentation remains ambiguous on precisely where the encryption boundary begins and ends, allowing both aggressive marketing claims and technical defensibility to coexist in uncomfortable tension.</p><p>The scandal matters beyond Proton specifically because it exposes how privacy narratives commodify user anxiety without matching technical rigor. Organizations evaluating video conferencing platforms increasingly demand provable security models, not slogans. Proton Meet's stumble suggests that even companies built on privacy principles face incentives to oversell capabilities when competitive pressure mounts. The gap between marketing reality and technical reality widens again.</p></div>
-</div>
-</div>
-<div class="section-label" style="margin-top:28px;">From the Reading List  ·  RSS</div>
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
-<div id="rss-why-specs-can-t-replace-code" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" style="color:inherit;text-decoration:none;" target="_blank">Why Specs Can't Replace Code</a><span class="permalink" onclick="copyLink('rss-why-specs-can-t-replace-code')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Tue, 17 Ma</div>
-<div class="body-text" style="font-size:13.5px;">Detailed specifications have fundamental limits that prevent them from replacing actual implementation—a critical constraint for AI-assisted development. As agentic coding tools proliferate, understanding this boundary becomes essential for realistic expectations about automation's ceiling.</div>
-</div>
-<div id="rss-navigate-repos-like-a-semantic-index" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" style="color:inherit;text-decoration:none;" target="_blank">Navigate Repos Like a Semantic Index</a><span class="permalink" onclick="copyLink('rss-navigate-repos-like-a-semantic-index')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Mon, 16 Fe</div>
-<div class="body-text" style="font-size:13.5px;">Topic modeling offers a smarter way to explore codebases by meaning rather than file structure, making large repositories more discoverable. This approach could reshape how developers understand unfamiliar systems and navigate complex projects.</div>
-</div>
-<div id="rss-ai-coding-tools-need-rethinking" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Haskell for All</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" style="color:inherit;text-decoration:none;" target="_blank">AI Coding Tools Need Rethinking</a><span class="permalink" onclick="copyLink('rss-ai-coding-tools-need-rethinking')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Haskell for All  ·  Sat, 07 Fe</div>
-<div class="body-text" style="font-size:13.5px;">Chat interfaces are a lazy default for AI dev tooling—better UX patterns exist that could amplify developer productivity beyond today's conversational models. A thought-provoking challenge to the current AI coding paradigm.</div>
-</div>
-<div id="rss-thoughtbot-at-haggis-ruby" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/attending-and-speaking-at-haggis-ruby" style="color:inherit;text-decoration:none;" target="_blank">thoughtbot at Haggis Ruby</a><span class="permalink" onclick="copyLink('rss-thoughtbot-at-haggis-ruby')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-31</div>
-<div class="body-text" style="font-size:13.5px;">thoughtbot will be in Glasgow April 23-24 for Haggis Ruby conference. Mark your calendars if you're in the UK Ruby community looking to connect with their team.</div>
-</div>
-<div id="rss-sidekiq-pro-prevents-silent-job-loss" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/enhancing-job-reliability-with-sidekiq-pro-s-super-fetch-strategy" style="color:inherit;text-decoration:none;" target="_blank">Sidekiq Pro Prevents Silent Job Loss</a><span class="permalink" onclick="copyLink('rss-sidekiq-pro-prevents-silent-job-loss')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-30</div>
-<div class="body-text" style="font-size:13.5px;">Standard Sidekiq's fetch behavior can silently drop jobs under certain conditions—Sidekiq Pro's super fetch strategy eliminates this footgun. Critical reading for anyone running critical background jobs in production.</div>
-</div>
-<div id="rss-bootstrap-beats-tailwind-for-server-rendering" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Engineering  ·  Thoughtbot</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/the-opinionated-thoughtbotter-bootstrap-is-the-superior-front-end-toolkit" style="color:inherit;text-decoration:none;" target="_blank">Bootstrap Beats Tailwind for Server Rendering</a><span class="permalink" onclick="copyLink('rss-bootstrap-beats-tailwind-for-server-rendering')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Thoughtbot  ·  2026-03-27</div>
-<div class="body-text" style="font-size:13.5px;">Steve Polito argues Bootstrap outperforms Tailwind for traditional server-rendered applications in speed and customization. A timely counterargument in a discourse dominated by utility-first CSS advocates.</div>
-</div>
-<div id="rss-the-web-becomes-an-ai-dark-forest" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" style="color:inherit;text-decoration:none;" target="_blank">The Web Becomes an AI Dark Forest</a><span class="permalink" onclick="copyLink('rss-the-web-becomes-an-ai-dark-forest')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Ryan Dahl (Rye)  ·  Fri, 27 Ma</div>
-<div class="body-text" style="font-size:13.5px;">Open-web intelligence is degrading as AI systems create untrustworthy noise at scale, making human-originated content harder to find. A sobering analysis of how AI adoption threatens information ecosystems.</div>
-</div>
-<div id="rss-rye-0-2-fixes-evaluation-order-trap" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" style="color:inherit;text-decoration:none;" target="_blank">Rye 0.2 Fixes Evaluation Order Trap</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-evaluation-order-trap')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Ryan Dahl (Rye)  ·  Wed, 04 Ma</div>
-<div class="body-text" style="font-size:13.5px;">Rye's new left-to-right evaluation and dot-word type eliminate a major footgun while simplifying constructors. Key updates for developers exploring this emerging language designed by Node.js creator Ryan Dahl.</div>
-</div>
-<div id="rss-learn-rye-in-20-minutes" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" style="color:inherit;text-decoration:none;" target="_blank">Learn Rye in 20 Minutes</a><span class="permalink" onclick="copyLink('rss-learn-rye-in-20-minutes')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Ryan Dahl (Rye)  ·  Fri, 16 Ja</div>
-<div class="body-text" style="font-size:13.5px;">A crisp, practical guide distilling 80% of Rye's essential concepts for quick onboarding. Ideal for developers curious about Ryan Dahl's new language but short on time.</div>
-</div>
-<div id="rss-building-secure-private-llm-setups" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Crypto  ·  Vitalik Buterin</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" style="color:inherit;text-decoration:none;" target="_blank">Building Secure Private LLM Setups</a><span class="permalink" onclick="copyLink('rss-building-secure-private-llm-setups')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Vitalik Buterin  ·  Thu, 02 Ap</div>
-<div class="body-text" style="font-size:13.5px;">Vitalik details his 2026 approach to running LLMs locally with full sovereignty and security, avoiding cloud dependencies. Essential reading for developers concerned about AI privacy and data control.</div>
-</div>
-<div id="rss-decentralization-isn-t-power-distribution" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Crypto  ·  Vitalik Buterin</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" style="color:inherit;text-decoration:none;" target="_blank">Decentralization Isn't Power Distribution</a><span class="permalink" onclick="copyLink('rss-decentralization-isn-t-power-distribution')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Vitalik Buterin  ·  Tue, 30 De</div>
-<div class="body-text" style="font-size:13.5px;">Vitalik examines how blockchain projects often fail to achieve actual balance of power despite decentralization rhetoric. A critical analysis of governance assumptions in crypto systems.</div>
-</div>
-<div id="rss-let-communities-design-their-own-rules" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Crypto  ·  Vitalik Buterin</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" style="color:inherit;text-decoration:none;" target="_blank">Let Communities Design Their Own Rules</a><span class="permalink" onclick="copyLink('rss-let-communities-design-their-own-rules')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Vitalik Buterin  ·  Wed, 17 De</div>
-<div class="body-text" style="font-size:13.5px;">Rather than one-size-fits-all systems, Vitalik advocates for allowing diverse societal models to coexist and flourish. A thought-provoking vision for how decentralized technology could enable pluralism.</div>
-</div>
-<div id="rss-martin-fowler-s-april-2-fragments" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Engineering  ·  Martin Fowler</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-02.html" style="color:inherit;text-decoration:none;" target="_blank">Martin Fowler's April 2 Fragments</a><span class="permalink" onclick="copyLink('rss-martin-fowler-s-april-2-fragments')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Martin Fowler  ·  2026-04-02</div>
-<div class="body-text" style="font-size:13.5px;">Fowler's latest micro-essays on engineering challenges. Check the collection for bite-sized insights on contemporary development practices.</div>
-</div>
-<div id="rss-harness-engineering-for-ai-assisted-code" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-<div class="tag">Engineering  ·  Martin Fowler</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/harness-engineering.html" style="color:inherit;text-decoration:none;" target="_blank">Harness Engineering for AI-Assisted Code</a><span class="permalink" onclick="copyLink('rss-harness-engineering-for-ai-assisted-code')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Martin Fowler  ·  2026-04-02</div>
-<div class="body-text" style="font-size:13.5px;">Martin Fowler explores how harness engineering practices help teams effectively validate and control output from coding agents. Essential framework for organizations deploying AI development tools responsibly.</div>
-</div>
-<div id="rss-encode-standards-into-ai-guardrails" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-<div class="tag">Engineering  ·  Martin Fowler</div>
-<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html" style="color:inherit;text-decoration:none;" target="_blank">Encode Standards Into AI Guardrails</a><span class="permalink" onclick="copyLink('rss-encode-standards-into-ai-guardrails')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-<div class="byline">Martin Fowler  ·  2026-03-31</div>
-<div class="body-text" style="font-size:13.5px;">Reducing friction between team standards and AI tooling requires explicitly encoding expectations into agent constraints. Fowler's practical guide for maintaining consistency as code generation scales.</div>
-</div>
-</div>
-</div>
-<div class="x-col">
-<div class="sidebar-label">More From the Feed  ·  𝕏</div>
-<div class="x-item" id="x-grok-s-image-ai-gets-a-serious-upgrade-timeline">
-<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-grok-s-image-ai-gets-a-serious-upgrade-timeline')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Grok's image AI gets a serious upgrade timeline</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-04/story-29.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:23</span>
-<div class="x-body">Musk is signaling that Grok's Imagine model is moving toward genuine competition with DALL-E and Midjourney. The focus on audio synthesis and facial consistency suggests xAI is chasing the exact pain points that make current generative image tools feel incomplete. A few weeks away from v2.0 means this isn't vaporware—it's coming.</div>
-</div>
-<div class="x-item" id="x-cryptic-post-hints-at-deeper-conflict-brewing">
-<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-cryptic-post-hints-at-deeper-conflict-brewing')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Cryptic post hints at deeper conflict brewing</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-04/story-30.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
-<div class="x-body">Three words, zero context. In Musk's playbook, this usually presages either a dig at competitors, critics, or his own team. The vagueness is intentional—it forces speculation and keeps discourse centered on him. Classic attention engineering from someone who understands the algorithm better than anyone.</div>
-</div>
-<div class="x-item" id="x-determinism-as-tech-manifesto-wrapped-in-one-word">
-<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-determinism-as-tech-manifesto-wrapped-in-one-word')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Determinism as tech manifesto, wrapped in one word</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-04/story-31.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
-<div class="x-body">When Musk tweets 'Inevitable,' he's doing philosophy as marketing. It signals confidence in xAI's trajectory while implicitly suggesting that AI dominance—and his role in it—is a foregone conclusion. It's less statement than incantation, designed to shape investor and user perception.</div>
-</div>
-<div class="x-item" id="x-niche-product-gets-roasted-with-unhinged-honesty">
-<div class="x-handle">@Scorched Earth Policy<span class="permalink" onclick="copyLink('x-niche-product-gets-roasted-with-unhinged-honesty')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-<div class="x-headline">Niche product gets roasted with unhinged honesty</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-04/story-32.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
-<div class="x-body">This reads like a parody account or someone with zero brand filter. The post matters only as a reminder that even in tech discourse, authenticity—however crude—cuts through marketing noise. It's the anti-sponsored-content vibe that makes X still worth following.</div>
-</div>
-</div>
-</div>
-<div class="page-nav"><a href="index.html">Page 1</a>
-<a class="current" href="page2.html">Page 2</a></div>
-<footer>
-<span>The Sid Dispatch  ·  Friday, April 3, 2026</span>
-<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-<span>Generated 07:03 AM EDT</span>
-</footer>
-</div>
+
 <!-- ── AUDIO PLAYER ── -->
+<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
+<div id="dispatch-player">
+  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
+  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
+  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
+  <span id="player-title">The Sid Dispatch</span>
+  <span id="player-progress"></span>
+  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
+  <button onclick="closePlayer()" title="Close">✕</button>
+</div>
 <script>
+function copyLink(slug) {
+  var url = location.origin + location.pathname + '#' + slug;
+  navigator.clipboard.writeText(url).then(function() {
+    var el = document.getElementById(slug);
+    if (!el) return;
+    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
+    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
+  });
+}
 (function() {
-  var player = document.createElement('audio');
-  player.id = 'story-player';
-  player.preload = 'none';
-  document.body.appendChild(player);
+  const synth = window.speechSynthesis;
+  if (!synth) return;
 
-  var activePill = null;
+  let articles = [];
+  let current = 0;
+  let playing = false;
+  let speed = 1;
+  const speeds = [0.8, 1, 1.25, 1.5];
+  let speedIdx = 1;
+  let activeEl = null;
 
-  function deactivate() {
-    if (activePill) {
-      activePill.style.background = '';
-      activePill.style.color = 'var(--mid)';
-      activePill.style.borderColor = 'var(--light)';
-      activePill = null;
+  function collectArticles() {
+    const items = [];
+    // HN stories in DOM order
+    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
+      const h = el.querySelector('.headline');
+      const b = el.querySelector('.body-text');
+      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // X sidebar
+    document.querySelectorAll('.x-item').forEach(el => {
+      const h = el.querySelector('.x-headline');
+      const handle = el.querySelector('.x-handle');
+      const b = el.querySelector('.x-body');
+      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    // RSS items
+    document.querySelectorAll('.rss-item').forEach(el => {
+      const h = el.querySelector('.rss-headline');
+      const b = el.querySelector('.rss-body');
+      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
+    });
+    return items;
+  }
+
+  function updateUI() {
+    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
+    document.getElementById('btn-play').classList.toggle('active', playing);
+    if (articles[current]) {
+      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
+      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
+      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
+    }
+    document.getElementById('btn-speed').textContent = speed + '×';
+    if (activeEl) activeEl.classList.remove('reading-active');
+    if (articles[current]) {
+      activeEl = articles[current].el;
+      activeEl.classList.add('reading-active');
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 
-  function activate(pill) {
-    deactivate();
-    activePill = pill;
-    pill.style.background = 'var(--dark-red)';
-    pill.style.color = '#fff';
-    pill.style.borderColor = 'var(--dark-red)';
+  function speak() {
+    synth.cancel();
+    if (current >= articles.length) { playing = false; updateUI(); return; }
+    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
+    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
+    utt.rate = speed;
+    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
+    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
+    synth.speak(utt);
+    updateUI();
   }
 
-  player.addEventListener('ended', deactivate);
-  player.addEventListener('error', deactivate);
-
-  document.querySelectorAll('.listen-pill').forEach(function(pill) {
-    pill.addEventListener('click', function() {
-      var src = this.getAttribute('data-src');
-      if (activePill === this && !player.paused) {
-        player.pause();
-        deactivate();
-        return;
-      }
-      while (player.firstChild) player.removeChild(player.firstChild);
-      var source = document.createElement('source');
-      source.src = src;
-      source.type = 'audio/mpeg';
-      player.appendChild(source);
-      player.load();
-      activate(this);
-      player.play();
-    });
-  });
-})();</script></body>
+  window.togglePlay = function() {
+    if (!articles.length) articles = collectArticles();
+    if (playing) { synth.pause(); playing = false; }
+    else if (synth.paused) { synth.resume(); playing = true; }
+    else { playing = true; speak(); }
+    updateUI();
+  };
+  window.nextArticle = function() {
+    synth.cancel();
+    if (current < articles.length - 1) current++;
+    if (playing) speak(); else updateUI();
+  };
+  window.prevArticle = function() {
+    synth.cancel();
+    if (current > 0) current--;
+    if (playing) speak(); else updateUI();
+  };
+  window.cycleSpeed = function() {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    speed = speeds[speedIdx];
+    if (playing) { synth.cancel(); speak(); } else updateUI();
+  };
+  window.togglePlayer = function() {
+    const p = document.getElementById('dispatch-player');
+    p.classList.toggle('visible');
+    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
+  };
+  window.closePlayer = function() {
+    synth.cancel();
+    playing = false;
+    document.getElementById('dispatch-player').classList.remove('visible');
+    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
+  };
+})();
+</script>
+</body>
 </html>
