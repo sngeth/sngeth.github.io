@@ -27,15 +27,12 @@ from datetime import date
 from pathlib import Path
 
 from bs4 import BeautifulSoup
-import numpy as np
-from mlx_audio.tts.utils import load_model
-from mlx_audio.audio_io import write as audio_write
 from pydub import AudioSegment
 
 DISPATCH_DIR = Path(__file__).resolve().parent.parent / "dispatch"
 AUDIO_DIR = DISPATCH_DIR / "audio"
 REPO = "sngeth/sngeth.github.io"
-MODEL_ID = "mlx-community/Voxtral-4B-TTS-2603-mlx-bf16"
+MODEL_ID = "mlx-community/Voxtral-4B-TTS-2603-mlx-4bit"
 DEFAULT_VOICE = "casual_male"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -155,36 +152,67 @@ def extract_stories(html_path: Path) -> list[dict]:
     return stories
 
 
-def generate_story_audio(
-    model, text: str, voice: str, output_path: Path
+MAX_RETRIES = 1
+
+
+def generate_story_in_subprocess(
+    text: str, voice: str, output_path: Path
 ) -> float | None:
-    """Generate MP3 for a single story. Returns duration in seconds or None on failure."""
-    wav_path = output_path.with_suffix(".wav")
-    try:
-        for result in model.generate(text=text, voice=voice):
-            audio_write(str(wav_path), np.array(result.audio), result.sample_rate)
-            log.info(
-                "  Generated %s audio (RTF: %.2fx, peak mem: %.1fGB)",
-                result.audio_duration,
-                result.real_time_factor,
-                result.peak_memory_usage,
-            )
-    except Exception as e:
-        log.warning("  TTS failed: %s", e)
-        return None
+    """Run TTS in a child process so Metal OOM kills only the child.
 
-    if not wav_path.exists():
-        log.warning("  No audio output generated")
-        return None
+    Retries up to MAX_RETRIES times on failure (OOM can be transient
+    depending on background GPU pressure from other apps).
+    """
+    script = f"""
+import gc, sys, logging
+import mlx.core as mx
+import numpy as np
+from mlx_audio.tts.utils import load_model
+from mlx_audio.audio_io import write as audio_write
+from pydub import AudioSegment
+from pathlib import Path
 
-    # Encode to 64kbps mono MP3
-    segment = AudioSegment.from_wav(str(wav_path))
-    segment = segment.set_channels(1)
-    segment.export(str(output_path), format="mp3", bitrate="64k")
-    wav_path.unlink()
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+log = logging.getLogger(__name__)
 
-    duration_sec = len(segment) / 1000.0
-    return duration_sec
+mx.set_cache_limit(512 * 1024**2)
+mx.set_memory_limit(12 * 1024**3)
+
+model = load_model("{MODEL_ID}")
+wav_path = Path("{output_path}").with_suffix(".wav")
+
+for result in model.generate(text={text!r}, voice={voice!r}):
+    audio_write(str(wav_path), np.array(result.audio), result.sample_rate)
+    log.info("  Generated %s audio (RTF: %.2fx, peak mem: %.1fGB)",
+             result.audio_duration, result.real_time_factor, result.peak_memory_usage)
+
+segment = AudioSegment.from_wav(str(wav_path))
+segment = segment.set_channels(1)
+segment.export("{output_path}", format="mp3", bitrate="64k")
+wav_path.unlink()
+print(len(segment) / 1000.0)
+"""
+    for attempt in range(1 + MAX_RETRIES):
+        if attempt > 0:
+            log.info("  Retry %d/%d...", attempt, MAX_RETRIES)
+        result = subprocess.run(
+            [sys.executable, "-c", script],
+            capture_output=True, text=True, timeout=600,
+            env={**__import__("os").environ},
+        )
+        if result.returncode == 0:
+            for line in result.stderr.strip().splitlines():
+                log.info("  [sub] %s", line)
+            try:
+                return float(result.stdout.strip().splitlines()[-1])
+            except (ValueError, IndexError):
+                log.warning("  Could not parse duration from subprocess output")
+                return None
+
+        last_err = result.stderr.strip().split("\n")[-1] if result.stderr.strip() else "unknown"
+        log.warning("  Subprocess failed (exit %d): %s", result.returncode, last_err)
+
+    return None
 
 
 def generate_full_edition(story_mp3s: list[Path], output_path: Path) -> float:
@@ -542,9 +570,6 @@ def main() -> None:
                 story["duration"] = story_durations[mp3_name]
     else:
         # Phase 2: Generate audio
-        log.info("Loading Voxtral model (first run downloads ~8GB)...")
-        model = load_model(MODEL_ID)
-
         tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
         log.info("Working directory: %s", tmp_dir)
 
@@ -554,7 +579,9 @@ def main() -> None:
             mp3_name = f"story-{i:02d}.mp3"
             mp3_path = tmp_dir / mp3_name
             log.info("Generating %s: %s...", mp3_name, story["headline"][:50])
-            duration = generate_story_audio(model, story["text"], args.voice, mp3_path)
+            duration = generate_story_in_subprocess(
+                story["text"], args.voice, mp3_path
+            )
             if duration is not None:
                 story_mp3s.append(mp3_path)
                 story_durations[mp3_name] = duration
