@@ -23,6 +23,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import date
 from pathlib import Path
 
@@ -152,7 +153,8 @@ def extract_stories(html_path: Path) -> list[dict]:
     return stories
 
 
-MAX_RETRIES = 1
+MAX_RETRIES = 2
+RETRY_DELAY_SECS = 5
 
 
 def generate_story_in_subprocess(
@@ -211,6 +213,8 @@ print(len(segment) / 1000.0)
 
         last_err = result.stderr.strip().split("\n")[-1] if result.stderr.strip() else "unknown"
         log.warning("  Subprocess failed (exit %d): %s", result.returncode, last_err)
+        if attempt < MAX_RETRIES:
+            time.sleep(RETRY_DELAY_SECS)
 
     return None
 
@@ -389,7 +393,11 @@ def inject_story_pills(
 
     # Find all headline elements in this soup
     for headline_el in soup.find_all(class_=["headline", "x-headline"]):
-        headline_text = clean_text(headline_el.get_text())
+        # Strip permalink/share buttons to match extract_stories() normalization
+        headline_copy = BeautifulSoup(str(headline_el), "lxml")
+        for junk in headline_copy.select(".permalink"):
+            junk.decompose()
+        headline_text = clean_text(headline_copy.get_text())
         match = audio_map.get(headline_text)
         if not match:
             continue

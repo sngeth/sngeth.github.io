@@ -5,9 +5,14 @@
 
 set -euo pipefail
 
+PATCH_ONLY=false
+if [ "${1:-}" = "--patch-only" ]; then
+  PATCH_ONLY=true
+fi
+
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LOG_FILE="$REPO_DIR/logs/dispatch-audio.log"
-DATE=$(date +%Y-%m-%d)
+DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
 
 mkdir -p "$REPO_DIR/logs"
 
@@ -44,20 +49,31 @@ fi
 
 # Check if audio already generated for today (release already exists)
 TAG="dispatch-audio-$DATE"
-if gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
-  echo "→ Release $TAG already exists. Skipping."
-  exit 0
+if [ "$PATCH_ONLY" = true ]; then
+  if ! gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
+    echo "✗ Release $TAG not found. Cannot --patch-only."
+    exit 1
+  fi
+  echo "→ Re-patching HTML for $DATE from existing release..."
+  uv run scripts/generate_dispatch_audio.py --date "$DATE" --patch-only
+else
+  if gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
+    echo "→ Release $TAG already exists. Skipping."
+    exit 0
+  fi
+  echo "→ Generating audio for $DATE..."
+  uv run scripts/generate_dispatch_audio.py --date "$DATE"
 fi
-
-# Run Voxtral TTS
-echo "→ Generating audio for $DATE..."
-uv run scripts/generate_dispatch_audio.py --date "$DATE"
 
 # Commit patched HTML (audio player injected, Web Speech API stripped)
 echo "→ Committing patched HTML..."
 git add dispatch/
 if git status --porcelain dispatch/ | grep -q '^'; then
-  git commit -m "🎧 Audio: $DATE"
+  if [ "$PATCH_ONLY" = true ]; then
+    git commit -m "🎧 Audio re-patch: $DATE"
+  else
+    git commit -m "🎧 Audio: $DATE"
+  fi
   git push origin HEAD
   echo "✓ Pushed patched HTML"
 else
