@@ -1288,3 +1288,118 @@ dd {
   color: var(--tn-comment);
   margin-top: 0.15rem;
 }
+
+/* Podcasts page */
+.podcast-list {
+  margin-top: 1rem;
+}
+
+.podcast-card {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--tn-bg-highlight);
+}
+
+.podcast-card:last-child {
+  border-bottom: none;
+}
+
+.podcast-header {
+  margin-bottom: 1rem;
+}
+
+.podcast-title {
+  font-size: 1.1rem;
+  color: var(--tn-cyan);
+  margin: 0 0 0.25rem 0;
+}
+
+.podcast-author {
+  font-size: 0.8rem;
+  color: var(--tn-comment);
+}
+
+.podcast-episodes h3 {
+  font-size: 0.9rem;
+  color: var(--tn-magenta);
+  margin: 0.75rem 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.episode {
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--tn-bg-highlight);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.episode-title {
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--tn-blue);
+  background: var(--tn-bg-dark);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.episode-title::-webkit-details-marker {
+  display: none;
+}
+
+.episode-title::before {
+  content: "\25B6";
+  font-size: 0.6rem;
+  color: var(--tn-comment);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+details[open] > .episode-title::before {
+  transform: rotate(90deg);
+}
+
+.episode-meta {
+  font-size: 0.75rem;
+  color: var(--tn-comment);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.episode-body {
+  padding: 0.8rem;
+  border-top: 1px solid var(--tn-bg-highlight);
+}
+
+.episode-summary {
+  font-size: 0.85rem;
+  color: var(--tn-fg-dark);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.episode-key-points {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.episode-key-points li {
+  font-size: 0.8rem;
+  color: var(--tn-fg-dark);
+  padding: 0.3rem 0 0.3rem 1rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.episode-key-points li::before {
+  content: "\2022";
+  color: var(--tn-green);
+  position: absolute;
+  left: 0;
+}
+
