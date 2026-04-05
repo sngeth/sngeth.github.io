@@ -1,77 +1,82 @@
+- title: scan-for-secrets 0.2
+  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything"
+  date: 2026-04-05
+  source: Simon Willison
+  category: ai
+- title: scan-for-secrets 0.1.1
+  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything"
+  date: 2026-04-05
+  source: Simon Willison
+  category: ai
+- title: scan-for-secrets 0.1
+  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything"
+  date: 2026-04-05
+  source: Simon Willison
+  category: ai
+- title: research-llm-apis 2026-04-04
+  url: "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything"
+  date: 2026-04-05
+  source: Simon Willison
+  category: ai
+- title: "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy"
+  url: "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"
+  date: 2026-04-05
+  source: Hacker News Best
+  category: programming
+- title: Any Common Desolation
+  url: "https://www.themarginalian.org/2026/04/04/any-common-desolation-ellen-bass/"
+  date: 2026-04-05
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Kyle Daigle
   url: "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything"
   date: 2026-04-04
   source: Simon Willison
   category: ai
+- title: "How many products does Microsoft have named 'Copilot'?"
+  url: "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
+  date: 2026-04-04
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: A game where you build a GPU"
+  url: "https://jaso1024.com/mvidia/"
+  date: 2026-04-04
+  source: Hacker News Best
+  category: programming
+- title: Apple approves driver that lets Nvidia eGPUs work with Arm Macs
+  url: "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs"
+  date: 2026-04-04
+  source: Hacker News Best
+  category: programming
+- title: German men 18-45 need military permit for extended stays abroad
+  url: "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677"
+  date: 2026-04-04
+  source: Hacker News Best
+  category: programming
+- title: "The Art of Befriending Time and Change: Debbie Millman’s Illustrated Love Letter to Gardening as a Portal to Self-discovery"
+  url: "https://www.themarginalian.org/2026/04/04/love-letter-to-a-garden-debbie-millman/"
+  date: 2026-04-04
+  source: The Marginalian
+  category: philosophy
+- title: The Magic of Moss and What It Teaches Us About the Art of Attentiveness to Life at All Scales
+  url: "https://www.themarginalian.org/2026/04/04/gathering-moss-robin-wall-kimmerer/"
+  date: 2026-04-04
+  source: The Marginalian
+  category: philosophy
+- title: "The Pattern Inside the Pattern: Fractals, the Hidden Order Beneath Chaos, and the Story of the Refugee Who Revolutionized the Mathematics of Reality"
+  url: "https://www.themarginalian.org/2026/04/04/mandelbrot-fractals-chaos/"
+  date: 2026-04-04
+  source: The Marginalian
+  category: philosophy
 - title: Wherever You Think There Is Nothing
   url: "https://www.themarginalian.org/2026/04/03/nothing/"
   date: 2026-04-04
   source: The Marginalian
   category: philosophy
-- title: "Hemingway’s Advice on Writing, Ambition, and His Reading List of Essential Books for Aspiring Writers"
-  url: "https://www.themarginalian.org/2026/04/03/with-hemingway-arnold-samuelson-writing/"
-  date: 2026-04-04
-  source: The Marginalian
-  category: philosophy
-- title: Vulnerability Research Is Cooked
-  url: "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything"
-  date: 2026-04-03
-  source: Simon Willison
-  category: ai
-- title: The cognitive impact of coding agents
-  url: "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything"
-  date: 2026-04-03
-  source: Simon Willison
-  category: ai
-- title: Quoting Willy Tarreau
-  url: "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything"
-  date: 2026-04-03
-  source: Simon Willison
-  category: ai
-- title: Quoting Daniel Stenberg
-  url: "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything"
-  date: 2026-04-03
-  source: Simon Willison
-  category: ai
-- title: The FAA’s flight restriction for drones is an attempt to criminalize filming ICE
-  url: "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice"
-  date: 2026-04-03
-  source: Hacker News Best
-  category: programming
-- title: "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw"
-  url: "https://news.ycombinator.com/item?id=47633396"
-  date: 2026-04-03
-  source: Hacker News Best
-  category: programming
-- title: Oracle files H-1B visa petitions amid mass layoffs
-  url: "https://nationaltoday.com/us/tx/austin/news/2026/04/03/oracle-files-thousands-of-h-1b-visa-petitions-amid-mass-layoffs/"
-  date: 2026-04-03
-  source: Hacker News Best
-  category: programming
-- title: Artemis II crew take “spectacular” image of Earth
-  url: "https://www.bbc.com/news/articles/ce8jzr423p9o"
-  date: 2026-04-03
-  source: Hacker News Best
-  category: programming
-- title: iNaturalist
-  url: "https://www.inaturalist.org/"
-  date: 2026-04-03
-  source: Hacker News Best
-  category: programming
 - title: When trauma becomes trope
   url: "https://aeon.co/essays/how-might-humanitarian-journalism-be-done-better?utm_source=rss-feed"
   date: 2026-04-03
   source: Aeon
-  category: philosophy
-- title: "The Measure of a Rich Life: Wendell Berry on Delight as a Force of Resistance and the Key to Felicitous Sanity During Hardship"
-  url: "https://www.themarginalian.org/2026/04/03/wendell-berry-hidden-wound/"
-  date: 2026-04-03
-  source: The Marginalian
-  category: philosophy
-- title: "Michael Rosen’s Sad Book: A Beautiful Anatomy of Loss, Illustrated by Quentin Blake"
-  url: "https://www.themarginalian.org/2026/04/02/michael-rosens-sad-book-quentin-blake/"
-  date: 2026-04-03
-  source: The Marginalian
   category: philosophy
 - title: The hidden world of plant roots
   url: "https://aeon.co/videos/what-a-plants-decision-making-reveals-about-intelligence?utm_source=rss-feed"
@@ -82,11 +87,6 @@
   url: "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition?utm_source=rss-feed"
   date: 2026-04-02
   source: Aeon
-  category: philosophy
-- title: "The Wild Iris: Nobel Laureate Louise Glück on the Door at the End of Your Suffering"
-  url: "https://www.themarginalian.org/2026/04/02/louse-gluck-wild-iris/"
-  date: 2026-04-02
-  source: The Marginalian
   category: philosophy
 - title: The Medici’s lost garden of wonders
   url: "https://aeon.co/videos/the-rise-and-fall-of-pratolino-tuscanys-proto-theme-park?utm_source=rss-feed"
