@@ -1,75 +1,75 @@
-- title: scan-for-secrets 0.2
-  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything"
-  date: 2026-04-05
+- title: Google AI Edge Gallery
+  url: "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything"
+  date: 2026-04-06
   source: Simon Willison
   category: ai
-- title: scan-for-secrets 0.1.1
-  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything"
-  date: 2026-04-05
+- title: datasette-ports 0.2
+  url: "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything"
+  date: 2026-04-06
   source: Simon Willison
   category: ai
-- title: scan-for-secrets 0.1
-  url: "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything"
-  date: 2026-04-05
+- title: scan-for-secrets 0.3
+  url: "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything"
+  date: 2026-04-06
   source: Simon Willison
   category: ai
-- title: research-llm-apis 2026-04-04
-  url: "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything"
-  date: 2026-04-05
+- title: Cleanup Claude Code Paste
+  url: "https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything"
+  date: 2026-04-06
   source: Simon Willison
   category: ai
-- title: "AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy"
-  url: "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop"
+- title: datasette-ports 0.1
+  url: "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything"
+  date: 2026-04-06
+  source: Simon Willison
+  category: ai
+- title: "Show HN: I built a tiny LLM to demystify how language models work"
+  url: "https://github.com/arman-bd/guppylm"
+  date: 2026-04-06
+  source: Hacker News Best
+  category: programming
+- title: "Sentinels of the Soul: Kahlil Gibran’s Moving Letter to a Soldier in a Senseless War"
+  url: "https://www.themarginalian.org/2026/04/05/gibran-war/"
+  date: 2026-04-06
+  source: The Marginalian
+  category: philosophy
+- title: Gemma 4 on iPhone
+  url: "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337"
   date: 2026-04-05
   source: Hacker News Best
   category: programming
+- title: "Why Switzerland has 25 Gbit internet and America doesn't"
+  url: "https://sschueller.github.io/posts/the-free-market-lie/"
+  date: 2026-04-05
+  source: Hacker News Best
+  category: programming
+- title: "Microsoft hasn't had a coherent GUI strategy since Petzold"
+  url: "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/"
+  date: 2026-04-05
+  source: Hacker News Best
+  category: programming
+- title: "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code"
+  url: "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with"
+  date: 2026-04-05
+  source: Hacker News Best
+  category: programming
+- title: "Diseases of the Will: Neuroscience Founding Father Santiago Ramón y Cajal on the Six Psychological Flaws That Keep the Gifted from Living Up to Their Gift"
+  url: "https://www.themarginalian.org/2026/04/05/diseases-of-the-will-cajal-advice-for-a-young-investigator/"
+  date: 2026-04-05
+  source: The Marginalian
+  category: philosophy
+- title: "Relationship Rupture and the Limbic System: The Physiology of Abandonment and Separation"
+  url: "https://www.themarginalian.org/2026/04/05/general-theory-of-love-separation/"
+  date: 2026-04-05
+  source: The Marginalian
+  category: philosophy
 - title: Any Common Desolation
   url: "https://www.themarginalian.org/2026/04/04/any-common-desolation-ellen-bass/"
   date: 2026-04-05
   source: The Marginalian
   category: philosophy
-- title: Quoting Kyle Daigle
-  url: "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything"
-  date: 2026-04-04
-  source: Simon Willison
-  category: ai
-- title: "How many products does Microsoft have named 'Copilot'?"
-  url: "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html"
-  date: 2026-04-04
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: A game where you build a GPU"
-  url: "https://jaso1024.com/mvidia/"
-  date: 2026-04-04
-  source: Hacker News Best
-  category: programming
-- title: Apple approves driver that lets Nvidia eGPUs work with Arm Macs
-  url: "https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs"
-  date: 2026-04-04
-  source: Hacker News Best
-  category: programming
-- title: German men 18-45 need military permit for extended stays abroad
-  url: "https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677"
-  date: 2026-04-04
-  source: Hacker News Best
-  category: programming
 - title: "The Art of Befriending Time and Change: Debbie Millman’s Illustrated Love Letter to Gardening as a Portal to Self-discovery"
   url: "https://www.themarginalian.org/2026/04/04/love-letter-to-a-garden-debbie-millman/"
-  date: 2026-04-04
-  source: The Marginalian
-  category: philosophy
-- title: The Magic of Moss and What It Teaches Us About the Art of Attentiveness to Life at All Scales
-  url: "https://www.themarginalian.org/2026/04/04/gathering-moss-robin-wall-kimmerer/"
-  date: 2026-04-04
-  source: The Marginalian
-  category: philosophy
-- title: "The Pattern Inside the Pattern: Fractals, the Hidden Order Beneath Chaos, and the Story of the Refugee Who Revolutionized the Mathematics of Reality"
-  url: "https://www.themarginalian.org/2026/04/04/mandelbrot-fractals-chaos/"
-  date: 2026-04-04
-  source: The Marginalian
-  category: philosophy
-- title: Wherever You Think There Is Nothing
-  url: "https://www.themarginalian.org/2026/04/03/nothing/"
   date: 2026-04-04
   source: The Marginalian
   category: philosophy
