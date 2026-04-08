@@ -6,9 +6,13 @@
 set -euo pipefail
 
 PATCH_ONLY=false
-if [ "${1:-}" = "--patch-only" ]; then
-  PATCH_ONLY=true
-fi
+FORCE=false
+for arg in "$@"; do
+  case "$arg" in
+    --patch-only) PATCH_ONLY=true ;;
+    --force) FORCE=true ;;
+  esac
+done
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LOG_FILE="$REPO_DIR/logs/dispatch-audio.log"
@@ -58,8 +62,13 @@ if [ "$PATCH_ONLY" = true ]; then
   uv run scripts/generate_dispatch_audio.py --date "$DATE" --patch-only
 else
   if gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
-    echo "→ Release $TAG already exists. Skipping."
-    exit 0
+    if [ "$FORCE" = true ]; then
+      echo "→ Release $TAG exists. --force: deleting and regenerating..."
+      gh release delete "$TAG" --repo sngeth/sngeth.github.io --yes --cleanup-tag
+    else
+      echo "→ Release $TAG already exists. Skipping."
+      exit 0
+    fi
   fi
   echo "→ Generating audio for $DATE..."
   uv run scripts/generate_dispatch_audio.py --date "$DATE"
