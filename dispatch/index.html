@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Wednesday, April 8, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 209 &nbsp;·&nbsp; No. 375</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Wednesday, April 8, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Security · AI</div>
-    <h1 class="headline" id="anthropic-launches-project-glasswing-to-lock-down-ai-supply-" style="font-size:34px"><a href="https://www.anthropic.com/glasswing" target="_blank" style="color:inherit;text-decoration:none;">Anthropic Launches Project Glasswing to Lock Down AI Supply Chain Security</a><span class="permalink" onclick="copyLink('anthropic-launches-project-glasswing-to-lock-down-ai-supply-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*As foundation models power critical infrastructure, researchers target the weakest link: open-source dependencies*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47679121" target="_blank" style="color:inherit;text-decoration:none;">▲ 1370 pts &nbsp;·&nbsp; 698 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">Anthropic has unveiled Project Glasswing, an ambitious initiative to secure the software supply chain underpinning modern AI systems—a vulnerability that grows more acute as large language models embed themselves into healthcare, finance, and government infrastructure. The project addresses a paradox that has haunted the industry: while companies invest billions in model alignment and safety, their systems remain tethered to thousands of open-source packages, any of which could harbor exploits, malicious code, or undetected vulnerabilities.</p><p>The initiative proposes systematic auditing, dependency mapping, and security hardening protocols specifically calibrated for AI workloads, where a compromised tensor library or a poisoned data pipeline could corrupt billions in downstream inference. Rather than reinventing the wheel, Glasswing aims to establish baseline security standards and tooling that can scale across the ecosystem—a pragmatic recognition that no single company can—or should—secure the entire foundation.</p><p>For an industry still grappling with questions of model safety and interpretability, Glasswing reframes a crucial debate: robustness isn't just about what a model *learns*, but what it's built *from*. The project's momentum reflects growing pressure from enterprises and regulators demanding auditable, defensible AI supply chains—a shift that could reshape how foundation model companies approach dependencies, vendor risk, and the unglamorous work of secure-by-design systems.</p>
-      <div class="pull-quote">Robustness isn't just about what a model learns, but what it's built from.</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">Space · Exploration</div>
-    <h2 class="headline" id="nasa-s-lunar-flyby-first-high-resolution-glimpse-of-moon-s-h" style="font-size:21px"><a href="https://www.nasa.gov/gallery/lunar-flyby/" target="_blank" style="color:inherit;text-decoration:none;">NASA's Lunar Flyby: First High-Resolution Glimpse of Moon's Hidden Topography</a><span class="permalink" onclick="copyLink('nasa-s-lunar-flyby-first-high-resolution-glimpse-of-moon-s-h')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*New imagery reveals crater structures and surface features that could reshape lunar exploration priorities*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47676509" target="_blank" style="color:inherit;text-decoration:none;">▲ 819 pts &nbsp;·&nbsp; 199 comments</a>
-    </div>
-    <div class="body-text">
-      <p>NASA has released a striking collection of high-resolution imagery from its latest lunar flyby mission, capturing topographical detail of the Moon's surface with unprecedented clarity. The photographs showcase crater formations, ridge systems, and shadowed valleys that hint at the lunar landscape's complex geology—data that will inform everything from future landing site selection to resource prospecting.</p><p>The flyby itself represents incremental but meaningful progress in humanity's return-to-the-Moon agenda. By combining multiple orbital passes and imaging instruments, the mission created a composite view of previously difficult-to-map regions, particularly polar areas where permanently shadowed craters may harbor water ice. This intelligence work, though less dramatic than a human landing, provides the empirical foundation that makes such missions viable.</p><p>For planetary scientists and mission planners, these images are immediate gold: they clarify hazard maps for autonomous landers, identify promising research zones for sample return missions, and feed the growing catalog of lunar data that will eventually support sustained human presence. The release of gallery-quality imagery also signals NASA's willingness to make space exploration visually and intellectually accessible—a bet that public engagement drives political will.</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">AI · Safety</div>
-    <h2 class="headline" id="claude-mythos-preview-inside-anthropic-s-new-safety-framewor" style="font-size:19px"><a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf" target="_blank" style="color:inherit;text-decoration:none;">Claude Mythos Preview: Inside Anthropic's New Safety Framework Documentation</a><span class="permalink" onclick="copyLink('claude-mythos-preview-inside-anthropic-s-new-safety-framewor')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*System Card reveals how the next-generation model balances capability with guardrails across diverse use cases*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47679258" target="_blank" style="color:inherit;text-decoration:none;">▲ 755 pts &nbsp;·&nbsp; 553 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Anthropic has circulated detailed system documentation for Claude Mythos Preview, offering researchers and practitioners a transparent window into the safety-capability tradeoffs embedded in the model's architecture and training regime. The system card—a document format gaining traction as a best practice in responsible AI—breaks down benchmark performance, known limitations, and intended use cases with the kind of granularity that has historically been proprietary and opaque.</p><p>The preview suggests Mythos represents an incremental evolution in Anthropic's constitutional AI methodology, where models are trained against explicit behavioral principles to reduce harmful outputs while preserving utility for legitimate tasks. The documentation appears to acknowledge edge cases and failure modes rather than obscuring them—a transparency stance that contrasts with competitors' marketing rhetoric but carries implicit risk: detailed knowledge of model weaknesses can be exploited.</p><p>For the 553 commenters parsing this document, the real substance lies in what the system card *doesn't* claim. There's no assertion of perfect safety, no suggestion that guardrails are unbypassable. Instead, Anthropic positions Mythos as a step forward in a longer journey toward more reliable, auditable AI systems—realistic framing that reflects the field's current state of genuine uncertainty.</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">AI · Models</div>
-    <h2 class="headline" id="glm-5-1-takes-aim-at-long-horizon-ai-tasks-with-extended-rea" style="font-size:19px"><a href="https://z.ai/blog/glm-5.1" target="_blank" style="color:inherit;text-decoration:none;">GLM-5.1 Takes Aim at Long-Horizon AI Tasks with Extended Reasoning Architecture</a><span class="permalink" onclick="copyLink('glm-5-1-takes-aim-at-long-horizon-ai-tasks-with-extended-rea')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*Chinese AI lab claims breakthrough in multi-step planning and complex problem decomposition*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47677853" target="_blank" style="color:inherit;text-decoration:none;">▲ 567 pts &nbsp;·&nbsp; 229 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Zhipu AI has announced GLM-5.1, a model iteration explicitly optimized for tasks requiring sustained reasoning across multiple sequential steps—a capability gap that has defined the limits of current large language models. Early documentation suggests the architecture incorporates extended planning tokens and intermediate reasoning checkpoints, allowing the system to maintain coherence and correctness across longer problem-solving trajectories.</p><p>The timing and claims matter: as OpenAI, Anthropic, and others race toward what they're calling &quot;AI reasoning,&quot; Chinese competitors are quietly positioning themselves in the same competitive space. GLM-5.1's focus on long-horizon tasks targets a real pain point in enterprise AI—systems that can answer questions but struggle with tasks requiring a ten-step logical chain or multi-turn problem decomposition. If the performance claims hold, the model could accelerate adoption in domains like scientific research, engineering design, and complex financial modeling.</p><p>The broader implication is that capability parity is accelerating across geography and organization size. What once distinguished frontier labs—scale, talent, compute—is becoming increasingly replicable. The competition now hinges on specific architectural innovations and training methodologies, with each iteration mapping onto the last like tightening concentric circles.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Security · Open Source</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Veracrypt Quietly Advances Disk Encryption With Fresh Security Updates</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 565 · 175 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Development · Best Practices</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Essential Git Archaeology: The Commands Every Developer Should Run Before Touching a Codebase</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 561 · 125 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-musk-s-one-word-response-sparks-market-speculation">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-s-one-word-response-sparks-market-speculation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk's One-Word Response Sparks Market Speculation</div>
-      <div class="x-body">In the age of billionaire Twitter, a single affirmative from Musk can move markets and narratives. Without context, the post is deliberately opaque—either a tease or a test of his followers' appetite for decryption. It's pure personal-brand economics: engagement through ambiguity.</div>
-    </div>
-    <div class="x-item" id="x-new-yorker-drops-18-month-altman-investigation">
-      <div class="x-handle">@Ronan Farrow<span class="permalink" onclick="copyLink('x-new-yorker-drops-18-month-altman-investigation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">New Yorker Drops 18-Month Altman Investigation</div>
-      <div class="x-body">Long-form investigative journalism meets the world's most consequential AI CEO. Farrow's reporting track record suggests documented wrongdoing or ethical blind spots at OpenAI. This isn't hot take—it's institutional accountability hitting when Sam Altman's power over AI governance has never been higher.</div>
-    </div>
-    <div class="x-item" id="x-minor-observation-major-media-literacy-failure">
-      <div class="x-handle">@Mr. Reply Guy<span class="permalink" onclick="copyLink('x-minor-observation-major-media-literacy-failure')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Minor Observation, Major Media Literacy Failure</div>
-      <div class="x-body">This is the sound of someone discovering how satire actually works. If true, it reveals something darker: that partisan Twitter doesn't engage with South Park's actual targets, only the ones that confirm existing biases. It's a mirror nobody wants to look in.</div>
-    </div>
-    <div class="x-item" id="x-shitposting-as-aggressive-academic-obscurity">
-      <div class="x-handle">@Iranian Offramps NEPA Compliance Consultant<span class="permalink" onclick="copyLink('x-shitposting-as-aggressive-academic-obscurity')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Shitposting as Aggressive Academic Obscurity</div>
-      <div class="x-body">This account name is a calculated rejection of coherence itself. The post is a non-sequitur wrapped in false mystique—pure performance art designed to confuse algorithms and amuse the few who get the joke. It's what happens when absurdism becomes the only honest response to digital life.</div>
-    </div>
-    <div class="x-item" id="x-sectarian-twitter-drama-continues-predictable-pattern">
-      <div class="x-handle">@Falastin Flip<span class="permalink" onclick="copyLink('x-sectarian-twitter-drama-continues-predictable-pattern')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Sectarian Twitter Drama Continues Predictable Pattern</div>
-      <div class="x-body">Another day, another ideological meltdown documented for sport. The post offers no substance, just schadenfreude—a reminder that Twitter's political discourse has devolved into team sports where 'meltdown' reporting replaces actual analysis. It's tribalism mistaken for insight.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Wednesday, April 8, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 09:36 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 209  ·  No. 375</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Wednesday, April 8, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Wednesday, April 8, 2026 · 18:37</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Security · AI</div>
+<h1 class="headline" id="anthropic-launches-project-glasswing-to-lock-down-ai-supply-" style="font-size:34px"><a href="https://www.anthropic.com/glasswing" style="color:inherit;text-decoration:none;" target="_blank">Anthropic Launches Project Glasswing to Lock Down AI Supply Chain Security</a><span class="permalink" onclick="copyLink('anthropic-launches-project-glasswing-to-lock-down-ai-supply-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*As foundation models power critical infrastructure, researchers target the weakest link: open-source dependencies*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47679121" style="color:inherit;text-decoration:none;" target="_blank">▲ 1370 pts  ·  698 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:18</span></div>
+<div class="body-text">
+<p class="drop-cap">Anthropic has unveiled Project Glasswing, an ambitious initiative to secure the software supply chain underpinning modern AI systems—a vulnerability that grows more acute as large language models embed themselves into healthcare, finance, and government infrastructure. The project addresses a paradox that has haunted the industry: while companies invest billions in model alignment and safety, their systems remain tethered to thousands of open-source packages, any of which could harbor exploits, malicious code, or undetected vulnerabilities.</p><p>The initiative proposes systematic auditing, dependency mapping, and security hardening protocols specifically calibrated for AI workloads, where a compromised tensor library or a poisoned data pipeline could corrupt billions in downstream inference. Rather than reinventing the wheel, Glasswing aims to establish baseline security standards and tooling that can scale across the ecosystem—a pragmatic recognition that no single company can—or should—secure the entire foundation.</p><p>For an industry still grappling with questions of model safety and interpretability, Glasswing reframes a crucial debate: robustness isn't just about what a model *learns*, but what it's built *from*. The project's momentum reflects growing pressure from enterprises and regulators demanding auditable, defensible AI supply chains—a shift that could reshape how foundation model companies approach dependencies, vendor risk, and the unglamorous work of secure-by-design systems.</p>
+<div class="pull-quote">Robustness isn't just about what a model learns, but what it's built from.</div>
+</div></div>
+<div class="sec">
+<div class="tag">Space · Exploration</div>
+<h2 class="headline" id="nasa-s-lunar-flyby-first-high-resolution-glimpse-of-moon-s-h" style="font-size:21px"><a href="https://www.nasa.gov/gallery/lunar-flyby/" style="color:inherit;text-decoration:none;" target="_blank">NASA's Lunar Flyby: First High-Resolution Glimpse of Moon's Hidden Topography</a><span class="permalink" onclick="copyLink('nasa-s-lunar-flyby-first-high-resolution-glimpse-of-moon-s-h')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*New imagery reveals crater structures and surface features that could reshape lunar exploration priorities*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47676509" style="color:inherit;text-decoration:none;" target="_blank">▲ 819 pts  ·  199 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:12</span></div>
+<div class="body-text">
+<p>NASA has released a striking collection of high-resolution imagery from its latest lunar flyby mission, capturing topographical detail of the Moon's surface with unprecedented clarity. The photographs showcase crater formations, ridge systems, and shadowed valleys that hint at the lunar landscape's complex geology—data that will inform everything from future landing site selection to resource prospecting.</p><p>The flyby itself represents incremental but meaningful progress in humanity's return-to-the-Moon agenda. By combining multiple orbital passes and imaging instruments, the mission created a composite view of previously difficult-to-map regions, particularly polar areas where permanently shadowed craters may harbor water ice. This intelligence work, though less dramatic than a human landing, provides the empirical foundation that makes such missions viable.</p><p>For planetary scientists and mission planners, these images are immediate gold: they clarify hazard maps for autonomous landers, identify promising research zones for sample return missions, and feed the growing catalog of lunar data that will eventually support sustained human presence. The release of gallery-quality imagery also signals NASA's willingness to make space exploration visually and intellectually accessible—a bet that public engagement drives political will.</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">AI · Safety</div>
+<h2 class="headline" id="claude-mythos-preview-inside-anthropic-s-new-safety-framewor" style="font-size:19px"><a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf" style="color:inherit;text-decoration:none;" target="_blank">Claude Mythos Preview: Inside Anthropic's New Safety Framework Documentation</a><span class="permalink" onclick="copyLink('claude-mythos-preview-inside-anthropic-s-new-safety-framewor')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*System Card reveals how the next-generation model balances capability with guardrails across diverse use cases*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47679258" style="color:inherit;text-decoration:none;" target="_blank">▲ 755 pts  ·  553 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-03.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:03</span></div>
+<div class="body-text">
+<p>Anthropic has circulated detailed system documentation for Claude Mythos Preview, offering researchers and practitioners a transparent window into the safety-capability tradeoffs embedded in the model's architecture and training regime. The system card—a document format gaining traction as a best practice in responsible AI—breaks down benchmark performance, known limitations, and intended use cases with the kind of granularity that has historically been proprietary and opaque.</p><p>The preview suggests Mythos represents an incremental evolution in Anthropic's constitutional AI methodology, where models are trained against explicit behavioral principles to reduce harmful outputs while preserving utility for legitimate tasks. The documentation appears to acknowledge edge cases and failure modes rather than obscuring them—a transparency stance that contrasts with competitors' marketing rhetoric but carries implicit risk: detailed knowledge of model weaknesses can be exploited.</p><p>For the 553 commenters parsing this document, the real substance lies in what the system card *doesn't* claim. There's no assertion of perfect safety, no suggestion that guardrails are unbypassable. Instead, Anthropic positions Mythos as a step forward in a longer journey toward more reliable, auditable AI systems—realistic framing that reflects the field's current state of genuine uncertainty.</p>
+</div></div><div class="tert">
+<div class="tag">AI · Models</div>
+<h2 class="headline" id="glm-5-1-takes-aim-at-long-horizon-ai-tasks-with-extended-rea" style="font-size:19px"><a href="https://z.ai/blog/glm-5.1" style="color:inherit;text-decoration:none;" target="_blank">GLM-5.1 Takes Aim at Long-Horizon AI Tasks with Extended Reasoning Architecture</a><span class="permalink" onclick="copyLink('glm-5-1-takes-aim-at-long-horizon-ai-tasks-with-extended-rea')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*Chinese AI lab claims breakthrough in multi-step planning and complex problem decomposition*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47677853" style="color:inherit;text-decoration:none;" target="_blank">▲ 567 pts  ·  229 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:10</span></div>
+<div class="body-text">
+<p>Zhipu AI has announced GLM-5.1, a model iteration explicitly optimized for tasks requiring sustained reasoning across multiple sequential steps—a capability gap that has defined the limits of current large language models. Early documentation suggests the architecture incorporates extended planning tokens and intermediate reasoning checkpoints, allowing the system to maintain coherence and correctness across longer problem-solving trajectories.</p><p>The timing and claims matter: as OpenAI, Anthropic, and others race toward what they're calling "AI reasoning," Chinese competitors are quietly positioning themselves in the same competitive space. GLM-5.1's focus on long-horizon tasks targets a real pain point in enterprise AI—systems that can answer questions but struggle with tasks requiring a ten-step logical chain or multi-turn problem decomposition. If the performance claims hold, the model could accelerate adoption in domains like scientific research, engineering design, and complex financial modeling.</p><p>The broader implication is that capability parity is accelerating across geography and organization size. What once distinguished frontier labs—scale, talent, compute—is becoming increasingly replicable. The competition now hinges on specific architectural innovations and training methodologies, with each iteration mapping onto the last like tightening concentric circles.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Security · Open Source</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Veracrypt Quietly Advances Disk Encryption With Fresh Security Updates</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 565 · 175 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Development · Best Practices</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Essential Git Archaeology: The Commands Every Developer Should Run Before Touching a Codebase</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 561 · 125 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-musk-s-one-word-response-sparks-market-speculation">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-s-one-word-response-sparks-market-speculation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk's One-Word Response Sparks Market Speculation</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span>
+<div class="x-body">In the age of billionaire Twitter, a single affirmative from Musk can move markets and narratives. Without context, the post is deliberately opaque—either a tease or a test of his followers' appetite for decryption. It's pure personal-brand economics: engagement through ambiguity.</div>
+</div>
+<div class="x-item" id="x-new-yorker-drops-18-month-altman-investigation">
+<div class="x-handle">@Ronan Farrow<span class="permalink" onclick="copyLink('x-new-yorker-drops-18-month-altman-investigation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">New Yorker Drops 18-Month Altman Investigation</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">Long-form investigative journalism meets the world's most consequential AI CEO. Farrow's reporting track record suggests documented wrongdoing or ethical blind spots at OpenAI. This isn't hot take—it's institutional accountability hitting when Sam Altman's power over AI governance has never been higher.</div>
+</div>
+<div class="x-item" id="x-minor-observation-major-media-literacy-failure">
+<div class="x-handle">@Mr. Reply Guy<span class="permalink" onclick="copyLink('x-minor-observation-major-media-literacy-failure')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Minor Observation, Major Media Literacy Failure</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span>
+<div class="x-body">This is the sound of someone discovering how satire actually works. If true, it reveals something darker: that partisan Twitter doesn't engage with South Park's actual targets, only the ones that confirm existing biases. It's a mirror nobody wants to look in.</div>
+</div>
+<div class="x-item" id="x-shitposting-as-aggressive-academic-obscurity">
+<div class="x-handle">@Iranian Offramps NEPA Compliance Consultant<span class="permalink" onclick="copyLink('x-shitposting-as-aggressive-academic-obscurity')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Shitposting as Aggressive Academic Obscurity</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:26</span>
+<div class="x-body">This account name is a calculated rejection of coherence itself. The post is a non-sequitur wrapped in false mystique—pure performance art designed to confuse algorithms and amuse the few who get the joke. It's what happens when absurdism becomes the only honest response to digital life.</div>
+</div>
+<div class="x-item" id="x-sectarian-twitter-drama-continues-predictable-pattern">
+<div class="x-handle">@Falastin Flip<span class="permalink" onclick="copyLink('x-sectarian-twitter-drama-continues-predictable-pattern')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Sectarian Twitter Drama Continues Predictable Pattern</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-08/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
+<div class="x-body">Another day, another ideological meltdown documented for sport. The post offers no substance, just schadenfreude—a reminder that Twitter's political discourse has devolved into team sports where 'meltdown' reporting replaces actual analysis. It's tribalism mistaken for insight.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Wednesday, April 8, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 09:36 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
