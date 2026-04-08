@@ -1,3 +1,63 @@
+- title: Pioneering Psychiatrist Donald Winnicott on the Qualities of a Healthy Mind and a Healthy Relationship
+  url: "https://www.themarginalian.org/2026/04/07/winnicott-care-cure/"
+  date: 2026-04-08
+  source: The Marginalian
+  category: philosophy
+- title: "GLM-5.1: Towards Long-Horizon Tasks"
+  url: "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything"
+  date: 2026-04-07
+  source: Simon Willison
+  category: ai
+- title: "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me"
+  url: "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything"
+  date: 2026-04-07
+  source: Simon Willison
+  category: ai
+- title: SQLite WAL Mode Across Docker Containers Sharing a Volume
+  url: "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything"
+  date: 2026-04-07
+  source: Simon Willison
+  category: ai
+- title: US and Iran agree to provisional ceasefire
+  url: "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire"
+  date: 2026-04-07
+  source: Hacker News Best
+  category: programming
+- title: "System Card: Claude Mythos Preview [pdf]"
+  url: "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf"
+  date: 2026-04-07
+  source: Hacker News Best
+  category: programming
+- title: "Assessing Claude Mythos Preview's cybersecurity capabilities"
+  url: "https://red.anthropic.com/2026/mythos-preview/"
+  date: 2026-04-07
+  source: Hacker News Best
+  category: programming
+- title: "Project Glasswing: Securing critical software for the AI era"
+  url: "https://www.anthropic.com/glasswing"
+  date: 2026-04-07
+  source: Hacker News Best
+  category: programming
+- title: Cambodia unveils statue to honour famous landmine-sniffing rat
+  url: "https://www.bbc.com/news/articles/c0rx7xzd10xo"
+  date: 2026-04-07
+  source: Hacker News Best
+  category: programming
+- title: Living without my self
+  url: "https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me?utm_source=rss-feed"
+  date: 2026-04-07
+  source: Aeon
+  category: philosophy
+- title: "Thomas Bernhard on Walking, Thinking, and the Paradox of Self-Reflection"
+  url: "https://www.themarginalian.org/2026/04/07/thomas-bernhard-walking/"
+  date: 2026-04-07
+  source: The Marginalian
+  category: philosophy
+- title: A Heron’s Antidote to Fear of Death
+  url: "https://www.themarginalian.org/2026/04/07/heron-divination/"
+  date: 2026-04-07
+  source: The Marginalian
+  category: philosophy
 - title: "Between the User and the Used: Zadie Smith on Instrumentalism"
   url: "https://www.themarginalian.org/2026/04/06/instrumentalizing/"
   date: 2026-04-07
@@ -13,46 +73,6 @@
   date: 2026-04-06
   source: Simon Willison
   category: ai
-- title: scan-for-secrets 0.3
-  url: "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything"
-  date: 2026-04-06
-  source: Simon Willison
-  category: ai
-- title: Cleanup Claude Code Paste
-  url: "https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything"
-  date: 2026-04-06
-  source: Simon Willison
-  category: ai
-- title: datasette-ports 0.1
-  url: "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything"
-  date: 2026-04-06
-  source: Simon Willison
-  category: ai
-- title: "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS"
-  url: "https://github.com/matthartman/ghost-pepper"
-  date: 2026-04-06
-  source: Hacker News Best
-  category: programming
-- title: The cult of vibe coding is dogfooding run amok
-  url: "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane"
-  date: 2026-04-06
-  source: Hacker News Best
-  category: programming
-- title: Adobe modifies hosts file to detect whether Creative Cloud is installed
-  url: "https://www.osnews.com/story/144737/adobe-secretly-modifies-your-hosts-file-for-the-stupidest-reason/"
-  date: 2026-04-06
-  source: Hacker News Best
-  category: programming
-- title: "Battle for Wesnoth: open-source, turn-based strategy game"
-  url: "https://www.wesnoth.org"
-  date: 2026-04-06
-  source: Hacker News Best
-  category: programming
-- title: "81yo Dodgers fan can no longer get tickets because he doesn't have a smartphone"
-  url: "https://twitter.com/Suzierizzo1/status/2040864617467924865"
-  date: 2026-04-06
-  source: Hacker News Best
-  category: programming
 - title: "Is AI already conscious?"
   url: "https://aeon.co/videos/we-long-misjudged-animal-consciousness-could-ai-be-next?utm_source=rss-feed"
   date: 2026-04-06
@@ -68,21 +88,6 @@
   date: 2026-04-06
   source: The Marginalian
   category: philosophy
-- title: "Relationship Rupture and the Limbic System: The Physiology of Abandonment and Separation"
-  url: "https://www.themarginalian.org/2026/04/05/general-theory-of-love-separation/"
-  date: 2026-04-06
-  source: The Marginalian
-  category: philosophy
-- title: "Sentinels of the Soul: Kahlil Gibran’s Moving Letter to a Soldier in a Senseless War"
-  url: "https://www.themarginalian.org/2026/04/05/gibran-war/"
-  date: 2026-04-06
-  source: The Marginalian
-  category: philosophy
-- title: "Diseases of the Will: Neuroscience Founding Father Santiago Ramón y Cajal on the Six Psychological Flaws That Keep the Gifted from Living Up to Their Gift"
-  url: "https://www.themarginalian.org/2026/04/05/diseases-of-the-will-cajal-advice-for-a-young-investigator/"
-  date: 2026-04-05
-  source: The Marginalian
-  category: philosophy
 - title: When trauma becomes trope
   url: "https://aeon.co/essays/how-might-humanitarian-journalism-be-done-better?utm_source=rss-feed"
   date: 2026-04-03
@@ -90,11 +95,6 @@
   category: philosophy
 - title: The hidden world of plant roots
   url: "https://aeon.co/videos/what-a-plants-decision-making-reveals-about-intelligence?utm_source=rss-feed"
-  date: 2026-04-02
-  source: Aeon
-  category: philosophy
-- title: The house is a work of art
-  url: "https://aeon.co/essays/frank-lloyd-wright-as-a-mirror-of-the-american-condition?utm_source=rss-feed"
   date: 2026-04-02
   source: Aeon
   category: philosophy
