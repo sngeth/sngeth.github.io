@@ -1,3 +1,58 @@
+- title: LittleSnitch for Linux
+  url: "https://obdev.at/products/littlesnitch-linux/index.html"
+  date: 2026-04-09
+  source: Hacker News Best
+  category: programming
+- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
+  url: "https://www.themarginalian.org/2026/04/08/pessoa-explorer/"
+  date: 2026-04-09
+  source: The Marginalian
+  category: philosophy
+- title: "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools"
+  url: "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything"
+  date: 2026-04-08
+  source: Simon Willison
+  category: ai
+- title: Quoting Giles Turnbull
+  url: "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything"
+  date: 2026-04-08
+  source: Simon Willison
+  category: ai
+- title: "Show HN: Is Hormuz open yet?"
+  url: "https://www.ishormuzopenyet.com/"
+  date: 2026-04-08
+  source: Hacker News Best
+  category: programming
+- title: "I've been waiting over a month for Anthropic to respond to my billing issue"
+  url: "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/"
+  date: 2026-04-08
+  source: Hacker News Best
+  category: programming
+- title: "Muse Spark: Scaling towards personal superintelligence"
+  url: "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1"
+  date: 2026-04-08
+  source: Hacker News Best
+  category: programming
+- title: I ported Mac OS X to the Nintendo Wii
+  url: "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html"
+  date: 2026-04-08
+  source: Hacker News Best
+  category: programming
+- title: "Your opinion, please"
+  url: "https://aeon.co/videos/a-vivid-portrait-of-montana-built-from-call-in-radio-clips?utm_source=rss-feed"
+  date: 2026-04-08
+  source: Aeon
+  category: philosophy
+- title: "Unselfing into Oneness with the All: The Forgotten Visionary Margaret Fuller on Transcendence"
+  url: "https://www.themarginalian.org/2026/04/08/margaret-fuller-the-all/"
+  date: 2026-04-08
+  source: The Marginalian
+  category: philosophy
+- title: Kafka’s Approach to Creative Block and the Four Psychological Hindrances That Keep the Gifted from Living Up to Their Gifts
+  url: "https://www.themarginalian.org/2026/04/08/kafka-diaries-self-doubt/"
+  date: 2026-04-08
+  source: The Marginalian
+  category: philosophy
 - title: Pioneering Psychiatrist Donald Winnicott on the Qualities of a Healthy Mind and a Healthy Relationship
   url: "https://www.themarginalian.org/2026/04/07/winnicott-care-cure/"
   date: 2026-04-08
@@ -18,31 +73,6 @@
   date: 2026-04-07
   source: Simon Willison
   category: ai
-- title: US and Iran agree to provisional ceasefire
-  url: "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire"
-  date: 2026-04-07
-  source: Hacker News Best
-  category: programming
-- title: "System Card: Claude Mythos Preview [pdf]"
-  url: "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf"
-  date: 2026-04-07
-  source: Hacker News Best
-  category: programming
-- title: "Assessing Claude Mythos Preview's cybersecurity capabilities"
-  url: "https://red.anthropic.com/2026/mythos-preview/"
-  date: 2026-04-07
-  source: Hacker News Best
-  category: programming
-- title: "Project Glasswing: Securing critical software for the AI era"
-  url: "https://www.anthropic.com/glasswing"
-  date: 2026-04-07
-  source: Hacker News Best
-  category: programming
-- title: Cambodia unveils statue to honour famous landmine-sniffing rat
-  url: "https://www.bbc.com/news/articles/c0rx7xzd10xo"
-  date: 2026-04-07
-  source: Hacker News Best
-  category: programming
 - title: Living without my self
   url: "https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me?utm_source=rss-feed"
   date: 2026-04-07
@@ -53,26 +83,6 @@
   date: 2026-04-07
   source: The Marginalian
   category: philosophy
-- title: A Heron’s Antidote to Fear of Death
-  url: "https://www.themarginalian.org/2026/04/07/heron-divination/"
-  date: 2026-04-07
-  source: The Marginalian
-  category: philosophy
-- title: "Between the User and the Used: Zadie Smith on Instrumentalism"
-  url: "https://www.themarginalian.org/2026/04/06/instrumentalizing/"
-  date: 2026-04-07
-  source: The Marginalian
-  category: philosophy
-- title: Google AI Edge Gallery
-  url: "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything"
-  date: 2026-04-06
-  source: Simon Willison
-  category: ai
-- title: datasette-ports 0.2
-  url: "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything"
-  date: 2026-04-06
-  source: Simon Willison
-  category: ai
 - title: "Is AI already conscious?"
   url: "https://aeon.co/videos/we-long-misjudged-animal-consciousness-could-ai-be-next?utm_source=rss-feed"
   date: 2026-04-06
@@ -83,19 +93,9 @@
   date: 2026-04-06
   source: Aeon
   category: philosophy
-- title: Hermann Hesse on Discovering the Soul Beneath the Self and the Key to Finding Peace
-  url: "https://www.themarginalian.org/2026/04/06/hesse-soul/"
-  date: 2026-04-06
-  source: The Marginalian
-  category: philosophy
 - title: When trauma becomes trope
   url: "https://aeon.co/essays/how-might-humanitarian-journalism-be-done-better?utm_source=rss-feed"
   date: 2026-04-03
-  source: Aeon
-  category: philosophy
-- title: The hidden world of plant roots
-  url: "https://aeon.co/videos/what-a-plants-decision-making-reveals-about-intelligence?utm_source=rss-feed"
-  date: 2026-04-02
   source: Aeon
   category: philosophy
 - title: "Summary of reading: January - March 2026"
