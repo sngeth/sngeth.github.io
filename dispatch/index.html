@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Thursday, April 9, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 210 &nbsp;·&nbsp; No. 383</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Thursday, April 9, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Development · Version Control</div>
-    <h1 class="headline" id="the-git-archaeologist-s-toolkit-what-every-developer-should-" style="font-size:34px"><a href="https://piechowski.io/post/git-commands-before-reading-code/" target="_blank" style="color:inherit;text-decoration:none;">The Git Archaeologist's Toolkit: What Every Developer Should Run Before Touching Unfamiliar Code</a><span class="permalink" onclick="copyLink('the-git-archaeologist-s-toolkit-what-every-developer-should-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*A practical manifesto for defensive code review—the commands that separate confident refactoring from debugging nightmares.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47687273" target="_blank" style="color:inherit;text-decoration:none;">▲ 2064 pts &nbsp;·&nbsp; 450 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">Before diving into a codebase you've never seen, most developers crack their knuckles and start reading. They're already lost. A programmer named Piechowski has charted a different path: a disciplined sequence of Git commands that map the terrain before the journey begins. The approach isn't fancy—it's forensic. Commands that expose commit history, reveal the architects of each function, surface dead branches, and illuminate the trajectory of choices that built the system.</p><p>The thesis cuts against the grain of how we're taught to think about code. We imagine understanding flows from reading the current state, parsing syntax line by line. But Git tells a different story: the story of decisions, reversions, collaborations, and the slow accumulation of technical debt. A developer who knows to run `git log -p --follow` on a suspicious file understands not just what the code does, but why someone felt compelled to write it that way. The post has resonated across the developer community—over 2,000 points and 450 comments suggest this is a gap many felt acutely but couldn't quite name.</p><p>What emerges is a template for intellectual humility in engineering: before you assert you understand something, ask the version control system what actually happened. The commits don't lie. They're slower than your first instinct, but they're honest.</p>
-      <div class="pull-quote">The commits don't lie—they're slower than your first instinct, but they're honest.</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">Systems · Hardware Hacking</div>
-    <h2 class="headline" id="a-developer-just-ported-mac-os-x-to-the-nintendo-wii-and-yes" style="font-size:21px"><a href="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" target="_blank" style="color:inherit;text-decoration:none;">A Developer Just Ported Mac OS X to the Nintendo Wii, and Yes, It Actually Works</a><span class="permalink" onclick="copyLink('a-developer-just-ported-mac-os-x-to-the-nintendo-wii-and-yes')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The audacious intersection of obsolete hardware and an OS designed for aluminum—one programmer's weekend that should have been impossible.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47691730" target="_blank" style="color:inherit;text-decoration:none;">▲ 1614 pts &nbsp;·&nbsp; 285 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Bryan Keller did something that shouldn't exist: he made Mac OS X run on a Nintendo Wii. Not a simulation, not a joke, not some theoretical exercise. A genuine port of Apple's operating system to a gaming console from 2006, complete enough to prove viability. The technical chasm is almost comical to contemplate—a PowerPC processor designed for living room entertainment, a gigabyte of RAM, and an operating system built for multi-core modern Macs. Yet here we are, staring at the impossible made mundane.</p><p>The project sits at the intersection of software archaeology and determined brute force. The Wii's PowerPC architecture shares lineage with older Macs, creating a architectural bridge Keller could exploit. But exploiting a bridge requires understanding not just the target system's internals, but the profound mismatch between an OS's assumptions about memory, peripherals, and processing power versus what a 2006 console actually offers. The technical write-up doesn't shy away from the grotesque hacks required: stripping features, reimagining memory maps, essentially negotiating with the hardware about what it's willing to pretend to be.</p><p>What's remarkable isn't that this works—it's that someone thought to try, then documented the journey. The project suggests a truth about systems programming that universities often bury: the boundaries between &quot;possible&quot; and &quot;insane&quot; are thinner than they appear, and they're usually defended only by convention, not physics.</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">Security · Linux</div>
-    <h2 class="headline" id="little-snitch-comes-to-linux-bringing-mac-s-network-watchdog" style="font-size:19px"><a href="https://obdev.at/products/littlesnitch-linux/index.html" target="_blank" style="color:inherit;text-decoration:none;">Little Snitch Comes to Linux, Bringing Mac's Network Watchdog to the Open-Source Desktop</a><span class="permalink" onclick="copyLink('little-snitch-comes-to-linux-bringing-mac-s-network-watchdog')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The cult-favorite macOS application finally arrives on Linux—and the security community is paying attention.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47697870" target="_blank" style="color:inherit;text-decoration:none;">▲ 786 pts &nbsp;·&nbsp; 271 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Little Snitch, the notoriously obsessive network monitor that has been the paranoid Mac user's constant companion for nearly two decades, has crossed over. The application—famous for its granular per-process network filtering, its library of suspicious behavior patterns, and its user interface that treats every packet like a minor diplomatic incident—now exists for Linux systems. For a security-conscious operating system that's been waiting for a consumer-friendly equivalent, this is the kind of arrival that gets people talking.</p><p>The Linux version represents more than just porting code; it's a statement about what security expectations should look like on free operating systems. Little Snitch built its reputation on the principle that users deserve to know, and more importantly, to *control*, what their applications are communicating across the network. It turns a passive activity—network traffic—into an active conversation between user and operating system. Linux systems have had tools like iptables and ufw for decades, but they've always been for administrators, not mortals. Little Snitch translates network security into a language humans can actually read and act upon.</p><p>With 271 comments on the announcement, the response signals both hunger for this capability and skepticism about whether a commercial tool can truly belong in the Linux ecosystem. The deeper tension is architectural: can a graphical network monitor compete with the kernel-level flexibility that Linux offers, or will it always feel like an afterthought to distributions built on the principle of total transparency and control?</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">Culture · Science Fiction</div>
-    <h2 class="headline" id="a-1991-science-fiction-story-about-alien-first-contact-haunt" style="font-size:19px"><a href="http://www.terrybisson.com/theyre-made-out-of-meat-2/" target="_blank" style="color:inherit;text-decoration:none;">A 1991 Science Fiction Story About Alien First Contact Haunts Us Still—For All the Right Reasons</a><span class="permalink" onclick="copyLink('a-1991-science-fiction-story-about-alien-first-contact-haunt')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*Terry Bisson's &quot;They're Made Out of Meat&quot; has become a litmus test for how we imagine intelligence and otherness.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47688678" target="_blank" style="color:inherit;text-decoration:none;">▲ 556 pts &nbsp;·&nbsp; 151 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Sometimes a story doesn't age; it just becomes more accurate. Terry Bisson's &quot;They're Made Out of Meat,&quot; published in 1991, reads like a conversation between two cosmic bureaucrats trying to process something their procedures never anticipated: a civilization made of biological tissue that somehow achieved sentience. The story is twelve minutes at reading speed, maybe 1,400 words on the page. The impact is inversely proportional to its length.</p><p>The setup is brilliantly dumb: an alien intelligence discovers Earth and reports their findings to command. The humans are made of meat. All of them. Their thoughts happen in meat. They use meat to communicate, to sense the universe, to reproduce. The aliens find this profoundly and almost morally suspect. Why would any intelligent species persist in such a fragile, vulnerable, temporary form? The conversation escalates in circles—maybe the humans are not sentient at all, perhaps they're just sophisticated biological machines mimicking consciousness. Maybe they deserve preservation? Maybe they deserve warning? Maybe they deserve neither because they're essentially already dead?</p><p>What arrives across the decades is something between comedy and dread. Bisson captured something true about how intelligence perceives itself: with a kind of embarrassed certainty that whatever we are, it's the only possible way to be intelligent. The story has become a cultural touchstone—556 points on Hacker News suggests it keeps finding new readers who recognize themselves in the aliens' confusion. In an era when we're building artificial minds and worrying about what they'll think of us, a conversation between creatures baffled by our meat suddenly feels less like 1991 science fiction and more like prophecy.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Cryptocurrency · Investigation</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Bitcoin Mystery Deepens: NYT Investigation Reopens the Case of Satoshi Nakamoto's True Identity</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 510 · 618 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">AI · Systems Thinking</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Machine Learning Revolution Has a Truth Problem—And We're Only Beginning to See It</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 508 · 507 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-musk-questions-his-own-ai-leadership-fitness">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-questions-his-own-ai-leadership-fitness')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk Questions His Own AI Leadership Fitness</div>
-      <div class="x-body">Self-doubt from the guy steering multiple AI projects signals either refreshing introspection or performative humility. Either way, it's the most honest thing anyone in his position has said about the existential risk they're managing.</div>
-    </div>
-    <div class="x-item" id="x-musk-endorses-unspecified-success-unironically">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-endorses-unspecified-success-unironically')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk Endorses Unspecified Success Unironically</div>
-      <div class="x-body">The vagueness here is the point—this reads like algorithmic engagement bait masquerading as substance. It reveals how billionaire commentary has devolved into motivational poster filler that drowns out actual technical discourse.</div>
-    </div>
-    <div class="x-item" id="x-musk-registers-vague-moral-disapproval-online">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-registers-vague-moral-disapproval-online')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk Registers Vague Moral Disapproval Online</div>
-      <div class="x-body">Three words convey maximum outrage with zero accountability or specificity. This is how platforms amplify sentiment over signal—perfect for viral spread, useless for understanding what actually went wrong.</div>
-    </div>
-    <div class="x-item" id="x-wisdom-from-outside-the-noise-chamber">
-      <div class="x-handle">@吉田<span class="permalink" onclick="copyLink('x-wisdom-from-outside-the-noise-chamber')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Wisdom From Outside the Noise Chamber</div>
-      <div class="x-body">Among the Musk maximalism, a quiet voice suggests some knowledge carries costs. It's a philosophical counterweight to tech's obsession with total transparency and infinite information—and it deserves more consideration than it'll get.</div>
-    </div>
-    <div class="x-item" id="x-cybertruck-evangelism-distracts-from-substance">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-cybertruck-evangelism-distracts-from-substance')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Cybertruck Evangelism Distracts From Substance</div>
-      <div class="x-body">Product enthusiasm presented as news shows how personality cults substitute for engineering rigor. The gap between hardware hype and actual innovation metrics has become the real story everyone's missing.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Thursday, April 9, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:02 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 210  ·  No. 383</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Thursday, April 9, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Thursday, April 9, 2026 · 18:00</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Development · Version Control</div>
+<h1 class="headline" id="the-git-archaeologist-s-toolkit-what-every-developer-should-" style="font-size:34px"><a href="https://piechowski.io/post/git-commands-before-reading-code/" style="color:inherit;text-decoration:none;" target="_blank">The Git Archaeologist's Toolkit: What Every Developer Should Run Before Touching Unfamiliar Code</a><span class="permalink" onclick="copyLink('the-git-archaeologist-s-toolkit-what-every-developer-should-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*A practical manifesto for defensive code review—the commands that separate confident refactoring from debugging nightmares.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47687273" style="color:inherit;text-decoration:none;" target="_blank">▲ 2064 pts  ·  450 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:14</span></div>
+<div class="body-text">
+<p class="drop-cap">Before diving into a codebase you've never seen, most developers crack their knuckles and start reading. They're already lost. A programmer named Piechowski has charted a different path: a disciplined sequence of Git commands that map the terrain before the journey begins. The approach isn't fancy—it's forensic. Commands that expose commit history, reveal the architects of each function, surface dead branches, and illuminate the trajectory of choices that built the system.</p><p>The thesis cuts against the grain of how we're taught to think about code. We imagine understanding flows from reading the current state, parsing syntax line by line. But Git tells a different story: the story of decisions, reversions, collaborations, and the slow accumulation of technical debt. A developer who knows to run `git log -p --follow` on a suspicious file understands not just what the code does, but why someone felt compelled to write it that way. The post has resonated across the developer community—over 2,000 points and 450 comments suggest this is a gap many felt acutely but couldn't quite name.</p><p>What emerges is a template for intellectual humility in engineering: before you assert you understand something, ask the version control system what actually happened. The commits don't lie. They're slower than your first instinct, but they're honest.</p>
+<div class="pull-quote">The commits don't lie—they're slower than your first instinct, but they're honest.</div>
+</div></div>
+<div class="sec">
+<div class="tag">Systems · Hardware Hacking</div>
+<h2 class="headline" id="a-developer-just-ported-mac-os-x-to-the-nintendo-wii-and-yes" style="font-size:21px"><a href="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" style="color:inherit;text-decoration:none;" target="_blank">A Developer Just Ported Mac OS X to the Nintendo Wii, and Yes, It Actually Works</a><span class="permalink" onclick="copyLink('a-developer-just-ported-mac-os-x-to-the-nintendo-wii-and-yes')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The audacious intersection of obsolete hardware and an OS designed for aluminum—one programmer's weekend that should have been impossible.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47691730" style="color:inherit;text-decoration:none;" target="_blank">▲ 1614 pts  ·  285 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:31</span></div>
+<div class="body-text">
+<p>Bryan Keller did something that shouldn't exist: he made Mac OS X run on a Nintendo Wii. Not a simulation, not a joke, not some theoretical exercise. A genuine port of Apple's operating system to a gaming console from 2006, complete enough to prove viability. The technical chasm is almost comical to contemplate—a PowerPC processor designed for living room entertainment, a gigabyte of RAM, and an operating system built for multi-core modern Macs. Yet here we are, staring at the impossible made mundane.</p><p>The project sits at the intersection of software archaeology and determined brute force. The Wii's PowerPC architecture shares lineage with older Macs, creating a architectural bridge Keller could exploit. But exploiting a bridge requires understanding not just the target system's internals, but the profound mismatch between an OS's assumptions about memory, peripherals, and processing power versus what a 2006 console actually offers. The technical write-up doesn't shy away from the grotesque hacks required: stripping features, reimagining memory maps, essentially negotiating with the hardware about what it's willing to pretend to be.</p><p>What's remarkable isn't that this works—it's that someone thought to try, then documented the journey. The project suggests a truth about systems programming that universities often bury: the boundaries between "possible" and "insane" are thinner than they appear, and they're usually defended only by convention, not physics.</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">Security · Linux</div>
+<h2 class="headline" id="little-snitch-comes-to-linux-bringing-mac-s-network-watchdog" style="font-size:19px"><a href="https://obdev.at/products/littlesnitch-linux/index.html" style="color:inherit;text-decoration:none;" target="_blank">Little Snitch Comes to Linux, Bringing Mac's Network Watchdog to the Open-Source Desktop</a><span class="permalink" onclick="copyLink('little-snitch-comes-to-linux-bringing-mac-s-network-watchdog')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The cult-favorite macOS application finally arrives on Linux—and the security community is paying attention.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47697870" style="color:inherit;text-decoration:none;" target="_blank">▲ 786 pts  ·  271 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-03.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:33</span></div>
+<div class="body-text">
+<p>Little Snitch, the notoriously obsessive network monitor that has been the paranoid Mac user's constant companion for nearly two decades, has crossed over. The application—famous for its granular per-process network filtering, its library of suspicious behavior patterns, and its user interface that treats every packet like a minor diplomatic incident—now exists for Linux systems. For a security-conscious operating system that's been waiting for a consumer-friendly equivalent, this is the kind of arrival that gets people talking.</p><p>The Linux version represents more than just porting code; it's a statement about what security expectations should look like on free operating systems. Little Snitch built its reputation on the principle that users deserve to know, and more importantly, to *control*, what their applications are communicating across the network. It turns a passive activity—network traffic—into an active conversation between user and operating system. Linux systems have had tools like iptables and ufw for decades, but they've always been for administrators, not mortals. Little Snitch translates network security into a language humans can actually read and act upon.</p><p>With 271 comments on the announcement, the response signals both hunger for this capability and skepticism about whether a commercial tool can truly belong in the Linux ecosystem. The deeper tension is architectural: can a graphical network monitor compete with the kernel-level flexibility that Linux offers, or will it always feel like an afterthought to distributions built on the principle of total transparency and control?</p>
+</div></div><div class="tert">
+<div class="tag">Culture · Science Fiction</div>
+<h2 class="headline" id="a-1991-science-fiction-story-about-alien-first-contact-haunt" style="font-size:19px"><a href="http://www.terrybisson.com/theyre-made-out-of-meat-2/" style="color:inherit;text-decoration:none;" target="_blank">A 1991 Science Fiction Story About Alien First Contact Haunts Us Still—For All the Right Reasons</a><span class="permalink" onclick="copyLink('a-1991-science-fiction-story-about-alien-first-contact-haunt')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*Terry Bisson's "They're Made Out of Meat" has become a litmus test for how we imagine intelligence and otherness.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47688678" style="color:inherit;text-decoration:none;" target="_blank">▲ 556 pts  ·  151 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:44</span></div>
+<div class="body-text">
+<p>Sometimes a story doesn't age; it just becomes more accurate. Terry Bisson's "They're Made Out of Meat," published in 1991, reads like a conversation between two cosmic bureaucrats trying to process something their procedures never anticipated: a civilization made of biological tissue that somehow achieved sentience. The story is twelve minutes at reading speed, maybe 1,400 words on the page. The impact is inversely proportional to its length.</p><p>The setup is brilliantly dumb: an alien intelligence discovers Earth and reports their findings to command. The humans are made of meat. All of them. Their thoughts happen in meat. They use meat to communicate, to sense the universe, to reproduce. The aliens find this profoundly and almost morally suspect. Why would any intelligent species persist in such a fragile, vulnerable, temporary form? The conversation escalates in circles—maybe the humans are not sentient at all, perhaps they're just sophisticated biological machines mimicking consciousness. Maybe they deserve preservation? Maybe they deserve warning? Maybe they deserve neither because they're essentially already dead?</p><p>What arrives across the decades is something between comedy and dread. Bisson captured something true about how intelligence perceives itself: with a kind of embarrassed certainty that whatever we are, it's the only possible way to be intelligent. The story has become a cultural touchstone—556 points on Hacker News suggests it keeps finding new readers who recognize themselves in the aliens' confusion. In an era when we're building artificial minds and worrying about what they'll think of us, a conversation between creatures baffled by our meat suddenly feels less like 1991 science fiction and more like prophecy.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Cryptocurrency · Investigation</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Bitcoin Mystery Deepens: NYT Investigation Reopens the Case of Satoshi Nakamoto's True Identity</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 510 · 618 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">AI · Systems Thinking</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Machine Learning Revolution Has a Truth Problem—And We're Only Beginning to See It</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 508 · 507 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-musk-questions-his-own-ai-leadership-fitness">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-questions-his-own-ai-leadership-fitness')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk Questions His Own AI Leadership Fitness</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span>
+<div class="x-body">Self-doubt from the guy steering multiple AI projects signals either refreshing introspection or performative humility. Either way, it's the most honest thing anyone in his position has said about the existential risk they're managing.</div>
+</div>
+<div class="x-item" id="x-musk-endorses-unspecified-success-unironically">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-endorses-unspecified-success-unironically')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk Endorses Unspecified Success Unironically</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span>
+<div class="x-body">The vagueness here is the point—this reads like algorithmic engagement bait masquerading as substance. It reveals how billionaire commentary has devolved into motivational poster filler that drowns out actual technical discourse.</div>
+</div>
+<div class="x-item" id="x-musk-registers-vague-moral-disapproval-online">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-registers-vague-moral-disapproval-online')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk Registers Vague Moral Disapproval Online</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span>
+<div class="x-body">Three words convey maximum outrage with zero accountability or specificity. This is how platforms amplify sentiment over signal—perfect for viral spread, useless for understanding what actually went wrong.</div>
+</div>
+<div class="x-item" id="x-wisdom-from-outside-the-noise-chamber">
+<div class="x-handle">@吉田<span class="permalink" onclick="copyLink('x-wisdom-from-outside-the-noise-chamber')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Wisdom From Outside the Noise Chamber</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span>
+<div class="x-body">Among the Musk maximalism, a quiet voice suggests some knowledge carries costs. It's a philosophical counterweight to tech's obsession with total transparency and infinite information—and it deserves more consideration than it'll get.</div>
+</div>
+<div class="x-item" id="x-cybertruck-evangelism-distracts-from-substance">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-cybertruck-evangelism-distracts-from-substance')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Cybertruck Evangelism Distracts From Substance</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-09/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span>
+<div class="x-body">Product enthusiasm presented as news shows how personality cults substitute for engineering rigor. The gap between hardware hype and actual innovation metrics has become the real story everyone's missing.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Thursday, April 9, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:02 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
