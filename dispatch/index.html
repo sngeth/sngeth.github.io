@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Friday, April 10, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 211 &nbsp;·&nbsp; No. 372</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Friday, April 10, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Development · macOS</div>
-    <h1 class="headline" id="the-macos-space-switching-hack-that-shouldn-t-work-but-does" style="font-size:34px"><a href="https://arhan.sh/blog/native-instant-space-switching-on-macos/" target="_blank" style="color:inherit;text-decoration:none;">The macOS Space Switching Hack That Shouldn't Work—But Does</a><span class="permalink" onclick="copyLink('the-macos-space-switching-hack-that-shouldn-t-work-but-does')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*A developer reverses engineering decades of window management to unlock instant desktop switching, exposing Apple's architectural quirks in the process.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47708818" target="_blank" style="color:inherit;text-decoration:none;">▲ 528 pts &nbsp;·&nbsp; 243 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">For forty years, macOS users have tolerated a peculiar friction: switching between virtual desktops (Spaces) carries a perceptible lag, a half-second delay that accumulates across thousands of daily context switches. Arhan Zubair cracked why, and in doing so, revealed how Apple's window server still operates on assumptions baked into its 1990s architecture. By bypassing the official APIs and tapping directly into the underlying Quartz Composer layer, Zubair achieved what seemed impossible—instantaneous Space transitions that rival the responsiveness of desktop environments that never suffered from the problem in the first place.</p><p>The technical elegance lies in the diagnosis: Apple's native Space switching incurs overhead by recompositing entire screen buffers and marshaling window state through a serialized event queue. Zubair's approach skirts this entirely, manipulating the compositor's internal state directly and forcing immediate redraw. It's a reminder that beneath every polished OS lies legacy infrastructure, frozen in time by backward-compatibility requirements and architectural decisions made when CPU cycles were precious.</p><p>The 243 comments suggest the dev community is split between admiration and anxiety—admiration for the ingenuity, anxiety that Apple could patch this undocumented pathway at any moment. But the real takeaway is simpler: user-facing responsiveness shouldn't require reverse-engineering. That it does is a referendum on how much technical debt even premium operating systems accumulate.</p>
-      <div class="pull-quote">Instant Space switching shouldn't require hacking the compositor—but Apple's architectural choices made it inevitable.</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">Hardware · Aerospace</div>
-    <h2 class="headline" id="inside-nasa-s-fault-tolerant-brain-how-artemis-ii-s-computer" style="font-size:21px"><a href="https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/" target="_blank" style="color:inherit;text-decoration:none;">Inside NASA's Fault-Tolerant Brain: How Artemis II's Computer Cheats Death in Space</a><span class="permalink" onclick="copyLink('inside-nasa-s-fault-tolerant-brain-how-artemis-ii-s-computer')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The agency's latest lunar mission runs on redundancy-stacked avionics that make modern cloud infrastructure look fragile.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47704804" target="_blank" style="color:inherit;text-decoration:none;">▲ 414 pts &nbsp;·&nbsp; 152 comments</a>
-    </div>
-    <div class="body-text">
-      <p>NASA didn't build a computer for Artemis II—it built a hydra. The spacecraft's primary flight computer operates in lockstep with multiple identical processors, each monitoring the others for the slightest deviation, ready to eject a corrupted unit mid-flight if necessary. This isn't paranoia; it's the only rational response when your computer can't be debugged, rebooted, or replaced once it's 60,000 miles from Earth in an environment where solar radiation, thermal cycling, and electromagnetic storms conspire to flip random bits in memory.</p><p>The redundancy architecture stacks layers: triple-modular systems vote on critical decisions, with two-out-of-three consensus enabling graceful degradation. Memory is interleaved across physically separate banks to prevent single-point failures from cascading. The processors themselves run at lower clock speeds than terrestrial chips, a deliberate sacrifice of performance for reliability—a tradeoff that reveals how differently the space industry values different engineering properties. Where Silicon Valley optimizes for speed and density, NASA optimizes for a mission success probability that rounds to something humans can live with.</p><p>What emerges from the ACM paper is that Artemis II carries not one computer but an interconnected parliament of them, constantly debating the correct course of action. It's a reminder that fault tolerance isn't a feature—it's a philosophical stance on how to engineer systems where failure isn't an option.</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">Infrastructure · Hardware</div>
-    <h2 class="headline" id="the-server-farm-built-from-yesterday-s-castoffs" style="font-size:19px"><a href="https://colaptop.pages.dev/" target="_blank" style="color:inherit;text-decoration:none;">The Server Farm Built from Yesterday's Castoffs</a><span class="permalink" onclick="copyLink('the-server-farm-built-from-yesterday-s-castoffs')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*An audacious project transforms obsolete laptops into a colocation-grade infrastructure—and challenges every assumption about computing density and efficiency.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47707477" target="_blank" style="color:inherit;text-decoration:none;">▲ 290 pts &nbsp;·&nbsp; 165 comments</a>
-    </div>
-    <div class="body-text">
-      <p>The moment a laptop leaves the supply chain, its useful life in the eyes of the industry spans roughly five years. Then it becomes e-waste, a liability. One developer looked at a pile of old ThinkPads and MacBook Airs and asked the heretical question: what if they're only considered obsolete because we stopped selling new ones? The result is Colaptop, an experiment in heterogeneous computing that treats retired consumer hardware as a legitimate colocation resource, with cost-per-compute ratios that would make cloud vendors blush.</p><p>The economics are almost criminal: a six-year-old laptop, salvaged for $100-200, consumes roughly 20 watts under load and can serve application workloads with throughput comparable to a low-end VPS costing $5-10 monthly. Aggregate fifty of them, and you've replicated AWS t3.medium performance for less than a single month's cloud bill. The colocation model solves the deployment problem—rent a cabinet, network the devices, and let them sit in climate-controlled redundancy. The catch, of course, is heterogeneity: each machine is slightly different, thermal characteristics vary, and failure modes are unpredictable. But for services that can tolerate variable latency and occasional downtime, it's a compelling arbitrage play on the gap between hardware disposal costs and compute pricing.</p><p>The 165 comments reveal a community torn between skepticism and fascination. Yes, it's labor-intensive. Yes, it requires expertise in systems administration that most cloud-native developers don't possess. But it also points to a troubling reality: the current compute pricing regime assumes hardware is infinite. When it isn't, the second-life market becomes irresistible.</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">Security · Hardware</div>
-    <h2 class="headline" id="a-programmer-just-exploited-a-flaw-in-ram-that-nobody-fixed-" style="font-size:19px"><a href="https://www.youtube.com/watch?v=KKbgulTp3FE" target="_blank" style="color:inherit;text-decoration:none;">A Programmer Just Exploited a Flaw in RAM That Nobody Fixed for 58 Years</a><span class="permalink" onclick="copyLink('a-programmer-just-exploited-a-flaw-in-ram-that-nobody-fixed-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*Row Hammer's evil twin emerges—and the vulnerability traces back to the earliest days of dynamic memory architecture.*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47680005" target="_blank" style="color:inherit;text-decoration:none;">▲ 242 pts &nbsp;·&nbsp; 77 comments</a>
-    </div>
-    <div class="body-text">
-      <p>In 1966, when RAM was first standardized, engineers made a choice that seemed innocuous: they optimized for density over isolation. Cells in the same row share a capacitor charge line, which means accessing one address repeatedly could, through pure physics, leak charge into adjacent cells and corrupt nearby data. The industry lived with this implicit vulnerability for decades, treating it as an engineering trade-off rather than a security problem. Last week, a researcher weaponized it.</p><p>The video documents the exploit in forensic detail: by crafting carefully-timed memory access patterns, it's possible to flip individual bits in adjacent rows without permission, without triggering protection mechanisms, and without leaving the kind of footprints that kernel-level security policies are designed to catch. The attacker can do this from unprivileged user code, and from within virtualized environments where the entire memory model assumes isolation. It's Row Hammer's less-famous cousin—not a thundering flaw that requires billions of dollars in mitigation, but a whisper-quiet one that's been sitting in plain sight since the moon landing.</p><p>The implications cascade: if you can flip bits in arbitrary memory, you can corrupt stack frames, rewrite function pointers, and escalate privileges. The researcher demonstrates reliable privilege escalation on unpatched systems. Manufacturers are already responding with refined row-refresh schedules and bit-interleaving patterns, but the fundamental vulnerability—the one baked into DRAM physics—remains. For security researchers, it's a reminder that some flaws are older than software itself.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Design · Tools</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Unfolder Brings 3D Origami Design into the Machine</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 242 · 45 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Utilities · Unicode</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Charcuterie: A Unicode Deep Dive That Turns Text Similarity Into Art</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 240 · 45 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-tesla-s-la-autonomy-demo-raises-stakes">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-s-la-autonomy-demo-raises-stakes')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Tesla's LA autonomy demo raises stakes</div>
-      <div class="x-body">Musk is weaponizing real-world footage as proof-of-concept. Whether it's cherry-picked or genuine, the messaging matters more than the tech—he's signaling that full self-driving is imminent, not vaporware, forcing competitors and regulators to react.</div>
-    </div>
-    <div class="x-item" id="x-musk-frames-humans-as-obsolete-intelligence">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-frames-humans-as-obsolete-intelligence')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk frames humans as obsolete intelligence</div>
-      <div class="x-body">This isn't a joke about driving ability. It's a rhetorical move that repositions AI supremacy as inevitable fact, not aspiration. When billionaires casually declare human cognition substandard, it reshapes how the culture thinks about workforce relevance.</div>
-    </div>
-    <div class="x-item" id="x-media-accountability-engine-has-flatlined">
-      <div class="x-handle">@Marc Andreessen<span class="permalink" onclick="copyLink('x-media-accountability-engine-has-flatlined')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Media accountability engine has flatlined</div>
-      <div class="x-body">Andreessen diagnoses what tech insiders already know: hit pieces no longer move markets or perception. Either outrage is exhausted, narratives are too fractured, or power has simply immunized itself. This matters because it suggests criticism is now toothless.</div>
-    </div>
-    <div class="x-item" id="x-musk-co-signs-andreessen-s-media-collapse">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-co-signs-andreessen-s-media-collapse')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk co-signs Andreessen's media collapse</div>
-      <div class="x-body">A one-word affirmation from the most-scrutinized CEO alive. It's tribal signaling—Musk and Andreessen closing ranks on the notion that traditional accountability is dead, validating the worldview that power can outlast scrutiny.</div>
-    </div>
-    <div class="x-item" id="x-wellness-reframing-challenges-diet-culture">
-      <div class="x-handle">@blue<span class="permalink" onclick="copyLink('x-wellness-reframing-challenges-diet-culture')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Wellness reframing challenges diet culture</div>
-      <div class="x-body">This post inverts the shame-based fitness narrative that dominated for decades. It's a small semantic shift with real psychological weight—redefining exercise as agency rather than penance. That matters because language shapes behavior at scale.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Friday, April 10, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:03 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 211  ·  No. 372</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Friday, April 10, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Friday, April 10, 2026 · 18:15</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Development · macOS</div>
+<h1 class="headline" id="the-macos-space-switching-hack-that-shouldn-t-work-but-does" style="font-size:34px"><a href="https://arhan.sh/blog/native-instant-space-switching-on-macos/" style="color:inherit;text-decoration:none;" target="_blank">The macOS Space Switching Hack That Shouldn't Work—But Does</a><span class="permalink" onclick="copyLink('the-macos-space-switching-hack-that-shouldn-t-work-but-does')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*A developer reverses engineering decades of window management to unlock instant desktop switching, exposing Apple's architectural quirks in the process.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47708818" style="color:inherit;text-decoration:none;" target="_blank">▲ 528 pts  ·  243 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:34</span></div>
+<div class="body-text">
+<p class="drop-cap">For forty years, macOS users have tolerated a peculiar friction: switching between virtual desktops (Spaces) carries a perceptible lag, a half-second delay that accumulates across thousands of daily context switches. Arhan Zubair cracked why, and in doing so, revealed how Apple's window server still operates on assumptions baked into its 1990s architecture. By bypassing the official APIs and tapping directly into the underlying Quartz Composer layer, Zubair achieved what seemed impossible—instantaneous Space transitions that rival the responsiveness of desktop environments that never suffered from the problem in the first place.</p><p>The technical elegance lies in the diagnosis: Apple's native Space switching incurs overhead by recompositing entire screen buffers and marshaling window state through a serialized event queue. Zubair's approach skirts this entirely, manipulating the compositor's internal state directly and forcing immediate redraw. It's a reminder that beneath every polished OS lies legacy infrastructure, frozen in time by backward-compatibility requirements and architectural decisions made when CPU cycles were precious.</p><p>The 243 comments suggest the dev community is split between admiration and anxiety—admiration for the ingenuity, anxiety that Apple could patch this undocumented pathway at any moment. But the real takeaway is simpler: user-facing responsiveness shouldn't require reverse-engineering. That it does is a referendum on how much technical debt even premium operating systems accumulate.</p>
+<div class="pull-quote">Instant Space switching shouldn't require hacking the compositor—but Apple's architectural choices made it inevitable.</div>
+</div></div>
+<div class="sec">
+<div class="tag">Hardware · Aerospace</div>
+<h2 class="headline" id="inside-nasa-s-fault-tolerant-brain-how-artemis-ii-s-computer" style="font-size:21px"><a href="https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/" style="color:inherit;text-decoration:none;" target="_blank">Inside NASA's Fault-Tolerant Brain: How Artemis II's Computer Cheats Death in Space</a><span class="permalink" onclick="copyLink('inside-nasa-s-fault-tolerant-brain-how-artemis-ii-s-computer')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The agency's latest lunar mission runs on redundancy-stacked avionics that make modern cloud infrastructure look fragile.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47704804" style="color:inherit;text-decoration:none;" target="_blank">▲ 414 pts  ·  152 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:30</span></div>
+<div class="body-text">
+<p>NASA didn't build a computer for Artemis II—it built a hydra. The spacecraft's primary flight computer operates in lockstep with multiple identical processors, each monitoring the others for the slightest deviation, ready to eject a corrupted unit mid-flight if necessary. This isn't paranoia; it's the only rational response when your computer can't be debugged, rebooted, or replaced once it's 60,000 miles from Earth in an environment where solar radiation, thermal cycling, and electromagnetic storms conspire to flip random bits in memory.</p><p>The redundancy architecture stacks layers: triple-modular systems vote on critical decisions, with two-out-of-three consensus enabling graceful degradation. Memory is interleaved across physically separate banks to prevent single-point failures from cascading. The processors themselves run at lower clock speeds than terrestrial chips, a deliberate sacrifice of performance for reliability—a tradeoff that reveals how differently the space industry values different engineering properties. Where Silicon Valley optimizes for speed and density, NASA optimizes for a mission success probability that rounds to something humans can live with.</p><p>What emerges from the ACM paper is that Artemis II carries not one computer but an interconnected parliament of them, constantly debating the correct course of action. It's a reminder that fault tolerance isn't a feature—it's a philosophical stance on how to engineer systems where failure isn't an option.</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">Infrastructure · Hardware</div>
+<h2 class="headline" id="the-server-farm-built-from-yesterday-s-castoffs" style="font-size:19px"><a href="https://colaptop.pages.dev/" style="color:inherit;text-decoration:none;" target="_blank">The Server Farm Built from Yesterday's Castoffs</a><span class="permalink" onclick="copyLink('the-server-farm-built-from-yesterday-s-castoffs')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*An audacious project transforms obsolete laptops into a colocation-grade infrastructure—and challenges every assumption about computing density and efficiency.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47707477" style="color:inherit;text-decoration:none;" target="_blank">▲ 290 pts  ·  165 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-03.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:23</span></div>
+<div class="body-text">
+<p>The moment a laptop leaves the supply chain, its useful life in the eyes of the industry spans roughly five years. Then it becomes e-waste, a liability. One developer looked at a pile of old ThinkPads and MacBook Airs and asked the heretical question: what if they're only considered obsolete because we stopped selling new ones? The result is Colaptop, an experiment in heterogeneous computing that treats retired consumer hardware as a legitimate colocation resource, with cost-per-compute ratios that would make cloud vendors blush.</p><p>The economics are almost criminal: a six-year-old laptop, salvaged for $100-200, consumes roughly 20 watts under load and can serve application workloads with throughput comparable to a low-end VPS costing $5-10 monthly. Aggregate fifty of them, and you've replicated AWS t3.medium performance for less than a single month's cloud bill. The colocation model solves the deployment problem—rent a cabinet, network the devices, and let them sit in climate-controlled redundancy. The catch, of course, is heterogeneity: each machine is slightly different, thermal characteristics vary, and failure modes are unpredictable. But for services that can tolerate variable latency and occasional downtime, it's a compelling arbitrage play on the gap between hardware disposal costs and compute pricing.</p><p>The 165 comments reveal a community torn between skepticism and fascination. Yes, it's labor-intensive. Yes, it requires expertise in systems administration that most cloud-native developers don't possess. But it also points to a troubling reality: the current compute pricing regime assumes hardware is infinite. When it isn't, the second-life market becomes irresistible.</p>
+</div></div><div class="tert">
+<div class="tag">Security · Hardware</div>
+<h2 class="headline" id="a-programmer-just-exploited-a-flaw-in-ram-that-nobody-fixed-" style="font-size:19px"><a href="https://www.youtube.com/watch?v=KKbgulTp3FE" style="color:inherit;text-decoration:none;" target="_blank">A Programmer Just Exploited a Flaw in RAM That Nobody Fixed for 58 Years</a><span class="permalink" onclick="copyLink('a-programmer-just-exploited-a-flaw-in-ram-that-nobody-fixed-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*Row Hammer's evil twin emerges—and the vulnerability traces back to the earliest days of dynamic memory architecture.*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47680005" style="color:inherit;text-decoration:none;" target="_blank">▲ 242 pts  ·  77 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:39</span></div>
+<div class="body-text">
+<p>In 1966, when RAM was first standardized, engineers made a choice that seemed innocuous: they optimized for density over isolation. Cells in the same row share a capacitor charge line, which means accessing one address repeatedly could, through pure physics, leak charge into adjacent cells and corrupt nearby data. The industry lived with this implicit vulnerability for decades, treating it as an engineering trade-off rather than a security problem. Last week, a researcher weaponized it.</p><p>The video documents the exploit in forensic detail: by crafting carefully-timed memory access patterns, it's possible to flip individual bits in adjacent rows without permission, without triggering protection mechanisms, and without leaving the kind of footprints that kernel-level security policies are designed to catch. The attacker can do this from unprivileged user code, and from within virtualized environments where the entire memory model assumes isolation. It's Row Hammer's less-famous cousin—not a thundering flaw that requires billions of dollars in mitigation, but a whisper-quiet one that's been sitting in plain sight since the moon landing.</p><p>The implications cascade: if you can flip bits in arbitrary memory, you can corrupt stack frames, rewrite function pointers, and escalate privileges. The researcher demonstrates reliable privilege escalation on unpatched systems. Manufacturers are already responding with refined row-refresh schedules and bit-interleaving patterns, but the fundamental vulnerability—the one baked into DRAM physics—remains. For security researchers, it's a reminder that some flaws are older than software itself.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Design · Tools</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Unfolder Brings 3D Origami Design into the Machine</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 242 · 45 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Utilities · Unicode</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Charcuterie: A Unicode Deep Dive That Turns Text Similarity Into Art</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 240 · 45 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-tesla-s-la-autonomy-demo-raises-stakes">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-s-la-autonomy-demo-raises-stakes')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Tesla's LA autonomy demo raises stakes</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span>
+<div class="x-body">Musk is weaponizing real-world footage as proof-of-concept. Whether it's cherry-picked or genuine, the messaging matters more than the tech—he's signaling that full self-driving is imminent, not vaporware, forcing competitors and regulators to react.</div>
+</div>
+<div class="x-item" id="x-musk-frames-humans-as-obsolete-intelligence">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-frames-humans-as-obsolete-intelligence')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk frames humans as obsolete intelligence</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">This isn't a joke about driving ability. It's a rhetorical move that repositions AI supremacy as inevitable fact, not aspiration. When billionaires casually declare human cognition substandard, it reshapes how the culture thinks about workforce relevance.</div>
+</div>
+<div class="x-item" id="x-media-accountability-engine-has-flatlined">
+<div class="x-handle">@Marc Andreessen<span class="permalink" onclick="copyLink('x-media-accountability-engine-has-flatlined')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Media accountability engine has flatlined</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span>
+<div class="x-body">Andreessen diagnoses what tech insiders already know: hit pieces no longer move markets or perception. Either outrage is exhausted, narratives are too fractured, or power has simply immunized itself. This matters because it suggests criticism is now toothless.</div>
+</div>
+<div class="x-item" id="x-musk-co-signs-andreessen-s-media-collapse">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-co-signs-andreessen-s-media-collapse')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk co-signs Andreessen's media collapse</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span>
+<div class="x-body">A one-word affirmation from the most-scrutinized CEO alive. It's tribal signaling—Musk and Andreessen closing ranks on the notion that traditional accountability is dead, validating the worldview that power can outlast scrutiny.</div>
+</div>
+<div class="x-item" id="x-wellness-reframing-challenges-diet-culture">
+<div class="x-handle">@blue<span class="permalink" onclick="copyLink('x-wellness-reframing-challenges-diet-culture')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Wellness reframing challenges diet culture</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span>
+<div class="x-body">This post inverts the shame-based fitness narrative that dominated for decades. It's a small semantic shift with real psychological weight—redefining exercise as agency rather than penance. That matters because language shapes behavior at scale.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Friday, April 10, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:03 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>

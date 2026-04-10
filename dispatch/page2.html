@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Friday, April 10, 2026 · Page 2</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,312 +73,236 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 211 &nbsp;·&nbsp; No. 372</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 2 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Friday, April 10, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div style="display:grid;grid-template-columns:1fr 1fr;">
-        
-    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">AI · Developer Tools</div>
-      <h2 class="headline" id="the-mcp-rebellion-why-developers-still-choose-protocol-over-" style="font-size:22px"><a href="https://david.coffee/i-still-prefer-mcp-over-skills/" target="_blank" style="color:inherit;text-decoration:none;">The MCP Rebellion: Why Developers Still Choose Protocol Over Prompt Engineering</a><span class="permalink" onclick="copyLink('the-mcp-rebellion-why-developers-still-choose-protocol-over-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*A heated debate reveals deep fractures in how AI tooling should integrate with human workflow*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47712718" target="_blank" style="color:inherit;text-decoration:none;">▲ 218 pts &nbsp;·&nbsp; 182 comments</a></div>
-      <div class="body-text"><p>The Model Context Protocol has quietly become the flashpoint in a larger war over AI architecture philosophy. With 218 points and 182 comments, David Coffee's contrarian take that MCP outpaces skills-based approaches has struck a nerve—and for good reason. The debate exposes a fundamental tension: whether AI integration should happen at the language model layer (through fine-tuning and prompt engineering) or at the application architecture layer (through structured protocols and tool binding).</p><p>Coffee's argument hinges on reproducibility and control. MCP creates a formal interface between applications and language models, establishing a contract that persists regardless of which model powers the conversation. Skills-based systems, by contrast, live or die by their prompt formulation—fragile, model-dependent, often requiring constant maintenance as LLM behavior drifts. The commentariat bristled at this, with defenders of skills-first arguing that prompting flexibility matters more than architectural purity.</p><p>What the 182 comments reveal is that developers are sorting themselves into ideological camps faster than the tooling can mature. One camp sees MCP as the inevitable winner, a standardization layer similar to how Docker containerized deployment. The other sees it as premature ossification of a still-evolving practice. Neither side is wrong—they're optimizing for different things. But the heat of the discussion suggests the industry hasn't yet settled on what &quot;AI integration&quot; even means.</p></div>
-    </div>
-    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Hardware · Retro Computing</div>
-      <h2 class="headline" id="picoz80-resurrects-the-retrocomputing-dream-a-modern-z80-tha" style="font-size:22px"><a href="https://eaw.app/picoz80/" target="_blank" style="color:inherit;text-decoration:none;">PicoZ80 Resurrects the Retrocomputing Dream: A Modern Z80 That Actually Works</a><span class="permalink" onclick="copyLink('picoz80-resurrects-the-retrocomputing-dream-a-modern-z80-tha')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*Hardware hackers get a drop-in replacement that bridges 40 years of computing history*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47708041" target="_blank" style="color:inherit;text-decoration:none;">▲ 198 pts &nbsp;·&nbsp; 32 comments</a></div>
-      <div class="body-text"><p>The Z80 processor, which powered the Sinclair Spectrum, Commodore 128, and countless arcade cabinets, died a corporate death decades ago. Yet here comes PicoZ80—a functional replacement built for the hobbyist archeologists determined to keep vintage systems alive without sacrificing authenticity. The elegant solution: synthesize the Z80's instruction set and timing behavior onto modern FPGA fabric, then wrap it in the original DIP-40 package pinout. Drop it into a 1982 motherboard, and it simply works.</p><p>What makes this technically fascinating is the restraint. Rather than &quot;improving&quot; the Z80 with modern features, the PicoZ80 project committed to cycle-accurate emulation of the original's quirks and delays—the stuff that makes authentic retro software sing. That commitment to archaeological fidelity separates this from academic exercises. The sparse 32 comments suggest a niche audience, but a deeply satisfied one: the people building new games for the Spectrum, restoring arcade machines, and refusing to let mechanical history become software-only memory theater.</p></div>
-    </div>
-    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Art &amp; Technology · Generative Systems</div>
-      <h2 class="headline" id="the-generative-art-time-capsule-how-one-developer-s-decade-l" style="font-size:22px"><a href="https://blog.veitheller.de/Generative_art_over_the_years.html" target="_blank" style="color:inherit;text-decoration:none;">The Generative Art Time Capsule: How One Developer's Decade-Long Experiment Reveals the Medium's Evolution</a><span class="permalink" onclick="copyLink('the-generative-art-time-capsule-how-one-developer-s-decade-l')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*From Processing sketches to neural networks, a personal journey through algorithmic creativity shows how the tools have transformed but the impulse remains*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47675906" target="_blank" style="color:inherit;text-decoration:none;">▲ 157 pts &nbsp;·&nbsp; 40 comments</a></div>
-      <div class="body-text"><p>Veith Heller's retrospective on generative art across the years is less manifesto than museum docent's tour through their own studio—and it's the specificity that matters. By charting their own evolution from early Processing experiments through contemporary machine learning approaches, Heller maps the democratization of a once-rarified practice. The earlier pieces, built on mathematical rules and algorithmic noise, required deep technical literacy. Today's generative art often requires only dataset curation and prompt engineering. Accessibility and depth have traded places.</p><p>The 40 comments suggest measured appreciation rather than controversy, which tracks with the essay's tone: reflective rather than polemical. Heller resists the trap of romanticizing early &quot;purer&quot; work or breathlessly celebrating the neural network era. Instead, what emerges is something more honest: each phase of tools enables different kinds of beauty and different kinds of struggle. The Processing era forced rigor. The GANs era forced curation. What gets lost and what gets gained depends entirely on what the artist chooses to prioritize.</p></div>
-    </div>
-    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">AI · Backend Infrastructure</div>
-      <h2 class="headline" id="instant-1-0-bets-the-backend-farm-on-ai-generated-applicatio" style="font-size:22px"><a href="https://www.instantdb.com/essays/architecture" target="_blank" style="color:inherit;text-decoration:none;">Instant 1.0 Bets the Backend Farm on AI-Generated Applications</a><span class="permalink" onclick="copyLink('instant-1-0-bets-the-backend-farm-on-ai-generated-applicatio')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*A new database architecture designed from scratch for code synthesis raises uncomfortable questions about stability and real production use*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47707632" target="_blank" style="color:inherit;text-decoration:none;">▲ 157 pts &nbsp;·&nbsp; 82 comments</a></div>
-      <div class="body-text"><p>Instant's 1.0 release positions its database as the missing piece in the AI-generated application puzzle—an architecture purpose-built for systems that don't exist until an LLM dreams them up. Traditional backends assume you know your data model before you write queries. Instant inverts that: it provides real-time sync, built-in permissions, and query flexibility tailored to the chaos of prompt-driven development. The insight is sharp: if your application's structure emerges from conversational iteration, your database needs to be more fluid than the SQL-heavy orthodoxy allows.</p><p>But the 157 points and 82 comments mask legitimate skepticism lurking in the discussion. Deployable AI-generated code still requires someone to understand what it does—and that someone, inevitably, is also responsible when it breaks in production. Instant can make the database layer flexible, but can it make LLM-synthesized business logic safe? The architecture essay claims maturity, yet the ecosystem it's betting on remains adolescent. This is the chicken-and-egg problem of 2024: Instant is building the car for a highway that doesn't yet exist, hoping traffic will follow.</p></div>
-    </div>
-      </div>
-      
-  <div class="section-label" style="margin-top:28px;">From the Reading List &nbsp;·&nbsp; RSS</div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
-    
-    <div id="rss-specs-aren-t-code-no-matter-how-detailed" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="color:inherit;text-decoration:none;">Specs Aren't Code, No Matter How Detailed</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-no-matter-how-detailed')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Tue, 17 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">Haskell for All challenges the assumption that sufficiently rigorous specifications can replace actual code—especially when AI agents are doing the building. The gap between intent and implementation reveals why specification-driven development has hard limits that even the most meticulous planning can't overcome.</div>
-    </div>
-    <div id="rss-find-code-by-what-it-means-not-names" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="color:inherit;text-decoration:none;">Find Code by What It Means, Not Names</a><span class="permalink" onclick="copyLink('rss-find-code-by-what-it-means-not-names')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Mon, 16 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">Topic modeling offers a radical rethink of repository navigation: search by semantic meaning rather than grep and file paths. This matters as codebases grow beyond human comprehension—a practical tool for understanding large systems on their own terms.</div>
-    </div>
-    <div id="rss-ai-coding-needs-better-than-chat-boxes" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="color:inherit;text-decoration:none;">AI Coding Needs Better Than Chat Boxes</a><span class="permalink" onclick="copyLink('rss-ai-coding-needs-better-than-chat-boxes')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Sat, 07 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">The chat interface has become the default UI for AI development tools, but it's a constraint, not a feature. This post argues for rethinking how AI assistants integrate into developer workflows—suggesting the real innovation isn't the model, it's the interface.</div>
-    </div>
-    <div id="rss-your-patterns-deserve-to-be-boilerplate" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/you-too-can-make-a-boilerplate" target="_blank" style="color:inherit;text-decoration:none;">Your Patterns Deserve to Be Boilerplate</a><span class="permalink" onclick="copyLink('rss-your-patterns-deserve-to-be-boilerplate')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-04-10</div>
-      <div class="body-text" style="font-size:13.5px;">Instead of hunting for the perfect starter template, Thoughtbot suggests extracting and formalizing your own team's recurring patterns into reusable scaffolding. It's a pragmatic shortcut that compounds over time, turning tribal knowledge into institutional assets.</div>
-    </div>
-    <div id="rss-ai-paired-code-survives-only-through-iteration" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/sixty-six-commits-and-the-commands-that-didnt-survive" target="_blank" style="color:inherit;text-decoration:none;">AI-Paired Code Survives Only Through Iteration</a><span class="permalink" onclick="copyLink('rss-ai-paired-code-survives-only-through-iteration')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-04-08</div>
-      <div class="body-text" style="font-size:13.5px;">Building with Claude Code revealed a brutal truth: prolific generation (15 commands in a day) doesn't mean better code. Three deletions by week's end show that AI velocity is worthless without ruthless pruning—quality emerges through subtraction, not multiplication.</div>
-    </div>
-    <div id="rss-open-web-meets-ai-welcome-to-dark-forest" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" target="_blank" style="color:inherit;text-decoration:none;">Open Web Meets AI: Welcome to Dark Forest</a><span class="permalink" onclick="copyLink('rss-open-web-meets-ai-welcome-to-dark-forest')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 27 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">Ryan Dahl warns that unleashing AI agents on an open internet creates a tragedy-of-the-commons scenario where automation and deception spiral together. The post diagnoses a structural problem that no individual tool can solve—and it's already emerging.</div>
-    </div>
-    <div id="rss-rye-0-2-fixes-the-evaluation-order-trap" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" target="_blank" style="color:inherit;text-decoration:none;">Rye 0.2 fixes the evaluation order trap</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-the-evaluation-order-trap')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Wed, 04 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">Left-to-right evaluation sounds simple until you've debugged the opposite. Ryan Dahl's overhaul addresses a fundamental footgun while introducing dot-words and cleaner constructors—the kind of language design decision that compounds into thousands of hours saved across a user base.</div>
-    </div>
-    <div id="rss-crash-course-rye-s-essentials-in-sprints" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" target="_blank" style="color:inherit;text-decoration:none;">Crash course: Rye's essentials in sprints</a><span class="permalink" onclick="copyLink('rss-crash-course-rye-s-essentials-in-sprints')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 16 Ja</div>
-      <div class="body-text" style="font-size:13.5px;">The second installment of Dahl's &quot;Learn X in Y minutes&quot; approach strips Rye to its conceptual core. For developers considering new tools, this is the efficiency heuristic that actually works—substance without the marketing noise.</div>
-    </div>
-    <div id="rss-buterin-blueprints-sovereign-ai-ownership" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" target="_blank" style="color:inherit;text-decoration:none;">Buterin blueprints sovereign AI ownership</a><span class="permalink" onclick="copyLink('rss-buterin-blueprints-sovereign-ai-ownership')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Thu, 02 Ap</div>
-      <div class="body-text" style="font-size:13.5px;">As LLMs become infrastructure, Vitalik maps a path to local, private, secure models. This isn't ideological hand-waving—it's a technical manifesto for who controls the intelligence layer in 2026.</div>
-    </div>
-    <div id="rss-power-structures-need-redesigning-now" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" target="_blank" style="color:inherit;text-decoration:none;">Power structures need redesigning now</a><span class="permalink" onclick="copyLink('rss-power-structures-need-redesigning-now')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Tue, 30 De</div>
-      <div class="body-text" style="font-size:13.5px;">Vitalik dissects how distributed systems shift equilibrium between stakeholders. A meditation on governance that matters whether you're building protocols, organizations, or the next-generation internet.</div>
-    </div>
-    <div id="rss-pluralism-scales-better-than-monoculture" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" target="_blank" style="color:inherit;text-decoration:none;">Pluralism scales better than monoculture</a><span class="permalink" onclick="copyLink('rss-pluralism-scales-better-than-monoculture')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Wed, 17 De</div>
-      <div class="body-text" style="font-size:13.5px;">Instead of fighting for a single winner, Vitalik argues for systems that let a thousand governance models bloom. A timely counterweight to winner-take-all thinking in tech.</div>
-    </div>
-    <div id="rss-fowler-s-april-fragments-worth-pondering" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-09.html" target="_blank" style="color:inherit;text-decoration:none;">Fowler's April fragments worth pondering</a><span class="permalink" onclick="copyLink('rss-fowler-s-april-fragments-worth-pondering')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-09</div>
-      <div class="body-text" style="font-size:13.5px;">Thoughtful technical observations distilled into one pithy collection. When Fowler publishes fragments, they're breadcrumbs from deeper thinking worth following.</div>
-    </div>
-    <div id="rss-feedback-flywheel-how-ai-systems-learn-faster" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html" target="_blank" style="color:inherit;text-decoration:none;">Feedback Flywheel: How AI Systems Learn Faster</a><span class="permalink" onclick="copyLink('rss-feedback-flywheel-how-ai-systems-learn-faster')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-08</div>
-      <div class="body-text" style="font-size:13.5px;">Martin Fowler examines the virtuous cycle where AI systems improve through continuous feedback loops, reducing friction in the development process. For engineers building intelligent systems, understanding this flywheel is essential—it's the difference between tools that stagnate and those that compound value over time. This piece cuts through hype to reveal the mechanical advantage of feedback-driven architecture.</div>
-    </div>
-    <div id="rss-mechanical-sympathy-why-hardware-matters-again" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/mechanical-sympathy-principles.html" target="_blank" style="color:inherit;text-decoration:none;">Mechanical Sympathy: Why Hardware Matters Again</a><span class="permalink" onclick="copyLink('rss-mechanical-sympathy-why-hardware-matters-again')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-07</div>
-      <div class="body-text" style="font-size:13.5px;">Fowler distills principles for writing code that respects the actual constraints and capabilities of the machines running it—a deceptively simple concept that separates optimizers from observers. In an era of abstraction layers, remembering that performance is physics, not magic, separates elegant solutions from bloated ones. Essential reading for anyone tired of blaming infrastructure when the real problem is three layers up.</div>
-    </div>
-  </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-openai-monetizes-ai-coding-signals-enterprise-pivot">
-      <div class="x-handle">@OpenAI<span class="permalink" onclick="copyLink('x-openai-monetizes-ai-coding-signals-enterprise-pivot')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">OpenAI monetizes AI coding, signals enterprise pivot</div>
-      <div class="x-body">A $100/month tier dedicated to code generation isn't just price segmentation—it's OpenAI betting that AI-assisted development is now worth more than general chat. This floors the moat: if developers start building workflows around ChatGPT's Codex, switching costs spike. Watch whether GitHub Copilot responds with its own tier expansion.</div>
-    </div>
-    <div class="x-item" id="x-telegram-throws-gasoline-on-whatsapp-encryption-debate">
-      <div class="x-handle">@Pavel Durov<span class="permalink" onclick="copyLink('x-telegram-throws-gasoline-on-whatsapp-encryption-debate')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Telegram throws gasoline on WhatsApp encryption debate</div>
-      <div class="x-body">Durov's claim isn't new, but timing it as a founder fighting US extradition charges makes this less credible analysis and more desperate positioning. Still: the accusation that WhatsApp's E2E encryption has backdoors that Meta exploits will now circulate unchallenged in security-conscious circles, muddying the actual technical record.</div>
-    </div>
-    <div class="x-item" id="x-nietzsche-meme-energy-zero-information-content">
-      <div class="x-handle">@猫しか勝たん<span class="permalink" onclick="copyLink('x-nietzsche-meme-energy-zero-information-content')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Nietzsche meme energy, zero information content</div>
-      <div class="x-body">This is either profound philosophy or meaningless decoration. Either way, it has no place in a tech-focused feed unless the account uses it to signal contrarian taste—which may be the entire point. Memes about abysses tell us nothing except that someone wants to seem thoughtful.</div>
-    </div>
-    <div class="x-item" id="x-fertility-collapse-reveals-economics-trump-war-s-desperation">
-      <div class="x-handle">@vittorio<span class="permalink" onclick="copyLink('x-fertility-collapse-reveals-economics-trump-war-s-desperation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Fertility collapse reveals economics trump war's desperation</div>
-      <div class="x-body">The implied argument—that modern Americans are too anxious to reproduce despite unprecedented material comfort—cuts deeper than demographics. It suggests that *perceived* instability matters more than actual conditions, and that prosperity without certainty doesn't produce children. This is a society problem wearing a statistics hat.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a  href="index.html">Page 1</a>
-      <a class="current" href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Friday, April 10, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:03 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 211  ·  No. 372</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 2 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Friday, April 10, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div class="section-label" style="margin-top:16px;">Extended Coverage  ·  Hacker News</div>
+<div class="main-grid">
+<div class="hn-col">
+<div style="display:grid;grid-template-columns:1fr 1fr;">
+<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">AI · Developer Tools</div>
+<h2 class="headline" id="the-mcp-rebellion-why-developers-still-choose-protocol-over-" style="font-size:22px"><a href="https://david.coffee/i-still-prefer-mcp-over-skills/" style="color:inherit;text-decoration:none;" target="_blank">The MCP Rebellion: Why Developers Still Choose Protocol Over Prompt Engineering</a><span class="permalink" onclick="copyLink('the-mcp-rebellion-why-developers-still-choose-protocol-over-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A heated debate reveals deep fractures in how AI tooling should integrate with human workflow*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47712718" style="color:inherit;text-decoration:none;" target="_blank">▲ 218 pts  ·  182 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-10.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:17</span></div>
+<div class="body-text"><p>The Model Context Protocol has quietly become the flashpoint in a larger war over AI architecture philosophy. With 218 points and 182 comments, David Coffee's contrarian take that MCP outpaces skills-based approaches has struck a nerve—and for good reason. The debate exposes a fundamental tension: whether AI integration should happen at the language model layer (through fine-tuning and prompt engineering) or at the application architecture layer (through structured protocols and tool binding).</p><p>Coffee's argument hinges on reproducibility and control. MCP creates a formal interface between applications and language models, establishing a contract that persists regardless of which model powers the conversation. Skills-based systems, by contrast, live or die by their prompt formulation—fragile, model-dependent, often requiring constant maintenance as LLM behavior drifts. The commentariat bristled at this, with defenders of skills-first arguing that prompting flexibility matters more than architectural purity.</p><p>What the 182 comments reveal is that developers are sorting themselves into ideological camps faster than the tooling can mature. One camp sees MCP as the inevitable winner, a standardization layer similar to how Docker containerized deployment. The other sees it as premature ossification of a still-evolving practice. Neither side is wrong—they're optimizing for different things. But the heat of the discussion suggests the industry hasn't yet settled on what "AI integration" even means.</p></div>
+</div>
+<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Hardware · Retro Computing</div>
+<h2 class="headline" id="picoz80-resurrects-the-retrocomputing-dream-a-modern-z80-tha" style="font-size:22px"><a href="https://eaw.app/picoz80/" style="color:inherit;text-decoration:none;" target="_blank">PicoZ80 Resurrects the Retrocomputing Dream: A Modern Z80 That Actually Works</a><span class="permalink" onclick="copyLink('picoz80-resurrects-the-retrocomputing-dream-a-modern-z80-tha')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*Hardware hackers get a drop-in replacement that bridges 40 years of computing history*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47708041" style="color:inherit;text-decoration:none;" target="_blank">▲ 198 pts  ·  32 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-11.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:58</span></div>
+<div class="body-text"><p>The Z80 processor, which powered the Sinclair Spectrum, Commodore 128, and countless arcade cabinets, died a corporate death decades ago. Yet here comes PicoZ80—a functional replacement built for the hobbyist archeologists determined to keep vintage systems alive without sacrificing authenticity. The elegant solution: synthesize the Z80's instruction set and timing behavior onto modern FPGA fabric, then wrap it in the original DIP-40 package pinout. Drop it into a 1982 motherboard, and it simply works.</p><p>What makes this technically fascinating is the restraint. Rather than "improving" the Z80 with modern features, the PicoZ80 project committed to cycle-accurate emulation of the original's quirks and delays—the stuff that makes authentic retro software sing. That commitment to archaeological fidelity separates this from academic exercises. The sparse 32 comments suggest a niche audience, but a deeply satisfied one: the people building new games for the Spectrum, restoring arcade machines, and refusing to let mechanical history become software-only memory theater.</p></div>
+</div>
+<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Art &amp; Technology · Generative Systems</div>
+<h2 class="headline" id="the-generative-art-time-capsule-how-one-developer-s-decade-l" style="font-size:22px"><a href="https://blog.veitheller.de/Generative_art_over_the_years.html" style="color:inherit;text-decoration:none;" target="_blank">The Generative Art Time Capsule: How One Developer's Decade-Long Experiment Reveals the Medium's Evolution</a><span class="permalink" onclick="copyLink('the-generative-art-time-capsule-how-one-developer-s-decade-l')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*From Processing sketches to neural networks, a personal journey through algorithmic creativity shows how the tools have transformed but the impulse remains*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47675906" style="color:inherit;text-decoration:none;" target="_blank">▲ 157 pts  ·  40 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-12.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:10</span></div>
+<div class="body-text"><p>Veith Heller's retrospective on generative art across the years is less manifesto than museum docent's tour through their own studio—and it's the specificity that matters. By charting their own evolution from early Processing experiments through contemporary machine learning approaches, Heller maps the democratization of a once-rarified practice. The earlier pieces, built on mathematical rules and algorithmic noise, required deep technical literacy. Today's generative art often requires only dataset curation and prompt engineering. Accessibility and depth have traded places.</p><p>The 40 comments suggest measured appreciation rather than controversy, which tracks with the essay's tone: reflective rather than polemical. Heller resists the trap of romanticizing early "purer" work or breathlessly celebrating the neural network era. Instead, what emerges is something more honest: each phase of tools enables different kinds of beauty and different kinds of struggle. The Processing era forced rigor. The GANs era forced curation. What gets lost and what gets gained depends entirely on what the artist chooses to prioritize.</p></div>
+</div>
+<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">AI · Backend Infrastructure</div>
+<h2 class="headline" id="instant-1-0-bets-the-backend-farm-on-ai-generated-applicatio" style="font-size:22px"><a href="https://www.instantdb.com/essays/architecture" style="color:inherit;text-decoration:none;" target="_blank">Instant 1.0 Bets the Backend Farm on AI-Generated Applications</a><span class="permalink" onclick="copyLink('instant-1-0-bets-the-backend-farm-on-ai-generated-applicatio')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A new database architecture designed from scratch for code synthesis raises uncomfortable questions about stability and real production use*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47707632" style="color:inherit;text-decoration:none;" target="_blank">▲ 157 pts  ·  82 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-13.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:01</span></div>
+<div class="body-text"><p>Instant's 1.0 release positions its database as the missing piece in the AI-generated application puzzle—an architecture purpose-built for systems that don't exist until an LLM dreams them up. Traditional backends assume you know your data model before you write queries. Instant inverts that: it provides real-time sync, built-in permissions, and query flexibility tailored to the chaos of prompt-driven development. The insight is sharp: if your application's structure emerges from conversational iteration, your database needs to be more fluid than the SQL-heavy orthodoxy allows.</p><p>But the 157 points and 82 comments mask legitimate skepticism lurking in the discussion. Deployable AI-generated code still requires someone to understand what it does—and that someone, inevitably, is also responsible when it breaks in production. Instant can make the database layer flexible, but can it make LLM-synthesized business logic safe? The architecture essay claims maturity, yet the ecosystem it's betting on remains adolescent. This is the chicken-and-egg problem of 2024: Instant is building the car for a highway that doesn't yet exist, hoping traffic will follow.</p></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:28px;">From the Reading List  ·  RSS</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
+<div id="rss-specs-aren-t-code-no-matter-how-detailed" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" style="color:inherit;text-decoration:none;" target="_blank">Specs Aren't Code, No Matter How Detailed</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-no-matter-how-detailed')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Tue, 17 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-14.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span></div>
+<div class="body-text" style="font-size:13.5px;">Haskell for All challenges the assumption that sufficiently rigorous specifications can replace actual code—especially when AI agents are doing the building. The gap between intent and implementation reveals why specification-driven development has hard limits that even the most meticulous planning can't overcome.</div>
+</div>
+<div id="rss-find-code-by-what-it-means-not-names" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" style="color:inherit;text-decoration:none;" target="_blank">Find Code by What It Means, Not Names</a><span class="permalink" onclick="copyLink('rss-find-code-by-what-it-means-not-names')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Mon, 16 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-15.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span></div>
+<div class="body-text" style="font-size:13.5px;">Topic modeling offers a radical rethink of repository navigation: search by semantic meaning rather than grep and file paths. This matters as codebases grow beyond human comprehension—a practical tool for understanding large systems on their own terms.</div>
+</div>
+<div id="rss-ai-coding-needs-better-than-chat-boxes" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" style="color:inherit;text-decoration:none;" target="_blank">AI Coding Needs Better Than Chat Boxes</a><span class="permalink" onclick="copyLink('rss-ai-coding-needs-better-than-chat-boxes')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Sat, 07 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-16.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
+<div class="body-text" style="font-size:13.5px;">The chat interface has become the default UI for AI development tools, but it's a constraint, not a feature. This post argues for rethinking how AI assistants integrate into developer workflows—suggesting the real innovation isn't the model, it's the interface.</div>
+</div>
+<div id="rss-your-patterns-deserve-to-be-boilerplate" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Thoughtbot</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/you-too-can-make-a-boilerplate" style="color:inherit;text-decoration:none;" target="_blank">Your Patterns Deserve to Be Boilerplate</a><span class="permalink" onclick="copyLink('rss-your-patterns-deserve-to-be-boilerplate')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Thoughtbot  ·  2026-04-10<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-17.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span></div>
+<div class="body-text" style="font-size:13.5px;">Instead of hunting for the perfect starter template, Thoughtbot suggests extracting and formalizing your own team's recurring patterns into reusable scaffolding. It's a pragmatic shortcut that compounds over time, turning tribal knowledge into institutional assets.</div>
+</div>
+<div id="rss-ai-paired-code-survives-only-through-iteration" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Engineering  ·  Thoughtbot</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/sixty-six-commits-and-the-commands-that-didnt-survive" style="color:inherit;text-decoration:none;" target="_blank">AI-Paired Code Survives Only Through Iteration</a><span class="permalink" onclick="copyLink('rss-ai-paired-code-survives-only-through-iteration')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Thoughtbot  ·  2026-04-08<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-18.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:14</span></div>
+<div class="body-text" style="font-size:13.5px;">Building with Claude Code revealed a brutal truth: prolific generation (15 commands in a day) doesn't mean better code. Three deletions by week's end show that AI velocity is worthless without ruthless pruning—quality emerges through subtraction, not multiplication.</div>
+</div>
+<div id="rss-open-web-meets-ai-welcome-to-dark-forest" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" style="color:inherit;text-decoration:none;" target="_blank">Open Web Meets AI: Welcome to Dark Forest</a><span class="permalink" onclick="copyLink('rss-open-web-meets-ai-welcome-to-dark-forest')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Fri, 27 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-19.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span></div>
+<div class="body-text" style="font-size:13.5px;">Ryan Dahl warns that unleashing AI agents on an open internet creates a tragedy-of-the-commons scenario where automation and deception spiral together. The post diagnoses a structural problem that no individual tool can solve—and it's already emerging.</div>
+</div>
+<div id="rss-rye-0-2-fixes-the-evaluation-order-trap" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" style="color:inherit;text-decoration:none;" target="_blank">Rye 0.2 fixes the evaluation order trap</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-the-evaluation-order-trap')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Wed, 04 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-20.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span></div>
+<div class="body-text" style="font-size:13.5px;">Left-to-right evaluation sounds simple until you've debugged the opposite. Ryan Dahl's overhaul addresses a fundamental footgun while introducing dot-words and cleaner constructors—the kind of language design decision that compounds into thousands of hours saved across a user base.</div>
+</div>
+<div id="rss-crash-course-rye-s-essentials-in-sprints" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" style="color:inherit;text-decoration:none;" target="_blank">Crash course: Rye's essentials in sprints</a><span class="permalink" onclick="copyLink('rss-crash-course-rye-s-essentials-in-sprints')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Fri, 16 Ja<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-21.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:15</span></div>
+<div class="body-text" style="font-size:13.5px;">The second installment of Dahl's "Learn X in Y minutes" approach strips Rye to its conceptual core. For developers considering new tools, this is the efficiency heuristic that actually works—substance without the marketing noise.</div>
+</div>
+<div id="rss-buterin-blueprints-sovereign-ai-ownership" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" style="color:inherit;text-decoration:none;" target="_blank">Buterin blueprints sovereign AI ownership</a><span class="permalink" onclick="copyLink('rss-buterin-blueprints-sovereign-ai-ownership')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Thu, 02 Ap<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-22.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:15</span></div>
+<div class="body-text" style="font-size:13.5px;">As LLMs become infrastructure, Vitalik maps a path to local, private, secure models. This isn't ideological hand-waving—it's a technical manifesto for who controls the intelligence layer in 2026.</div>
+</div>
+<div id="rss-power-structures-need-redesigning-now" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" style="color:inherit;text-decoration:none;" target="_blank">Power structures need redesigning now</a><span class="permalink" onclick="copyLink('rss-power-structures-need-redesigning-now')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Tue, 30 De<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-23.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:13</span></div>
+<div class="body-text" style="font-size:13.5px;">Vitalik dissects how distributed systems shift equilibrium between stakeholders. A meditation on governance that matters whether you're building protocols, organizations, or the next-generation internet.</div>
+</div>
+<div id="rss-pluralism-scales-better-than-monoculture" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" style="color:inherit;text-decoration:none;" target="_blank">Pluralism scales better than monoculture</a><span class="permalink" onclick="copyLink('rss-pluralism-scales-better-than-monoculture')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Wed, 17 De<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-24.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:12</span></div>
+<div class="body-text" style="font-size:13.5px;">Instead of fighting for a single winner, Vitalik argues for systems that let a thousand governance models bloom. A timely counterweight to winner-take-all thinking in tech.</div>
+</div>
+<div id="rss-fowler-s-april-fragments-worth-pondering" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-09.html" style="color:inherit;text-decoration:none;" target="_blank">Fowler's April fragments worth pondering</a><span class="permalink" onclick="copyLink('rss-fowler-s-april-fragments-worth-pondering')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-09<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-25.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:10</span></div>
+<div class="body-text" style="font-size:13.5px;">Thoughtful technical observations distilled into one pithy collection. When Fowler publishes fragments, they're breadcrumbs from deeper thinking worth following.</div>
+</div>
+<div id="rss-feedback-flywheel-how-ai-systems-learn-faster" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html" style="color:inherit;text-decoration:none;" target="_blank">Feedback Flywheel: How AI Systems Learn Faster</a><span class="permalink" onclick="copyLink('rss-feedback-flywheel-how-ai-systems-learn-faster')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-08<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-26.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span></div>
+<div class="body-text" style="font-size:13.5px;">Martin Fowler examines the virtuous cycle where AI systems improve through continuous feedback loops, reducing friction in the development process. For engineers building intelligent systems, understanding this flywheel is essential—it's the difference between tools that stagnate and those that compound value over time. This piece cuts through hype to reveal the mechanical advantage of feedback-driven architecture.</div>
+</div>
+<div id="rss-mechanical-sympathy-why-hardware-matters-again" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/mechanical-sympathy-principles.html" style="color:inherit;text-decoration:none;" target="_blank">Mechanical Sympathy: Why Hardware Matters Again</a><span class="permalink" onclick="copyLink('rss-mechanical-sympathy-why-hardware-matters-again')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-07<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-27.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:24</span></div>
+<div class="body-text" style="font-size:13.5px;">Fowler distills principles for writing code that respects the actual constraints and capabilities of the machines running it—a deceptively simple concept that separates optimizers from observers. In an era of abstraction layers, remembering that performance is physics, not magic, separates elegant solutions from bloated ones. Essential reading for anyone tired of blaming infrastructure when the real problem is three layers up.</div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">More From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-openai-monetizes-ai-coding-signals-enterprise-pivot">
+<div class="x-handle">@OpenAI<span class="permalink" onclick="copyLink('x-openai-monetizes-ai-coding-signals-enterprise-pivot')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">OpenAI monetizes AI coding, signals enterprise pivot</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-28.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:23</span>
+<div class="x-body">A $100/month tier dedicated to code generation isn't just price segmentation—it's OpenAI betting that AI-assisted development is now worth more than general chat. This floors the moat: if developers start building workflows around ChatGPT's Codex, switching costs spike. Watch whether GitHub Copilot responds with its own tier expansion.</div>
+</div>
+<div class="x-item" id="x-telegram-throws-gasoline-on-whatsapp-encryption-debate">
+<div class="x-handle">@Pavel Durov<span class="permalink" onclick="copyLink('x-telegram-throws-gasoline-on-whatsapp-encryption-debate')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Telegram throws gasoline on WhatsApp encryption debate</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-29.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span>
+<div class="x-body">Durov's claim isn't new, but timing it as a founder fighting US extradition charges makes this less credible analysis and more desperate positioning. Still: the accusation that WhatsApp's E2E encryption has backdoors that Meta exploits will now circulate unchallenged in security-conscious circles, muddying the actual technical record.</div>
+</div>
+<div class="x-item" id="x-nietzsche-meme-energy-zero-information-content">
+<div class="x-handle">@猫しか勝たん<span class="permalink" onclick="copyLink('x-nietzsche-meme-energy-zero-information-content')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Nietzsche meme energy, zero information content</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-30.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
+<div class="x-body">This is either profound philosophy or meaningless decoration. Either way, it has no place in a tech-focused feed unless the account uses it to signal contrarian taste—which may be the entire point. Memes about abysses tell us nothing except that someone wants to seem thoughtful.</div>
+</div>
+<div class="x-item" id="x-fertility-collapse-reveals-economics-trump-war-s-desperation">
+<div class="x-handle">@vittorio<span class="permalink" onclick="copyLink('x-fertility-collapse-reveals-economics-trump-war-s-desperation')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Fertility collapse reveals economics trump war's desperation</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-10/story-31.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span>
+<div class="x-body">The implied argument—that modern Americans are too anxious to reproduce despite unprecedented material comfort—cuts deeper than demographics. It suggests that *perceived* instability matters more than actual conditions, and that prosperity without certainty doesn't produce children. This is a society problem wearing a statistics hat.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a href="index.html">Page 1</a>
+<a class="current" href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Friday, April 10, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:03 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
