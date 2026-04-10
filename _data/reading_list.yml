@@ -1,8 +1,63 @@
-- title: LittleSnitch for Linux
-  url: "https://obdev.at/products/littlesnitch-linux/index.html"
+- title: GitHub Repo Size
+  url: "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"
+  date: 2026-04-09
+  source: Simon Willison
+  category: ai
+- title: asgi-gzip 0.3
+  url: "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything"
+  date: 2026-04-09
+  source: Simon Willison
+  category: ai
+- title: watgo - a WebAssembly Toolkit for Go
+  url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
+  date: 2026-04-09
+  source: Eli Bendersky
+  category: programming
+- title: "Microsoft is employing dark patterns to goad users into paying for storage?"
+  url: "https://lzon.ca/posts/other/microsoft-user-abuse/"
   date: 2026-04-09
   source: Hacker News Best
   category: programming
+- title: Native Instant Space Switching on macOS
+  url: "https://arhan.sh/blog/native-instant-space-switching-on-macos/"
+  date: 2026-04-09
+  source: Hacker News Best
+  category: programming
+- title: Maine is about to become the first state to ban major new data centers
+  url: "https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers"
+  date: 2026-04-09
+  source: Hacker News Best
+  category: programming
+- title: EFF is leaving X
+  url: "https://www.eff.org/deeplinks/2026/04/eff-leaving-x"
+  date: 2026-04-09
+  source: Hacker News Best
+  category: programming
+- title: "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy"
+  url: "https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo"
+  date: 2026-04-09
+  source: Hacker News Best
+  category: programming
+- title: Travelling at the speed of light
+  url: "https://aeon.co/videos/take-a-mind-bending-ride-through-the-cosmos-at-light-speed?utm_source=rss-feed"
+  date: 2026-04-09
+  source: Aeon
+  category: philosophy
+- title: White-collar sweatshops
+  url: "https://aeon.co/essays/what-made-law-into-a-white-collar-sweatshop-in-the-1980s?utm_source=rss-feed"
+  date: 2026-04-09
+  source: Aeon
+  category: philosophy
+- title: George Saunders on the Antidote to Regret
+  url: "https://www.themarginalian.org/2026/04/09/regret/"
+  date: 2026-04-09
+  source: The Marginalian
+  category: philosophy
+- title: Brian Eno’s Remedy for Burnout and Despair
+  url: "https://www.themarginalian.org/2026/04/09/brian-eno-burnout/"
+  date: 2026-04-09
+  source: The Marginalian
+  category: philosophy
 - title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
   url: "https://www.themarginalian.org/2026/04/08/pessoa-explorer/"
   date: 2026-04-09
@@ -18,26 +73,6 @@
   date: 2026-04-08
   source: Simon Willison
   category: ai
-- title: "Show HN: Is Hormuz open yet?"
-  url: "https://www.ishormuzopenyet.com/"
-  date: 2026-04-08
-  source: Hacker News Best
-  category: programming
-- title: "I've been waiting over a month for Anthropic to respond to my billing issue"
-  url: "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/"
-  date: 2026-04-08
-  source: Hacker News Best
-  category: programming
-- title: "Muse Spark: Scaling towards personal superintelligence"
-  url: "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1"
-  date: 2026-04-08
-  source: Hacker News Best
-  category: programming
-- title: I ported Mac OS X to the Nintendo Wii
-  url: "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html"
-  date: 2026-04-08
-  source: Hacker News Best
-  category: programming
 - title: "Your opinion, please"
   url: "https://aeon.co/videos/a-vivid-portrait-of-montana-built-from-call-in-radio-clips?utm_source=rss-feed"
   date: 2026-04-08
@@ -53,23 +88,8 @@
   date: 2026-04-08
   source: The Marginalian
   category: philosophy
-- title: Pioneering Psychiatrist Donald Winnicott on the Qualities of a Healthy Mind and a Healthy Relationship
-  url: "https://www.themarginalian.org/2026/04/07/winnicott-care-cure/"
-  date: 2026-04-08
-  source: The Marginalian
-  category: philosophy
 - title: "GLM-5.1: Towards Long-Horizon Tasks"
   url: "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything"
-  date: 2026-04-07
-  source: Simon Willison
-  category: ai
-- title: "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me"
-  url: "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything"
-  date: 2026-04-07
-  source: Simon Willison
-  category: ai
-- title: SQLite WAL Mode Across Docker Containers Sharing a Volume
-  url: "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything"
   date: 2026-04-07
   source: Simon Willison
   category: ai
@@ -78,24 +98,9 @@
   date: 2026-04-07
   source: Aeon
   category: philosophy
-- title: "Thomas Bernhard on Walking, Thinking, and the Paradox of Self-Reflection"
-  url: "https://www.themarginalian.org/2026/04/07/thomas-bernhard-walking/"
-  date: 2026-04-07
-  source: The Marginalian
-  category: philosophy
 - title: "Is AI already conscious?"
   url: "https://aeon.co/videos/we-long-misjudged-animal-consciousness-could-ai-be-next?utm_source=rss-feed"
   date: 2026-04-06
-  source: Aeon
-  category: philosophy
-- title: The antibiotic trap
-  url: "https://aeon.co/essays/antibiotic-resistance-in-india-has-consequences-everywhere?utm_source=rss-feed"
-  date: 2026-04-06
-  source: Aeon
-  category: philosophy
-- title: When trauma becomes trope
-  url: "https://aeon.co/essays/how-might-humanitarian-journalism-be-done-better?utm_source=rss-feed"
-  date: 2026-04-03
   source: Aeon
   category: philosophy
 - title: "Summary of reading: January - March 2026"
@@ -137,11 +142,6 @@
   url: "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
   date: 2026-01-27
   source: Julia Evans
-  category: programming
-- title: Compiling Scheme to WebAssembly
-  url: "https://eli.thegreenplace.net/2026/compiling-scheme-to-webassembly/"
-  date: 2026-01-17
-  source: Eli Bendersky
   category: programming
 - title: A data model for Git (and other docs updates)
   url: "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
