@@ -1,3 +1,43 @@
+- title: Artemis II safely splashes down
+  url: "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/"
+  date: 2026-04-11
+  source: Hacker News Best
+  category: programming
+- title: Kākāpō parrots
+  url: "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything"
+  date: 2026-04-10
+  source: Simon Willison
+  category: ai
+- title: ChatGPT voice mode is a weaker model
+  url: "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything"
+  date: 2026-04-10
+  source: Simon Willison
+  category: ai
+- title: Filing the corners off my MacBooks
+  url: "https://kentwalters.com/posts/corners/"
+  date: 2026-04-10
+  source: Hacker News Best
+  category: programming
+- title: "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers"
+  url: "https://www.bbc.com/news/articles/cr71lkzv49po"
+  date: 2026-04-10
+  source: Hacker News Best
+  category: programming
+- title: Industrial design files for Keychron keyboards and mice
+  url: "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design"
+  date: 2026-04-10
+  source: Hacker News Best
+  category: programming
+- title: WireGuard makes new Windows release following Microsoft signing resolution
+  url: "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html"
+  date: 2026-04-10
+  source: Hacker News Best
+  category: programming
+- title: Patterns without desires
+  url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
+  date: 2026-04-10
+  source: Aeon
+  category: philosophy
 - title: GitHub Repo Size
   url: "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"
   date: 2026-04-09
@@ -12,31 +52,6 @@
   url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
   date: 2026-04-09
   source: Eli Bendersky
-  category: programming
-- title: "Microsoft is employing dark patterns to goad users into paying for storage?"
-  url: "https://lzon.ca/posts/other/microsoft-user-abuse/"
-  date: 2026-04-09
-  source: Hacker News Best
-  category: programming
-- title: Native Instant Space Switching on macOS
-  url: "https://arhan.sh/blog/native-instant-space-switching-on-macos/"
-  date: 2026-04-09
-  source: Hacker News Best
-  category: programming
-- title: Maine is about to become the first state to ban major new data centers
-  url: "https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers"
-  date: 2026-04-09
-  source: Hacker News Best
-  category: programming
-- title: EFF is leaving X
-  url: "https://www.eff.org/deeplinks/2026/04/eff-leaving-x"
-  date: 2026-04-09
-  source: Hacker News Best
-  category: programming
-- title: "The Pentagon Threatened Pope Leo XIV's Ambassador with the Avignon Papacy"
-  url: "https://www.thelettersfromleo.com/p/the-pentagon-threatened-pope-leo"
-  date: 2026-04-09
-  source: Hacker News Best
   category: programming
 - title: Travelling at the speed of light
   url: "https://aeon.co/videos/take-a-mind-bending-ride-through-the-cosmos-at-light-speed?utm_source=rss-feed"
@@ -68,11 +83,6 @@
   date: 2026-04-08
   source: Simon Willison
   category: ai
-- title: Quoting Giles Turnbull
-  url: "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything"
-  date: 2026-04-08
-  source: Simon Willison
-  category: ai
 - title: "Your opinion, please"
   url: "https://aeon.co/videos/a-vivid-portrait-of-montana-built-from-call-in-radio-clips?utm_source=rss-feed"
   date: 2026-04-08
@@ -88,19 +98,9 @@
   date: 2026-04-08
   source: The Marginalian
   category: philosophy
-- title: "GLM-5.1: Towards Long-Horizon Tasks"
-  url: "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything"
-  date: 2026-04-07
-  source: Simon Willison
-  category: ai
 - title: Living without my self
   url: "https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me?utm_source=rss-feed"
   date: 2026-04-07
-  source: Aeon
-  category: philosophy
-- title: "Is AI already conscious?"
-  url: "https://aeon.co/videos/we-long-misjudged-animal-consciousness-could-ai-be-next?utm_source=rss-feed"
-  date: 2026-04-06
   source: Aeon
   category: philosophy
 - title: "Summary of reading: January - March 2026"
