@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Saturday, April 11, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 212 &nbsp;·&nbsp; No. 384</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Saturday, April 11, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Space · Government</div>
-    <h1 class="headline" id="artemis-ii-splashes-down-nasa-s-lunar-program-clears-critica" style="font-size:34px"><a href="https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/" target="_blank" style="color:inherit;text-decoration:none;">Artemis II Splashes Down: NASA's Lunar Program Clears Critical Test</a><span class="permalink" onclick="copyLink('artemis-ii-splashes-down-nasa-s-lunar-program-clears-critica')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*After a 10-day journey, the crewed capsule returns safely to Earth, validating hardware for humanity's return to the Moon*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47725583" target="_blank" style="color:inherit;text-decoration:none;">▲ 926 pts &nbsp;·&nbsp; 287 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">Artemis II touched down in the Pacific Ocean this morning, completing a high-stakes validation mission that proved NASA's next-generation spacecraft can safely carry astronauts to lunar orbit and back. The capsule's controlled entry, parachute deployment, and ocean recovery represent the final major checkpoint before Artemis III attempts an actual Moon landing—marking the first crewed lunar surface mission in over 50 years.</p><p>The mission's success carries weight beyond bureaucratic checkboxes. Engineers spent months analyzing data from the vehicle's thermal performance, navigation systems, and life support redundancies. Any meaningful anomaly could have reset timelines by years. Instead, the spacecraft performed within acceptable parameters, though NASA's review teams are already scrutinizing telemetry for the incremental refinements that separate &quot;acceptable&quot; from &quot;excellent.&quot;</p><p>The splashdown also signals a decisive shift in space exploration economics. Unlike Apollo's one-shot approach, NASA has structured Artemis as a reusable architecture—this capsule will likely fly again. That philosophy, borrowed from SpaceX's Falcon 9 model, suggests the agency has internalized lessons about sustainability. Whether Congress maintains funding appetite through multiple lunar cycles remains the unspoken question hanging over celebrations.</p>
-      <div class="pull-quote">Artemis II's successful return validates the hardware, but the real test begins when boots touch regolith.</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">Design · Hardware Hacking</div>
-    <h2 class="headline" id="one-hacker-s-obsessive-quest-to-soften-macbook-edges" style="font-size:21px"><a href="https://kentwalters.com/posts/corners/" target="_blank" style="color:inherit;text-decoration:none;">One Hacker's Obsessive Quest to Soften MacBook Edges</a><span class="permalink" onclick="copyLink('one-hacker-s-obsessive-quest-to-soften-macbook-edges')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A deep dive into why sharp aluminum corners bothered one engineer enough to file them down*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47724352" target="_blank" style="color:inherit;text-decoration:none;">▲ 865 pts &nbsp;·&nbsp; 423 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Kent Walters did something most MacBook owners fantasize about but never attempt: he took files to his laptop's notoriously aggressive aluminum edges and methodically rounded them into submission. What began as ergonomic frustration became a documented case study in hardware customization—proof that Apple's industrial design, for all its refinement, leaves room for human modification.</p><p>The project exposes a tension at the heart of contemporary tech design. Apple's sharp edges serve a visual purpose—they read as precision, as intentionality—but they exact a tactile price. Users who spend eight hours daily gripping their machines know this intimately. Walters' documentation, complete with process photos and material observations, transforms a personal gripe into a quiet indictment: the company that obsesses over millimeters somehow missed the one thing your wrist notices immediately.</p><p>What makes the piece culturally significant is its implicit defiance. Walters didn't request a design change; he didn't start a petition. He simply cracked open the assumption that finished products are finished, and that consumers lack the agency—or the tools—to improve them. In an era of sealed devices and locked bootloaders, filing down MacBook corners reads almost like an act of resistance.</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">Games · Dev</div>
-    <h2 class="headline" id="one-developer-invents-chess-on-a-single-line-then-makes-it-p" style="font-size:19px"><a href="https://rowan441.github.io/1dchess/chess.html" target="_blank" style="color:inherit;text-decoration:none;">One Developer Invents Chess on a Single Line—Then Makes It Playable</a><span class="permalink" onclick="copyLink('one-developer-invents-chess-on-a-single-line-then-makes-it-p')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A brilliant proof-of-concept shrinks humanity's oldest game into a one-dimensional nightmare*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47719740" target="_blank" style="color:inherit;text-decoration:none;">▲ 834 pts &nbsp;·&nbsp; 144 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Rowan441 didn't set out to torture chess enthusiasts. The developer simply asked a deceptively innocent question: what happens if you remove the board's vertical axis and flatten the game into pure sequential movement? The answer, encoded in a working implementation, is a game that remains recognizably chess while becoming almost philosophically disorienting.</p><p>1D Chess strips away positional nuance—no longer can you defend a piece by surrounding it with allies or control space through calculated placement. Every move becomes a binary decision along a single file. The rook becomes absurdly powerful; the knight's L-shaped jump collapses into meaninglessness. Pawns lose their diagonal capture, reducing them to plodding incremental units. What emerges isn't a simplified chess variant so much as a commentary on how much of chess's strategic depth depends on spatial complexity.</p><p>The implementation itself is technically clever—the developer had to rebuild move validation, piece interaction, and win conditions from scratch. But the real achievement is making something this conceptually restrictive actually playable and, oddly, compelling. It's the kind of project that appears frivolous until you spend five minutes with it and realize you're thinking about chess in an entirely new way.</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">Security · Open Source</div>
-    <h2 class="headline" id="wireguard-finally-arrives-on-windows-after-microsoft-code-si" style="font-size:19px"><a href="https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html" target="_blank" style="color:inherit;text-decoration:none;">WireGuard Finally Arrives on Windows After Microsoft Code-Signing Breakthrough</a><span class="permalink" onclick="copyLink('wireguard-finally-arrives-on-windows-after-microsoft-code-si')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The open-source VPN clears a major technical hurdle with official kernel support*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47719942" target="_blank" style="color:inherit;text-decoration:none;">▲ 482 pts &nbsp;·&nbsp; 142 comments</a>
-    </div>
-    <div class="body-text">
-      <p>WireGuard's long-awaited native Windows implementation is now available following a technical resolution that highlights the friction between open-source security tools and platform gatekeeping. The VPN protocol, celebrated for its cryptographic elegance and minimal attack surface, can now integrate directly with the Windows kernel rather than relying on workaround user-space implementations.</p><p>The bottleneck was Microsoft's kernel code-signing requirement. Windows demands digital signatures for any kernel-level driver, and WireGuard's developers faced a choice between proprietary compromises or architectural workarounds. The resolution—which the mailing list announcement details clinically—suggests Microsoft recognized WireGuard's security credentials warranted direct integration. For users, this means lower latency, better performance, and elimination of compatibility issues that plagued earlier Windows versions.</p><p>The development underscores a broader shift in tech ecosystems. Five years ago, Microsoft's kernel-signing regime felt like an impenetrable moat. Today, the company increasingly recognizes that security infrastructure benefits everyone, including its own platform's reputation. WireGuard on Windows isn't just a technical win—it's evidence that even monolithic tech platforms can be nudged toward architectural pragmatism when the stakes and the advocates align.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Browsers · Dev</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Firefox's Extension Ecosystem Broke Under One Developer's Weight Test</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 420 · 57 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Open Source · Hardware</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Keychron Opens Its Hardware Blueprints: CAD Files Now Public</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 380 · 119 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-eff-s-leadership-split-reveals-internal-rifts">
-      <div class="x-handle">@John Carter<span class="permalink" onclick="copyLink('x-eff-s-leadership-split-reveals-internal-rifts')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">EFF's leadership split reveals internal rifts</div>
-      <div class="x-body">A pointed jab at philosophical drift within digital rights' flagship organization. When founders and current leadership diverge visibly enough for public callouts, it signals real ideological fracture—and raises questions about whether EFF's mission has drifted from its roots.</div>
-    </div>
-    <div class="x-item" id="x-musk-pivots-to-solar-as-energy-obsession">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-pivots-to-solar-as-energy-obsession')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Musk pivots to solar as energy obsession</div>
-      <div class="x-body">Buried in crypto-bro minimalism is a real shift: Musk publicly centering solar energy suggests Tesla's roadmap is tilting harder toward renewable infrastructure, not just EVs. Worth watching whether this signals new capital allocation or just philosophy-tweeting.</div>
-    </div>
-    <div class="x-item" id="x-grok-s-humor-arms-the-ai-narrative-war">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-grok-s-humor-arms-the-ai-narrative-war')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Grok's humor arms the AI narrative war</div>
-      <div class="x-body">Self-promotion disguised as casual observation, but meaningful: if Grok's comedic chops become its differentiator against ChatGPT, Musk's betting that personality—not just capability—wins AI adoption. That's a savvy insight into why Twitter's AI matters beyond tech.</div>
-    </div>
-    <div class="x-item" id="x-dutch-regulators-earn-musk-s-rare-praise">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-dutch-regulators-earn-musk-s-rare-praise')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Dutch regulators earn Musk's rare praise</div>
-      <div class="x-body">RDW is Netherlands' vehicle authority; Musk praising their &quot;rigor&quot; on EV reviews suggests Tesla's securing regulatory advantage in Europe. Soft power through compliments can be as valuable as regulatory capture—watch whether this translates to faster approvals.</div>
-    </div>
-    <div class="x-item" id="x-tax-burden-reverses-middle-class-squeezed-harder">
-      <div class="x-handle">@FactPost<span class="permalink" onclick="copyLink('x-tax-burden-reverses-middle-class-squeezed-harder')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Tax burden reverses: middle class squeezed harder</div>
-      <div class="x-body">This flips the narrative the wealthy have controlled for years. If 95% face higher taxes while top earners get cuts, it's politically explosive data that challenges supply-side logic. The question isn't whether it's true—it's why it's not dominating every feed.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Saturday, April 11, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:05 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 212  ·  No. 384</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Saturday, April 11, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Saturday, April 11, 2026 · 16:34</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Space · Government</div>
+<h1 class="headline" id="artemis-ii-splashes-down-nasa-s-lunar-program-clears-critica" style="font-size:34px"><a href="https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/" style="color:inherit;text-decoration:none;" target="_blank">Artemis II Splashes Down: NASA's Lunar Program Clears Critical Test</a><span class="permalink" onclick="copyLink('artemis-ii-splashes-down-nasa-s-lunar-program-clears-critica')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*After a 10-day journey, the crewed capsule returns safely to Earth, validating hardware for humanity's return to the Moon*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47725583" style="color:inherit;text-decoration:none;" target="_blank">▲ 926 pts  ·  287 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:10</span></div>
+<div class="body-text">
+<p class="drop-cap">Artemis II touched down in the Pacific Ocean this morning, completing a high-stakes validation mission that proved NASA's next-generation spacecraft can safely carry astronauts to lunar orbit and back. The capsule's controlled entry, parachute deployment, and ocean recovery represent the final major checkpoint before Artemis III attempts an actual Moon landing—marking the first crewed lunar surface mission in over 50 years.</p><p>The mission's success carries weight beyond bureaucratic checkboxes. Engineers spent months analyzing data from the vehicle's thermal performance, navigation systems, and life support redundancies. Any meaningful anomaly could have reset timelines by years. Instead, the spacecraft performed within acceptable parameters, though NASA's review teams are already scrutinizing telemetry for the incremental refinements that separate "acceptable" from "excellent."</p><p>The splashdown also signals a decisive shift in space exploration economics. Unlike Apollo's one-shot approach, NASA has structured Artemis as a reusable architecture—this capsule will likely fly again. That philosophy, borrowed from SpaceX's Falcon 9 model, suggests the agency has internalized lessons about sustainability. Whether Congress maintains funding appetite through multiple lunar cycles remains the unspoken question hanging over celebrations.</p>
+<div class="pull-quote">Artemis II's successful return validates the hardware, but the real test begins when boots touch regolith.</div>
+</div></div>
+<div class="sec">
+<div class="tag">Design · Hardware Hacking</div>
+<h2 class="headline" id="one-hacker-s-obsessive-quest-to-soften-macbook-edges" style="font-size:21px"><a href="https://kentwalters.com/posts/corners/" style="color:inherit;text-decoration:none;" target="_blank">One Hacker's Obsessive Quest to Soften MacBook Edges</a><span class="permalink" onclick="copyLink('one-hacker-s-obsessive-quest-to-soften-macbook-edges')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A deep dive into why sharp aluminum corners bothered one engineer enough to file them down*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47724352" style="color:inherit;text-decoration:none;" target="_blank">▲ 865 pts  ·  423 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:10</span></div>
+<div class="body-text">
+<p>Kent Walters did something most MacBook owners fantasize about but never attempt: he took files to his laptop's notoriously aggressive aluminum edges and methodically rounded them into submission. What began as ergonomic frustration became a documented case study in hardware customization—proof that Apple's industrial design, for all its refinement, leaves room for human modification.</p><p>The project exposes a tension at the heart of contemporary tech design. Apple's sharp edges serve a visual purpose—they read as precision, as intentionality—but they exact a tactile price. Users who spend eight hours daily gripping their machines know this intimately. Walters' documentation, complete with process photos and material observations, transforms a personal gripe into a quiet indictment: the company that obsesses over millimeters somehow missed the one thing your wrist notices immediately.</p><p>What makes the piece culturally significant is its implicit defiance. Walters didn't request a design change; he didn't start a petition. He simply cracked open the assumption that finished products are finished, and that consumers lack the agency—or the tools—to improve them. In an era of sealed devices and locked bootloaders, filing down MacBook corners reads almost like an act of resistance.</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">Games · Dev</div>
+<h2 class="headline" id="one-developer-invents-chess-on-a-single-line-then-makes-it-p" style="font-size:19px"><a href="https://rowan441.github.io/1dchess/chess.html" style="color:inherit;text-decoration:none;" target="_blank">One Developer Invents Chess on a Single Line—Then Makes It Playable</a><span class="permalink" onclick="copyLink('one-developer-invents-chess-on-a-single-line-then-makes-it-p')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A brilliant proof-of-concept shrinks humanity's oldest game into a one-dimensional nightmare*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47719740" style="color:inherit;text-decoration:none;" target="_blank">▲ 834 pts  ·  144 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-03.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:10</span></div>
+<div class="body-text">
+<p>Rowan441 didn't set out to torture chess enthusiasts. The developer simply asked a deceptively innocent question: what happens if you remove the board's vertical axis and flatten the game into pure sequential movement? The answer, encoded in a working implementation, is a game that remains recognizably chess while becoming almost philosophically disorienting.</p><p>1D Chess strips away positional nuance—no longer can you defend a piece by surrounding it with allies or control space through calculated placement. Every move becomes a binary decision along a single file. The rook becomes absurdly powerful; the knight's L-shaped jump collapses into meaninglessness. Pawns lose their diagonal capture, reducing them to plodding incremental units. What emerges isn't a simplified chess variant so much as a commentary on how much of chess's strategic depth depends on spatial complexity.</p><p>The implementation itself is technically clever—the developer had to rebuild move validation, piece interaction, and win conditions from scratch. But the real achievement is making something this conceptually restrictive actually playable and, oddly, compelling. It's the kind of project that appears frivolous until you spend five minutes with it and realize you're thinking about chess in an entirely new way.</p>
+</div></div><div class="tert">
+<div class="tag">Security · Open Source</div>
+<h2 class="headline" id="wireguard-finally-arrives-on-windows-after-microsoft-code-si" style="font-size:19px"><a href="https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html" style="color:inherit;text-decoration:none;" target="_blank">WireGuard Finally Arrives on Windows After Microsoft Code-Signing Breakthrough</a><span class="permalink" onclick="copyLink('wireguard-finally-arrives-on-windows-after-microsoft-code-si')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The open-source VPN clears a major technical hurdle with official kernel support*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47719942" style="color:inherit;text-decoration:none;" target="_blank">▲ 482 pts  ·  142 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:13</span></div>
+<div class="body-text">
+<p>WireGuard's long-awaited native Windows implementation is now available following a technical resolution that highlights the friction between open-source security tools and platform gatekeeping. The VPN protocol, celebrated for its cryptographic elegance and minimal attack surface, can now integrate directly with the Windows kernel rather than relying on workaround user-space implementations.</p><p>The bottleneck was Microsoft's kernel code-signing requirement. Windows demands digital signatures for any kernel-level driver, and WireGuard's developers faced a choice between proprietary compromises or architectural workarounds. The resolution—which the mailing list announcement details clinically—suggests Microsoft recognized WireGuard's security credentials warranted direct integration. For users, this means lower latency, better performance, and elimination of compatibility issues that plagued earlier Windows versions.</p><p>The development underscores a broader shift in tech ecosystems. Five years ago, Microsoft's kernel-signing regime felt like an impenetrable moat. Today, the company increasingly recognizes that security infrastructure benefits everyone, including its own platform's reputation. WireGuard on Windows isn't just a technical win—it's evidence that even monolithic tech platforms can be nudged toward architectural pragmatism when the stakes and the advocates align.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Browsers · Dev</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Firefox's Extension Ecosystem Broke Under One Developer's Weight Test</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 420 · 57 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Open Source · Hardware</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Keychron Opens Its Hardware Blueprints: CAD Files Now Public</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 380 · 119 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-eff-s-leadership-split-reveals-internal-rifts">
+<div class="x-handle">@John Carter<span class="permalink" onclick="copyLink('x-eff-s-leadership-split-reveals-internal-rifts')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">EFF's leadership split reveals internal rifts</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span>
+<div class="x-body">A pointed jab at philosophical drift within digital rights' flagship organization. When founders and current leadership diverge visibly enough for public callouts, it signals real ideological fracture—and raises questions about whether EFF's mission has drifted from its roots.</div>
+</div>
+<div class="x-item" id="x-musk-pivots-to-solar-as-energy-obsession">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-musk-pivots-to-solar-as-energy-obsession')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Musk pivots to solar as energy obsession</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">Buried in crypto-bro minimalism is a real shift: Musk publicly centering solar energy suggests Tesla's roadmap is tilting harder toward renewable infrastructure, not just EVs. Worth watching whether this signals new capital allocation or just philosophy-tweeting.</div>
+</div>
+<div class="x-item" id="x-grok-s-humor-arms-the-ai-narrative-war">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-grok-s-humor-arms-the-ai-narrative-war')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Grok's humor arms the AI narrative war</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">Self-promotion disguised as casual observation, but meaningful: if Grok's comedic chops become its differentiator against ChatGPT, Musk's betting that personality—not just capability—wins AI adoption. That's a savvy insight into why Twitter's AI matters beyond tech.</div>
+</div>
+<div class="x-item" id="x-dutch-regulators-earn-musk-s-rare-praise">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-dutch-regulators-earn-musk-s-rare-praise')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Dutch regulators earn Musk's rare praise</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">RDW is Netherlands' vehicle authority; Musk praising their "rigor" on EV reviews suggests Tesla's securing regulatory advantage in Europe. Soft power through compliments can be as valuable as regulatory capture—watch whether this translates to faster approvals.</div>
+</div>
+<div class="x-item" id="x-tax-burden-reverses-middle-class-squeezed-harder">
+<div class="x-handle">@FactPost<span class="permalink" onclick="copyLink('x-tax-burden-reverses-middle-class-squeezed-harder')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Tax burden reverses: middle class squeezed harder</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-11/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:22</span>
+<div class="x-body">This flips the narrative the wealthy have controlled for years. If 95% face higher taxes while top earners get cuts, it's politically explosive data that challenges supply-side logic. The question isn't whether it's true—it's why it's not dominating every feed.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Saturday, April 11, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:05 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
