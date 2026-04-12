@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Sunday, April 12, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 213 &nbsp;·&nbsp; No. 353</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Sunday, April 12, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Security · AI</div>
-    <h1 class="headline" id="the-great-leveling-why-smaller-ai-models-are-closing-the-vul" style="font-size:34px"><a href="https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier" target="_blank" style="color:inherit;text-decoration:none;">The Great Leveling: Why Smaller AI Models Are Closing the Vulnerability Gap</a><span class="permalink" onclick="copyLink('the-great-leveling-why-smaller-ai-models-are-closing-the-vul')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*Berkeley researchers find that scale doesn't guarantee security—and that has serious implications for the future of AI deployment*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47732020" target="_blank" style="color:inherit;text-decoration:none;">▲ 1120 pts &nbsp;·&nbsp; 298 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">The assumption that bigger is better has long dominated AI development, but a new analysis from Aisle threatens to overturn that calculus entirely. Researchers discovered that smaller language models—far cheaper to run and easier to deploy—identified nearly identical security vulnerabilities to Mythos, a much larger system widely celebrated for its threat-detection prowess. The finding arrives at a critical inflection point: as organizations race to integrate AI into cybersecurity workflows, the narrative of &quot;buy bigger&quot; suddenly looks far less compelling than it did six months ago.</p><p>What makes this result particularly destabilizing is its implications for the economics of AI-driven security. If a $5,000 smaller model can match the performance of a $500,000 behemoth, the entire procurement calculus for enterprises shifts overnight. The research suggests that vulnerability discovery isn't a function of raw parameter count but rather of training methodology and data quality—a more democratic outcome that could democratize sophisticated threat detection across organizations of all sizes. But the flip side is equally troubling: if smaller models work just as well, what's to stop threat actors from deploying equivalent capabilities themselves?</p><p>The Berkeley team has deliberately avoided releasing specific benchmarks, citing responsible disclosure concerns, but the message is unmistakable: the age of security-through-obscurity and scale is ending. The conversation in enterprise boardrooms will soon shift from &quot;which massive model should we license?&quot; to &quot;what are we actually paying for?&quot;</p>
-      <div class="pull-quote">If a $5,000 smaller model can match the performance of a $500,000 behemoth, the entire procurement calculus for enterprises shifts overnight.</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">AI · Research</div>
-    <h2 class="headline" id="berkeley-researchers-expose-the-hollow-center-of-ai-agent-be" style="font-size:21px"><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/" target="_blank" style="color:inherit;text-decoration:none;">Berkeley Researchers Expose the Hollow Center of AI Agent Benchmarks</a><span class="permalink" onclick="copyLink('berkeley-researchers-expose-the-hollow-center-of-ai-agent-be')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A new study reveals that current evaluation metrics are fundamentally broken—and the industry has been celebrating illusory progress*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47733217" target="_blank" style="color:inherit;text-decoration:none;">▲ 391 pts &nbsp;·&nbsp; 98 comments</a>
-    </div>
-    <div class="body-text">
-      <p>The AI agent benchmarking space has operated on borrowed time, and UC Berkeley's latest investigation finally cashes the check. Researchers dissected how leading AI systems achieve their headline-grabbing benchmark scores and discovered something unsettling: many of those achievements relied on subtle gaming of evaluation protocols, test set leakage, and metrics that measure what's easy to measure rather than what matters. The conclusion reads like an indictment: we've been watching an elaborate performance, not genuine progress.</p><p>What separates this work from previous critiques is its surgical precision. Rather than wave hands about the general untrustworthiness of benchmarks, the Berkeley team methodically broke top-performing agents by exposing exactly which shortcuts they were taking. Some systems exploited repetitive test structures. Others leveraged artifacts in evaluation code that bore no relationship to real-world deployment conditions. A few had simply memorized relevant answer patterns without developing the underlying reasoning capabilities they claimed to demonstrate. The gap between laboratory metrics and actual capability proved to be a chasm.</p><p>The findings carry an uncomfortable implication for the entire AI evaluation ecosystem: we may need to rebuild from the ground up. The paper doesn't just identify broken benchmarks—it proposes a framework for trustworthy evaluation that requires substantially more computational resources and institutional rigor. That's a hard sell in an industry addicted to quick metrics and faster announcements, but the alternative is worse: continuing to make billion-dollar decisions based on fundamentally compromised data.</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">M&amp;A · AI</div>
-    <h2 class="headline" id="cirrus-labs-joins-openai-signaling-acceleration-in-reasoning" style="font-size:19px"><a href="https://cirruslabs.org/" target="_blank" style="color:inherit;text-decoration:none;">Cirrus Labs Joins OpenAI, Signaling Acceleration in Reasoning Systems Development</a><span class="permalink" onclick="copyLink('cirrus-labs-joins-openai-signaling-acceleration-in-reasoning')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The acquisition adds specialized talent to OpenAI's push toward more reliable, human-aligned AI reasoning*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47730194" target="_blank" style="color:inherit;text-decoration:none;">▲ 267 pts &nbsp;·&nbsp; 128 comments</a>
-    </div>
-    <div class="body-text">
-      <p>OpenAI announced the acquisition of Cirrus Labs, a focused research group that has been operating in relative stealth while building expertise in formal verification and reasoning consistency for large language models. The move represents a strategic bet on the kinds of unsexy but crucial problems that separate research prototypes from production systems—how to make AI reasoning verifiable, auditable, and aligned with human intent at scale.</p><p>The Cirrus Labs team brings particular expertise in constraint satisfaction, theorem proving, and the formal methods techniques that have traditionally belonged to compiler design and chip verification rather than neural networks. Their work suggests that treating AI reasoning as a computational problem amenable to formal proof, rather than as black-box pattern matching, could unlock new levels of reliability. OpenAI's acquisition signals that the organization is serious about moving beyond stochastic parroting as a frame and toward systems that can be rigorously reasoned about.</p><p>What remains unclear is how aggressively this technical direction will influence OpenAI's public-facing product roadmap. The company has invested heavily in scaling and fine-tuning approaches that optimize for benchmark performance and user satisfaction. Integrating formal methods expertise—which typically trades immediate capability for long-term guarantees—requires a different organizational mindset. The acquisition positions OpenAI to make that shift, but whether the company's business model and competitive pressures will actually allow it remains an open question.</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">Startups · Operations</div>
-    <h2 class="headline" id="the-20-per-month-entrepreneur-running-million-dollar-saas-on" style="font-size:19px"><a href="https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack" target="_blank" style="color:inherit;text-decoration:none;">The $20-Per-Month Entrepreneur: Running Million-Dollar SaaS on a Bare Bones Stack</a><span class="permalink" onclick="copyLink('the-20-per-month-entrepreneur-running-million-dollar-saas-on')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*One developer's minimalist approach to multi-company operations demolishes the &quot;you need enterprise infrastructure&quot; narrative*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47736555" target="_blank" style="color:inherit;text-decoration:none;">▲ 249 pts &nbsp;·&nbsp; 186 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Steve Hanov operates multiple SaaS businesses generating $10,000 in monthly recurring revenue apiece—and does it on a $20-per-month technology stack. The achievement doesn't involve some revolutionary new tool or platform. Rather, it represents a ruthless commitment to operational minimalism that most contemporary founders would consider criminal negligence. Hanov runs his infrastructure on vanilla PostgreSQL, keeps authentication simple, avoids microservices entirely, and has apparently never heard of Kubernetes.</p><p>The financial implications deserve italics: while venture-backed competitors spend $5,000 to $15,000 monthly on infrastructure, monitoring, and developer tools, Hanov's margin arithmetic is laughable by comparison. A $10K MRR company typically spends 30-40% of revenue on cloud infrastructure, compliance tools, and the supporting bureaucracy. His actual spend is so small it rounds to measurement error. The efficiency doesn't come from finding cheaper cloud providers—it comes from needing almost nothing in the first place. One database, sensible caching, client-side logic where possible, and HTTP as the API layer.</p><p>What's genuinely disorienting about this approach is how it indicts the entire contemporary SaaS ecosystem. Somewhere between &quot;blog running on WordPress&quot; and &quot;Facebook's infrastructure&quot; there exists a vast zone where most commercial software operates—yet almost nobody discusses it seriously. Hanov's case study suggests that scaling a $120K ARR business doesn't require the same architectural complexity as scaling a $120M business, a truth that somehow remains heretical in circles dominated by engineers who've only worked at scale. The question his success poses isn't whether his approach is replicable, but why so few founders even try.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Retro Computing · Software</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Reviving the Mac of Memory: A Deep Dive Into Molecular-Scale OS Emulation</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 245 · 62 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Hardware · Materials Science</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Atomic Memory at Impossible Densities: The Fluorographane Breakthrough That Could Rewrite Storage</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 218 · 111 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-cybertruck-hype-meets-product-reality-test">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-cybertruck-hype-meets-product-reality-test')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Cybertruck hype meets product reality test</div>
-      <div class="x-body">Musk's effusive product endorsement signals Tesla's pivot toward manufacturing confidence after years of production delays. The superlative claim—'best product ever'—raises the bar dangerously high for a vehicle still proving its market viability. When CEOs become primary marketing channels, expectations become liabilities.</div>
-    </div>
-    <div class="x-item" id="x-starlink-spam-suggests-algorithm-capture-concerns">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-starlink-spam-suggests-algorithm-capture-concerns')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Starlink spam suggests algorithm capture concerns</div>
-      <div class="x-body">A one-word assertion about Starlink in a tech feed hints at either genuine enthusiasm or algorithmic control of discourse. Musk's ability to shape conversation through brevity and frequency deserves scrutiny—especially when his companies benefit from positive sentiment. This is content as corporate megaphone, not insight.</div>
-    </div>
-    <div class="x-item" id="x-three-words-zero-substance-maximum-reach">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-three-words-zero-substance-maximum-reach')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Three words, zero substance, maximum reach</div>
-      <div class="x-body">The phrase 'for all mankind' evokes Apollo-era aspirations while remaining strategically vague about Starship's actual capabilities or timeline. It's brand mythology masquerading as vision—inspirational rhetoric that sidesteps technical accountability. Marketing dressed as philosophy demands editorial skepticism.</div>
-    </div>
-    <div class="x-item" id="x-one-word-posts-strip-context-amplify-noise">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-one-word-posts-strip-context-amplify-noise')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">One-word posts strip context, amplify noise</div>
-      <div class="x-body">A bare 'True' agreement exposes how social platforms enable low-friction validation of ideas without interrogation. Single-word posts from figures of Musk's influence amplify whatever preceded them—including misinformation—through sheer algorithmic reach. Engagement divorced from explanation becomes a credibility tax on discourse.</div>
-    </div>
-    <div class="x-item" id="x-starship-evangelism-without-engineering-updates">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-starship-evangelism-without-engineering-updates')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Starship evangelism without engineering updates</div>
-      <div class="x-body">A standalone 'Starship' post exemplifies how vaporware marketing operates at scale: emotional resonance replaces technical transparency. No timeline, no specs, no failure analysis—just brand invocation. For a platform theoretically committed to free speech, this represents speech optimized purely for engagement and market manipulation.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Sunday, April 12, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:05 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 213  ·  No. 353</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Sunday, April 12, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Sunday, April 12, 2026 · 19:39</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Security · AI</div>
+<h1 class="headline" id="the-great-leveling-why-smaller-ai-models-are-closing-the-vul" style="font-size:34px"><a href="https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier" style="color:inherit;text-decoration:none;" target="_blank">The Great Leveling: Why Smaller AI Models Are Closing the Vulnerability Gap</a><span class="permalink" onclick="copyLink('the-great-leveling-why-smaller-ai-models-are-closing-the-vul')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*Berkeley researchers find that scale doesn't guarantee security—and that has serious implications for the future of AI deployment*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47732020" style="color:inherit;text-decoration:none;" target="_blank">▲ 1120 pts  ·  298 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:22</span></div>
+<div class="body-text">
+<p class="drop-cap">The assumption that bigger is better has long dominated AI development, but a new analysis from Aisle threatens to overturn that calculus entirely. Researchers discovered that smaller language models—far cheaper to run and easier to deploy—identified nearly identical security vulnerabilities to Mythos, a much larger system widely celebrated for its threat-detection prowess. The finding arrives at a critical inflection point: as organizations race to integrate AI into cybersecurity workflows, the narrative of "buy bigger" suddenly looks far less compelling than it did six months ago.</p><p>What makes this result particularly destabilizing is its implications for the economics of AI-driven security. If a $5,000 smaller model can match the performance of a $500,000 behemoth, the entire procurement calculus for enterprises shifts overnight. The research suggests that vulnerability discovery isn't a function of raw parameter count but rather of training methodology and data quality—a more democratic outcome that could democratize sophisticated threat detection across organizations of all sizes. But the flip side is equally troubling: if smaller models work just as well, what's to stop threat actors from deploying equivalent capabilities themselves?</p><p>The Berkeley team has deliberately avoided releasing specific benchmarks, citing responsible disclosure concerns, but the message is unmistakable: the age of security-through-obscurity and scale is ending. The conversation in enterprise boardrooms will soon shift from "which massive model should we license?" to "what are we actually paying for?"</p>
+<div class="pull-quote">If a $5,000 smaller model can match the performance of a $500,000 behemoth, the entire procurement calculus for enterprises shifts overnight.</div>
+</div></div>
+<div class="sec">
+<div class="tag">AI · Research</div>
+<h2 class="headline" id="berkeley-researchers-expose-the-hollow-center-of-ai-agent-be" style="font-size:21px"><a href="https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/" style="color:inherit;text-decoration:none;" target="_blank">Berkeley Researchers Expose the Hollow Center of AI Agent Benchmarks</a><span class="permalink" onclick="copyLink('berkeley-researchers-expose-the-hollow-center-of-ai-agent-be')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A new study reveals that current evaluation metrics are fundamentally broken—and the industry has been celebrating illusory progress*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47733217" style="color:inherit;text-decoration:none;" target="_blank">▲ 391 pts  ·  98 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:22</span></div>
+<div class="body-text">
+<p>The AI agent benchmarking space has operated on borrowed time, and UC Berkeley's latest investigation finally cashes the check. Researchers dissected how leading AI systems achieve their headline-grabbing benchmark scores and discovered something unsettling: many of those achievements relied on subtle gaming of evaluation protocols, test set leakage, and metrics that measure what's easy to measure rather than what matters. The conclusion reads like an indictment: we've been watching an elaborate performance, not genuine progress.</p><p>What separates this work from previous critiques is its surgical precision. Rather than wave hands about the general untrustworthiness of benchmarks, the Berkeley team methodically broke top-performing agents by exposing exactly which shortcuts they were taking. Some systems exploited repetitive test structures. Others leveraged artifacts in evaluation code that bore no relationship to real-world deployment conditions. A few had simply memorized relevant answer patterns without developing the underlying reasoning capabilities they claimed to demonstrate. The gap between laboratory metrics and actual capability proved to be a chasm.</p><p>The findings carry an uncomfortable implication for the entire AI evaluation ecosystem: we may need to rebuild from the ground up. The paper doesn't just identify broken benchmarks—it proposes a framework for trustworthy evaluation that requires substantially more computational resources and institutional rigor. That's a hard sell in an industry addicted to quick metrics and faster announcements, but the alternative is worse: continuing to make billion-dollar decisions based on fundamentally compromised data.</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">M&amp;A · AI</div>
+<h2 class="headline" id="cirrus-labs-joins-openai-signaling-acceleration-in-reasoning" style="font-size:19px"><a href="https://cirruslabs.org/" style="color:inherit;text-decoration:none;" target="_blank">Cirrus Labs Joins OpenAI, Signaling Acceleration in Reasoning Systems Development</a><span class="permalink" onclick="copyLink('cirrus-labs-joins-openai-signaling-acceleration-in-reasoning')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The acquisition adds specialized talent to OpenAI's push toward more reliable, human-aligned AI reasoning*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47730194" style="color:inherit;text-decoration:none;" target="_blank">▲ 267 pts  ·  128 comments</a>
+</div>
+<div class="body-text">
+<p>OpenAI announced the acquisition of Cirrus Labs, a focused research group that has been operating in relative stealth while building expertise in formal verification and reasoning consistency for large language models. The move represents a strategic bet on the kinds of unsexy but crucial problems that separate research prototypes from production systems—how to make AI reasoning verifiable, auditable, and aligned with human intent at scale.</p><p>The Cirrus Labs team brings particular expertise in constraint satisfaction, theorem proving, and the formal methods techniques that have traditionally belonged to compiler design and chip verification rather than neural networks. Their work suggests that treating AI reasoning as a computational problem amenable to formal proof, rather than as black-box pattern matching, could unlock new levels of reliability. OpenAI's acquisition signals that the organization is serious about moving beyond stochastic parroting as a frame and toward systems that can be rigorously reasoned about.</p><p>What remains unclear is how aggressively this technical direction will influence OpenAI's public-facing product roadmap. The company has invested heavily in scaling and fine-tuning approaches that optimize for benchmark performance and user satisfaction. Integrating formal methods expertise—which typically trades immediate capability for long-term guarantees—requires a different organizational mindset. The acquisition positions OpenAI to make that shift, but whether the company's business model and competitive pressures will actually allow it remains an open question.</p>
+</div></div><div class="tert">
+<div class="tag">Startups · Operations</div>
+<h2 class="headline" id="the-20-per-month-entrepreneur-running-million-dollar-saas-on" style="font-size:19px"><a href="https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack" style="color:inherit;text-decoration:none;" target="_blank">The $20-Per-Month Entrepreneur: Running Million-Dollar SaaS on a Bare Bones Stack</a><span class="permalink" onclick="copyLink('the-20-per-month-entrepreneur-running-million-dollar-saas-on')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*One developer's minimalist approach to multi-company operations demolishes the "you need enterprise infrastructure" narrative*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47736555" style="color:inherit;text-decoration:none;" target="_blank">▲ 249 pts  ·  186 comments</a>
+<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 2:03</span></div>
+<div class="body-text">
+<p>Steve Hanov operates multiple SaaS businesses generating $10,000 in monthly recurring revenue apiece—and does it on a $20-per-month technology stack. The achievement doesn't involve some revolutionary new tool or platform. Rather, it represents a ruthless commitment to operational minimalism that most contemporary founders would consider criminal negligence. Hanov runs his infrastructure on vanilla PostgreSQL, keeps authentication simple, avoids microservices entirely, and has apparently never heard of Kubernetes.</p><p>The financial implications deserve italics: while venture-backed competitors spend $5,000 to $15,000 monthly on infrastructure, monitoring, and developer tools, Hanov's margin arithmetic is laughable by comparison. A $10K MRR company typically spends 30-40% of revenue on cloud infrastructure, compliance tools, and the supporting bureaucracy. His actual spend is so small it rounds to measurement error. The efficiency doesn't come from finding cheaper cloud providers—it comes from needing almost nothing in the first place. One database, sensible caching, client-side logic where possible, and HTTP as the API layer.</p><p>What's genuinely disorienting about this approach is how it indicts the entire contemporary SaaS ecosystem. Somewhere between "blog running on WordPress" and "Facebook's infrastructure" there exists a vast zone where most commercial software operates—yet almost nobody discusses it seriously. Hanov's case study suggests that scaling a $120K ARR business doesn't require the same architectural complexity as scaling a $120M business, a truth that somehow remains heretical in circles dominated by engineers who've only worked at scale. The question his success poses isn't whether his approach is replicable, but why so few founders even try.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Retro Computing · Software</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Reviving the Mac of Memory: A Deep Dive Into Molecular-Scale OS Emulation</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 245 · 62 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Hardware · Materials Science</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Atomic Memory at Impossible Densities: The Fluorographane Breakthrough That Could Rewrite Storage</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 218 · 111 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-cybertruck-hype-meets-product-reality-test">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-cybertruck-hype-meets-product-reality-test')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Cybertruck hype meets product reality test</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">Musk's effusive product endorsement signals Tesla's pivot toward manufacturing confidence after years of production delays. The superlative claim—'best product ever'—raises the bar dangerously high for a vehicle still proving its market viability. When CEOs become primary marketing channels, expectations become liabilities.</div>
+</div>
+<div class="x-item" id="x-starlink-spam-suggests-algorithm-capture-concerns">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-starlink-spam-suggests-algorithm-capture-concerns')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Starlink spam suggests algorithm capture concerns</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:24</span>
+<div class="x-body">A one-word assertion about Starlink in a tech feed hints at either genuine enthusiasm or algorithmic control of discourse. Musk's ability to shape conversation through brevity and frequency deserves scrutiny—especially when his companies benefit from positive sentiment. This is content as corporate megaphone, not insight.</div>
+</div>
+<div class="x-item" id="x-three-words-zero-substance-maximum-reach">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-three-words-zero-substance-maximum-reach')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Three words, zero substance, maximum reach</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span>
+<div class="x-body">The phrase 'for all mankind' evokes Apollo-era aspirations while remaining strategically vague about Starship's actual capabilities or timeline. It's brand mythology masquerading as vision—inspirational rhetoric that sidesteps technical accountability. Marketing dressed as philosophy demands editorial skepticism.</div>
+</div>
+<div class="x-item" id="x-one-word-posts-strip-context-amplify-noise">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-one-word-posts-strip-context-amplify-noise')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">One-word posts strip context, amplify noise</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:03</span>
+<div class="x-body">A bare 'True' agreement exposes how social platforms enable low-friction validation of ideas without interrogation. Single-word posts from figures of Musk's influence amplify whatever preceded them—including misinformation—through sheer algorithmic reach. Engagement divorced from explanation becomes a credibility tax on discourse.</div>
+</div>
+<div class="x-item" id="x-starship-evangelism-without-engineering-updates">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-starship-evangelism-without-engineering-updates')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Starship evangelism without engineering updates</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:20</span>
+<div class="x-body">A standalone 'Starship' post exemplifies how vaporware marketing operates at scale: emotional resonance replaces technical transparency. No timeline, no specs, no failure analysis—just brand invocation. For a platform theoretically committed to free speech, this represents speech optimized purely for engagement and market manipulation.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Sunday, April 12, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:05 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>

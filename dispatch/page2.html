@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Sid Dispatch — Sunday, April 12, 2026 · Page 2</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,312 +73,236 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 213 &nbsp;·&nbsp; No. 353</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 2 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Sid Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Sunday, April 12, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label" style="margin-top:16px;">Extended Coverage &nbsp;·&nbsp; Hacker News</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div style="display:grid;grid-template-columns:1fr 1fr;">
-        
-    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Hardware · Virtualization</div>
-      <h2 class="headline" id="apple-silicon-breaks-free-developers-shatter-the-virtual-mac" style="font-size:22px"><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html" target="_blank" style="color:inherit;text-decoration:none;">Apple Silicon Breaks Free: Developers Shatter the Virtual Machine Ceiling</a><span class="permalink" onclick="copyLink('apple-silicon-breaks-free-developers-shatter-the-virtual-mac')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*A technical breakthrough lets M-series Macs run unlimited VMs, upending Apple's architectural constraints*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47733971" target="_blank" style="color:inherit;text-decoration:none;">▲ 204 pts &nbsp;·&nbsp; 141 comments</a></div>
-      <div class="body-text"><p>Apple's silicon transition promised speed and efficiency, but delivered a frustrating bottleneck: M-series chips could only reliably run two virtual machines simultaneously before performance collapsed into a stuttering mess. That hard limit has now cracked wide open. Khronokernel's latest research demonstrates that with proper configuration tweaks and hypervisor tuning, developers can push Apple Silicon to simultaneously operate far more VMs than previously thought possible—a breakthrough that fundamentally reshapes the machine's viability for enterprise and development work.</p><p>The discovery hinges on understanding how Apple's unified memory architecture and custom CPU cores allocate resources under load. Previous attempts to exceed the two-VM barrier hit invisible walls created by aggressive thermal throttling and cache contention. But by strategically managing CPU affinity, leveraging the neural engine for workload prediction, and exploiting underdocumented hypervisor APIs, researchers have unlocked substantially more headroom. The implications are seismic: consultants, DevOps engineers, and cloud developers who wrote off the M1, M2, and M3 as hobbyist hardware may suddenly find themselves reconsidering Apple's entire ecosystem.</p><p>Apple has remained conspicuously silent on whether this represents an oversight in their silicon design or an intentional limitation born from thermal and power management concerns. Either way, the genie is out of the bottle—and the Mac's position in the professional virtualization market just got significantly more interesting.</p></div>
-    </div>
-    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Gaming · Culture</div>
-      <h2 class="headline" id="dark-castle-emerges-from-obscurity-a-retro-cult-game-gets-it" style="font-size:22px"><a href="https://darkcastle.co.uk/" target="_blank" style="color:inherit;text-decoration:none;">Dark Castle Emerges From Obscurity: A Retro Cult Game Gets Its Due</a><span class="permalink" onclick="copyLink('dark-castle-emerges-from-obscurity-a-retro-cult-game-gets-it')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*The delightfully ornery platformer finds new life through preservation and appreciation*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47733521" target="_blank" style="color:inherit;text-decoration:none;">▲ 187 pts &nbsp;·&nbsp; 24 comments</a></div>
-      <div class="body-text"><p>Dark Castle occupies a peculiar niche in gaming history: beloved by those who played it in the 1980s and '90s, utterly unknown to everyone else. This fiendishly difficult isometric platformer, where you lob rocks at ghosts and navigate brutalist architecture, never achieved mainstream recognition despite its mechanical sophistication and oppressive atmosphere. The newly revitalized darkcastle.co.uk represents something larger than nostalgia—it's a reclamation of a game whose deliberate cruelty and uncompromising design philosophy have aged into something almost prophetic.</p><p>What makes Dark Castle resonate today isn't sentimentality but design clarity. Every death is your fault. Every pixel placement matters. There are no assists, no difficulty sliders, no gentle onboarding. It's a game that respects the player's intelligence enough to let them fail catastrophically, a philosophy that feels almost radical in an industry obsessed with accessibility metrics and engagement optimization. The renewed interest suggests a hunger for that austere, unforgiving tradition—a counterweight to the algorithmic hand-holding that defines contemporary gaming.</p></div>
-    </div>
-    <div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Law · Policy</div>
-      <h2 class="headline" id="federal-court-strikes-down-158-year-old-home-distilling-ban-" style="font-size:22px"><a href="https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional" target="_blank" style="color:inherit;text-decoration:none;">Federal Court Strikes Down 158-Year-Old Home Distilling Ban as Unconstitutional</a><span class="permalink" onclick="copyLink('federal-court-strikes-down-158-year-old-home-distilling-ban-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*A sweeping appellate decision invalidates one of America's most durable Prohibition-era relics*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47736298" target="_blank" style="color:inherit;text-decoration:none;">▲ 173 pts &nbsp;·&nbsp; 132 comments</a></div>
-      <div class="body-text"><p>In a ruling that catches lawmakers and industry observers flat-footed, a U.S. appeals court has declared the blanket prohibition on home distilling unconstitutional, effectively dismantling a legal barrier that has stood since 1868. The decision, handed down in April 2026, hinges on Second Amendment jurisprudence applied to the right to produce alcohol for personal consumption—a startling doctrinal move that treats distilling as analogous to bearing arms. The court found that the government's historical safety rationale for the ban no longer withstands scrutiny in an era where homebrewing has operated openly and safely for decades without the catastrophic harms regulators once predicted.</p><p>The ruling exposes a deeper incoherence in federal alcohol law: home beer and wine production have enjoyed explicit legal protection since 1979, yet distillation remains felonious, despite presenting no greater inherent danger. The appellate panel seized on this contradiction, arguing that the distinction cannot stand on rational basis review. Treasury Department officials face immediate pressure to either appeal to the Supreme Court or begin drafting new regulations that allow limited home distilling while preserving legitimate concerns around tax collection and industrial espionage. Craft spirits producers are watching nervously; while a flood of home distillers won't destroy the market, it creates regulatory uncertainty that could reshape the entire supply chain within 18 months.</p></div>
-    </div>
-    <div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
-      <div class="tag">Open Source · JavaScript</div>
-      <h2 class="headline" id="eleventy-s-creator-steps-away-the-quiet-retirement-of-a-web-" style="font-size:22px"><a href="https://brennan.day/the-end-of-eleventy/" target="_blank" style="color:inherit;text-decoration:none;">Eleventy's Creator Steps Away: The Quiet Retirement of a Web Dev Darling</a><span class="permalink" onclick="copyLink('eleventy-s-creator-steps-away-the-quiet-retirement-of-a-web-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-      <div class="deck">*A beloved static site generator hits the end of the road, leaving the JavaScript ecosystem to reckon with succession*</div>
-      <div class="byline"><a href="https://news.ycombinator.com/item?id=47735535" target="_blank" style="color:inherit;text-decoration:none;">▲ 172 pts &nbsp;·&nbsp; 124 comments</a></div>
-      <div class="body-text"><p>Zach Leatherman's announcement that he's retiring Eleventy, the minimalist static site generator that quietly became the backbone of thousands of modern websites, lands like a carefully-placed stone in still water. Eleventy never achieved the cultural dominance of Next.js or the cult following of Hugo, but it carved out something more durable: a reputation as the thinking developer's choice, a tool whose philosophy prioritized simplicity and portability over ecosystem lock-in. Leatherman built something that didn't need you; you chose it because it respected your intelligence.</p><p>The decision reflects a broader exhaustion within the open-source maintainer class. Eleventy's success became its burden—the tool acquired enough users and integrations that maintaining it demanded sustained energy that Leatherman, operating as a solo maintainer, could no longer sustain. This isn't negligence or burnout theatre; it's a honest reckoning with the arithmetic of volunteer labor. The irony is brutal: create something genuinely useful and you volunteer yourself into an endless obligation. Eleventy's user base will migrate to alternatives (Astro is the obvious successor), the ecosystem will fragment slightly, and the larger web dev community will lose one of its few remaining voices arguing for restraint and clarity.</p></div>
-    </div>
-      </div>
-      
-  <div class="section-label" style="margin-top:28px;">From the Reading List &nbsp;·&nbsp; RSS</div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
-    
-    <div id="rss-specs-aren-t-code-yet" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" target="_blank" style="color:inherit;text-decoration:none;">Specs Aren't Code—Yet</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-yet')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Tue, 17 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">The gap between detailed specification and executable reality is wider than we think. As AI agents flood the coding space, this piece challenges the assumption that better specs alone can close it, exposing fundamental limitations in agentic approaches to software.</div>
-    </div>
-    <div id="rss-search-code-like-you-think" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" target="_blank" style="color:inherit;text-decoration:none;">Search Code Like You Think</a><span class="permalink" onclick="copyLink('rss-search-code-like-you-think')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Mon, 16 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">Forget grep. Topic modeling offers a radically different way to navigate repositories—by semantic meaning rather than syntax. This could reshape how developers discover and understand unfamiliar codebases in an era of sprawling systems.</div>
-    </div>
-    <div id="rss-chat-interfaces-are-just-training-wheels" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Haskell for All</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" target="_blank" style="color:inherit;text-decoration:none;">Chat Interfaces Are Just Training Wheels</a><span class="permalink" onclick="copyLink('rss-chat-interfaces-are-just-training-wheels')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Haskell for All &nbsp;·&nbsp; Sat, 07 Fe</div>
-      <div class="body-text" style="font-size:13.5px;">AI dev tooling has plateaued at chat-based interactions. This post argues the real frontier lies beyond conversational interfaces, hinting at more sophisticated, structured approaches to human-AI collaboration that could actually reshape development workflows.</div>
-    </div>
-    <div id="rss-boilerplate-isn-t-waste-it-s-leverage" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/you-too-can-make-a-boilerplate" target="_blank" style="color:inherit;text-decoration:none;">Boilerplate Isn't Waste—It's Leverage</a><span class="permalink" onclick="copyLink('rss-boilerplate-isn-t-waste-it-s-leverage')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-04-10</div>
-      <div class="body-text" style="font-size:13.5px;">Instead of fighting repetition, systematize it. Thoughtbot explores how to extract your team's recurring patterns into reusable templates, turning institutional knowledge into scalable tooling that multiplies your engineering velocity.</div>
-    </div>
-    <div id="rss-building-with-ai-embrace-the-churn" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Engineering &nbsp;·&nbsp; Thoughtbot</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/sixty-six-commits-and-the-commands-that-didnt-survive" target="_blank" style="color:inherit;text-decoration:none;">Building With AI? Embrace the Churn</a><span class="permalink" onclick="copyLink('rss-building-with-ai-embrace-the-churn')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Thoughtbot &nbsp;·&nbsp; 2026-04-08</div>
-      <div class="body-text" style="font-size:13.5px;">Shipping with Claude Code in week one feels productive—fifteen commands in a day. But week two brings brutal reality: a third of them disappear. This chronicle of actual AI-assisted development exposes the hidden costs of speed over correctness.</div>
-    </div>
-    <div id="rss-the-web-s-new-predator-algorithmic-noise" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" target="_blank" style="color:inherit;text-decoration:none;">The Web's New Predator: Algorithmic Noise</a><span class="permalink" onclick="copyLink('rss-the-web-s-new-predator-algorithmic-noise')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 27 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">As AI agents swarm the open web, the honest internet retreats into walled gardens and private spaces. Ryan Dahl names what's happening—a cognitive dark forest where trust erodes and information becomes suspect, reshaping how we'll need to build.</div>
-    </div>
-    <div id="rss-rye-0-2-fixes-evaluation-order-adds-dot-words" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" target="_blank" style="color:inherit;text-decoration:none;">Rye 0.2 fixes evaluation order, adds dot-words</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-evaluation-order-adds-dot-words')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Wed, 04 Ma</div>
-      <div class="body-text" style="font-size:13.5px;">Evaluation order bugs are the kind of footgun that haunts a language's adoption. Rye 0.2 corrects course with left-to-right semantics and introduces dot-words, a clever syntactic addition that simplifies object construction. If you're watching emerging languages, this is how design mistakes get fixed.</div>
-    </div>
-    <div id="rss-learn-rye-s-core-in-minimal-time" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Programming &nbsp;·&nbsp; Ryan Dahl (Rye)</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" target="_blank" style="color:inherit;text-decoration:none;">Learn Rye's core in minimal time</a><span class="permalink" onclick="copyLink('rss-learn-rye-s-core-in-minimal-time')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Ryan Dahl (Rye) &nbsp;·&nbsp; Fri, 16 Ja</div>
-      <div class="body-text" style="font-size:13.5px;">Part two of a crash course in Rye's essentials, designed for developers who want the 80/20 principle applied to language learning. Quick pedagogical posts like this are underrated—they separate languages that can be grasped from those that require months of study.</div>
-    </div>
-    <div id="rss-vitalik-s-local-llm-privacy-blueprint" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" target="_blank" style="color:inherit;text-decoration:none;">Vitalik's local LLM privacy blueprint</a><span class="permalink" onclick="copyLink('rss-vitalik-s-local-llm-privacy-blueprint')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Thu, 02 Ap</div>
-      <div class="body-text" style="font-size:13.5px;">As AI models become ubiquitous, Vitalik explores running language models locally without cloud vendor lock-in or surveillance. This isn't ideological posturing—it's a technical roadmap for maintaining cognitive autonomy in 2026, from a thinker known for pragmatic crypto architecture.</div>
-    </div>
-    <div id="rss-power-asymmetries-in-decentralized-systems" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" target="_blank" style="color:inherit;text-decoration:none;">Power asymmetries in decentralized systems</a><span class="permalink" onclick="copyLink('rss-power-asymmetries-in-decentralized-systems')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Tue, 30 De</div>
-      <div class="body-text" style="font-size:13.5px;">Vitalik examines how balance of power actually functions in blockchain and governance systems. Technical idealism meets reality when you zoom into who controls what—essential reading for anyone building or investing in decentralized infrastructure.</div>
-    </div>
-    <div id="rss-scaling-governance-through-plural-societies" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Crypto &nbsp;·&nbsp; Vitalik Buterin</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" target="_blank" style="color:inherit;text-decoration:none;">Scaling governance through plural societies</a><span class="permalink" onclick="copyLink('rss-scaling-governance-through-plural-societies')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Vitalik Buterin &nbsp;·&nbsp; Wed, 17 De</div>
-      <div class="body-text" style="font-size:13.5px;">Rather than seeking universal solutions, Vitalik argues for enabling diverse social experiments within a single system. This is sophisticated thinking about organizational pluralism—crucial for anyone grappling with how decentralized networks actually coordinate at scale.</div>
-    </div>
-    <div id="rss-turing-s-legacy-gets-theatrical-treatment" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/202604-turing.html" target="_blank" style="color:inherit;text-decoration:none;">Turing's legacy gets theatrical treatment</a><span class="permalink" onclick="copyLink('rss-turing-s-legacy-gets-theatrical-treatment')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-11</div>
-      <div class="body-text" style="font-size:13.5px;">Martin Fowler reports on a play about Alan Turing in Cambridge. Mixing humanities and computer science through drama offers perspective on how we mythologize founding figures—worth thinking about as the field matures.</div>
-    </div>
-    <div id="rss-fowler-s-april-fragments-micro-insights-for-macro-thinking" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-09.html" target="_blank" style="color:inherit;text-decoration:none;">Fowler's April Fragments: Micro-insights for macro thinking</a><span class="permalink" onclick="copyLink('rss-fowler-s-april-fragments-micro-insights-for-macro-thinking')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-09</div>
-      <div class="body-text" style="font-size:13.5px;">Martin Fowler's dated fragments offer concentrated doses of engineering wisdom—the kind of crystallized observations that emerge from decades at the intersection of theory and practice. These bite-sized posts reward close reading; they're often more substantive than their brevity suggests, distilling complex architectural decisions into memorable takeaways.</div>
-    </div>
-    <div id="rss-the-feedback-flywheel-ai-s-friction-reduction-engine" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
-      <div class="tag">Engineering &nbsp;·&nbsp; Martin Fowler</div>
-      <div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html" target="_blank" style="color:inherit;text-decoration:none;">The Feedback Flywheel: AI's friction-reduction engine</a><span class="permalink" onclick="copyLink('rss-the-feedback-flywheel-ai-s-friction-reduction-engine')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
-      <div class="byline">Martin Fowler &nbsp;·&nbsp; 2026-04-08</div>
-      <div class="body-text" style="font-size:13.5px;">Fowler explores how feedback loops accelerate AI system improvement, moving beyond single-pass implementations toward iterative refinement cycles. For teams deploying AI in production, this framework bridges the gap between theoretical promise and practical ROI—showing how continuous feedback transforms experimental projects into reliable, learning systems.</div>
-    </div>
-  </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">More From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-tesla-semi-redefines-truck-as-performance-machine">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-semi-redefines-truck-as-performance-machine')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Tesla Semi redefines truck-as-performance-machine</div>
-      <div class="x-body">Musk's framing matters because it repositions industrial vehicles as objects of engineering pleasure, not mere logistics. This signals how EV makers are capturing mindshare by making utility feel like luxury—a psychological shift that could reshape fleet adoption.</div>
-    </div>
-    <div class="x-item" id="x-physics-education-goes-viral-through-parental-correction">
-      <div class="x-handle">@shenxiao<span class="permalink" onclick="copyLink('x-physics-education-goes-viral-through-parental-correction')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Physics education goes viral through parental correction</div>
-      <div class="x-body">Here's someone weaponizing short-form video as pedagogical tool, teaching aerodynamics by breaking down a child's flight play. It's a microcosm of how Chinese content creators are colonizing educational niches with casual, engaging rigor that Western platforms treat as afterthought.</div>
-    </div>
-    <div class="x-item" id="x-identity-politics-flattened-into-false-tribal-absolutes">
-      <div class="x-handle">@✞ Based Ganyu ✞<span class="permalink" onclick="copyLink('x-identity-politics-flattened-into-false-tribal-absolutes')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Identity politics flattened into false tribal absolutes</div>
-      <div class="x-body">This post matters only as a specimen of how social media reduces nuance into gotcha binaries. It assumes moral action and political alignment are interchangeable, which is precisely backward��and yet millions engage thinking they've glimpsed truth.</div>
-    </div>
-    <div class="x-item" id="x-surrealism-as-the-only-honest-geopolitical-framework">
-      <div class="x-handle">@Massimo<span class="permalink" onclick="copyLink('x-surrealism-as-the-only-honest-geopolitical-framework')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Surrealism as the only honest geopolitical framework</div>
-      <div class="x-body">When serious analysis fails, absurdism rises. This post's genius is admitting that Australia's strategic chaos—caught between superpowers, resource cursed, geographically isolated—defies rational modeling. Sometimes the cat metaphor explains more than think-tank reports.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a  href="index.html">Page 1</a>
-      <a class="current" href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Sid Dispatch &nbsp;·&nbsp; Sunday, April 12, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 07:05 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 213  ·  No. 353</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 2 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Sid Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Sunday, April 12, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div class="section-label" style="margin-top:16px;">Extended Coverage  ·  Hacker News</div>
+<div class="main-grid">
+<div class="hn-col">
+<div style="display:grid;grid-template-columns:1fr 1fr;">
+<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Hardware · Virtualization</div>
+<h2 class="headline" id="apple-silicon-breaks-free-developers-shatter-the-virtual-mac" style="font-size:22px"><a href="https://khronokernel.com/macos/2023/08/08/AS-VM.html" style="color:inherit;text-decoration:none;" target="_blank">Apple Silicon Breaks Free: Developers Shatter the Virtual Machine Ceiling</a><span class="permalink" onclick="copyLink('apple-silicon-breaks-free-developers-shatter-the-virtual-mac')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A technical breakthrough lets M-series Macs run unlimited VMs, upending Apple's architectural constraints*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47733971" style="color:inherit;text-decoration:none;" target="_blank">▲ 204 pts  ·  141 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-10.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:26</span></div>
+<div class="body-text"><p>Apple's silicon transition promised speed and efficiency, but delivered a frustrating bottleneck: M-series chips could only reliably run two virtual machines simultaneously before performance collapsed into a stuttering mess. That hard limit has now cracked wide open. Khronokernel's latest research demonstrates that with proper configuration tweaks and hypervisor tuning, developers can push Apple Silicon to simultaneously operate far more VMs than previously thought possible—a breakthrough that fundamentally reshapes the machine's viability for enterprise and development work.</p><p>The discovery hinges on understanding how Apple's unified memory architecture and custom CPU cores allocate resources under load. Previous attempts to exceed the two-VM barrier hit invisible walls created by aggressive thermal throttling and cache contention. But by strategically managing CPU affinity, leveraging the neural engine for workload prediction, and exploiting underdocumented hypervisor APIs, researchers have unlocked substantially more headroom. The implications are seismic: consultants, DevOps engineers, and cloud developers who wrote off the M1, M2, and M3 as hobbyist hardware may suddenly find themselves reconsidering Apple's entire ecosystem.</p><p>Apple has remained conspicuously silent on whether this represents an oversight in their silicon design or an intentional limitation born from thermal and power management concerns. Either way, the genie is out of the bottle—and the Mac's position in the professional virtualization market just got significantly more interesting.</p></div>
+</div>
+<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Gaming · Culture</div>
+<h2 class="headline" id="dark-castle-emerges-from-obscurity-a-retro-cult-game-gets-it" style="font-size:22px"><a href="https://darkcastle.co.uk/" style="color:inherit;text-decoration:none;" target="_blank">Dark Castle Emerges From Obscurity: A Retro Cult Game Gets Its Due</a><span class="permalink" onclick="copyLink('dark-castle-emerges-from-obscurity-a-retro-cult-game-gets-it')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The delightfully ornery platformer finds new life through preservation and appreciation*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47733521" style="color:inherit;text-decoration:none;" target="_blank">▲ 187 pts  ·  24 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-11.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 2:04</span></div>
+<div class="body-text"><p>Dark Castle occupies a peculiar niche in gaming history: beloved by those who played it in the 1980s and '90s, utterly unknown to everyone else. This fiendishly difficult isometric platformer, where you lob rocks at ghosts and navigate brutalist architecture, never achieved mainstream recognition despite its mechanical sophistication and oppressive atmosphere. The newly revitalized darkcastle.co.uk represents something larger than nostalgia—it's a reclamation of a game whose deliberate cruelty and uncompromising design philosophy have aged into something almost prophetic.</p><p>What makes Dark Castle resonate today isn't sentimentality but design clarity. Every death is your fault. Every pixel placement matters. There are no assists, no difficulty sliders, no gentle onboarding. It's a game that respects the player's intelligence enough to let them fail catastrophically, a philosophy that feels almost radical in an industry obsessed with accessibility metrics and engagement optimization. The renewed interest suggests a hunger for that austere, unforgiving tradition—a counterweight to the algorithmic hand-holding that defines contemporary gaming.</p></div>
+</div>
+<div style="padding:0 24px 0 0;border-right:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Law · Policy</div>
+<h2 class="headline" id="federal-court-strikes-down-158-year-old-home-distilling-ban-" style="font-size:22px"><a href="https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional" style="color:inherit;text-decoration:none;" target="_blank">Federal Court Strikes Down 158-Year-Old Home Distilling Ban as Unconstitutional</a><span class="permalink" onclick="copyLink('federal-court-strikes-down-158-year-old-home-distilling-ban-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A sweeping appellate decision invalidates one of America's most durable Prohibition-era relics*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47736298" style="color:inherit;text-decoration:none;" target="_blank">▲ 173 pts  ·  132 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-12.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:33</span></div>
+<div class="body-text"><p>In a ruling that catches lawmakers and industry observers flat-footed, a U.S. appeals court has declared the blanket prohibition on home distilling unconstitutional, effectively dismantling a legal barrier that has stood since 1868. The decision, handed down in April 2026, hinges on Second Amendment jurisprudence applied to the right to produce alcohol for personal consumption—a startling doctrinal move that treats distilling as analogous to bearing arms. The court found that the government's historical safety rationale for the ban no longer withstands scrutiny in an era where homebrewing has operated openly and safely for decades without the catastrophic harms regulators once predicted.</p><p>The ruling exposes a deeper incoherence in federal alcohol law: home beer and wine production have enjoyed explicit legal protection since 1979, yet distillation remains felonious, despite presenting no greater inherent danger. The appellate panel seized on this contradiction, arguing that the distinction cannot stand on rational basis review. Treasury Department officials face immediate pressure to either appeal to the Supreme Court or begin drafting new regulations that allow limited home distilling while preserving legitimate concerns around tax collection and industrial espionage. Craft spirits producers are watching nervously; while a flood of home distillers won't destroy the market, it creates regulatory uncertainty that could reshape the entire supply chain within 18 months.</p></div>
+</div>
+<div style="padding:0 0 0 24px;border-left:1px solid var(--light);margin-bottom:28px;">
+<div class="tag">Open Source · JavaScript</div>
+<h2 class="headline" id="eleventy-s-creator-steps-away-the-quiet-retirement-of-a-web-" style="font-size:22px"><a href="https://brennan.day/the-end-of-eleventy/" style="color:inherit;text-decoration:none;" target="_blank">Eleventy's Creator Steps Away: The Quiet Retirement of a Web Dev Darling</a><span class="permalink" onclick="copyLink('eleventy-s-creator-steps-away-the-quiet-retirement-of-a-web-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A beloved static site generator hits the end of the road, leaving the JavaScript ecosystem to reckon with succession*</div>
+<div class="byline"><a href="https://news.ycombinator.com/item?id=47735535" style="color:inherit;text-decoration:none;" target="_blank">▲ 172 pts  ·  124 comments</a><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-13.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:24</span></div>
+<div class="body-text"><p>Zach Leatherman's announcement that he's retiring Eleventy, the minimalist static site generator that quietly became the backbone of thousands of modern websites, lands like a carefully-placed stone in still water. Eleventy never achieved the cultural dominance of Next.js or the cult following of Hugo, but it carved out something more durable: a reputation as the thinking developer's choice, a tool whose philosophy prioritized simplicity and portability over ecosystem lock-in. Leatherman built something that didn't need you; you chose it because it respected your intelligence.</p><p>The decision reflects a broader exhaustion within the open-source maintainer class. Eleventy's success became its burden—the tool acquired enough users and integrations that maintaining it demanded sustained energy that Leatherman, operating as a solo maintainer, could no longer sustain. This isn't negligence or burnout theatre; it's a honest reckoning with the arithmetic of volunteer labor. The irony is brutal: create something genuinely useful and you volunteer yourself into an endless obligation. Eleventy's user base will migrate to alternatives (Astro is the obvious successor), the ecosystem will fragment slightly, and the larger web dev community will lose one of its few remaining voices arguing for restraint and clarity.</p></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:28px;">From the Reading List  ·  RSS</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:0;">
+<div id="rss-specs-aren-t-code-yet" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code" style="color:inherit;text-decoration:none;" target="_blank">Specs Aren't Code—Yet</a><span class="permalink" onclick="copyLink('rss-specs-aren-t-code-yet')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Tue, 17 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-14.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:15</span></div>
+<div class="body-text" style="font-size:13.5px;">The gap between detailed specification and executable reality is wider than we think. As AI agents flood the coding space, this piece challenges the assumption that better specs alone can close it, exposing fundamental limitations in agentic approaches to software.</div>
+</div>
+<div id="rss-search-code-like-you-think" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/browse-code-by-meaning" style="color:inherit;text-decoration:none;" target="_blank">Search Code Like You Think</a><span class="permalink" onclick="copyLink('rss-search-code-like-you-think')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Mon, 16 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-15.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:15</span></div>
+<div class="body-text" style="font-size:13.5px;">Forget grep. Topic modeling offers a radically different way to navigate repositories—by semantic meaning rather than syntax. This could reshape how developers discover and understand unfamiliar codebases in an era of sprawling systems.</div>
+</div>
+<div id="rss-chat-interfaces-are-just-training-wheels" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Haskell for All</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://haskellforall.com/2026/02/beyond-agentic-coding" style="color:inherit;text-decoration:none;" target="_blank">Chat Interfaces Are Just Training Wheels</a><span class="permalink" onclick="copyLink('rss-chat-interfaces-are-just-training-wheels')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Haskell for All  ·  Sat, 07 Fe<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-16.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
+<div class="body-text" style="font-size:13.5px;">AI dev tooling has plateaued at chat-based interactions. This post argues the real frontier lies beyond conversational interfaces, hinting at more sophisticated, structured approaches to human-AI collaboration that could actually reshape development workflows.</div>
+</div>
+<div id="rss-boilerplate-isn-t-waste-it-s-leverage" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Thoughtbot</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/you-too-can-make-a-boilerplate" style="color:inherit;text-decoration:none;" target="_blank">Boilerplate Isn't Waste—It's Leverage</a><span class="permalink" onclick="copyLink('rss-boilerplate-isn-t-waste-it-s-leverage')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Thoughtbot  ·  2026-04-10<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-17.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:14</span></div>
+<div class="body-text" style="font-size:13.5px;">Instead of fighting repetition, systematize it. Thoughtbot explores how to extract your team's recurring patterns into reusable templates, turning institutional knowledge into scalable tooling that multiplies your engineering velocity.</div>
+</div>
+<div id="rss-building-with-ai-embrace-the-churn" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Engineering  ·  Thoughtbot</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://thoughtbot.com/blog/sixty-six-commits-and-the-commands-that-didnt-survive" style="color:inherit;text-decoration:none;" target="_blank">Building With AI? Embrace the Churn</a><span class="permalink" onclick="copyLink('rss-building-with-ai-embrace-the-churn')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Thoughtbot  ·  2026-04-08<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-18.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
+<div class="body-text" style="font-size:13.5px;">Shipping with Claude Code in week one feels productive—fifteen commands in a day. But week two brings brutal reality: a third of them disappear. This chronicle of actual AI-assisted development exposes the hidden costs of speed over correctness.</div>
+</div>
+<div id="rss-the-web-s-new-predator-algorithmic-noise" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/cognitive-dark-forest/" style="color:inherit;text-decoration:none;" target="_blank">The Web's New Predator: Algorithmic Noise</a><span class="permalink" onclick="copyLink('rss-the-web-s-new-predator-algorithmic-noise')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Fri, 27 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-19.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:14</span></div>
+<div class="body-text" style="font-size:13.5px;">As AI agents swarm the open web, the honest internet retreats into walled gardens and private spaces. Ryan Dahl names what's happening—a cognitive dark forest where trust erodes and information becomes suspect, reshaping how we'll need to build.</div>
+</div>
+<div id="rss-rye-0-2-fixes-evaluation-order-adds-dot-words" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/rye-0.2-whats-new/" style="color:inherit;text-decoration:none;" target="_blank">Rye 0.2 fixes evaluation order, adds dot-words</a><span class="permalink" onclick="copyLink('rss-rye-0-2-fixes-evaluation-order-adds-dot-words')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Wed, 04 Ma<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-20.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:21</span></div>
+<div class="body-text" style="font-size:13.5px;">Evaluation order bugs are the kind of footgun that haunts a language's adoption. Rye 0.2 corrects course with left-to-right semantics and introduces dot-words, a clever syntactic addition that simplifies object construction. If you're watching emerging languages, this is how design mistakes get fixed.</div>
+</div>
+<div id="rss-learn-rye-s-core-in-minimal-time" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Programming  ·  Ryan Dahl (Rye)</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://ryelang.org/blog/posts/learn_80_rye_in_20_time_second/" style="color:inherit;text-decoration:none;" target="_blank">Learn Rye's core in minimal time</a><span class="permalink" onclick="copyLink('rss-learn-rye-s-core-in-minimal-time')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Ryan Dahl (Rye)  ·  Fri, 16 Ja<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-21.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:17</span></div>
+<div class="body-text" style="font-size:13.5px;">Part two of a crash course in Rye's essentials, designed for developers who want the 80/20 principle applied to language learning. Quick pedagogical posts like this are underrated—they separate languages that can be grasped from those that require months of study.</div>
+</div>
+<div id="rss-vitalik-s-local-llm-privacy-blueprint" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2026/04/02/secure_llms.html" style="color:inherit;text-decoration:none;" target="_blank">Vitalik's local LLM privacy blueprint</a><span class="permalink" onclick="copyLink('rss-vitalik-s-local-llm-privacy-blueprint')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Thu, 02 Ap<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-22.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span></div>
+<div class="body-text" style="font-size:13.5px;">As AI models become ubiquitous, Vitalik explores running language models locally without cloud vendor lock-in or surveillance. This isn't ideological posturing—it's a technical roadmap for maintaining cognitive autonomy in 2026, from a thinker known for pragmatic crypto architecture.</div>
+</div>
+<div id="rss-power-asymmetries-in-decentralized-systems" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/30/balance_of_power.html" style="color:inherit;text-decoration:none;" target="_blank">Power asymmetries in decentralized systems</a><span class="permalink" onclick="copyLink('rss-power-asymmetries-in-decentralized-systems')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Tue, 30 De<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-23.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:13</span></div>
+<div class="body-text" style="font-size:13.5px;">Vitalik examines how balance of power actually functions in blockchain and governance systems. Technical idealism meets reality when you zoom into who controls what—essential reading for anyone building or investing in decentralized infrastructure.</div>
+</div>
+<div id="rss-scaling-governance-through-plural-societies" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Crypto  ·  Vitalik Buterin</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://vitalik.ca/general/2025/12/17/societies.html" style="color:inherit;text-decoration:none;" target="_blank">Scaling governance through plural societies</a><span class="permalink" onclick="copyLink('rss-scaling-governance-through-plural-societies')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Vitalik Buterin  ·  Wed, 17 De<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-24.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:15</span></div>
+<div class="body-text" style="font-size:13.5px;">Rather than seeking universal solutions, Vitalik argues for enabling diverse social experiments within a single system. This is sophisticated thinking about organizational pluralism—crucial for anyone grappling with how decentralized networks actually coordinate at scale.</div>
+</div>
+<div id="rss-turing-s-legacy-gets-theatrical-treatment" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/202604-turing.html" style="color:inherit;text-decoration:none;" target="_blank">Turing's legacy gets theatrical treatment</a><span class="permalink" onclick="copyLink('rss-turing-s-legacy-gets-theatrical-treatment')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-11<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-25.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:14</span></div>
+<div class="body-text" style="font-size:13.5px;">Martin Fowler reports on a play about Alan Turing in Cambridge. Mixing humanities and computer science through drama offers perspective on how we mythologize founding figures—worth thinking about as the field matures.</div>
+</div>
+<div id="rss-fowler-s-april-fragments-micro-insights-for-macro-thinking" style="padding:0 24px 24px 0;border-right:1px solid var(--light);padding-left:0">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/fragments/2026-04-09.html" style="color:inherit;text-decoration:none;" target="_blank">Fowler's April Fragments: Micro-insights for macro thinking</a><span class="permalink" onclick="copyLink('rss-fowler-s-april-fragments-micro-insights-for-macro-thinking')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-09<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-26.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span></div>
+<div class="body-text" style="font-size:13.5px;">Martin Fowler's dated fragments offer concentrated doses of engineering wisdom—the kind of crystallized observations that emerge from decades at the intersection of theory and practice. These bite-sized posts reward close reading; they're often more substantive than their brevity suggests, distilling complex architectural decisions into memorable takeaways.</div>
+</div>
+<div id="rss-the-feedback-flywheel-ai-s-friction-reduction-engine" style="padding:0 24px 24px 0;border-right:none;padding-left:24px">
+<div class="tag">Engineering  ·  Martin Fowler</div>
+<div class="headline" style="font-size:18px;margin-bottom:6px;"><a href="https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html" style="color:inherit;text-decoration:none;" target="_blank">The Feedback Flywheel: AI's friction-reduction engine</a><span class="permalink" onclick="copyLink('rss-the-feedback-flywheel-ai-s-friction-reduction-engine')" title="Copy link to this article">share<span class="copied">Copied!</span></span></div>
+<div class="byline">Martin Fowler  ·  2026-04-08<span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-27.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:16</span></div>
+<div class="body-text" style="font-size:13.5px;">Fowler explores how feedback loops accelerate AI system improvement, moving beyond single-pass implementations toward iterative refinement cycles. For teams deploying AI in production, this framework bridges the gap between theoretical promise and practical ROI—showing how continuous feedback transforms experimental projects into reliable, learning systems.</div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">More From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-tesla-semi-redefines-truck-as-performance-machine">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-tesla-semi-redefines-truck-as-performance-machine')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Tesla Semi redefines truck-as-performance-machine</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-28.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:23</span>
+<div class="x-body">Musk's framing matters because it repositions industrial vehicles as objects of engineering pleasure, not mere logistics. This signals how EV makers are capturing mindshare by making utility feel like luxury—a psychological shift that could reshape fleet adoption.</div>
+</div>
+<div class="x-item" id="x-physics-education-goes-viral-through-parental-correction">
+<div class="x-handle">@shenxiao<span class="permalink" onclick="copyLink('x-physics-education-goes-viral-through-parental-correction')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Physics education goes viral through parental correction</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-29.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span>
+<div class="x-body">Here's someone weaponizing short-form video as pedagogical tool, teaching aerodynamics by breaking down a child's flight play. It's a microcosm of how Chinese content creators are colonizing educational niches with casual, engaging rigor that Western platforms treat as afterthought.</div>
+</div>
+<div class="x-item" id="x-identity-politics-flattened-into-false-tribal-absolutes">
+<div class="x-handle">@✞ Based Ganyu ✞<span class="permalink" onclick="copyLink('x-identity-politics-flattened-into-false-tribal-absolutes')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Identity politics flattened into false tribal absolutes</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-30.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:18</span>
+<div class="x-body">This post matters only as a specimen of how social media reduces nuance into gotcha binaries. It assumes moral action and political alignment are interchangeable, which is precisely backward��and yet millions engage thinking they've glimpsed truth.</div>
+</div>
+<div class="x-item" id="x-surrealism-as-the-only-honest-geopolitical-framework">
+<div class="x-handle">@Massimo<span class="permalink" onclick="copyLink('x-surrealism-as-the-only-honest-geopolitical-framework')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Surrealism as the only honest geopolitical framework</div><span class="listen-pill" data-src="https://github.com/sngeth/sngeth.github.io/releases/download/dispatch-audio-2026-04-12/story-31.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:19</span>
+<div class="x-body">When serious analysis fails, absurdism rises. This post's genius is admitting that Australia's strategic chaos—caught between superpowers, resource cursed, geographically isolated—defies rational modeling. Sometimes the cat metaphor explains more than think-tank reports.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a href="index.html">Page 1</a>
+<a class="current" href="page2.html">Page 2</a></div>
+<footer>
+<span>The Sid Dispatch  ·  Sunday, April 12, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 07:05 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Sid Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Sid Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
