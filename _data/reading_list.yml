@@ -1,8 +1,23 @@
-- title: Artemis II safely splashes down
-  url: "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/"
+- title: SQLite 3.53.0
+  url: "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything"
   date: 2026-04-11
-  source: Hacker News Best
-  category: programming
+  source: Simon Willison
+  category: ai
+- title: SQLite Query Result Formatter Demo
+  url: "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything"
+  date: 2026-04-11
+  source: Simon Willison
+  category: ai
+- title: "Erich Fromm’s 6 Rules of Listening: The Great Humanistic Philosopher and Psychologist on the Art of Unselfish Understanding"
+  url: "https://www.themarginalian.org/2026/04/10/erich-fromm-the-art-of-listening/"
+  date: 2026-04-11
+  source: The Marginalian
+  category: philosophy
+- title: "The Work of Happiness: May Sarton’s Stunning Poem About Being at Home in Yourself"
+  url: "https://www.themarginalian.org/2026/04/10/may-sarton-the-work-of-happiness/"
+  date: 2026-04-11
+  source: The Marginalian
+  category: philosophy
 - title: Kākāpō parrots
   url: "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything"
   date: 2026-04-10
@@ -13,38 +28,28 @@
   date: 2026-04-10
   source: Simon Willison
   category: ai
-- title: Filing the corners off my MacBooks
-  url: "https://kentwalters.com/posts/corners/"
-  date: 2026-04-10
-  source: Hacker News Best
-  category: programming
-- title: "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers"
-  url: "https://www.bbc.com/news/articles/cr71lkzv49po"
-  date: 2026-04-10
-  source: Hacker News Best
-  category: programming
-- title: Industrial design files for Keychron keyboards and mice
-  url: "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design"
-  date: 2026-04-10
-  source: Hacker News Best
-  category: programming
-- title: WireGuard makes new Windows release following Microsoft signing resolution
-  url: "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html"
-  date: 2026-04-10
-  source: Hacker News Best
-  category: programming
 - title: Patterns without desires
   url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
   date: 2026-04-10
   source: Aeon
   category: philosophy
+- title: "A General Theory of Possibility: The Abstract Art of Otherwise and the Physics of Resilience"
+  url: "https://www.themarginalian.org/2026/04/10/chiara-marletto-the-science-of-can-and-cant/"
+  date: 2026-04-10
+  source: The Marginalian
+  category: philosophy
+- title: Václav Havel on How to Hold Your Failure
+  url: "https://www.themarginalian.org/2026/04/10/havel-failure/"
+  date: 2026-04-10
+  source: The Marginalian
+  category: philosophy
+- title: The Day Hermann Hesse Discovered the Meaning of Life in a Tree
+  url: "https://www.themarginalian.org/2026/04/10/hesse-trees/"
+  date: 2026-04-10
+  source: The Marginalian
+  category: philosophy
 - title: GitHub Repo Size
   url: "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"
-  date: 2026-04-09
-  source: Simon Willison
-  category: ai
-- title: asgi-gzip 0.3
-  url: "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything"
   date: 2026-04-09
   source: Simon Willison
   category: ai
@@ -63,40 +68,10 @@
   date: 2026-04-09
   source: Aeon
   category: philosophy
-- title: George Saunders on the Antidote to Regret
-  url: "https://www.themarginalian.org/2026/04/09/regret/"
-  date: 2026-04-09
-  source: The Marginalian
-  category: philosophy
-- title: Brian Eno’s Remedy for Burnout and Despair
-  url: "https://www.themarginalian.org/2026/04/09/brian-eno-burnout/"
-  date: 2026-04-09
-  source: The Marginalian
-  category: philosophy
-- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
-  url: "https://www.themarginalian.org/2026/04/08/pessoa-explorer/"
-  date: 2026-04-09
-  source: The Marginalian
-  category: philosophy
-- title: "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools"
-  url: "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything"
-  date: 2026-04-08
-  source: Simon Willison
-  category: ai
 - title: "Your opinion, please"
   url: "https://aeon.co/videos/a-vivid-portrait-of-montana-built-from-call-in-radio-clips?utm_source=rss-feed"
   date: 2026-04-08
   source: Aeon
-  category: philosophy
-- title: "Unselfing into Oneness with the All: The Forgotten Visionary Margaret Fuller on Transcendence"
-  url: "https://www.themarginalian.org/2026/04/08/margaret-fuller-the-all/"
-  date: 2026-04-08
-  source: The Marginalian
-  category: philosophy
-- title: Kafka’s Approach to Creative Block and the Four Psychological Hindrances That Keep the Gifted from Living Up to Their Gifts
-  url: "https://www.themarginalian.org/2026/04/08/kafka-diaries-self-doubt/"
-  date: 2026-04-08
-  source: The Marginalian
   category: philosophy
 - title: Living without my self
   url: "https://aeon.co/essays/robert-musil-gives-confidence-to-the-no-self-minority-like-me?utm_source=rss-feed"
