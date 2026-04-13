@@ -1,3 +1,48 @@
+- title: Quoting Bryan Cantrill
+  url: "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything"
+  date: 2026-04-13
+  source: Simon Willison
+  category: ai
+- title: Gemma 4 audio with MLX
+  url: "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything"
+  date: 2026-04-12
+  source: Simon Willison
+  category: ai
+- title: "Google removes \"Doki Doki Literature Club\" from Google Play"
+  url: "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t"
+  date: 2026-04-12
+  source: Hacker News Best
+  category: programming
+- title: The peril of laziness lost
+  url: "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/"
+  date: 2026-04-12
+  source: Hacker News Best
+  category: programming
+- title: "Viktor Orbán concedes defeat after 'painful' election result"
+  url: "https://apnews.com/article/hungary-election-orban-magyar-trump-1a4eb0ba6b94e0c80c3cd18bd36254ab"
+  date: 2026-04-12
+  source: Hacker News Best
+  category: programming
+- title: "Apple has removed most of the towns and villages in Lebanon from Apple maps?"
+  url: "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193"
+  date: 2026-04-12
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: boringBar – a taskbar-style dock replacement for macOS"
+  url: "https://boringbar.app/"
+  date: 2026-04-12
+  source: Hacker News Best
+  category: programming
+- title: "How to Make the Impossible Possible: Cristina Campo on the Crucial Difference Between Hope and Trust"
+  url: "https://www.themarginalian.org/2026/04/12/hope-trust-fairy-tales-campo/"
+  date: 2026-04-12
+  source: The Marginalian
+  category: philosophy
+- title: "Decoding the Mystery of Intuition: AI Prophet Margaret Boden on the Three Elements of Creativity"
+  url: "https://www.themarginalian.org/2026/04/12/margaret-boden-creativity/"
+  date: 2026-04-12
+  source: The Marginalian
+  category: philosophy
 - title: SQLite 3.53.0
   url: "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything"
   date: 2026-04-11
@@ -8,13 +53,18 @@
   date: 2026-04-11
   source: Simon Willison
   category: ai
-- title: "Erich Fromm’s 6 Rules of Listening: The Great Humanistic Philosopher and Psychologist on the Art of Unselfish Understanding"
-  url: "https://www.themarginalian.org/2026/04/10/erich-fromm-the-art-of-listening/"
+- title: "The Eternal Lyric of Love and Loss: “Goodnight Moon” Author Margaret Wise Brown’s Little-Known Poems for the Tragic Love of Her Life"
+  url: "https://www.themarginalian.org/2026/04/11/margaret-wise-brown-michael-strange-poems/"
   date: 2026-04-11
   source: The Marginalian
   category: philosophy
-- title: "The Work of Happiness: May Sarton’s Stunning Poem About Being at Home in Yourself"
-  url: "https://www.themarginalian.org/2026/04/10/may-sarton-the-work-of-happiness/"
+- title: "Trial, Triumph, and the Art of the Possible: The Remarkable Story Behind Beethoven’s “Ode to Joy”"
+  url: "https://www.themarginalian.org/2026/04/11/beethoven-ode-to-joy/"
+  date: 2026-04-11
+  source: The Marginalian
+  category: philosophy
+- title: "Erich Fromm’s 6 Rules of Listening: The Great Humanistic Philosopher and Psychologist on the Art of Unselfish Understanding"
+  url: "https://www.themarginalian.org/2026/04/10/erich-fromm-the-art-of-listening/"
   date: 2026-04-11
   source: The Marginalian
   category: philosophy
@@ -23,36 +73,11 @@
   date: 2026-04-10
   source: Simon Willison
   category: ai
-- title: ChatGPT voice mode is a weaker model
-  url: "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything"
-  date: 2026-04-10
-  source: Simon Willison
-  category: ai
 - title: Patterns without desires
   url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
   date: 2026-04-10
   source: Aeon
   category: philosophy
-- title: "A General Theory of Possibility: The Abstract Art of Otherwise and the Physics of Resilience"
-  url: "https://www.themarginalian.org/2026/04/10/chiara-marletto-the-science-of-can-and-cant/"
-  date: 2026-04-10
-  source: The Marginalian
-  category: philosophy
-- title: Václav Havel on How to Hold Your Failure
-  url: "https://www.themarginalian.org/2026/04/10/havel-failure/"
-  date: 2026-04-10
-  source: The Marginalian
-  category: philosophy
-- title: The Day Hermann Hesse Discovered the Meaning of Life in a Tree
-  url: "https://www.themarginalian.org/2026/04/10/hesse-trees/"
-  date: 2026-04-10
-  source: The Marginalian
-  category: philosophy
-- title: GitHub Repo Size
-  url: "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"
-  date: 2026-04-09
-  source: Simon Willison
-  category: ai
 - title: watgo - a WebAssembly Toolkit for Go
   url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
   date: 2026-04-09
