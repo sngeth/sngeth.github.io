@@ -1,43 +1,58 @@
-- title: DaVinci Resolve releases Photo Editor
-  url: "https://www.blackmagicdesign.com/products/davinciresolve/photo"
+- title: "Zig 0.16.0 release notes: \"Juicy Main\""
+  url: "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything"
+  date: 2026-04-15
+  source: Simon Willison
+  category: ai
+- title: "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection"
+  url: "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything"
+  date: 2026-04-14
+  source: Simon Willison
+  category: ai
+- title: Trusted access for the next era of cyber defense
+  url: "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything"
+  date: 2026-04-14
+  source: Simon Willison
+  category: ai
+- title: Cybersecurity Looks Like Proof of Work Now
+  url: "https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything"
+  date: 2026-04-14
+  source: Simon Willison
+  category: ai
+- title: Stop Flock
+  url: "https://stopflock.com"
   date: 2026-04-14
   source: Hacker News Best
   category: programming
+- title: "Tell HN: Fiverr left customer files public and searchable"
+  url: "https://news.ycombinator.com/item?id=47769796"
+  date: 2026-04-14
+  source: Hacker News Best
+  category: programming
+- title: "I wrote to Flock's privacy contact to opt out of their domestic spying program"
+  url: "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html"
+  date: 2026-04-14
+  source: Hacker News Best
+  category: programming
+- title: OpenSSL 4.0.0
+  url: "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0"
+  date: 2026-04-14
+  source: Hacker News Best
+  category: programming
+- title: "Spain to expand internet blocks to tennis, golf, movies broadcasting times"
+  url: "https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731"
+  date: 2026-04-14
+  source: Hacker News Best
+  category: programming
+- title: You’ve lived this life before
+  url: "https://aeon.co/essays/the-mysticism-of-nietzsches-doctrine-of-the-eternal-return?utm_source=rss-feed"
+  date: 2026-04-14
+  source: Aeon
+  category: philosophy
 - title: Steve Yegge
   url: "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"
   date: 2026-04-13
   source: Simon Willison
   category: ai
-- title: "Exploring the new `servo` crate"
-  url: "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything"
-  date: 2026-04-13
-  source: Simon Willison
-  category: ai
-- title: Quoting Bryan Cantrill
-  url: "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything"
-  date: 2026-04-13
-  source: Simon Willison
-  category: ai
-- title: GitHub Stacked PRs
-  url: "https://github.github.com/gh-stack/"
-  date: 2026-04-13
-  source: Hacker News Best
-  category: programming
-- title: Someone bought 30 WordPress plugins and planted a backdoor in all of them
-  url: "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/"
-  date: 2026-04-13
-  source: Hacker News Best
-  category: programming
-- title: "The Future of Everything Is Lies, I Guess: Safety"
-  url: "https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety"
-  date: 2026-04-13
-  source: Hacker News Best
-  category: programming
-- title: Building a CLI for all of Cloudflare
-  url: "https://blog.cloudflare.com/cf-cli-local-explorer/"
-  date: 2026-04-13
-  source: Hacker News Best
-  category: programming
 - title: I am Sámi
   url: "https://aeon.co/videos/reindeer-politics-why-some-sami-struggle-for-recognition?utm_source=rss-feed"
   date: 2026-04-13
@@ -48,16 +63,21 @@
   date: 2026-04-13
   source: Aeon
   category: philosophy
+- title: "Flowers for Things I Don’t Know How to Say: A Tender Painted Lexicon of Consolation and Connection"
+  url: "https://www.themarginalian.org/2026/04/13/tucker-nichols-flowers/"
+  date: 2026-04-13
+  source: The Marginalian
+  category: philosophy
+- title: Christopher Hitchens on Mortality
+  url: "https://www.themarginalian.org/2026/04/13/christopher-hitchens-mortality/"
+  date: 2026-04-13
+  source: The Marginalian
+  category: philosophy
 - title: "How to See More Clearly and Love More Purely: Iris Murdoch on the Angst of Not Knowing Ourselves and Each Other"
   url: "https://www.themarginalian.org/2026/04/12/iris-murdoch-imagination/"
   date: 2026-04-13
   source: The Marginalian
   category: philosophy
-- title: Gemma 4 audio with MLX
-  url: "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything"
-  date: 2026-04-12
-  source: Simon Willison
-  category: ai
 - title: "The Importance of Being Scared: Polish Nobel Laureate Wisława Szymborska on Fairy Tales and the Necessity of Fear"
   url: "https://www.themarginalian.org/2026/04/12/wislawa-szymborska-fairy-tales-fear/"
   date: 2026-04-12
@@ -68,21 +88,6 @@
   date: 2026-04-12
   source: The Marginalian
   category: philosophy
-- title: "How to Make the Impossible Possible: Cristina Campo on the Crucial Difference Between Hope and Trust"
-  url: "https://www.themarginalian.org/2026/04/12/hope-trust-fairy-tales-campo/"
-  date: 2026-04-12
-  source: The Marginalian
-  category: philosophy
-- title: "Decoding the Mystery of Intuition: AI Prophet Margaret Boden on the Three Elements of Creativity"
-  url: "https://www.themarginalian.org/2026/04/12/margaret-boden-creativity/"
-  date: 2026-04-12
-  source: The Marginalian
-  category: philosophy
-- title: SQLite 3.53.0
-  url: "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything"
-  date: 2026-04-11
-  source: Simon Willison
-  category: ai
 - title: Patterns without desires
   url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
   date: 2026-04-10
@@ -95,11 +100,6 @@
   category: programming
 - title: Travelling at the speed of light
   url: "https://aeon.co/videos/take-a-mind-bending-ride-through-the-cosmos-at-light-speed?utm_source=rss-feed"
-  date: 2026-04-09
-  source: Aeon
-  category: philosophy
-- title: White-collar sweatshops
-  url: "https://aeon.co/essays/what-made-law-into-a-white-collar-sweatshop-in-the-1980s?utm_source=rss-feed"
   date: 2026-04-09
   source: Aeon
   category: philosophy
