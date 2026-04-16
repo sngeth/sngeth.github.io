@@ -1,58 +1,83 @@
-- title: "Zig 0.16.0 release notes: \"Juicy Main\""
-  url: "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything"
+- title: datasette.io news preview
+  url: "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything"
+  date: 2026-04-16
+  source: Simon Willison
+  category: ai
+- title: datasette-export-database 0.3a1
+  url: "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything"
   date: 2026-04-15
   source: Simon Willison
   category: ai
-- title: "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection"
-  url: "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything"
-  date: 2026-04-14
+- title: datasette 1.0a27
+  url: "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything"
+  date: 2026-04-15
   source: Simon Willison
   category: ai
-- title: Trusted access for the next era of cyber defense
-  url: "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything"
-  date: 2026-04-14
+- title: Quoting John Gruber
+  url: "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything"
+  date: 2026-04-15
   source: Simon Willison
   category: ai
-- title: Cybersecurity Looks Like Proof of Work Now
-  url: "https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything"
-  date: 2026-04-14
+- title: Gemini 3.1 Flash TTS
+  url: "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything"
+  date: 2026-04-15
   source: Simon Willison
   category: ai
-- title: Stop Flock
-  url: "https://stopflock.com"
-  date: 2026-04-14
+- title: YouTube users get option to set their Shorts time limit to zero minutes
+  url: "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes"
+  date: 2026-04-15
   source: Hacker News Best
   category: programming
-- title: "Tell HN: Fiverr left customer files public and searchable"
-  url: "https://news.ycombinator.com/item?id=47769796"
-  date: 2026-04-14
+- title: "The buns in McDonald's Japan's burger photos are all slightly askew"
+  url: "https://www.mcdonalds.co.jp/en/menu/burger/"
+  date: 2026-04-15
   source: Hacker News Best
   category: programming
-- title: "I wrote to Flock's privacy contact to opt out of their domestic spying program"
-  url: "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html"
-  date: 2026-04-14
+- title: "Ask HN: Who is using OpenClaw?"
+  url: "https://news.ycombinator.com/item?id=47783940"
+  date: 2026-04-15
   source: Hacker News Best
   category: programming
-- title: OpenSSL 4.0.0
-  url: "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0"
-  date: 2026-04-14
+- title: "Live Nation illegally monopolized ticketing market, jury finds"
+  url: "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds"
+  date: 2026-04-15
   source: Hacker News Best
   category: programming
-- title: "Spain to expand internet blocks to tennis, golf, movies broadcasting times"
-  url: "https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731"
-  date: 2026-04-14
+- title: Google broke its promise to me – now ICE has my data
+  url: "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data"
+  date: 2026-04-15
   source: Hacker News Best
   category: programming
+- title: Impromptu
+  url: "https://aeon.co/videos/a-propulsive-ode-to-the-forgotten-parents-of-film?utm_source=rss-feed"
+  date: 2026-04-15
+  source: Aeon
+  category: philosophy
+- title: "Enchantment and the Courage of Joy: René Magritte on the Antidote to the Banality of Pessimism"
+  url: "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment/"
+  date: 2026-04-15
+  source: The Marginalian
+  category: philosophy
 - title: You’ve lived this life before
   url: "https://aeon.co/essays/the-mysticism-of-nietzsches-doctrine-of-the-eternal-return?utm_source=rss-feed"
   date: 2026-04-14
   source: Aeon
   category: philosophy
-- title: Steve Yegge
-  url: "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"
-  date: 2026-04-13
-  source: Simon Willison
-  category: ai
+- title: "Is This Blue: Chilean Philosophers Humberto Maturana and Francisco Varela on Love and How We Know the World"
+  url: "https://www.themarginalian.org/2026/04/14/tree-of-knowledge-maturana-love/"
+  date: 2026-04-14
+  source: The Marginalian
+  category: philosophy
+- title: "Of Stars, Seagulls, and Love: Loren Eiseley on the First and Final Truth of Life"
+  url: "https://www.themarginalian.org/2026/04/14/loren-eiseley-love/"
+  date: 2026-04-14
+  source: The Marginalian
+  category: philosophy
+- title: "How to Conquer  Self-Doubt and Overcome Creative Block: Artist SoLewitt’s Magnificent Letter of Advice"
+  url: "https://www.themarginalian.org/2026/04/14/do-sol-lewitt-eva-hesse-letter/"
+  date: 2026-04-14
+  source: The Marginalian
+  category: philosophy
 - title: I am Sámi
   url: "https://aeon.co/videos/reindeer-politics-why-some-sami-struggle-for-recognition?utm_source=rss-feed"
   date: 2026-04-13
@@ -68,26 +93,6 @@
   date: 2026-04-13
   source: The Marginalian
   category: philosophy
-- title: Christopher Hitchens on Mortality
-  url: "https://www.themarginalian.org/2026/04/13/christopher-hitchens-mortality/"
-  date: 2026-04-13
-  source: The Marginalian
-  category: philosophy
-- title: "How to See More Clearly and Love More Purely: Iris Murdoch on the Angst of Not Knowing Ourselves and Each Other"
-  url: "https://www.themarginalian.org/2026/04/12/iris-murdoch-imagination/"
-  date: 2026-04-13
-  source: The Marginalian
-  category: philosophy
-- title: "The Importance of Being Scared: Polish Nobel Laureate Wisława Szymborska on Fairy Tales and the Necessity of Fear"
-  url: "https://www.themarginalian.org/2026/04/12/wislawa-szymborska-fairy-tales-fear/"
-  date: 2026-04-12
-  source: The Marginalian
-  category: philosophy
-- title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
-  url: "https://www.themarginalian.org/2026/04/12/leonard-cohen-anger-resistance/"
-  date: 2026-04-12
-  source: The Marginalian
-  category: philosophy
 - title: Patterns without desires
   url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
   date: 2026-04-10
@@ -98,11 +103,6 @@
   date: 2026-04-09
   source: Eli Bendersky
   category: programming
-- title: Travelling at the speed of light
-  url: "https://aeon.co/videos/take-a-mind-bending-ride-through-the-cosmos-at-light-speed?utm_source=rss-feed"
-  date: 2026-04-09
-  source: Aeon
-  category: philosophy
 - title: "Summary of reading: January - March 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-january-march-2026/"
   date: 2026-03-31
