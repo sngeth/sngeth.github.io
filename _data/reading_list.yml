@@ -1,57 +1,77 @@
+- title: datasette 1.0a28
+  url: "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything"
+  date: 2026-04-17
+  source: Simon Willison
+  category: ai
+- title: llm-anthropic 0.25
+  url: "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything"
+  date: 2026-04-16
+  source: Simon Willison
+  category: ai
+- title: Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7
+  url: "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything"
+  date: 2026-04-16
+  source: Simon Willison
+  category: ai
 - title: datasette.io news preview
   url: "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything"
   date: 2026-04-16
   source: Simon Willison
   category: ai
+- title: Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7
+  url: "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/"
+  date: 2026-04-16
+  source: Hacker News Best
+  category: programming
+- title: Codex for almost everything
+  url: "https://openai.com/index/codex-for-almost-everything/"
+  date: 2026-04-16
+  source: Hacker News Best
+  category: programming
+- title: Claude Opus 4.7
+  url: "https://www.anthropic.com/news/claude-opus-4-7"
+  date: 2026-04-16
+  source: Hacker News Best
+  category: programming
+- title: "Qwen3.6-35B-A3B: Agentic coding power, now open to all"
+  url: "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+  date: 2026-04-16
+  source: Hacker News Best
+  category: programming
+- title: "The future of everything is lies, I guess: Where do we go from here?"
+  url: "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here"
+  date: 2026-04-16
+  source: Hacker News Best
+  category: programming
+- title: Evolution of Paris
+  url: "https://aeon.co/videos/from-celtic-village-to-world-capital-how-paris-became-paris?utm_source=rss-feed"
+  date: 2026-04-16
+  source: Aeon
+  category: philosophy
+- title: Join the dots
+  url: "https://aeon.co/essays/why-little-red-dots-pose-a-big-mystery-about-the-universe?utm_source=rss-feed"
+  date: 2026-04-16
+  source: Aeon
+  category: philosophy
 - title: datasette-export-database 0.3a1
   url: "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything"
   date: 2026-04-15
   source: Simon Willison
   category: ai
-- title: datasette 1.0a27
-  url: "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything"
-  date: 2026-04-15
-  source: Simon Willison
-  category: ai
-- title: Quoting John Gruber
-  url: "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything"
-  date: 2026-04-15
-  source: Simon Willison
-  category: ai
-- title: Gemini 3.1 Flash TTS
-  url: "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything"
-  date: 2026-04-15
-  source: Simon Willison
-  category: ai
-- title: YouTube users get option to set their Shorts time limit to zero minutes
-  url: "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes"
-  date: 2026-04-15
-  source: Hacker News Best
-  category: programming
-- title: "The buns in McDonald's Japan's burger photos are all slightly askew"
-  url: "https://www.mcdonalds.co.jp/en/menu/burger/"
-  date: 2026-04-15
-  source: Hacker News Best
-  category: programming
-- title: "Ask HN: Who is using OpenClaw?"
-  url: "https://news.ycombinator.com/item?id=47783940"
-  date: 2026-04-15
-  source: Hacker News Best
-  category: programming
-- title: "Live Nation illegally monopolized ticketing market, jury finds"
-  url: "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds"
-  date: 2026-04-15
-  source: Hacker News Best
-  category: programming
-- title: Google broke its promise to me – now ICE has my data
-  url: "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data"
-  date: 2026-04-15
-  source: Hacker News Best
-  category: programming
 - title: Impromptu
   url: "https://aeon.co/videos/a-propulsive-ode-to-the-forgotten-parents-of-film?utm_source=rss-feed"
   date: 2026-04-15
   source: Aeon
+  category: philosophy
+- title: The Kiln and the Quantum of Relationships
+  url: "https://www.themarginalian.org/2026/04/15/kiln-quantum/"
+  date: 2026-04-15
+  source: The Marginalian
+  category: philosophy
+- title: "How to Live Fully: Ursula K. Le Guin’s Remedy for Our Resistance to Change"
+  url: "https://www.themarginalian.org/2026/04/15/le-guin-lathe-of-heaven-change/"
+  date: 2026-04-15
+  source: The Marginalian
   category: philosophy
 - title: "Enchantment and the Courage of Joy: René Magritte on the Antidote to the Banality of Pessimism"
   url: "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment/"
@@ -73,29 +93,9 @@
   date: 2026-04-14
   source: The Marginalian
   category: philosophy
-- title: "How to Conquer  Self-Doubt and Overcome Creative Block: Artist SoLewitt’s Magnificent Letter of Advice"
-  url: "https://www.themarginalian.org/2026/04/14/do-sol-lewitt-eva-hesse-letter/"
-  date: 2026-04-14
-  source: The Marginalian
-  category: philosophy
 - title: I am Sámi
   url: "https://aeon.co/videos/reindeer-politics-why-some-sami-struggle-for-recognition?utm_source=rss-feed"
   date: 2026-04-13
-  source: Aeon
-  category: philosophy
-- title: The sterilisation-seekers
-  url: "https://aeon.co/essays/why-did-disabled-people-support-eugenics-in-the-1930s?utm_source=rss-feed"
-  date: 2026-04-13
-  source: Aeon
-  category: philosophy
-- title: "Flowers for Things I Don’t Know How to Say: A Tender Painted Lexicon of Consolation and Connection"
-  url: "https://www.themarginalian.org/2026/04/13/tucker-nichols-flowers/"
-  date: 2026-04-13
-  source: The Marginalian
-  category: philosophy
-- title: Patterns without desires
-  url: "https://aeon.co/essays/could-ai-replace-human-art-experts-in-attributing-paintings?utm_source=rss-feed"
-  date: 2026-04-10
   source: Aeon
   category: philosophy
 - title: watgo - a WebAssembly Toolkit for Go
