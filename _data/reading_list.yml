@@ -1,8 +1,63 @@
+- title: Adding a new content type to my blog-to-newsletter tool
+  url: "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything"
+  date: 2026-04-18
+  source: Simon Willison
+  category: ai
+- title: Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year
+  url: "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything"
+  date: 2026-04-17
+  source: Simon Willison
+  category: ai
 - title: datasette 1.0a28
   url: "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything"
   date: 2026-04-17
   source: Simon Willison
   category: ai
+- title: "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)"
+  url: "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon"
+  date: 2026-04-17
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Smol machines – subsecond coldstart, portable virtual machines"
+  url: "https://github.com/smol-machines/smolvm"
+  date: 2026-04-17
+  source: Hacker News Best
+  category: programming
+- title: NASA Force
+  url: "https://nasaforce.gov/"
+  date: 2026-04-17
+  source: Hacker News Best
+  category: programming
+- title: "Measuring Claude 4.7's tokenizer costs"
+  url: "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you"
+  date: 2026-04-17
+  source: Hacker News Best
+  category: programming
+- title: Claude Design
+  url: "https://www.anthropic.com/news/claude-design-anthropic-labs"
+  date: 2026-04-17
+  source: Hacker News Best
+  category: programming
+- title: The invention of the soul
+  url: "https://aeon.co/essays/you-know-what-consciousness-is-you-live-in-soul-land?utm_source=rss-feed"
+  date: 2026-04-17
+  source: Aeon
+  category: philosophy
+- title: "Orcas and the Price of Consciousness: Lessons in Love and Loss from Earth’s Most Successful and Creative Predator"
+  url: "https://www.themarginalian.org/2026/04/17/orcas/"
+  date: 2026-04-17
+  source: The Marginalian
+  category: philosophy
+- title: "The Thing Itself: C.S. Lewis on What We Long for in Our Existential Longing"
+  url: "https://www.themarginalian.org/2026/04/17/c-s-lewis-longing/"
+  date: 2026-04-17
+  source: The Marginalian
+  category: philosophy
+- title: "Rehabilitating the Active Imagination: Samantha Harvey on How to Be a Reader in the Age of Fractured Attention"
+  url: "https://www.themarginalian.org/2026/04/17/samantha-harvey-interview-reading/"
+  date: 2026-04-17
+  source: The Marginalian
+  category: philosophy
 - title: llm-anthropic 0.25
   url: "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything"
   date: 2026-04-16
@@ -13,36 +68,6 @@
   date: 2026-04-16
   source: Simon Willison
   category: ai
-- title: datasette.io news preview
-  url: "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything"
-  date: 2026-04-16
-  source: Simon Willison
-  category: ai
-- title: Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7
-  url: "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/"
-  date: 2026-04-16
-  source: Hacker News Best
-  category: programming
-- title: Codex for almost everything
-  url: "https://openai.com/index/codex-for-almost-everything/"
-  date: 2026-04-16
-  source: Hacker News Best
-  category: programming
-- title: Claude Opus 4.7
-  url: "https://www.anthropic.com/news/claude-opus-4-7"
-  date: 2026-04-16
-  source: Hacker News Best
-  category: programming
-- title: "Qwen3.6-35B-A3B: Agentic coding power, now open to all"
-  url: "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
-  date: 2026-04-16
-  source: Hacker News Best
-  category: programming
-- title: "The future of everything is lies, I guess: Where do we go from here?"
-  url: "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here"
-  date: 2026-04-16
-  source: Hacker News Best
-  category: programming
 - title: Evolution of Paris
   url: "https://aeon.co/videos/from-celtic-village-to-world-capital-how-paris-became-paris?utm_source=rss-feed"
   date: 2026-04-16
@@ -53,11 +78,11 @@
   date: 2026-04-16
   source: Aeon
   category: philosophy
-- title: datasette-export-database 0.3a1
-  url: "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything"
-  date: 2026-04-15
-  source: Simon Willison
-  category: ai
+- title: William James on the Psychology of Habit
+  url: "https://www.themarginalian.org/2026/04/16/william-james-on-habit/"
+  date: 2026-04-16
+  source: The Marginalian
+  category: philosophy
 - title: Impromptu
   url: "https://aeon.co/videos/a-propulsive-ode-to-the-forgotten-parents-of-film?utm_source=rss-feed"
   date: 2026-04-15
@@ -68,34 +93,9 @@
   date: 2026-04-15
   source: The Marginalian
   category: philosophy
-- title: "How to Live Fully: Ursula K. Le Guin’s Remedy for Our Resistance to Change"
-  url: "https://www.themarginalian.org/2026/04/15/le-guin-lathe-of-heaven-change/"
-  date: 2026-04-15
-  source: The Marginalian
-  category: philosophy
-- title: "Enchantment and the Courage of Joy: René Magritte on the Antidote to the Banality of Pessimism"
-  url: "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment/"
-  date: 2026-04-15
-  source: The Marginalian
-  category: philosophy
 - title: You’ve lived this life before
   url: "https://aeon.co/essays/the-mysticism-of-nietzsches-doctrine-of-the-eternal-return?utm_source=rss-feed"
   date: 2026-04-14
-  source: Aeon
-  category: philosophy
-- title: "Is This Blue: Chilean Philosophers Humberto Maturana and Francisco Varela on Love and How We Know the World"
-  url: "https://www.themarginalian.org/2026/04/14/tree-of-knowledge-maturana-love/"
-  date: 2026-04-14
-  source: The Marginalian
-  category: philosophy
-- title: "Of Stars, Seagulls, and Love: Loren Eiseley on the First and Final Truth of Life"
-  url: "https://www.themarginalian.org/2026/04/14/loren-eiseley-love/"
-  date: 2026-04-14
-  source: The Marginalian
-  category: philosophy
-- title: I am Sámi
-  url: "https://aeon.co/videos/reindeer-politics-why-some-sami-struggle-for-recognition?utm_source=rss-feed"
-  date: 2026-04-13
   source: Aeon
   category: philosophy
 - title: watgo - a WebAssembly Toolkit for Go
@@ -148,31 +148,6 @@
   date: 2026-01-08
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
-- title: "Can a little alcohol be healthy for lifters?"
-  url: "https://www.strongerbyscience.com/alcohol-lifters/"
-  date: 2025-12-10
-  source: Stronger By Science
-  category: strength
-- title: "Is training on back-to-back days bad?"
-  url: "https://www.strongerbyscience.com/training-back-to-back/"
-  date: 2025-12-03
-  source: Stronger By Science
-  category: strength
 - title: Notes on switching to Helix from vim
   url: "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
   date: 2025-10-10
@@ -273,28 +248,3 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
