@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>QQQ Kronos Backtest Sweep Results</title>
+    <title>Kronos Backtest Sweep — US Equities (QQQ & SPY)</title>
     <style>
         body {
             margin: 0;
@@ -44,9 +44,6 @@
         .good { color: #26a69a; }
         .bad { color: #ef5350; }
         .neutral { color: #ff9800; }
-        .diff-pos { color: #26a69a; }
-        .diff-neg { color: #ef5350; }
-
         table {
             width: 100%;
             border-collapse: collapse;
@@ -71,7 +68,6 @@
         .winner { color: #26a69a; font-weight: 600; }
         .loser { color: #ef5350; }
         .tie { color: #888; }
-
         .summary-box {
             background: #2a2a3e;
             border-radius: 8px;
@@ -82,36 +78,15 @@
             border-left: 4px solid #42a5f5;
         }
         .full-width { grid-column: 1 / -1; }
-        .bar-chart {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin: 3px 0;
-        }
-        .bar {
-            height: 18px;
-            border-radius: 3px;
-            min-width: 2px;
-        }
-        .bar-label {
-            font-size: 12px;
-            color: #999;
-            min-width: 80px;
-        }
-        .bar-value {
-            font-size: 12px;
-            font-family: monospace;
-            min-width: 40px;
-        }
     </style>
 </head>
 <body>
-    <h1>QQQ Kronos Backtest Sweep</h1>
-    <div class="subtitle">24 monthly windows (May 2024 - Apr 2026) | Finetuned vs Base model comparison</div>
+    <h1>Kronos Backtest Sweep &mdash; US Equities (QQQ &amp; SPY)</h1>
+    <div class="subtitle">24 monthly windows per test | Finetuned vs Base model | High vs Low volatility regimes</div>
 
     <div class="summary-box">
-        <strong>What is this?</strong> We tested how well an AI model (Kronos) can predict QQQ (Nasdaq-100 ETF) price movements
-        by pretending we were at the end of each month over the past 2 years, asking the model "what happens next?",
+        <strong>What is this?</strong> We tested how well an AI model (Kronos) can predict QQQ (Nasdaq-100 ETF) and SPY (S&amp;P 500 ETF) price movements
+        by pretending we were at the end of each month over a 24-month window, asking the model "what happens next?",
         and then comparing its answer to what actually happened.<br><br>
 
         <strong>How it works:</strong> The model only sees past price data (open, high, low, close, volume) &mdash; no news, no earnings,
@@ -124,18 +99,45 @@
         &bull; <strong>MAPE (Mean Absolute % Error)</strong> &mdash; Same as MAE but as a percentage of the stock price.<br><br>
 
         <strong>Two models tested:</strong><br>
-        &bull; <strong>Base model</strong> &mdash; The pretrained Kronos model, trained on general time-series data. No QQQ-specific training.<br>
-        &bull; <strong>Finetuned model</strong> &mdash; The base model further trained specifically on QQQ historical prices to specialize it.<br><br>
+        &bull; <strong>Base model</strong> &mdash; The pretrained Kronos model, trained on general time-series data. No ticker-specific training.<br>
+        &bull; <strong>Finetuned model</strong> &mdash; The base model further trained specifically on ticker-specific historical prices.<br><br>
 
         <strong>Two timeframes:</strong><br>
         &bull; <strong>Daily</strong> &mdash; Looks at 90 days of daily prices, predicts the next 10 trading days (~2 weeks)<br>
         &bull; <strong>5-min</strong> &mdash; Looks at 512 five-minute bars, predicts the next 48 bars (~4 hours of trading)
     </div>
 
+    <!-- Master Summary Table -->
+    <h2>All Tests &mdash; Complete Summary</h2>
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticker</th>
+                    <th>Timeframe</th>
+                    <th>Training Bars</th>
+                    <th>Vol Regime</th>
+                    <th>FT Dir%</th>
+                    <th>Base Dir%</th>
+                    <th>FT Wins</th>
+                    <th>Base Wins</th>
+                    <th>Winner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>QQQ</td><td>Daily</td><td>2,587</td><td>High (2024-26)</td><td class="loser">43.0%</td><td class="winner">48.3%</td><td>7</td><td>10</td><td class="winner">Base</td></tr>
+                <tr><td>QQQ</td><td>Daily</td><td class="tie">&mdash;</td><td>Low (2017-18)</td><td class="tie">&mdash;</td><td>42.1%</td><td>&mdash;</td><td>&mdash;</td><td class="tie">Base only</td></tr>
+                <tr><td>QQQ</td><td>5-min</td><td class="tie">&mdash;</td><td>High (2024-26)</td><td class="tie">&mdash;</td><td>51.2%</td><td>&mdash;</td><td>&mdash;</td><td class="tie">Base only</td></tr>
+                <tr><td>SPY</td><td>5-min</td><td>32,487</td><td>High (2023-25)</td><td class="loser">52.4%</td><td class="winner">54.2%</td><td>7</td><td>14</td><td class="winner">Base</td></tr>
+                <tr><td>SPY</td><td>5-min</td><td>32,487</td><td>Low (2021-23)</td><td class="loser">47.6%</td><td class="winner">52.8%</td><td>7</td><td>15</td><td class="winner">Base</td></tr>
+            </tbody>
+        </table>
+    </div>
+
     <div class="grid">
-        <!-- Daily Model Comparison -->
+        <!-- QQQ Daily -->
         <div class="card">
-            <h3>Daily Model - Finetuned</h3>
+            <h3>QQQ Daily &mdash; Finetuned (2,587 bars)</h3>
             <div class="metric-row">
                 <span class="metric-label">Direction Accuracy</span>
                 <span class="metric-val bad">43.0%</span>
@@ -149,17 +151,13 @@
                 <span class="metric-val">$15.04</span>
             </div>
             <div class="metric-row">
-                <span class="metric-label">Avg MAPE</span>
-                <span class="metric-val">2.91%</span>
-            </div>
-            <div class="metric-row">
                 <span class="metric-label">Windows Won</span>
                 <span class="metric-val bad">7 of 23</span>
             </div>
         </div>
 
         <div class="card">
-            <h3>Daily Model - Base</h3>
+            <h3>QQQ Daily &mdash; Base</h3>
             <div class="metric-row">
                 <span class="metric-label">Direction Accuracy</span>
                 <span class="metric-val neutral">48.3%</span>
@@ -173,18 +171,56 @@
                 <span class="metric-val">$13.57</span>
             </div>
             <div class="metric-row">
-                <span class="metric-label">Avg MAPE</span>
-                <span class="metric-val">2.64%</span>
-            </div>
-            <div class="metric-row">
                 <span class="metric-label">Windows Won</span>
                 <span class="metric-val neutral">10 of 23</span>
             </div>
         </div>
 
-        <!-- 5-min Base Model -->
+        <!-- SPY 5-Min High Vol -->
+        <div class="card">
+            <h3>SPY 5-Min &mdash; High Vol (2023-25)</h3>
+            <div class="metric-row">
+                <span class="metric-label">FT Direction Accuracy</span>
+                <span class="metric-val bad">52.4%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Base Direction Accuracy</span>
+                <span class="metric-val neutral">54.2%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">FT Wins / Base Wins</span>
+                <span class="metric-val">7 / 14</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">FT MAE / Base MAE</span>
+                <span class="metric-val">$37.73 / $37.84</span>
+            </div>
+        </div>
+
+        <!-- SPY 5-Min Low Vol -->
+        <div class="card">
+            <h3>SPY 5-Min &mdash; Low Vol (2021-23)</h3>
+            <div class="metric-row">
+                <span class="metric-label">FT Direction Accuracy</span>
+                <span class="metric-val bad">47.6%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Base Direction Accuracy</span>
+                <span class="metric-val neutral">52.8%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">FT Wins / Base Wins</span>
+                <span class="metric-val">7 / 15</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">FT MAE / Base MAE</span>
+                <span class="metric-val">$42.03 / $41.49</span>
+            </div>
+        </div>
+
+        <!-- QQQ 5-Min Base -->
         <div class="card full-width">
-            <h3>5-Min Model - Base (finetuned still training)</h3>
+            <h3>QQQ 5-Min &mdash; Base Model (High Vol 2024-26)</h3>
             <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 20px;">
                 <div>
                     <div class="metric-row">
@@ -214,115 +250,35 @@
         </div>
     </div>
 
-    <!-- Daily Per-Window Table -->
-    <h2>Daily Model &mdash; Per-Window Breakdown</h2>
-    <div class="card">
-        <table>
-            <thead>
-                <tr>
-                    <th>Window</th>
-                    <th>QQQ Price</th>
-                    <th>FT Dir%</th>
-                    <th>Base Dir%</th>
-                    <th>FT MAE</th>
-                    <th>Base MAE</th>
-                    <th>Winner</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>2024-05-31</td><td>$450.71</td><td class="loser">33%</td><td>44%</td><td>$23.54</td><td class="winner">$20.68</td><td class="loser">Base</td></tr>
-                <tr><td>2024-06-30</td><td>$479.11</td><td class="loser">11%</td><td>22%</td><td>$21.77</td><td class="winner">$18.14</td><td class="loser">Base</td></tr>
-                <tr><td>2024-07-31</td><td>$471.07</td><td class="winner">22%</td><td>11%</td><td>$27.34</td><td>$23.37</td><td class="winner">FT</td></tr>
-                <tr><td>2024-08-31</td><td>$476.27</td><td class="loser">22%</td><td>44%</td><td>$13.16</td><td class="winner">$9.97</td><td class="loser">Base</td></tr>
-                <tr><td>2024-09-30</td><td>$488.07</td><td class="loser">33%</td><td>44%</td><td class="winner">$6.83</td><td>$8.76</td><td class="loser">Base</td></tr>
-                <tr><td>2024-10-31</td><td>$483.85</td><td class="winner">67%</td><td>56%</td><td class="winner">$17.42</td><td>$20.48</td><td class="winner">FT</td></tr>
-                <tr><td>2024-11-30</td><td>$509.74</td><td>56%</td><td>56%</td><td>$22.60</td><td>$22.09</td><td class="tie">Tie</td></tr>
-                <tr><td>2024-12-31</td><td>$515.61</td><td class="winner">44%</td><td>33%</td><td>$6.30</td><td class="winner">$5.18</td><td class="winner">FT</td></tr>
-                <tr><td>2025-01-31</td><td>$523.05</td><td class="loser">22%</td><td>33%</td><td>$6.55</td><td class="winner">$6.24</td><td class="loser">Base</td></tr>
-                <tr><td>2025-02-28</td><td>$500.27</td><td class="loser">33%</td><td>67%</td><td>$17.24</td><td class="winner">$16.96</td><td class="loser">Base</td></tr>
-                <tr><td>2025-03-31</td><td>$468.92</td><td>56%</td><td>56%</td><td>$33.21</td><td class="winner">$28.58</td><td class="tie">Tie</td></tr>
-                <tr><td>2025-04-30</td><td>$475.47</td><td class="winner">44%</td><td>33%</td><td class="winner">$15.62</td><td>$24.79</td><td class="winner">FT</td></tr>
-                <tr><td>2025-05-31</td><td>$519.11</td><td class="loser">22%</td><td>56%</td><td class="winner">$8.01</td><td>$10.17</td><td class="loser">Base</td></tr>
-                <tr><td>2025-06-30</td><td>$551.64</td><td>33%</td><td>33%</td><td>$13.44</td><td class="winner">$4.35</td><td class="tie">Tie</td></tr>
-                <tr><td>2025-07-31</td><td>$565.01</td><td class="loser">11%</td><td>67%</td><td>$10.93</td><td class="winner">$9.80</td><td class="loser">Base</td></tr>
-                <tr><td>2025-08-31</td><td>$570.40</td><td>44%</td><td>44%</td><td>$9.10</td><td class="winner">$8.35</td><td class="tie">Tie</td></tr>
-                <tr><td>2025-09-30</td><td>$600.37</td><td class="loser">56%</td><td>78%</td><td>$17.55</td><td class="winner">$6.52</td><td class="loser">Base</td></tr>
-                <tr><td>2025-10-31</td><td>$629.07</td><td>67%</td><td>67%</td><td>$12.27</td><td class="winner">$6.07</td><td class="tie">Tie</td></tr>
-                <tr><td>2025-11-30</td><td>$619.25</td><td class="winner">56%</td><td>33%</td><td>$15.60</td><td class="winner">$9.72</td><td class="winner">FT</td></tr>
-                <tr><td>2025-12-31</td><td>$619.43</td><td class="winner">78%</td><td>67%</td><td class="winner">$4.43</td><td>$6.44</td><td class="winner">FT</td></tr>
-                <tr><td>2026-01-31</td><td>$621.87</td><td class="winner">56%</td><td>11%</td><td>$16.05</td><td class="winner">$15.37</td><td class="winner">FT</td></tr>
-                <tr><td>2026-02-28</td><td>$607.29</td><td class="loser">22%</td><td>56%</td><td>$6.11</td><td class="winner">$4.92</td><td class="loser">Base</td></tr>
-                <tr><td>2026-03-31</td><td>$577.18</td><td>100%</td><td>100%</td><td class="winner">$20.75</td><td>$25.10</td><td class="tie">Tie</td></tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- 5-Min Per-Window Table -->
-    <h2>5-Min Base Model &mdash; Per-Window Breakdown</h2>
-    <div class="card">
-        <table>
-            <thead>
-                <tr>
-                    <th>Window</th>
-                    <th>QQQ Price</th>
-                    <th>Dir%</th>
-                    <th>MAE</th>
-                    <th>Direction</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>2024-05-31</td><td>$451.72</td><td>49%</td><td>$1.15</td><td><span style="display:inline-block;width:49%;height:14px;background:#ff9800;border-radius:2px"></span></td></tr>
-                <tr><td>2024-06-30</td><td>$479.54</td><td class="winner">64%</td><td>$0.47</td><td><span style="display:inline-block;width:64%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2024-07-31</td><td>$471.04</td><td class="loser">36%</td><td>$4.28</td><td><span style="display:inline-block;width:36%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2024-08-31</td><td>$476.26</td><td>55%</td><td>$1.66</td><td><span style="display:inline-block;width:55%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2024-09-30</td><td>$488.05</td><td>51%</td><td>$0.94</td><td><span style="display:inline-block;width:51%;height:14px;background:#ff9800;border-radius:2px"></span></td></tr>
-                <tr><td>2024-10-31</td><td>$483.90</td><td>57%</td><td>$2.61</td><td><span style="display:inline-block;width:57%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2024-11-30</td><td>$510.19</td><td class="loser">43%</td><td>$0.75</td><td><span style="display:inline-block;width:43%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2024-12-31</td><td>$512.34</td><td class="loser">40%</td><td>$1.13</td><td><span style="display:inline-block;width:40%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2025-01-31</td><td>$524.28</td><td>57%</td><td>$2.31</td><td><span style="display:inline-block;width:57%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-02-28</td><td>$503.05</td><td class="loser">47%</td><td>$3.66</td><td><span style="display:inline-block;width:47%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2025-03-31</td><td>$468.93</td><td>55%</td><td>$2.39</td><td><span style="display:inline-block;width:55%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-04-30</td><td>$475.49</td><td class="loser">43%</td><td>$7.84</td><td><span style="display:inline-block;width:43%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2025-05-31</td><td>$518.49</td><td class="loser">38%</td><td>$2.93</td><td><span style="display:inline-block;width:38%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2025-06-30</td><td>$551.64</td><td class="winner">60%</td><td>$1.03</td><td><span style="display:inline-block;width:60%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-07-31</td><td>$565.00</td><td>49%</td><td>$1.95</td><td><span style="display:inline-block;width:49%;height:14px;background:#ff9800;border-radius:2px"></span></td></tr>
-                <tr><td>2025-08-31</td><td>$569.68</td><td class="loser">45%</td><td>$4.53</td><td><span style="display:inline-block;width:45%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-                <tr><td>2025-09-30</td><td>$600.33</td><td>55%</td><td>$0.55</td><td><span style="display:inline-block;width:55%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-10-31</td><td>$629.19</td><td>57%</td><td>$2.30</td><td><span style="display:inline-block;width:57%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-11-30</td><td>$619.11</td><td>57%</td><td>$3.90</td><td><span style="display:inline-block;width:57%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2025-12-31</td><td>$616.29</td><td>55%</td><td>$3.77</td><td><span style="display:inline-block;width:55%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2026-01-31</td><td>$620.24</td><td class="winner">62%</td><td>$4.05</td><td><span style="display:inline-block;width:62%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2026-02-28</td><td>$605.38</td><td>55%</td><td>$7.37</td><td><span style="display:inline-block;width:55%;height:14px;background:#26a69a;border-radius:2px"></span></td></tr>
-                <tr><td>2026-03-31</td><td>$577.14</td><td class="loser">47%</td><td>$2.86</td><td><span style="display:inline-block;width:47%;height:14px;background:#ef5350;border-radius:2px"></span></td></tr>
-            </tbody>
-        </table>
-    </div>
-
     <!-- Key Takeaways -->
     <h2>Key Takeaways</h2>
     <div class="summary-box" style="border-left-color: #ff9800;">
-        <strong>Daily Model (predicting ~2 weeks ahead):</strong> The finetuned model got direction right 43% of the time,
-        and the base model 48%. Both are worse than a coin flip (50%). Teaching the model QQQ-specific patterns
-        didn't help &mdash; it actually made things slightly worse. This is likely because 2,587 daily bars isn't
-        enough data for the model to learn meaningful patterns beyond what it already knows.<br><br>
+        <strong>Finetuning consistently hurts.</strong> The base model won every head-to-head comparison &mdash;
+        across QQQ daily (2,587 training bars), SPY 5-min (32,487 training bars), high vol, and low vol.
+        Even with 12x more training data, finetuning degraded performance. The model may be overfitting
+        to training data patterns that don't generalize, or finetuning may cause the model to forget
+        useful general knowledge from pretraining.<br><br>
 
-        <strong>5-Min Model (predicting ~4 hours ahead):</strong> The base model got direction right 51.2% of the time
-        across 1,081 individual up/down predictions. The price error is small ($2.80 on average) because
-        5-minute moves are tiny, but the model is essentially guessing on direction.<br><br>
+        <strong>Direction accuracy is coin-flip territory.</strong> Across all 5 test configurations and thousands
+        of individual predictions, direction accuracy ranged from 42% to 54%. No setup reliably exceeded 55%,
+        which is roughly the minimum for a tradeable signal after transaction costs.<br><br>
 
-        <strong>What does this mean?</strong> If you flipped a coin to decide "will QQQ go up or down?",
-        you'd be right about as often as this model. A useful trading signal would need to be consistently
-        above 55-60% to overcome transaction costs and be worth acting on.<br><br>
+        <strong>Volatility regime doesn't matter much.</strong> The model performed similarly in both calm (2017, 2021)
+        and turbulent (2022, 2025) markets. Its best individual windows came during strong trends (sharp selloffs
+        or sustained rallies), but on average, no regime produced reliable accuracy.<br><br>
 
-        <strong>Why?</strong> QQQ is one of the most liquid, heavily-traded instruments in the world. Thousands of
-        professional traders and algorithms are already exploiting any predictable price patterns,
-        which means those patterns get arbitraged away almost immediately. A model that only looks
-        at past prices is fighting against this efficiency. The model may perform better on less
-        liquid, less-followed instruments where patterns persist longer.
+        <strong>Why?</strong> QQQ and SPY are among the most liquid instruments in the world, with combined daily volume
+        exceeding $40 billion. Thousands of professional traders and algorithms exploit any predictable price patterns
+        until they disappear. A model that only sees past prices &mdash; no news, earnings, or macro data &mdash;
+        is fighting against this efficiency with a significant information disadvantage.<br><br>
+
+        <strong>Where might Kronos work?</strong> Less liquid instruments (small-caps, niche commodities),
+        non-financial time series (energy demand, sensor data), ensemble signals (combining with sentiment/flow data),
+        or regime detection (trend vs chop classification rather than price prediction).
     </div>
 
     <div style="color: #555; font-size: 11px; margin-top: 30px; text-align: center;">
-        Generated 2026-04-18 | Kronos base model: NeoQuasar/Kronos-base | QQQ finetuned: 2,587 daily bars (2016-2026)
+        Generated 2026-04-18 | Kronos base: NeoQuasar/Kronos-base | QQQ finetuned: 2,587 daily bars | SPY finetuned: 32,487 5-min bars
     </div>
 </body>
 </html>
