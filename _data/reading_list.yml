@@ -1,3 +1,48 @@
+- title: SQL functions in Google Sheets to fetch data from Datasette
+  url: "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything"
+  date: 2026-04-20
+  source: Simon Willison
+  category: ai
+- title: "Claude Token Counter, now with model comparisons"
+  url: "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything"
+  date: 2026-04-20
+  source: Simon Willison
+  category: ai
+- title: "The insider trading suspicions looming over Trump's presidency"
+  url: "https://www.bbc.com/news/articles/cge0grppe3po"
+  date: 2026-04-20
+  source: Hacker News Best
+  category: programming
+- title: Headless everything for personal AI
+  url: "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything"
+  date: 2026-04-19
+  source: Simon Willison
+  category: ai
+- title: Swiss authorities want to reduce dependency on Microsoft
+  url: "https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532"
+  date: 2026-04-19
+  source: Hacker News Best
+  category: programming
+- title: The Bromine Chokepoint
+  url: "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/"
+  date: 2026-04-19
+  source: Hacker News Best
+  category: programming
+- title: Turtle WoW classic server announces shutdown after Blizzard wins injunction
+  url: "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/"
+  date: 2026-04-19
+  source: Hacker News Best
+  category: programming
+- title: Vercel says internal systems hit in breach
+  url: "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/"
+  date: 2026-04-19
+  source: Hacker News Best
+  category: programming
+- title: "The Experience Machine: Cognitive Philosopher Andy Clark on the Power of Expectation and How the Mind Renders Reality"
+  url: "https://www.themarginalian.org/2026/04/19/the-experience-machine-andy-clark/"
+  date: 2026-04-19
+  source: The Marginalian
+  category: philosophy
 - title: Changes in the system prompt between Claude Opus 4.6 and 4.7
   url: "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything"
   date: 2026-04-18
@@ -8,36 +53,11 @@
   date: 2026-04-18
   source: Simon Willison
   category: ai
-- title: Adding a new content type to my blog-to-newsletter tool
-  url: "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything"
+- title: Erich Fromm on the Key to Sanity
+  url: "https://www.themarginalian.org/2026/04/18/the-sane-society-erich-fromm/"
   date: 2026-04-18
-  source: Simon Willison
-  category: ai
-- title: "NIST scientists create 'any wavelength' lasers"
-  url: "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits"
-  date: 2026-04-18
-  source: Hacker News Best
-  category: programming
-- title: Thoughts and feelings around Claude Design
-  url: "https://samhenri.gold/blog/20260418-claude-design/"
-  date: 2026-04-18
-  source: Hacker News Best
-  category: programming
-- title: College instructor turns to typewriters to curb AI-written work
-  url: "https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/"
-  date: 2026-04-18
-  source: Hacker News Best
-  category: programming
-- title: Traders placed over $1B in perfectly timed bets on the Iran war
-  url: "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns"
-  date: 2026-04-18
-  source: Hacker News Best
-  category: programming
-- title: "The electromechanical angle computer inside the B-52 bomber's star tracker"
-  url: "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html"
-  date: 2026-04-18
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "No One You Love Is Ever Dead: Hemingway on the Most Devastating of Losses and the Meaning of Life"
   url: "https://www.themarginalian.org/2026/04/18/hemingway-loss-letter/"
   date: 2026-04-18
@@ -48,16 +68,6 @@
   date: 2026-04-18
   source: The Marginalian
   category: philosophy
-- title: Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year
-  url: "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything"
-  date: 2026-04-17
-  source: Simon Willison
-  category: ai
-- title: datasette 1.0a28
-  url: "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything"
-  date: 2026-04-17
-  source: Simon Willison
-  category: ai
 - title: The invention of the soul
   url: "https://aeon.co/essays/you-know-what-consciousness-is-you-live-in-soul-land?utm_source=rss-feed"
   date: 2026-04-17
@@ -65,16 +75,6 @@
   category: philosophy
 - title: Mary Oliver’s Advice on Writing
   url: "https://www.themarginalian.org/2026/04/17/mary-oliver-advice-on-writing/"
-  date: 2026-04-17
-  source: The Marginalian
-  category: philosophy
-- title: "Orcas and the Price of Consciousness: Lessons in Love and Loss from Earth’s Most Successful and Creative Predator"
-  url: "https://www.themarginalian.org/2026/04/17/orcas/"
-  date: 2026-04-17
-  source: The Marginalian
-  category: philosophy
-- title: "The Thing Itself: C.S. Lewis on What We Long for in Our Existential Longing"
-  url: "https://www.themarginalian.org/2026/04/17/c-s-lewis-longing/"
   date: 2026-04-17
   source: The Marginalian
   category: philosophy
