@@ -2,39 +2,46 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#     "mlx-audio[tts] @ git+https://github.com/Blaizzy/mlx-audio.git",
 #     "beautifulsoup4",
 #     "lxml",
 #     "pydub",
-#     "numpy",
+#     "requests",
+#     "python-dotenv",
 # ]
 # ///
-"""Generate Voxtral TTS audio for The Sid Dispatch.
+"""Generate ElevenLabs TTS audio for The Sid Dispatch.
 
 Extracts article text from dispatch HTML, generates per-story and
-full-edition MP3s via Voxtral on Apple Silicon, uploads to GitHub
-Releases, and patches HTML with <audio> players.
+full-edition MP3s via ElevenLabs API, uploads to GitHub Releases,
+and patches HTML with <audio> players.
 """
 
 import argparse
 import logging
+import os
 import re
 import shutil
 import subprocess
 import sys
 import tempfile
-import time
 from datetime import date
 from pathlib import Path
 
+import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 from pydub import AudioSegment
 
 DISPATCH_DIR = Path(__file__).resolve().parent.parent / "dispatch"
 AUDIO_DIR = DISPATCH_DIR / "audio"
 REPO = "sngeth/sngeth.github.io"
-MODEL_ID = "mlx-community/Voxtral-4B-TTS-2603-mlx-4bit"
-DEFAULT_VOICE = "casual_male"
+R2_BUCKET = "dispatch-audio"
+R2_PUBLIC_URL = "https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev"
+ELEVENLABS_API_URL = "https://api.elevenlabs.io/v1/text-to-speech"
+ELEVENLABS_MODEL = "eleven_turbo_v2_5"
+DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam - popular news/narration voice
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -48,7 +55,7 @@ def parse_args() -> argparse.Namespace:
         default=date.today(),
         help="Date for the release tag (default: today)",
     )
-    p.add_argument("--voice", default=DEFAULT_VOICE, help="Voxtral voice preset")
+    p.add_argument("--voice", default=DEFAULT_VOICE, help="ElevenLabs voice ID")
     p.add_argument(
         "--dry-run",
         action="store_true",
@@ -153,70 +160,36 @@ def extract_stories(html_path: Path) -> list[dict]:
     return stories
 
 
-MAX_RETRIES = 2
-RETRY_DELAY_SECS = 5
+def generate_story(text: str, voice: str, output_path: Path) -> float | None:
+    """Generate an MP3 for a single story via ElevenLabs API.
 
-
-def generate_story_in_subprocess(
-    text: str, voice: str, output_path: Path
-) -> float | None:
-    """Run TTS in a child process so Metal OOM kills only the child.
-
-    Retries up to MAX_RETRIES times on failure (OOM can be transient
-    depending on background GPU pressure from other apps).
+    Returns the duration in seconds, or None on failure.
     """
-    script = f"""
-import gc, sys, logging
-import mlx.core as mx
-import numpy as np
-from mlx_audio.tts.utils import load_model
-from mlx_audio.audio_io import write as audio_write
-from pydub import AudioSegment
-from pathlib import Path
+    api_key = os.environ.get("ELEVENLABS_API_KEY")
+    if not api_key:
+        log.error("ELEVENLABS_API_KEY not set")
+        sys.exit(1)
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-log = logging.getLogger(__name__)
+    resp = requests.post(
+        f"{ELEVENLABS_API_URL}/{voice}",
+        headers={"xi-api-key": api_key, "Content-Type": "application/json"},
+        json={
+            "text": text,
+            "model_id": ELEVENLABS_MODEL,
+            "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
+        },
+        timeout=300,
+    )
 
-mx.set_cache_limit(512 * 1024**2)
-mx.set_memory_limit(12 * 1024**3)
+    if resp.status_code != 200:
+        log.warning("ElevenLabs API error %d: %s", resp.status_code, resp.text[:200])
+        return None
 
-model = load_model("{MODEL_ID}")
-wav_path = Path("{output_path}").with_suffix(".wav")
-
-for result in model.generate(text={text!r}, voice={voice!r}):
-    audio_write(str(wav_path), np.array(result.audio), result.sample_rate)
-    log.info("  Generated %s audio (RTF: %.2fx, peak mem: %.1fGB)",
-             result.audio_duration, result.real_time_factor, result.peak_memory_usage)
-
-segment = AudioSegment.from_wav(str(wav_path))
-segment = segment.set_channels(1)
-segment.export("{output_path}", format="mp3", bitrate="64k")
-wav_path.unlink()
-print(len(segment) / 1000.0)
-"""
-    for attempt in range(1 + MAX_RETRIES):
-        if attempt > 0:
-            log.info("  Retry %d/%d...", attempt, MAX_RETRIES)
-        result = subprocess.run(
-            [sys.executable, "-c", script],
-            capture_output=True, text=True, timeout=600,
-            env={**__import__("os").environ},
-        )
-        if result.returncode == 0:
-            for line in result.stderr.strip().splitlines():
-                log.info("  [sub] %s", line)
-            try:
-                return float(result.stdout.strip().splitlines()[-1])
-            except (ValueError, IndexError):
-                log.warning("  Could not parse duration from subprocess output")
-                return None
-
-        last_err = result.stderr.strip().split("\n")[-1] if result.stderr.strip() else "unknown"
-        log.warning("  Subprocess failed (exit %d): %s", result.returncode, last_err)
-        if attempt < MAX_RETRIES:
-            time.sleep(RETRY_DELAY_SECS)
-
-    return None
+    output_path.write_bytes(resp.content)
+    segment = AudioSegment.from_mp3(str(output_path))
+    duration = len(segment) / 1000.0
+    log.info("  Generated %.1fs audio", duration)
+    return duration
 
 
 def generate_full_edition(story_mp3s: list[Path], output_path: Path) -> float:
@@ -231,87 +204,27 @@ def generate_full_edition(story_mp3s: list[Path], output_path: Path) -> float:
     return len(combined) / 1000.0
 
 
-def upload_to_release(tag: str, title: str, files: list[Path]) -> str:
-    """Upload MP3s as GitHub Release assets. Returns the release download base URL."""
-    check = subprocess.run(
-        ["gh", "release", "view", tag, "--repo", REPO],
-        capture_output=True,
-    )
-    if check.returncode == 0:
-        log.info("Deleting existing release %s...", tag)
-        subprocess.run(
-            ["gh", "release", "delete", tag, "--yes", "--cleanup-tag", "--repo", REPO],
-            check=True,
-        )
-
-    cmd = [
-        "gh", "release", "create", tag,
-        "--repo", REPO,
-        "--title", title,
-        "--notes", f"Auto-generated TTS audio for {tag.replace('dispatch-audio-', '')}",
-    ]
-    log.info("Creating release %s ...", tag)
-    subprocess.run(cmd, check=True)
-
-    # Get release ID and auth token for asset upload
-    result = subprocess.run(
-        ["gh", "release", "view", tag, "--repo", REPO, "--json", "databaseId", "--jq", ".databaseId"],
-        capture_output=True, text=True, check=True,
-    )
-    release_id = result.stdout.strip()
-    token = subprocess.run(
-        ["gh", "auth", "token"], capture_output=True, text=True, check=True,
-    ).stdout.strip()
-
-    # Upload each MP3 with correct Content-Type via uploads.github.com
-    upload_base = f"https://uploads.github.com/repos/{REPO}/releases/{release_id}/assets"
+def upload_to_r2(date_str: str, files: list[Path]) -> str:
+    """Upload MP3s to Cloudflare R2. Returns the public base URL for this date."""
     for f in files:
-        log.info("Uploading %s with Content-Type: audio/mpeg ...", f.name)
+        key = f"{date_str}/{f.name}"
+        log.info("Uploading %s to R2...", key)
         subprocess.run(
             [
-                "curl", "--fail", "-s",
-                "-X", "POST",
-                "-H", f"Authorization: token {token}",
-                "-H", "Content-Type: audio/mpeg",
-                "--data-binary", f"@{f}",
-                f"{upload_base}?name={f.name}",
+                "wrangler", "r2", "object", "put",
+                f"{R2_BUCKET}/{key}",
+                "--file", str(f),
+                "--content-type", "audio/mpeg",
+                "--remote",
             ],
             check=True,
         )
-
-    return f"https://github.com/{REPO}/releases/download/{tag}"
-
-
-def fetch_release_durations(tag: str) -> tuple[dict[str, float], float]:
-    """Get MP3 durations from release asset sizes (no download needed).
-
-    For 64kbps mono MP3: duration_seconds = file_size_bytes / 8000.
-    """
-    import json as _json
-
-    result = subprocess.run(
-        ["gh", "release", "view", tag, "--repo", REPO,
-         "--json", "assets", "--jq", ".assets[]|{name,size}"],
-        capture_output=True, text=True, check=True,
-    )
-
-    story_durations = {}
-    full_duration = 0.0
-    for line in result.stdout.strip().splitlines():
-        asset = _json.loads(line)
-        name, size = asset["name"], asset["size"]
-        duration = size / 8000.0  # 64kbps mono MP3
-        if name == "full-edition.mp3":
-            full_duration = duration
-        elif name.startswith("story-") and name.endswith(".mp3"):
-            story_durations[name] = duration
-
-    return story_durations, full_duration
+    return f"{R2_PUBLIC_URL}/{date_str}"
 
 
 def strip_old_player(soup: BeautifulSoup) -> None:
-    """Remove old Web Speech API player and any existing Voxtral players."""
-    # Remove previous Voxtral masthead player
+    """Remove old Web Speech API player and any existing TTS players."""
+    # Remove previous masthead player
     for audio in soup.find_all("audio", id="masthead-audio"):
         audio.parent.decompose()
         log.info("  Stripped existing masthead player")
@@ -529,13 +442,13 @@ def main() -> None:
         log.warning("No stories found. Nothing to do.")
         sys.exit(0)
 
-    tag = f"dispatch-audio-{args.date.isoformat()}"
-    base_url = f"https://github.com/{REPO}/releases/download/{tag}"
+    date_str = args.date.isoformat()
+    base_url = f"{R2_PUBLIC_URL}/{date_str}"
 
     if args.dry_run:
         print(f"\n{'='*60}")
         print(f"DRY RUN -- {len(all_stories)} stories found")
-        print(f"Release tag: {tag}")
+        print(f"R2 path: {R2_BUCKET}/{date_str}/")
         print(f"{'='*60}\n")
         for i, story in enumerate(all_stories, 1):
             words = len(story["text"].split())
@@ -546,53 +459,44 @@ def main() -> None:
         return
 
     # Verify external tools
-    required_tools = ["gh"] if args.patch_only else ["gh", "ffmpeg"]
-    for tool in required_tools:
+    for tool in ["wrangler"]:
         if subprocess.run(["which", tool], capture_output=True).returncode != 0:
             log.error("%s not found. Install it first.", tool)
             sys.exit(1)
 
     if args.patch_only:
-        # Verify release exists
-        check = subprocess.run(
-            ["gh", "release", "view", tag, "--repo", REPO],
-            capture_output=True,
-        )
-        if check.returncode != 0:
-            log.error("Release %s not found. Run without --patch-only first.", tag)
-            sys.exit(1)
-
-        # Get durations from release asset sizes (no download needed)
-        story_durations, full_duration = fetch_release_durations(tag)
-        if not story_durations:
-            log.error("No story MP3s found in release %s.", tag)
-            sys.exit(1)
-
-        log.info("Found %d story MP3s in release (full edition: %.1f min)",
-                 len(story_durations), full_duration / 60)
-
+        # In patch-only mode, download MP3s from R2 to get durations
+        tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
+        full_duration = 0.0
         for i, story in enumerate(all_stories, 1):
             mp3_name = f"story-{i:02d}.mp3"
-            if mp3_name in story_durations:
+            url = f"{base_url}/{mp3_name}"
+            resp = requests.head(url, timeout=10)
+            if resp.status_code == 200:
                 story["mp3_name"] = mp3_name
-                story["duration"] = story_durations[mp3_name]
+                # Estimate duration from Content-Length (64kbps = 8000 bytes/sec)
+                size = int(resp.headers.get("Content-Length", 0))
+                story["duration"] = size / 8000.0
+        # Get full edition duration
+        resp = requests.head(f"{base_url}/full-edition.mp3", timeout=10)
+        if resp.status_code == 200:
+            full_duration = int(resp.headers.get("Content-Length", 0)) / 8000.0
+        else:
+            log.error("full-edition.mp3 not found on R2. Run without --patch-only first.")
+            sys.exit(1)
     else:
         # Phase 2: Generate audio
         tmp_dir = Path(tempfile.mkdtemp(prefix="dispatch-audio-"))
         log.info("Working directory: %s", tmp_dir)
 
         story_mp3s = []
-        story_durations = {}
         for i, story in enumerate(all_stories, 1):
             mp3_name = f"story-{i:02d}.mp3"
             mp3_path = tmp_dir / mp3_name
             log.info("Generating %s: %s...", mp3_name, story["headline"][:50])
-            duration = generate_story_in_subprocess(
-                story["text"], args.voice, mp3_path
-            )
+            duration = generate_story(story["text"], args.voice, mp3_path)
             if duration is not None:
                 story_mp3s.append(mp3_path)
-                story_durations[mp3_name] = duration
                 story["mp3_name"] = mp3_name
                 story["duration"] = duration
             else:
@@ -607,10 +511,9 @@ def main() -> None:
         full_duration = generate_full_edition(story_mp3s, full_path)
         log.info("Full edition: %.1f min", full_duration / 60)
 
-        # Phase 3: Upload to GitHub Releases
+        # Phase 3: Upload to Cloudflare R2
         all_files = [full_path] + story_mp3s
-        title = f"Dispatch Audio \u2014 {args.date.isoformat()}"
-        base_url = upload_to_release(tag, title, all_files)
+        base_url = upload_to_r2(date_str, all_files)
         log.info("Uploaded to %s", base_url)
 
     # Phase 4: Patch HTML files
@@ -623,15 +526,14 @@ def main() -> None:
     }
 
     title_tag = BeautifulSoup(page1_path.read_text(), "lxml").title
-    edition_date = title_tag.string.split("\u2014")[-1].strip() if title_tag else args.date.isoformat()
+    edition_date = title_tag.string.split("\u2014")[-1].strip() if title_tag else date_str
 
     patch_html(page1_path, audio_map, base_url, edition_date, full_duration, is_page1=True)
     if page2_path.exists():
         patch_html(page2_path, audio_map, base_url, edition_date, full_duration, is_page1=False)
 
     # Cleanup temp files
-    if not args.patch_only:
-        shutil.rmtree(tmp_dir, ignore_errors=True)
+    shutil.rmtree(tmp_dir, ignore_errors=True)
 
     log.info("Done! Audio: %s, HTML patched.", base_url)
 

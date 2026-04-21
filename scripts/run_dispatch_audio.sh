@@ -1,5 +1,5 @@
 #!/bin/bash
-# Automated Voxtral TTS runner for The Sid Dispatch
+# Automated ElevenLabs TTS runner for The Sid Dispatch
 # Runs on your Mac after the dispatch HTML is generated and pushed.
 # Schedule: launchd at 7:30am daily (30min buffer after dispatch generation)
 
@@ -51,22 +51,21 @@ if [ ! -f "dispatch/index.html" ]; then
   exit 1
 fi
 
-# Check if audio already generated for today (release already exists)
-TAG="dispatch-audio-$DATE"
+# Check if audio already generated for today (check R2 for full-edition.mp3)
+R2_URL="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/$DATE/full-edition.mp3"
 if [ "$PATCH_ONLY" = true ]; then
-  if ! gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
-    echo "✗ Release $TAG not found. Cannot --patch-only."
+  if ! curl -sf --head "$R2_URL" > /dev/null 2>&1; then
+    echo "✗ Audio not found on R2 for $DATE. Cannot --patch-only."
     exit 1
   fi
-  echo "→ Re-patching HTML for $DATE from existing release..."
+  echo "→ Re-patching HTML for $DATE from existing R2 audio..."
   uv run scripts/generate_dispatch_audio.py --date "$DATE" --patch-only
 else
-  if gh release view "$TAG" --repo sngeth/sngeth.github.io > /dev/null 2>&1; then
+  if curl -sf --head "$R2_URL" > /dev/null 2>&1; then
     if [ "$FORCE" = true ]; then
-      echo "→ Release $TAG exists. --force: deleting and regenerating..."
-      gh release delete "$TAG" --repo sngeth/sngeth.github.io --yes --cleanup-tag
+      echo "→ Audio exists on R2. --force: regenerating..."
     else
-      echo "→ Release $TAG already exists. Skipping."
+      echo "→ Audio already exists on R2 for $DATE. Skipping."
       exit 0
     fi
   fi

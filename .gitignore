@@ -43,5 +43,9 @@ bower_components
 logs/
 .superpowers/
 
+# Environment variables
+.env
+.wrangler/
+
 # Claude AI instructions
 CLAUDE.md
