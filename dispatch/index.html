@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Dispatch — Wednesday, April 22, 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/>
 <style>
   :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -73,263 +73,191 @@
     .tert:last-child{padding-left:0;}
   }
   /* ── AUDIO PLAYER ── */
-  #dispatch-player{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--black);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;box-shadow:0 -2px 12px rgba(0,0,0,.3);transform:translateY(100%);transition:transform .3s ease;}
-  #dispatch-player.visible{transform:translateY(0);}
-  #dispatch-player button{background:none;border:1px solid #fff;color:#fff;padding:5px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;}
-  #dispatch-player button:hover{background:#fff;color:var(--black);}
-  #dispatch-player button.active{background:var(--dark-red);border-color:var(--dark-red);}
-  #player-title{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#ccc;font-size:10px;}
-  #player-progress{font-size:10px;color:#888;white-space:nowrap;}
-  .reading-active{outline:2px solid var(--dark-red);outline-offset:4px;border-radius:2px;}
-  #player-toggle{position:fixed;bottom:16px;right:16px;z-index:1001;background:var(--dark-red);color:#fff;border:none;width:44px;height:44px;border-radius:50%;font-size:18px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </style>
 </head>
 <body>
 <div class="wrap">
-  
-  <div class="top-bar">
-    <span>Vol. 223 &nbsp;·&nbsp; No. 379</span>
-    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
-    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
-  </div>
-  <div class="masthead">
-    <div class="masthead-name">The Dispatch</div>
-    <div class="masthead-tagline">"All the signal, none of the noise."</div>
-    <div class="masthead-meta">
-      <span>sngeth.github.io/dispatch</span>
-      <span style="color:var(--black);font-weight:500;">Wednesday, April 22, 2026</span>
-      <span>Powered by Claude &nbsp;·&nbsp; HN + 𝕏</span>
-    </div>
-  </div>
-  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
-  <div class="main-grid">
-    <div class="hn-col">
-      <div class="story-grid">
-        <div class="lead">
-    <div class="tag">Engineering · Methodology</div>
-    <h1 class="headline" id="the-unwritten-rules-that-actually-govern-software" style="font-size:34px"><a href="https://lawsofsoftwareengineering.com" target="_blank" style="color:inherit;text-decoration:none;">The Unwritten Rules That Actually Govern Software</a><span class="permalink" onclick="copyLink('the-unwritten-rules-that-actually-govern-software')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*A compendium of hard-won truths reveals why engineering intuition often beats theory*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47847179" target="_blank" style="color:inherit;text-decoration:none;">▲ 1064 pts &nbsp;·&nbsp; 487 comments</a>
-    </div>
-    <div class="body-text">
-      <p class="drop-cap">Every software engineer accumulates a mental library of lessons that no computer science degree can teach: Conway's Law, the mythical man-month, the Peter Principle applied to code architecture. Now, a comprehensive catalog of these informal laws—the recurring patterns and contradictions that define the discipline—has surfaced as a rallying point for an industry tired of platitudes. The document doesn't pretend software engineering has answers; instead, it systematizes the questions that never quite go away. Why does adding developers slow projects down? Why does code that works perfectly in isolation fail at scale? These aren't bugs; they're features of a fundamentally complex system.</p><p>With nearly 1,100 upvotes and 487 deeply engaged comments, the collection strikes a nerve precisely because it validates what practitioners already know in their bones. The laws cut across philosophical chasms—between agile and waterfall, between startup velocity and enterprise stability—by refusing to declare winners. Instead, they document the immutable friction points: that systems grow until they exceed any single person's comprehension, that the best code is often the code you delete, that premature optimization and premature abstraction are equally poisonous. For a field obsessed with disruption and novelty, there's something almost heretical about admitting that these patterns repeat because human cognition and organizational dynamics don't fundamentally change.</p>
-      <div class="pull-quote">&quot;The best code is often the code you delete, and the worst code is often the code you can't afford to touch.&quot;</div>
-    </div></div>
-        <div class="sec">
-    <div class="tag">AI · Generative Models</div>
-    <h2 class="headline" id="openai-s-image-generation-2-0-raises-the-bar-and-the-stakes" style="font-size:21px"><a href="https://openai.com/index/introducing-chatgpt-images-2-0/" target="_blank" style="color:inherit;text-decoration:none;">OpenAI's Image Generation 2.0 Raises the Bar—and the Stakes</a><span class="permalink" onclick="copyLink('openai-s-image-generation-2-0-raises-the-bar-and-the-stakes')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The company pushes deeper into visual AI, but timing reveals a competitive scramble*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47852835" target="_blank" style="color:inherit;text-decoration:none;">▲ 887 pts &nbsp;·&nbsp; 740 comments</a>
-    </div>
-    <div class="body-text">
-      <p>OpenAI has unveiled the next iteration of its image generation capabilities, a technically refined system that appears to resolve several bottlenecks that plagued the original release: faster inference, better instruction-following, and reduced artifacts that previously made generated images immediately recognizable as synthetic. The upgrade lands amid an intensifying arms race in visual AI, where Meta, Google, and startup upstarts like Midjourney have collectively raised expectations to a point where &quot;acceptable&quot; now means nearly indistinguishable from photography.</p><p>Yet the 887-point ranking and 740 comments—more engagement than the core narrative typically commands—hints at deeper anxieties within the technical community. The improvements matter less than the question they pose: Can any single company maintain dominance in a space where the core models are increasingly commodified? ChatGPT's text capabilities anchored OpenAI's moat partly through exclusive access; image generation, by contrast, is becoming a feature any capable lab can bolt onto its pipeline. The economics have shifted from &quot;who builds it first&quot; to &quot;who integrates it best into the workflows people already use daily.&quot;</p>
-      
-    </div></div>
-        <div class="bot-row">
-          <div class="tert">
-    <div class="tag">Acquisitions · AI Dev Tools</div>
-    <h2 class="headline" id="spacex-s-60b-cursor-gambit-acquisition-or-acquisition-fever" style="font-size:19px"><a href="https://twitter.com/spacex/status/2046713419978453374" target="_blank" style="color:inherit;text-decoration:none;">SpaceX's $60B Cursor Gambit: Acquisition or Acquisition Fever?</a><span class="permalink" onclick="copyLink('spacex-s-60b-cursor-gambit-acquisition-or-acquisition-fever')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*Elon Musk's rocket company buys the AI-native code editor, signaling a pivot into developer tools*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47855293" target="_blank" style="color:inherit;text-decoration:none;">▲ 646 pts &nbsp;·&nbsp; 808 comments</a>
-    </div>
-    <div class="body-text">
-      <p>The aerospace manufacturer's sudden announcement that it has secured an agreement to acquire Cursor—the rapidly ascending AI-powered code editor—for a rumored $60 billion raises questions that sprawl across business logic, valuation sanity, and Musk's appetite for bets. Cursor, which rocketed to prominence by marrying Claude's reasoning capabilities with IDE-level code generation, had reached unicorn status through product excellence rather than venture capital saturation. A $60 billion price tag for a tool that doesn't yet generate revenue at scale suggests either a staggering confidence in Cursor's future market capture or a tactical chess move in a larger game.</p><p>The 646-point score but 808 comments—an unusually high ratio suggesting genuine skepticism in the replies—reflects the tech community's bewilderment. SpaceX's core competency lies in rockets and launch economics, not developer infrastructure. The acquisition could signal Musk's intention to build internal tooling that gives SpaceX's engineers a competitive advantage in complex systems development, or it could represent empire-building divorced from fundamental strategy. What's clear: if the valuation holds, it positions Cursor as a potential category leader, even as skeptics question whether any code editor—however smart—justifies a nine-figure multiple.</p>
-      
-    </div></div><div class="tert">
-    <div class="tag">Hardware · DIY</div>
-    <h2 class="headline" id="building-ram-from-scratch-the-hobbyist-hardware-movement-get" style="font-size:19px"><a href="https://www.youtube.com/watch?v=h6GWikWlAQA" target="_blank" style="color:inherit;text-decoration:none;">Building RAM From Scratch: The Hobbyist Hardware Movement Gets Serious</a><span class="permalink" onclick="copyLink('building-ram-from-scratch-the-hobbyist-hardware-movement-get')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A DIY deep-dive reveals the surprising accessibility—and absurdity—of semiconductor fabrication at home*</div>
-    <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=47842569" target="_blank" style="color:inherit;text-decoration:none;">▲ 429 pts &nbsp;·&nbsp; 123 comments</a>
-    </div>
-    <div class="body-text">
-      <p>Someone has successfully constructed functional RAM modules in a home workshop, documenting the process in video form that has quietly accumulated attention within the maker community. The feat sounds impossible until you realize the bar for &quot;functional&quot; is far lower than commercial production, and the underlying chemistry—layer deposition, photolithography, ion implantation—is more accessible than the semiconductor industry's marketing suggests. The video likely employs techniques borrowed from printed circuit board prototyping, chemical etching, and vacuum chamber hacks that have become standard in advanced hobbyist spaces.</p><p>With 429 points and surprisingly modest comment volume (123), the content appears to have resonated within a narrower slice of the audience: those who still believe manufacturing capability should be demystified and distributed. The low engagement ratio compared to AI or acquisition news suggests the zeitgeist remains fixated on software abstractions, yet this kind of work represents a parallel current—a persistent belief that the tools of production should be legible to anyone willing to spend the time. Whether this serves practical utility or mainly symbolic value remains an open question.</p>
-      
-    </div></div>
-        </div>
-      </div>
-      
-    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
-      
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Engineering · Career</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Unfiltered Wisdom of a Senior Engineer: What Years of Code Actually Teach You</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 170 · 113 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Infrastructure · Architecture</div>
-          <a href="page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Microsoft's Unexpected ARM Gamble: Windows Server 2025 Performs Better on Processors It Never Optimized For</div>
-          </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 142 · 115 comments &nbsp;·&nbsp; <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
-        </div>
-    </div>
-    </div>
-    <div class="x-col">
-      <div class="sidebar-label">From the Feed &nbsp;·&nbsp; 𝕏</div>
-      
-    <div class="x-item" id="x-billionaire-escalates-attack-on-civil-rights-org">
-      <div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-billionaire-escalates-attack-on-civil-rights-org')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Billionaire Escalates Attack on Civil Rights Org</div>
-      <div class="x-body">Musk's call for imprisonment of SPLC executives represents a significant escalation in his months-long campaign against the organization, signaling how platform power can amplify disputes into demands for criminal prosecution. Whether the underlying complaints have merit, the pattern reveals how tech leaders increasingly use their megaphones to mobilize followers against institutions they oppose, blurring the line between criticism and coordination.</div>
-    </div>
-    <div class="x-item" id="x-vision-models-quietly-solving-real-creative-work">
-      <div class="x-handle">@nic<span class="permalink" onclick="copyLink('x-vision-models-quietly-solving-real-creative-work')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Vision Models Quietly Solving Real Creative Work</div>
-      <div class="x-body">This casual post about ChatGPT's image editing capability is a reminder that multimodal AI has moved past demos into delivering genuinely useful output on mundane tasks. These under-the-radar wins—not the flashy reasoning breakthroughs—are what will reshape creative and analytical workflows faster than anyone anticipated.</div>
-    </div>
-    <div class="x-item" id="x-the-musk-splc-dispute-goes-full-absurdist">
-      <div class="x-handle">@Oilfield Rando<span class="permalink" onclick="copyLink('x-the-musk-splc-dispute-goes-full-absurdist')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">The Musk-SPLC Dispute Goes Full Absurdist</div>
-      <div class="x-body">This post distills a real tension underlying the feud: can institutional credibility survive accusations that it's corrupt? The joke hinges on suggesting the SPLC might pay for favorable coverage, mirroring how Musk's faction now frames the organization as fundamentally dishonest rather than merely mistaken.</div>
-    </div>
-    <div class="x-item" id="x-retail-bots-prove-scarcity-economics-still-works">
-      <div class="x-handle">@Pokemon Deals, Alerts &amp; News!<span class="permalink" onclick="copyLink('x-retail-bots-prove-scarcity-economics-still-works')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">Retail Bots Prove Scarcity Economics Still Works</div>
-      <div class="x-body">A Pokemon bot coordinating flash drops reveals how artificial scarcity—whether intentional or manufactured by reseller demand—remains the primary engine of engagement and secondary markets. This isn't about gaming; it's a template for how platforms generate urgency when actual innovation stalls.</div>
-    </div>
-    <div class="x-item" id="x-vc-founder-weaponizes-father-s-death-against-splc">
-      <div class="x-handle">@benahorowitz.eth<span class="permalink" onclick="copyLink('x-vc-founder-weaponizes-father-s-death-against-splc')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
-      <div class="x-headline">VC Founder Weaponizes Father's Death Against SPLC</div>
-      <div class="x-body">Horowitz's personal grievance—his father's listing as connected to extremism—has become a rallying point in tech's broader assault on the SPLC's credibility, conflating individual cases of potential misclassification with claims the organization itself is a hate group. The emotional intensity obscures whether the underlying complaint is about process or ideology.</div>
-    </div>
-    </div>
-  </div>
-  <div class="page-nav"><a class="current" href="index.html">Page 1</a>
-      <a  href="page2.html">Page 2</a></div>
-  <footer>
-    <span>The Dispatch &nbsp;·&nbsp; Wednesday, April 22, 2026</span>
-    <span>Sources: Hacker News API &nbsp;·&nbsp; 𝕏 Live Feed &nbsp;·&nbsp; <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 08:34 AM EDT</span>
-  </footer>
+<div class="top-bar">
+<span>Vol. 223  ·  No. 379</span>
+<span>⬥   Tech · Markets · Discourse   ⬥</span>
+<span>Page 1 of 2  ·  <a href="archive/index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
 </div>
-
+<div class="masthead">
+<div class="masthead-name">The Dispatch</div>
+<div class="masthead-tagline">"All the signal, none of the noise."</div>
+<div class="masthead-meta">
+<span>sngeth.github.io/dispatch</span>
+<span style="color:var(--black);font-weight:500;">Wednesday, April 22, 2026</span>
+<span>Powered by Claude  ·  HN + 𝕏</span>
+</div>
+</div>
+<div style="background:var(--sidebar);border:1px solid var(--light);padding:14px 18px;margin:12px 0 4px;display:flex;align-items:center;gap:16px;">
+<audio controls="" id="masthead-audio" preload="none" style="flex:1;height:36px;"><source src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/full-edition.mp3" type="audio/mpeg"/></audio>
+<div style="text-align:right;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:var(--dark-red);font-weight:bold;">The Daily Listen</div>
+<div style="font-family:'Lora',serif;font-size:11px;color:var(--mid);margin-top:2px;">Wednesday, April 22, 2026 · 21:08</div>
+</div>
+</div><div class="section-label">Hacker News  ·  Top Dispatches</div>
+<div class="main-grid">
+<div class="hn-col">
+<div class="story-grid">
+<div class="lead">
+<div class="tag">Engineering · Methodology</div>
+<h1 class="headline" id="the-unwritten-rules-that-actually-govern-software" style="font-size:34px"><a href="https://lawsofsoftwareengineering.com" style="color:inherit;text-decoration:none;" target="_blank">The Unwritten Rules That Actually Govern Software</a><span class="permalink" onclick="copyLink('the-unwritten-rules-that-actually-govern-software')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+<div class="deck">*A compendium of hard-won truths reveals why engineering intuition often beats theory*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47847179" style="color:inherit;text-decoration:none;" target="_blank">▲ 1064 pts  ·  487 comments</a>
+<span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-01.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:49</span></div>
+<div class="body-text">
+<p class="drop-cap">Every software engineer accumulates a mental library of lessons that no computer science degree can teach: Conway's Law, the mythical man-month, the Peter Principle applied to code architecture. Now, a comprehensive catalog of these informal laws—the recurring patterns and contradictions that define the discipline—has surfaced as a rallying point for an industry tired of platitudes. The document doesn't pretend software engineering has answers; instead, it systematizes the questions that never quite go away. Why does adding developers slow projects down? Why does code that works perfectly in isolation fail at scale? These aren't bugs; they're features of a fundamentally complex system.</p><p>With nearly 1,100 upvotes and 487 deeply engaged comments, the collection strikes a nerve precisely because it validates what practitioners already know in their bones. The laws cut across philosophical chasms—between agile and waterfall, between startup velocity and enterprise stability—by refusing to declare winners. Instead, they document the immutable friction points: that systems grow until they exceed any single person's comprehension, that the best code is often the code you delete, that premature optimization and premature abstraction are equally poisonous. For a field obsessed with disruption and novelty, there's something almost heretical about admitting that these patterns repeat because human cognition and organizational dynamics don't fundamentally change.</p>
+<div class="pull-quote">"The best code is often the code you delete, and the worst code is often the code you can't afford to touch."</div>
+</div></div>
+<div class="sec">
+<div class="tag">AI · Generative Models</div>
+<h2 class="headline" id="openai-s-image-generation-2-0-raises-the-bar-and-the-stakes" style="font-size:21px"><a href="https://openai.com/index/introducing-chatgpt-images-2-0/" style="color:inherit;text-decoration:none;" target="_blank">OpenAI's Image Generation 2.0 Raises the Bar—and the Stakes</a><span class="permalink" onclick="copyLink('openai-s-image-generation-2-0-raises-the-bar-and-the-stakes')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*The company pushes deeper into visual AI, but timing reveals a competitive scramble*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47852835" style="color:inherit;text-decoration:none;" target="_blank">▲ 887 pts  ·  740 comments</a>
+<span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-02.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:28</span></div>
+<div class="body-text">
+<p>OpenAI has unveiled the next iteration of its image generation capabilities, a technically refined system that appears to resolve several bottlenecks that plagued the original release: faster inference, better instruction-following, and reduced artifacts that previously made generated images immediately recognizable as synthetic. The upgrade lands amid an intensifying arms race in visual AI, where Meta, Google, and startup upstarts like Midjourney have collectively raised expectations to a point where "acceptable" now means nearly indistinguishable from photography.</p><p>Yet the 887-point ranking and 740 comments—more engagement than the core narrative typically commands—hints at deeper anxieties within the technical community. The improvements matter less than the question they pose: Can any single company maintain dominance in a space where the core models are increasingly commodified? ChatGPT's text capabilities anchored OpenAI's moat partly through exclusive access; image generation, by contrast, is becoming a feature any capable lab can bolt onto its pipeline. The economics have shifted from "who builds it first" to "who integrates it best into the workflows people already use daily."</p>
+</div></div>
+<div class="bot-row">
+<div class="tert">
+<div class="tag">Acquisitions · AI Dev Tools</div>
+<h2 class="headline" id="spacex-s-60b-cursor-gambit-acquisition-or-acquisition-fever" style="font-size:19px"><a href="https://twitter.com/spacex/status/2046713419978453374" style="color:inherit;text-decoration:none;" target="_blank">SpaceX's $60B Cursor Gambit: Acquisition or Acquisition Fever?</a><span class="permalink" onclick="copyLink('spacex-s-60b-cursor-gambit-acquisition-or-acquisition-fever')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*Elon Musk's rocket company buys the AI-native code editor, signaling a pivot into developer tools*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47855293" style="color:inherit;text-decoration:none;" target="_blank">▲ 646 pts  ·  808 comments</a>
+<span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-03.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:45</span></div>
+<div class="body-text">
+<p>The aerospace manufacturer's sudden announcement that it has secured an agreement to acquire Cursor—the rapidly ascending AI-powered code editor—for a rumored $60 billion raises questions that sprawl across business logic, valuation sanity, and Musk's appetite for bets. Cursor, which rocketed to prominence by marrying Claude's reasoning capabilities with IDE-level code generation, had reached unicorn status through product excellence rather than venture capital saturation. A $60 billion price tag for a tool that doesn't yet generate revenue at scale suggests either a staggering confidence in Cursor's future market capture or a tactical chess move in a larger game.</p><p>The 646-point score but 808 comments—an unusually high ratio suggesting genuine skepticism in the replies—reflects the tech community's bewilderment. SpaceX's core competency lies in rockets and launch economics, not developer infrastructure. The acquisition could signal Musk's intention to build internal tooling that gives SpaceX's engineers a competitive advantage in complex systems development, or it could represent empire-building divorced from fundamental strategy. What's clear: if the valuation holds, it positions Cursor as a potential category leader, even as skeptics question whether any code editor—however smart—justifies a nine-figure multiple.</p>
+</div></div><div class="tert">
+<div class="tag">Hardware · DIY</div>
+<h2 class="headline" id="building-ram-from-scratch-the-hobbyist-hardware-movement-get" style="font-size:19px"><a href="https://www.youtube.com/watch?v=h6GWikWlAQA" style="color:inherit;text-decoration:none;" target="_blank">Building RAM From Scratch: The Hobbyist Hardware Movement Gets Serious</a><span class="permalink" onclick="copyLink('building-ram-from-scratch-the-hobbyist-hardware-movement-get')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+<div class="deck">*A DIY deep-dive reveals the surprising accessibility—and absurdity—of semiconductor fabrication at home*</div>
+<div class="byline">
+<a href="https://news.ycombinator.com/item?id=47842569" style="color:inherit;text-decoration:none;" target="_blank">▲ 429 pts  ·  123 comments</a>
+<span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-04.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 1:33</span></div>
+<div class="body-text">
+<p>Someone has successfully constructed functional RAM modules in a home workshop, documenting the process in video form that has quietly accumulated attention within the maker community. The feat sounds impossible until you realize the bar for "functional" is far lower than commercial production, and the underlying chemistry—layer deposition, photolithography, ion implantation—is more accessible than the semiconductor industry's marketing suggests. The video likely employs techniques borrowed from printed circuit board prototyping, chemical etching, and vacuum chamber hacks that have become standard in advanced hobbyist spaces.</p><p>With 429 points and surprisingly modest comment volume (123), the content appears to have resonated within a narrower slice of the audience: those who still believe manufacturing capability should be demystified and distributed. The low engagement ratio compared to AI or acquisition news suggests the zeitgeist remains fixated on software abstractions, yet this kind of work represents a parallel current—a persistent belief that the tools of production should be legible to anyone willing to spend the time. Whether this serves practical utility or mainly symbolic value remains an open question.</p>
+</div></div>
+</div>
+</div>
+<div class="section-label" style="margin-top:24px;">On Page 2  ·  Extended Coverage</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Engineering · Career</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">The Unfiltered Wisdom of a Senior Engineer: What Years of Code Actually Teach You</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 170 · 113 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+<div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+<div class="tag">Infrastructure · Architecture</div>
+<a href="page2.html" style="text-decoration:none;color:inherit;">
+<div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Microsoft's Unexpected ARM Gamble: Windows Server 2025 Performs Better on Processors It Never Optimized For</div>
+</a>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 142 · 115 comments  ·  <a href="page2.html" style="color:var(--dark-red);">Continue →</a></div>
+</div>
+</div>
+</div>
+<div class="x-col">
+<div class="sidebar-label">From the Feed  ·  𝕏</div>
+<div class="x-item" id="x-billionaire-escalates-attack-on-civil-rights-org">
+<div class="x-handle">@Elon Musk<span class="permalink" onclick="copyLink('x-billionaire-escalates-attack-on-civil-rights-org')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Billionaire Escalates Attack on Civil Rights Org</div><span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-05.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:36</span>
+<div class="x-body">Musk's call for imprisonment of SPLC executives represents a significant escalation in his months-long campaign against the organization, signaling how platform power can amplify disputes into demands for criminal prosecution. Whether the underlying complaints have merit, the pattern reveals how tech leaders increasingly use their megaphones to mobilize followers against institutions they oppose, blurring the line between criticism and coordination.</div>
+</div>
+<div class="x-item" id="x-vision-models-quietly-solving-real-creative-work">
+<div class="x-handle">@nic<span class="permalink" onclick="copyLink('x-vision-models-quietly-solving-real-creative-work')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Vision Models Quietly Solving Real Creative Work</div><span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-06.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:28</span>
+<div class="x-body">This casual post about ChatGPT's image editing capability is a reminder that multimodal AI has moved past demos into delivering genuinely useful output on mundane tasks. These under-the-radar wins—not the flashy reasoning breakthroughs—are what will reshape creative and analytical workflows faster than anyone anticipated.</div>
+</div>
+<div class="x-item" id="x-the-musk-splc-dispute-goes-full-absurdist">
+<div class="x-handle">@Oilfield Rando<span class="permalink" onclick="copyLink('x-the-musk-splc-dispute-goes-full-absurdist')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">The Musk-SPLC Dispute Goes Full Absurdist</div><span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-07.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:28</span>
+<div class="x-body">This post distills a real tension underlying the feud: can institutional credibility survive accusations that it's corrupt? The joke hinges on suggesting the SPLC might pay for favorable coverage, mirroring how Musk's faction now frames the organization as fundamentally dishonest rather than merely mistaken.</div>
+</div>
+<div class="x-item" id="x-retail-bots-prove-scarcity-economics-still-works">
+<div class="x-handle">@Pokemon Deals, Alerts &amp; News!<span class="permalink" onclick="copyLink('x-retail-bots-prove-scarcity-economics-still-works')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">Retail Bots Prove Scarcity Economics Still Works</div><span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-08.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:32</span>
+<div class="x-body">A Pokemon bot coordinating flash drops reveals how artificial scarcity—whether intentional or manufactured by reseller demand—remains the primary engine of engagement and secondary markets. This isn't about gaming; it's a template for how platforms generate urgency when actual innovation stalls.</div>
+</div>
+<div class="x-item" id="x-vc-founder-weaponizes-father-s-death-against-splc">
+<div class="x-handle">@benahorowitz.eth<span class="permalink" onclick="copyLink('x-vc-founder-weaponizes-father-s-death-against-splc')" title="Copy link to this post">share<span class="copied">Copied!</span></span></div>
+<div class="x-headline">VC Founder Weaponizes Father's Death Against SPLC</div><span class="listen-pill" data-src="https://pub-9763ba4e3f6c471f86b2b40bc004a479.r2.dev/2026-04-22/story-09.mp3" style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border:1px solid var(--light);border-radius:3px;margin-left:8px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--mid);transition:all .2s;"><span style="color:var(--dark-red);font-size:10px;">▶</span> LISTEN · 0:30</span>
+<div class="x-body">Horowitz's personal grievance—his father's listing as connected to extremism—has become a rallying point in tech's broader assault on the SPLC's credibility, conflating individual cases of potential misclassification with claims the organization itself is a hate group. The emotional intensity obscures whether the underlying complaint is about process or ideology.</div>
+</div>
+</div>
+</div>
+<div class="page-nav"><a class="current" href="index.html">Page 1</a>
+<a href="page2.html">Page 2</a></div>
+<footer>
+<span>The Dispatch  ·  Wednesday, April 22, 2026</span>
+<span>Sources: Hacker News API  ·  𝕏 Live Feed  ·  <a href="archive/index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+<span>Generated 08:34 AM EDT</span>
+</footer>
+</div>
 <!-- ── AUDIO PLAYER ── -->
-<button id="player-toggle" title="Listen to Dispatch" onclick="togglePlayer()">🎧</button>
-<div id="dispatch-player">
-  <button id="btn-prev" onclick="prevArticle()" title="Previous">⏮</button>
-  <button id="btn-play" onclick="togglePlay()">▶ Play</button>
-  <button id="btn-next" onclick="nextArticle()" title="Next">⏭</button>
-  <span id="player-title">The Dispatch</span>
-  <span id="player-progress"></span>
-  <button id="btn-speed" onclick="cycleSpeed()">1×</button>
-  <button onclick="closePlayer()" title="Close">✕</button>
-</div>
+
+
+
 <script>
-function copyLink(slug) {
-  var url = location.origin + location.pathname + '#' + slug;
-  navigator.clipboard.writeText(url).then(function() {
-    var el = document.getElementById(slug);
-    if (!el) return;
-    var tip = el.querySelector('.copied') || el.closest('[id]').querySelector('.copied');
-    if (tip) { tip.classList.add('show'); setTimeout(function() { tip.classList.remove('show'); }, 1500); }
-  });
-}
 (function() {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
+  var player = document.createElement('audio');
+  player.id = 'story-player';
+  player.preload = 'none';
+  document.body.appendChild(player);
 
-  let articles = [];
-  let current = 0;
-  let playing = false;
-  let speed = 1;
-  const speeds = [0.8, 1, 1.25, 1.5];
-  let speedIdx = 1;
-  let activeEl = null;
+  var activePill = null;
 
-  function collectArticles() {
-    const items = [];
-    // HN stories in DOM order
-    document.querySelectorAll('.lead, .sec, .tert').forEach(el => {
-      const h = el.querySelector('.headline');
-      const b = el.querySelector('.body-text');
-      if (h) items.push({ el, text: (h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // X sidebar
-    document.querySelectorAll('.x-item').forEach(el => {
-      const h = el.querySelector('.x-headline');
-      const handle = el.querySelector('.x-handle');
-      const b = el.querySelector('.x-body');
-      if (h) items.push({ el, text: ('From X: ' + (handle ? handle.innerText.replace('𝕏','').trim() + ' says: ' : '') + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    // RSS items
-    document.querySelectorAll('.rss-item').forEach(el => {
-      const h = el.querySelector('.rss-headline');
-      const b = el.querySelector('.rss-body');
-      if (h) items.push({ el, text: ('From Reading List: ' + h.innerText + '. ' + (b ? b.innerText : '')).replace(/\s+/g,' ').trim() });
-    });
-    return items;
-  }
-
-  function updateUI() {
-    document.getElementById('btn-play').textContent = playing ? '⏸ Pause' : '▶ Play';
-    document.getElementById('btn-play').classList.toggle('active', playing);
-    if (articles[current]) {
-      const headline = articles[current].el.querySelector('.headline, .x-headline, .rss-headline');
-      document.getElementById('player-title').textContent = headline ? headline.innerText : 'Article ' + (current+1);
-      document.getElementById('player-progress').textContent = (current+1) + ' / ' + articles.length;
-    }
-    document.getElementById('btn-speed').textContent = speed + '×';
-    if (activeEl) activeEl.classList.remove('reading-active');
-    if (articles[current]) {
-      activeEl = articles[current].el;
-      activeEl.classList.add('reading-active');
-      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  function deactivate() {
+    if (activePill) {
+      activePill.style.background = '';
+      activePill.style.color = 'var(--mid)';
+      activePill.style.borderColor = 'var(--light)';
+      activePill = null;
     }
   }
 
-  function speak() {
-    synth.cancel();
-    if (current >= articles.length) { playing = false; updateUI(); return; }
-    const intro = current === 0 ? 'Welcome to The Dispatch. ' : '';
-    const utt = new SpeechSynthesisUtterance(intro + articles[current].text);
-    utt.rate = speed;
-    utt.onend = () => { current++; if (playing && current < articles.length) speak(); else { playing = false; updateUI(); } };
-    utt.onerror = () => { current++; if (playing && current < articles.length) speak(); };
-    synth.speak(utt);
-    updateUI();
+  function activate(pill) {
+    deactivate();
+    activePill = pill;
+    pill.style.background = 'var(--dark-red)';
+    pill.style.color = '#fff';
+    pill.style.borderColor = 'var(--dark-red)';
   }
 
-  window.togglePlay = function() {
-    if (!articles.length) articles = collectArticles();
-    if (playing) { synth.pause(); playing = false; }
-    else if (synth.paused) { synth.resume(); playing = true; }
-    else { playing = true; speak(); }
-    updateUI();
-  };
-  window.nextArticle = function() {
-    synth.cancel();
-    if (current < articles.length - 1) current++;
-    if (playing) speak(); else updateUI();
-  };
-  window.prevArticle = function() {
-    synth.cancel();
-    if (current > 0) current--;
-    if (playing) speak(); else updateUI();
-  };
-  window.cycleSpeed = function() {
-    speedIdx = (speedIdx + 1) % speeds.length;
-    speed = speeds[speedIdx];
-    if (playing) { synth.cancel(); speak(); } else updateUI();
-  };
-  window.togglePlayer = function() {
-    const p = document.getElementById('dispatch-player');
-    p.classList.toggle('visible');
-    if (p.classList.contains('visible') && !articles.length) articles = collectArticles();
-  };
-  window.closePlayer = function() {
-    synth.cancel();
-    playing = false;
-    document.getElementById('dispatch-player').classList.remove('visible');
-    if (activeEl) { activeEl.classList.remove('reading-active'); activeEl = null; }
-  };
-})();
-</script>
-</body>
+  player.addEventListener('ended', deactivate);
+  player.addEventListener('error', deactivate);
+
+  document.querySelectorAll('.listen-pill').forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      var src = this.getAttribute('data-src');
+      if (activePill === this && !player.paused) {
+        player.pause();
+        deactivate();
+        return;
+      }
+      while (player.firstChild) player.removeChild(player.firstChild);
+      var source = document.createElement('source');
+      source.src = src;
+      source.type = 'audio/mpeg';
+      player.appendChild(source);
+      player.load();
+      activate(this);
+      player.play();
+    });
+  });
+})();</script></body>
 </html>
