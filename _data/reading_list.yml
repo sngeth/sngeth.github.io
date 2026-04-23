@@ -1,3 +1,8 @@
+- title: "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model"
+  url: "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything"
+  date: 2026-04-22
+  source: Simon Willison
+  category: ai
 - title: Quoting Bobby Holley
   url: "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything"
   date: 2026-04-22
@@ -13,45 +18,65 @@
   date: 2026-04-22
   source: Simon Willison
   category: ai
+- title: Debugging WASM in Chrome DevTools
+  url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
+  date: 2026-04-22
+  source: Eli Bendersky
+  category: programming
+- title: Apple fixes bug that cops used to extract deleted chat messages from iPhones
+  url: "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/"
+  date: 2026-04-22
+  source: Hacker News Best
+  category: programming
+- title: Over-editing refers to a model modifying code beyond what is necessary
+  url: "https://nrehiew.github.io/blog/minimal_editing/"
+  date: 2026-04-22
+  source: Hacker News Best
+  category: programming
+- title: We found a stable Firefox identifier linking all your private Tor identities
+  url: "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/"
+  date: 2026-04-22
+  source: Hacker News Best
+  category: programming
+- title: Alberta startup sells no-tech tractors for half price
+  url: "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/"
+  date: 2026-04-22
+  source: Hacker News Best
+  category: programming
+- title: "Technical, cognitive, and intent debt"
+  url: "https://martinfowler.com/fragments/2026-04-02.html"
+  date: 2026-04-22
+  source: Hacker News Best
+  category: programming
+- title: Butterfly (Papillon)
+  url: "https://aeon.co/videos/the-swimmer-who-went-from-the-olympics-to-auschwitz-and-back-again?utm_source=rss-feed"
+  date: 2026-04-22
+  source: Aeon
+  category: philosophy
 - title: "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)"
   url: "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything"
   date: 2026-04-21
   source: Simon Willison
   category: ai
-- title: Quoting Andreas Påhlsson-Notini
-  url: "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything"
-  date: 2026-04-21
-  source: Simon Willison
-  category: ai
-- title: SpaceX says it has agreement to acquire Cursor for $60B
-  url: "https://twitter.com/spacex/status/2046713419978453374"
-  date: 2026-04-21
-  source: Hacker News Best
-  category: programming
-- title: "Claude Code to be removed from Anthropic's Pro plan?"
-  url: "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a"
-  date: 2026-04-21
-  source: Hacker News Best
-  category: programming
-- title: ChatGPT Images 2.0
-  url: "https://openai.com/index/introducing-chatgpt-images-2-0/"
-  date: 2026-04-21
-  source: Hacker News Best
-  category: programming
-- title: Framework Laptop 13 Pro
-  url: "https://frame.work/laptop13pro"
-  date: 2026-04-21
-  source: Hacker News Best
-  category: programming
-- title: "Meta to start capturing employee mouse movements, keystrokes for AI training"
-  url: "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/"
-  date: 2026-04-21
-  source: Hacker News Best
-  category: programming
 - title: Justice is geometric
   url: "https://aeon.co/essays/lessons-from-the-fairness-of-african-fractal-societies?utm_source=rss-feed"
   date: 2026-04-21
   source: Aeon
+  category: philosophy
+- title: "A Place for Intimacy: bell hooks on Language and Desire"
+  url: "https://www.themarginalian.org/2026/04/21/bell-hooks-language-desire/"
+  date: 2026-04-21
+  source: The Marginalian
+  category: philosophy
+- title: The Woman Who Saved Native Song
+  url: "https://www.themarginalian.org/2026/04/21/frances-densmore/"
+  date: 2026-04-21
+  source: The Marginalian
+  category: philosophy
+- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
+  url: "https://www.themarginalian.org/2026/04/21/simone-de-beauvoir-love-friendship/"
+  date: 2026-04-21
+  source: The Marginalian
   category: philosophy
 - title: The engineering method
   url: "https://aeon.co/videos/many-complex-structures-predate-the-scientific-method-how?utm_source=rss-feed"
@@ -73,29 +98,9 @@
   date: 2026-04-19
   source: The Marginalian
   category: philosophy
-- title: Erich Fromm on the Key to Sanity
-  url: "https://www.themarginalian.org/2026/04/18/the-sane-society-erich-fromm/"
-  date: 2026-04-18
-  source: The Marginalian
-  category: philosophy
-- title: "No One You Love Is Ever Dead: Hemingway on the Most Devastating of Losses and the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/04/18/hemingway-loss-letter/"
-  date: 2026-04-18
-  source: The Marginalian
-  category: philosophy
-- title: "Walt Whitman’s Field Guide to Being Yourself: The Trial and Triumph of Leaves of Grass"
-  url: "https://www.themarginalian.org/2026/04/18/whitman-traversal/"
-  date: 2026-04-18
-  source: The Marginalian
-  category: philosophy
 - title: The invention of the soul
   url: "https://aeon.co/essays/you-know-what-consciousness-is-you-live-in-soul-land?utm_source=rss-feed"
   date: 2026-04-17
-  source: Aeon
-  category: philosophy
-- title: Evolution of Paris
-  url: "https://aeon.co/videos/from-celtic-village-to-world-capital-how-paris-became-paris?utm_source=rss-feed"
-  date: 2026-04-16
   source: Aeon
   category: philosophy
 - title: watgo - a WebAssembly Toolkit for Go
@@ -132,11 +137,6 @@
   url: "https://jvns.ca/blog/2026/02/18/man-pages/"
   date: 2026-02-18
   source: Julia Evans
-  category: programming
-- title: Rewriting pycparser with the help of an LLM
-  url: "https://eli.thegreenplace.net/2026/rewriting-pycparser-with-the-help-of-an-llm/"
-  date: 2026-02-04
-  source: Eli Bendersky
   category: programming
 - title: Some notes on starting to use Django
   url: "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
