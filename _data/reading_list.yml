@@ -1,106 +1,111 @@
-- title: "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model"
-  url: "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything"
-  date: 2026-04-22
+- title: "DeepSeek V4 - almost on the frontier, a fraction of the price"
+  url: "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything"
+  date: 2026-04-24
   source: Simon Willison
   category: ai
-- title: Quoting Bobby Holley
-  url: "https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything"
-  date: 2026-04-22
+- title: Millisecond Converter
+  url: "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything"
+  date: 2026-04-24
   source: Simon Willison
   category: ai
-- title: Changes to GitHub Copilot Individual plans
-  url: "https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything"
-  date: 2026-04-22
+- title: "It's a big one"
+  url: "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything"
+  date: 2026-04-24
   source: Simon Willison
   category: ai
-- title: "Is Claude Code going to cost $100/month? Probably not - it's all very confusing"
-  url: "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything"
-  date: 2026-04-22
+- title: russellromney/honker
+  url: "https://simonwillison.net/2026/Apr/24/honker/#atom-everything"
+  date: 2026-04-24
   source: Simon Willison
   category: ai
+- title: An update on recent Claude Code quality reports
+  url: "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything"
+  date: 2026-04-24
+  source: Simon Willison
+  category: ai
+- title: DeepSeek v4
+  url: "https://api-docs.deepseek.com/"
+  date: 2026-04-24
+  source: Hacker News Best
+  category: programming
+- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
+  url: "https://www.themarginalian.org/2026/04/23/rockwell-kent-wilderness/"
+  date: 2026-04-24
+  source: The Marginalian
+  category: philosophy
+- title: U.S. soldier charged with using classified info to profit from prediction market
+  url: "https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0"
+  date: 2026-04-23
+  source: Hacker News Best
+  category: programming
+- title: "Meta tells staff it will cut 10% of jobs"
+  url: "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency"
+  date: 2026-04-23
+  source: Hacker News Best
+  category: programming
+- title: GPT-5.5
+  url: "https://openai.com/index/introducing-gpt-5-5/"
+  date: 2026-04-23
+  source: Hacker News Best
+  category: programming
+- title: An update on recent Claude Code quality reports
+  url: "https://www.anthropic.com/engineering/april-23-postmortem"
+  date: 2026-04-23
+  source: Hacker News Best
+  category: programming
+- title: Life invisible
+  url: "https://aeon.co/videos/searching-for-superbug-cures-in-the-salt-flats-of-the-atacama-desert?utm_source=rss-feed"
+  date: 2026-04-23
+  source: Aeon
+  category: philosophy
+- title: No nature without fear
+  url: "https://aeon.co/essays/have-you-forgotten-what-it-means-to-be-afraid-of-nature?utm_source=rss-feed"
+  date: 2026-04-23
+  source: Aeon
+  category: philosophy
+- title: Marianne Moore on the There Elements of Persuasive Writing
+  url: "https://www.themarginalian.org/2026/04/23/marianne-moore-predilections-writing/"
+  date: 2026-04-23
+  source: The Marginalian
+  category: philosophy
+- title: "The Invention of Empathy: Rilke, Rodin, and the Art of “Inseeing”"
+  url: "https://www.themarginalian.org/2026/04/23/you-must-change-rilke-rodin-empathy/"
+  date: 2026-04-23
+  source: The Marginalian
+  category: philosophy
+- title: "Oliver Sacks on Gratitude, the Measure of Living, and the Dignity of Dying"
+  url: "https://www.themarginalian.org/2026/04/23/oliver-sacks-gratitude-book/"
+  date: 2026-04-23
+  source: The Marginalian
+  category: philosophy
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Debugging WASM in Chrome DevTools
   url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
   date: 2026-04-22
   source: Eli Bendersky
-  category: programming
-- title: Apple fixes bug that cops used to extract deleted chat messages from iPhones
-  url: "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/"
-  date: 2026-04-22
-  source: Hacker News Best
-  category: programming
-- title: Over-editing refers to a model modifying code beyond what is necessary
-  url: "https://nrehiew.github.io/blog/minimal_editing/"
-  date: 2026-04-22
-  source: Hacker News Best
-  category: programming
-- title: We found a stable Firefox identifier linking all your private Tor identities
-  url: "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/"
-  date: 2026-04-22
-  source: Hacker News Best
-  category: programming
-- title: Alberta startup sells no-tech tractors for half price
-  url: "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/"
-  date: 2026-04-22
-  source: Hacker News Best
-  category: programming
-- title: "Technical, cognitive, and intent debt"
-  url: "https://martinfowler.com/fragments/2026-04-02.html"
-  date: 2026-04-22
-  source: Hacker News Best
   category: programming
 - title: Butterfly (Papillon)
   url: "https://aeon.co/videos/the-swimmer-who-went-from-the-olympics-to-auschwitz-and-back-again?utm_source=rss-feed"
   date: 2026-04-22
   source: Aeon
   category: philosophy
-- title: "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)"
-  url: "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything"
-  date: 2026-04-21
-  source: Simon Willison
-  category: ai
+- title: "The First Scientist’s Guide to Truth: Alhazen on Critical Thinking"
+  url: "https://www.themarginalian.org/2026/04/22/alhazen-truth/"
+  date: 2026-04-22
+  source: The Marginalian
+  category: philosophy
 - title: Justice is geometric
   url: "https://aeon.co/essays/lessons-from-the-fairness-of-african-fractal-societies?utm_source=rss-feed"
   date: 2026-04-21
   source: Aeon
   category: philosophy
-- title: "A Place for Intimacy: bell hooks on Language and Desire"
-  url: "https://www.themarginalian.org/2026/04/21/bell-hooks-language-desire/"
-  date: 2026-04-21
-  source: The Marginalian
-  category: philosophy
-- title: The Woman Who Saved Native Song
-  url: "https://www.themarginalian.org/2026/04/21/frances-densmore/"
-  date: 2026-04-21
-  source: The Marginalian
-  category: philosophy
-- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
-  url: "https://www.themarginalian.org/2026/04/21/simone-de-beauvoir-love-friendship/"
-  date: 2026-04-21
-  source: The Marginalian
-  category: philosophy
 - title: The engineering method
   url: "https://aeon.co/videos/many-complex-structures-predate-the-scientific-method-how?utm_source=rss-feed"
   date: 2026-04-20
-  source: Aeon
-  category: philosophy
-- title: Fuel for thought
-  url: "https://aeon.co/essays/how-understanding-bioenergetics-can-help-our-brain-health?utm_source=rss-feed"
-  date: 2026-04-20
-  source: Aeon
-  category: philosophy
-- title: "Walt Whitman, Shortly After His Paralytic Stroke, on What Makes Life Worth Living"
-  url: "https://www.themarginalian.org/2026/04/19/walt-whitman-specimen-days-meaning-of-life/"
-  date: 2026-04-19
-  source: The Marginalian
-  category: philosophy
-- title: "The Experience Machine: Cognitive Philosopher Andy Clark on the Power of Expectation and How the Mind Renders Reality"
-  url: "https://www.themarginalian.org/2026/04/19/the-experience-machine-andy-clark/"
-  date: 2026-04-19
-  source: The Marginalian
-  category: philosophy
-- title: The invention of the soul
-  url: "https://aeon.co/essays/you-know-what-consciousness-is-you-live-in-soul-land?utm_source=rss-feed"
-  date: 2026-04-17
   source: Aeon
   category: philosophy
 - title: watgo - a WebAssembly Toolkit for Go
@@ -166,11 +171,6 @@
 - title: "Can a little alcohol be healthy for lifters?"
   url: "https://www.strongerbyscience.com/alcohol-lifters/"
   date: 2025-12-10
-  source: Stronger By Science
-  category: strength
-- title: "Is training on back-to-back days bad?"
-  url: "https://www.strongerbyscience.com/training-back-to-back/"
-  date: 2025-12-03
   source: Stronger By Science
   category: strength
 - title: Notes on switching to Helix from vim
