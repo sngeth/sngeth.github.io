@@ -1,8 +1,43 @@
+- title: "Why has there been so little progress on Alzheimer's disease?"
+  url: "https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/"
+  date: 2026-04-26
+  source: Hacker News Best
+  category: programming
+- title: WHY ARE YOU LIKE THIS
+  url: "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything"
+  date: 2026-04-25
+  source: Simon Willison
+  category: ai
+- title: Quoting Romain Huet
+  url: "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything"
+  date: 2026-04-25
+  source: Simon Willison
+  category: ai
 - title: GPT-5.5 prompting guide
   url: "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
   date: 2026-04-25
   source: Simon Willison
   category: ai
+- title: "Trump fires NSF's oversight board"
+  url: "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board"
+  date: 2026-04-25
+  source: Hacker News Best
+  category: programming
+- title: USB Cheat Sheet (2022)
+  url: "https://fabiensanglard.net/usbcheat/index.html"
+  date: 2026-04-25
+  source: Hacker News Best
+  category: programming
+- title: The AI industry is discovering that the public hates it
+  url: "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash"
+  date: 2026-04-25
+  source: Hacker News Best
+  category: programming
+- title: Amateur armed with ChatGPT solves an Erdős problem
+  url: "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/"
+  date: 2026-04-25
+  source: Hacker News Best
+  category: programming
 - title: llm 0.31
   url: "https://simonwillison.net/2026/Apr/24/llm/#atom-everything"
   date: 2026-04-24
@@ -13,41 +48,6 @@
   date: 2026-04-24
   source: Simon Willison
   category: ai
-- title: "DeepSeek V4 - almost on the frontier, a fraction of the price"
-  url: "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything"
-  date: 2026-04-24
-  source: Simon Willison
-  category: ai
-- title: Millisecond Converter
-  url: "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything"
-  date: 2026-04-24
-  source: Simon Willison
-  category: ai
-- title: OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API
-  url: "https://developers.openai.com/api/docs/changelog"
-  date: 2026-04-24
-  source: Hacker News Best
-  category: programming
-- title: SDL Now Supports DOS
-  url: "https://github.com/libsdl-org/SDL/pull/15377"
-  date: 2026-04-24
-  source: Hacker News Best
-  category: programming
-- title: Google plans to invest up to $40B in Anthropic
-  url: "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic"
-  date: 2026-04-24
-  source: Hacker News Best
-  category: programming
-- title: "I cancelled Claude: Token issues, declining quality, and poor support"
-  url: "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/"
-  date: 2026-04-24
-  source: Hacker News Best
-  category: programming
-- title: Norway set to become latest country to ban social media for under 16s
-  url: "https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s"
-  date: 2026-04-24
-  source: Hacker News Best
-  category: programming
 - title: "Does reading do us any good?"
   url: "https://aeon.co/essays/the-role-of-literature-as-the-key-to-personal-freedom?utm_source=rss-feed"
   date: 2026-04-24
