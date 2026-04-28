@@ -1,28 +1,73 @@
-- title: "Butterflies are in decline across North America, a look at the Western Monarch"
-  url: "https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/"
-  date: 2026-04-26
+- title: "What's new in pip 26.1 - lockfiles and dependency cooldowns!"
+  url: "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything"
+  date: 2026-04-28
+  source: Simon Willison
+  category: ai
+- title: "Introducing talkie: a 13B vintage language model from 1930"
+  url: "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything"
+  date: 2026-04-28
+  source: Simon Willison
+  category: ai
+- title: microsoft/VibeVoice
+  url: "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
+  date: 2026-04-27
+  source: Simon Willison
+  category: ai
+- title: Tracking the history of the now-deceased OpenAI Microsoft AGI clause
+  url: "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything"
+  date: 2026-04-27
+  source: Simon Willison
+  category: ai
+- title: Speech translation in Google Meet is now rolling out to mobile devices
+  url: "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything"
+  date: 2026-04-27
+  source: Simon Willison
+  category: ai
+- title: To my students
+  url: "http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml"
+  date: 2026-04-27
   source: Hacker News Best
   category: programming
-- title: Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race
-  url: "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo"
-  date: 2026-04-26
+- title: "Talkie: a 13B vintage language model from 1930"
+  url: "https://talkie-lm.com/introducing-talkie"
+  date: 2026-04-27
   source: Hacker News Best
   category: programming
-- title: "I bought Friendster for $30k – Here's what I'm doing with it"
-  url: "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d"
-  date: 2026-04-26
+- title: "Is my blue your blue?"
+  url: "https://ismy.blue/"
+  date: 2026-04-27
   source: Hacker News Best
   category: programming
-- title: "Fast16: High-precision software sabotage 5 years before Stuxnet"
-  url: "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/"
-  date: 2026-04-26
+- title: Super ZSNES – GPU Powered SNES Emulator
+  url: "https://zsnes.com/"
+  date: 2026-04-27
   source: Hacker News Best
   category: programming
-- title: "AI should elevate your thinking, not replace it"
-  url: "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/"
-  date: 2026-04-26
+- title: GitHub is having issues now
+  url: "https://www.githubstatus.com"
+  date: 2026-04-27
   source: Hacker News Best
   category: programming
+- title: "Africa’s cultural landmarks: Ọṣun-Òṣogbo Sacred Grove, Nigeria"
+  url: "https://aeon.co/videos/yoruba-spirituality-inspires-surreal-sculptures-in-this-sacred-grove?utm_source=rss-feed"
+  date: 2026-04-27
+  source: Aeon
+  category: philosophy
+- title: The Black executioner
+  url: "https://aeon.co/essays/medieval-art-makes-the-body-a-site-of-theology-and-politics?utm_source=rss-feed"
+  date: 2026-04-27
+  source: Aeon
+  category: philosophy
+- title: "The Black Robin and the Power of Tenacious Tenderness: How a Single Mother Brought an Entire Species Back from the Brink of Extinction"
+  url: "https://www.themarginalian.org/2026/04/27/old-blue-black-robin/"
+  date: 2026-04-27
+  source: The Marginalian
+  category: philosophy
+- title: "The Difficult Balance of Intimacy and Independence: Beloved Philosopher and Poet Kahlil Gibran on the Secret to a Loving and Lasting Relationship"
+  url: "https://www.themarginalian.org/2026/04/27/kahlil-gibran-the-prophet-love-marriage/"
+  date: 2026-04-27
+  source: The Marginalian
+  category: philosophy
 - title: "The Force and the Flower: Poet and Potter M.C. Richards on Creativity"
   url: "https://www.themarginalian.org/2026/04/26/m-c-richards-connections/"
   date: 2026-04-26
@@ -38,45 +83,10 @@
   date: 2026-04-26
   source: The Marginalian
   category: philosophy
-- title: WHY ARE YOU LIKE THIS
-  url: "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything"
-  date: 2026-04-25
-  source: Simon Willison
-  category: ai
-- title: Quoting Romain Huet
-  url: "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything"
-  date: 2026-04-25
-  source: Simon Willison
-  category: ai
-- title: GPT-5.5 prompting guide
-  url: "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
-  date: 2026-04-25
-  source: Simon Willison
-  category: ai
-- title: llm 0.31
-  url: "https://simonwillison.net/2026/Apr/24/llm/#atom-everything"
-  date: 2026-04-24
-  source: Simon Willison
-  category: ai
-- title: The people do not yearn for automation
-  url: "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything"
-  date: 2026-04-24
-  source: Simon Willison
-  category: ai
 - title: "Does reading do us any good?"
   url: "https://aeon.co/essays/the-role-of-literature-as-the-key-to-personal-freedom?utm_source=rss-feed"
   date: 2026-04-24
   source: Aeon
-  category: philosophy
-- title: The Bird That Is Your Life
-  url: "https://www.themarginalian.org/2026/04/24/emily-ogden-bird/"
-  date: 2026-04-24
-  source: The Marginalian
-  category: philosophy
-- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
-  url: "https://www.themarginalian.org/2026/04/23/rockwell-kent-wilderness/"
-  date: 2026-04-24
-  source: The Marginalian
   category: philosophy
 - title: Life invisible
   url: "https://aeon.co/videos/searching-for-superbug-cures-in-the-salt-flats-of-the-atacama-desert?utm_source=rss-feed"
@@ -98,16 +108,6 @@
   date: 2026-04-22
   source: Eli Bendersky
   category: programming
-- title: Butterfly (Papillon)
-  url: "https://aeon.co/videos/the-swimmer-who-went-from-the-olympics-to-auschwitz-and-back-again?utm_source=rss-feed"
-  date: 2026-04-22
-  source: Aeon
-  category: philosophy
-- title: Justice is geometric
-  url: "https://aeon.co/essays/lessons-from-the-fairness-of-african-fractal-societies?utm_source=rss-feed"
-  date: 2026-04-21
-  source: Aeon
-  category: philosophy
 - title: watgo - a WebAssembly Toolkit for Go
   url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
   date: 2026-04-09
