@@ -1,3 +1,13 @@
+- title: Quoting OpenAI Codex base_instructions
+  url: "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything"
+  date: 2026-04-28
+  source: Simon Willison
+  category: ai
+- title: Quoting Matthew Yglesias
+  url: "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything"
+  date: 2026-04-28
+  source: Simon Willison
+  category: ai
 - title: "What's new in pip 26.1 - lockfiles and dependency cooldowns!"
   url: "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything"
   date: 2026-04-28
@@ -8,46 +18,46 @@
   date: 2026-04-28
   source: Simon Willison
   category: ai
+- title: Before GitHub
+  url: "https://lucumr.pocoo.org/2026/4/28/before-github/"
+  date: 2026-04-28
+  source: Hacker News Best
+  category: programming
+- title: Ghostty is leaving GitHub
+  url: "https://mitchellh.com/writing/ghostty-leaving-github"
+  date: 2026-04-28
+  source: Hacker News Best
+  category: programming
+- title: Claude.ai unavailable and elevated errors on the API
+  url: "https://status.claude.com/incidents/9l93x2ht4s5w"
+  date: 2026-04-28
+  source: Hacker News Best
+  category: programming
+- title: "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown"
+  url: "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854"
+  date: 2026-04-28
+  source: Hacker News Best
+  category: programming
+- title: "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI"
+  url: "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal"
+  date: 2026-04-28
+  source: Hacker News Best
+  category: programming
+- title: Hunting ‘Man the Hunter’
+  url: "https://aeon.co/essays/why-man-the-hunter-continues-to-die-and-return?utm_source=rss-feed"
+  date: 2026-04-28
+  source: Aeon
+  category: philosophy
+- title: "An Occasion for Unselfing: Iris Murdoch on Imperfection and How to Be More Unselfish"
+  url: "https://www.themarginalian.org/2026/04/28/iris-murdoch-unselfing/"
+  date: 2026-04-28
+  source: The Marginalian
+  category: philosophy
 - title: microsoft/VibeVoice
   url: "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
   date: 2026-04-27
   source: Simon Willison
   category: ai
-- title: Tracking the history of the now-deceased OpenAI Microsoft AGI clause
-  url: "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything"
-  date: 2026-04-27
-  source: Simon Willison
-  category: ai
-- title: Speech translation in Google Meet is now rolling out to mobile devices
-  url: "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything"
-  date: 2026-04-27
-  source: Simon Willison
-  category: ai
-- title: To my students
-  url: "http://ozark.hendrix.edu/~yorgey/forest/00FD/index.xml"
-  date: 2026-04-27
-  source: Hacker News Best
-  category: programming
-- title: "Talkie: a 13B vintage language model from 1930"
-  url: "https://talkie-lm.com/introducing-talkie"
-  date: 2026-04-27
-  source: Hacker News Best
-  category: programming
-- title: "Is my blue your blue?"
-  url: "https://ismy.blue/"
-  date: 2026-04-27
-  source: Hacker News Best
-  category: programming
-- title: Super ZSNES – GPU Powered SNES Emulator
-  url: "https://zsnes.com/"
-  date: 2026-04-27
-  source: Hacker News Best
-  category: programming
-- title: GitHub is having issues now
-  url: "https://www.githubstatus.com"
-  date: 2026-04-27
-  source: Hacker News Best
-  category: programming
 - title: "Africa’s cultural landmarks: Ọṣun-Òṣogbo Sacred Grove, Nigeria"
   url: "https://aeon.co/videos/yoruba-spirituality-inspires-surreal-sculptures-in-this-sacred-grove?utm_source=rss-feed"
   date: 2026-04-27
@@ -78,11 +88,6 @@
   date: 2026-04-26
   source: The Marginalian
   category: philosophy
-- title: Octavia Butler on Religion and the Spirituality of Symbiosis
-  url: "https://www.themarginalian.org/2026/04/26/octavia-butler-religion-symbiosis/"
-  date: 2026-04-26
-  source: The Marginalian
-  category: philosophy
 - title: "Does reading do us any good?"
   url: "https://aeon.co/essays/the-role-of-literature-as-the-key-to-personal-freedom?utm_source=rss-feed"
   date: 2026-04-24
@@ -90,11 +95,6 @@
   category: philosophy
 - title: Life invisible
   url: "https://aeon.co/videos/searching-for-superbug-cures-in-the-salt-flats-of-the-atacama-desert?utm_source=rss-feed"
-  date: 2026-04-23
-  source: Aeon
-  category: philosophy
-- title: No nature without fear
-  url: "https://aeon.co/essays/have-you-forgotten-what-it-means-to-be-afraid-of-nature?utm_source=rss-feed"
   date: 2026-04-23
   source: Aeon
   category: philosophy
