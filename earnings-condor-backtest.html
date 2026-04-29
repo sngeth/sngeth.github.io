@@ -396,7 +396,7 @@
 <h2>Largest Earnings Moves (Top 15)</h2>
 <div class="card" style="margin-bottom: 25px;">
     <table>
-        <tr><th>Ticker</th><th>Date</th><th>Move</th><th>Expected Move</th><th>Move/Expected</th><th>1x Condor Result</th></tr>
+        <tr><th>Ticker</th><th>Date</th><th>Pre-Earnings Close</th><th>Post-Earnings Open</th><th>Move</th><th>Expected Move</th><th>Move/Expected</th><th>Short Strikes (Put/Call)</th><th>1x Condor Result</th></tr>
         <tbody id="moves-table"></tbody>
     </table>
 </div>
@@ -405,7 +405,7 @@
 <h2>All Trades (1.0x expected move)</h2>
 <div class="card" style="margin-bottom: 25px;">
     <table>
-        <tr><th>Date</th><th>Ticker</th><th>Move</th><th>Expected Move</th><th>Credit</th><th>P&L</th><th>Result</th><th>Source</th></tr>
+        <tr><th>Date</th><th>Ticker</th><th>Pre-Earnings Close</th><th>Post-Earnings Open</th><th>Move</th><th>Short Put</th><th>Short Call</th><th>Credit</th><th>P&L</th><th>Result</th><th>Source</th></tr>
         <tbody id="all-trades-table"></tbody>
     </table>
 </div>
@@ -741,12 +741,17 @@ Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, monospace';
         const moveVsIm = Math.abs(d.move_pct) / d.im_pct;
         const cls = d.within_strikes ? 'good' : 'bad';
         const label = d.within_strikes ? 'WIN' : 'LOSS';
+        // Highlight open price red/green based on whether it's inside the strikes
+        const openCls = d.within_strikes ? 'good' : 'bad';
         tbody.innerHTML += `<tr>
             <td style="color:${colors[d.ticker]}">${d.ticker}</td>
             <td>${d.date}</td>
+            <td>$${d.pre_close.toFixed(2)}</td>
+            <td class="${openCls}">$${d.actual_open.toFixed(2)}</td>
             <td class="${d.move_pct >= 0 ? 'good' : 'bad'}">${d.move_pct >= 0 ? '+' : ''}${d.move_pct.toFixed(2)}%</td>
             <td>${d.im_pct.toFixed(2)}%</td>
             <td>${moveVsIm.toFixed(2)}x</td>
+            <td>$${d.short_put.toFixed(0)} / $${d.short_call.toFixed(0)}</td>
             <td class="${cls}">${label}</td>
         </tr>`;
     });
@@ -760,11 +765,15 @@ Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, monospace';
         const cls = d.pl_per_share >= 0 ? 'good' : 'bad';
         const result = d.within_strikes ? 'WIN' : 'LOSS';
         const src = d.real_prices ? '<span class="tag tag-win">POLYGON</span>' : '<span class="tag tag-est">EST</span>';
+        const openCls = d.within_strikes ? 'good' : 'bad';
         tbody.innerHTML += `<tr>
             <td>${d.date}</td>
             <td style="color:${colors[d.ticker]}">${d.ticker}</td>
+            <td>$${d.pre_close.toFixed(2)}</td>
+            <td class="${openCls}">$${d.actual_open.toFixed(2)}</td>
             <td class="${d.move_pct >= 0 ? 'good' : 'bad'}">${d.move_pct >= 0 ? '+' : ''}${d.move_pct.toFixed(2)}%</td>
-            <td>${d.im_pct.toFixed(2)}%</td>
+            <td>$${d.short_put.toFixed(0)}</td>
+            <td>$${d.short_call.toFixed(0)}</td>
             <td>${dollar(d.credit)}</td>
             <td class="${cls}">${dollar(d.pl_per_share)}</td>
             <td class="${d.within_strikes ? 'good' : 'bad'}">${result}</td>
