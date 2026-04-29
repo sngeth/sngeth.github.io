@@ -764,7 +764,7 @@ Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, monospace';
     subset.forEach(d => {
         const cls = d.pl_per_share >= 0 ? 'good' : 'bad';
         const result = d.within_strikes ? 'WIN' : 'LOSS';
-        const src = d.real_prices ? '<span class="tag tag-win">POLYGON</span>' : '<span class="tag tag-est">EST</span>';
+        const src = d.real_prices ? '<span class="tag tag-win">ALPACA</span>' : '<span class="tag tag-est">EST</span>';
         const openCls = d.within_strikes ? 'good' : 'bad';
         tbody.innerHTML += `<tr>
             <td>${d.date}</td>
