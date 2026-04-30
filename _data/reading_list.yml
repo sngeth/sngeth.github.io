@@ -1,48 +1,68 @@
+- title: "The Zig project's rationale for their firm anti-AI contribution policy"
+  url: "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything"
+  date: 2026-04-30
+  source: Simon Willison
+  category: ai
+- title: Where the goblins came from
+  url: "https://openai.com/index/where-the-goblins-came-from/"
+  date: 2026-04-30
+  source: Hacker News Best
+  category: programming
+- title: llm 0.32a1
+  url: "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything"
+  date: 2026-04-29
+  source: Simon Willison
+  category: ai
+- title: LLM 0.32a0  is a major backwards-compatible refactor
+  url: "https://simonwillison.net/2026/Apr/29/llm/#atom-everything"
+  date: 2026-04-29
+  source: Simon Willison
+  category: ai
+- title: llm 0.32a0
+  url: "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything"
+  date: 2026-04-29
+  source: Simon Willison
+  category: ai
+- title: Thoughts on WebAssembly as a stack machine
+  url: "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/"
+  date: 2026-04-29
+  source: Eli Bendersky
+  category: programming
+- title: "Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years"
+  url: "https://jivx.com/kyoto-bloom"
+  date: 2026-04-29
+  source: Hacker News Best
+  category: programming
+- title: HERMES.md in commit messages causes requests to route to extra usage billing
+  url: "https://github.com/anthropics/claude-code/issues/53262"
+  date: 2026-04-29
+  source: Hacker News Best
+  category: programming
+- title: Copy Fail
+  url: "https://copy.fail/"
+  date: 2026-04-29
+  source: Hacker News Best
+  category: programming
+- title: "FastCGI: 30 years old and still the better protocol for reverse proxies"
+  url: "https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies"
+  date: 2026-04-29
+  source: Hacker News Best
+  category: programming
+- title: "1,000 years of Japanese swords"
+  url: "https://aeon.co/videos/a-millennium-of-japanese-history-as-told-through-the-samurai-sword?utm_source=rss-feed"
+  date: 2026-04-29
+  source: Aeon
+  category: philosophy
+- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
+  url: "https://www.themarginalian.org/2026/04/29/polyvagal-theory/"
+  date: 2026-04-29
+  source: The Marginalian
+  category: philosophy
 - title: Quoting OpenAI Codex base_instructions
   url: "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything"
   date: 2026-04-28
   source: Simon Willison
   category: ai
-- title: Quoting Matthew Yglesias
-  url: "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything"
-  date: 2026-04-28
-  source: Simon Willison
-  category: ai
-- title: "What's new in pip 26.1 - lockfiles and dependency cooldowns!"
-  url: "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything"
-  date: 2026-04-28
-  source: Simon Willison
-  category: ai
-- title: "Introducing talkie: a 13B vintage language model from 1930"
-  url: "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything"
-  date: 2026-04-28
-  source: Simon Willison
-  category: ai
-- title: Before GitHub
-  url: "https://lucumr.pocoo.org/2026/4/28/before-github/"
-  date: 2026-04-28
-  source: Hacker News Best
-  category: programming
-- title: Ghostty is leaving GitHub
-  url: "https://mitchellh.com/writing/ghostty-leaving-github"
-  date: 2026-04-28
-  source: Hacker News Best
-  category: programming
-- title: Claude.ai unavailable and elevated errors on the API
-  url: "https://status.claude.com/incidents/9l93x2ht4s5w"
-  date: 2026-04-28
-  source: Hacker News Best
-  category: programming
-- title: "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown"
-  url: "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854"
-  date: 2026-04-28
-  source: Hacker News Best
-  category: programming
-- title: "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI"
-  url: "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal"
-  date: 2026-04-28
-  source: Hacker News Best
-  category: programming
 - title: Hunting ‘Man the Hunter’
   url: "https://aeon.co/essays/why-man-the-hunter-continues-to-die-and-return?utm_source=rss-feed"
   date: 2026-04-28
@@ -53,11 +73,6 @@
   date: 2026-04-28
   source: The Marginalian
   category: philosophy
-- title: microsoft/VibeVoice
-  url: "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
-  date: 2026-04-27
-  source: Simon Willison
-  category: ai
 - title: "Africa’s cultural landmarks: Ọṣun-Òṣogbo Sacred Grove, Nigeria"
   url: "https://aeon.co/videos/yoruba-spirituality-inspires-surreal-sculptures-in-this-sacred-grove?utm_source=rss-feed"
   date: 2026-04-27
@@ -83,19 +98,9 @@
   date: 2026-04-26
   source: The Marginalian
   category: philosophy
-- title: "Grace Against Gravity and the Physics of Vulnerability: How Birds Fly and Why They Flock in a V Formation"
-  url: "https://www.themarginalian.org/2026/04/26/how-birds-fly/"
-  date: 2026-04-26
-  source: The Marginalian
-  category: philosophy
 - title: "Does reading do us any good?"
   url: "https://aeon.co/essays/the-role-of-literature-as-the-key-to-personal-freedom?utm_source=rss-feed"
   date: 2026-04-24
-  source: Aeon
-  category: philosophy
-- title: Life invisible
-  url: "https://aeon.co/videos/searching-for-superbug-cures-in-the-salt-flats-of-the-atacama-desert?utm_source=rss-feed"
-  date: 2026-04-23
   source: Aeon
   category: philosophy
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
@@ -126,11 +131,6 @@
 - title: Notes on Lagrange Interpolating Polynomials
   url: "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/"
   date: 2026-02-28
-  source: Eli Bendersky
-  category: programming
-- title: Notes on Linear Algebra for Polynomials
-  url: "https://eli.thegreenplace.net/2026/notes-on-linear-algebra-for-polynomials/"
-  date: 2026-02-25
   source: Eli Bendersky
   category: programming
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
