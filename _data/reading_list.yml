@@ -1,52 +1,77 @@
+- title: The Wildest Bet Is the Winning Bet
+  url: "https://www.themarginalian.org/2026/04/30/bet/"
+  date: 2026-05-01
+  source: The Marginalian
+  category: philosophy
+- title: "The One Hundred Milliseconds Between the World and You: Oliver Sacks on Perception"
+  url: "https://www.themarginalian.org/2026/04/30/oliver-sacks-perception/"
+  date: 2026-05-01
+  source: The Marginalian
+  category: philosophy
+- title: Codex CLI 0.128.0 adds /goal
+  url: "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"
+  date: 2026-04-30
+  source: Simon Willison
+  category: ai
+- title: "Our evaluation of OpenAI's GPT-5.5 cyber capabilities"
+  url: "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"
+  date: 2026-04-30
+  source: Simon Willison
+  category: ai
+- title: Quoting Andrew Kelley
+  url: "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything"
+  date: 2026-04-30
+  source: Simon Willison
+  category: ai
+- title: We need RSS for sharing abundant vibe-coded apps
+  url: "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything"
+  date: 2026-04-30
+  source: Simon Willison
+  category: ai
 - title: "The Zig project's rationale for their firm anti-AI contribution policy"
   url: "https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything"
   date: 2026-04-30
   source: Simon Willison
   category: ai
-- title: Where the goblins came from
-  url: "https://openai.com/index/where-the-goblins-came-from/"
+- title: "Can I disable all data collection from my vehicle?"
+  url: "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle"
   date: 2026-04-30
   source: Hacker News Best
   category: programming
-- title: llm 0.32a1
-  url: "https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything"
-  date: 2026-04-29
-  source: Simon Willison
-  category: ai
-- title: LLM 0.32a0  is a major backwards-compatible refactor
-  url: "https://simonwillison.net/2026/Apr/29/llm/#atom-everything"
-  date: 2026-04-29
-  source: Simon Willison
-  category: ai
-- title: llm 0.32a0
-  url: "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything"
-  date: 2026-04-29
-  source: Simon Willison
-  category: ai
+- title: LinkedIn is scanning browser extensions
+  url: "https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/"
+  date: 2026-04-30
+  source: Hacker News Best
+  category: programming
+- title: "For Linux kernel vulnerabilities, there is no heads-up to distributions"
+  url: "https://www.openwall.com/lists/oss-security/2026/04/30/10"
+  date: 2026-04-30
+  source: Hacker News Best
+  category: programming
+- title: "How Mark Klein told the EFF about Room 641A [book excerpt]"
+  url: "https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/"
+  date: 2026-04-30
+  source: Hacker News Best
+  category: programming
+- title: Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library
+  url: "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/"
+  date: 2026-04-30
+  source: Hacker News Best
+  category: programming
+- title: "Who invented bad guys?"
+  url: "https://aeon.co/videos/when-did-stories-become-so-centred-on-good-battling-evil-and-why?utm_source=rss-feed"
+  date: 2026-04-30
+  source: Aeon
+  category: philosophy
+- title: The Ethiopian running secret
+  url: "https://aeon.co/essays/what-ethiopian-running-says-about-the-limits-of-human-ability?utm_source=rss-feed"
+  date: 2026-04-30
+  source: Aeon
+  category: philosophy
 - title: Thoughts on WebAssembly as a stack machine
   url: "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/"
   date: 2026-04-29
   source: Eli Bendersky
-  category: programming
-- title: "Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years"
-  url: "https://jivx.com/kyoto-bloom"
-  date: 2026-04-29
-  source: Hacker News Best
-  category: programming
-- title: HERMES.md in commit messages causes requests to route to extra usage billing
-  url: "https://github.com/anthropics/claude-code/issues/53262"
-  date: 2026-04-29
-  source: Hacker News Best
-  category: programming
-- title: Copy Fail
-  url: "https://copy.fail/"
-  date: 2026-04-29
-  source: Hacker News Best
-  category: programming
-- title: "FastCGI: 30 years old and still the better protocol for reverse proxies"
-  url: "https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies"
-  date: 2026-04-29
-  source: Hacker News Best
   category: programming
 - title: "1,000 years of Japanese swords"
   url: "https://aeon.co/videos/a-millennium-of-japanese-history-as-told-through-the-samurai-sword?utm_source=rss-feed"
@@ -58,11 +83,6 @@
   date: 2026-04-29
   source: The Marginalian
   category: philosophy
-- title: Quoting OpenAI Codex base_instructions
-  url: "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything"
-  date: 2026-04-28
-  source: Simon Willison
-  category: ai
 - title: Hunting ‘Man the Hunter’
   url: "https://aeon.co/essays/why-man-the-hunter-continues-to-die-and-return?utm_source=rss-feed"
   date: 2026-04-28
@@ -78,30 +98,10 @@
   date: 2026-04-27
   source: Aeon
   category: philosophy
-- title: The Black executioner
-  url: "https://aeon.co/essays/medieval-art-makes-the-body-a-site-of-theology-and-politics?utm_source=rss-feed"
-  date: 2026-04-27
-  source: Aeon
-  category: philosophy
 - title: "The Black Robin and the Power of Tenacious Tenderness: How a Single Mother Brought an Entire Species Back from the Brink of Extinction"
   url: "https://www.themarginalian.org/2026/04/27/old-blue-black-robin/"
   date: 2026-04-27
   source: The Marginalian
-  category: philosophy
-- title: "The Difficult Balance of Intimacy and Independence: Beloved Philosopher and Poet Kahlil Gibran on the Secret to a Loving and Lasting Relationship"
-  url: "https://www.themarginalian.org/2026/04/27/kahlil-gibran-the-prophet-love-marriage/"
-  date: 2026-04-27
-  source: The Marginalian
-  category: philosophy
-- title: "The Force and the Flower: Poet and Potter M.C. Richards on Creativity"
-  url: "https://www.themarginalian.org/2026/04/26/m-c-richards-connections/"
-  date: 2026-04-26
-  source: The Marginalian
-  category: philosophy
-- title: "Does reading do us any good?"
-  url: "https://aeon.co/essays/the-role-of-literature-as-the-key-to-personal-freedom?utm_source=rss-feed"
-  date: 2026-04-24
-  source: Aeon
   category: philosophy
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
   url: "https://www.strongerbyscience.com/isometric-training/"
