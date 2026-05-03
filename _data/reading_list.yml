@@ -1,33 +1,58 @@
+- title: Sightings
+  url: "https://simonwillison.net/2026/May/2/sightings/#atom-everything"
+  date: 2026-05-02
+  source: Simon Willison
+  category: ai
+- title: Testing Vue components in the browser
+  url: "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+  date: 2026-05-02
+  source: Julia Evans
+  category: programming
+- title: "Scaling, stretching and shifting sinusoids"
+  url: "https://eli.thegreenplace.net/2026/scaling-stretching-and-shifting-sinusoids/"
+  date: 2026-05-02
+  source: Eli Bendersky
+  category: programming
+- title: Six Years Perfecting Maps on WatchOS
+  url: "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/"
+  date: 2026-05-02
+  source: Hacker News Best
+  category: programming
+- title: This Month in Ladybird - April 2026
+  url: "https://ladybird.org/newsletter/2026-04-30/"
+  date: 2026-05-02
+  source: Hacker News Best
+  category: programming
+- title: "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage"
+  url: "https://github.com/microsoft/vscode/pull/310226"
+  date: 2026-05-02
+  source: Hacker News Best
+  category: programming
+- title: NetHack 5.0.0
+  url: "https://nethack.org/v500/release.html"
+  date: 2026-05-02
+  source: Hacker News Best
+  category: programming
+- title: California to begin ticketing driverless cars that violate traffic laws
+  url: "https://www.bbc.com/news/articles/clypjx3rg2go"
+  date: 2026-05-02
+  source: Hacker News Best
+  category: programming
+- title: "The Wanting Monster: A Tender Modern Fable about the Difficult Art of Resting at the Still Point of Enough"
+  url: "https://www.themarginalian.org/2026/05/02/the-wanting-monster/"
+  date: 2026-05-02
+  source: The Marginalian
+  category: philosophy
+- title: "The Day I Became a Bird: A Tender Illustrated Parable of Falling in Love and Learning to Unmask Our True Selves"
+  url: "https://www.themarginalian.org/2026/05/02/the-day-i-became-a-bird/"
+  date: 2026-05-02
+  source: The Marginalian
+  category: philosophy
 - title: iNaturalist Sightings
   url: "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"
   date: 2026-05-01
   source: Simon Willison
   category: ai
-- title: Ti-84 Evo
-  url: "https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo"
-  date: 2026-05-01
-  source: Hacker News Best
-  category: programming
-- title: "City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo"
-  url: "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/"
-  date: 2026-05-01
-  source: Hacker News Best
-  category: programming
-- title: New research suggests people can communicate and practice skills while dreaming
-  url: "https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we"
-  date: 2026-05-01
-  source: Hacker News Best
-  category: programming
-- title: AI uses less water than the public thinks
-  url: "https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/"
-  date: 2026-05-01
-  source: Hacker News Best
-  category: programming
-- title: The gay jailbreak technique (2025)
-  url: "https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md"
-  date: 2026-05-01
-  source: Hacker News Best
-  category: programming
 - title: To be is to participate
   url: "https://aeon.co/essays/lucien-levy-bruhl-and-the-emergence-of-personhood?utm_source=rss-feed"
   date: 2026-05-01
@@ -63,11 +88,6 @@
   date: 2026-04-30
   source: Simon Willison
   category: ai
-- title: We need RSS for sharing abundant vibe-coded apps
-  url: "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything"
-  date: 2026-04-30
-  source: Simon Willison
-  category: ai
 - title: "Who invented bad guys?"
   url: "https://aeon.co/videos/when-did-stories-become-so-centred-on-good-battling-evil-and-why?utm_source=rss-feed"
   date: 2026-04-30
@@ -88,20 +108,10 @@
   date: 2026-04-29
   source: Aeon
   category: philosophy
-- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
-  url: "https://www.themarginalian.org/2026/04/29/polyvagal-theory/"
-  date: 2026-04-29
-  source: The Marginalian
-  category: philosophy
 - title: Hunting ‘Man the Hunter’
   url: "https://aeon.co/essays/why-man-the-hunter-continues-to-die-and-return?utm_source=rss-feed"
   date: 2026-04-28
   source: Aeon
-  category: philosophy
-- title: "An Occasion for Unselfing: Iris Murdoch on Imperfection and How to Be More Unselfish"
-  url: "https://www.themarginalian.org/2026/04/28/iris-murdoch-unselfing/"
-  date: 2026-04-28
-  source: The Marginalian
   category: philosophy
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
   url: "https://www.strongerbyscience.com/isometric-training/"
@@ -127,11 +137,6 @@
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
   source: Julia Evans
-  category: programming
-- title: Notes on Lagrange Interpolating Polynomials
-  url: "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/"
-  date: 2026-02-28
-  source: Eli Bendersky
   category: programming
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
@@ -173,11 +178,6 @@
   date: 2025-12-10
   source: Stronger By Science
   category: strength
-- title: Notes on switching to Helix from vim
-  url: "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-  date: 2025-10-10
-  source: Julia Evans
-  category: programming
 - title: "Best Vegan Creatine (2026): Plant-Based Picks for Every Athlete"
   url: "https://barbend.com/best-vegan-creatine/"
   date: 2025-09-05
