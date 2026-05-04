@@ -1,3 +1,38 @@
+- title: Quoting Anthropic
+  url: "https://simonwillison.net/2026/May/3/anthropic/#atom-everything"
+  date: 2026-05-03
+  source: Simon Willison
+  category: ai
+- title: "Let's Buy Spirit Air"
+  url: "https://letsbuyspiritair.com/"
+  date: 2026-05-03
+  source: Hacker News Best
+  category: programming
+- title: Agentic Coding Is a Trap
+  url: "https://larsfaye.com/articles/agentic-coding-is-a-trap"
+  date: 2026-05-03
+  source: Hacker News Best
+  category: programming
+- title: DeepClaude – Claude Code agent loop with DeepSeek V4 Pro
+  url: "https://github.com/aattaran/deepclaude"
+  date: 2026-05-03
+  source: Hacker News Best
+  category: programming
+- title: "New statue in London, attributed to Banksy, of a suited man, blinded by a flag"
+  url: "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/"
+  date: 2026-05-03
+  source: Hacker News Best
+  category: programming
+- title: Why TUIs are back
+  url: "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/"
+  date: 2026-05-03
+  source: Hacker News Best
+  category: programming
+- title: Mary Oliver on the Measure of a Life Well Lived and How to Magnify Your Aliveness
+  url: "https://www.themarginalian.org/2026/05/03/mary-oliver-blue-horses-fourth-sign-of-the-zodiac/"
+  date: 2026-05-03
+  source: The Marginalian
+  category: philosophy
 - title: Sightings
   url: "https://simonwillison.net/2026/May/2/sightings/#atom-everything"
   date: 2026-05-02
@@ -12,31 +47,6 @@
   url: "https://eli.thegreenplace.net/2026/scaling-stretching-and-shifting-sinusoids/"
   date: 2026-05-02
   source: Eli Bendersky
-  category: programming
-- title: Six Years Perfecting Maps on WatchOS
-  url: "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/"
-  date: 2026-05-02
-  source: Hacker News Best
-  category: programming
-- title: This Month in Ladybird - April 2026
-  url: "https://ladybird.org/newsletter/2026-04-30/"
-  date: 2026-05-02
-  source: Hacker News Best
-  category: programming
-- title: "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage"
-  url: "https://github.com/microsoft/vscode/pull/310226"
-  date: 2026-05-02
-  source: Hacker News Best
-  category: programming
-- title: NetHack 5.0.0
-  url: "https://nethack.org/v500/release.html"
-  date: 2026-05-02
-  source: Hacker News Best
-  category: programming
-- title: California to begin ticketing driverless cars that violate traffic laws
-  url: "https://www.bbc.com/news/articles/clypjx3rg2go"
-  date: 2026-05-02
-  source: Hacker News Best
   category: programming
 - title: "The Wanting Monster: A Tender Modern Fable about the Difficult Art of Resting at the Still Point of Enough"
   url: "https://www.themarginalian.org/2026/05/02/the-wanting-monster/"
@@ -68,11 +78,6 @@
   date: 2026-05-01
   source: The Marginalian
   category: philosophy
-- title: "The One Hundred Milliseconds Between the World and You: Oliver Sacks on Perception"
-  url: "https://www.themarginalian.org/2026/04/30/oliver-sacks-perception/"
-  date: 2026-05-01
-  source: The Marginalian
-  category: philosophy
 - title: Codex CLI 0.128.0 adds /goal
   url: "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"
   date: 2026-04-30
@@ -80,11 +85,6 @@
   category: ai
 - title: "Our evaluation of OpenAI's GPT-5.5 cyber capabilities"
   url: "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"
-  date: 2026-04-30
-  source: Simon Willison
-  category: ai
-- title: Quoting Andrew Kelley
-  url: "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything"
   date: 2026-04-30
   source: Simon Willison
   category: ai
