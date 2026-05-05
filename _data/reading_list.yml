@@ -1,43 +1,83 @@
-- title: Quoting Anthropic
-  url: "https://simonwillison.net/2026/May/3/anthropic/#atom-everything"
-  date: 2026-05-03
+- title: Quoting John Gruber
+  url: "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything"
+  date: 2026-05-05
   source: Simon Willison
   category: ai
-- title: "Let's Buy Spirit Air"
-  url: "https://letsbuyspiritair.com/"
-  date: 2026-05-03
+- title: Bun is being ported from Zig to Rust
+  url: "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5"
+  date: 2026-05-05
   source: Hacker News Best
   category: programming
-- title: Agentic Coding Is a Trap
-  url: "https://larsfaye.com/articles/agentic-coding-is-a-trap"
-  date: 2026-05-03
+- title: "Y Combinator's Stake in OpenAI (0.6%)"
+  url: "https://daringfireball.net/2026/05/y_combinators_stake_in_openai"
+  date: 2026-05-05
   source: Hacker News Best
   category: programming
-- title: DeepClaude – Claude Code agent loop with DeepSeek V4 Pro
-  url: "https://github.com/aattaran/deepclaude"
-  date: 2026-05-03
+- title: Granite 4.1 3B SVG Pelican Gallery
+  url: "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything"
+  date: 2026-05-04
+  source: Simon Willison
+  category: ai
+- title: Quoting Andy Masley
+  url: "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything"
+  date: 2026-05-04
+  source: Simon Willison
+  category: ai
+- title: April 2026 newsletter
+  url: "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything"
+  date: 2026-05-04
+  source: Simon Willison
+  category: ai
+- title: TRE Python binding — ReDoS robustness demo
+  url: "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything"
+  date: 2026-05-04
+  source: Simon Willison
+  category: ai
+- title: Links to CSS colour palettes
+  url: "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+  date: 2026-05-04
+  source: Julia Evans
+  category: programming
+- title: How OpenAI delivers low-latency voice AI at scale
+  url: "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/"
+  date: 2026-05-04
   source: Hacker News Best
   category: programming
-- title: "New statue in London, attributed to Banksy, of a suited man, blinded by a flag"
-  url: "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/"
-  date: 2026-05-03
+- title: "Microsoft Edge stores all passwords in memory in clear text, even when unused"
+  url: "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730"
+  date: 2026-05-04
   source: Hacker News Best
   category: programming
-- title: Why TUIs are back
-  url: "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/"
-  date: 2026-05-03
+- title: Days without GitHub incidents
+  url: "https://www.dayswithoutgithubincident.com/"
+  date: 2026-05-04
   source: Hacker News Best
   category: programming
+- title: Democracy by lottery
+  url: "https://aeon.co/videos/is-democracy-without-elections-possible-could-a-lottery-be-better?utm_source=rss-feed"
+  date: 2026-05-04
+  source: Aeon
+  category: philosophy
+- title: Reality emerges
+  url: "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed"
+  date: 2026-05-04
+  source: Aeon
+  category: philosophy
+- title: "Consolation for Sorrow from King Arthur’s Court: Merlyn’s Advice on What to Do When the World Gets You Down"
+  url: "https://www.themarginalian.org/2026/05/03/t-h-white-once-and-future-king-merlyn/"
+  date: 2026-05-04
+  source: The Marginalian
+  category: philosophy
+- title: Hannah Arendt on the Power of Being an Outsider
+  url: "https://www.themarginalian.org/2026/05/03/hannah-arendt-men-in-dark-times/"
+  date: 2026-05-03
+  source: The Marginalian
+  category: philosophy
 - title: Mary Oliver on the Measure of a Life Well Lived and How to Magnify Your Aliveness
   url: "https://www.themarginalian.org/2026/05/03/mary-oliver-blue-horses-fourth-sign-of-the-zodiac/"
   date: 2026-05-03
   source: The Marginalian
   category: philosophy
-- title: Sightings
-  url: "https://simonwillison.net/2026/May/2/sightings/#atom-everything"
-  date: 2026-05-02
-  source: Simon Willison
-  category: ai
 - title: Testing Vue components in the browser
   url: "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
   date: 2026-05-02
@@ -58,36 +98,11 @@
   date: 2026-05-02
   source: The Marginalian
   category: philosophy
-- title: iNaturalist Sightings
-  url: "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"
-  date: 2026-05-01
-  source: Simon Willison
-  category: ai
 - title: To be is to participate
   url: "https://aeon.co/essays/lucien-levy-bruhl-and-the-emergence-of-personhood?utm_source=rss-feed"
   date: 2026-05-01
   source: Aeon
   category: philosophy
-- title: "The Dandelion and the Meaning of Life: G.K. Chesterton on How to Dig for the “Submerged Sunrise of Wonder”"
-  url: "https://www.themarginalian.org/2026/05/01/g-k-chesterton-dandelion/"
-  date: 2026-05-01
-  source: The Marginalian
-  category: philosophy
-- title: The Wildest Bet Is the Winning Bet
-  url: "https://www.themarginalian.org/2026/04/30/bet/"
-  date: 2026-05-01
-  source: The Marginalian
-  category: philosophy
-- title: Codex CLI 0.128.0 adds /goal
-  url: "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"
-  date: 2026-04-30
-  source: Simon Willison
-  category: ai
-- title: "Our evaluation of OpenAI's GPT-5.5 cyber capabilities"
-  url: "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"
-  date: 2026-04-30
-  source: Simon Willison
-  category: ai
 - title: "Who invented bad guys?"
   url: "https://aeon.co/videos/when-did-stories-become-so-centred-on-good-battling-evil-and-why?utm_source=rss-feed"
   date: 2026-04-30
@@ -103,16 +118,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "1,000 years of Japanese swords"
-  url: "https://aeon.co/videos/a-millennium-of-japanese-history-as-told-through-the-samurai-sword?utm_source=rss-feed"
-  date: 2026-04-29
-  source: Aeon
-  category: philosophy
-- title: Hunting ‘Man the Hunter’
-  url: "https://aeon.co/essays/why-man-the-hunter-continues-to-die-and-return?utm_source=rss-feed"
-  date: 2026-04-28
-  source: Aeon
-  category: philosophy
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
   url: "https://www.strongerbyscience.com/isometric-training/"
   date: 2026-04-23
@@ -151,11 +156,6 @@
 - title: Some notes on starting to use Django
   url: "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
   date: 2026-01-27
-  source: Julia Evans
-  category: programming
-- title: A data model for Git (and other docs updates)
-  url: "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
-  date: 2026-01-08
   source: Julia Evans
   category: programming
 - title: "High volume vs high intensity: which builds more muscle?"
