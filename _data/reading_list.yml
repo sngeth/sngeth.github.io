@@ -1,3 +1,48 @@
+- title: "Live blog: Code w/ Claude 2026"
+  url: "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything"
+  date: 2026-05-06
+  source: Simon Willison
+  category: ai
+- title: "Vibe coding and agentic engineering are getting closer than I'd like"
+  url: "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything"
+  date: 2026-05-06
+  source: Simon Willison
+  category: ai
+- title: Inkscape 1.4.4
+  url: "https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html"
+  date: 2026-05-06
+  source: Hacker News Best
+  category: programming
+- title: Programming Still Sucks
+  url: "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp"
+  date: 2026-05-06
+  source: Hacker News Best
+  category: programming
+- title: Appearing productive in the workplace
+  url: "https://nooneshappy.com/article/appearing-productive-in-the-workplace/"
+  date: 2026-05-06
+  source: Hacker News Best
+  category: programming
+- title: Higher usage limits for Claude and a compute deal with SpaceX
+  url: "https://www.anthropic.com/news/higher-limits-spacex"
+  date: 2026-05-06
+  source: Hacker News Best
+  category: programming
+- title: Valve releases Steam Controller CAD files under Creative Commons license
+  url: "https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license"
+  date: 2026-05-06
+  source: Hacker News Best
+  category: programming
+- title: Sarnevesht (Daughter)
+  url: "https://aeon.co/videos/a-teen-girl-hits-a-crossroads-in-this-stirring-portrait-of-rural-iran?utm_source=rss-feed"
+  date: 2026-05-06
+  source: Aeon
+  category: philosophy
+- title: "Embodiment and the (Re)invention of Emoji, from the Aztecs to Humboldt and Darwin to AI"
+  url: "https://www.themarginalian.org/2026/05/05/aztec-humboldt-darwin-emoji/"
+  date: 2026-05-06
+  source: The Marginalian
+  category: philosophy
 - title: datasette-referrer-policy 0.1
   url: "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything"
   date: 2026-05-05
@@ -13,58 +58,28 @@
   date: 2026-05-05
   source: Simon Willison
   category: ai
-- title: llm-echo 0.5a0
-  url: "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything"
-  date: 2026-05-05
-  source: Simon Willison
-  category: ai
-- title: Quoting John Gruber
-  url: "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything"
-  date: 2026-05-05
-  source: Simon Willison
-  category: ai
-- title: ".de TLD offline due to DNSSEC?"
-  url: "https://dnssec-analyzer.verisignlabs.com/nic.de"
-  date: 2026-05-05
-  source: Hacker News Best
-  category: programming
-- title: California farmers to destroy 420k peach trees following Del Monte bankruptcy
-  url: "https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php"
-  date: 2026-05-05
-  source: Hacker News Best
-  category: programming
-- title: "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement"
-  url: "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/"
-  date: 2026-05-05
-  source: Hacker News Best
-  category: programming
-- title: "IBM didn't want Microsoft to use the Tab key to move between dialog fields"
-  url: "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298"
-  date: 2026-05-05
-  source: Hacker News Best
-  category: programming
-- title: Computer Use is 45x more expensive than structured APIs
-  url: "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/"
-  date: 2026-05-05
-  source: Hacker News Best
-  category: programming
 - title: "Embrace the edge!"
   url: "https://aeon.co/essays/why-creativity-shines-out-on-the-edge-of-things?utm_source=rss-feed"
   date: 2026-05-05
   source: Aeon
   category: philosophy
+- title: Viktor Frankl on Success
+  url: "https://www.themarginalian.org/2026/05/05/viktor-frankl-success/"
+  date: 2026-05-05
+  source: The Marginalian
+  category: philosophy
+- title: "Virginia Woolf on Finding Beauty in the Uncertainty of Time, Space, and Being"
+  url: "https://www.themarginalian.org/2026/05/05/virginia-woolf-to-the-lighthouse/"
+  date: 2026-05-05
+  source: The Marginalian
+  category: philosophy
+- title: Kierkegaard on How to Channel Anxiety into Creativity
+  url: "https://www.themarginalian.org/2026/05/05/kierkegaard-on-anxiety-and-creativity/"
+  date: 2026-05-05
+  source: The Marginalian
+  category: philosophy
 - title: Simone de Beauvoir on Marriage and the Freedom to Change
   url: "https://www.themarginalian.org/2026/05/04/simone-de-beauvoir-marriage-change/"
-  date: 2026-05-05
-  source: The Marginalian
-  category: philosophy
-- title: Arundhati Roy on the Deepest Measure of Success
-  url: "https://www.themarginalian.org/2026/05/04/arundhati-roy-success/"
-  date: 2026-05-05
-  source: The Marginalian
-  category: philosophy
-- title: "Trying Not to Try: Finding Freedom from Striving in the Ancient Chinese Concept of Wu-Wei"
-  url: "https://www.themarginalian.org/2026/05/04/trying-not-to-try-slingerland/"
   date: 2026-05-05
   source: The Marginalian
   category: philosophy
@@ -83,16 +98,6 @@
   date: 2026-05-04
   source: Aeon
   category: philosophy
-- title: "How to Be More Alive: Hermann Hesse on Wonder and the Proper Aim of Education"
-  url: "https://www.themarginalian.org/2026/05/04/hermann-hesse-wonder-butterflies/"
-  date: 2026-05-04
-  source: The Marginalian
-  category: philosophy
-- title: "Consolation for Sorrow from King Arthur’s Court: Merlyn’s Advice on What to Do When the World Gets You Down"
-  url: "https://www.themarginalian.org/2026/05/03/t-h-white-once-and-future-king-merlyn/"
-  date: 2026-05-04
-  source: The Marginalian
-  category: philosophy
 - title: Testing Vue components in the browser
   url: "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
   date: 2026-05-02
@@ -106,11 +111,6 @@
 - title: To be is to participate
   url: "https://aeon.co/essays/lucien-levy-bruhl-and-the-emergence-of-personhood?utm_source=rss-feed"
   date: 2026-05-01
-  source: Aeon
-  category: philosophy
-- title: "Who invented bad guys?"
-  url: "https://aeon.co/videos/when-did-stories-become-so-centred-on-good-battling-evil-and-why?utm_source=rss-feed"
-  date: 2026-04-30
   source: Aeon
   category: philosophy
 - title: Thoughts on WebAssembly as a stack machine
