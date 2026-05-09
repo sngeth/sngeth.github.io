@@ -1,3 +1,58 @@
+- title: Quoting Luke Curley
+  url: "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything"
+  date: 2026-05-09
+  source: Simon Willison
+  category: ai
+- title: "Using Claude Code: The Unreasonable Effectiveness of HTML"
+  url: "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything"
+  date: 2026-05-08
+  source: Simon Willison
+  category: ai
+- title: Google broke reCAPTCHA for de-googled Android users
+  url: "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users"
+  date: 2026-05-08
+  source: Hacker News Best
+  category: programming
+- title: AI is breaking two vulnerability cultures
+  url: "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures"
+  date: 2026-05-08
+  source: Hacker News Best
+  category: programming
+- title: Cartoon Network Flash Games
+  url: "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games"
+  date: 2026-05-08
+  source: Hacker News Best
+  category: programming
+- title: Google Cloud Fraud Defence is just WEI repackaged
+  url: "https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/"
+  date: 2026-05-08
+  source: Hacker News Best
+  category: programming
+- title: A web page that shows you everything the browser told it without asking
+  url: "https://sinceyouarrived.world/taken"
+  date: 2026-05-08
+  source: Hacker News Best
+  category: programming
+- title: The eye in your pocket
+  url: "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you"
+  date: 2026-05-08
+  source: Aeon
+  category: philosophy
+- title: 3 Kinds of Loneliness and 4 Kinds of Forever
+  url: "https://www.themarginalian.org/2026/05/08/loneliness-forever/"
+  date: 2026-05-08
+  source: The Marginalian
+  category: philosophy
+- title: Gary Snyder on How to Unbreak the World
+  url: "https://www.themarginalian.org/2026/05/08/gary-snyder/"
+  date: 2026-05-08
+  source: The Marginalian
+  category: philosophy
+- title: "Poetry: I Too, Dislike It"
+  url: "https://www.themarginalian.org/2026/05/07/marianne-moore-poetry/"
+  date: 2026-05-08
+  source: The Marginalian
+  category: philosophy
 - title: llm-gemini 0.31
   url: "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything"
   date: 2026-05-07
@@ -13,41 +68,6 @@
   date: 2026-05-07
   source: Simon Willison
   category: ai
-- title: Notes on the xAI/Anthropic data center deal
-  url: "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything"
-  date: 2026-05-07
-  source: Simon Willison
-  category: ai
-- title: GitHub Repo Stats
-  url: "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything"
-  date: 2026-05-07
-  source: Simon Willison
-  category: ai
-- title: "Maybe you shouldn't install new software for a bit"
-  url: "https://xeiaso.net/blog/2026/abstain-from-install/"
-  date: 2026-05-07
-  source: Hacker News Best
-  category: programming
-- title: Canvas is down as ShinyHunters threatens to leak schools’ data
-  url: "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach"
-  date: 2026-05-07
-  source: Hacker News Best
-  category: programming
-- title: "Cloudflare to cut about 20% workforce"
-  url: "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/"
-  date: 2026-05-07
-  source: Hacker News Best
-  category: programming
-- title: "Dirtyfrag: Universal Linux LPE"
-  url: "https://www.openwall.com/lists/oss-security/2026/05/07/8"
-  date: 2026-05-07
-  source: Hacker News Best
-  category: programming
-- title: AI slop is killing online communities
-  url: "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/"
-  date: 2026-05-07
-  source: Hacker News Best
-  category: programming
 - title: "Nature’s hardware store: building the future with biology"
   url: "https://aeon.co/videos/fungi-homes-and-more-ways-biology-could-sustain-life-beyond-earth"
   date: 2026-05-07
@@ -68,25 +88,10 @@
   date: 2026-05-07
   source: The Marginalian
   category: philosophy
-- title: Beethoven’s “Ode to Joy” Brought to Life in a Spanish Flashmob of 100 Musicians
-  url: "https://www.themarginalian.org/2026/05/07/ode-to-joy-flashmob/"
-  date: 2026-05-07
-  source: The Marginalian
-  category: philosophy
 - title: Sarnevesht (Daughter)
   url: "https://aeon.co/videos/a-teen-girl-hits-a-crossroads-in-this-stirring-portrait-of-rural-iran"
   date: 2026-05-06
   source: Aeon
-  category: philosophy
-- title: "Ecology, Empire, Emoji: The Bittersweet Story of the Ancient Plant That Originated the Heart Symbol"
-  url: "https://www.themarginalian.org/2026/05/06/silphium/"
-  date: 2026-05-06
-  source: The Marginalian
-  category: philosophy
-- title: Philosopher Martha Nussbaum on How to Live with Our Human Fragility
-  url: "https://www.themarginalian.org/2026/05/06/martha-nussbaum-bill-moyers-world-of-ideas/"
-  date: 2026-05-06
-  source: The Marginalian
   category: philosophy
 - title: "Embrace the edge!"
   url: "https://aeon.co/essays/why-creativity-shines-out-on-the-edge-of-things"
@@ -98,11 +103,6 @@
   date: 2026-05-04
   source: Julia Evans
   category: programming
-- title: Democracy by lottery
-  url: "https://aeon.co/videos/is-democracy-without-elections-possible-could-a-lottery-be-better"
-  date: 2026-05-04
-  source: Aeon
-  category: philosophy
 - title: Testing Vue components in the browser
   url: "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
   date: 2026-05-02
