@@ -1,38 +1,73 @@
-- title: "I'm going back to writing code by hand"
-  url: "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/"
+- title: "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\""
+  url: "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything"
+  date: 2026-05-11
+  source: Simon Willison
+  category: ai
+- title: Quoting James Shore
+  url: "https://simonwillison.net/2026/May/11/james-shore/#atom-everything"
+  date: 2026-05-11
+  source: Simon Willison
+  category: ai
+- title: Your AI Use Is Breaking My Brain
+  url: "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything"
+  date: 2026-05-11
+  source: Simon Willison
+  category: ai
+- title: Using LLM in the shebang line of a script
+  url: "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything"
+  date: 2026-05-11
+  source: Simon Willison
+  category: ai
+- title: Learning on the Shop floor
+  url: "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything"
+  date: 2026-05-11
+  source: Simon Willison
+  category: ai
+- title: "Postmortem: TanStack NPM supply-chain compromise"
+  url: "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
   date: 2026-05-11
   source: Hacker News Best
   category: programming
-- title: Quoting New York Times Editors’ Note
-  url: "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything"
-  date: 2026-05-10
-  source: Simon Willison
-  category: ai
-- title: Quoting Andrew Quinn
-  url: "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything"
-  date: 2026-05-10
-  source: Simon Willison
-  category: ai
-- title: Running local models on an M4 with 24GB memory
-  url: "https://jola.dev/posts/running-local-models-on-m4"
-  date: 2026-05-10
+- title: GitLab announces workforce reduction and end of their CREDIT values
+  url: "https://about.gitlab.com/blog/gitlab-act-2/"
+  date: 2026-05-11
   source: Hacker News Best
   category: programming
-- title: Maryland citizens hit with $2B power grid upgrade for out-of-state AI
-  url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises"
-  date: 2026-05-10
+- title: "If AI writes your code, why use Python?"
+  url: "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
+  date: 2026-05-11
   source: Hacker News Best
   category: programming
-- title: Hardware Attestation as Monopoly Enabler
-  url: "https://grapheneos.social/@GrapheneOS/116550899908879585"
-  date: 2026-05-10
+- title: "Can someone please explain whether Cloudflare blackmailed Canonical?"
+  url: "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/"
+  date: 2026-05-11
   source: Hacker News Best
   category: programming
-- title: "Incident Report: CVE-2024-YIKES"
-  url: "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html"
-  date: 2026-05-10
+- title: UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)
+  url: "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage"
+  date: 2026-05-11
   source: Hacker News Best
   category: programming
+- title: Classroom 4
+  url: "https://aeon.co/videos/the-historian-who-brings-lessons-on-us-prisons-inside-their-walls"
+  date: 2026-05-11
+  source: Aeon
+  category: philosophy
+- title: Children are apprentices
+  url: "https://aeon.co/essays/children-need-stress-and-discomfort-in-order-to-grow-up"
+  date: 2026-05-11
+  source: Aeon
+  category: philosophy
+- title: Let Your Heart Be Broken
+  url: "https://www.themarginalian.org/2026/05/11/let-your-heart-be-broken/"
+  date: 2026-05-11
+  source: The Marginalian
+  category: philosophy
+- title: "How to Grow Old: Bertrand Russell on What Makes a Fulfilling Life"
+  url: "https://www.themarginalian.org/2026/05/10/how-to-grow-old-bertrand-russell/"
+  date: 2026-05-10
+  source: The Marginalian
+  category: philosophy
 - title: Zadie Smith on the Courage to Be More Than Yourself
   url: "https://www.themarginalian.org/2026/05/10/zadie-smith-cultural-appropriation/"
   date: 2026-05-10
@@ -48,36 +83,11 @@
   date: 2026-05-10
   source: The Marginalian
   category: philosophy
-- title: Quoting Luke Curley
-  url: "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything"
-  date: 2026-05-09
-  source: Simon Willison
-  category: ai
-- title: "Martian Gargoyles and Lunar Fish: Chilean Artist Alejandra Acosta’s Wondrous Embroidered Illustrations for This World’s First Book Theorizing Life on Other Worlds"
-  url: "https://www.themarginalian.org/2026/05/08/alejandra-acosta-cosmotheoros/"
-  date: 2026-05-09
-  source: The Marginalian
-  category: philosophy
-- title: "Using Claude Code: The Unreasonable Effectiveness of HTML"
-  url: "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything"
-  date: 2026-05-08
-  source: Simon Willison
-  category: ai
 - title: The eye in your pocket
   url: "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you"
   date: 2026-05-08
   source: Aeon
   category: philosophy
-- title: 3 Kinds of Loneliness and 4 Kinds of Forever
-  url: "https://www.themarginalian.org/2026/05/08/loneliness-forever/"
-  date: 2026-05-08
-  source: The Marginalian
-  category: philosophy
-- title: llm-gemini 0.31
-  url: "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything"
-  date: 2026-05-07
-  source: Simon Willison
-  category: ai
 - title: "Nature’s hardware store: building the future with biology"
   url: "https://aeon.co/videos/fungi-homes-and-more-ways-biology-could-sustain-life-beyond-earth"
   date: 2026-05-07
@@ -86,16 +96,6 @@
 - title: The origins of Indians
   url: "https://aeon.co/essays/ancient-india-was-shaped-by-waves-of-migration-and-mixing"
   date: 2026-05-07
-  source: Aeon
-  category: philosophy
-- title: Sarnevesht (Daughter)
-  url: "https://aeon.co/videos/a-teen-girl-hits-a-crossroads-in-this-stirring-portrait-of-rural-iran"
-  date: 2026-05-06
-  source: Aeon
-  category: philosophy
-- title: "Embrace the edge!"
-  url: "https://aeon.co/essays/why-creativity-shines-out-on-the-edge-of-things"
-  date: 2026-05-05
   source: Aeon
   category: philosophy
 - title: Links to CSS colour palettes
