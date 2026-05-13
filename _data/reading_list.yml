@@ -1,53 +1,68 @@
-- title: "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\""
-  url: "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything"
-  date: 2026-05-11
+- title: CSP Allow-list Experiment
+  url: "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything"
+  date: 2026-05-13
   source: Simon Willison
   category: ai
-- title: Quoting James Shore
-  url: "https://simonwillison.net/2026/May/11/james-shore/#atom-everything"
-  date: 2026-05-11
+- title: datasette 1.0a29
+  url: "https://simonwillison.net/2026/May/12/datasette/#atom-everything"
+  date: 2026-05-12
   source: Simon Willison
   category: ai
-- title: Your AI Use Is Breaking My Brain
-  url: "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything"
-  date: 2026-05-11
+- title: Quoting Mo Bitar
+  url: "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything"
+  date: 2026-05-12
   source: Simon Willison
   category: ai
-- title: Using LLM in the shebang line of a script
-  url: "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything"
-  date: 2026-05-11
+- title: Quoting Mitchell Hashimoto
+  url: "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything"
+  date: 2026-05-12
   source: Simon Willison
   category: ai
-- title: Learning on the Shop floor
-  url: "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything"
-  date: 2026-05-11
+- title: llm 0.32a2
+  url: "https://simonwillison.net/2026/May/12/llm/#atom-everything"
+  date: 2026-05-12
   source: Simon Willison
   category: ai
-- title: "Postmortem: TanStack NPM supply-chain compromise"
-  url: "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem"
-  date: 2026-05-11
+- title: "Tell NYT, Atlantic, USA Today to keep Wayback Machine"
+  url: "https://www.savethearchive.com/newsleaders/"
+  date: 2026-05-12
   source: Hacker News Best
   category: programming
-- title: GitLab announces workforce reduction and end of their CREDIT values
-  url: "https://about.gitlab.com/blog/gitlab-act-2/"
-  date: 2026-05-11
+- title: Restore full BambuNetwork support for Bambu Lab printers
+  url: "https://github.com/FULU-Foundation/OrcaSlicer-bambulab"
+  date: 2026-05-12
   source: Hacker News Best
   category: programming
-- title: "If AI writes your code, why use Python?"
-  url: "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055"
-  date: 2026-05-11
+- title: How to make your text look futuristic (2016)
+  url: "https://typesetinthefuture.com/2016/02/18/futuristic/"
+  date: 2026-05-12
   source: Hacker News Best
   category: programming
-- title: "Can someone please explain whether Cloudflare blackmailed Canonical?"
-  url: "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/"
-  date: 2026-05-11
+- title: CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq
+  url: "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html"
+  date: 2026-05-12
   source: Hacker News Best
   category: programming
-- title: UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)
-  url: "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage"
-  date: 2026-05-11
+- title: "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model"
+  url: "https://github.com/cactus-compute/needle"
+  date: 2026-05-12
   source: Hacker News Best
   category: programming
+- title: Beneath our human shallows
+  url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
+  date: 2026-05-12
+  source: Aeon
+  category: philosophy
+- title: "The Enemy Outside and the Enemy Within: Audre Lorde’s Antidote to Despair"
+  url: "https://www.themarginalian.org/2026/05/12/audre-lorde-despair/"
+  date: 2026-05-12
+  source: The Marginalian
+  category: philosophy
+- title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
+  url: "https://www.themarginalian.org/2026/05/11/bloom-depression/"
+  date: 2026-05-12
+  source: The Marginalian
+  category: philosophy
 - title: Classroom 4
   url: "https://aeon.co/videos/the-historian-who-brings-lessons-on-us-prisons-inside-their-walls"
   date: 2026-05-11
@@ -73,16 +88,6 @@
   date: 2026-05-10
   source: The Marginalian
   category: philosophy
-- title: How to Live a Miraculous Life
-  url: "https://www.themarginalian.org/2026/05/09/brian-doyle-humility-love/"
-  date: 2026-05-10
-  source: The Marginalian
-  category: philosophy
-- title: Walt Whitman’s Advice on Living a Vibrant and Rewarding Life
-  url: "https://www.themarginalian.org/2026/05/09/walt-whitman-leaves-of-grass-preface/"
-  date: 2026-05-10
-  source: The Marginalian
-  category: philosophy
 - title: The eye in your pocket
   url: "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you"
   date: 2026-05-08
@@ -90,11 +95,6 @@
   category: philosophy
 - title: "Nature’s hardware store: building the future with biology"
   url: "https://aeon.co/videos/fungi-homes-and-more-ways-biology-could-sustain-life-beyond-earth"
-  date: 2026-05-07
-  source: Aeon
-  category: philosophy
-- title: The origins of Indians
-  url: "https://aeon.co/essays/ancient-india-was-shaped-by-waves-of-migration-and-mixing"
   date: 2026-05-07
   source: Aeon
   category: philosophy
@@ -177,31 +177,6 @@
   url: "https://www.strongerbyscience.com/alcohol-lifters/"
   date: 2025-12-10
   source: Stronger By Science
-  category: strength
-- title: "Best Vegan Creatine (2026): Plant-Based Picks for Every Athlete"
-  url: "https://barbend.com/best-vegan-creatine/"
-  date: 2025-09-05
-  source: BarBend
-  category: strength
-- title: "Fueling the Future Deadlift World Record: Hafthor Björnsson’s 8,000-Calorie Diet"
-  url: "https://barbend.com/news/hafthor-bjornsson-8000-calorie-diet/"
-  date: 2025-09-04
-  source: BarBend
-  category: strength
-- title: 2026 Olympia Qualification Points System Announced
-  url: "https://barbend.com/news/2026-olympia-qualification-points-system/"
-  date: 2025-09-04
-  source: BarBend
-  category: strength
-- title: "Muscle Building: Whey Protein Continues to Perform Better Than Collagen"
-  url: "https://barbend.com/whey-protein-better-than-collagen/"
-  date: 2025-09-04
-  source: BarBend
-  category: strength
-- title: 4x Men’s Physique Olympia Champion Jeremy Buendia’s New Commercial Gym Tour
-  url: "https://barbend.com/news/jeremy-buendia-commercial-gym-stoik/"
-  date: 2025-09-04
-  source: BarBend
   category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
