@@ -1,8 +1,63 @@
+- title: Welcome to the Datasette blog
+  url: "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything"
+  date: 2026-05-13
+  source: Simon Willison
+  category: ai
+- title: Quoting Boris Mann
+  url: "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything"
+  date: 2026-05-13
+  source: Simon Willison
+  category: ai
 - title: CSP Allow-list Experiment
   url: "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything"
   date: 2026-05-13
   source: Simon Willison
   category: ai
+- title: "Princeton mandates proctoring for in-person exams, upending 133 year precedent"
+  url: "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent"
+  date: 2026-05-13
+  source: Hacker News Best
+  category: programming
+- title: Kickstarter is forced to ban adult content by payment processors
+  url: "https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648"
+  date: 2026-05-13
+  source: Hacker News Best
+  category: programming
+- title: "Open Source Resistance: keep OSS alive on company time"
+  url: "https://ossresistance.com/"
+  date: 2026-05-13
+  source: Hacker News Best
+  category: programming
+- title: "Setting up a free *.city.state.us locality domain (2025)"
+  url: "https://fredchan.org/blog/locality-domains-guide/"
+  date: 2026-05-13
+  source: Hacker News Best
+  category: programming
+- title: Dutch suicide prevention website shares data with tech companies without consent
+  url: "https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies"
+  date: 2026-05-13
+  source: Hacker News Best
+  category: programming
+- title: Idle warriors
+  url: "https://aeon.co/videos/meet-the-bounty-hunters-who-enforce-new-yorks-idling-vehicle-ban"
+  date: 2026-05-13
+  source: Aeon
+  category: philosophy
+- title: "How to Keep Criticism from Sinking Your Soul: Walt Whitman and the Discipline of Creative Confidence"
+  url: "https://www.themarginalian.org/2026/05/13/whitman-emerson-criticism/"
+  date: 2026-05-13
+  source: The Marginalian
+  category: philosophy
+- title: "The Enemy Outside and the Enemy Within: Audre Lorde’s Antidote to Despair"
+  url: "https://www.themarginalian.org/2026/05/12/audre-lorde-despair/"
+  date: 2026-05-13
+  source: The Marginalian
+  category: philosophy
+- title: "How to Be Un-Dead: Anaïs Nin and D.H. Lawrence on the Key to Living Fully"
+  url: "https://www.themarginalian.org/2026/05/12/anais-nin-d-h-lawrence/"
+  date: 2026-05-13
+  source: The Marginalian
+  category: philosophy
 - title: datasette 1.0a29
   url: "https://simonwillison.net/2026/May/12/datasette/#atom-everything"
   date: 2026-05-12
@@ -13,50 +68,10 @@
   date: 2026-05-12
   source: Simon Willison
   category: ai
-- title: Quoting Mitchell Hashimoto
-  url: "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything"
-  date: 2026-05-12
-  source: Simon Willison
-  category: ai
-- title: llm 0.32a2
-  url: "https://simonwillison.net/2026/May/12/llm/#atom-everything"
-  date: 2026-05-12
-  source: Simon Willison
-  category: ai
-- title: "Tell NYT, Atlantic, USA Today to keep Wayback Machine"
-  url: "https://www.savethearchive.com/newsleaders/"
-  date: 2026-05-12
-  source: Hacker News Best
-  category: programming
-- title: Restore full BambuNetwork support for Bambu Lab printers
-  url: "https://github.com/FULU-Foundation/OrcaSlicer-bambulab"
-  date: 2026-05-12
-  source: Hacker News Best
-  category: programming
-- title: How to make your text look futuristic (2016)
-  url: "https://typesetinthefuture.com/2016/02/18/futuristic/"
-  date: 2026-05-12
-  source: Hacker News Best
-  category: programming
-- title: CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq
-  url: "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html"
-  date: 2026-05-12
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model"
-  url: "https://github.com/cactus-compute/needle"
-  date: 2026-05-12
-  source: Hacker News Best
-  category: programming
 - title: Beneath our human shallows
   url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
   date: 2026-05-12
   source: Aeon
-  category: philosophy
-- title: "The Enemy Outside and the Enemy Within: Audre Lorde’s Antidote to Despair"
-  url: "https://www.themarginalian.org/2026/05/12/audre-lorde-despair/"
-  date: 2026-05-12
-  source: The Marginalian
   category: philosophy
 - title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
   url: "https://www.themarginalian.org/2026/05/11/bloom-depression/"
@@ -78,24 +93,9 @@
   date: 2026-05-11
   source: The Marginalian
   category: philosophy
-- title: "How to Grow Old: Bertrand Russell on What Makes a Fulfilling Life"
-  url: "https://www.themarginalian.org/2026/05/10/how-to-grow-old-bertrand-russell/"
-  date: 2026-05-10
-  source: The Marginalian
-  category: philosophy
-- title: Zadie Smith on the Courage to Be More Than Yourself
-  url: "https://www.themarginalian.org/2026/05/10/zadie-smith-cultural-appropriation/"
-  date: 2026-05-10
-  source: The Marginalian
-  category: philosophy
-- title: The eye in your pocket
+- title: The prophet in your pocket
   url: "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you"
   date: 2026-05-08
-  source: Aeon
-  category: philosophy
-- title: "Nature’s hardware store: building the future with biology"
-  url: "https://aeon.co/videos/fungi-homes-and-more-ways-biology-could-sustain-life-beyond-earth"
-  date: 2026-05-07
   source: Aeon
   category: philosophy
 - title: Links to CSS colour palettes
