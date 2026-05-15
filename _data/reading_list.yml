@@ -1,3 +1,63 @@
+- title: Mullvad exit IPs are surprisingly identifying
+  url: "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/"
+  date: 2026-05-15
+  source: Hacker News Best
+  category: programming
+- title: Not so locked in any more
+  url: "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything"
+  date: 2026-05-14
+  source: Simon Willison
+  category: ai
+- title: Quoting Mitchell Hashimoto
+  url: "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything"
+  date: 2026-05-14
+  source: Simon Willison
+  category: ai
+- title: datasette-ip-rate-limit 0.1a0
+  url: "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything"
+  date: 2026-05-14
+  source: Simon Willison
+  category: ai
+- title: A few words on DS4
+  url: "https://antirez.com/news/165"
+  date: 2026-05-14
+  source: Hacker News Best
+  category: programming
+- title: "New arXiv policy: 1-year ban for hallucinated references"
+  url: "https://twitter.com/tdietterich/status/2055000956144935055"
+  date: 2026-05-14
+  source: Hacker News Best
+  category: programming
+- title: Codex is now in the ChatGPT mobile app
+  url: "https://openai.com/index/work-with-codex-from-anywhere/"
+  date: 2026-05-14
+  source: Hacker News Best
+  category: programming
+- title: First public macOS kernel memory corruption exploit on Apple M5
+  url: "https://blog.calif.io/p/first-public-kernel-memory-corruption"
+  date: 2026-05-14
+  source: Hacker News Best
+  category: programming
+- title: Silvesterchlausen
+  url: "https://aeon.co/videos/the-swiss-tradition-thats-a-mystery-even-to-those-who-celebrate-it"
+  date: 2026-05-14
+  source: Aeon
+  category: philosophy
+- title: Rights require money
+  url: "https://aeon.co/essays/to-fund-human-rights-we-need-a-global-fair-tax-convention"
+  date: 2026-05-14
+  source: Aeon
+  category: philosophy
+- title: "In Praise of the Useless: Bertrand Russell’s Salve for Hard Times"
+  url: "https://www.themarginalian.org/2026/05/14/bertrand-russell-useless-knowledge/"
+  date: 2026-05-14
+  source: The Marginalian
+  category: philosophy
+- title: "On Children: Poignant Parenting Advice from Kahlil Gibran"
+  url: "https://www.themarginalian.org/2026/05/14/on-children-kahlil-gibran/"
+  date: 2026-05-14
+  source: The Marginalian
+  category: philosophy
 - title: Welcome to the Datasette blog
   url: "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything"
   date: 2026-05-13
@@ -8,36 +68,6 @@
   date: 2026-05-13
   source: Simon Willison
   category: ai
-- title: CSP Allow-list Experiment
-  url: "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything"
-  date: 2026-05-13
-  source: Simon Willison
-  category: ai
-- title: "Princeton mandates proctoring for in-person exams, upending 133 year precedent"
-  url: "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent"
-  date: 2026-05-13
-  source: Hacker News Best
-  category: programming
-- title: Kickstarter is forced to ban adult content by payment processors
-  url: "https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648"
-  date: 2026-05-13
-  source: Hacker News Best
-  category: programming
-- title: "Open Source Resistance: keep OSS alive on company time"
-  url: "https://ossresistance.com/"
-  date: 2026-05-13
-  source: Hacker News Best
-  category: programming
-- title: "Setting up a free *.city.state.us locality domain (2025)"
-  url: "https://fredchan.org/blog/locality-domains-guide/"
-  date: 2026-05-13
-  source: Hacker News Best
-  category: programming
-- title: Dutch suicide prevention website shares data with tech companies without consent
-  url: "https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies"
-  date: 2026-05-13
-  source: Hacker News Best
-  category: programming
 - title: Idle warriors
   url: "https://aeon.co/videos/meet-the-bounty-hunters-who-enforce-new-yorks-idling-vehicle-ban"
   date: 2026-05-13
@@ -58,44 +88,14 @@
   date: 2026-05-13
   source: The Marginalian
   category: philosophy
-- title: datasette 1.0a29
-  url: "https://simonwillison.net/2026/May/12/datasette/#atom-everything"
-  date: 2026-05-12
-  source: Simon Willison
-  category: ai
-- title: Quoting Mo Bitar
-  url: "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything"
-  date: 2026-05-12
-  source: Simon Willison
-  category: ai
 - title: Beneath our human shallows
   url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
   date: 2026-05-12
   source: Aeon
   category: philosophy
-- title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
-  url: "https://www.themarginalian.org/2026/05/11/bloom-depression/"
-  date: 2026-05-12
-  source: The Marginalian
-  category: philosophy
 - title: Classroom 4
   url: "https://aeon.co/videos/the-historian-who-brings-lessons-on-us-prisons-inside-their-walls"
   date: 2026-05-11
-  source: Aeon
-  category: philosophy
-- title: Children are apprentices
-  url: "https://aeon.co/essays/children-need-stress-and-discomfort-in-order-to-grow-up"
-  date: 2026-05-11
-  source: Aeon
-  category: philosophy
-- title: Let Your Heart Be Broken
-  url: "https://www.themarginalian.org/2026/05/11/let-your-heart-be-broken/"
-  date: 2026-05-11
-  source: The Marginalian
-  category: philosophy
-- title: The prophet in your pocket
-  url: "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you"
-  date: 2026-05-08
   source: Aeon
   category: philosophy
 - title: Links to CSS colour palettes
