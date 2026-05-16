@@ -1,43 +1,68 @@
-- title: Mullvad exit IPs are surprisingly identifying
-  url: "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/"
+- title: "'No way to prevent this,' says only package manager where this regularly happens"
+  url: "https://kevinpatel.xyz/posts/no-way-to-prevent-this/"
+  date: 2026-05-16
+  source: Hacker News Best
+  category: programming
+- title: inaturalist-clumper 0.1
+  url: "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything"
+  date: 2026-05-15
+  source: Simon Willison
+  category: ai
+- title: "Western Gull, Rock Pigeon"
+  url: "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything"
+  date: 2026-05-15
+  source: Simon Willison
+  category: ai
+- title: QR code generator
+  url: "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything"
+  date: 2026-05-15
+  source: Simon Willison
+  category: ai
+- title: datasette-llm-limits 0.1a0
+  url: "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything"
+  date: 2026-05-15
+  source: Simon Willison
+  category: ai
+- title: "Moving away from Tailwind, and learning to structure my CSS"
+  url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+  date: 2026-05-15
+  source: Julia Evans
+  category: programming
+- title: I believe there are entire companies right now under AI psychosis
+  url: "https://twitter.com/mitchellh/status/2055380239711457578"
   date: 2026-05-15
   source: Hacker News Best
   category: programming
+- title: California bill would require patches or refunds when online games shut down
+  url: "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/"
+  date: 2026-05-15
+  source: Hacker News Best
+  category: programming
+- title: ABC News has taken all FiveThirtyEight articles offline
+  url: "https://twitter.com/baseballot/status/2055309076209492208"
+  date: 2026-05-15
+  source: Hacker News Best
+  category: programming
+- title: The Zulip Foundation
+  url: "https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/"
+  date: 2026-05-15
+  source: Hacker News Best
+  category: programming
+- title: Gen Z but two centuries ago
+  url: "https://aeon.co/essays/young-people-now-and-the-mal-du-siecle-of-19th-century-france"
+  date: 2026-05-15
+  source: Aeon
+  category: philosophy
+- title: "The Art of Looking: Eleven Ways of Viewing the Multiple Realities of Our Everyday Wonderland"
+  url: "https://www.themarginalian.org/2026/05/15/on-looking-eleven-walks-with-expert-eyes/"
+  date: 2026-05-15
+  source: The Marginalian
+  category: philosophy
 - title: Not so locked in any more
   url: "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything"
   date: 2026-05-14
   source: Simon Willison
   category: ai
-- title: Quoting Mitchell Hashimoto
-  url: "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything"
-  date: 2026-05-14
-  source: Simon Willison
-  category: ai
-- title: datasette-ip-rate-limit 0.1a0
-  url: "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything"
-  date: 2026-05-14
-  source: Simon Willison
-  category: ai
-- title: A few words on DS4
-  url: "https://antirez.com/news/165"
-  date: 2026-05-14
-  source: Hacker News Best
-  category: programming
-- title: "New arXiv policy: 1-year ban for hallucinated references"
-  url: "https://twitter.com/tdietterich/status/2055000956144935055"
-  date: 2026-05-14
-  source: Hacker News Best
-  category: programming
-- title: Codex is now in the ChatGPT mobile app
-  url: "https://openai.com/index/work-with-codex-from-anywhere/"
-  date: 2026-05-14
-  source: Hacker News Best
-  category: programming
-- title: First public macOS kernel memory corruption exploit on Apple M5
-  url: "https://blog.calif.io/p/first-public-kernel-memory-corruption"
-  date: 2026-05-14
-  source: Hacker News Best
-  category: programming
 - title: Silvesterchlausen
   url: "https://aeon.co/videos/the-swiss-tradition-thats-a-mystery-even-to-those-who-celebrate-it"
   date: 2026-05-14
@@ -58,16 +83,6 @@
   date: 2026-05-14
   source: The Marginalian
   category: philosophy
-- title: Welcome to the Datasette blog
-  url: "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything"
-  date: 2026-05-13
-  source: Simon Willison
-  category: ai
-- title: Quoting Boris Mann
-  url: "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything"
-  date: 2026-05-13
-  source: Simon Willison
-  category: ai
 - title: Idle warriors
   url: "https://aeon.co/videos/meet-the-bounty-hunters-who-enforce-new-yorks-idling-vehicle-ban"
   date: 2026-05-13
@@ -83,19 +98,9 @@
   date: 2026-05-13
   source: The Marginalian
   category: philosophy
-- title: "How to Be Un-Dead: Anaïs Nin and D.H. Lawrence on the Key to Living Fully"
-  url: "https://www.themarginalian.org/2026/05/12/anais-nin-d-h-lawrence/"
-  date: 2026-05-13
-  source: The Marginalian
-  category: philosophy
 - title: Beneath our human shallows
   url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
   date: 2026-05-12
-  source: Aeon
-  category: philosophy
-- title: Classroom 4
-  url: "https://aeon.co/videos/the-historian-who-brings-lessons-on-us-prisons-inside-their-walls"
-  date: 2026-05-11
   source: Aeon
   category: philosophy
 - title: Links to CSS colour palettes
@@ -151,11 +156,6 @@
 - title: Notes on clarifying man pages
   url: "https://jvns.ca/blog/2026/02/18/man-pages/"
   date: 2026-02-18
-  source: Julia Evans
-  category: programming
-- title: Some notes on starting to use Django
-  url: "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
-  date: 2026-01-27
   source: Julia Evans
   category: programming
 - title: "High volume vs high intensity: which builds more muscle?"
