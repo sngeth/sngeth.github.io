@@ -52,6 +52,24 @@
   .x-handle::before{content:'𝕏 ';font-size:11px;}
   .x-headline{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;line-height:1.25;margin-bottom:6px;}
   .x-body{font-family:'Lora',serif;font-size:13px;line-height:1.65;color:#2a2a2a;}
+  .page-two-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 28px;align-items:start;}
+  .page-two-story{padding:0 0 28px;position:relative;}
+  .page-two-story::after{content:'';position:absolute;right:-14px;top:0;bottom:0;width:1px;background:var(--light);}
+  .page-two-story:nth-child(1){grid-column:1 / span 7;padding-right:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2){grid-column:8 / span 5;padding-left:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2)::after{display:none;}
+  .page-two-story:nth-child(n+3){grid-column:span 6;padding-top:20px;}
+  .page-two-story:nth-child(2n)::after{display:none;}
+  .page-two-story .headline{margin-bottom:8px;}
+  .page-two-story .body-text{max-width:62ch;}
+  .page-two-story.feature .headline{font-size:30px!important;}
+  .page-two-story.feature .deck{font-size:16px;}
+  .page-two-story.feature .body-text p:first-child::first-letter{font-family:'Playfair Display',serif;font-size:58px;font-weight:900;float:left;line-height:.82;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .reading-list-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 24px;margin-top:14px;}
+  .reading-item{padding:18px 18px 16px;border-top:2px solid var(--black);border-bottom:1px solid var(--light);background:rgba(255,255,255,.4);min-height:100%;}
+  .reading-item .headline{font-size:19px!important;line-height:1.16;}
+  .reading-item .byline{margin-bottom:10px;}
+  .reading-item .body-text{font-size:13.5px;line-height:1.68;}
   .page-nav{display:flex;justify-content:center;gap:24px;margin:32px 0 0;padding:16px 0;border-top:1px solid var(--light);border-bottom:1px solid var(--light);}
   .page-nav a{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dark-red);text-decoration:none;padding:6px 14px;border:1px solid var(--dark-red);}
   .page-nav a:hover{background:var(--dark-red);color:#fff;}
@@ -63,12 +81,32 @@
   .sec{animation:fadeIn .7s .2s ease both;}
   .bot-row{animation:fadeIn .7s .3s ease both;}
   .sec-alt{animation:fadeIn .7s .25s ease both;}
+  .page-two-story{animation:fadeIn .65s ease both;}
+  .page-two-story:nth-child(2){animation-delay:.08s;}
+  .page-two-story:nth-child(3){animation-delay:.16s;}
+  .page-two-story:nth-child(4){animation-delay:.24s;}
+  .reading-item{animation:fadeIn .65s ease both;}
   @media(max-width:900px){
     .hn-col{padding-right:0;border-right:none;}
     .story-grid{grid-template-columns:1fr;}
     .lead,.sec,.sec-alt{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
     .bot-row{grid-template-columns:1fr;}
     .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
+    .page-two-grid{grid-template-columns:1fr;gap:0;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:1;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:24px!important;}
+    .reading-list-grid{grid-template-columns:1fr;gap:16px;}
+    .reading-item{padding:16px 0 14px;background:transparent;}
+  }
+  @media(min-width:901px) and (max-width:1180px){
+    .page-two-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:auto;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story:nth-child(odd){padding-right:12px;}
+    .page-two-story:nth-child(even){padding-left:12px;}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:26px!important;}
+    .reading-list-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
   }
 </style>
 </head>
@@ -95,68 +133,68 @@
     <div class="hn-col">
       <div class="story-grid">
         <div class="lead">
-    <div class="tag">Open Source · Culture</div>
-    <h1 class="headline" id="project-gutenberg-s-quiet-revolution-how-a-54-year-old-digit" style="font-size:34px"><a href="https://www.gutenberg.org/" target="_blank" style="color:inherit;text-decoration:none;">Project Gutenberg's Quiet Revolution: How a 54-Year-Old Digital Library Became Essential Infrastructure</a><span class="permalink" onclick="copyLink('project-gutenberg-s-quiet-revolution-how-a-54-year-old-digit')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
-    <div class="deck">*The volunteer-run archive now hosts over 70,000 texts—and its recent upgrades suggest the internet's oldest book project still has room to grow*</div>
+    <div class="tag">Open Source · Publishing</div>
+    <h1 class="headline" id="project-gutenberg-s-quiet-revolution-a-quarter-million-books" style="font-size:34px"><a href="https://www.gutenberg.org/" target="_blank" style="color:inherit;text-decoration:none;">Project Gutenberg's Quiet Revolution: A Quarter-Million Books, Now Better Than Ever</a><span class="permalink" onclick="copyLink('project-gutenberg-s-quiet-revolution-a-quarter-million-books')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+    <div class="deck">*The digital library that refuses to die keeps adding features that matter to readers and researchers alike*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=48150431" target="_blank" style="color:inherit;text-decoration:none;">▲ 678 pts &nbsp;·&nbsp; 171 comments</a>
+      <a href="https://news.ycombinator.com/item?id=48150431" target="_blank" style="color:inherit;text-decoration:none;">▲ 680 pts &nbsp;·&nbsp; 171 comments</a>
     </div>
     <div class="body-text">
-      <p class="drop-cap">Project Gutenberg, the scrappy digitization effort launched in 1971 by Michael Hart from an Illinois basement, has achieved what seemed impossible: it remains not just relevant but genuinely indispensable in an age of algorithmic feeds and closed ecosystems. Recent improvements to the platform—smoother search functionality, better metadata, expanded language support—reveal an operation that refuses the complacency of legacy status.</p><p>The site's durability stems from a stubborn commitment to accessibility. Every text in Gutenberg's vault is public domain, stripped of DRM, available in multiple formats, and mirrored across dozens of servers worldwide. No subscription required. No algorithmic recommendation engine nudging users toward the &quot;engagement funnel.&quot; It's the internet's original sin—information wants to be free—executed with institutional patience.</p><p>What makes the latest round of improvements noteworthy is not flashiness but competence. Better full-text search, improved mobile rendering, and smarter categorization suggest that Gutenberg's volunteer corps understands the competitive landscape: users now expect the polish of commercial platforms, even from a nonprofit. By raising the bar on usability, Gutenberg quietly demonstrates that preservation and user experience aren't mutually exclusive.</p>
-      <div class="pull-quote">No subscription required, no algorithmic nudging—just 70,000 texts and the internet's original idealism, still intact.</div>
+      <p class="drop-cap">Project Gutenberg, the internet's oldest and most stubborn custodian of public domain literature, is experiencing a renaissance that few noticed arriving. Founded in 1971 when Michael Hart literally typed the Declaration of Independence into a computer, the project has evolved from a fringe digital archive into something far more sophisticated—a full-featured platform that rivals commercial e-book vendors while remaining entirely free and ad-free.</p><p>The latest improvements signal a maturation long overdue. Better search functionality, improved metadata, mobile-optimized readers, and integration with tools like Standard Ebooks have transformed Gutenberg from a museum piece into a genuinely useful repository. The project now hosts over 70,000 texts in dozens of languages, and the community continues adding high-quality, carefully proofread editions at a steady clip. Unlike Amazon or Apple's walled gardens, every book here exists in the commons—formatted for every device, DRM-free, and licensed for unfettered access.</p><p>What makes this moment significant isn't nostalgia. As major publishers wage war against AI training datasets and restrict digital lending, Gutenberg represents something increasingly radical: a permanent, non-profit alternative that asks nothing of users but engagement. The site's steady improvement reflects a simple truth: when information wants to be free, and volunteers maintain it with care, obstacles crumble.</p>
+      <div class="pull-quote">A permanent, non-profit alternative that asks nothing of users but engagement.</div>
     </div></div>
         <div class="sec">
-    <div class="tag">Business · AI</div>
-    <h2 class="headline" id="the-ai-delusion-how-boardrooms-lost-their-grip-on-reality" style="font-size:21px"><a href="https://twitter.com/mitchellh/status/2055380239711457578" target="_blank" style="color:inherit;text-decoration:none;">The AI Delusion: How Boardrooms Lost Their Grip on Reality</a><span class="permalink" onclick="copyLink('the-ai-delusion-how-boardrooms-lost-their-grip-on-reality')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A technologist's blunt diagnosis of corporate AI fever—companies chasing the mirage while their fundamentals crumble*</div>
+    <div class="tag">AI · Enterprise</div>
+    <h2 class="headline" id="the-ai-delusion-hitting-corporate-boardrooms-mitchell-hashim" style="font-size:21px"><a href="https://twitter.com/mitchellh/status/2055380239711457578" target="_blank" style="color:inherit;text-decoration:none;">The AI Delusion Hitting Corporate Boardrooms: Mitchell Hashimoto's Warning About Collective Psychosis</a><span class="permalink" onclick="copyLink('the-ai-delusion-hitting-corporate-boardrooms-mitchell-hashim')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*An open letter from a tech founder exposes how panic and hype are driving catastrophically misaligned AI investments*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=48153379" target="_blank" style="color:inherit;text-decoration:none;">▲ 661 pts &nbsp;·&nbsp; 296 comments</a>
+      <a href="https://news.ycombinator.com/item?id=48153379" target="_blank" style="color:inherit;text-decoration:none;">▲ 673 pts &nbsp;·&nbsp; 302 comments</a>
     </div>
     <div class="body-text">
-      <p>Mitchell Hashimoto's viral assertion that &quot;entire companies right now are under AI psychosis&quot; captures something the earnings calls won't say aloud: the technology industry has entered a speculative trance, mistaking hype cycles for strategic clarity. The observation cuts deeper than the usual skepticism about AI overhyped—it diagnoses a specific pathology: decision-makers so intoxicated by the possibility of breakthrough technology that they've abandoned basic business discipline.</p><p>The symptoms are visible everywhere. Companies pivoting entire business models toward AI without understanding their actual competitive advantage. Massive infrastructure spend justified by conviction rather than unit economics. Organizational credibility burning away as repeated promises of transformative breakthroughs fail to materialize at promised timescales. The psychosis metaphor works precisely because it implies a break with consensual reality—not mere optimism or risk-taking, but a genuine detachment from how markets, products, and users actually behave.</p><p>What makes Hashimoto's framing useful is that it's not anti-AI; it's pro-competence. The suggestion is that some companies will snap out of the fever, recalibrate their bets, and build durable value. Others won't. The divergence between those two futures is growing wider by the quarter.</p>
+      <p>Mitchell Hashimoto, co-founder of HashiCorp, didn't mince words in a recent Twitter thread that struck a nerve across the tech industry: entire companies are operating under what he calls &quot;AI psychosis&quot;—a collective hallucination where executives, boards, and investors have become so intoxicated by large language model capabilities that they're making decisions divorced from reality.</p><p>The diagnosis is damning. Companies are pivoting entire product roadmaps around AI without understanding where these tools actually excel. Product teams are replacing engineers with chatbots. Executives are demanding &quot;AI features&quot; the way they once demanded blockchain, and accountants are signing off on budgets that would make dot-com investors blush. The real problem: nobody's asking whether these implementations solve actual customer problems or merely check a box on investor checklists. Hashimoto's observation cuts to something uncomfortable—that we're witnessing mass organizational delusion, where the emperor has no clothes and everyone pretends not to notice.</p><p>The pattern repeats throughout tech history: first comes the genuine innovation, then comes the irrational exuberance, then comes the wreckage. What distinguishes this cycle is its speed and scope. AI's capabilities are real enough to justify excitement, but its limitations are being systematically ignored by boardrooms intoxicated by stock valuations and competitive anxiety. Hashimoto's bluntness suggests the comedown, when it arrives, will be spectacular.</p>
       
     </div></div>
         <div class="sec-alt">
-    <div class="tag">Design · Web Culture</div>
-    <h2 class="headline" id="wikipedia-gets-the-windows-xp-treatment-nostalgia-as-accessi" style="font-size:21px"><a href="https://explorer.samismith.com/" target="_blank" style="color:inherit;text-decoration:none;">Wikipedia Gets the Windows XP Treatment: Nostalgia as Accessibility Hack</a><span class="permalink" onclick="copyLink('wikipedia-gets-the-windows-xp-treatment-nostalgia-as-accessi')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A clever interface reimagines humanity's encyclopedia as a retro file browser—and accidentally reveals something about information design*</div>
+    <div class="tag">Design · Web</div>
+    <h2 class="headline" id="wikipedia-in-retrograde-a-genius-hack-resurrects-the-charm-o" style="font-size:21px"><a href="https://explorer.samismith.com/" target="_blank" style="color:inherit;text-decoration:none;">Wikipedia in Retrograde: A Genius Hack Resurrects the Charm of Windows XP Nostalgia</a><span class="permalink" onclick="copyLink('wikipedia-in-retrograde-a-genius-hack-resurrects-the-charm-o')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*One developer rebuilt Wikipedia as a desktop file browser, and the result is weirdly perfect*</div>
     <div class="byline">
       <a href="https://news.ycombinator.com/item?id=48146129" target="_blank" style="color:inherit;text-decoration:none;">▲ 482 pts &nbsp;·&nbsp; 111 comments</a>
     </div>
     <div class="body-text">
-      <p>The appeal of Sami Smith's Windows XP–themed Wikipedia explorer isn't merely nostalgic kitsch. By transforming Wikipedia's article hierarchy into a familiar desktop metaphor—folders, double-clicks, that distinctive teal taskbar—the project accomplishes something technically interesting: it makes categorical exploration feel natural again. In an era when search has cannibalized browsing, the file-tree model reminds users that knowledge has structure.</p><p>The interface works because it exploits muscle memory and visual language that millions of users internalized over decades. There's no learning curve. You navigate Wikipedia the way you navigated your hard drive in 2003, which means you're actually *exploring* rather than sprinting to a destination. The serendipitous discoveries that emerge from casual folder-opening feel qualitatively different from the algorithmic recommendations served by modern platforms.</p><p>What's genuinely clever is how the retro wrapper exposes a truth about information architecture: the skeuomorphic approach—pretending digital information is physical—can actually clarify rather than obscure. In a world of infinite scroll and algorithmic feeds, the humble folder tree starts to look like radical restraint.</p>
+      <p>In an era when every interface mimics glassy mobile apps and infinite scrolls, Sami Smith released a small act of defiant absurdity: Wikipedia reimagined as a Windows XP desktop file explorer. Click into a category and watch it spawn a new window. Navigate articles like folders. The entire sum of human knowledge, organized as a nested directory tree with beveled buttons and that particular shade of XP gray that haunted a generation's school computer labs.</p><p>The brilliance lies not in novelty but in usability. Smith's interface transforms Wikipedia's notoriously overwhelming information architecture into something tangible and spatial. Your brain already understands file navigation; it already knows how to drill down through folders. By treating Wikipedia's category hierarchy as literal folders, the explorer forces deliberate exploration rather than algorithmic recommendation. You move intentionally through knowledge rather than being swept along by recommendation engines and engagement hacks. It's slower. It's stranger. It works.</p><p>More importantly, Smith's project is a quiet rebuke to contemporary design orthodoxy—the assumption that every interface must be &quot;modern,&quot; must scroll infinitely, must deploy dark patterns and notifications to maximize engagement. Sometimes the solutions that worked in 2005 worked because they were honest. Wikipedia Explorer doesn't try to addict you. It just sits there, patient and functional, waiting for you to close the window.</p>
       
     </div></div>
         <div class="bot-row">
           <div class="tert">
-    <div class="tag">Regulation · Security</div>
-    <h2 class="headline" id="doj-targets-car-hacking-community-in-emissions-crackdown-dem" style="font-size:19px"><a href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/" target="_blank" style="color:inherit;text-decoration:none;">DOJ Targets Car-Hacking Community in Emissions Crackdown, Demanding Names of 100K App Users</a><span class="permalink" onclick="copyLink('doj-targets-car-hacking-community-in-emissions-crackdown-dem')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*The government's subpoena of a popular car-modification tool marks an escalating war between regulators and the right-to-repair movement*</div>
+    <div class="tag">Privacy · Law Enforcement</div>
+    <h2 class="headline" id="doj-s-subpoena-blitz-government-demands-names-of-100-000-use" style="font-size:19px"><a href="https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/" target="_blank" style="color:inherit;text-decoration:none;">DOJ's Subpoena Blitz: Government Demands Names of 100,000 Users of Popular Car-Hacking App</a><span class="permalink" onclick="copyLink('doj-s-subpoena-blitz-government-demands-names-of-100-000-use')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*In a sweeping privacy assault, federal prosecutors are targeting vehicle modification enthusiasts through Apple and Google*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=48151383" target="_blank" style="color:inherit;text-decoration:none;">▲ 337 pts &nbsp;·&nbsp; 229 comments</a>
+      <a href="https://news.ycombinator.com/item?id=48151383" target="_blank" style="color:inherit;text-decoration:none;">▲ 338 pts &nbsp;·&nbsp; 230 comments</a>
     </div>
     <div class="body-text">
-      <p>The Department of Justice's demand that Apple and Google surrender the identities of over 100,000 users of a car-modification application represents a significant escalation in regulatory enforcement against vehicle tampering—and a blunt assertion that privacy protections don't extend to engineering pursuits the government deems illegal. The subpoena, framed within an emissions-compliance investigation, treats a tool used by mechanics, enthusiasts, and environmental tinkerers as de facto evidence of wrongdoing.</p><p>The mechanics of the request are as notable as its scope. Rather than pursuing specific suspects, the DOJ is demanding the app stores provide total user rosters, forcing Apple and Google into the position of backdoor informants. The chilling effect is immediate and intentional: anyone considering similar tools now operates under the knowledge that downloads create audit trails leading directly to government scrutiny. The threat doesn't require conviction—merely investigation.</p><p>Underlying the enforcement action is genuine regulatory conflict: legitimate diagnostic tools that empower vehicle owners and independent mechanics can also be weaponized to disable emissions systems. But the government's response—mass surveillance of tool users rather than targeted investigation of actual violations—betrays a philosophy that treats technological access itself as suspicious. Privacy advocates and right-to-repair advocates have found unexpected common cause against this apparatus.</p>
+      <p>The Department of Justice has demanded that Apple and Google hand over identifying information on more than 100,000 users of a car modification application, marking an aggressive escalation in how federal authorities handle digital privacy when regulatory interests align with law enforcement. The app in question allows drivers to diagnose and modify vehicle systems—a practice the DOJ has increasingly targeted as part of what it characterizes as an emissions compliance crackdown, though the move raises immediate questions about proportionality and the chilling effect such mass subpoenas create.</p><p>The technical mechanism is straightforward but troubling: both Apple and Google received legal demands not for a handful of suspects but for entire user populations, effectively conducting mass surveillance with a subpoena rather than warrants tied to individual probable cause. The distinction matters. A warrant targeting a specific person requires judicial review of specific evidence. A blanket demand for 100,000 user identities bypasses that scrutiny entirely. The app's primary user base likely includes legitimate mechanics, hobbyists, and vehicle owners conducting lawful repairs—territory long protected by right-to-repair advocates and increasingly by legislation.</p><p>What emerges is a pattern worth monitoring: federal agencies increasingly weaponizing platform subpoena powers to identify entire user classes rather than specific bad actors. The emissions angle provides regulatory cover, but the precedent extends far beyond automobiles. If the DOJ can demand 100,000 user identities from a car app today, what's to stop similar demands targeting political organizing tools, encrypted messaging apps, or VPN services tomorrow?</p>
       
     </div></div><div class="tert">
     <div class="tag">Security · Mobile</div>
-    <h2 class="headline" id="google-discloses-critical-pixel-10-flaw-a-single-click-can-c" style="font-size:19px"><a href="https://projectzero.google/2026/05/pixel-10-exploit.html" target="_blank" style="color:inherit;text-decoration:none;">Google Discloses Critical Pixel 10 Flaw: A Single Click Can Compromise Everything</a><span class="permalink" onclick="copyLink('google-discloses-critical-pixel-10-flaw-a-single-click-can-c')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A zero-interaction exploit chain demonstrates how a flagship device can be owned without user awareness—raising uncomfortable questions about smartphone security*</div>
+    <h2 class="headline" id="google-s-zero-click-nightmare-a-complete-exploit-chain-expos" style="font-size:19px"><a href="https://projectzero.google/2026/05/pixel-10-exploit.html" target="_blank" style="color:inherit;text-decoration:none;">Google's Zero-Click Nightmare: A Complete Exploit Chain Exposes Pixel 10 Users to Silent Takeover</a><span class="permalink" onclick="copyLink('google-s-zero-click-nightmare-a-complete-exploit-chain-expos')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*A devastating vulnerability chain can compromise a device without user interaction—and it's getting worse*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=48148460" target="_blank" style="color:inherit;text-decoration:none;">▲ 329 pts &nbsp;·&nbsp; 150 comments</a>
+      <a href="https://news.ycombinator.com/item?id=48148460" target="_blank" style="color:inherit;text-decoration:none;">▲ 330 pts &nbsp;·&nbsp; 150 comments</a>
     </div>
     <div class="body-text">
-      <p>Google's disclosure of a zero-click exploit chain affecting the Pixel 10 represents the kind of security vulnerability that keeps device manufacturers awake: a complete device compromise requiring no user interaction, no suspicious links to click, no convincing social engineering. The attacker simply needs the victim's phone number or email. Everything else happens invisibly, in the background, while the device continues functioning normally.</p><p>Zero-click exploits have become the gold standard of sophisticated attacks because they eliminate human error as a vulnerability vector. Users cannot be trained to avoid clicking malicious links if no click is necessary. Traditional security awareness campaigns collapse. The attack surface becomes purely technical—a race between attackers finding kernel flaws and defenders patching them fast enough to matter.</p><p>What's notable about Google's response is the relatively rapid public disclosure and the transparent documentation of the attack chain. Compare this to the ecosystem of zero-days traded in underground markets, where vulnerabilities are weaponized for years before vendors even know they exist. Still, the Pixel 10 disclosure underscores an uncomfortable reality: premium, heavily-patched devices from companies with massive security budgets can still be pwned silently. If you're running an older device, or using an OS from a vendor with fewer resources, the threat calculus becomes genuinely dire.</p>
+      <p>Google's Project Zero team disclosed a zero-click exploit chain targeting the Pixel 10 that represents the kind of nightmare scenario security researchers wake up screaming about: a complete pathway from attack vector to full device compromise that requires zero user interaction. No clicking a malicious link. No opening a suspicious attachment. Just existing, and being pwned.</p><p>Zero-click vulnerabilities are the Grim Reaper of mobile security because they eliminate the human element—that last line of defense where social engineering typically falters. A user receiving a malicious text can delete it. A suspicious email can go unread. But a zero-click chain works in the background, exploiting kernel-level vulnerabilities in services running invisibly on every device. The Pixel 10 chain, as documented by Project Zero, chains together multiple vulnerabilities across different system components, each one necessary for the full takeover. The attack surface spans media processing, system services, and privilege escalation—the full stack.</p><p>What makes this disclosure particularly significant is timing: it arrives as the industry is still grappling with the reality that truly bulletproof mobile security may be impossible. Each patch closes one door, but the architectural vulnerabilities remain. Google will issue patches, users will gradually update, and researchers will find new chains. It's an arms race where the attacker only needs to find one path through the labyrinth; defenders must secure every exit. The Pixel 10 exploit is a reminder that even flagship devices, maintained by trillion-dollar companies with dedicated security teams, are perpetually one vulnerability away from catastrophe.</p>
       
     </div></div><div class="tert">
-    <div class="tag">Regulation · Gaming</div>
-    <h2 class="headline" id="california-moves-to-force-game-publishers-into-preservation-" style="font-size:19px"><a href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/" target="_blank" style="color:inherit;text-decoration:none;">California Moves to Force Game Publishers Into Preservation: Patches or Refunds When Servers Shut Down</a><span class="permalink" onclick="copyLink('california-moves-to-force-game-publishers-into-preservation-')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
-    <div class="deck">*A landmark bill would require publishers to either keep online games playable or compensate players—the first serious regulatory strike against digital abandonment*</div>
+    <div class="tag">Consumer Rights · Gaming</div>
+    <h2 class="headline" id="california-s-gaming-lifeline-landmark-bill-forces-publishers" style="font-size:19px"><a href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/" target="_blank" style="color:inherit;text-decoration:none;">California's Gaming Lifeline: Landmark Bill Forces Publishers to Patch Games or Face Refunds When Servers Die</a><span class="permalink" onclick="copyLink('california-s-gaming-lifeline-landmark-bill-forces-publishers')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">*Legislators finally crack down on the video game industry's most profitable scam—making titles unplayable when the money stops*</div>
     <div class="byline">
-      <a href="https://news.ycombinator.com/item?id=48152994" target="_blank" style="color:inherit;text-decoration:none;">▲ 277 pts &nbsp;·&nbsp; 157 comments</a>
+      <a href="https://news.ycombinator.com/item?id=48152994" target="_blank" style="color:inherit;text-decoration:none;">▲ 281 pts &nbsp;·&nbsp; 160 comments</a>
     </div>
     <div class="body-text">
-      <p>California's proposed mandate that game publishers either patch their games to remain playable after server shutdowns or issue refunds to purchasers represents the first serious regulatory intervention into the business model of planned digital obsolescence. The bill, advancing through the legislature with unexpected momentum, treats online-dependent games the way consumer protection law treats physical products: something purchased creates an obligation to the buyer that extends beyond the seller's convenience.</p><p>The friction with the industry is real and predictable. Publishers have built entire business models around server dependency—it guarantees recurring engagement, enables monetization through updates and cosmetics, and grants them unilateral authority to discontinue service whenever the player base dwindles below profitability. Games disappear. Thousands of dollars in cosmetics evaporate. Players lose permanent access to something they paid for. The current legal framework treats this as acceptable, a feature of digital licensing rather than a bug.</p><p>What makes the California bill significant is that it reframes the question: who owns the game after purchase? Current practice suggests the publisher retains indefinite authority. The proposed law suggests that once you've bought access, you've acquired something with economic value that shouldn't simply vanish. The bill likely won't survive industry lobbying intact, but its mere progression through the legislature signals a fundamental shift in how regulators view digital goods—no longer as infinitely malleable services, but as products with consumer obligations.</p>
+      <p>California's legislature took a sledgehammer to one of gaming's most defensible indefensibles: the right to render purchased games unplayable the moment a publisher decides a server isn't profitable anymore. A newly advanced bill would require game publishers to either maintain online functionality indefinitely or offer refunds when servers shut down—a simple principle that's somehow revolutionary in an industry built on digital planned obsolescence.</p><p>The scope of the problem is staggering. Publishers have shuttered servers for games ranging from beloved franchises to casual mobile titles, effectively stealing access from millions of players who paid full price for products marketed as complete experiences. These games don't degrade gracefully—they become bricked hardware, unplayable digital ghosts occupying hard drives. Players can't even preserve them through emulation because doing so violates the DMCA. Publishers argue maintenance costs justify the practice, but the real motivation is simpler: killing old games creates urgency to buy new ones. California's bill punches directly at that business model.</p><p>What makes this legislative moment consequential is that it treats games as products rather than services—a distinction the industry has fought ferociously to blur. Once a publisher sells you something labeled as a game, California's logic suggests, you own it in meaningful ways. That principle threatens the entire games-as-service ecosystem where player investment depends entirely on publisher goodwill. Whether California can enforce such protections against companies operating globally remains uncertain, but the bill signals that consumer patience with digital disposability is finally exhausted. The question now is whether other states follow—or whether publishers simply restrict sales to California to avoid compliance.</p>
       
     </div></div>
         </div>
@@ -166,18 +204,18 @@
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
       
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Media · Publishing</div>
+          <div class="tag">Programming · Aerospace</div>
           <a href="../page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">ABC News Quietly Dismantles FiveThirtyEight Archive in Controversial Purge</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">OCaml Takes Flight: Functional Programming Powers Next-Generation Space Systems</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 218 · 101 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 225 · 51 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
         <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
-          <div class="tag">Open Source · Community</div>
+          <div class="tag">Media · Publishing</div>
           <a href="../page2.html" style="text-decoration:none;color:inherit;">
-            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Zulip Creates Its Own Foundation, Betting on Independence Over Corporate Shepherding</div>
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Disney's Quiet Purge: ABC News Deletes FiveThirtyEight Archive in Controversial Content Sweep</div>
           </a>
-          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 194 · 50 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 218 · 102 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
         </div>
     </div>
     </div>
@@ -187,13 +225,13 @@
   <footer>
     <span>The Dispatch &nbsp;·&nbsp; Friday, May 15, 2026</span>
     <span>Sources: Hacker News API &nbsp;·&nbsp; RSS Feeds &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
-    <span>Generated 08:24 PM EDT</span>
+    <span>Generated 08:28 PM EDT</span>
   </footer>
 
   <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #ccc;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;">
-    <a href="2026-05-15.html" style="color:var(--dark-red);text-decoration:none;">← 2026-05-15</a>
+    <a href="2026-05-16.html" style="color:var(--dark-red);text-decoration:none;">← 2026-05-16</a>
     <a href="index.html" style="color:var(--mid);text-decoration:none;">All Editions ↑</a>
-    <span style="color:#ccc;">Latest →</span>
+    <a href="2026-05-16.html" style="color:var(--dark-red);text-decoration:none;">2026-05-16 →</a>
   </div>
 </div>
 </body>
