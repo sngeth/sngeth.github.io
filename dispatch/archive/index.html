@@ -21,15 +21,16 @@
   .masthead-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
   .section-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;display:flex;align-items:center;gap:10px;margin:16px 0 10px;}
   .section-label::after{content:'';flex:1;height:1px;background:var(--dark-red);opacity:.4;}
-  .main-grid{display:grid;grid-template-columns:1fr 1fr 1fr 280px;gap:0;margin-top:4px;}
-  .hn-col{grid-column:1/4;padding-right:28px;border-right:1px solid var(--light);}
-  .x-col{grid-column:4/5;background:var(--sidebar);margin:-4px -24px -48px 0;padding:12px 20px 40px;}
-  .story-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;}
+  .main-grid{margin-top:4px;}
+  .hn-col{width:100%;}
+  .story-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;}
   .lead{grid-column:1/3;padding-right:24px;border-right:1px solid var(--light);padding-bottom:24px;border-bottom:1px solid var(--light);}
-  .sec{grid-column:3/4;padding-left:22px;padding-bottom:24px;border-bottom:1px solid var(--light);}
-  .bot-row{grid-column:1/4;display:grid;grid-template-columns:1fr 1fr;gap:0;padding-top:18px;}
-  .tert{padding-right:24px;border-right:1px solid var(--light);}
-  .tert:last-child{padding-right:0;padding-left:24px;border-right:none;}
+  .sec{grid-column:3/4;padding:0 20px 24px;border-right:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .sec-alt{grid-column:4/5;padding:0 0 24px 20px;border-bottom:1px solid var(--light);}
+  .bot-row{grid-column:1/5;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding-top:18px;}
+  .tert{padding:0 20px;border-right:1px solid var(--light);}
+  .tert:first-child{padding-left:0;}
+  .tert:last-child{padding-right:0;border-right:none;}
   .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;position:relative;}
   .permalink{color:var(--dark-red);text-decoration:none;font-size:9px;vertical-align:middle;margin-left:8px;opacity:0;transition:opacity .2s;font-family:'IBM Plex Mono',monospace;letter-spacing:0;cursor:pointer;position:relative;}
   .headline:hover .permalink,.x-item:hover .permalink{opacity:.6;}
@@ -62,16 +63,13 @@
   .lead{animation:fadeIn .7s .1s ease both;}
   .sec{animation:fadeIn .7s .2s ease both;}
   .bot-row{animation:fadeIn .7s .3s ease both;}
-  .x-col{animation:fadeIn .7s .4s ease both;}
+  .sec-alt{animation:fadeIn .7s .25s ease both;}
   @media(max-width:900px){
-    .main-grid{grid-template-columns:1fr;}
-    .hn-col{grid-column:1;padding-right:0;border-right:none;}
-    .x-col{grid-column:1;margin:16px 0 0;padding:12px 0;}
+    .hn-col{padding-right:0;border-right:none;}
     .story-grid{grid-template-columns:1fr;}
-    .lead,.sec{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
+    .lead,.sec,.sec-alt{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
     .bot-row{grid-template-columns:1fr;}
     .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
-    .tert:last-child{padding-left:0;}
   }
 
 .archive-header { text-align:center; padding:16px 0 8px; margin-bottom:24px; border-bottom:2px solid var(--black); }
@@ -94,7 +92,7 @@
   <div class="top-bar">
     <span><a href="../index.html" style="color:inherit;text-decoration:none;">← Latest Edition</a></span>
     <span>⬥ &nbsp; Archive &nbsp; ⬥</span>
-    <span>50 Editions</span>
+    <span>51 Editions</span>
   </div>
   <div class="masthead">
     <div class="masthead-name">The Dispatch</div>
@@ -106,11 +104,27 @@
     </div>
   </div>
   <div class="archive-header">
-    <p>50 editions archived &nbsp;·&nbsp; Updated daily at 7am ET</p>
+    <p>51 editions archived &nbsp;·&nbsp; Updated daily at 7am ET</p>
   </div>
   <div>
     
       <div class="archive-row today">
+        <div class="archive-date">
+          <span class="archive-day">16</span>
+          <span class="archive-mon">May</span>
+          <span class="archive-yr">2026</span>
+        </div>
+        <div class="archive-info">
+          <a class="archive-link" href="2026-05-16.html">Saturday, May 16, 2026</a>
+          <span class="badge">Today</span>
+        </div>
+        <div class="archive-actions">
+          <a href="2026-05-16.html">Front Page →</a>
+          &nbsp;·&nbsp;
+          <a href="2026-05-16-p2.html" style="color:var(--mid)">Page 2</a>
+        </div>
+      </div>
+      <div class="archive-row">
         <div class="archive-date">
           <span class="archive-day">15</span>
           <span class="archive-mon">May</span>
@@ -118,7 +132,7 @@
         </div>
         <div class="archive-info">
           <a class="archive-link" href="2026-05-15.html">Friday, May 15, 2026</a>
-          <span class="badge">Today</span>
+          
         </div>
         <div class="archive-actions">
           <a href="2026-05-15.html">Front Page →</a>
