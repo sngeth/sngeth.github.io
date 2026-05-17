@@ -1,5 +1,40 @@
-- title: "'No way to prevent this,' says only package manager where this regularly happens"
-  url: "https://kevinpatel.xyz/posts/no-way-to-prevent-this/"
+- title: "Middle Age and the Art of Self-Renewal: An Extraordinary Letter from Pioneering Education Reformer Elizabeth Peabody"
+  url: "https://www.themarginalian.org/2026/05/16/elizabeth-peabody-figuring/"
+  date: 2026-05-17
+  source: The Marginalian
+  category: philosophy
+- title: "Warelay -> OpenClaw"
+  url: "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything"
+  date: 2026-05-16
+  source: Simon Willison
+  category: ai
+- title: Quoting Julia Evans
+  url: "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything"
+  date: 2026-05-16
+  source: Simon Willison
+  category: ai
+- title: Zerostack – A Unix-inspired coding agent written in pure Rust
+  url: "https://crates.io/crates/zerostack/1.0.0"
+  date: 2026-05-16
+  source: Hacker News Best
+  category: programming
+- title: HTML Lists
+  url: "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/"
+  date: 2026-05-16
+  source: Hacker News Best
+  category: programming
+- title: DeepSeek-V4-Flash means LLM steering is interesting again
+  url: "https://www.seangoedecke.com/steering-vectors/"
+  date: 2026-05-16
+  source: Hacker News Best
+  category: programming
+- title: "SANA-WM, a 2.6B open-source world model for 1-minute 720p video"
+  url: "https://nvlabs.github.io/Sana/WM/"
+  date: 2026-05-16
+  source: Hacker News Best
+  category: programming
+- title: Accelerando (2005)
+  url: "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html"
   date: 2026-05-16
   source: Hacker News Best
   category: programming
@@ -18,35 +53,10 @@
   date: 2026-05-15
   source: Simon Willison
   category: ai
-- title: datasette-llm-limits 0.1a0
-  url: "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything"
-  date: 2026-05-15
-  source: Simon Willison
-  category: ai
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
   source: Julia Evans
-  category: programming
-- title: I believe there are entire companies right now under AI psychosis
-  url: "https://twitter.com/mitchellh/status/2055380239711457578"
-  date: 2026-05-15
-  source: Hacker News Best
-  category: programming
-- title: California bill would require patches or refunds when online games shut down
-  url: "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/"
-  date: 2026-05-15
-  source: Hacker News Best
-  category: programming
-- title: ABC News has taken all FiveThirtyEight articles offline
-  url: "https://twitter.com/baseballot/status/2055309076209492208"
-  date: 2026-05-15
-  source: Hacker News Best
-  category: programming
-- title: The Zulip Foundation
-  url: "https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/"
-  date: 2026-05-15
-  source: Hacker News Best
   category: programming
 - title: Gen Z but two centuries ago
   url: "https://aeon.co/essays/young-people-now-and-the-mal-du-siecle-of-19th-century-france"
@@ -58,11 +68,6 @@
   date: 2026-05-15
   source: The Marginalian
   category: philosophy
-- title: Not so locked in any more
-  url: "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything"
-  date: 2026-05-14
-  source: Simon Willison
-  category: ai
 - title: Silvesterchlausen
   url: "https://aeon.co/videos/the-swiss-tradition-thats-a-mystery-even-to-those-who-celebrate-it"
   date: 2026-05-14
@@ -90,11 +95,6 @@
   category: philosophy
 - title: "How to Keep Criticism from Sinking Your Soul: Walt Whitman and the Discipline of Creative Confidence"
   url: "https://www.themarginalian.org/2026/05/13/whitman-emerson-criticism/"
-  date: 2026-05-13
-  source: The Marginalian
-  category: philosophy
-- title: "The Enemy Outside and the Enemy Within: Audre Lorde’s Antidote to Despair"
-  url: "https://www.themarginalian.org/2026/05/12/audre-lorde-despair/"
   date: 2026-05-13
   source: The Marginalian
   category: philosophy
