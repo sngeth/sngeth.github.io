@@ -1,3 +1,43 @@
+- title: "GDS weighs in on the NHS's decision to retreat from Open Source"
+  url: "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything"
+  date: 2026-05-17
+  source: Simon Willison
+  category: ai
+- title: GenCAD
+  url: "https://gencad.github.io/"
+  date: 2026-05-17
+  source: Hacker News Best
+  category: programming
+- title: Meta deletes popular 1M follower account after Kuwaiti request
+  url: "https://twitter.com/ryangrim/status/2055992439031185782"
+  date: 2026-05-17
+  source: Hacker News Best
+  category: programming
+- title: At least 25 Flock cameras have been destroyed in five states since April 2025
+  url: "https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/"
+  date: 2026-05-17
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep"
+  url: "https://github.com/MinishLab/semble"
+  date: 2026-05-17
+  source: Hacker News Best
+  category: programming
+- title: "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit"
+  url: "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html"
+  date: 2026-05-17
+  source: Hacker News Best
+  category: programming
+- title: Nick Cave on the Two Pillars of a Meaningful Life
+  url: "https://www.themarginalian.org/2026/05/17/nick-cave-humility-curiosity/"
+  date: 2026-05-17
+  source: The Marginalian
+  category: philosophy
+- title: What It’s Like to Be a Panda
+  url: "https://www.themarginalian.org/2026/05/17/george-schaller-panda/"
+  date: 2026-05-17
+  source: The Marginalian
+  category: philosophy
 - title: "Middle Age and the Art of Self-Renewal: An Extraordinary Letter from Pioneering Education Reformer Elizabeth Peabody"
   url: "https://www.themarginalian.org/2026/05/16/elizabeth-peabody-figuring/"
   date: 2026-05-17
@@ -13,31 +53,6 @@
   date: 2026-05-16
   source: Simon Willison
   category: ai
-- title: Zerostack – A Unix-inspired coding agent written in pure Rust
-  url: "https://crates.io/crates/zerostack/1.0.0"
-  date: 2026-05-16
-  source: Hacker News Best
-  category: programming
-- title: HTML Lists
-  url: "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/"
-  date: 2026-05-16
-  source: Hacker News Best
-  category: programming
-- title: DeepSeek-V4-Flash means LLM steering is interesting again
-  url: "https://www.seangoedecke.com/steering-vectors/"
-  date: 2026-05-16
-  source: Hacker News Best
-  category: programming
-- title: "SANA-WM, a 2.6B open-source world model for 1-minute 720p video"
-  url: "https://nvlabs.github.io/Sana/WM/"
-  date: 2026-05-16
-  source: Hacker News Best
-  category: programming
-- title: Accelerando (2005)
-  url: "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html"
-  date: 2026-05-16
-  source: Hacker News Best
-  category: programming
 - title: inaturalist-clumper 0.1
   url: "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything"
   date: 2026-05-15
@@ -45,11 +60,6 @@
   category: ai
 - title: "Western Gull, Rock Pigeon"
   url: "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything"
-  date: 2026-05-15
-  source: Simon Willison
-  category: ai
-- title: QR code generator
-  url: "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything"
   date: 2026-05-15
   source: Simon Willison
   category: ai
@@ -83,20 +93,10 @@
   date: 2026-05-14
   source: The Marginalian
   category: philosophy
-- title: "On Children: Poignant Parenting Advice from Kahlil Gibran"
-  url: "https://www.themarginalian.org/2026/05/14/on-children-kahlil-gibran/"
-  date: 2026-05-14
-  source: The Marginalian
-  category: philosophy
 - title: Idle warriors
   url: "https://aeon.co/videos/meet-the-bounty-hunters-who-enforce-new-yorks-idling-vehicle-ban"
   date: 2026-05-13
   source: Aeon
-  category: philosophy
-- title: "How to Keep Criticism from Sinking Your Soul: Walt Whitman and the Discipline of Creative Confidence"
-  url: "https://www.themarginalian.org/2026/05/13/whitman-emerson-criticism/"
-  date: 2026-05-13
-  source: The Marginalian
   category: philosophy
 - title: Beneath our human shallows
   url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
