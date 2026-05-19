@@ -1,45 +1,75 @@
+- title: The last six months in LLMs in five minutes
+  url: "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything"
+  date: 2026-05-19
+  source: Simon Willison
+  category: ai
+- title: The last six months in LLMs in five minutes
+  url: "https://simonwillison.net/2026/May/19/5-minute-llms/"
+  date: 2026-05-19
+  source: Hacker News Best
+  category: programming
+- title: "Obsidian and the Birds: An Odyssey of Wonder from the Aztecs to the Quantum World"
+  url: "https://www.themarginalian.org/2026/05/18/teotihuacan-magnetite/"
+  date: 2026-05-19
+  source: The Marginalian
+  category: philosophy
+- title: bell hooks on the Power of Being in the Margins
+  url: "https://www.themarginalian.org/2026/05/18/bell-hooks-margins/"
+  date: 2026-05-19
+  source: The Marginalian
+  category: philosophy
+- title: "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose"
+  url: "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything"
+  date: 2026-05-18
+  source: Simon Willison
+  category: ai
+- title: Click (2016)
+  url: "https://clickclickclick.click/"
+  date: 2026-05-18
+  source: Hacker News Best
+  category: programming
+- title: "Who will buy your services if you fire us all?"
+  url: "https://carette.xyz/posts/who_will_buy_your_services/"
+  date: 2026-05-18
+  source: Hacker News Best
+  category: programming
+- title: The FBI Wants to Buy Nationwide Access to License Plate Readers
+  url: "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/"
+  date: 2026-05-18
+  source: Hacker News Best
+  category: programming
+- title: Haiku OS runs on M1 Macs now
+  url: "https://discuss.haiku-os.org/t/my-haiku-arm64-progress/19044?page=2"
+  date: 2026-05-18
+  source: Hacker News Best
+  category: programming
+- title: How death came to Earth
+  url: "https://aeon.co/videos/the-celestial-affair-that-made-us-mortal-an-animated-indian-myth"
+  date: 2026-05-18
+  source: Aeon
+  category: philosophy
+- title: Mathematics is out there
+  url: "https://aeon.co/essays/for-sergiu-klainerman-maths-is-a-fact-to-be-divined"
+  date: 2026-05-18
+  source: Aeon
+  category: philosophy
+- title: “Little Prince” Author Antoine de Saint-Exupéry on Friendship
+  url: "https://www.themarginalian.org/2026/05/18/antoine-de-saint-exupery-wind-sand-and-stars/"
+  date: 2026-05-18
+  source: The Marginalian
+  category: philosophy
+- title: "Chance, Choice, and the Avocado: The Strange Evolutionary and Creative History of Earth’s Most Nutritious Fruit"
+  url: "https://www.themarginalian.org/2026/05/18/avocado/"
+  date: 2026-05-18
+  source: The Marginalian
+  category: philosophy
 - title: "GDS weighs in on the NHS's decision to retreat from Open Source"
   url: "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything"
   date: 2026-05-17
   source: Simon Willison
   category: ai
-- title: GenCAD
-  url: "https://gencad.github.io/"
-  date: 2026-05-17
-  source: Hacker News Best
-  category: programming
-- title: Meta deletes popular 1M follower account after Kuwaiti request
-  url: "https://twitter.com/ryangrim/status/2055992439031185782"
-  date: 2026-05-17
-  source: Hacker News Best
-  category: programming
-- title: At least 25 Flock cameras have been destroyed in five states since April 2025
-  url: "https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/"
-  date: 2026-05-17
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep"
-  url: "https://github.com/MinishLab/semble"
-  date: 2026-05-17
-  source: Hacker News Best
-  category: programming
-- title: "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit"
-  url: "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html"
-  date: 2026-05-17
-  source: Hacker News Best
-  category: programming
 - title: Nick Cave on the Two Pillars of a Meaningful Life
   url: "https://www.themarginalian.org/2026/05/17/nick-cave-humility-curiosity/"
-  date: 2026-05-17
-  source: The Marginalian
-  category: philosophy
-- title: What It’s Like to Be a Panda
-  url: "https://www.themarginalian.org/2026/05/17/george-schaller-panda/"
-  date: 2026-05-17
-  source: The Marginalian
-  category: philosophy
-- title: "Middle Age and the Art of Self-Renewal: An Extraordinary Letter from Pioneering Education Reformer Elizabeth Peabody"
-  url: "https://www.themarginalian.org/2026/05/16/elizabeth-peabody-figuring/"
   date: 2026-05-17
   source: The Marginalian
   category: philosophy
@@ -53,16 +83,6 @@
   date: 2026-05-16
   source: Simon Willison
   category: ai
-- title: inaturalist-clumper 0.1
-  url: "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything"
-  date: 2026-05-15
-  source: Simon Willison
-  category: ai
-- title: "Western Gull, Rock Pigeon"
-  url: "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything"
-  date: 2026-05-15
-  source: Simon Willison
-  category: ai
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -73,11 +93,6 @@
   date: 2026-05-15
   source: Aeon
   category: philosophy
-- title: "The Art of Looking: Eleven Ways of Viewing the Multiple Realities of Our Everyday Wonderland"
-  url: "https://www.themarginalian.org/2026/05/15/on-looking-eleven-walks-with-expert-eyes/"
-  date: 2026-05-15
-  source: The Marginalian
-  category: philosophy
 - title: Silvesterchlausen
   url: "https://aeon.co/videos/the-swiss-tradition-thats-a-mystery-even-to-those-who-celebrate-it"
   date: 2026-05-14
@@ -86,21 +101,6 @@
 - title: Rights require money
   url: "https://aeon.co/essays/to-fund-human-rights-we-need-a-global-fair-tax-convention"
   date: 2026-05-14
-  source: Aeon
-  category: philosophy
-- title: "In Praise of the Useless: Bertrand Russell’s Salve for Hard Times"
-  url: "https://www.themarginalian.org/2026/05/14/bertrand-russell-useless-knowledge/"
-  date: 2026-05-14
-  source: The Marginalian
-  category: philosophy
-- title: Idle warriors
-  url: "https://aeon.co/videos/meet-the-bounty-hunters-who-enforce-new-yorks-idling-vehicle-ban"
-  date: 2026-05-13
-  source: Aeon
-  category: philosophy
-- title: Beneath our human shallows
-  url: "https://aeon.co/essays/how-does-the-deep-earth-see-humanity"
-  date: 2026-05-12
   source: Aeon
   category: philosophy
 - title: Links to CSS colour palettes
