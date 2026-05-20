@@ -1,13 +1,63 @@
-- title: The last six months in LLMs in five minutes
-  url: "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything"
+- title: Railway Blocked by Google Cloud
+  url: "https://status.railway.com/?date=20260519"
+  date: 2026-05-20
+  source: Hacker News Best
+  category: programming
+- title: GitHub is investigating unauthorized access to their internal repositories
+  url: "https://twitter.com/github/status/2056884788179726685"
+  date: 2026-05-20
+  source: Hacker News Best
+  category: programming
+- title: llm-gemini 0.32
+  url: "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything"
   date: 2026-05-19
   source: Simon Willison
   category: ai
-- title: The last six months in LLMs in five minutes
-  url: "https://simonwillison.net/2026/May/19/5-minute-llms/"
+- title: "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything"
+  url: "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything"
+  date: 2026-05-19
+  source: Simon Willison
+  category: ai
+- title: datasette-llm-accountant 0.1a4
+  url: "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything"
+  date: 2026-05-19
+  source: Simon Willison
+  category: ai
+- title: llm-gemini 0.32a0
+  url: "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything"
+  date: 2026-05-19
+  source: Simon Willison
+  category: ai
+- title: datasette-llm 0.1a8
+  url: "https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything"
+  date: 2026-05-19
+  source: Simon Willison
+  category: ai
+- title: "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day"
+  url: "https://www.autonocion.com/us/tesla-lithium-refinery-texas/"
   date: 2026-05-19
   source: Hacker News Best
   category: programming
+- title: Minnesota becomes first state to ban prediction markets
+  url: "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets"
+  date: 2026-05-19
+  source: Hacker News Best
+  category: programming
+- title: Disney erased FiveThirtyEight
+  url: "https://www.natesilver.net/p/disney-erased-fivethirtyeight"
+  date: 2026-05-19
+  source: Hacker News Best
+  category: programming
+- title: Maritime China
+  url: "https://aeon.co/essays/china-and-the-sea-a-story-of-power-faith-and-appetite"
+  date: 2026-05-19
+  source: Aeon
+  category: philosophy
+- title: "Seneca on Grief and the Key to Resilience in the Face of Loss: An Extraordinary Letter to His Mother"
+  url: "https://www.themarginalian.org/2026/05/19/seneca-consolation-to-helvia/"
+  date: 2026-05-19
+  source: The Marginalian
+  category: philosophy
 - title: "Obsidian and the Birds: An Odyssey of Wonder from the Aztecs to the Quantum World"
   url: "https://www.themarginalian.org/2026/05/18/teotihuacan-magnetite/"
   date: 2026-05-19
@@ -18,31 +68,6 @@
   date: 2026-05-19
   source: The Marginalian
   category: philosophy
-- title: "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose"
-  url: "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything"
-  date: 2026-05-18
-  source: Simon Willison
-  category: ai
-- title: Click (2016)
-  url: "https://clickclickclick.click/"
-  date: 2026-05-18
-  source: Hacker News Best
-  category: programming
-- title: "Who will buy your services if you fire us all?"
-  url: "https://carette.xyz/posts/who_will_buy_your_services/"
-  date: 2026-05-18
-  source: Hacker News Best
-  category: programming
-- title: The FBI Wants to Buy Nationwide Access to License Plate Readers
-  url: "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/"
-  date: 2026-05-18
-  source: Hacker News Best
-  category: programming
-- title: Haiku OS runs on M1 Macs now
-  url: "https://discuss.haiku-os.org/t/my-haiku-arm64-progress/19044?page=2"
-  date: 2026-05-18
-  source: Hacker News Best
-  category: programming
 - title: How death came to Earth
   url: "https://aeon.co/videos/the-celestial-affair-that-made-us-mortal-an-animated-indian-myth"
   date: 2026-05-18
@@ -63,26 +88,6 @@
   date: 2026-05-18
   source: The Marginalian
   category: philosophy
-- title: "GDS weighs in on the NHS's decision to retreat from Open Source"
-  url: "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything"
-  date: 2026-05-17
-  source: Simon Willison
-  category: ai
-- title: Nick Cave on the Two Pillars of a Meaningful Life
-  url: "https://www.themarginalian.org/2026/05/17/nick-cave-humility-curiosity/"
-  date: 2026-05-17
-  source: The Marginalian
-  category: philosophy
-- title: "Warelay -> OpenClaw"
-  url: "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything"
-  date: 2026-05-16
-  source: Simon Willison
-  category: ai
-- title: Quoting Julia Evans
-  url: "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything"
-  date: 2026-05-16
-  source: Simon Willison
-  category: ai
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -95,11 +100,6 @@
   category: philosophy
 - title: Silvesterchlausen
   url: "https://aeon.co/videos/the-swiss-tradition-thats-a-mystery-even-to-those-who-celebrate-it"
-  date: 2026-05-14
-  source: Aeon
-  category: philosophy
-- title: Rights require money
-  url: "https://aeon.co/essays/to-fund-human-rights-we-need-a-global-fair-tax-convention"
   date: 2026-05-14
   source: Aeon
   category: philosophy
