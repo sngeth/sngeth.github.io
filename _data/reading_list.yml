@@ -1,48 +1,73 @@
+- title: "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service"
+  url: "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"
+  date: 2026-05-22
+  source: Simon Willison
+  category: ai
+- title: Datasette Agent
+  url: "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything"
+  date: 2026-05-21
+  source: Simon Willison
+  category: ai
+- title: datasette-agent-sprites 0.1a0
+  url: "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything"
+  date: 2026-05-21
+  source: Simon Willison
+  category: ai
+- title: datasette-agent-charts 0.1a2
+  url: "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything"
+  date: 2026-05-21
+  source: Simon Willison
+  category: ai
+- title: datasette-agent 0.1a3
+  url: "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything"
+  date: 2026-05-21
+  source: Simon Willison
+  category: ai
+- title: "Seattle Shield, an intelligence-sharing network operated by the Seattle police"
+  url: "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/"
+  date: 2026-05-21
+  source: Hacker News Best
+  category: programming
+- title: Project Hail Mary – Stellar Navigation Chart
+  url: "https://valhovey.github.io/gaia-mary/"
+  date: 2026-05-21
+  source: Hacker News Best
+  category: programming
+- title: Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)
+  url: "https://blog.simbastack.com/indexed-a-year-of-video-locally/"
+  date: 2026-05-21
+  source: Hacker News Best
+  category: programming
+- title: "Google's Antigravity bait and switch"
+  url: "https://www.0xsid.com/blog/antigravity-bait-n-switch"
+  date: 2026-05-21
+  source: Hacker News Best
+  category: programming
+- title: AI is just unauthorised plagiarism at a bigger scale
+  url: "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/"
+  date: 2026-05-21
+  source: Hacker News Best
+  category: programming
+- title: Aloha ʻāina
+  url: "https://aeon.co/videos/reclaiming-aloha-the-hawaiian-poet-rewriting-the-story-of-her-home"
+  date: 2026-05-21
+  source: Aeon
+  category: philosophy
+- title: Make immigration boring
+  url: "https://aeon.co/essays/more-migration-or-less-migration-the-answer-is-boring"
+  date: 2026-05-21
+  source: Aeon
+  category: philosophy
+- title: "How Evolution Invented Faith: The Patience of the Penguin and the Art of Withstanding Abandonment"
+  url: "https://www.themarginalian.org/2026/05/21/penguin/"
+  date: 2026-05-21
+  source: The Marginalian
+  category: philosophy
 - title: "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World"
   url: "https://www.themarginalian.org/2026/05/20/virginia-woolf-truth/"
   date: 2026-05-21
   source: The Marginalian
   category: philosophy
-- title: Quoting SpaceX S-1
-  url: "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything"
-  date: 2026-05-20
-  source: Simon Willison
-  category: ai
-- title: "How fast is 10 tokens per second really?"
-  url: "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything"
-  date: 2026-05-20
-  source: Simon Willison
-  category: ai
-- title: "Google I/O, Gemini Spark, Antigravity"
-  url: "https://simonwillison.net/2026/May/20/google-io/#atom-everything"
-  date: 2026-05-20
-  source: Simon Willison
-  category: ai
-- title: Google Declaring War on the Web
-  url: "https://tante.cc/2026/05/20/on-google-declaring-war-on-the-web/"
-  date: 2026-05-20
-  source: Hacker News Best
-  category: programming
-- title: An OpenAI model has disproved a central conjecture in discrete geometry
-  url: "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
-  date: 2026-05-20
-  source: Hacker News Best
-  category: programming
-- title: Apparently Google hates us now
-  url: "https://twitter.com/pokemoncentral/status/2057123807404638250"
-  date: 2026-05-20
-  source: Hacker News Best
-  category: programming
-- title: Tennessee man jailed 37 days for Trump meme wins settlement after lawsuit
-  url: "https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment"
-  date: 2026-05-20
-  source: Hacker News Best
-  category: programming
-- title: "GitHub confirms breach of 3,800 repos via malicious VSCode extension"
-  url: "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/"
-  date: 2026-05-20
-  source: Hacker News Best
-  category: programming
 - title: Looking for a donkey
   url: "https://aeon.co/videos/in-search-of-the-donkey-that-sparked-a-national-incident-in-venezuela"
   date: 2026-05-20
@@ -53,16 +78,6 @@
   date: 2026-05-20
   source: The Marginalian
   category: philosophy
-- title: llm-gemini 0.32
-  url: "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything"
-  date: 2026-05-19
-  source: Simon Willison
-  category: ai
-- title: "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything"
-  url: "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything"
-  date: 2026-05-19
-  source: Simon Willison
-  category: ai
 - title: Maritime China
   url: "https://aeon.co/essays/china-and-the-sea-a-story-of-power-faith-and-appetite"
   date: 2026-05-19
@@ -78,18 +93,8 @@
   date: 2026-05-19
   source: The Marginalian
   category: philosophy
-- title: bell hooks on the Power of Being in the Margins
-  url: "https://www.themarginalian.org/2026/05/18/bell-hooks-margins/"
-  date: 2026-05-19
-  source: The Marginalian
-  category: philosophy
 - title: How death came to Earth
   url: "https://aeon.co/videos/the-celestial-affair-that-made-us-mortal-an-animated-indian-myth"
-  date: 2026-05-18
-  source: Aeon
-  category: philosophy
-- title: Mathematics is out there
-  url: "https://aeon.co/essays/for-sergiu-klainerman-maths-is-a-fact-to-be-divined"
   date: 2026-05-18
   source: Aeon
   category: philosophy
@@ -98,11 +103,6 @@
   date: 2026-05-15
   source: Julia Evans
   category: programming
-- title: Gen Z but two centuries ago
-  url: "https://aeon.co/essays/young-people-now-and-the-mal-du-siecle-of-19th-century-france"
-  date: 2026-05-15
-  source: Aeon
-  category: philosophy
 - title: Links to CSS colour palettes
   url: "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
   date: 2026-05-04
