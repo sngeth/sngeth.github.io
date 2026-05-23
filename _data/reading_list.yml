@@ -1,8 +1,48 @@
+- title: The memory shortage is causing a repricing of consumer electronics
+  url: "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything"
+  date: 2026-05-22
+  source: Simon Willison
+  category: ai
 - title: "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service"
   url: "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"
   date: 2026-05-22
   source: Simon Willison
   category: ai
+- title: Shipping a laptop to a refugee camp in Uganda
+  url: "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda"
+  date: 2026-05-22
+  source: Hacker News Best
+  category: programming
+- title: "Project Glasswing: An Initial Update"
+  url: "https://www.anthropic.com/research/glasswing-initial-update"
+  date: 2026-05-22
+  source: Hacker News Best
+  category: programming
+- title: Bun support is now limited and deprecated
+  url: "https://github.com/yt-dlp/yt-dlp/issues/16766"
+  date: 2026-05-22
+  source: Hacker News Best
+  category: programming
+- title: U.S. researchers face new restrictions on publishing with foreign collaborators
+  url: "https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators"
+  date: 2026-05-22
+  source: Hacker News Best
+  category: programming
+- title: DeepSeek makes the V4 Pro price discount permanent
+  url: "https://api-docs.deepseek.com/quick_start/pricing"
+  date: 2026-05-22
+  source: Hacker News Best
+  category: programming
+- title: Being small
+  url: "https://aeon.co/essays/the-power-imbalance-between-parent-and-child-leaves-a-trace"
+  date: 2026-05-22
+  source: Aeon
+  category: philosophy
+- title: How Not to Dwell on the Past
+  url: "https://www.themarginalian.org/2026/05/22/diane-seuss-weeds/"
+  date: 2026-05-22
+  source: The Marginalian
+  category: philosophy
 - title: Datasette Agent
   url: "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything"
   date: 2026-05-21
@@ -18,36 +58,6 @@
   date: 2026-05-21
   source: Simon Willison
   category: ai
-- title: datasette-agent 0.1a3
-  url: "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything"
-  date: 2026-05-21
-  source: Simon Willison
-  category: ai
-- title: "Seattle Shield, an intelligence-sharing network operated by the Seattle police"
-  url: "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/"
-  date: 2026-05-21
-  source: Hacker News Best
-  category: programming
-- title: Project Hail Mary – Stellar Navigation Chart
-  url: "https://valhovey.github.io/gaia-mary/"
-  date: 2026-05-21
-  source: Hacker News Best
-  category: programming
-- title: Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)
-  url: "https://blog.simbastack.com/indexed-a-year-of-video-locally/"
-  date: 2026-05-21
-  source: Hacker News Best
-  category: programming
-- title: "Google's Antigravity bait and switch"
-  url: "https://www.0xsid.com/blog/antigravity-bait-n-switch"
-  date: 2026-05-21
-  source: Hacker News Best
-  category: programming
-- title: AI is just unauthorised plagiarism at a bigger scale
-  url: "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/"
-  date: 2026-05-21
-  source: Hacker News Best
-  category: programming
 - title: Aloha ʻāina
   url: "https://aeon.co/videos/reclaiming-aloha-the-hawaiian-poet-rewriting-the-story-of-her-home"
   date: 2026-05-21
@@ -87,16 +97,6 @@
   url: "https://www.themarginalian.org/2026/05/19/seneca-consolation-to-helvia/"
   date: 2026-05-19
   source: The Marginalian
-  category: philosophy
-- title: "Obsidian and the Birds: An Odyssey of Wonder from the Aztecs to the Quantum World"
-  url: "https://www.themarginalian.org/2026/05/18/teotihuacan-magnetite/"
-  date: 2026-05-19
-  source: The Marginalian
-  category: philosophy
-- title: How death came to Earth
-  url: "https://aeon.co/videos/the-celestial-affair-that-made-us-mortal-an-animated-indian-myth"
-  date: 2026-05-18
-  source: Aeon
   category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
