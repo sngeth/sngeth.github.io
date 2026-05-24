@@ -1,3 +1,43 @@
+- title: "How to Live Fully: Ursula K. Le Guin’s Remedy for Our Resistance to Change"
+  url: "https://www.themarginalian.org/2026/05/24/le-guin-lathe-of-heaven-change/"
+  date: 2026-05-24
+  source: The Marginalian
+  category: philosophy
+- title: "The Log from the Sea of Cortez: John Steinbeck’s Forgotten Masterpiece on How to Think and the Art of Seeing the Pattern Beyond the Particular"
+  url: "https://www.themarginalian.org/2026/05/23/steinbeck-log-from-the-sea-of-cortez/"
+  date: 2026-05-24
+  source: The Marginalian
+  category: philosophy
+- title: "On the <dl>"
+  url: "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything"
+  date: 2026-05-23
+  source: Simon Willison
+  category: ai
+- title: Time to talk about my writerdeck
+  url: "https://veronicaexplains.net/my-first-writerdeck/"
+  date: 2026-05-23
+  source: Hacker News Best
+  category: programming
+- title: Texas woman arrested for Facebook post about town water quality
+  url: "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality"
+  date: 2026-05-23
+  source: Hacker News Best
+  category: programming
+- title: Italy moves to Airbus A330 tankers
+  url: "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift"
+  date: 2026-05-23
+  source: Hacker News Best
+  category: programming
+- title: Oura says it gets government demands for user data
+  url: "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/"
+  date: 2026-05-23
+  source: Hacker News Best
+  category: programming
+- title: "On The <dl> (2021)"
+  url: "https://benmyers.dev/blog/on-the-dl/"
+  date: 2026-05-23
+  source: Hacker News Best
+  category: programming
 - title: The memory shortage is causing a repricing of consumer electronics
   url: "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything"
   date: 2026-05-22
@@ -8,31 +48,6 @@
   date: 2026-05-22
   source: Simon Willison
   category: ai
-- title: Shipping a laptop to a refugee camp in Uganda
-  url: "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda"
-  date: 2026-05-22
-  source: Hacker News Best
-  category: programming
-- title: "Project Glasswing: An Initial Update"
-  url: "https://www.anthropic.com/research/glasswing-initial-update"
-  date: 2026-05-22
-  source: Hacker News Best
-  category: programming
-- title: Bun support is now limited and deprecated
-  url: "https://github.com/yt-dlp/yt-dlp/issues/16766"
-  date: 2026-05-22
-  source: Hacker News Best
-  category: programming
-- title: U.S. researchers face new restrictions on publishing with foreign collaborators
-  url: "https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators"
-  date: 2026-05-22
-  source: Hacker News Best
-  category: programming
-- title: DeepSeek makes the V4 Pro price discount permanent
-  url: "https://api-docs.deepseek.com/quick_start/pricing"
-  date: 2026-05-22
-  source: Hacker News Best
-  category: programming
 - title: Being small
   url: "https://aeon.co/essays/the-power-imbalance-between-parent-and-child-leaves-a-trace"
   date: 2026-05-22
@@ -50,11 +65,6 @@
   category: ai
 - title: datasette-agent-sprites 0.1a0
   url: "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything"
-  date: 2026-05-21
-  source: Simon Willison
-  category: ai
-- title: datasette-agent-charts 0.1a2
-  url: "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything"
   date: 2026-05-21
   source: Simon Willison
   category: ai
@@ -83,20 +93,10 @@
   date: 2026-05-20
   source: Aeon
   category: philosophy
-- title: "How Do We Know What We Want: Milan Kundera on the Central Ambivalences of Life and Love"
-  url: "https://www.themarginalian.org/2026/05/20/milan-kundera-unbearable-lightness-of-being/"
-  date: 2026-05-20
-  source: The Marginalian
-  category: philosophy
 - title: Maritime China
   url: "https://aeon.co/essays/china-and-the-sea-a-story-of-power-faith-and-appetite"
   date: 2026-05-19
   source: Aeon
-  category: philosophy
-- title: "Seneca on Grief and the Key to Resilience in the Face of Loss: An Extraordinary Letter to His Mother"
-  url: "https://www.themarginalian.org/2026/05/19/seneca-consolation-to-helvia/"
-  date: 2026-05-19
-  source: The Marginalian
   category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
