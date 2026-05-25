@@ -1,3 +1,63 @@
+- title: The Eternal Sloptember
+  url: "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html"
+  date: 2026-05-25
+  source: Hacker News Best
+  category: programming
+- title: Moonlight and the Magic of the Unnecessary
+  url: "https://www.themarginalian.org/2026/05/24/moonlight/"
+  date: 2026-05-25
+  source: The Marginalian
+  category: philosophy
+- title: datasette 1.0a30
+  url: "https://simonwillison.net/2026/May/24/datasette/#atom-everything"
+  date: 2026-05-24
+  source: Simon Willison
+  category: ai
+- title: datasette-agent 0.1a4
+  url: "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything"
+  date: 2026-05-24
+  source: Simon Willison
+  category: ai
+- title: datasette-fixtures 0.1a0
+  url: "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything"
+  date: 2026-05-24
+  source: Simon Willison
+  category: ai
+- title: Quoting Armin Ronacher
+  url: "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything"
+  date: 2026-05-24
+  source: Simon Willison
+  category: ai
+- title: Mad House — Usborne Creepy Computer Games
+  url: "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"
+  date: 2026-05-24
+  source: Simon Willison
+  category: ai
+- title: "The four-day workweek in Australia: insights from early adopters of 100:80:100"
+  url: "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/"
+  date: 2026-05-24
+  source: Hacker News Best
+  category: programming
+- title: Migrating from Go to Rust
+  url: "https://corrode.dev/learn/migration-guides/go-to-rust/"
+  date: 2026-05-24
+  source: Hacker News Best
+  category: programming
+- title: Claude is not your architect. Stop letting it pretend
+  url: "https://www.hollandtech.net/claude-is-not-your-architect/"
+  date: 2026-05-24
+  source: Hacker News Best
+  category: programming
+- title: Memory has grown to nearly two-thirds of AI chip component costs
+  url: "https://epoch.ai/data-insights/ai-chip-component-cost-shares"
+  date: 2026-05-24
+  source: Hacker News Best
+  category: programming
+- title: Swimming and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/05/24/roger-deakin-waterlog/"
+  date: 2026-05-24
+  source: The Marginalian
+  category: philosophy
 - title: "How to Live Fully: Ursula K. Le Guin’s Remedy for Our Resistance to Change"
   url: "https://www.themarginalian.org/2026/05/24/le-guin-lathe-of-heaven-change/"
   date: 2026-05-24
@@ -8,46 +68,6 @@
   date: 2026-05-24
   source: The Marginalian
   category: philosophy
-- title: "On the <dl>"
-  url: "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything"
-  date: 2026-05-23
-  source: Simon Willison
-  category: ai
-- title: Time to talk about my writerdeck
-  url: "https://veronicaexplains.net/my-first-writerdeck/"
-  date: 2026-05-23
-  source: Hacker News Best
-  category: programming
-- title: Texas woman arrested for Facebook post about town water quality
-  url: "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality"
-  date: 2026-05-23
-  source: Hacker News Best
-  category: programming
-- title: Italy moves to Airbus A330 tankers
-  url: "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift"
-  date: 2026-05-23
-  source: Hacker News Best
-  category: programming
-- title: Oura says it gets government demands for user data
-  url: "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/"
-  date: 2026-05-23
-  source: Hacker News Best
-  category: programming
-- title: "On The <dl> (2021)"
-  url: "https://benmyers.dev/blog/on-the-dl/"
-  date: 2026-05-23
-  source: Hacker News Best
-  category: programming
-- title: The memory shortage is causing a repricing of consumer electronics
-  url: "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything"
-  date: 2026-05-22
-  source: Simon Willison
-  category: ai
-- title: "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service"
-  url: "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"
-  date: 2026-05-22
-  source: Simon Willison
-  category: ai
 - title: Being small
   url: "https://aeon.co/essays/the-power-imbalance-between-parent-and-child-leaves-a-trace"
   date: 2026-05-22
@@ -58,16 +78,6 @@
   date: 2026-05-22
   source: The Marginalian
   category: philosophy
-- title: Datasette Agent
-  url: "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything"
-  date: 2026-05-21
-  source: Simon Willison
-  category: ai
-- title: datasette-agent-sprites 0.1a0
-  url: "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything"
-  date: 2026-05-21
-  source: Simon Willison
-  category: ai
 - title: Aloha ʻāina
   url: "https://aeon.co/videos/reclaiming-aloha-the-hawaiian-poet-rewriting-the-story-of-her-home"
   date: 2026-05-21
@@ -77,16 +87,6 @@
   url: "https://aeon.co/essays/more-migration-or-less-migration-the-answer-is-boring"
   date: 2026-05-21
   source: Aeon
-  category: philosophy
-- title: "How Evolution Invented Faith: The Patience of the Penguin and the Art of Withstanding Abandonment"
-  url: "https://www.themarginalian.org/2026/05/21/penguin/"
-  date: 2026-05-21
-  source: The Marginalian
-  category: philosophy
-- title: "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World"
-  url: "https://www.themarginalian.org/2026/05/20/virginia-woolf-truth/"
-  date: 2026-05-21
-  source: The Marginalian
   category: philosophy
 - title: Looking for a donkey
   url: "https://aeon.co/videos/in-search-of-the-donkey-that-sparked-a-national-incident-in-venezuela"
