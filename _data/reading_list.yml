@@ -1,8 +1,48 @@
-- title: The Eternal Sloptember
-  url: "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html"
+- title: Quoting Corey Quinn
+  url: "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"
+  date: 2026-05-26
+  source: Simon Willison
+  category: ai
+- title: "Notes on Pope Leo XIV's encyclical on AI"
+  url: "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything"
+  date: 2026-05-25
+  source: Simon Willison
+  category: ai
+- title: Using AI to write better code more slowly
+  url: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
   date: 2026-05-25
   source: Hacker News Best
   category: programming
+- title: "Taking a walk may lead to more creativity than sitting, study finds (2014)"
+  url: "https://www.apa.org/news/press/releases/2014/04/creativity-walk"
+  date: 2026-05-25
+  source: Hacker News Best
+  category: programming
+- title: Microsoft Copilot Cowork Exfiltrates Files
+  url: "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files"
+  date: 2026-05-25
+  source: Hacker News Best
+  category: programming
+- title: Hacker News front page as a site
+  url: "https://thefrontpage.dev/"
+  date: 2026-05-25
+  source: Hacker News Best
+  category: programming
+- title: "Norway's 2 petabytes of Huawei flash storage and LLM training"
+  url: "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910"
+  date: 2026-05-25
+  source: Hacker News Best
+  category: programming
+- title: This is my island
+  url: "https://aeon.co/videos/tour-an-island-community-built-from-scratch-in-this-film-from-1972"
+  date: 2026-05-25
+  source: Aeon
+  category: philosophy
+- title: "Can ecosystems malfunction?"
+  url: "https://aeon.co/essays/why-we-need-to-think-again-about-ecosystem-failure"
+  date: 2026-05-25
+  source: Aeon
+  category: philosophy
 - title: Moonlight and the Magic of the Unnecessary
   url: "https://www.themarginalian.org/2026/05/24/moonlight/"
   date: 2026-05-25
@@ -23,36 +63,6 @@
   date: 2026-05-24
   source: Simon Willison
   category: ai
-- title: Quoting Armin Ronacher
-  url: "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything"
-  date: 2026-05-24
-  source: Simon Willison
-  category: ai
-- title: Mad House — Usborne Creepy Computer Games
-  url: "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"
-  date: 2026-05-24
-  source: Simon Willison
-  category: ai
-- title: "The four-day workweek in Australia: insights from early adopters of 100:80:100"
-  url: "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/"
-  date: 2026-05-24
-  source: Hacker News Best
-  category: programming
-- title: Migrating from Go to Rust
-  url: "https://corrode.dev/learn/migration-guides/go-to-rust/"
-  date: 2026-05-24
-  source: Hacker News Best
-  category: programming
-- title: Claude is not your architect. Stop letting it pretend
-  url: "https://www.hollandtech.net/claude-is-not-your-architect/"
-  date: 2026-05-24
-  source: Hacker News Best
-  category: programming
-- title: Memory has grown to nearly two-thirds of AI chip component costs
-  url: "https://epoch.ai/data-insights/ai-chip-component-cost-shares"
-  date: 2026-05-24
-  source: Hacker News Best
-  category: programming
 - title: Swimming and the Meaning of Life
   url: "https://www.themarginalian.org/2026/05/24/roger-deakin-waterlog/"
   date: 2026-05-24
@@ -86,16 +96,6 @@
 - title: Make immigration boring
   url: "https://aeon.co/essays/more-migration-or-less-migration-the-answer-is-boring"
   date: 2026-05-21
-  source: Aeon
-  category: philosophy
-- title: Looking for a donkey
-  url: "https://aeon.co/videos/in-search-of-the-donkey-that-sparked-a-national-incident-in-venezuela"
-  date: 2026-05-20
-  source: Aeon
-  category: philosophy
-- title: Maritime China
-  url: "https://aeon.co/essays/china-and-the-sea-a-story-of-power-faith-and-appetite"
-  date: 2026-05-19
   source: Aeon
   category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
