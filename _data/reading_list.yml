@@ -1,38 +1,63 @@
+- title: Quoting Kyle Ferrana
+  url: "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything"
+  date: 2026-05-27
+  source: Simon Willison
+  category: ai
+- title: The pressure
+  url: "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything"
+  date: 2026-05-26
+  source: Simon Willison
+  category: ai
+- title: Microsoft Copilot Cowork Exfiltrates Files
+  url: "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything"
+  date: 2026-05-26
+  source: Simon Willison
+  category: ai
+- title: Quoting Paul Graham
+  url: "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"
+  date: 2026-05-26
+  source: Simon Willison
+  category: ai
 - title: Quoting Corey Quinn
   url: "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"
   date: 2026-05-26
   source: Simon Willison
   category: ai
-- title: "Notes on Pope Leo XIV's encyclical on AI"
-  url: "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything"
-  date: 2026-05-25
-  source: Simon Willison
-  category: ai
-- title: Using AI to write better code more slowly
-  url: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
-  date: 2026-05-25
+- title: "Big tech's anti-labor playbook has come for Wikipedia"
+  url: "https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943"
+  date: 2026-05-26
   source: Hacker News Best
   category: programming
-- title: "Taking a walk may lead to more creativity than sitting, study finds (2014)"
-  url: "https://www.apa.org/news/press/releases/2014/04/creativity-walk"
-  date: 2026-05-25
+- title: That Methyl Methacrylate Tank
+  url: "https://www.science.org/content/blog-post/methyl-methacrylate-tank"
+  date: 2026-05-26
   source: Hacker News Best
   category: programming
-- title: Microsoft Copilot Cowork Exfiltrates Files
-  url: "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files"
-  date: 2026-05-25
+- title: The real cost of owning a home
+  url: "https://ericturner.dev/posts/cost-of-home-ownership/"
+  date: 2026-05-26
   source: Hacker News Best
   category: programming
-- title: Hacker News front page as a site
-  url: "https://thefrontpage.dev/"
-  date: 2026-05-25
+- title: "Uber, Lyft drivers in Massachusetts form first US ride-share union"
+  url: "https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/"
+  date: 2026-05-26
   source: Hacker News Best
   category: programming
-- title: "Norway's 2 petabytes of Huawei flash storage and LLM training"
-  url: "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910"
-  date: 2026-05-25
+- title: Dropbox CEO Drew Houston to step down
+  url: "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html"
+  date: 2026-05-26
   source: Hacker News Best
   category: programming
+- title: The embattled witnesses
+  url: "https://aeon.co/essays/a-fragile-crown-jewel-the-uns-human-rights-experts"
+  date: 2026-05-26
+  source: Aeon
+  category: philosophy
+- title: "Oliver Sacks on Memory, Originality, and Why Forgetting is Necessary for Creativity"
+  url: "https://www.themarginalian.org/2026/05/26/oliver-sacks-on-memory-and-plagiarism/"
+  date: 2026-05-26
+  source: The Marginalian
+  category: philosophy
 - title: This is my island
   url: "https://aeon.co/videos/tour-an-island-community-built-from-scratch-in-this-film-from-1972"
   date: 2026-05-25
@@ -48,21 +73,6 @@
   date: 2026-05-25
   source: The Marginalian
   category: philosophy
-- title: datasette 1.0a30
-  url: "https://simonwillison.net/2026/May/24/datasette/#atom-everything"
-  date: 2026-05-24
-  source: Simon Willison
-  category: ai
-- title: datasette-agent 0.1a4
-  url: "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything"
-  date: 2026-05-24
-  source: Simon Willison
-  category: ai
-- title: datasette-fixtures 0.1a0
-  url: "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything"
-  date: 2026-05-24
-  source: Simon Willison
-  category: ai
 - title: Swimming and the Meaning of Life
   url: "https://www.themarginalian.org/2026/05/24/roger-deakin-waterlog/"
   date: 2026-05-24
@@ -83,18 +93,8 @@
   date: 2026-05-22
   source: Aeon
   category: philosophy
-- title: How Not to Dwell on the Past
-  url: "https://www.themarginalian.org/2026/05/22/diane-seuss-weeds/"
-  date: 2026-05-22
-  source: The Marginalian
-  category: philosophy
 - title: Aloha ʻāina
   url: "https://aeon.co/videos/reclaiming-aloha-the-hawaiian-poet-rewriting-the-story-of-her-home"
-  date: 2026-05-21
-  source: Aeon
-  category: philosophy
-- title: Make immigration boring
-  url: "https://aeon.co/essays/more-migration-or-less-migration-the-answer-is-boring"
   date: 2026-05-21
   source: Aeon
   category: philosophy
