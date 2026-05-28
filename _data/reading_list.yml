@@ -1,8 +1,58 @@
+- title: "Can we have the day off?"
+  url: "https://mlsu.io/posts/day-off/"
+  date: 2026-05-28
+  source: Hacker News Best
+  category: programming
+- title: sqlite AGENTS.md
+  url: "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything"
+  date: 2026-05-27
+  source: Simon Willison
+  category: ai
+- title: I think Anthropic and OpenAI have found product-market fit
+  url: "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything"
+  date: 2026-05-27
+  source: Simon Willison
+  category: ai
 - title: Quoting Kyle Ferrana
   url: "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything"
   date: 2026-05-27
   source: Simon Willison
   category: ai
+- title: Notes on Fourier series
+  url: "https://eli.thegreenplace.net/2026/notes-on-fourier-series/"
+  date: 2026-05-27
+  source: Eli Bendersky
+  category: programming
+- title: FBI Arrests CIA Official with $40M in Gold Bars in His Home
+  url: "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html"
+  date: 2026-05-27
+  source: Hacker News Best
+  category: programming
+- title: YouTube to automatically label AI-generated videos
+  url: "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/"
+  date: 2026-05-27
+  source: Hacker News Best
+  category: programming
+- title: SimCity 3k in 4k (2025)
+  url: "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html"
+  date: 2026-05-27
+  source: Hacker News Best
+  category: programming
+- title: Canada to order military plane fleet from Sweden in shift from US suppliers
+  url: "https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft"
+  date: 2026-05-27
+  source: Hacker News Best
+  category: programming
+- title: The meatseller
+  url: "https://aeon.co/videos/brutal-beautiful-animation-traces-an-african-teens-journey-to-italy"
+  date: 2026-05-27
+  source: Aeon
+  category: philosophy
+- title: Existentialist Embroidery
+  url: "https://www.themarginalian.org/2026/05/27/existentialist-embroidery/"
+  date: 2026-05-27
+  source: The Marginalian
+  category: philosophy
 - title: The pressure
   url: "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything"
   date: 2026-05-26
@@ -13,41 +63,6 @@
   date: 2026-05-26
   source: Simon Willison
   category: ai
-- title: Quoting Paul Graham
-  url: "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"
-  date: 2026-05-26
-  source: Simon Willison
-  category: ai
-- title: Quoting Corey Quinn
-  url: "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"
-  date: 2026-05-26
-  source: Simon Willison
-  category: ai
-- title: "Big tech's anti-labor playbook has come for Wikipedia"
-  url: "https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943"
-  date: 2026-05-26
-  source: Hacker News Best
-  category: programming
-- title: That Methyl Methacrylate Tank
-  url: "https://www.science.org/content/blog-post/methyl-methacrylate-tank"
-  date: 2026-05-26
-  source: Hacker News Best
-  category: programming
-- title: The real cost of owning a home
-  url: "https://ericturner.dev/posts/cost-of-home-ownership/"
-  date: 2026-05-26
-  source: Hacker News Best
-  category: programming
-- title: "Uber, Lyft drivers in Massachusetts form first US ride-share union"
-  url: "https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/"
-  date: 2026-05-26
-  source: Hacker News Best
-  category: programming
-- title: Dropbox CEO Drew Houston to step down
-  url: "https://www.cnbc.com/2026/05/26/dropbox-ceo-drew-houston-ashraf-alkarmi.html"
-  date: 2026-05-26
-  source: Hacker News Best
-  category: programming
 - title: The embattled witnesses
   url: "https://aeon.co/essays/a-fragile-crown-jewel-the-uns-human-rights-experts"
   date: 2026-05-26
@@ -83,19 +98,9 @@
   date: 2026-05-24
   source: The Marginalian
   category: philosophy
-- title: "The Log from the Sea of Cortez: John Steinbeck’s Forgotten Masterpiece on How to Think and the Art of Seeing the Pattern Beyond the Particular"
-  url: "https://www.themarginalian.org/2026/05/23/steinbeck-log-from-the-sea-of-cortez/"
-  date: 2026-05-24
-  source: The Marginalian
-  category: philosophy
 - title: Being small
   url: "https://aeon.co/essays/the-power-imbalance-between-parent-and-child-leaves-a-trace"
   date: 2026-05-22
-  source: Aeon
-  category: philosophy
-- title: Aloha ʻāina
-  url: "https://aeon.co/videos/reclaiming-aloha-the-hawaiian-poet-rewriting-the-story-of-her-home"
-  date: 2026-05-21
   source: Aeon
   category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
@@ -136,11 +141,6 @@
 - title: watgo - a WebAssembly Toolkit for Go
   url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
   date: 2026-04-09
-  source: Eli Bendersky
-  category: programming
-- title: "Summary of reading: January - March 2026"
-  url: "https://eli.thegreenplace.net/2026/summary-of-reading-january-march-2026/"
-  date: 2026-03-31
   source: Eli Bendersky
   category: programming
 - title: Examples for the tcpdump and dig man pages
