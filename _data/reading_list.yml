@@ -8,6 +8,51 @@
   date: 2026-05-29
   source: Simon Willison
   category: ai
+- title: "What Is a Dickover?"
+  url: "https://daringfireball.net/2026/05/what_is_a_dickover"
+  date: 2026-05-29
+  source: Hacker News Best
+  category: programming
+- title: SQLite is all you need for durable workflows
+  url: "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/"
+  date: 2026-05-29
+  source: Hacker News Best
+  category: programming
+- title: Notes from the Mistral AI Now Summit
+  url: "https://koenvangilst.nl/lab/mistral-ai-now-summit"
+  date: 2026-05-29
+  source: Hacker News Best
+  category: programming
+- title: You can just say it
+  url: "https://noperator.dev/posts/you-can-just-say-it/"
+  date: 2026-05-29
+  source: Hacker News Best
+  category: programming
+- title: The dead economy theory
+  url: "https://www.owenmcgrann.com/p/the-dead-economy-theory"
+  date: 2026-05-29
+  source: Hacker News Best
+  category: programming
+- title: Artist of sympathy and cruelty
+  url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
+  date: 2026-05-29
+  source: Aeon
+  category: philosophy
+- title: "The Donkey and the Meaning of Eternity: Nobel-Winning Spanish Poet Juan Ramón Jiménez’s Love Letter to Life"
+  url: "https://www.themarginalian.org/2026/05/29/platero-and-i/"
+  date: 2026-05-29
+  source: The Marginalian
+  category: philosophy
+- title: "Curiosity as an Instrument of Love: Thoreau’s Touching Account of 24 Hours with a Tiny Owl"
+  url: "https://www.themarginalian.org/2026/05/29/thoreau-screech-owl/"
+  date: 2026-05-29
+  source: The Marginalian
+  category: philosophy
+- title: Hermann Hesse on How to Hear the Wisdom of the Inner Voice
+  url: "https://www.themarginalian.org/2026/05/29/hermann-hesse-letter-to-a-young-german/"
+  date: 2026-05-29
+  source: The Marginalian
+  category: philosophy
 - title: "Claude Opus 4.8: \"a modest but tangible improvement\""
   url: "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything"
   date: 2026-05-28
@@ -23,31 +68,6 @@
   date: 2026-05-28
   source: Simon Willison
   category: ai
-- title: GitHub bans security researcher who posted zero-day Windows exploits
-  url: "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation"
-  date: 2026-05-28
-  source: Hacker News Best
-  category: programming
-- title: I made a million dollar product from my dorm room (2025)
-  url: "https://nick.winans.io/blog/nice-nano/"
-  date: 2026-05-28
-  source: Hacker News Best
-  category: programming
-- title: "Bricks and Minifigs Stole a Man's $200k Lego Collection"
-  url: "https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection"
-  date: 2026-05-28
-  source: Hacker News Best
-  category: programming
-- title: Various LLM Smells
-  url: "https://shvbsle.in/various-llm-smells/"
-  date: 2026-05-28
-  source: Hacker News Best
-  category: programming
-- title: Building durable workflows on Postgres
-  url: "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution"
-  date: 2026-05-28
-  source: Hacker News Best
-  category: programming
 - title: Life recombined
   url: "https://aeon.co/videos/the-first-scientists-to-splice-dna-faced-a-daunting-question-should-we"
   date: 2026-05-28
@@ -82,26 +102,6 @@
   url: "https://aeon.co/essays/a-fragile-crown-jewel-the-uns-human-rights-experts"
   date: 2026-05-26
   source: Aeon
-  category: philosophy
-- title: "Oliver Sacks on Memory, Originality, and Why Forgetting is Necessary for Creativity"
-  url: "https://www.themarginalian.org/2026/05/26/oliver-sacks-on-memory-and-plagiarism/"
-  date: 2026-05-26
-  source: The Marginalian
-  category: philosophy
-- title: This is my island
-  url: "https://aeon.co/videos/tour-an-island-community-built-from-scratch-in-this-film-from-1972"
-  date: 2026-05-25
-  source: Aeon
-  category: philosophy
-- title: Moonlight and the Magic of the Unnecessary
-  url: "https://www.themarginalian.org/2026/05/24/moonlight/"
-  date: 2026-05-25
-  source: The Marginalian
-  category: philosophy
-- title: Swimming and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/05/24/roger-deakin-waterlog/"
-  date: 2026-05-24
-  source: The Marginalian
   category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
