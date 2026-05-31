@@ -1,38 +1,63 @@
-- title: datasette 1.0a31
-  url: "https://simonwillison.net/2026/May/29/datasette/#atom-everything"
-  date: 2026-05-29
+- title: Quoting Karen Kwok for Reuters Breakingviews
+  url: "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"
+  date: 2026-05-31
   source: Simon Willison
   category: ai
-- title: "Anthropic's run-rate revenue hits $47 billion"
-  url: "https://simonwillison.net/2026/May/29/anthropic/#atom-everything"
-  date: 2026-05-29
+- title: How we contain Claude across products
+  url: "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything"
+  date: 2026-05-30
   source: Simon Willison
   category: ai
-- title: "What Is a Dickover?"
-  url: "https://daringfireball.net/2026/05/what_is_a_dickover"
-  date: 2026-05-29
+- title: Running Python ASGI apps in the browser via Pyodide + a service worker
+  url: "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything"
+  date: 2026-05-30
+  source: Simon Willison
+  category: ai
+- title: I Am Retiring from Tech to Live Offline
+  url: "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything"
+  date: 2026-05-30
+  source: Simon Willison
+  category: ai
+- title: Quoting Daniel Jalkut
+  url: "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything"
+  date: 2026-05-30
+  source: Simon Willison
+  category: ai
+- title: Microsoft Office 2019 and 2021 for Mac view-only conversion
+  url: "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)"
+  date: 2026-05-30
   source: Hacker News Best
   category: programming
-- title: SQLite is all you need for durable workflows
-  url: "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/"
-  date: 2026-05-29
+- title: Domain expertise has always been the real moat
+  url: "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/"
+  date: 2026-05-30
   source: Hacker News Best
   category: programming
-- title: Notes from the Mistral AI Now Summit
-  url: "https://koenvangilst.nl/lab/mistral-ai-now-summit"
-  date: 2026-05-29
+- title: EY Canada published a cybersecurity report and most citations were hallucinated
+  url: "https://gptzero.me/investigations/ey"
+  date: 2026-05-30
   source: Hacker News Best
   category: programming
-- title: You can just say it
-  url: "https://noperator.dev/posts/you-can-just-say-it/"
-  date: 2026-05-29
+- title: OpenRouter raises $113M Series B
+  url: "https://openrouter.ai/announcements/series-b"
+  date: 2026-05-30
   source: Hacker News Best
   category: programming
-- title: The dead economy theory
-  url: "https://www.owenmcgrann.com/p/the-dead-economy-theory"
-  date: 2026-05-29
+- title: Accenture to acquire Ookla
+  url: "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises"
+  date: 2026-05-30
   source: Hacker News Best
   category: programming
+- title: "How Phrenology Queered Language: Walt Whitman and the Evolving Lexicon of Love"
+  url: "https://www.themarginalian.org/2026/05/30/traversal-phrenology-whitman/"
+  date: 2026-05-30
+  source: The Marginalian
+  category: philosophy
+- title: Artist Louise Bourgeois on How Solitude Enriches Creative Work
+  url: "https://www.themarginalian.org/2026/05/30/louise-bourgeois-solitude/"
+  date: 2026-05-30
+  source: The Marginalian
+  category: philosophy
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
@@ -53,21 +78,6 @@
   date: 2026-05-29
   source: The Marginalian
   category: philosophy
-- title: "Claude Opus 4.8: \"a modest but tangible improvement\""
-  url: "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything"
-  date: 2026-05-28
-  source: Simon Willison
-  category: ai
-- title: llm-anthropic 0.25.1
-  url: "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything"
-  date: 2026-05-28
-  source: Simon Willison
-  category: ai
-- title: markdown-svg-renderer
-  url: "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything"
-  date: 2026-05-28
-  source: Simon Willison
-  category: ai
 - title: Life recombined
   url: "https://aeon.co/videos/the-first-scientists-to-splice-dna-faced-a-daunting-question-should-we"
   date: 2026-05-28
@@ -78,11 +88,6 @@
   date: 2026-05-28
   source: Aeon
   category: philosophy
-- title: Albert Camus on the Three Antidotes to the Absurdity of Life
-  url: "https://www.themarginalian.org/2026/05/28/albert-camus-interview-absurd/"
-  date: 2026-05-28
-  source: The Marginalian
-  category: philosophy
 - title: Notes on Fourier series
   url: "https://eli.thegreenplace.net/2026/notes-on-fourier-series/"
   date: 2026-05-27
@@ -92,11 +97,6 @@
   url: "https://aeon.co/videos/brutal-beautiful-animation-traces-an-african-teens-journey-to-italy"
   date: 2026-05-27
   source: Aeon
-  category: philosophy
-- title: Existentialist Embroidery
-  url: "https://www.themarginalian.org/2026/05/27/existentialist-embroidery/"
-  date: 2026-05-27
-  source: The Marginalian
   category: philosophy
 - title: The embattled witnesses
   url: "https://aeon.co/essays/a-fragile-crown-jewel-the-uns-human-rights-experts"
