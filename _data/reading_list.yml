@@ -1,53 +1,58 @@
+- title: May 2026 newsletter
+  url: "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything"
+  date: 2026-06-01
+  source: Simon Willison
+  category: ai
+- title: "Music, the Neural Harmonics of Emotion, and How Love Recomposes the Brain"
+  url: "https://www.themarginalian.org/2026/05/31/general-theory-of-love-music-emotion/"
+  date: 2026-06-01
+  source: The Marginalian
+  category: philosophy
+- title: datasette 1.0a32
+  url: "https://simonwillison.net/2026/May/31/datasette/#atom-everything"
+  date: 2026-05-31
+  source: Simon Willison
+  category: ai
+- title: The solution might be cancelling my AI subscription
+  url: "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything"
+  date: 2026-05-31
+  source: Simon Willison
+  category: ai
 - title: Quoting Karen Kwok for Reuters Breakingviews
   url: "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"
   date: 2026-05-31
   source: Simon Willison
   category: ai
+- title: Chuwi Minibook X
+  url: "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/"
+  date: 2026-05-31
+  source: Hacker News Best
+  category: programming
+- title: "Codex just found a \"workaround\" of not having sudo on my PC"
+  url: "https://twitter.com/i/status/2060746160558543217"
+  date: 2026-05-31
+  source: Hacker News Best
+  category: programming
+- title: Deflock hits 100k ALPRs Mapped in USA
+  url: "https://deflock.org/"
+  date: 2026-05-31
+  source: Hacker News Best
+  category: programming
+- title: "Creatine raises brain energy levels and slows cognitive decline: study"
+  url: "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/"
+  date: 2026-05-31
+  source: Hacker News Best
+  category: programming
+- title: 1-Bit Bonsai Image 4B Image Generation for Local Devices
+  url: "https://prismml.com/news/bonsai-image-4b"
+  date: 2026-05-31
+  source: Hacker News Best
+  category: programming
 - title: How we contain Claude across products
   url: "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything"
   date: 2026-05-30
   source: Simon Willison
   category: ai
-- title: Running Python ASGI apps in the browser via Pyodide + a service worker
-  url: "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything"
-  date: 2026-05-30
-  source: Simon Willison
-  category: ai
-- title: I Am Retiring from Tech to Live Offline
-  url: "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything"
-  date: 2026-05-30
-  source: Simon Willison
-  category: ai
-- title: Quoting Daniel Jalkut
-  url: "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything"
-  date: 2026-05-30
-  source: Simon Willison
-  category: ai
-- title: Microsoft Office 2019 and 2021 for Mac view-only conversion
-  url: "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)"
-  date: 2026-05-30
-  source: Hacker News Best
-  category: programming
-- title: Domain expertise has always been the real moat
-  url: "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/"
-  date: 2026-05-30
-  source: Hacker News Best
-  category: programming
-- title: EY Canada published a cybersecurity report and most citations were hallucinated
-  url: "https://gptzero.me/investigations/ey"
-  date: 2026-05-30
-  source: Hacker News Best
-  category: programming
-- title: OpenRouter raises $113M Series B
-  url: "https://openrouter.ai/announcements/series-b"
-  date: 2026-05-30
-  source: Hacker News Best
-  category: programming
-- title: Accenture to acquire Ookla
-  url: "https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises"
-  date: 2026-05-30
-  source: Hacker News Best
-  category: programming
 - title: "How Phrenology Queered Language: Walt Whitman and the Evolving Lexicon of Love"
   url: "https://www.themarginalian.org/2026/05/30/traversal-phrenology-whitman/"
   date: 2026-05-30
@@ -70,11 +75,6 @@
   category: philosophy
 - title: "Curiosity as an Instrument of Love: Thoreau’s Touching Account of 24 Hours with a Tiny Owl"
   url: "https://www.themarginalian.org/2026/05/29/thoreau-screech-owl/"
-  date: 2026-05-29
-  source: The Marginalian
-  category: philosophy
-- title: Hermann Hesse on How to Hear the Wisdom of the Inner Voice
-  url: "https://www.themarginalian.org/2026/05/29/hermann-hesse-letter-to-a-young-german/"
   date: 2026-05-29
   source: The Marginalian
   category: philosophy
