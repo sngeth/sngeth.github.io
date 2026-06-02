@@ -1,8 +1,53 @@
+- title: Pasted File Editor
+  url: "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"
+  date: 2026-06-02
+  source: Simon Willison
+  category: ai
+- title: The Only Three Distinctions Between People
+  url: "https://www.themarginalian.org/2026/06/01/nathaniel-hawthorne-classification/"
+  date: 2026-06-02
+  source: The Marginalian
+  category: philosophy
+- title: Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked
+  url: "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything"
+  date: 2026-06-01
+  source: Simon Willison
+  category: ai
 - title: May 2026 newsletter
   url: "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything"
   date: 2026-06-01
   source: Simon Willison
   category: ai
+- title: "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?"
+  url: "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai"
+  date: 2026-06-01
+  source: Hacker News Best
+  category: programming
+- title: OpenAI frontier models and Codex are now available on AWS
+  url: "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
+  date: 2026-06-01
+  source: Hacker News Best
+  category: programming
+- title: "Should you normalize RGB values by 255 or 256?"
+  url: "https://30fps.net/pages/255-vs-256-division/"
+  date: 2026-06-01
+  source: Hacker News Best
+  category: programming
+- title: AI Agent Guidelines for CS336 at Stanford
+  url: "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md"
+  date: 2026-06-01
+  source: Hacker News Best
+  category: programming
+- title: "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms"
+  url: "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"
+  date: 2026-06-01
+  source: Hacker News Best
+  category: programming
+- title: "Against Self-Criticism: Adam Phillips on How Our Internal Critics Enslave Us, the Stockholm Syndrome of the Superego, and the Power of Multiple Interpretations"
+  url: "https://www.themarginalian.org/2026/06/01/against-self-criticism-adam-phillips-unforbidden-pleasures/"
+  date: 2026-06-01
+  source: The Marginalian
+  category: philosophy
 - title: "Music, the Neural Harmonics of Emotion, and How Love Recomposes the Brain"
   url: "https://www.themarginalian.org/2026/05/31/general-theory-of-love-music-emotion/"
   date: 2026-06-01
@@ -16,41 +61,6 @@
 - title: The solution might be cancelling my AI subscription
   url: "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything"
   date: 2026-05-31
-  source: Simon Willison
-  category: ai
-- title: Quoting Karen Kwok for Reuters Breakingviews
-  url: "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"
-  date: 2026-05-31
-  source: Simon Willison
-  category: ai
-- title: Chuwi Minibook X
-  url: "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/"
-  date: 2026-05-31
-  source: Hacker News Best
-  category: programming
-- title: "Codex just found a \"workaround\" of not having sudo on my PC"
-  url: "https://twitter.com/i/status/2060746160558543217"
-  date: 2026-05-31
-  source: Hacker News Best
-  category: programming
-- title: Deflock hits 100k ALPRs Mapped in USA
-  url: "https://deflock.org/"
-  date: 2026-05-31
-  source: Hacker News Best
-  category: programming
-- title: "Creatine raises brain energy levels and slows cognitive decline: study"
-  url: "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/"
-  date: 2026-05-31
-  source: Hacker News Best
-  category: programming
-- title: 1-Bit Bonsai Image 4B Image Generation for Local Devices
-  url: "https://prismml.com/news/bonsai-image-4b"
-  date: 2026-05-31
-  source: Hacker News Best
-  category: programming
-- title: How we contain Claude across products
-  url: "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything"
-  date: 2026-05-30
   source: Simon Willison
   category: ai
 - title: "How Phrenology Queered Language: Walt Whitman and the Evolving Lexicon of Love"
@@ -67,16 +77,6 @@
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
   source: Aeon
-  category: philosophy
-- title: "The Donkey and the Meaning of Eternity: Nobel-Winning Spanish Poet Juan Ramón Jiménez’s Love Letter to Life"
-  url: "https://www.themarginalian.org/2026/05/29/platero-and-i/"
-  date: 2026-05-29
-  source: The Marginalian
-  category: philosophy
-- title: "Curiosity as an Instrument of Love: Thoreau’s Touching Account of 24 Hours with a Tiny Owl"
-  url: "https://www.themarginalian.org/2026/05/29/thoreau-screech-owl/"
-  date: 2026-05-29
-  source: The Marginalian
   category: philosophy
 - title: Life recombined
   url: "https://aeon.co/videos/the-first-scientists-to-splice-dna-faced-a-daunting-question-should-we"
@@ -128,11 +128,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Debugging WASM in Chrome DevTools
   url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
   date: 2026-04-22
@@ -158,26 +153,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
-- title: "Can a little alcohol be healthy for lifters?"
-  url: "https://www.strongerbyscience.com/alcohol-lifters/"
-  date: 2025-12-10
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
