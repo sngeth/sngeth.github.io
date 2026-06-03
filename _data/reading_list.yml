@@ -1,76 +1,76 @@
+- title: The Three Elements of the Good Life
+  url: "https://www.themarginalian.org/2026/06/03/carl-rogers-good-life/"
+  date: 2026-06-03
+  source: The Marginalian
+  category: philosophy
+- title: "An Introvert’s Field Guide to Friendship: Thoreau on the Challenges and Rewards of Candid Connection"
+  url: "https://www.themarginalian.org/2026/06/02/thoreau-friendship/"
+  date: 2026-06-03
+  source: The Marginalian
+  category: philosophy
+- title: "Microsoft's new MAI models"
+  url: "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything"
+  date: 2026-06-02
+  source: Simon Willison
+  category: ai
+- title: datasette-agent-micropython 0.1a0
+  url: "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything"
+  date: 2026-06-02
+  source: Simon Willison
+  category: ai
+- title: micropython-wasm 0.1a1
+  url: "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"
+  date: 2026-06-02
+  source: Simon Willison
+  category: ai
+- title: California Brown Pelican
+  url: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
+  date: 2026-06-02
+  source: Simon Willison
+  category: ai
 - title: Pasted File Editor
   url: "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"
   date: 2026-06-02
   source: Simon Willison
   category: ai
+- title: CT scans of BYD car parts
+  url: "https://www.lumafield.com/scan-of-the-month/byd"
+  date: 2026-06-02
+  source: Hacker News Best
+  category: programming
+- title: "Gmail thinks I'm stupid, so I left"
+  url: "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left"
+  date: 2026-06-02
+  source: Hacker News Best
+  category: programming
+- title: MAI-Code-1-Flash
+  url: "https://microsoft.ai/news/introducingmai-code-1-flash/"
+  date: 2026-06-02
+  source: Hacker News Best
+  category: programming
+- title: "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\""
+  url: "https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy"
+  date: 2026-06-02
+  source: Hacker News Best
+  category: programming
+- title: 1-Click GitHub Token Stealing via a VSCode Bug
+  url: "https://blog.ammaraskar.com/github-token-stealing/"
+  date: 2026-06-02
+  source: Hacker News Best
+  category: programming
+- title: "Václav Havel, Writing from Prison, on How to Hold Your Failure"
+  url: "https://www.themarginalian.org/2026/06/02/havel-failure/"
+  date: 2026-06-02
+  source: The Marginalian
+  category: philosophy
 - title: The Only Three Distinctions Between People
   url: "https://www.themarginalian.org/2026/06/01/nathaniel-hawthorne-classification/"
   date: 2026-06-02
   source: The Marginalian
   category: philosophy
-- title: Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked
-  url: "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything"
-  date: 2026-06-01
-  source: Simon Willison
-  category: ai
-- title: May 2026 newsletter
-  url: "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything"
-  date: 2026-06-01
-  source: Simon Willison
-  category: ai
-- title: "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?"
-  url: "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai"
-  date: 2026-06-01
-  source: Hacker News Best
-  category: programming
-- title: OpenAI frontier models and Codex are now available on AWS
-  url: "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/"
-  date: 2026-06-01
-  source: Hacker News Best
-  category: programming
-- title: "Should you normalize RGB values by 255 or 256?"
-  url: "https://30fps.net/pages/255-vs-256-division/"
-  date: 2026-06-01
-  source: Hacker News Best
-  category: programming
-- title: AI Agent Guidelines for CS336 at Stanford
-  url: "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md"
-  date: 2026-06-01
-  source: Hacker News Best
-  category: programming
-- title: "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms"
-  url: "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/"
-  date: 2026-06-01
-  source: Hacker News Best
-  category: programming
 - title: "Against Self-Criticism: Adam Phillips on How Our Internal Critics Enslave Us, the Stockholm Syndrome of the Superego, and the Power of Multiple Interpretations"
   url: "https://www.themarginalian.org/2026/06/01/against-self-criticism-adam-phillips-unforbidden-pleasures/"
   date: 2026-06-01
-  source: The Marginalian
-  category: philosophy
-- title: "Music, the Neural Harmonics of Emotion, and How Love Recomposes the Brain"
-  url: "https://www.themarginalian.org/2026/05/31/general-theory-of-love-music-emotion/"
-  date: 2026-06-01
-  source: The Marginalian
-  category: philosophy
-- title: datasette 1.0a32
-  url: "https://simonwillison.net/2026/May/31/datasette/#atom-everything"
-  date: 2026-05-31
-  source: Simon Willison
-  category: ai
-- title: The solution might be cancelling my AI subscription
-  url: "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything"
-  date: 2026-05-31
-  source: Simon Willison
-  category: ai
-- title: "How Phrenology Queered Language: Walt Whitman and the Evolving Lexicon of Love"
-  url: "https://www.themarginalian.org/2026/05/30/traversal-phrenology-whitman/"
-  date: 2026-05-30
-  source: The Marginalian
-  category: philosophy
-- title: Artist Louise Bourgeois on How Solitude Enriches Creative Work
-  url: "https://www.themarginalian.org/2026/05/30/louise-bourgeois-solitude/"
-  date: 2026-05-30
   source: The Marginalian
   category: philosophy
 - title: Artist of sympathy and cruelty
