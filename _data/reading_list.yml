@@ -1,3 +1,43 @@
+- title: U.S. to dismantle system tracking Atlantic currents that are at risk of collapse
+  url: "https://e360.yale.edu/digest/trump-ooi-amoc"
+  date: 2026-06-04
+  source: Hacker News Best
+  category: programming
+- title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
+  url: "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance/"
+  date: 2026-06-04
+  source: The Marginalian
+  category: philosophy
+- title: Uber Caps Usage of AI Tools Like Claude Code to Manage Costs
+  url: "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything"
+  date: 2026-06-03
+  source: Simon Willison
+  category: ai
+- title: "\"They're made out of weights\""
+  url: "https://maxleiter.com/blog/weights"
+  date: 2026-06-03
+  source: Hacker News Best
+  category: programming
+- title: "Elixir v1.20: Now a gradually typed language"
+  url: "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/"
+  date: 2026-06-03
+  source: Hacker News Best
+  category: programming
+- title: Artificial intelligence is not conscious – Ted Chiang
+  url: "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/"
+  date: 2026-06-03
+  source: Hacker News Best
+  category: programming
+- title: MacBook Neo is so popular that Apple doubled production
+  url: "https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/"
+  date: 2026-06-03
+  source: Hacker News Best
+  category: programming
+- title: "Einstein and the Eagle: How Relativity Is Saving Earth’s Rarest Raptor"
+  url: "https://www.themarginalian.org/2026/06/03/harpy-eagle-gps/"
+  date: 2026-06-03
+  source: The Marginalian
+  category: philosophy
 - title: The Three Elements of the Good Life
   url: "https://www.themarginalian.org/2026/06/03/carl-rogers-good-life/"
   date: 2026-06-03
@@ -28,49 +68,9 @@
   date: 2026-06-02
   source: Simon Willison
   category: ai
-- title: Pasted File Editor
-  url: "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything"
-  date: 2026-06-02
-  source: Simon Willison
-  category: ai
-- title: CT scans of BYD car parts
-  url: "https://www.lumafield.com/scan-of-the-month/byd"
-  date: 2026-06-02
-  source: Hacker News Best
-  category: programming
-- title: "Gmail thinks I'm stupid, so I left"
-  url: "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left"
-  date: 2026-06-02
-  source: Hacker News Best
-  category: programming
-- title: MAI-Code-1-Flash
-  url: "https://microsoft.ai/news/introducingmai-code-1-flash/"
-  date: 2026-06-02
-  source: Hacker News Best
-  category: programming
-- title: "Larry Ellison: \"Citizens will be on their best behavior because we’re recording\""
-  url: "https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy"
-  date: 2026-06-02
-  source: Hacker News Best
-  category: programming
-- title: 1-Click GitHub Token Stealing via a VSCode Bug
-  url: "https://blog.ammaraskar.com/github-token-stealing/"
-  date: 2026-06-02
-  source: Hacker News Best
-  category: programming
 - title: "Václav Havel, Writing from Prison, on How to Hold Your Failure"
   url: "https://www.themarginalian.org/2026/06/02/havel-failure/"
   date: 2026-06-02
-  source: The Marginalian
-  category: philosophy
-- title: The Only Three Distinctions Between People
-  url: "https://www.themarginalian.org/2026/06/01/nathaniel-hawthorne-classification/"
-  date: 2026-06-02
-  source: The Marginalian
-  category: philosophy
-- title: "Against Self-Criticism: Adam Phillips on How Our Internal Critics Enslave Us, the Stockholm Syndrome of the Superego, and the Power of Multiple Interpretations"
-  url: "https://www.themarginalian.org/2026/06/01/against-self-criticism-adam-phillips-unforbidden-pleasures/"
-  date: 2026-06-01
   source: The Marginalian
   category: philosophy
 - title: Artist of sympathy and cruelty
@@ -128,6 +128,11 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Debugging WASM in Chrome DevTools
   url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
   date: 2026-04-22
@@ -153,6 +158,26 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
+- title: "Can a little alcohol be healthy for lifters?"
+  url: "https://www.strongerbyscience.com/alcohol-lifters/"
+  date: 2025-12-10
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
