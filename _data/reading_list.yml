@@ -1,8 +1,18 @@
-- title: U.S. to dismantle system tracking Atlantic currents that are at risk of collapse
-  url: "https://e360.yale.edu/digest/trump-ooi-amoc"
+- title: "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy"
+  url: "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything"
   date: 2026-06-04
-  source: Hacker News Best
-  category: programming
+  source: Simon Willison
+  category: ai
+- title: "Quoting Emanuel Maiberg, 404 Media"
+  url: "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything"
+  date: 2026-06-04
+  source: Simon Willison
+  category: ai
+- title: Very Necessary Qualifications of a Great Storyteller
+  url: "https://www.themarginalian.org/2026/06/04/storyteller-poet-qualities/"
+  date: 2026-06-04
+  source: The Marginalian
+  category: philosophy
 - title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
   url: "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance/"
   date: 2026-06-04
@@ -13,26 +23,6 @@
   date: 2026-06-03
   source: Simon Willison
   category: ai
-- title: "\"They're made out of weights\""
-  url: "https://maxleiter.com/blog/weights"
-  date: 2026-06-03
-  source: Hacker News Best
-  category: programming
-- title: "Elixir v1.20: Now a gradually typed language"
-  url: "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/"
-  date: 2026-06-03
-  source: Hacker News Best
-  category: programming
-- title: Artificial intelligence is not conscious – Ted Chiang
-  url: "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/"
-  date: 2026-06-03
-  source: Hacker News Best
-  category: programming
-- title: MacBook Neo is so popular that Apple doubled production
-  url: "https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/"
-  date: 2026-06-03
-  source: Hacker News Best
-  category: programming
 - title: "Einstein and the Eagle: How Relativity Is Saving Earth’s Rarest Raptor"
   url: "https://www.themarginalian.org/2026/06/03/harpy-eagle-gps/"
   date: 2026-06-03
@@ -58,21 +48,6 @@
   date: 2026-06-02
   source: Simon Willison
   category: ai
-- title: micropython-wasm 0.1a1
-  url: "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"
-  date: 2026-06-02
-  source: Simon Willison
-  category: ai
-- title: California Brown Pelican
-  url: "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"
-  date: 2026-06-02
-  source: Simon Willison
-  category: ai
-- title: "Václav Havel, Writing from Prison, on How to Hold Your Failure"
-  url: "https://www.themarginalian.org/2026/06/02/havel-failure/"
-  date: 2026-06-02
-  source: The Marginalian
-  category: philosophy
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
