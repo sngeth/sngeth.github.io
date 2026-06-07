@@ -1,3 +1,8 @@
+- title: Ursula K. Le Guin on the Meaning of Life
+  url: "https://www.themarginalian.org/2026/06/06/le-guin-life/"
+  date: 2026-06-07
+  source: The Marginalian
+  category: philosophy
 - title: micropython-wasm 0.1a2
   url: "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything"
   date: 2026-06-06
@@ -8,6 +13,41 @@
   date: 2026-06-06
   source: Simon Willison
   category: ai
+- title: Thoughts on starting new projects with LLM agents
+  url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
+  date: 2026-06-06
+  source: Eli Bendersky
+  category: programming
+- title: New U.S. college grads now have higher unemployment than the average worker
+  url: "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/"
+  date: 2026-06-06
+  source: Hacker News Best
+  category: programming
+- title: Ntsc-rs – open-source video emulation of analog TV and VHS artifacts
+  url: "https://ntsc.rs/"
+  date: 2026-06-06
+  source: Hacker News Best
+  category: programming
+- title: Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
+  url: "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/"
+  date: 2026-06-06
+  source: Hacker News Best
+  category: programming
+- title: "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say"
+  url: "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565"
+  date: 2026-06-06
+  source: Hacker News Best
+  category: programming
+- title: "Zeroserve: A zero-config web server you can script with eBPF"
+  url: "https://su3.io/posts/introducing-zeroserve"
+  date: 2026-06-06
+  source: Hacker News Best
+  category: programming
+- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
+  url: "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories/"
+  date: 2026-06-06
+  source: The Marginalian
+  category: philosophy
 - title: How Nature Imagined the Figment of You
   url: "https://www.themarginalian.org/2026/06/05/alan-lightman-probability/"
   date: 2026-06-06
@@ -23,31 +63,6 @@
   date: 2026-06-05
   source: Simon Willison
   category: ai
-- title: Three of our worst VC stories
-  url: "https://twitter.com/eastdakota/status/2062860530360959273"
-  date: 2026-06-05
-  source: Hacker News Best
-  category: programming
-- title: Gov.uk has replaced Stripe with Dutch provider Adyen
-  url: "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763"
-  date: 2026-06-05
-  source: Hacker News Best
-  category: programming
-- title: "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency"
-  url: "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/"
-  date: 2026-06-05
-  source: Hacker News Best
-  category: programming
-- title: "pg_durable: Microsoft open sources in-database durable execution"
-  url: "https://github.com/microsoft/pg_durable"
-  date: 2026-06-05
-  source: Hacker News Best
-  category: programming
-- title: Conventional Commits encourages focus on the wrong things
-  url: "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/"
-  date: 2026-06-05
-  source: Hacker News Best
-  category: programming
 - title: "How to Keep Life from Becoming a Parody of Itself: Simone de Beauvoir on the Art of Growing Older"
   url: "https://www.themarginalian.org/2026/06/05/simone-de-beauvoir-coming-of-age/"
   date: 2026-06-05
@@ -63,16 +78,6 @@
   date: 2026-06-04
   source: Simon Willison
   category: ai
-- title: Very Necessary Qualifications of a Great Storyteller
-  url: "https://www.themarginalian.org/2026/06/04/storyteller-poet-qualities/"
-  date: 2026-06-04
-  source: The Marginalian
-  category: philosophy
-- title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
-  url: "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance/"
-  date: 2026-06-04
-  source: The Marginalian
-  category: philosophy
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
@@ -128,19 +133,9 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Debugging WASM in Chrome DevTools
   url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
   date: 2026-04-22
-  source: Eli Bendersky
-  category: programming
-- title: watgo - a WebAssembly Toolkit for Go
-  url: "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/"
-  date: 2026-04-09
   source: Eli Bendersky
   category: programming
 - title: Examples for the tcpdump and dig man pages
@@ -158,26 +153,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
-- title: "Can a little alcohol be healthy for lifters?"
-  url: "https://www.strongerbyscience.com/alcohol-lifters/"
-  date: 2025-12-10
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
