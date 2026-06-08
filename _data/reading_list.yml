@@ -1,3 +1,33 @@
+- title: DeepSeek V4 Pro beats GPT-5.5 Pro on precision
+  url: "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision"
+  date: 2026-06-08
+  source: Hacker News Best
+  category: programming
+- title: APC–2 – A professional record cutter for producing original playback discs
+  url: "https://teenage.engineering/products/apc-2"
+  date: 2026-06-08
+  source: Hacker News Best
+  category: programming
+- title: datasette-agent-edit 0.1a0
+  url: "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything"
+  date: 2026-06-07
+  source: Simon Willison
+  category: ai
+- title: "How's Linear so fast? A technical breakdown"
+  url: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
+  date: 2026-06-07
+  source: Hacker News Best
+  category: programming
+- title: "Building from zero after addiction, prison, and a felony"
+  url: "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony"
+  date: 2026-06-07
+  source: Hacker News Best
+  category: programming
+- title: Making peace with your unlived dreams (2023)
+  url: "https://nik.art/making-peace-with-your-unlived-dreams/"
+  date: 2026-06-07
+  source: Hacker News Best
+  category: programming
 - title: Ursula K. Le Guin on the Meaning of Life
   url: "https://www.themarginalian.org/2026/06/06/le-guin-life/"
   date: 2026-06-07
@@ -17,31 +47,6 @@
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
   source: Eli Bendersky
-  category: programming
-- title: New U.S. college grads now have higher unemployment than the average worker
-  url: "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/"
-  date: 2026-06-06
-  source: Hacker News Best
-  category: programming
-- title: Ntsc-rs – open-source video emulation of analog TV and VHS artifacts
-  url: "https://ntsc.rs/"
-  date: 2026-06-06
-  source: Hacker News Best
-  category: programming
-- title: Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
-  url: "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/"
-  date: 2026-06-06
-  source: Hacker News Best
-  category: programming
-- title: "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say"
-  url: "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565"
-  date: 2026-06-06
-  source: Hacker News Best
-  category: programming
-- title: "Zeroserve: A zero-config web server you can script with eBPF"
-  url: "https://su3.io/posts/introducing-zeroserve"
-  date: 2026-06-06
-  source: Hacker News Best
   category: programming
 - title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
   url: "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories/"
@@ -73,11 +78,6 @@
   date: 2026-06-05
   source: The Marginalian
   category: philosophy
-- title: "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy"
-  url: "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything"
-  date: 2026-06-04
-  source: Simon Willison
-  category: ai
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
@@ -133,6 +133,11 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Debugging WASM in Chrome DevTools
   url: "https://eli.thegreenplace.net/2026/debugging-wasm-in-chrome-devtools/"
   date: 2026-04-22
@@ -153,6 +158,26 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
+- title: "Can a little alcohol be healthy for lifters?"
+  url: "https://www.strongerbyscience.com/alcohol-lifters/"
+  date: 2025-12-10
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
