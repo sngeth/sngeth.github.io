@@ -1,33 +1,48 @@
-- title: DeepSeek V4 Pro beats GPT-5.5 Pro on precision
-  url: "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision"
+- title: Siri AI at WWDC 2026
+  url: "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything"
+  date: 2026-06-08
+  source: Simon Willison
+  category: ai
+- title: Confidential submission of draft S-1 to the SEC
+  url: "https://openai.com/index/openai-submits-confidential-s-1/"
   date: 2026-06-08
   source: Hacker News Best
   category: programming
-- title: APC–2 – A professional record cutter for producing original playback discs
-  url: "https://teenage.engineering/products/apc-2"
+- title: "Surveillance is not safety: A statement on the UK's latest threat to privacy [pdf]"
+  url: "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf"
   date: 2026-06-08
   source: Hacker News Best
   category: programming
+- title: Apple reveals new AI architecture built around Google Gemini models
+  url: "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/"
+  date: 2026-06-08
+  source: Hacker News Best
+  category: programming
+- title: Switzerland wil have a referendum to cap population at 10M
+  url: "https://www.admin.ch/en/sustainability-initiative"
+  date: 2026-06-08
+  source: Hacker News Best
+  category: programming
+- title: Apple Core AI Framework
+  url: "https://developer.apple.com/documentation/coreai/"
+  date: 2026-06-08
+  source: Hacker News Best
+  category: programming
+- title: The steam engine
+  url: "https://aeon.co/videos/how-an-ancient-curiosity-evolved-to-power-the-modern-world"
+  date: 2026-06-08
+  source: Aeon
+  category: philosophy
+- title: "What shape is the Earth?"
+  url: "https://aeon.co/essays/why-did-measuring-earths-true-shape-matter-for-science"
+  date: 2026-06-08
+  source: Aeon
+  category: philosophy
 - title: datasette-agent-edit 0.1a0
   url: "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything"
   date: 2026-06-07
   source: Simon Willison
   category: ai
-- title: "How's Linear so fast? A technical breakdown"
-  url: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
-  date: 2026-06-07
-  source: Hacker News Best
-  category: programming
-- title: "Building from zero after addiction, prison, and a felony"
-  url: "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony"
-  date: 2026-06-07
-  source: Hacker News Best
-  category: programming
-- title: Making peace with your unlived dreams (2023)
-  url: "https://nik.art/making-peace-with-your-unlived-dreams/"
-  date: 2026-06-07
-  source: Hacker News Best
-  category: programming
 - title: Ursula K. Le Guin on the Meaning of Life
   url: "https://www.themarginalian.org/2026/06/06/le-guin-life/"
   date: 2026-06-07
@@ -63,11 +78,6 @@
   date: 2026-06-05
   source: Simon Willison
   category: ai
-- title: Quoting Andreas Kling
-  url: "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything"
-  date: 2026-06-05
-  source: Simon Willison
-  category: ai
 - title: "How to Keep Life from Becoming a Parody of Itself: Simone de Beauvoir on the Art of Growing Older"
   url: "https://www.themarginalian.org/2026/06/05/simone-de-beauvoir-coming-of-age/"
   date: 2026-06-05
@@ -98,16 +108,6 @@
   date: 2026-05-27
   source: Eli Bendersky
   category: programming
-- title: The meatseller
-  url: "https://aeon.co/videos/brutal-beautiful-animation-traces-an-african-teens-journey-to-italy"
-  date: 2026-05-27
-  source: Aeon
-  category: philosophy
-- title: The embattled witnesses
-  url: "https://aeon.co/essays/a-fragile-crown-jewel-the-uns-human-rights-experts"
-  date: 2026-05-26
-  source: Aeon
-  category: philosophy
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
