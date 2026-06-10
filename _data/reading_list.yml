@@ -1,33 +1,63 @@
-- title: Siri AI at WWDC 2026
-  url: "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything"
-  date: 2026-06-08
+- title: "If Claude Fable stops helping you, you'll never know"
+  url: "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything"
+  date: 2026-06-10
   source: Simon Willison
   category: ai
-- title: Confidential submission of draft S-1 to the SEC
-  url: "https://openai.com/index/openai-submits-confidential-s-1/"
-  date: 2026-06-08
+- title: German ruling declares Google liable for false answers in AI Overviews
+  url: "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+  date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: "Surveillance is not safety: A statement on the UK's latest threat to privacy [pdf]"
-  url: "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf"
-  date: 2026-06-08
+- title: macOS Container Machines
+  url: "https://github.com/apple/container/blob/main/docs/container-machine.md"
+  date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: Apple reveals new AI architecture built around Google Gemini models
-  url: "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/"
-  date: 2026-06-08
+- title: Initial impressions of Claude Fable 5
+  url: "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything"
+  date: 2026-06-09
+  source: Simon Willison
+  category: ai
+- title: llm 0.32a3
+  url: "https://simonwillison.net/2026/Jun/9/llm/#atom-everything"
+  date: 2026-06-09
+  source: Simon Willison
+  category: ai
+- title: Setting a custom price for a model in AgentsView
+  url: "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything"
+  date: 2026-06-09
+  source: Simon Willison
+  category: ai
+- title: Quoting Andrej Karpathy
+  url: "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything"
+  date: 2026-06-09
+  source: Simon Willison
+  category: ai
+- title: "If Claude Fable stops helping you, you'll never know"
+  url: "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html"
+  date: 2026-06-09
   source: Hacker News Best
   category: programming
-- title: Switzerland wil have a referendum to cap population at 10M
-  url: "https://www.admin.ch/en/sustainability-initiative"
-  date: 2026-06-08
+- title: CEOs who think AI replaces their employees are just bad CEOs
+  url: "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/"
+  date: 2026-06-09
   source: Hacker News Best
   category: programming
-- title: Apple Core AI Framework
-  url: "https://developer.apple.com/documentation/coreai/"
-  date: 2026-06-08
+- title: Claude Fable 5
+  url: "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+  date: 2026-06-09
   source: Hacker News Best
   category: programming
+- title: The joy of autism
+  url: "https://aeon.co/essays/why-being-autistic-can-be-a-lot-of-fun"
+  date: 2026-06-09
+  source: Aeon
+  category: philosophy
+- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
+  url: "https://www.themarginalian.org/2026/06/09/henry-james-the-beast-in-the-jungle/"
+  date: 2026-06-09
+  source: The Marginalian
+  category: philosophy
 - title: The steam engine
   url: "https://aeon.co/videos/how-an-ancient-curiosity-evolved-to-power-the-modern-world"
   date: 2026-06-08
@@ -38,26 +68,21 @@
   date: 2026-06-08
   source: Aeon
   category: philosophy
-- title: datasette-agent-edit 0.1a0
-  url: "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything"
-  date: 2026-06-07
-  source: Simon Willison
-  category: ai
+- title: Robert Louis Stevenson on Falling in Love and Loving Beyond the Fall
+  url: "https://www.themarginalian.org/2026/06/08/robert-louis-stevenson-love/"
+  date: 2026-06-08
+  source: The Marginalian
+  category: philosophy
+- title: "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words for What We Feel but Cannot Name"
+  url: "https://www.themarginalian.org/2026/06/08/dictionary-of-obscure-sorrows/"
+  date: 2026-06-08
+  source: The Marginalian
+  category: philosophy
 - title: Ursula K. Le Guin on the Meaning of Life
   url: "https://www.themarginalian.org/2026/06/06/le-guin-life/"
   date: 2026-06-07
   source: The Marginalian
   category: philosophy
-- title: micropython-wasm 0.1a2
-  url: "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything"
-  date: 2026-06-06
-  source: Simon Willison
-  category: ai
-- title: Running Python code in a sandbox with MicroPython and WASM
-  url: "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything"
-  date: 2026-06-06
-  source: Simon Willison
-  category: ai
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -68,26 +93,6 @@
   date: 2026-06-06
   source: The Marginalian
   category: philosophy
-- title: How Nature Imagined the Figment of You
-  url: "https://www.themarginalian.org/2026/06/05/alan-lightman-probability/"
-  date: 2026-06-06
-  source: The Marginalian
-  category: philosophy
-- title: "OpenAI Help: Lockdown Mode"
-  url: "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything"
-  date: 2026-06-05
-  source: Simon Willison
-  category: ai
-- title: "How to Keep Life from Becoming a Parody of Itself: Simone de Beauvoir on the Art of Growing Older"
-  url: "https://www.themarginalian.org/2026/06/05/simone-de-beauvoir-coming-of-age/"
-  date: 2026-06-05
-  source: The Marginalian
-  category: philosophy
-- title: "A Shelter in Time: John Berger on the Power of Music"
-  url: "https://www.themarginalian.org/2026/06/05/john-berger-some-notes-on-song/"
-  date: 2026-06-05
-  source: The Marginalian
-  category: philosophy
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
@@ -95,11 +100,6 @@
   category: philosophy
 - title: Life recombined
   url: "https://aeon.co/videos/the-first-scientists-to-splice-dna-faced-a-daunting-question-should-we"
-  date: 2026-05-28
-  source: Aeon
-  category: philosophy
-- title: Flickering Enlightenment
-  url: "https://aeon.co/essays/lets-save-the-enlightenment-baby-from-its-muddied-bathwater"
   date: 2026-05-28
   source: Aeon
   category: philosophy
