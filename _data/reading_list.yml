@@ -1,53 +1,58 @@
+- title: Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude
+  url: "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"
+  date: 2026-06-11
+  source: Simon Willison
+  category: ai
+- title: AI agent runs amok in Fedora and elsewhere
+  url: "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"
+  date: 2026-06-11
+  source: Hacker News Best
+  category: programming
+- title: datasette-agent 0.2a0
+  url: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
+  date: 2026-06-10
+  source: Simon Willison
+  category: ai
+- title: DiffusionGemma
+  url: "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything"
+  date: 2026-06-10
+  source: Simon Willison
+  category: ai
+- title: Quoting Jeremy Howard
+  url: "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything"
+  date: 2026-06-10
+  source: Simon Willison
+  category: ai
 - title: "If Claude Fable stops helping you, you'll never know"
   url: "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything"
   date: 2026-06-10
   source: Simon Willison
   category: ai
-- title: German ruling declares Google liable for false answers in AI Overviews
-  url: "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+- title: "Farmer donates land for a park, city sells it for $10M as data center land"
+  url: "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade"
   date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: macOS Container Machines
-  url: "https://github.com/apple/container/blob/main/docs/container-machine.md"
+- title: πFS
+  url: "https://github.com/philipl/pifs"
   date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: Initial impressions of Claude Fable 5
-  url: "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything"
-  date: 2026-06-09
-  source: Simon Willison
-  category: ai
-- title: llm 0.32a3
-  url: "https://simonwillison.net/2026/Jun/9/llm/#atom-everything"
-  date: 2026-06-09
-  source: Simon Willison
-  category: ai
-- title: Setting a custom price for a model in AgentsView
-  url: "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything"
-  date: 2026-06-09
-  source: Simon Willison
-  category: ai
-- title: Quoting Andrej Karpathy
-  url: "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything"
-  date: 2026-06-09
-  source: Simon Willison
-  category: ai
-- title: "If Claude Fable stops helping you, you'll never know"
-  url: "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html"
-  date: 2026-06-09
+- title: "Anthropic's model naming, extrapolated"
+  url: "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated"
+  date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: CEOs who think AI replaces their employees are just bad CEOs
-  url: "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/"
-  date: 2026-06-09
+- title: "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use"
+  url: "https://github.com/anthropics/claude-code/issues/29045"
+  date: 2026-06-10
   source: Hacker News Best
   category: programming
-- title: Claude Fable 5
-  url: "https://www.anthropic.com/news/claude-fable-5-mythos-5"
-  date: 2026-06-09
-  source: Hacker News Best
-  category: programming
+- title: Bay of smokes
+  url: "https://aeon.co/videos/one-day-in-1943-smog-descended-on-los-angeles-it-never-really-left"
+  date: 2026-06-10
+  source: Aeon
+  category: philosophy
 - title: The joy of autism
   url: "https://aeon.co/essays/why-being-autistic-can-be-a-lot-of-fun"
   date: 2026-06-09
@@ -96,11 +101,6 @@
 - title: Artist of sympathy and cruelty
   url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
   date: 2026-05-29
-  source: Aeon
-  category: philosophy
-- title: Life recombined
-  url: "https://aeon.co/videos/the-first-scientists-to-splice-dna-faced-a-daunting-question-should-we"
-  date: 2026-05-28
   source: Aeon
   category: philosophy
 - title: Notes on Fourier series
