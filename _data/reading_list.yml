@@ -1,53 +1,88 @@
+- title: Claude Fable is relentlessly proactive
+  url: "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/"
+  date: 2026-06-12
+  source: Hacker News Best
+  category: programming
+- title: "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]"
+  url: "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf"
+  date: 2026-06-12
+  source: Hacker News Best
+  category: programming
+- title: Claude Fable is relentlessly proactive
+  url: "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything"
+  date: 2026-06-11
+  source: Simon Willison
+  category: ai
+- title: datasette 1.0a33
+  url: "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything"
+  date: 2026-06-11
+  source: Simon Willison
+  category: ai
+- title: asyncinject 0.7
+  url: "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything"
+  date: 2026-06-11
+  source: Simon Willison
+  category: ai
 - title: Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude
   url: "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"
   date: 2026-06-11
   source: Simon Willison
   category: ai
-- title: AI agent runs amok in Fedora and elsewhere
-  url: "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"
+- title: "If you are asking for human attention, demonstrate human effort"
+  url: "https://tombedor.dev/human-attention-and-human-effort/"
   date: 2026-06-11
   source: Hacker News Best
   category: programming
+- title: "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public"
+  url: "https://fablepool.com"
+  date: 2026-06-11
+  source: Hacker News Best
+  category: programming
+- title: "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass"
+  url: "https://www.mayrhofer.eu.org/post/leaving-google/"
+  date: 2026-06-11
+  source: Hacker News Best
+  category: programming
+- title: Don’t touch the art
+  url: "https://aeon.co/videos/when-artworks-dare-audiences-to-break-a-cardinal-museum-rule"
+  date: 2026-06-11
+  source: Aeon
+  category: philosophy
+- title: The no-human future
+  url: "https://aeon.co/essays/what-is-nick-lands-philosophy-of-accelerationism-really"
+  date: 2026-06-11
+  source: Aeon
+  category: philosophy
+- title: "How to See a Bird: Robert Macfarlane and Jackie Morris’s Exquisite Illustrated Field Guide to the Wonder of the Winged"
+  url: "https://www.themarginalian.org/2026/06/11/book-of-birds-macfarlane-morris/"
+  date: 2026-06-11
+  source: The Marginalian
+  category: philosophy
+- title: "Poet and Philosopher David Whyte on Anger, Forgiveness, and What Maturity Really Means"
+  url: "https://www.themarginalian.org/2026/06/11/david-whyte-consolations-anger-forgiveness-maturity/"
+  date: 2026-06-11
+  source: The Marginalian
+  category: philosophy
+- title: "How to Survive Hopelessness: The Remarkable Story of a Shipwrecked Family"
+  url: "https://www.themarginalian.org/2026/06/10/sea-survival-dougal-robertson/"
+  date: 2026-06-11
+  source: The Marginalian
+  category: philosophy
+- title: James Baldwin on How to Live Through Your Darkest Hour and Life as a Moral Obligation to the Universe
+  url: "https://www.themarginalian.org/2026/06/10/james-baldwin-nothing-personal-4-am/"
+  date: 2026-06-11
+  source: The Marginalian
+  category: philosophy
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: datasette-agent 0.2a0
   url: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
   date: 2026-06-10
   source: Simon Willison
   category: ai
-- title: DiffusionGemma
-  url: "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything"
-  date: 2026-06-10
-  source: Simon Willison
-  category: ai
-- title: Quoting Jeremy Howard
-  url: "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything"
-  date: 2026-06-10
-  source: Simon Willison
-  category: ai
-- title: "If Claude Fable stops helping you, you'll never know"
-  url: "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything"
-  date: 2026-06-10
-  source: Simon Willison
-  category: ai
-- title: "Farmer donates land for a park, city sells it for $10M as data center land"
-  url: "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade"
-  date: 2026-06-10
-  source: Hacker News Best
-  category: programming
-- title: πFS
-  url: "https://github.com/philipl/pifs"
-  date: 2026-06-10
-  source: Hacker News Best
-  category: programming
-- title: "Anthropic's model naming, extrapolated"
-  url: "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated"
-  date: 2026-06-10
-  source: Hacker News Best
-  category: programming
-- title: "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use"
-  url: "https://github.com/anthropics/claude-code/issues/29045"
-  date: 2026-06-10
-  source: Hacker News Best
-  category: programming
 - title: Bay of smokes
   url: "https://aeon.co/videos/one-day-in-1943-smog-descended-on-los-angeles-it-never-really-left"
   date: 2026-06-10
@@ -68,41 +103,11 @@
   date: 2026-06-08
   source: Aeon
   category: philosophy
-- title: "What shape is the Earth?"
-  url: "https://aeon.co/essays/why-did-measuring-earths-true-shape-matter-for-science"
-  date: 2026-06-08
-  source: Aeon
-  category: philosophy
-- title: Robert Louis Stevenson on Falling in Love and Loving Beyond the Fall
-  url: "https://www.themarginalian.org/2026/06/08/robert-louis-stevenson-love/"
-  date: 2026-06-08
-  source: The Marginalian
-  category: philosophy
-- title: "The Dictionary of Obscure Sorrows: Uncommonly Lovely Invented Words for What We Feel but Cannot Name"
-  url: "https://www.themarginalian.org/2026/06/08/dictionary-of-obscure-sorrows/"
-  date: 2026-06-08
-  source: The Marginalian
-  category: philosophy
-- title: Ursula K. Le Guin on the Meaning of Life
-  url: "https://www.themarginalian.org/2026/06/06/le-guin-life/"
-  date: 2026-06-07
-  source: The Marginalian
-  category: philosophy
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
   source: Eli Bendersky
   category: programming
-- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
-  url: "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories/"
-  date: 2026-06-06
-  source: The Marginalian
-  category: philosophy
-- title: Artist of sympathy and cruelty
-  url: "https://aeon.co/essays/why-mozarts-operas-are-tests-of-moral-character"
-  date: 2026-05-29
-  source: Aeon
-  category: philosophy
 - title: Notes on Fourier series
   url: "https://eli.thegreenplace.net/2026/notes-on-fourier-series/"
   date: 2026-05-27
@@ -171,11 +176,6 @@
 - title: "How does sleep deprivation affect your workouts?"
   url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
   date: 2025-12-17
-  source: Stronger By Science
-  category: strength
-- title: "Can a little alcohol be healthy for lifters?"
-  url: "https://www.strongerbyscience.com/alcohol-lifters/"
-  date: 2025-12-10
   source: Stronger By Science
   category: strength
 - title: AGI Is Not Multimodal
