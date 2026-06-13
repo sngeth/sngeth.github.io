@@ -1,13 +1,53 @@
-- title: Claude Fable is relentlessly proactive
-  url: "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/"
+- title: Statement on the US government directive to suspend access to Fable 5 and Mythos 5
+  url: "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything"
+  date: 2026-06-13
+  source: Simon Willison
+  category: ai
+- title: Open source AI must win
+  url: "https://opensourceaimustwin.com/?share=v2"
+  date: 2026-06-13
+  source: Hacker News Best
+  category: programming
+- title: Statement on US government directive to suspend access to Fable 5 and Mythos 5
+  url: "https://www.anthropic.com/news/fable-mythos-access"
+  date: 2026-06-13
+  source: Hacker News Best
+  category: programming
+- title: "OpenAI WebRTC Audio Session, now with document context"
+  url: "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything"
+  date: 2026-06-12
+  source: Simon Willison
+  category: ai
+- title: Quoting Andrew Singleton
+  url: "https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything"
+  date: 2026-06-12
+  source: Simon Willison
+  category: ai
+- title: Electric motors with no rare earths
+  url: "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/"
   date: 2026-06-12
   source: Hacker News Best
   category: programming
-- title: "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]"
-  url: "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf"
+- title: Palantir loses legal challenge against Swiss investigative magazine
+  url: "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979"
   date: 2026-06-12
   source: Hacker News Best
   category: programming
+- title: "\"Don't You Just Upload It to ChatGPT?\""
+  url: "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/"
+  date: 2026-06-12
+  source: Hacker News Best
+  category: programming
+- title: A philosophy of home
+  url: "https://aeon.co/essays/what-ancient-philosophy-really-thought-about-domestic-life"
+  date: 2026-06-12
+  source: Aeon
+  category: philosophy
+- title: "Hope Is the Thing with Feathers, and with Fangs: The Alchemy of Unrequited Love and the Story Behind Emily Dickinson’s Most Famous Poem"
+  url: "https://www.themarginalian.org/2026/06/11/emily-dickinson-hope-kate/"
+  date: 2026-06-12
+  source: The Marginalian
+  category: philosophy
 - title: Claude Fable is relentlessly proactive
   url: "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything"
   date: 2026-06-11
@@ -18,31 +58,6 @@
   date: 2026-06-11
   source: Simon Willison
   category: ai
-- title: asyncinject 0.7
-  url: "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything"
-  date: 2026-06-11
-  source: Simon Willison
-  category: ai
-- title: Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude
-  url: "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"
-  date: 2026-06-11
-  source: Simon Willison
-  category: ai
-- title: "If you are asking for human attention, demonstrate human effort"
-  url: "https://tombedor.dev/human-attention-and-human-effort/"
-  date: 2026-06-11
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public"
-  url: "https://fablepool.com"
-  date: 2026-06-11
-  source: Hacker News Best
-  category: programming
-- title: "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass"
-  url: "https://www.mayrhofer.eu.org/post/leaving-google/"
-  date: 2026-06-11
-  source: Hacker News Best
-  category: programming
 - title: Don’t touch the art
   url: "https://aeon.co/videos/when-artworks-dare-audiences-to-break-a-cardinal-museum-rule"
   date: 2026-06-11
@@ -78,11 +93,6 @@
   date: 2026-06-11
   source: Stronger By Science
   category: strength
-- title: datasette-agent 0.2a0
-  url: "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"
-  date: 2026-06-10
-  source: Simon Willison
-  category: ai
 - title: Bay of smokes
   url: "https://aeon.co/videos/one-day-in-1943-smog-descended-on-los-angeles-it-never-really-left"
   date: 2026-06-10
@@ -91,16 +101,6 @@
 - title: The joy of autism
   url: "https://aeon.co/essays/why-being-autistic-can-be-a-lot-of-fun"
   date: 2026-06-09
-  source: Aeon
-  category: philosophy
-- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
-  url: "https://www.themarginalian.org/2026/06/09/henry-james-the-beast-in-the-jungle/"
-  date: 2026-06-09
-  source: The Marginalian
-  category: philosophy
-- title: The steam engine
-  url: "https://aeon.co/videos/how-an-ancient-curiosity-evolved-to-power-the-modern-world"
-  date: 2026-06-08
   source: Aeon
   category: philosophy
 - title: Thoughts on starting new projects with LLM agents
