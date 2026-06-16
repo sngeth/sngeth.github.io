@@ -1,83 +1,93 @@
-- title: Quoting Julia Evans
-  url: "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything"
+- title: The Fable 5 Export Controls Harm US Cyber Defense
+  url: "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything"
+  date: 2026-06-16
+  source: Simon Willison
+  category: ai
+- title: "Quoting Matteo Wong, The Atlantic"
+  url: "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything"
+  date: 2026-06-16
+  source: Simon Willison
+  category: ai
+- title: Cloudflare CAPTCHA on at least one ampersand
+  url: "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything"
+  date: 2026-06-16
+  source: Simon Willison
+  category: ai
+- title: "How to Live Fully: The Samurai Guide to Dying Every Day"
+  url: "https://www.themarginalian.org/2026/06/15/hakagure-death/"
+  date: 2026-06-16
+  source: The Marginalian
+  category: philosophy
+- title: Simone de Beauvoir on How Chance and Choice Converge to Make Us Who We Are
+  url: "https://www.themarginalian.org/2026/06/15/simone-de-beauvoir-all-said-and-done-chance-choice/"
+  date: 2026-06-16
+  source: The Marginalian
+  category: philosophy
+- title: datasette-agent 0.3a0
+  url: "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything"
   date: 2026-06-15
   source: Simon Willison
   category: ai
+- title: "\"They screwed us\": Personality clashes sent Anthropic's models offline"
+  url: "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything"
+  date: 2026-06-15
+  source: Simon Willison
+  category: ai
+- title: Banned Book Library in a Wi-Fi Smart Light Bulb
+  url: "https://www.richardosgood.com/posts/banned-book-library/"
+  date: 2026-06-15
+  source: Hacker News Best
+  category: programming
+- title: A backdoor in a LinkedIn job offer
+  url: "https://roman.pt/posts/linkedin-backdoor/"
+  date: 2026-06-15
+  source: Hacker News Best
+  category: programming
+- title: Typst 0.15.0
+  url: "https://typst.app/docs/changelog/0.15.0/"
+  date: 2026-06-15
+  source: Hacker News Best
+  category: programming
+- title: "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)"
+  url: "https://tinywind.io"
+  date: 2026-06-15
+  source: Hacker News Best
+  category: programming
+- title: Iroh 1.0
+  url: "https://www.iroh.computer/blog/v1"
+  date: 2026-06-15
+  source: Hacker News Best
+  category: programming
+- title: "Our neighbors, the peacocks"
+  url: "https://aeon.co/videos/in-suburban-california-a-wild-peafowl-population-splits-the-community"
+  date: 2026-06-15
+  source: Aeon
+  category: philosophy
+- title: Therapy for billionaires
+  url: "https://aeon.co/essays/what-would-a-therapy-camp-for-billionaires-look-like"
+  date: 2026-06-15
+  source: Aeon
+  category: philosophy
+- title: "How to Be More Alive: Hermann Hesse on Wonder and the Proper Aim of Education"
+  url: "https://www.themarginalian.org/2026/06/15/hermann-hesse-wonder-butterflies/"
+  date: 2026-06-15
+  source: The Marginalian
+  category: philosophy
 - title: "A Spell Against Stagnation: John O’Donohue on Beginnings"
   url: "https://www.themarginalian.org/2026/06/14/john-odonohue-blessings-beginnings/"
   date: 2026-06-15
   source: The Marginalian
   category: philosophy
-- title: "Why AI hasn’t replaced software engineers, and won’t"
-  url: "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything"
-  date: 2026-06-14
-  source: Simon Willison
-  category: ai
-- title: Your ePub Is fine
-  url: "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/"
-  date: 2026-06-14
-  source: Hacker News Best
-  category: programming
-- title: Windows 11 users are tired of MS account requirements creeping into everything
-  url: "https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds"
-  date: 2026-06-14
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Kage – Shadow any website to a single binary for offline viewing"
-  url: "https://github.com/tamnd/kage"
-  date: 2026-06-14
-  source: Hacker News Best
-  category: programming
-- title: "Ask HN: What are you working on? (June 2026)"
-  url: "https://news.ycombinator.com/item?id=48528779"
-  date: 2026-06-14
-  source: Hacker News Best
-  category: programming
-- title: Linux 7.1
-  url: "https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u"
-  date: 2026-06-14
-  source: Hacker News Best
-  category: programming
 - title: "The Seamstress Who Solved the Ancient Mystery of the Argonaut, Pioneered the Aquarium, and Laid the Groundwork for the Study of Octopus Intelligence"
   url: "https://www.themarginalian.org/2026/06/14/jeanne-villepreux-power-argonaut/"
   date: 2026-06-14
   source: The Marginalian
   category: philosophy
-- title: Publishing WASM wheels to PyPI for use with Pyodide
-  url: "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything"
-  date: 2026-06-13
-  source: Simon Willison
-  category: ai
-- title: luau-wasm 0.1a0
-  url: "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything"
-  date: 2026-06-13
-  source: Simon Willison
-  category: ai
-- title: "Mapping SQLite result columns back to their source `table.column`"
-  url: "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything"
-  date: 2026-06-13
-  source: Simon Willison
-  category: ai
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: Nick Cave on the Two Pillars of a Meaningful Life
-  url: "https://www.themarginalian.org/2026/06/13/nick-cave-humility-curiosity/"
-  date: 2026-06-13
-  source: The Marginalian
-  category: philosophy
-- title: The Story Behind Dylan Thomas’s “Do Not Go Gentle Into That Good Night” and the Poet’s Own Stirring Reading of His Masterpiece
-  url: "https://www.themarginalian.org/2026/06/12/dylan-thomas-do-not-go-gentle-into-that-good-night/"
-  date: 2026-06-13
-  source: The Marginalian
-  category: philosophy
-- title: How Not to Waste Your Life
-  url: "https://www.themarginalian.org/2026/06/12/hawthorne-life/"
-  date: 2026-06-13
-  source: The Marginalian
-  category: philosophy
 - title: A philosophy of home
   url: "https://aeon.co/essays/what-ancient-philosophy-really-thought-about-domestic-life"
   date: 2026-06-12
@@ -91,21 +101,6 @@
 - title: The no-human future
   url: "https://aeon.co/essays/what-is-nick-lands-philosophy-of-accelerationism-really"
   date: 2026-06-11
-  source: Aeon
-  category: philosophy
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
-- title: Bay of smokes
-  url: "https://aeon.co/videos/one-day-in-1943-smog-descended-on-los-angeles-it-never-really-left"
-  date: 2026-06-10
-  source: Aeon
-  category: philosophy
-- title: The joy of autism
-  url: "https://aeon.co/essays/why-being-autistic-can-be-a-lot-of-fun"
-  date: 2026-06-09
   source: Aeon
   category: philosophy
 - title: Thoughts on starting new projects with LLM agents
@@ -143,11 +138,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -163,21 +153,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
