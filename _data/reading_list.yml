@@ -1,18 +1,68 @@
-- title: The Fable 5 Export Controls Harm US Cyber Defense
-  url: "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything"
+- title: "<click-to-play> — a still that plays"
+  url: "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything"
+  date: 2026-06-17
+  source: Simon Willison
+  category: ai
+- title: NetNewsWire Status
+  url: "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything"
+  date: 2026-06-17
+  source: Simon Willison
+  category: ai
+- title: datasette 1.0a34
+  url: "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything"
   date: 2026-06-16
   source: Simon Willison
   category: ai
-- title: "Quoting Matteo Wong, The Atlantic"
-  url: "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything"
+- title: datasette-tailscale 0.1a0
+  url: "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything"
   date: 2026-06-16
   source: Simon Willison
   category: ai
-- title: Cloudflare CAPTCHA on at least one ampersand
-  url: "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything"
+- title: Quoting Georgi Gerganov
+  url: "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything"
   date: 2026-06-16
   source: Simon Willison
   category: ai
+- title: GrapheneOS has been ported to Android 17
+  url: "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon"
+  date: 2026-06-16
+  source: Hacker News Best
+  category: programming
+- title: "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears"
+  url: "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874"
+  date: 2026-06-16
+  source: Hacker News Best
+  category: programming
+- title: Apple is about to make Hide My Email useless
+  url: "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/"
+  date: 2026-06-16
+  source: Hacker News Best
+  category: programming
+- title: Stop Using JWTs
+  url: "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452"
+  date: 2026-06-16
+  source: Hacker News Best
+  category: programming
+- title: "Is Meta destroying its engineering organization?"
+  url: "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering"
+  date: 2026-06-16
+  source: Hacker News Best
+  category: programming
+- title: "What is this rock?"
+  url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
+  date: 2026-06-16
+  source: Aeon
+  category: philosophy
+- title: Oliver Sacks on the Necessity of Our Illusions
+  url: "https://www.themarginalian.org/2026/06/16/oliver-sacks-illusions/"
+  date: 2026-06-16
+  source: The Marginalian
+  category: philosophy
+- title: "What Makes a Person: The Seven Layers of Selfhood in Literature and Life"
+  url: "https://www.themarginalian.org/2026/06/16/amelie-rorty-the-identities-of-persons/"
+  date: 2026-06-16
+  source: The Marginalian
+  category: philosophy
 - title: "How to Live Fully: The Samurai Guide to Dying Every Day"
   url: "https://www.themarginalian.org/2026/06/15/hakagure-death/"
   date: 2026-06-16
@@ -23,41 +73,6 @@
   date: 2026-06-16
   source: The Marginalian
   category: philosophy
-- title: datasette-agent 0.3a0
-  url: "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything"
-  date: 2026-06-15
-  source: Simon Willison
-  category: ai
-- title: "\"They screwed us\": Personality clashes sent Anthropic's models offline"
-  url: "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything"
-  date: 2026-06-15
-  source: Simon Willison
-  category: ai
-- title: Banned Book Library in a Wi-Fi Smart Light Bulb
-  url: "https://www.richardosgood.com/posts/banned-book-library/"
-  date: 2026-06-15
-  source: Hacker News Best
-  category: programming
-- title: A backdoor in a LinkedIn job offer
-  url: "https://roman.pt/posts/linkedin-backdoor/"
-  date: 2026-06-15
-  source: Hacker News Best
-  category: programming
-- title: Typst 0.15.0
-  url: "https://typst.app/docs/changelog/0.15.0/"
-  date: 2026-06-15
-  source: Hacker News Best
-  category: programming
-- title: "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)"
-  url: "https://tinywind.io"
-  date: 2026-06-15
-  source: Hacker News Best
-  category: programming
-- title: Iroh 1.0
-  url: "https://www.iroh.computer/blog/v1"
-  date: 2026-06-15
-  source: Hacker News Best
-  category: programming
 - title: "Our neighbors, the peacocks"
   url: "https://aeon.co/videos/in-suburban-california-a-wild-peafowl-population-splits-the-community"
   date: 2026-06-15
@@ -73,16 +88,6 @@
   date: 2026-06-15
   source: The Marginalian
   category: philosophy
-- title: "A Spell Against Stagnation: John O’Donohue on Beginnings"
-  url: "https://www.themarginalian.org/2026/06/14/john-odonohue-blessings-beginnings/"
-  date: 2026-06-15
-  source: The Marginalian
-  category: philosophy
-- title: "The Seamstress Who Solved the Ancient Mystery of the Argonaut, Pioneered the Aquarium, and Laid the Groundwork for the Study of Octopus Intelligence"
-  url: "https://www.themarginalian.org/2026/06/14/jeanne-villepreux-power-argonaut/"
-  date: 2026-06-14
-  source: The Marginalian
-  category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
   date: 2026-06-13
@@ -95,11 +100,6 @@
   category: philosophy
 - title: Don’t touch the art
   url: "https://aeon.co/videos/when-artworks-dare-audiences-to-break-a-cardinal-museum-rule"
-  date: 2026-06-11
-  source: Aeon
-  category: philosophy
-- title: The no-human future
-  url: "https://aeon.co/essays/what-is-nick-lands-philosophy-of-accelerationism-really"
   date: 2026-06-11
   source: Aeon
   category: philosophy
