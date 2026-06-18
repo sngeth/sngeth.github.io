@@ -1,3 +1,18 @@
+- title: Midjourney Medical
+  url: "https://www.midjourney.com/medical/blogpost"
+  date: 2026-06-18
+  source: Hacker News Best
+  category: programming
+- title: GLM-5.2 is probably the most powerful text-only open weights LLM
+  url: "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything"
+  date: 2026-06-17
+  source: Simon Willison
+  category: ai
+- title: Quoting Charity Majors
+  url: "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"
+  date: 2026-06-17
+  source: Simon Willison
+  category: ai
 - title: "<click-to-play> — a still that plays"
   url: "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything"
   date: 2026-06-17
@@ -8,46 +23,46 @@
   date: 2026-06-17
   source: Simon Willison
   category: ai
+- title: Leaked financial docs show OpenAI is losing billions of dollars a year
+  url: "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/"
+  date: 2026-06-17
+  source: Hacker News Best
+  category: programming
+- title: Only 16 Percent of Americans Think AI Will Have a Positive Impact on Society
+  url: "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/"
+  date: 2026-06-17
+  source: Hacker News Best
+  category: programming
+- title: Volkswagen started blocking GrapheneOS users
+  url: "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3"
+  date: 2026-06-17
+  source: Hacker News Best
+  category: programming
+- title: Lore – Open source version control system designed for scalability
+  url: "https://lore.org/"
+  date: 2026-06-17
+  source: Hacker News Best
+  category: programming
+- title: "Female philosophers: Héloïse"
+  url: "https://aeon.co/videos/there-can-be-no-sin-committed-from-love-the-radical-ethics-of-heloise"
+  date: 2026-06-17
+  source: Aeon
+  category: philosophy
+- title: "The Meaning of Maturity: Ursula K. Le Guin on What It Really Takes to Grow Up"
+  url: "https://www.themarginalian.org/2026/06/17/le-guin-maturity/"
+  date: 2026-06-17
+  source: The Marginalian
+  category: philosophy
+- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/06/17/dostoyevsky-execution-life/"
+  date: 2026-06-17
+  source: The Marginalian
+  category: philosophy
 - title: datasette 1.0a34
   url: "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything"
   date: 2026-06-16
   source: Simon Willison
   category: ai
-- title: datasette-tailscale 0.1a0
-  url: "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything"
-  date: 2026-06-16
-  source: Simon Willison
-  category: ai
-- title: Quoting Georgi Gerganov
-  url: "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything"
-  date: 2026-06-16
-  source: Simon Willison
-  category: ai
-- title: GrapheneOS has been ported to Android 17
-  url: "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon"
-  date: 2026-06-16
-  source: Hacker News Best
-  category: programming
-- title: "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears"
-  url: "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874"
-  date: 2026-06-16
-  source: Hacker News Best
-  category: programming
-- title: Apple is about to make Hide My Email useless
-  url: "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/"
-  date: 2026-06-16
-  source: Hacker News Best
-  category: programming
-- title: Stop Using JWTs
-  url: "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452"
-  date: 2026-06-16
-  source: Hacker News Best
-  category: programming
-- title: "Is Meta destroying its engineering organization?"
-  url: "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering"
-  date: 2026-06-16
-  source: Hacker News Best
-  category: programming
 - title: "What is this rock?"
   url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
   date: 2026-06-16
@@ -68,11 +83,6 @@
   date: 2026-06-16
   source: The Marginalian
   category: philosophy
-- title: Simone de Beauvoir on How Chance and Choice Converge to Make Us Who We Are
-  url: "https://www.themarginalian.org/2026/06/15/simone-de-beauvoir-all-said-and-done-chance-choice/"
-  date: 2026-06-16
-  source: The Marginalian
-  category: philosophy
 - title: "Our neighbors, the peacocks"
   url: "https://aeon.co/videos/in-suburban-california-a-wild-peafowl-population-splits-the-community"
   date: 2026-06-15
@@ -82,11 +92,6 @@
   url: "https://aeon.co/essays/what-would-a-therapy-camp-for-billionaires-look-like"
   date: 2026-06-15
   source: Aeon
-  category: philosophy
-- title: "How to Be More Alive: Hermann Hesse on Wonder and the Proper Aim of Education"
-  url: "https://www.themarginalian.org/2026/06/15/hermann-hesse-wonder-butterflies/"
-  date: 2026-06-15
-  source: The Marginalian
   category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
@@ -98,11 +103,11 @@
   date: 2026-06-12
   source: Aeon
   category: philosophy
-- title: Don’t touch the art
-  url: "https://aeon.co/videos/when-artworks-dare-audiences-to-break-a-cardinal-museum-rule"
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
   date: 2026-06-11
-  source: Aeon
-  category: philosophy
+  source: Stronger By Science
+  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -138,6 +143,11 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -153,6 +163,21 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
