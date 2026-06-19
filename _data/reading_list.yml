@@ -1,8 +1,53 @@
-- title: Midjourney Medical
-  url: "https://www.midjourney.com/medical/blogpost"
+- title: "Datasette Apps: Host custom HTML applications inside Datasette"
+  url: "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything"
+  date: 2026-06-18
+  source: Simon Willison
+  category: ai
+- title: datasette-acl 0.6a0
+  url: "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything"
+  date: 2026-06-18
+  source: Simon Willison
+  category: ai
+- title: "Show HN: Are You in the Weights?"
+  url: "https://www.intheweights.com/"
   date: 2026-06-18
   source: Hacker News Best
   category: programming
+- title: I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M
+  url: "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/"
+  date: 2026-06-18
+  source: Hacker News Best
+  category: programming
+- title: The founder of Craigslist has given away half a billion dollars
+  url: "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html"
+  date: 2026-06-18
+  source: Hacker News Best
+  category: programming
+- title: A website that lists websites to submit your website to
+  url: "https://www.submission.directory/"
+  date: 2026-06-18
+  source: Hacker News Best
+  category: programming
+- title: "Ubiquiti: Enterprise NAS, Built on ZFS"
+  url: "https://blog.ui.com/article/introducing-enterprise-nas"
+  date: 2026-06-18
+  source: Hacker News Best
+  category: programming
+- title: Neanderthal 1
+  url: "https://aeon.co/videos/the-story-of-the-16-bones-that-upended-how-we-see-our-species"
+  date: 2026-06-18
+  source: Aeon
+  category: philosophy
+- title: "Words, words, words"
+  url: "https://aeon.co/essays/literature-fans-should-welcome-ai-as-a-fellow-wordsmith"
+  date: 2026-06-18
+  source: Aeon
+  category: philosophy
+- title: "Necessary Losses: The Life-Shaping Art of Letting Go"
+  url: "https://www.themarginalian.org/2026/06/18/necessary-losses/"
+  date: 2026-06-18
+  source: The Marginalian
+  category: philosophy
 - title: GLM-5.2 is probably the most powerful text-only open weights LLM
   url: "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything"
   date: 2026-06-17
@@ -18,31 +63,6 @@
   date: 2026-06-17
   source: Simon Willison
   category: ai
-- title: NetNewsWire Status
-  url: "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything"
-  date: 2026-06-17
-  source: Simon Willison
-  category: ai
-- title: Leaked financial docs show OpenAI is losing billions of dollars a year
-  url: "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/"
-  date: 2026-06-17
-  source: Hacker News Best
-  category: programming
-- title: Only 16 Percent of Americans Think AI Will Have a Positive Impact on Society
-  url: "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/"
-  date: 2026-06-17
-  source: Hacker News Best
-  category: programming
-- title: Volkswagen started blocking GrapheneOS users
-  url: "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3"
-  date: 2026-06-17
-  source: Hacker News Best
-  category: programming
-- title: Lore – Open source version control system designed for scalability
-  url: "https://lore.org/"
-  date: 2026-06-17
-  source: Hacker News Best
-  category: programming
 - title: "Female philosophers: Héloïse"
   url: "https://aeon.co/videos/there-can-be-no-sin-committed-from-love-the-radical-ethics-of-heloise"
   date: 2026-06-17
@@ -58,11 +78,6 @@
   date: 2026-06-17
   source: The Marginalian
   category: philosophy
-- title: datasette 1.0a34
-  url: "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything"
-  date: 2026-06-16
-  source: Simon Willison
-  category: ai
 - title: "What is this rock?"
   url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
   date: 2026-06-16
@@ -78,18 +93,8 @@
   date: 2026-06-16
   source: The Marginalian
   category: philosophy
-- title: "How to Live Fully: The Samurai Guide to Dying Every Day"
-  url: "https://www.themarginalian.org/2026/06/15/hakagure-death/"
-  date: 2026-06-16
-  source: The Marginalian
-  category: philosophy
 - title: "Our neighbors, the peacocks"
   url: "https://aeon.co/videos/in-suburban-california-a-wild-peafowl-population-splits-the-community"
-  date: 2026-06-15
-  source: Aeon
-  category: philosophy
-- title: Therapy for billionaires
-  url: "https://aeon.co/essays/what-would-a-therapy-camp-for-billionaires-look-like"
   date: 2026-06-15
   source: Aeon
   category: philosophy
@@ -98,11 +103,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: A philosophy of home
-  url: "https://aeon.co/essays/what-ancient-philosophy-really-thought-about-domestic-life"
-  date: 2026-06-12
-  source: Aeon
-  category: philosophy
 - title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
   url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
   date: 2026-06-11
