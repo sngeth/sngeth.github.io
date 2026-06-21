@@ -1,37 +1,47 @@
+- title: Renting a sewing machine from the library
+  url: "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland"
+  date: 2026-06-20
+  source: Hacker News Best
+  category: programming
+- title: The Wholesale Plagiarism of Obscure Sorrows
+  url: "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/"
+  date: 2026-06-20
+  source: Hacker News Best
+  category: programming
+- title: "UHF X11: X11 Built for VisionOS and Apple Vision Pro"
+  url: "https://www.lispm.net/apps/uhf-x11/"
+  date: 2026-06-20
+  source: Hacker News Best
+  category: programming
+- title: SMPTE Makes Its Standards Freely Accessible
+  url: "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community"
+  date: 2026-06-20
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: StartupWiki – A Free Alternative to Crunchbase"
+  url: "https://startupwiki.tech/"
+  date: 2026-06-20
+  source: Hacker News Best
+  category: programming
 - title: Quoting Sean Lynch
   url: "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"
   date: 2026-06-19
   source: Simon Willison
   category: ai
-- title: "Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died"
-  url: "https://www.legacy.com/legacy/robert-bobby-prince-lll"
-  date: 2026-06-19
-  source: Hacker News Best
-  category: programming
-- title: A new bill takes aim at government pressure to silence lawful online speech
-  url: "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech"
-  date: 2026-06-19
-  source: Hacker News Best
-  category: programming
-- title: Court Records Should Be Free
-  url: "https://www.eff.org/deeplinks/2026/06/court-records-should-be-free"
-  date: 2026-06-19
-  source: Hacker News Best
-  category: programming
-- title: Google workspace threatening to block Firefox access
-  url: "https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html"
-  date: 2026-06-19
-  source: Hacker News Best
-  category: programming
-- title: Hyundai buys Boston Dynamics
-  url: "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/"
-  date: 2026-06-19
-  source: Hacker News Best
-  category: programming
 - title: Trauma creep
   url: "https://aeon.co/essays/not-everything-is-trauma-language-needs-to-mean-something"
   date: 2026-06-19
   source: Aeon
+  category: philosophy
+- title: "Insomnia and the Secret Life of Ideas: Kafka on the Relationship Between Sleeplessness and Creativity"
+  url: "https://www.themarginalian.org/2026/06/19/kafka-insomnia/"
+  date: 2026-06-19
+  source: The Marginalian
+  category: philosophy
+- title: Oliver Sacks on Despair and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/06/19/oliver-sacks-letters-meaning-of-life/"
+  date: 2026-06-19
+  source: The Marginalian
   category: philosophy
 - title: "Datasette Apps: Host custom HTML applications inside Datasette"
   url: "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything"
@@ -87,16 +97,6 @@
   url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
   date: 2026-06-16
   source: Aeon
-  category: philosophy
-- title: Oliver Sacks on the Necessity of Our Illusions
-  url: "https://www.themarginalian.org/2026/06/16/oliver-sacks-illusions/"
-  date: 2026-06-16
-  source: The Marginalian
-  category: philosophy
-- title: "What Makes a Person: The Seven Layers of Selfhood in Literature and Life"
-  url: "https://www.themarginalian.org/2026/06/16/amelie-rorty-the-identities-of-persons/"
-  date: 2026-06-16
-  source: The Marginalian
   category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
