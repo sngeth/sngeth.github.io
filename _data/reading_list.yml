@@ -1,28 +1,63 @@
-- title: Renting a sewing machine from the library
-  url: "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland"
-  date: 2026-06-20
+- title: sqlite-utils 4.0rc1 adds migrations and nested transactions
+  url: "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything"
+  date: 2026-06-21
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.0rc1
+  url: "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything"
+  date: 2026-06-21
+  source: Simon Willison
+  category: ai
+- title: Temporary Cloudflare Accounts for AI agents
+  url: "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything"
+  date: 2026-06-21
+  source: Simon Willison
+  category: ai
+- title: "Did my old job only exist because of fraud?"
+  url: "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/"
+  date: 2026-06-21
   source: Hacker News Best
   category: programming
-- title: The Wholesale Plagiarism of Obscure Sorrows
-  url: "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/"
-  date: 2026-06-20
+- title: Apertus – Open Foundation Model for Sovereign AI
+  url: "https://apertvs.ai/"
+  date: 2026-06-21
   source: Hacker News Best
   category: programming
-- title: "UHF X11: X11 Built for VisionOS and Apple Vision Pro"
-  url: "https://www.lispm.net/apps/uhf-x11/"
-  date: 2026-06-20
+- title: JSON-LD explained for personal websites
+  url: "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/"
+  date: 2026-06-21
   source: Hacker News Best
   category: programming
-- title: SMPTE Makes Its Standards Freely Accessible
-  url: "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community"
-  date: 2026-06-20
+- title: "Tell HN: Happy Fathers Day"
+  url: "https://news.ycombinator.com/item?id=48620502"
+  date: 2026-06-21
   source: Hacker News Best
   category: programming
-- title: "Show HN: StartupWiki – A Free Alternative to Crunchbase"
-  url: "https://startupwiki.tech/"
-  date: 2026-06-20
+- title: Prefer duplication over the wrong abstraction (2016)
+  url: "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction"
+  date: 2026-06-21
   source: Hacker News Best
   category: programming
+- title: "Life Is a Story That Begins in the Middle: Bayo Akomolafe on the Rewilding Power of Obstacles"
+  url: "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles/"
+  date: 2026-06-21
+  source: The Marginalian
+  category: philosophy
+- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
+  url: "https://www.themarginalian.org/2026/06/21/rockwell-kent-wilderness/"
+  date: 2026-06-21
+  source: The Marginalian
+  category: philosophy
+- title: What Happens When We Die
+  url: "https://www.themarginalian.org/2026/06/20/alan-lightman-death/"
+  date: 2026-06-20
+  source: The Marginalian
+  category: philosophy
+- title: "The Man Who Thought with His Heart: George Forster and the Birth of Sensitive Science"
+  url: "https://www.themarginalian.org/2026/06/20/george-forster-andrea-wulf/"
+  date: 2026-06-20
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Sean Lynch
   url: "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"
   date: 2026-06-19
@@ -38,18 +73,8 @@
   date: 2026-06-19
   source: The Marginalian
   category: philosophy
-- title: Oliver Sacks on Despair and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/06/19/oliver-sacks-letters-meaning-of-life/"
-  date: 2026-06-19
-  source: The Marginalian
-  category: philosophy
 - title: "Datasette Apps: Host custom HTML applications inside Datasette"
   url: "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything"
-  date: 2026-06-18
-  source: Simon Willison
-  category: ai
-- title: datasette-acl 0.6a0
-  url: "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything"
   date: 2026-06-18
   source: Simon Willison
   category: ai
@@ -63,35 +88,10 @@
   date: 2026-06-18
   source: Aeon
   category: philosophy
-- title: "Necessary Losses: The Life-Shaping Art of Letting Go"
-  url: "https://www.themarginalian.org/2026/06/18/necessary-losses/"
-  date: 2026-06-18
-  source: The Marginalian
-  category: philosophy
-- title: GLM-5.2 is probably the most powerful text-only open weights LLM
-  url: "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything"
-  date: 2026-06-17
-  source: Simon Willison
-  category: ai
-- title: Quoting Charity Majors
-  url: "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"
-  date: 2026-06-17
-  source: Simon Willison
-  category: ai
 - title: "Female philosophers: Héloïse"
   url: "https://aeon.co/videos/there-can-be-no-sin-committed-from-love-the-radical-ethics-of-heloise"
   date: 2026-06-17
   source: Aeon
-  category: philosophy
-- title: "The Meaning of Maturity: Ursula K. Le Guin on What It Really Takes to Grow Up"
-  url: "https://www.themarginalian.org/2026/06/17/le-guin-maturity/"
-  date: 2026-06-17
-  source: The Marginalian
-  category: philosophy
-- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/06/17/dostoyevsky-execution-life/"
-  date: 2026-06-17
-  source: The Marginalian
   category: philosophy
 - title: "What is this rock?"
   url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
@@ -103,11 +103,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -143,11 +138,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -163,21 +153,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
