@@ -1,3 +1,53 @@
+- title: Prompt Injection as Role Confusion
+  url: "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
+  date: 2026-06-22
+  source: Simon Willison
+  category: ai
+- title: Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code
+  url: "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything"
+  date: 2026-06-22
+  source: Simon Willison
+  category: ai
+- title: GLM-5.2 – How to Run Locally
+  url: "https://unsloth.ai/docs/models/glm-5.2"
+  date: 2026-06-22
+  source: Hacker News Best
+  category: programming
+- title: Nearly half of LG smart TV apps contain residential proxy SDKs
+  url: "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks"
+  date: 2026-06-22
+  source: Hacker News Best
+  category: programming
+- title: Jobs and Software Is Fucked
+  url: "https://urflow.bearblog.dev/jobs-and-software-is-fucked/"
+  date: 2026-06-22
+  source: Hacker News Best
+  category: programming
+- title: Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed
+  url: "https://ipvm.com/reports/police-chiefs-track"
+  date: 2026-06-22
+  source: Hacker News Best
+  category: programming
+- title: "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040"
+  url: "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509"
+  date: 2026-06-22
+  source: Hacker News Best
+  category: programming
+- title: And Granny would dance
+  url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
+  date: 2026-06-22
+  source: Aeon
+  category: philosophy
+- title: No one is self-made
+  url: "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy"
+  date: 2026-06-22
+  source: Aeon
+  category: philosophy
+- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
+  url: "https://www.themarginalian.org/2026/06/22/polyvagal-theory/"
+  date: 2026-06-22
+  source: The Marginalian
+  category: philosophy
 - title: sqlite-utils 4.0rc1 adds migrations and nested transactions
   url: "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything"
   date: 2026-06-21
@@ -13,31 +63,6 @@
   date: 2026-06-21
   source: Simon Willison
   category: ai
-- title: "Did my old job only exist because of fraud?"
-  url: "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/"
-  date: 2026-06-21
-  source: Hacker News Best
-  category: programming
-- title: Apertus – Open Foundation Model for Sovereign AI
-  url: "https://apertvs.ai/"
-  date: 2026-06-21
-  source: Hacker News Best
-  category: programming
-- title: JSON-LD explained for personal websites
-  url: "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/"
-  date: 2026-06-21
-  source: Hacker News Best
-  category: programming
-- title: "Tell HN: Happy Fathers Day"
-  url: "https://news.ycombinator.com/item?id=48620502"
-  date: 2026-06-21
-  source: Hacker News Best
-  category: programming
-- title: Prefer duplication over the wrong abstraction (2016)
-  url: "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction"
-  date: 2026-06-21
-  source: Hacker News Best
-  category: programming
 - title: "Life Is a Story That Begins in the Middle: Bayo Akomolafe on the Rewilding Power of Obstacles"
   url: "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles/"
   date: 2026-06-21
@@ -58,26 +83,11 @@
   date: 2026-06-20
   source: The Marginalian
   category: philosophy
-- title: Quoting Sean Lynch
-  url: "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"
-  date: 2026-06-19
-  source: Simon Willison
-  category: ai
 - title: Trauma creep
   url: "https://aeon.co/essays/not-everything-is-trauma-language-needs-to-mean-something"
   date: 2026-06-19
   source: Aeon
   category: philosophy
-- title: "Insomnia and the Secret Life of Ideas: Kafka on the Relationship Between Sleeplessness and Creativity"
-  url: "https://www.themarginalian.org/2026/06/19/kafka-insomnia/"
-  date: 2026-06-19
-  source: The Marginalian
-  category: philosophy
-- title: "Datasette Apps: Host custom HTML applications inside Datasette"
-  url: "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything"
-  date: 2026-06-18
-  source: Simon Willison
-  category: ai
 - title: Neanderthal 1
   url: "https://aeon.co/videos/the-story-of-the-16-bones-that-upended-how-we-see-our-species"
   date: 2026-06-18
@@ -88,21 +98,16 @@
   date: 2026-06-18
   source: Aeon
   category: philosophy
-- title: "Female philosophers: Héloïse"
-  url: "https://aeon.co/videos/there-can-be-no-sin-committed-from-love-the-radical-ethics-of-heloise"
-  date: 2026-06-17
-  source: Aeon
-  category: philosophy
-- title: "What is this rock?"
-  url: "https://aeon.co/essays/the-strange-rocks-that-wouldnt-exist-without-us"
-  date: 2026-06-16
-  source: Aeon
-  category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -138,6 +143,11 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -153,6 +163,21 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-02-05
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
