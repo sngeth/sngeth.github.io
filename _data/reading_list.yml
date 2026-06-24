@@ -1,3 +1,23 @@
+- title: datasette 1.0a35
+  url: "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything"
+  date: 2026-06-23
+  source: Simon Willison
+  category: ai
+- title: OPFS + Pyodide test harness
+  url: "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything"
+  date: 2026-06-23
+  source: Simon Willison
+  category: ai
+- title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
+  url: "https://www.themarginalian.org/2026/06/23/yes-to-life-in-spite-of-everything-viktor-frankl/"
+  date: 2026-06-23
+  source: The Marginalian
+  category: philosophy
+- title: The Most Important Thing to Remember About Your Mother
+  url: "https://www.themarginalian.org/2026/06/23/florida-scott-maxwell-mother/"
+  date: 2026-06-23
+  source: The Marginalian
+  category: philosophy
 - title: Prompt Injection as Role Confusion
   url: "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
   date: 2026-06-22
@@ -8,31 +28,6 @@
   date: 2026-06-22
   source: Simon Willison
   category: ai
-- title: GLM-5.2 – How to Run Locally
-  url: "https://unsloth.ai/docs/models/glm-5.2"
-  date: 2026-06-22
-  source: Hacker News Best
-  category: programming
-- title: Nearly half of LG smart TV apps contain residential proxy SDKs
-  url: "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks"
-  date: 2026-06-22
-  source: Hacker News Best
-  category: programming
-- title: Jobs and Software Is Fucked
-  url: "https://urflow.bearblog.dev/jobs-and-software-is-fucked/"
-  date: 2026-06-22
-  source: Hacker News Best
-  category: programming
-- title: Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed
-  url: "https://ipvm.com/reports/police-chiefs-track"
-  date: 2026-06-22
-  source: Hacker News Best
-  category: programming
-- title: "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040"
-  url: "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509"
-  date: 2026-06-22
-  source: Hacker News Best
-  category: programming
 - title: And Granny would dance
   url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
   date: 2026-06-22
@@ -53,16 +48,6 @@
   date: 2026-06-21
   source: Simon Willison
   category: ai
-- title: sqlite-utils 4.0rc1
-  url: "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything"
-  date: 2026-06-21
-  source: Simon Willison
-  category: ai
-- title: Temporary Cloudflare Accounts for AI agents
-  url: "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything"
-  date: 2026-06-21
-  source: Simon Willison
-  category: ai
 - title: "Life Is a Story That Begins in the Middle: Bayo Akomolafe on the Rewilding Power of Obstacles"
   url: "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles/"
   date: 2026-06-21
@@ -71,16 +56,6 @@
 - title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
   url: "https://www.themarginalian.org/2026/06/21/rockwell-kent-wilderness/"
   date: 2026-06-21
-  source: The Marginalian
-  category: philosophy
-- title: What Happens When We Die
-  url: "https://www.themarginalian.org/2026/06/20/alan-lightman-death/"
-  date: 2026-06-20
-  source: The Marginalian
-  category: philosophy
-- title: "The Man Who Thought with His Heart: George Forster and the Birth of Sensitive Science"
-  url: "https://www.themarginalian.org/2026/06/20/george-forster-andrea-wulf/"
-  date: 2026-06-20
   source: The Marginalian
   category: philosophy
 - title: Trauma creep
