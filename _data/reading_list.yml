@@ -1,3 +1,58 @@
+- title: Kurt Vonnegut’s Life-Advice to His Children
+  url: "https://www.themarginalian.org/2026/06/25/kurt-vonnegut-advice-to-children/"
+  date: 2026-06-25
+  source: The Marginalian
+  category: philosophy
+- title: simonw/browser-compat-db
+  url: "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything"
+  date: 2026-06-24
+  source: Simon Willison
+  category: ai
+- title: Quoting Tom MacWright
+  url: "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"
+  date: 2026-06-24
+  source: Simon Willison
+  category: ai
+- title: Anthropic says Alibaba illicitly extracted Claude AI model capabilities
+  url: "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+  date: 2026-06-24
+  source: Hacker News Best
+  category: programming
+- title: "OpenAI unveils its first custom chip, built by Broadcom"
+  url: "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+  date: 2026-06-24
+  source: Hacker News Best
+  category: programming
+- title: There are a few things that I look back on as my mistakes in the early days
+  url: "https://twitter.com/ID_AA_Carmack/status/2069799283369345247"
+  date: 2026-06-24
+  source: Hacker News Best
+  category: programming
+- title: "RubyLLM: A Ruby framework for all major AI providers"
+  url: "https://rubyllm.com/"
+  date: 2026-06-24
+  source: Hacker News Best
+  category: programming
+- title: 45°C cooling design cuts data center water use to near zero
+  url: "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/"
+  date: 2026-06-24
+  source: Hacker News Best
+  category: programming
+- title: The memories of others
+  url: "https://aeon.co/videos/a-japanese-photographers-striking-perceptive-images-of-the-troubles"
+  date: 2026-06-24
+  source: Aeon
+  category: philosophy
+- title: Diatoms and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/06/24/diatom-atlas-adolf-schmidt/"
+  date: 2026-06-24
+  source: The Marginalian
+  category: philosophy
+- title: "Epictetus on Love and Loss: The Stoic Strategy for Surviving Heartbreak"
+  url: "https://www.themarginalian.org/2026/06/24/epictetus-love-loss/"
+  date: 2026-06-24
+  source: The Marginalian
+  category: philosophy
 - title: datasette 1.0a35
   url: "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything"
   date: 2026-06-23
@@ -23,11 +78,6 @@
   date: 2026-06-22
   source: Simon Willison
   category: ai
-- title: Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code
-  url: "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything"
-  date: 2026-06-22
-  source: Simon Willison
-  category: ai
 - title: And Granny would dance
   url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
   date: 2026-06-22
@@ -38,26 +88,6 @@
   date: 2026-06-22
   source: Aeon
   category: philosophy
-- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
-  url: "https://www.themarginalian.org/2026/06/22/polyvagal-theory/"
-  date: 2026-06-22
-  source: The Marginalian
-  category: philosophy
-- title: sqlite-utils 4.0rc1 adds migrations and nested transactions
-  url: "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything"
-  date: 2026-06-21
-  source: Simon Willison
-  category: ai
-- title: "Life Is a Story That Begins in the Middle: Bayo Akomolafe on the Rewilding Power of Obstacles"
-  url: "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles/"
-  date: 2026-06-21
-  source: The Marginalian
-  category: philosophy
-- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
-  url: "https://www.themarginalian.org/2026/06/21/rockwell-kent-wilderness/"
-  date: 2026-06-21
-  source: The Marginalian
-  category: philosophy
 - title: Trauma creep
   url: "https://aeon.co/essays/not-everything-is-trauma-language-needs-to-mean-something"
   date: 2026-06-19
@@ -65,11 +95,6 @@
   category: philosophy
 - title: Neanderthal 1
   url: "https://aeon.co/videos/the-story-of-the-16-bones-that-upended-how-we-see-our-species"
-  date: 2026-06-18
-  source: Aeon
-  category: philosophy
-- title: "Words, words, words"
-  url: "https://aeon.co/essays/literature-fans-should-welcome-ai-as-a-fellow-wordsmith"
   date: 2026-06-18
   source: Aeon
   category: philosophy
