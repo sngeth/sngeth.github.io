@@ -1,3 +1,48 @@
+- title: AI and Liability
+  url: "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
+  date: 2026-06-25
+  source: Simon Willison
+  category: ai
+- title: datasette-export-database 0.3a2
+  url: "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything"
+  date: 2026-06-25
+  source: Simon Willison
+  category: ai
+- title: "The 'papers, please' era of the internet will decimate your privacy"
+  url: "https://expression.fire.org/p/the-papers-please-era-of-the-internet"
+  date: 2026-06-25
+  source: Hacker News Best
+  category: programming
+- title: Om Malik has died
+  url: "https://om.co/2026/06/24/1966-2026/"
+  date: 2026-06-25
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
+  url: "https://github.com/inkeep/open-knowledge"
+  date: 2026-06-25
+  source: Hacker News Best
+  category: programming
+- title: An entire Herculaneum scroll has been read for the first time
+  url: "https://scrollprize.org/firstscroll"
+  date: 2026-06-25
+  source: Hacker News Best
+  category: programming
+- title: IBM debuts sub-1 nanometer chip technology
+  url: "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology"
+  date: 2026-06-25
+  source: Hacker News Best
+  category: programming
+- title: "Reset: Hat"
+  url: "https://aeon.co/videos/in-the-american-west-a-man-named-hat-sets-out-to-leave-no-trace"
+  date: 2026-06-25
+  source: Aeon
+  category: philosophy
+- title: "Who are the fire-tamers?"
+  url: "https://aeon.co/essays/who-are-the-fire-taming-healers-of-modern-france"
+  date: 2026-06-25
+  source: Aeon
+  category: philosophy
 - title: Kurt Vonnegut’s Life-Advice to His Children
   url: "https://www.themarginalian.org/2026/06/25/kurt-vonnegut-advice-to-children/"
   date: 2026-06-25
@@ -13,31 +58,11 @@
   date: 2026-06-24
   source: Simon Willison
   category: ai
-- title: Anthropic says Alibaba illicitly extracted Claude AI model capabilities
-  url: "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+- title: "Scaling Laws, Carefully"
+  url: "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
   date: 2026-06-24
-  source: Hacker News Best
-  category: programming
-- title: "OpenAI unveils its first custom chip, built by Broadcom"
-  url: "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
-  date: 2026-06-24
-  source: Hacker News Best
-  category: programming
-- title: There are a few things that I look back on as my mistakes in the early days
-  url: "https://twitter.com/ID_AA_Carmack/status/2069799283369345247"
-  date: 2026-06-24
-  source: Hacker News Best
-  category: programming
-- title: "RubyLLM: A Ruby framework for all major AI providers"
-  url: "https://rubyllm.com/"
-  date: 2026-06-24
-  source: Hacker News Best
-  category: programming
-- title: 45°C cooling design cuts data center water use to near zero
-  url: "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/"
-  date: 2026-06-24
-  source: Hacker News Best
-  category: programming
+  source: Lilian Weng
+  category: ai
 - title: The memories of others
   url: "https://aeon.co/videos/a-japanese-photographers-striking-perceptive-images-of-the-troubles"
   date: 2026-06-24
@@ -58,11 +83,6 @@
   date: 2026-06-23
   source: Simon Willison
   category: ai
-- title: OPFS + Pyodide test harness
-  url: "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything"
-  date: 2026-06-23
-  source: Simon Willison
-  category: ai
 - title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
   url: "https://www.themarginalian.org/2026/06/23/yes-to-life-in-spite-of-everything-viktor-frankl/"
   date: 2026-06-23
@@ -73,11 +93,6 @@
   date: 2026-06-23
   source: The Marginalian
   category: philosophy
-- title: Prompt Injection as Role Confusion
-  url: "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
-  date: 2026-06-22
-  source: Simon Willison
-  category: ai
 - title: And Granny would dance
   url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
   date: 2026-06-22
@@ -88,26 +103,11 @@
   date: 2026-06-22
   source: Aeon
   category: philosophy
-- title: Trauma creep
-  url: "https://aeon.co/essays/not-everything-is-trauma-language-needs-to-mean-something"
-  date: 2026-06-19
-  source: Aeon
-  category: philosophy
-- title: Neanderthal 1
-  url: "https://aeon.co/videos/the-story-of-the-16-bones-that-upended-how-we-see-our-species"
-  date: 2026-06-18
-  source: Aeon
-  category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -143,11 +143,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -163,21 +158,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -243,33 +223,3 @@
   date: 2024-03-16
   source: Dan Luu
   category: programming
-- title: Thinking about High-Quality Human Data
-  url: "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/"
-  date: 2024-02-05
-  source: Lilian Weng
-  category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
