@@ -1,3 +1,38 @@
+- title: The best response to AI slop and online noise is from Robin Williams
+  url: "https://jayacunzo.com/blog/your-move-chief"
+  date: 2026-06-28
+  source: Hacker News Best
+  category: programming
+- title: "'Careless People' author claims Meta surveilled her for 12mos to enforce silence"
+  url: "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/"
+  date: 2026-06-27
+  source: Hacker News Best
+  category: programming
+- title: "IP Crawl: Living atlas of open webcams discovered on the public internet"
+  url: "https://ipcrawl.com/"
+  date: 2026-06-27
+  source: Hacker News Best
+  category: programming
+- title: Turn your site into a place people can bump into each other
+  url: "https://cauenapier.com/blog/townsquare_release/"
+  date: 2026-06-27
+  source: Hacker News Best
+  category: programming
+- title: "Zuckerberg's war on whistleblowers"
+  url: "https://pluralistic.net/2026/06/27/zuckerstreisand-2/"
+  date: 2026-06-27
+  source: Hacker News Best
+  category: programming
+- title: "Legendary Artist Sheila Hicks, at 92, on the Secret to Creative Vitality"
+  url: "https://www.themarginalian.org/2026/06/27/sheila-hicks/"
+  date: 2026-06-27
+  source: The Marginalian
+  category: philosophy
+- title: "How to Be a Tree: Notes on the Resilience of Letting Go"
+  url: "https://www.themarginalian.org/2026/06/27/trees/"
+  date: 2026-06-27
+  source: The Marginalian
+  category: philosophy
 - title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
   url: "https://www.themarginalian.org/2026/06/26/vonnegut-marriage-divorce/"
   date: 2026-06-27
@@ -33,31 +68,6 @@
   date: 2026-06-26
   source: Simon Willison
   category: ai
-- title: Om
-  url: "https://daringfireball.net/2026/06/om"
-  date: 2026-06-26
-  source: Hacker News Best
-  category: programming
-- title: U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations
-  url: "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies"
-  date: 2026-06-26
-  source: Hacker News Best
-  category: programming
-- title: "We can still stop California's 3D printer surveillance scheme"
-  url: "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme"
-  date: 2026-06-26
-  source: Hacker News Best
-  category: programming
-- title: U.S. government will decide who gets to use GPT-5.6
-  url: "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/"
-  date: 2026-06-26
-  source: Hacker News Best
-  category: programming
-- title: "Previewing GPT‑5.6 Sol: a next-generation model"
-  url: "https://openai.com/index/previewing-gpt-5-6-sol/"
-  date: 2026-06-26
-  source: Hacker News Best
-  category: programming
 - title: The violence specialists
   url: "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal"
   date: 2026-06-26
@@ -65,11 +75,6 @@
   category: philosophy
 - title: Georgia O’Keeffe on What It Means to Be an Artist
   url: "https://www.themarginalian.org/2026/06/26/georgia-okeeffe-sherwood-anderson-letters/"
-  date: 2026-06-26
-  source: The Marginalian
-  category: philosophy
-- title: Kafka’s Approach to Creative Block and the Four Psychological Hindrances That Keep the Gifted from Living Up to Their Gifts
-  url: "https://www.themarginalian.org/2026/06/26/kafka-diaries-self-doubt/"
   date: 2026-06-26
   source: The Marginalian
   category: philosophy
@@ -93,11 +98,6 @@
   date: 2026-06-24
   source: Aeon
   category: philosophy
-- title: Diatoms and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/06/24/diatom-atlas-adolf-schmidt/"
-  date: 2026-06-24
-  source: The Marginalian
-  category: philosophy
 - title: And Granny would dance
   url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
   date: 2026-06-22
@@ -108,11 +108,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -148,11 +143,6 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -168,21 +158,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-03-16
   source: Dan Luu
   category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
