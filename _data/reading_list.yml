@@ -1,28 +1,48 @@
-- title: The best response to AI slop and online noise is from Robin Williams
-  url: "https://jayacunzo.com/blog/your-move-chief"
+- title: Age verification is just a precursor to automated attribution of speech
+  url: "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026"
+  date: 2026-06-29
+  source: Hacker News Best
+  category: programming
+- title: HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88
+  url: "https://danunparsed.com/p/hackerrank-open-source-ats"
+  date: 2026-06-29
+  source: Hacker News Best
+  category: programming
+- title: Quoting Jon Udell
+  url: "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything"
+  date: 2026-06-28
+  source: Simon Willison
+  category: ai
+- title: Hack Your Summer
+  url: "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything"
+  date: 2026-06-28
+  source: Simon Willison
+  category: ai
+- title: "Librepods: AirPods liberated"
+  url: "https://github.com/librepods-org/librepods"
   date: 2026-06-28
   source: Hacker News Best
   category: programming
-- title: "'Careless People' author claims Meta surveilled her for 12mos to enforce silence"
-  url: "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/"
-  date: 2026-06-27
+- title: Historical memory prices 1960-2026
+  url: "https://dam.stanford.edu/memory-prices.html"
+  date: 2026-06-28
   source: Hacker News Best
   category: programming
-- title: "IP Crawl: Living atlas of open webcams discovered on the public internet"
-  url: "https://ipcrawl.com/"
-  date: 2026-06-27
+- title: GLM 5.2 beats Claude in our benchmarks
+  url: "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/"
+  date: 2026-06-28
   source: Hacker News Best
   category: programming
-- title: Turn your site into a place people can bump into each other
-  url: "https://cauenapier.com/blog/townsquare_release/"
-  date: 2026-06-27
-  source: Hacker News Best
-  category: programming
-- title: "Zuckerberg's war on whistleblowers"
-  url: "https://pluralistic.net/2026/06/27/zuckerstreisand-2/"
-  date: 2026-06-27
-  source: Hacker News Best
-  category: programming
+- title: Why You
+  url: "https://www.themarginalian.org/2026/06/28/why-you/"
+  date: 2026-06-28
+  source: The Marginalian
+  category: philosophy
+- title: How the Great Zen Master and Peace Activist Thich Nhat Hanh Found Himself and Lost His Self in a Library Epiphany
+  url: "https://www.themarginalian.org/2026/06/28/thich-nhat-hanh-fragrant-palm-leaves/"
+  date: 2026-06-28
+  source: The Marginalian
+  category: philosophy
 - title: "Legendary Artist Sheila Hicks, at 92, on the Secret to Creative Vitality"
   url: "https://www.themarginalian.org/2026/06/27/sheila-hicks/"
   date: 2026-06-27
@@ -35,11 +55,6 @@
   category: philosophy
 - title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
   url: "https://www.themarginalian.org/2026/06/26/vonnegut-marriage-divorce/"
-  date: 2026-06-27
-  source: The Marginalian
-  category: philosophy
-- title: Mushrooms and Our Search for Meaning
-  url: "https://www.themarginalian.org/2026/06/26/fungi-orion/"
   date: 2026-06-27
   source: The Marginalian
   category: philosophy
@@ -58,25 +73,10 @@
   date: 2026-06-26
   source: Simon Willison
   category: ai
-- title: "Incident Report: CVE-2026-LGTM"
-  url: "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything"
-  date: 2026-06-26
-  source: Simon Willison
-  category: ai
-- title: Quoting OpenAI
-  url: "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
-  date: 2026-06-26
-  source: Simon Willison
-  category: ai
 - title: The violence specialists
   url: "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal"
   date: 2026-06-26
   source: Aeon
-  category: philosophy
-- title: Georgia O’Keeffe on What It Means to Be an Artist
-  url: "https://www.themarginalian.org/2026/06/26/georgia-okeeffe-sherwood-anderson-letters/"
-  date: 2026-06-26
-  source: The Marginalian
   category: philosophy
 - title: "Reset: Hat"
   url: "https://aeon.co/videos/in-the-american-west-a-man-named-hat-sets-out-to-leave-no-trace"
