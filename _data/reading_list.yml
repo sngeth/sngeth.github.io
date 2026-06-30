@@ -1,13 +1,58 @@
-- title: Age verification is just a precursor to automated attribution of speech
-  url: "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026"
+- title: HTML table extractor
+  url: "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything"
+  date: 2026-06-29
+  source: Simon Willison
+  category: ai
+- title: Count the number of Safari tabs
+  url: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
+  date: 2026-06-29
+  source: Simon Willison
+  category: ai
+- title: "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding"
+  url: "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"
+  date: 2026-06-29
+  source: Simon Willison
+  category: ai
+- title: ".self: A new top-level domain designed to support self-hosting"
+  url: "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/"
   date: 2026-06-29
   source: Hacker News Best
   category: programming
-- title: HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88
-  url: "https://danunparsed.com/p/hackerrank-open-source-ats"
+- title: Qwen 3.6 27B is the sweet spot for local development
+  url: "https://quesma.com/blog/qwen-36-is-awesome/"
   date: 2026-06-29
   source: Hacker News Best
   category: programming
+- title: European ISPs Want Rightsholders Held Accountable for Overblocking Damage
+  url: "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/"
+  date: 2026-06-29
+  source: Hacker News Best
+  category: programming
+- title: US Supreme Court rules geofence warrants require constitutional protections
+  url: "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision"
+  date: 2026-06-29
+  source: Hacker News Best
+  category: programming
+- title: A native graphical shell for SSH
+  url: "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html"
+  date: 2026-06-29
+  source: Hacker News Best
+  category: programming
+- title: Timelapse of the Universe
+  url: "https://aeon.co/videos/the-13-billion-years-that-led-to-us-a-cosmological-timelapse"
+  date: 2026-06-29
+  source: Aeon
+  category: philosophy
+- title: The measure of flourishing
+  url: "https://aeon.co/essays/it-doesnt-have-to-be-us-versus-nature"
+  date: 2026-06-29
+  source: Aeon
+  category: philosophy
+- title: "Legendary Cellist Pablo Casals, at Age 93, on Creative Vitality and How Working with Love Prolongs Your Life"
+  url: "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age/"
+  date: 2026-06-29
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Jon Udell
   url: "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything"
   date: 2026-06-28
@@ -18,21 +63,6 @@
   date: 2026-06-28
   source: Simon Willison
   category: ai
-- title: "Librepods: AirPods liberated"
-  url: "https://github.com/librepods-org/librepods"
-  date: 2026-06-28
-  source: Hacker News Best
-  category: programming
-- title: Historical memory prices 1960-2026
-  url: "https://dam.stanford.edu/memory-prices.html"
-  date: 2026-06-28
-  source: Hacker News Best
-  category: programming
-- title: GLM 5.2 beats Claude in our benchmarks
-  url: "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/"
-  date: 2026-06-28
-  source: Hacker News Best
-  category: programming
 - title: Why You
   url: "https://www.themarginalian.org/2026/06/28/why-you/"
   date: 2026-06-28
@@ -53,26 +83,6 @@
   date: 2026-06-27
   source: The Marginalian
   category: philosophy
-- title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
-  url: "https://www.themarginalian.org/2026/06/26/vonnegut-marriage-divorce/"
-  date: 2026-06-27
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Dean W. Ball
-  url: "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything"
-  date: 2026-06-26
-  source: Simon Willison
-  category: ai
-- title: Quoting Timothy B. Lee
-  url: "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything"
-  date: 2026-06-26
-  source: Simon Willison
-  category: ai
-- title: "What happened after 2,000 people tried to hack my AI assistant"
-  url: "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything"
-  date: 2026-06-26
-  source: Simon Willison
-  category: ai
 - title: The violence specialists
   url: "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal"
   date: 2026-06-26
@@ -93,21 +103,16 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: The memories of others
-  url: "https://aeon.co/videos/a-japanese-photographers-striking-perceptive-images-of-the-troubles"
-  date: 2026-06-24
-  source: Aeon
-  category: philosophy
-- title: And Granny would dance
-  url: "https://aeon.co/videos/memories-of-a-childhood-in-tehran-form-a-celebration-of-iranian-women"
-  date: 2026-06-22
-  source: Aeon
-  category: philosophy
 - title: "Plugins case study: Pluggy"
   url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -143,6 +148,11 @@
   date: 2026-04-29
   source: Eli Bendersky
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -158,6 +168,21 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-03-16
   source: Dan Luu
   category: programming
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
