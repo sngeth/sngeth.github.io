@@ -1,43 +1,63 @@
-- title: HTML table extractor
-  url: "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything"
-  date: 2026-06-29
+- title: Quoting Anthropic
+  url: "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything"
+  date: 2026-06-30
   source: Simon Willison
   category: ai
-- title: Count the number of Safari tabs
-  url: "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
-  date: 2026-06-29
+- title: Nano Banana 2 Lite
+  url: "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything"
+  date: 2026-06-30
   source: Simon Willison
   category: ai
-- title: "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding"
-  url: "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"
-  date: 2026-06-29
+- title: "What's new in Claude Sonnet 5"
+  url: "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything"
+  date: 2026-06-30
   source: Simon Willison
   category: ai
-- title: ".self: A new top-level domain designed to support self-hosting"
-  url: "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/"
-  date: 2026-06-29
+- title: The AI Compass
+  url: "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything"
+  date: 2026-06-30
+  source: Simon Willison
+  category: ai
+- title: Have your agent record video demos of its work with shot-scraper video
+  url: "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything"
+  date: 2026-06-30
+  source: Simon Willison
+  category: ai
+- title: "Summary of reading: April - June 2026"
+  url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
+  date: 2026-06-30
+  source: Eli Bendersky
+  category: programming
+- title: Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5
+  url: "https://twitter.com/AnthropicAI/status/2072106151890809341"
+  date: 2026-06-30
   source: Hacker News Best
   category: programming
-- title: Qwen 3.6 27B is the sweet spot for local development
-  url: "https://quesma.com/blog/qwen-36-is-awesome/"
-  date: 2026-06-29
+- title: I ported Kubernetes to the browser
+  url: "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser"
+  date: 2026-06-30
   source: Hacker News Best
   category: programming
-- title: European ISPs Want Rightsholders Held Accountable for Overblocking Damage
-  url: "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/"
-  date: 2026-06-29
+- title: Claude Sonnet 5
+  url: "https://www.anthropic.com/news/claude-sonnet-5"
+  date: 2026-06-30
   source: Hacker News Best
   category: programming
-- title: US Supreme Court rules geofence warrants require constitutional protections
-  url: "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision"
-  date: 2026-06-29
+- title: Claude Science
+  url: "https://claude.com/product/claude-science"
+  date: 2026-06-30
   source: Hacker News Best
   category: programming
-- title: A native graphical shell for SSH
-  url: "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html"
-  date: 2026-06-29
+- title: We Are the Last People Who Know How It Works
+  url: "https://unix.foo/posts/last-people-who-know-how-it-works/"
+  date: 2026-06-30
   source: Hacker News Best
   category: programming
+- title: Illegible benefits
+  url: "https://aeon.co/essays/what-we-cant-measure-about-ai-yet"
+  date: 2026-06-30
+  source: Aeon
+  category: philosophy
 - title: Timelapse of the Universe
   url: "https://aeon.co/videos/the-13-billion-years-that-led-to-us-a-cosmological-timelapse"
   date: 2026-06-29
@@ -53,16 +73,6 @@
   date: 2026-06-29
   source: The Marginalian
   category: philosophy
-- title: Quoting Jon Udell
-  url: "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything"
-  date: 2026-06-28
-  source: Simon Willison
-  category: ai
-- title: Hack Your Summer
-  url: "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything"
-  date: 2026-06-28
-  source: Simon Willison
-  category: ai
 - title: Why You
   url: "https://www.themarginalian.org/2026/06/28/why-you/"
   date: 2026-06-28
@@ -90,11 +100,6 @@
   category: philosophy
 - title: "Reset: Hat"
   url: "https://aeon.co/videos/in-the-american-west-a-man-named-hat-sets-out-to-leave-no-trace"
-  date: 2026-06-25
-  source: Aeon
-  category: philosophy
-- title: "Who are the fire-tamers?"
-  url: "https://aeon.co/essays/who-are-the-fire-taming-healers-of-modern-france"
   date: 2026-06-25
   source: Aeon
   category: philosophy
@@ -141,11 +146,6 @@
 - title: "Scaling, stretching and shifting sinusoids"
   url: "https://eli.thegreenplace.net/2026/scaling-stretching-and-shifting-sinusoids/"
   date: 2026-05-02
-  source: Eli Bendersky
-  category: programming
-- title: Thoughts on WebAssembly as a stack machine
-  url: "https://eli.thegreenplace.net/2026/thoughts-on-webassembly-as-a-stack-machine/"
-  date: 2026-04-29
   source: Eli Bendersky
   category: programming
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
