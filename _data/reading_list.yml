@@ -1,3 +1,53 @@
+- title: "Global review confirms mRNA vaccines are safe, effective and full of promise"
+  url: "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/"
+  date: 2026-07-02
+  source: Hacker News Best
+  category: programming
+- title: ZCode – Harness for GLM-5.2
+  url: "https://zcode.z.ai/en"
+  date: 2026-07-01
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Searchable directory of 22k+ products from worker-owned co-ops"
+  url: "https://www.workerowned.info/"
+  date: 2026-07-01
+  source: Hacker News Best
+  category: programming
+- title: Fable 5 is Back
+  url: "https://twitter.com/claudeai/status/2072402636813607381"
+  date: 2026-07-01
+  source: Hacker News Best
+  category: programming
+- title: What to learn to be a graphics programmer
+  url: "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/"
+  date: 2026-07-01
+  source: Hacker News Best
+  category: programming
+- title: Noguchi’s New York animations
+  url: "https://aeon.co/videos/in-noguchis-unrealised-playgrounds-art-and-life-are-inseparable"
+  date: 2026-07-01
+  source: Aeon
+  category: philosophy
+- title: The Violinist Who Solved the Ancient Riddle of How the World Holds Together
+  url: "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal/"
+  date: 2026-07-01
+  source: The Marginalian
+  category: philosophy
+- title: "How to Be Un-Dead: Anaïs Nin and D.H. Lawrence on the Key to Living Fully"
+  url: "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence/"
+  date: 2026-07-01
+  source: The Marginalian
+  category: philosophy
+- title: Tolkien Reads from “The Hobbit” in Rare Archival Audio from His First Encounter with a Tape Recorder
+  url: "https://www.themarginalian.org/2026/07/01/tolkien-reads-from-the-hobbit/"
+  date: 2026-07-01
+  source: The Marginalian
+  category: philosophy
+- title: "Now Yourself: The Elusive Science of What the Present Moment Is Made of and How It Makes You Who You Are"
+  url: "https://www.themarginalian.org/2026/06/30/jo-marchant-now/"
+  date: 2026-07-01
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Anthropic
   url: "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything"
   date: 2026-06-30
@@ -28,35 +78,15 @@
   date: 2026-06-30
   source: Eli Bendersky
   category: programming
-- title: Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5
-  url: "https://twitter.com/AnthropicAI/status/2072106151890809341"
-  date: 2026-06-30
-  source: Hacker News Best
-  category: programming
-- title: I ported Kubernetes to the browser
-  url: "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser"
-  date: 2026-06-30
-  source: Hacker News Best
-  category: programming
-- title: Claude Sonnet 5
-  url: "https://www.anthropic.com/news/claude-sonnet-5"
-  date: 2026-06-30
-  source: Hacker News Best
-  category: programming
-- title: Claude Science
-  url: "https://claude.com/product/claude-science"
-  date: 2026-06-30
-  source: Hacker News Best
-  category: programming
-- title: We Are the Last People Who Know How It Works
-  url: "https://unix.foo/posts/last-people-who-know-how-it-works/"
-  date: 2026-06-30
-  source: Hacker News Best
-  category: programming
 - title: Illegible benefits
   url: "https://aeon.co/essays/what-we-cant-measure-about-ai-yet"
   date: 2026-06-30
   source: Aeon
+  category: philosophy
+- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
+  url: "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge/"
+  date: 2026-06-30
+  source: The Marginalian
   category: philosophy
 - title: Timelapse of the Universe
   url: "https://aeon.co/videos/the-13-billion-years-that-led-to-us-a-cosmological-timelapse"
@@ -68,39 +98,9 @@
   date: 2026-06-29
   source: Aeon
   category: philosophy
-- title: "Legendary Cellist Pablo Casals, at Age 93, on Creative Vitality and How Working with Love Prolongs Your Life"
-  url: "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age/"
-  date: 2026-06-29
-  source: The Marginalian
-  category: philosophy
-- title: Why You
-  url: "https://www.themarginalian.org/2026/06/28/why-you/"
-  date: 2026-06-28
-  source: The Marginalian
-  category: philosophy
-- title: How the Great Zen Master and Peace Activist Thich Nhat Hanh Found Himself and Lost His Self in a Library Epiphany
-  url: "https://www.themarginalian.org/2026/06/28/thich-nhat-hanh-fragrant-palm-leaves/"
-  date: 2026-06-28
-  source: The Marginalian
-  category: philosophy
-- title: "Legendary Artist Sheila Hicks, at 92, on the Secret to Creative Vitality"
-  url: "https://www.themarginalian.org/2026/06/27/sheila-hicks/"
-  date: 2026-06-27
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be a Tree: Notes on the Resilience of Letting Go"
-  url: "https://www.themarginalian.org/2026/06/27/trees/"
-  date: 2026-06-27
-  source: The Marginalian
-  category: philosophy
 - title: The violence specialists
   url: "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal"
   date: 2026-06-26
-  source: Aeon
-  category: philosophy
-- title: "Reset: Hat"
-  url: "https://aeon.co/videos/in-the-american-west-a-man-named-hat-sets-out-to-leave-no-trace"
-  date: 2026-06-25
   source: Aeon
   category: philosophy
 - title: "Scaling Laws, Carefully"
