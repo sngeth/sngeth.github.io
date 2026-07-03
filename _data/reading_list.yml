@@ -1,28 +1,58 @@
-- title: "Global review confirms mRNA vaccines are safe, effective and full of promise"
-  url: "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/"
+- title: "Why Switzerland has 25 gbit internet and America doesn't"
+  url: "https://stefan.schueller.net/posts/the-free-market-lie/"
+  date: 2026-07-03
+  source: Hacker News Best
+  category: programming
+- title: llm-coding-agent 0.1a0
+  url: "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything"
+  date: 2026-07-02
+  source: Simon Willison
+  category: ai
+- title: "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts"
+  url: "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything"
+  date: 2026-07-02
+  source: Simon Willison
+  category: ai
+- title: Understand to participate
+  url: "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
+  date: 2026-07-02
+  source: Simon Willison
+  category: ai
+- title: Virginia bans sale of geolocation data
+  url: "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data"
   date: 2026-07-02
   source: Hacker News Best
   category: programming
-- title: ZCode – Harness for GLM-5.2
-  url: "https://zcode.z.ai/en"
-  date: 2026-07-01
+- title: "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory"
+  url: "https://mathstodon.xyz/@iblech/116769502749142438"
+  date: 2026-07-02
   source: Hacker News Best
   category: programming
-- title: "Show HN: Searchable directory of 22k+ products from worker-owned co-ops"
-  url: "https://www.workerowned.info/"
-  date: 2026-07-01
+- title: Spain Orders Blacklist of Palantir from Public and Private Companies
+  url: "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv"
+  date: 2026-07-02
   source: Hacker News Best
   category: programming
-- title: Fable 5 is Back
-  url: "https://twitter.com/claudeai/status/2072402636813607381"
-  date: 2026-07-01
+- title: Podman v6.0.0
+  url: "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/"
+  date: 2026-07-02
   source: Hacker News Best
   category: programming
-- title: What to learn to be a graphics programmer
-  url: "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/"
-  date: 2026-07-01
-  source: Hacker News Best
-  category: programming
+- title: "Karl Hess: toward liberty"
+  url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
+  date: 2026-07-02
+  source: Aeon
+  category: philosophy
+- title: The anguish of choice
+  url: "https://aeon.co/essays/re-reading-sartres-lecture-existentialism-is-a-humanism"
+  date: 2026-07-02
+  source: Aeon
+  category: philosophy
+- title: "Hermann Hesse on Solitude, the Value of Hardship, the Courage to Be Yourself, and How to Find Your Destiny"
+  url: "https://www.themarginalian.org/2026/07/02/hermann-hesse-solitude-suffering-destiny/"
+  date: 2026-07-02
+  source: The Marginalian
+  category: philosophy
 - title: Noguchi’s New York animations
   url: "https://aeon.co/videos/in-noguchis-unrealised-playgrounds-art-and-life-are-inseparable"
   date: 2026-07-01
@@ -58,21 +88,6 @@
   date: 2026-06-30
   source: Simon Willison
   category: ai
-- title: "What's new in Claude Sonnet 5"
-  url: "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything"
-  date: 2026-06-30
-  source: Simon Willison
-  category: ai
-- title: The AI Compass
-  url: "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything"
-  date: 2026-06-30
-  source: Simon Willison
-  category: ai
-- title: Have your agent record video demos of its work with shot-scraper video
-  url: "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything"
-  date: 2026-06-30
-  source: Simon Willison
-  category: ai
 - title: "Summary of reading: April - June 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
   date: 2026-06-30
@@ -83,24 +98,9 @@
   date: 2026-06-30
   source: Aeon
   category: philosophy
-- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
-  url: "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge/"
-  date: 2026-06-30
-  source: The Marginalian
-  category: philosophy
 - title: Timelapse of the Universe
   url: "https://aeon.co/videos/the-13-billion-years-that-led-to-us-a-cosmological-timelapse"
   date: 2026-06-29
-  source: Aeon
-  category: philosophy
-- title: The measure of flourishing
-  url: "https://aeon.co/essays/it-doesnt-have-to-be-us-versus-nature"
-  date: 2026-06-29
-  source: Aeon
-  category: philosophy
-- title: The violence specialists
-  url: "https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal"
-  date: 2026-06-26
   source: Aeon
   category: philosophy
 - title: "Scaling Laws, Carefully"
