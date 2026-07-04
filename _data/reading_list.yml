@@ -1,43 +1,63 @@
-- title: "Why Switzerland has 25 gbit internet and America doesn't"
-  url: "https://stefan.schueller.net/posts/the-free-market-lie/"
+- title: Open Source AI Gap Map
+  url: "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything"
+  date: 2026-07-03
+  source: Simon Willison
+  category: ai
+- title: Quoting Josh W. Comeau
+  url: "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything"
+  date: 2026-07-03
+  source: Simon Willison
+  category: ai
+- title: "Fable's judgement"
+  url: "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything"
+  date: 2026-07-03
+  source: Simon Willison
+  category: ai
+- title: June 2026 newsletter
+  url: "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything"
+  date: 2026-07-03
+  source: Simon Willison
+  category: ai
+- title: Espionage Against the European Parliament
+  url: "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/"
   date: 2026-07-03
   source: Hacker News Best
   category: programming
+- title: "60% Fable cost cut by converting code to images and having the model OCR it"
+  url: "https://github.com/teamchong/pxpipe"
+  date: 2026-07-03
+  source: Hacker News Best
+  category: programming
+- title: Costco is the anti-Amazon
+  url: "https://phenomenalworld.org/analysis/the-anti-amazon/"
+  date: 2026-07-03
+  source: Hacker News Best
+  category: programming
+- title: Factories are just rooms
+  url: "https://interconnected.org/home/2026/07/03/factories"
+  date: 2026-07-03
+  source: Hacker News Best
+  category: programming
+- title: "Jamesob's guide to running SOTA LLMs locally"
+  url: "https://github.com/jamesob/local-llm"
+  date: 2026-07-03
+  source: Hacker News Best
+  category: programming
+- title: Abyss
+  url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
+  date: 2026-07-03
+  source: Aeon
+  category: philosophy
+- title: "No One You Love Is Ever Dead: Hemingway on the Most Devastating of Losses and the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/07/03/hemingway-loss-letter/"
+  date: 2026-07-03
+  source: The Marginalian
+  category: philosophy
 - title: llm-coding-agent 0.1a0
   url: "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything"
   date: 2026-07-02
   source: Simon Willison
   category: ai
-- title: "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts"
-  url: "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything"
-  date: 2026-07-02
-  source: Simon Willison
-  category: ai
-- title: Understand to participate
-  url: "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
-  date: 2026-07-02
-  source: Simon Willison
-  category: ai
-- title: Virginia bans sale of geolocation data
-  url: "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data"
-  date: 2026-07-02
-  source: Hacker News Best
-  category: programming
-- title: "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory"
-  url: "https://mathstodon.xyz/@iblech/116769502749142438"
-  date: 2026-07-02
-  source: Hacker News Best
-  category: programming
-- title: Spain Orders Blacklist of Palantir from Public and Private Companies
-  url: "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv"
-  date: 2026-07-02
-  source: Hacker News Best
-  category: programming
-- title: Podman v6.0.0
-  url: "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/"
-  date: 2026-07-02
-  source: Hacker News Best
-  category: programming
 - title: "Karl Hess: toward liberty"
   url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
   date: 2026-07-02
@@ -73,21 +93,6 @@
   date: 2026-07-01
   source: The Marginalian
   category: philosophy
-- title: "Now Yourself: The Elusive Science of What the Present Moment Is Made of and How It Makes You Who You Are"
-  url: "https://www.themarginalian.org/2026/06/30/jo-marchant-now/"
-  date: 2026-07-01
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Anthropic
-  url: "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything"
-  date: 2026-06-30
-  source: Simon Willison
-  category: ai
-- title: Nano Banana 2 Lite
-  url: "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything"
-  date: 2026-06-30
-  source: Simon Willison
-  category: ai
 - title: "Summary of reading: April - June 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
   date: 2026-06-30
@@ -96,11 +101,6 @@
 - title: Illegible benefits
   url: "https://aeon.co/essays/what-we-cant-measure-about-ai-yet"
   date: 2026-06-30
-  source: Aeon
-  category: philosophy
-- title: Timelapse of the Universe
-  url: "https://aeon.co/videos/the-13-billion-years-that-led-to-us-a-cosmological-timelapse"
-  date: 2026-06-29
   source: Aeon
   category: philosophy
 - title: "Scaling Laws, Carefully"
