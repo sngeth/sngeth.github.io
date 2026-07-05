@@ -1,48 +1,38 @@
+- title: "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
+  url: "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
+  date: 2026-07-05
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.0rc2
+  url: "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything"
+  date: 2026-07-05
+  source: Simon Willison
+  category: ai
+- title: Building a World Map with only 500 bytes
+  url: "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything"
+  date: 2026-07-04
+  source: Simon Willison
+  category: ai
+- title: "Better Models: Worse Tools"
+  url: "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything"
+  date: 2026-07-04
+  source: Simon Willison
+  category: ai
+- title: "The Pain in You and the God in You: Carl Jung on the Relationship Between Psychological Suffering and Creativity"
+  url: "https://www.themarginalian.org/2026/07/04/carl-jung-neurosis-creativity/"
+  date: 2026-07-04
+  source: The Marginalian
+  category: philosophy
+- title: "The Art of Losing and the Art of Beckoning Love Back: The Story Behind One of the Greatest Poems Ever Written"
+  url: "https://www.themarginalian.org/2026/07/03/one-art/"
+  date: 2026-07-04
+  source: The Marginalian
+  category: philosophy
 - title: Open Source AI Gap Map
   url: "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything"
   date: 2026-07-03
   source: Simon Willison
   category: ai
-- title: Quoting Josh W. Comeau
-  url: "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything"
-  date: 2026-07-03
-  source: Simon Willison
-  category: ai
-- title: "Fable's judgement"
-  url: "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything"
-  date: 2026-07-03
-  source: Simon Willison
-  category: ai
-- title: June 2026 newsletter
-  url: "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything"
-  date: 2026-07-03
-  source: Simon Willison
-  category: ai
-- title: Espionage Against the European Parliament
-  url: "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/"
-  date: 2026-07-03
-  source: Hacker News Best
-  category: programming
-- title: "60% Fable cost cut by converting code to images and having the model OCR it"
-  url: "https://github.com/teamchong/pxpipe"
-  date: 2026-07-03
-  source: Hacker News Best
-  category: programming
-- title: Costco is the anti-Amazon
-  url: "https://phenomenalworld.org/analysis/the-anti-amazon/"
-  date: 2026-07-03
-  source: Hacker News Best
-  category: programming
-- title: Factories are just rooms
-  url: "https://interconnected.org/home/2026/07/03/factories"
-  date: 2026-07-03
-  source: Hacker News Best
-  category: programming
-- title: "Jamesob's guide to running SOTA LLMs locally"
-  url: "https://github.com/jamesob/local-llm"
-  date: 2026-07-03
-  source: Hacker News Best
-  category: programming
 - title: Abyss
   url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
   date: 2026-07-03
@@ -53,11 +43,6 @@
   date: 2026-07-03
   source: The Marginalian
   category: philosophy
-- title: llm-coding-agent 0.1a0
-  url: "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything"
-  date: 2026-07-02
-  source: Simon Willison
-  category: ai
 - title: "Karl Hess: toward liberty"
   url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
   date: 2026-07-02
@@ -80,16 +65,6 @@
   category: philosophy
 - title: The Violinist Who Solved the Ancient Riddle of How the World Holds Together
   url: "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal/"
-  date: 2026-07-01
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be Un-Dead: Anaïs Nin and D.H. Lawrence on the Key to Living Fully"
-  url: "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence/"
-  date: 2026-07-01
-  source: The Marginalian
-  category: philosophy
-- title: Tolkien Reads from “The Hobbit” in Rare Archival Audio from His First Encounter with a Tape Recorder
-  url: "https://www.themarginalian.org/2026/07/01/tolkien-reads-from-the-hobbit/"
   date: 2026-07-01
   source: The Marginalian
   category: philosophy
