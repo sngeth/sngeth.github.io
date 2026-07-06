@@ -1,3 +1,18 @@
+- title: sqlite-utils 4.0rc3
+  url: "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything"
+  date: 2026-07-06
+  source: Simon Willison
+  category: ai
+- title: GPT-5.6 Sol Ultra will be in Codex
+  url: "https://twitter.com/thsottiaux/status/2073933490513752151"
+  date: 2026-07-06
+  source: Hacker News Best
+  category: programming
+- title: "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills"
+  url: "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt"
+  date: 2026-07-06
+  source: Hacker News Best
+  category: programming
 - title: "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
   url: "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
   date: 2026-07-05
@@ -8,6 +23,26 @@
   date: 2026-07-05
   source: Simon Willison
   category: ai
+- title: Has_not_been_viewed_much
+  url: "https://iamwillwang.com/notes/has-not-been-viewed-much/"
+  date: 2026-07-05
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Homegames. An open-source game platform I've been making for 8 years"
+  url: "https://homegames.io"
+  date: 2026-07-05
+  source: Hacker News Best
+  category: programming
+- title: Completing a computer science degree on Coursera
+  url: "https://notesbylex.com/completing-a-computer-science-degree-on-coursera"
+  date: 2026-07-05
+  source: Hacker News Best
+  category: programming
+- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
+  url: "https://www.themarginalian.org/2026/07/05/e-e-cummings-advice/"
+  date: 2026-07-05
+  source: The Marginalian
+  category: philosophy
 - title: Building a World Map with only 500 bytes
   url: "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything"
   date: 2026-07-04
@@ -28,11 +63,6 @@
   date: 2026-07-04
   source: The Marginalian
   category: philosophy
-- title: Open Source AI Gap Map
-  url: "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything"
-  date: 2026-07-03
-  source: Simon Willison
-  category: ai
 - title: Abyss
   url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
   date: 2026-07-03
@@ -62,11 +92,6 @@
   url: "https://aeon.co/videos/in-noguchis-unrealised-playgrounds-art-and-life-are-inseparable"
   date: 2026-07-01
   source: Aeon
-  category: philosophy
-- title: The Violinist Who Solved the Ancient Riddle of How the World Holds Together
-  url: "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal/"
-  date: 2026-07-01
-  source: The Marginalian
   category: philosophy
 - title: "Summary of reading: April - June 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
