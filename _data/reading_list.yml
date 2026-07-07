@@ -1,18 +1,43 @@
+- title: tencent/Hy3
+  url: "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything"
+  date: 2026-07-06
+  source: Simon Willison
+  category: ai
 - title: sqlite-utils 4.0rc3
   url: "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything"
   date: 2026-07-06
   source: Simon Willison
   category: ai
-- title: GPT-5.6 Sol Ultra will be in Codex
-  url: "https://twitter.com/thsottiaux/status/2073933490513752151"
+- title: Begone dull care
+  url: "https://aeon.co/videos/jazz-and-innovative-animation-form-a-sensory-swirl-in-this-1949-short"
   date: 2026-07-06
-  source: Hacker News Best
-  category: programming
-- title: "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills"
-  url: "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt"
+  source: Aeon
+  category: philosophy
+- title: Skill nostalgia
+  url: "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
   date: 2026-07-06
-  source: Hacker News Best
-  category: programming
+  source: Aeon
+  category: philosophy
+- title: Thich Nhat Hanh on the Art of Deep Listening and the 3 Buddhist Steps to Repairing a Relationship
+  url: "https://www.themarginalian.org/2026/07/06/thich-nhat-hanh-listening-love/"
+  date: 2026-07-06
+  source: The Marginalian
+  category: philosophy
+- title: Hermann Hesse on How to Read a Book and How to Read Yourself
+  url: "https://www.themarginalian.org/2026/07/06/hermann-hesse-books-poem/"
+  date: 2026-07-06
+  source: The Marginalian
+  category: philosophy
+- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
+  url: "https://www.themarginalian.org/2026/07/05/e-e-cummings-advice/"
+  date: 2026-07-06
+  source: The Marginalian
+  category: philosophy
+- title: "Storytelling and the Art of Tenderness: Olga Tokarczuk’s Magnificent Nobel Prize Acceptance Speech"
+  url: "https://www.themarginalian.org/2026/07/05/tenderness-olga-tokarczuk-nobel-prize/"
+  date: 2026-07-06
+  source: The Marginalian
+  category: philosophy
 - title: "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
   url: "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
   date: 2026-07-05
@@ -23,55 +48,30 @@
   date: 2026-07-05
   source: Simon Willison
   category: ai
-- title: Has_not_been_viewed_much
-  url: "https://iamwillwang.com/notes/has-not-been-viewed-much/"
-  date: 2026-07-05
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Homegames. An open-source game platform I've been making for 8 years"
-  url: "https://homegames.io"
-  date: 2026-07-05
-  source: Hacker News Best
-  category: programming
-- title: Completing a computer science degree on Coursera
-  url: "https://notesbylex.com/completing-a-computer-science-degree-on-coursera"
-  date: 2026-07-05
-  source: Hacker News Best
-  category: programming
-- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
-  url: "https://www.themarginalian.org/2026/07/05/e-e-cummings-advice/"
-  date: 2026-07-05
-  source: The Marginalian
-  category: philosophy
 - title: Building a World Map with only 500 bytes
   url: "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything"
   date: 2026-07-04
   source: Simon Willison
   category: ai
-- title: "Better Models: Worse Tools"
-  url: "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything"
+- title: Harness Engineering for Self-Improvement
+  url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
   date: 2026-07-04
-  source: Simon Willison
+  source: Lilian Weng
   category: ai
 - title: "The Pain in You and the God in You: Carl Jung on the Relationship Between Psychological Suffering and Creativity"
   url: "https://www.themarginalian.org/2026/07/04/carl-jung-neurosis-creativity/"
   date: 2026-07-04
   source: The Marginalian
   category: philosophy
-- title: "The Art of Losing and the Art of Beckoning Love Back: The Story Behind One of the Greatest Poems Ever Written"
-  url: "https://www.themarginalian.org/2026/07/03/one-art/"
-  date: 2026-07-04
-  source: The Marginalian
-  category: philosophy
+- title: "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island"
+  url: "https://danluu.com/ai-coding/"
+  date: 2026-07-03
+  source: Dan Luu
+  category: programming
 - title: Abyss
   url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
   date: 2026-07-03
   source: Aeon
-  category: philosophy
-- title: "No One You Love Is Ever Dead: Hemingway on the Most Devastating of Losses and the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/07/03/hemingway-loss-letter/"
-  date: 2026-07-03
-  source: The Marginalian
   category: philosophy
 - title: "Karl Hess: toward liberty"
   url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
@@ -83,26 +83,11 @@
   date: 2026-07-02
   source: Aeon
   category: philosophy
-- title: "Hermann Hesse on Solitude, the Value of Hardship, the Courage to Be Yourself, and How to Find Your Destiny"
-  url: "https://www.themarginalian.org/2026/07/02/hermann-hesse-solitude-suffering-destiny/"
-  date: 2026-07-02
-  source: The Marginalian
-  category: philosophy
-- title: Noguchi’s New York animations
-  url: "https://aeon.co/videos/in-noguchis-unrealised-playgrounds-art-and-life-are-inseparable"
-  date: 2026-07-01
-  source: Aeon
-  category: philosophy
 - title: "Summary of reading: April - June 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
   date: 2026-06-30
   source: Eli Bendersky
   category: programming
-- title: Illegible benefits
-  url: "https://aeon.co/essays/what-we-cant-measure-about-ai-yet"
-  date: 2026-06-30
-  source: Aeon
-  category: philosophy
 - title: "Scaling Laws, Carefully"
   url: "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
   date: 2026-06-24
@@ -238,38 +223,3 @@
   date: 2024-05-26
   source: Dan Luu
   category: programming
-- title: Diffusion Models for Video Generation
-  url: "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/"
-  date: 2024-04-12
-  source: Lilian Weng
-  category: ai
-- title: How web bloat impacts users with slow devices
-  url: "https://danluu.com/slow-device/"
-  date: 2024-03-16
-  source: Dan Luu
-  category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
