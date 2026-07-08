@@ -1,13 +1,68 @@
-- title: tencent/Hy3
-  url: "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything"
-  date: 2026-07-06
+- title: "sqlite-utils 4.0, now with database schema migrations"
+  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything"
+  date: 2026-07-07
   source: Simon Willison
   category: ai
-- title: sqlite-utils 4.0rc3
-  url: "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything"
-  date: 2026-07-06
+- title: sqlite-migrate 0.2
+  url: "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything"
+  date: 2026-07-07
   source: Simon Willison
   category: ai
+- title: github-code Web Component
+  url: "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"
+  date: 2026-07-07
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.0
+  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything"
+  date: 2026-07-07
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.0rc4
+  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything"
+  date: 2026-07-07
+  source: Simon Willison
+  category: ai
+- title: Every new car sold in the European Union must include a driver monitoring camera
+  url: "https://allaboutcookies.org/eu-mandatory-distracted-driver-system"
+  date: 2026-07-07
+  source: Hacker News Best
+  category: programming
+- title: We charge $10k a week to delete AI-generated code
+  url: "https://odra.dev/slopfix/"
+  date: 2026-07-07
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Davit, a Apple Containers UI"
+  url: "https://davit.app"
+  date: 2026-07-07
+  source: Hacker News Best
+  category: programming
+- title: "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro"
+  url: "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/"
+  date: 2026-07-07
+  source: Hacker News Best
+  category: programming
+- title: China sentences official to death for taking $325M in bribes
+  url: "https://www.bbc.com/news/articles/c33y0n1v1xjo"
+  date: 2026-07-07
+  source: Hacker News Best
+  category: programming
+- title: ‘The emperor is far away’
+  url: "https://aeon.co/essays/how-little-we-really-know-of-the-mighty-ming-dynasty"
+  date: 2026-07-07
+  source: Aeon
+  category: philosophy
+- title: "Love After Life: Nobel-Winning Physicist Richard Feynman’s Extraordinary Letter to His Departed Wife"
+  url: "https://www.themarginalian.org/2026/07/07/richard-feynman-arline-letter/"
+  date: 2026-07-07
+  source: The Marginalian
+  category: philosophy
+- title: The Souls of Animals
+  url: "https://www.themarginalian.org/2026/07/07/the-souls-of-animals/"
+  date: 2026-07-07
+  source: The Marginalian
+  category: philosophy
 - title: Begone dull care
   url: "https://aeon.co/videos/jazz-and-innovative-animation-form-a-sensory-swirl-in-this-1949-short"
   date: 2026-07-06
@@ -33,41 +88,11 @@
   date: 2026-07-06
   source: The Marginalian
   category: philosophy
-- title: "Storytelling and the Art of Tenderness: Olga Tokarczuk’s Magnificent Nobel Prize Acceptance Speech"
-  url: "https://www.themarginalian.org/2026/07/05/tenderness-olga-tokarczuk-nobel-prize/"
-  date: 2026-07-06
-  source: The Marginalian
-  category: philosophy
-- title: "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
-  url: "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
-  date: 2026-07-05
-  source: Simon Willison
-  category: ai
-- title: sqlite-utils 4.0rc2
-  url: "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything"
-  date: 2026-07-05
-  source: Simon Willison
-  category: ai
-- title: Building a World Map with only 500 bytes
-  url: "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything"
-  date: 2026-07-04
-  source: Simon Willison
-  category: ai
 - title: Harness Engineering for Self-Improvement
   url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
   date: 2026-07-04
   source: Lilian Weng
   category: ai
-- title: "The Pain in You and the God in You: Carl Jung on the Relationship Between Psychological Suffering and Creativity"
-  url: "https://www.themarginalian.org/2026/07/04/carl-jung-neurosis-creativity/"
-  date: 2026-07-04
-  source: The Marginalian
-  category: philosophy
-- title: "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island"
-  url: "https://danluu.com/ai-coding/"
-  date: 2026-07-03
-  source: Dan Luu
-  category: programming
 - title: Abyss
   url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
   date: 2026-07-03
@@ -75,11 +100,6 @@
   category: philosophy
 - title: "Karl Hess: toward liberty"
   url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
-  date: 2026-07-02
-  source: Aeon
-  category: philosophy
-- title: The anguish of choice
-  url: "https://aeon.co/essays/re-reading-sartres-lecture-existentialism-is-a-humanism"
   date: 2026-07-02
   source: Aeon
   category: philosophy
@@ -223,3 +243,33 @@
   date: 2024-05-26
   source: Dan Luu
   category: programming
+- title: How web bloat impacts users with slow devices
+  url: "https://danluu.com/slow-device/"
+  date: 2024-03-16
+  source: Dan Luu
+  category: programming
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
