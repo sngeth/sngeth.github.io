@@ -1,3 +1,63 @@
+- title: I think I have LLM burnout
+  url: "https://www.alecscollon.com/blog/llm-burnout/"
+  date: 2026-07-09
+  source: Hacker News Best
+  category: programming
+- title: Rewriting Bun in Rust
+  url: "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything"
+  date: 2026-07-08
+  source: Simon Willison
+  category: ai
+- title: Introducing GPT‑Live
+  url: "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
+  date: 2026-07-08
+  source: Simon Willison
+  category: ai
+- title: Quoting Kenton Varda
+  url: "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything"
+  date: 2026-07-08
+  source: Simon Willison
+  category: ai
+- title: John Deere owners will get the right to repair equipment under FTC settlement
+  url: "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02"
+  date: 2026-07-08
+  source: Hacker News Best
+  category: programming
+- title: Rewriting Bun in Rust
+  url: "https://bun.com/blog/bun-in-rust"
+  date: 2026-07-08
+  source: Hacker News Best
+  category: programming
+- title: FAANG Simulator
+  url: "https://www.abeyk.com/escape-the-rat-race/"
+  date: 2026-07-08
+  source: Hacker News Best
+  category: programming
+- title: Cloudflare Drop
+  url: "https://www.cloudflare.com/drop/"
+  date: 2026-07-08
+  source: Hacker News Best
+  category: programming
+- title: Sangre violenta / sangre violeta
+  url: "https://aeon.co/videos/on-the-ground-with-the-voices-fighting-femicide-in-mexico"
+  date: 2026-07-08
+  source: Aeon
+  category: philosophy
+- title: The Power of a Thin Skin
+  url: "https://www.themarginalian.org/2026/07/08/jenn-shapland-thin-skin/"
+  date: 2026-07-08
+  source: The Marginalian
+  category: philosophy
+- title: "Nature and Creativity: The Science of “Soft Fascination” and How the Natural World Resets the Brain"
+  url: "https://www.themarginalian.org/2026/07/08/default-mode-network-awe-soft-fascination/"
+  date: 2026-07-08
+  source: The Marginalian
+  category: philosophy
+- title: "20 Ways of Surfacing from the Blues: Sydney Smith’s 200-year-old Strategies for Raising Low Spirits in a Letter of Advice to a 13-year-old Girl"
+  url: "https://www.themarginalian.org/2026/07/07/sydney-smith-low-spirits/"
+  date: 2026-07-08
+  source: The Marginalian
+  category: philosophy
 - title: "sqlite-utils 4.0, now with database schema migrations"
   url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything"
   date: 2026-07-07
@@ -8,46 +68,6 @@
   date: 2026-07-07
   source: Simon Willison
   category: ai
-- title: github-code Web Component
-  url: "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"
-  date: 2026-07-07
-  source: Simon Willison
-  category: ai
-- title: sqlite-utils 4.0
-  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything"
-  date: 2026-07-07
-  source: Simon Willison
-  category: ai
-- title: sqlite-utils 4.0rc4
-  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything"
-  date: 2026-07-07
-  source: Simon Willison
-  category: ai
-- title: Every new car sold in the European Union must include a driver monitoring camera
-  url: "https://allaboutcookies.org/eu-mandatory-distracted-driver-system"
-  date: 2026-07-07
-  source: Hacker News Best
-  category: programming
-- title: We charge $10k a week to delete AI-generated code
-  url: "https://odra.dev/slopfix/"
-  date: 2026-07-07
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Davit, a Apple Containers UI"
-  url: "https://davit.app"
-  date: 2026-07-07
-  source: Hacker News Best
-  category: programming
-- title: "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro"
-  url: "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/"
-  date: 2026-07-07
-  source: Hacker News Best
-  category: programming
-- title: China sentences official to death for taking $325M in bribes
-  url: "https://www.bbc.com/news/articles/c33y0n1v1xjo"
-  date: 2026-07-07
-  source: Hacker News Best
-  category: programming
 - title: ‘The emperor is far away’
   url: "https://aeon.co/essays/how-little-we-really-know-of-the-mighty-ming-dynasty"
   date: 2026-07-07
@@ -73,34 +93,19 @@
   date: 2026-07-06
   source: Aeon
   category: philosophy
-- title: Thich Nhat Hanh on the Art of Deep Listening and the 3 Buddhist Steps to Repairing a Relationship
-  url: "https://www.themarginalian.org/2026/07/06/thich-nhat-hanh-listening-love/"
-  date: 2026-07-06
-  source: The Marginalian
-  category: philosophy
-- title: Hermann Hesse on How to Read a Book and How to Read Yourself
-  url: "https://www.themarginalian.org/2026/07/06/hermann-hesse-books-poem/"
-  date: 2026-07-06
-  source: The Marginalian
-  category: philosophy
-- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
-  url: "https://www.themarginalian.org/2026/07/05/e-e-cummings-advice/"
-  date: 2026-07-06
-  source: The Marginalian
-  category: philosophy
 - title: Harness Engineering for Self-Improvement
   url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
   date: 2026-07-04
   source: Lilian Weng
   category: ai
+- title: "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island"
+  url: "https://danluu.com/ai-coding/"
+  date: 2026-07-03
+  source: Dan Luu
+  category: programming
 - title: Abyss
   url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
   date: 2026-07-03
-  source: Aeon
-  category: philosophy
-- title: "Karl Hess: toward liberty"
-  url: "https://aeon.co/videos/a-republican-speechwriter-turned-welders-radical-gospel-of-localism"
-  date: 2026-07-02
   source: Aeon
   category: philosophy
 - title: "Summary of reading: April - June 2026"
@@ -241,11 +246,6 @@
 - title: What the FTC got wrong in the Google antitrust investigation
   url: "https://danluu.com/ftc-google-antitrust/"
   date: 2024-05-26
-  source: Dan Luu
-  category: programming
-- title: How web bloat impacts users with slow devices
-  url: "https://danluu.com/slow-device/"
-  date: 2024-03-16
   source: Dan Luu
   category: programming
 - title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
