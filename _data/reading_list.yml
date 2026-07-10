@@ -1,43 +1,73 @@
-- title: I think I have LLM burnout
-  url: "https://www.alecscollon.com/blog/llm-burnout/"
+- title: Quoting OpenAI
+  url: "https://simonwillison.net/2026/Jul/10/openai/#atom-everything"
+  date: 2026-07-10
+  source: Simon Willison
+  category: ai
+- title: "The new GPT-5.6 family: Luna, Terra, Sol"
+  url: "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything"
+  date: 2026-07-09
+  source: Simon Willison
+  category: ai
+- title: Introducing Muse Spark 1.1
+  url: "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything"
+  date: 2026-07-09
+  source: Simon Willison
+  category: ai
+- title: llm-meta-ai 0.1
+  url: "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything"
+  date: 2026-07-09
+  source: Simon Willison
+  category: ai
+- title: llm 0.31.1
+  url: "https://simonwillison.net/2026/Jul/9/llm/#atom-everything"
+  date: 2026-07-09
+  source: Simon Willison
+  category: ai
+- title: GPT-5.6
+  url: "https://openai.com/index/gpt-5-6/"
   date: 2026-07-09
   source: Hacker News Best
   category: programming
-- title: Rewriting Bun in Rust
-  url: "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything"
-  date: 2026-07-08
-  source: Simon Willison
-  category: ai
-- title: Introducing GPT‑Live
-  url: "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
-  date: 2026-07-08
-  source: Simon Willison
-  category: ai
-- title: Quoting Kenton Varda
-  url: "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything"
-  date: 2026-07-08
-  source: Simon Willison
-  category: ai
-- title: John Deere owners will get the right to repair equipment under FTC settlement
-  url: "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02"
-  date: 2026-07-08
+- title: ChatGPT Work
+  url: "https://openai.com/index/chatgpt-for-your-most-ambitious-work/"
+  date: 2026-07-09
   source: Hacker News Best
   category: programming
-- title: Rewriting Bun in Rust
-  url: "https://bun.com/blog/bun-in-rust"
-  date: 2026-07-08
+- title: Hy3
+  url: "https://hy.tencent.com/research/hy3"
+  date: 2026-07-09
   source: Hacker News Best
   category: programming
-- title: FAANG Simulator
-  url: "https://www.abeyk.com/escape-the-rat-race/"
-  date: 2026-07-08
+- title: A possible future for Damn Interesting
+  url: "https://www.damninteresting.com/a-possible-future/"
+  date: 2026-07-09
   source: Hacker News Best
   category: programming
-- title: Cloudflare Drop
-  url: "https://www.cloudflare.com/drop/"
-  date: 2026-07-08
+- title: No leap second will be introduced at the end of December 2026
+  url: "https://datacenter.iers.org/data/latestVersion/bulletinC.txt"
+  date: 2026-07-09
   source: Hacker News Best
   category: programming
+- title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
+  url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
+  date: 2026-07-09
+  source: Aeon
+  category: philosophy
+- title: How to offset your brain
+  url: "https://aeon.co/essays/can-mindfulness-help-you-overcome-your-cognitive-biases"
+  date: 2026-07-09
+  source: Aeon
+  category: philosophy
+- title: "The Healing Power of Gardens: Oliver Sacks on the Psychological and Physiological Consolations of Nature"
+  url: "https://www.themarginalian.org/2026/07/09/oliver-sacks-gardens/"
+  date: 2026-07-09
+  source: The Marginalian
+  category: philosophy
+- title: 3 Kinds of Loneliness and 4 Kinds of Forever
+  url: "https://www.themarginalian.org/2026/07/09/loneliness-forever/"
+  date: 2026-07-09
+  source: The Marginalian
+  category: philosophy
 - title: Sangre violenta / sangre violeta
   url: "https://aeon.co/videos/on-the-ground-with-the-voices-fighting-femicide-in-mexico"
   date: 2026-07-08
@@ -58,38 +88,13 @@
   date: 2026-07-08
   source: The Marginalian
   category: philosophy
-- title: "sqlite-utils 4.0, now with database schema migrations"
-  url: "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything"
-  date: 2026-07-07
-  source: Simon Willison
-  category: ai
-- title: sqlite-migrate 0.2
-  url: "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything"
-  date: 2026-07-07
-  source: Simon Willison
-  category: ai
 - title: ‘The emperor is far away’
   url: "https://aeon.co/essays/how-little-we-really-know-of-the-mighty-ming-dynasty"
   date: 2026-07-07
   source: Aeon
   category: philosophy
-- title: "Love After Life: Nobel-Winning Physicist Richard Feynman’s Extraordinary Letter to His Departed Wife"
-  url: "https://www.themarginalian.org/2026/07/07/richard-feynman-arline-letter/"
-  date: 2026-07-07
-  source: The Marginalian
-  category: philosophy
-- title: The Souls of Animals
-  url: "https://www.themarginalian.org/2026/07/07/the-souls-of-animals/"
-  date: 2026-07-07
-  source: The Marginalian
-  category: philosophy
 - title: Begone dull care
   url: "https://aeon.co/videos/jazz-and-innovative-animation-form-a-sensory-swirl-in-this-1949-short"
-  date: 2026-07-06
-  source: Aeon
-  category: philosophy
-- title: Skill nostalgia
-  url: "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
   date: 2026-07-06
   source: Aeon
   category: philosophy
@@ -103,11 +108,6 @@
   date: 2026-07-03
   source: Dan Luu
   category: programming
-- title: Abyss
-  url: "https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss"
-  date: 2026-07-03
-  source: Aeon
-  category: philosophy
 - title: "Summary of reading: April - June 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
   date: 2026-06-30
@@ -248,28 +248,3 @@
   date: 2024-05-26
   source: Dan Luu
   category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
