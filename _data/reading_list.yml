@@ -1,8 +1,63 @@
+- title: Quoting Nilay Patel
+  url: "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
+  date: 2026-07-10
+  source: Simon Willison
+  category: ai
 - title: Quoting OpenAI
   url: "https://simonwillison.net/2026/Jul/10/openai/#atom-everything"
   date: 2026-07-10
   source: Simon Willison
   category: ai
+- title: "Dot product: Component vs. Geometric definition"
+  url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
+  date: 2026-07-10
+  source: Eli Bendersky
+  category: programming
+- title: "Apple sues OpenAI, accuses ex-employees of stealing trade secrets"
+  url: "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/"
+  date: 2026-07-10
+  source: Hacker News Best
+  category: programming
+- title: "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]"
+  url: "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"
+  date: 2026-07-10
+  source: Hacker News Best
+  category: programming
+- title: New York City to ban deceptive subscription practices
+  url: "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban"
+  date: 2026-07-10
+  source: Hacker News Best
+  category: programming
+- title: QuadRF can spot drones and see WiFi through my wall
+  url: "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/"
+  date: 2026-07-10
+  source: Hacker News Best
+  category: programming
+- title: Write code like a human will maintain it
+  url: "https://unstack.io/write-code-like-a-human-will-maintain-it"
+  date: 2026-07-10
+  source: Hacker News Best
+  category: programming
+- title: Lore of the rings
+  url: "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings"
+  date: 2026-07-10
+  source: Aeon
+  category: philosophy
+- title: "The Art of Dignity Beyond Pride: How to Move Through Heartbreak Like Frida Kahlo"
+  url: "https://www.themarginalian.org/2026/07/10/frida-kahlo-nickolas-muray-letters/"
+  date: 2026-07-10
+  source: The Marginalian
+  category: philosophy
+- title: Nick Cave on the Antidote to Our Existential Helplessness
+  url: "https://www.themarginalian.org/2026/07/10/nick-cave-helplessness-power/"
+  date: 2026-07-10
+  source: The Marginalian
+  category: philosophy
+- title: But We Had Music
+  url: "https://www.themarginalian.org/2026/07/10/but-we-had-music/"
+  date: 2026-07-10
+  source: The Marginalian
+  category: philosophy
 - title: "The new GPT-5.6 family: Luna, Terra, Sol"
   url: "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything"
   date: 2026-07-09
@@ -18,36 +73,6 @@
   date: 2026-07-09
   source: Simon Willison
   category: ai
-- title: llm 0.31.1
-  url: "https://simonwillison.net/2026/Jul/9/llm/#atom-everything"
-  date: 2026-07-09
-  source: Simon Willison
-  category: ai
-- title: GPT-5.6
-  url: "https://openai.com/index/gpt-5-6/"
-  date: 2026-07-09
-  source: Hacker News Best
-  category: programming
-- title: ChatGPT Work
-  url: "https://openai.com/index/chatgpt-for-your-most-ambitious-work/"
-  date: 2026-07-09
-  source: Hacker News Best
-  category: programming
-- title: Hy3
-  url: "https://hy.tencent.com/research/hy3"
-  date: 2026-07-09
-  source: Hacker News Best
-  category: programming
-- title: A possible future for Damn Interesting
-  url: "https://www.damninteresting.com/a-possible-future/"
-  date: 2026-07-09
-  source: Hacker News Best
-  category: programming
-- title: No leap second will be introduced at the end of December 2026
-  url: "https://datacenter.iers.org/data/latestVersion/bulletinC.txt"
-  date: 2026-07-09
-  source: Hacker News Best
-  category: programming
 - title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
   url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
   date: 2026-07-09
@@ -73,29 +98,9 @@
   date: 2026-07-08
   source: Aeon
   category: philosophy
-- title: The Power of a Thin Skin
-  url: "https://www.themarginalian.org/2026/07/08/jenn-shapland-thin-skin/"
-  date: 2026-07-08
-  source: The Marginalian
-  category: philosophy
-- title: "Nature and Creativity: The Science of “Soft Fascination” and How the Natural World Resets the Brain"
-  url: "https://www.themarginalian.org/2026/07/08/default-mode-network-awe-soft-fascination/"
-  date: 2026-07-08
-  source: The Marginalian
-  category: philosophy
-- title: "20 Ways of Surfacing from the Blues: Sydney Smith’s 200-year-old Strategies for Raising Low Spirits in a Letter of Advice to a 13-year-old Girl"
-  url: "https://www.themarginalian.org/2026/07/07/sydney-smith-low-spirits/"
-  date: 2026-07-08
-  source: The Marginalian
-  category: philosophy
 - title: ‘The emperor is far away’
   url: "https://aeon.co/essays/how-little-we-really-know-of-the-mighty-ming-dynasty"
   date: 2026-07-07
-  source: Aeon
-  category: philosophy
-- title: Begone dull care
-  url: "https://aeon.co/videos/jazz-and-innovative-animation-form-a-sensory-swirl-in-this-1949-short"
-  date: 2026-07-06
   source: Aeon
   category: philosophy
 - title: Harness Engineering for Self-Improvement
@@ -123,11 +128,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -153,16 +153,6 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Scaling, stretching and shifting sinusoids"
-  url: "https://eli.thegreenplace.net/2026/scaling-stretching-and-shifting-sinusoids/"
-  date: 2026-05-02
-  source: Eli Bendersky
-  category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -178,21 +168,6 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
