@@ -1,3 +1,43 @@
+- title: "What xAI's Grok Build CLI Actually Sends to xAI"
+  url: "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547"
+  date: 2026-07-12
+  source: Hacker News Best
+  category: programming
+- title: Do Not Spare Yourself
+  url: "https://www.themarginalian.org/2026/07/12/no-te-salves/"
+  date: 2026-07-12
+  source: The Marginalian
+  category: philosophy
+- title: sqlite-utils 4.1
+  url: "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything"
+  date: 2026-07-11
+  source: Simon Willison
+  category: ai
+- title: "Mesh LLM: distributed AI computing on iroh"
+  url: "https://www.iroh.computer/blog/mesh-llm"
+  date: 2026-07-11
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Ant – A JavaScript runtime and ecosystem"
+  url: "https://antjs.org"
+  date: 2026-07-11
+  source: Hacker News Best
+  category: programming
+- title: AI 2040 and the cult of intelligence
+  url: "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html"
+  date: 2026-07-11
+  source: Hacker News Best
+  category: programming
+- title: Prefer strict tables in SQLite
+  url: "https://evanhahn.com/prefer-strict-tables-in-sqlite/"
+  date: 2026-07-11
+  source: Hacker News Best
+  category: programming
+- title: "Is There a God? Stephen Hawking Gives the Definitive Answer to the Eternal Question"
+  url: "https://www.themarginalian.org/2026/07/11/stephen-hawking-brief-answers-to-the-big-questions/"
+  date: 2026-07-11
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Nilay Patel
   url: "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
   date: 2026-07-10
@@ -12,31 +52,6 @@
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
   source: Eli Bendersky
-  category: programming
-- title: "Apple sues OpenAI, accuses ex-employees of stealing trade secrets"
-  url: "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/"
-  date: 2026-07-10
-  source: Hacker News Best
-  category: programming
-- title: "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]"
-  url: "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"
-  date: 2026-07-10
-  source: Hacker News Best
-  category: programming
-- title: New York City to ban deceptive subscription practices
-  url: "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban"
-  date: 2026-07-10
-  source: Hacker News Best
-  category: programming
-- title: QuadRF can spot drones and see WiFi through my wall
-  url: "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/"
-  date: 2026-07-10
-  source: Hacker News Best
-  category: programming
-- title: Write code like a human will maintain it
-  url: "https://unstack.io/write-code-like-a-human-will-maintain-it"
-  date: 2026-07-10
-  source: Hacker News Best
   category: programming
 - title: Lore of the rings
   url: "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings"
@@ -68,11 +83,6 @@
   date: 2026-07-09
   source: Simon Willison
   category: ai
-- title: llm-meta-ai 0.1
-  url: "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything"
-  date: 2026-07-09
-  source: Simon Willison
-  category: ai
 - title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
   url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
   date: 2026-07-09
@@ -82,16 +92,6 @@
   url: "https://aeon.co/essays/can-mindfulness-help-you-overcome-your-cognitive-biases"
   date: 2026-07-09
   source: Aeon
-  category: philosophy
-- title: "The Healing Power of Gardens: Oliver Sacks on the Psychological and Physiological Consolations of Nature"
-  url: "https://www.themarginalian.org/2026/07/09/oliver-sacks-gardens/"
-  date: 2026-07-09
-  source: The Marginalian
-  category: philosophy
-- title: 3 Kinds of Loneliness and 4 Kinds of Forever
-  url: "https://www.themarginalian.org/2026/07/09/loneliness-forever/"
-  date: 2026-07-09
-  source: The Marginalian
   category: philosophy
 - title: Sangre violenta / sangre violeta
   url: "https://aeon.co/videos/on-the-ground-with-the-voices-fighting-femicide-in-mexico"
@@ -128,6 +128,11 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -153,6 +158,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -168,6 +178,21 @@
   date: 2026-02-18
   source: Julia Evans
   category: programming
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-05-26
   source: Dan Luu
   category: programming
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
