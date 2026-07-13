@@ -1,5 +1,55 @@
-- title: "What xAI's Grok Build CLI Actually Sends to xAI"
-  url: "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547"
+- title: Count Binface
+  url: "https://countbinface.com"
+  date: 2026-07-13
+  source: Hacker News Best
+  category: programming
+- title: "Ask HN: Add flag for AI-generated articles"
+  url: "https://news.ycombinator.com/item?id=48886741"
+  date: 2026-07-13
+  source: Hacker News Best
+  category: programming
+- title: The 12 Kinds of Time and How to Be More Fully Alive
+  url: "https://www.themarginalian.org/2026/07/12/chronodiversity/"
+  date: 2026-07-13
+  source: The Marginalian
+  category: philosophy
+- title: Pythagoras on the Purpose of Life and the Meaning of Wisdom
+  url: "https://www.themarginalian.org/2026/07/12/pythagoras-olympic-games/"
+  date: 2026-07-13
+  source: The Marginalian
+  category: philosophy
+- title: Directly Responsible Individuals (DRI)
+  url: "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything"
+  date: 2026-07-12
+  source: Simon Willison
+  category: ai
+- title: shot-scraper 1.11
+  url: "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything"
+  date: 2026-07-12
+  source: Simon Willison
+  category: ai
+- title: Fable gets another bump
+  url: "https://simonwillison.net/2026/Jul/12/bump/#atom-everything"
+  date: 2026-07-12
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.1.1
+  url: "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything"
+  date: 2026-07-12
+  source: Simon Willison
+  category: ai
+- title: "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS"
+  url: "https://scrapfly.dev/posts/browser-math-os-fingerprint/"
+  date: 2026-07-12
+  source: Hacker News Best
+  category: programming
+- title: Tiny Emulators
+  url: "https://floooh.github.io/tiny8bit-preview/index.html"
+  date: 2026-07-12
+  source: Hacker News Best
+  category: programming
+- title: "Irish datacenters now guzzle 23% of the country's electricity"
+  url: "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013"
   date: 2026-07-12
   source: Hacker News Best
   category: programming
@@ -13,41 +63,11 @@
   date: 2026-07-11
   source: Simon Willison
   category: ai
-- title: "Mesh LLM: distributed AI computing on iroh"
-  url: "https://www.iroh.computer/blog/mesh-llm"
-  date: 2026-07-11
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Ant – A JavaScript runtime and ecosystem"
-  url: "https://antjs.org"
-  date: 2026-07-11
-  source: Hacker News Best
-  category: programming
-- title: AI 2040 and the cult of intelligence
-  url: "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html"
-  date: 2026-07-11
-  source: Hacker News Best
-  category: programming
-- title: Prefer strict tables in SQLite
-  url: "https://evanhahn.com/prefer-strict-tables-in-sqlite/"
-  date: 2026-07-11
-  source: Hacker News Best
-  category: programming
 - title: "Is There a God? Stephen Hawking Gives the Definitive Answer to the Eternal Question"
   url: "https://www.themarginalian.org/2026/07/11/stephen-hawking-brief-answers-to-the-big-questions/"
   date: 2026-07-11
   source: The Marginalian
   category: philosophy
-- title: Quoting Nilay Patel
-  url: "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
-  date: 2026-07-10
-  source: Simon Willison
-  category: ai
-- title: Quoting OpenAI
-  url: "https://simonwillison.net/2026/Jul/10/openai/#atom-everything"
-  date: 2026-07-10
-  source: Simon Willison
-  category: ai
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
@@ -63,26 +83,6 @@
   date: 2026-07-10
   source: The Marginalian
   category: philosophy
-- title: Nick Cave on the Antidote to Our Existential Helplessness
-  url: "https://www.themarginalian.org/2026/07/10/nick-cave-helplessness-power/"
-  date: 2026-07-10
-  source: The Marginalian
-  category: philosophy
-- title: But We Had Music
-  url: "https://www.themarginalian.org/2026/07/10/but-we-had-music/"
-  date: 2026-07-10
-  source: The Marginalian
-  category: philosophy
-- title: "The new GPT-5.6 family: Luna, Terra, Sol"
-  url: "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything"
-  date: 2026-07-09
-  source: Simon Willison
-  category: ai
-- title: Introducing Muse Spark 1.1
-  url: "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything"
-  date: 2026-07-09
-  source: Simon Willison
-  category: ai
 - title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
   url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
   date: 2026-07-09
