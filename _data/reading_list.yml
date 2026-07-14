@@ -1,13 +1,68 @@
-- title: Count Binface
-  url: "https://countbinface.com"
+- title: Using uvx in GitHub Actions in a cache-friendly way
+  url: "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything"
+  date: 2026-07-14
+  source: Simon Willison
+  category: ai
+- title: "Japan develops a method to recover up to 90% of lithium from used EV batteries"
+  url: "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/"
+  date: 2026-07-14
+  source: Hacker News Best
+  category: programming
+- title: "How to Help Someone Change: The Samurai Guide to Giving Feedback"
+  url: "https://www.themarginalian.org/2026/07/13/tsunetomo-feedback/"
+  date: 2026-07-14
+  source: The Marginalian
+  category: philosophy
+- title: DOOMQL
+  url: "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything"
+  date: 2026-07-13
+  source: Simon Willison
+  category: ai
+- title: datasette code-frequency chart on GitHub
+  url: "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"
+  date: 2026-07-13
+  source: Simon Willison
+  category: ai
+- title: Samsung Health app threatens data deletion if users opt out AI training
+  url: "https://neow.in/cWsyMTV3"
   date: 2026-07-13
   source: Hacker News Best
   category: programming
-- title: "Ask HN: Add flag for AI-generated articles"
-  url: "https://news.ycombinator.com/item?id=48886741"
+- title: Former NOAA employees built Climate.us to preserve climate data and resources
+  url: "https://19thnews.org/2026/07/noaa-climate-data-website/"
   date: 2026-07-13
   source: Hacker News Best
   category: programming
+- title: "Telegram's t.me domain has been suspended"
+  url: "https://www.whois.com/whois/t.me"
+  date: 2026-07-13
+  source: Hacker News Best
+  category: programming
+- title: Building and shipping Mac and iOS apps without opening Xcode
+  url: "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/"
+  date: 2026-07-13
+  source: Hacker News Best
+  category: programming
+- title: Patricia Evangelista on journalism
+  url: "https://aeon.co/videos/a-filipino-journalist-on-the-terrible-privilege-of-bearing-witness"
+  date: 2026-07-13
+  source: Aeon
+  category: philosophy
+- title: Unmothered
+  url: "https://aeon.co/essays/when-my-ties-to-my-mother-faded-so-did-my-memories"
+  date: 2026-07-13
+  source: Aeon
+  category: philosophy
+- title: "How to Grow Old: Bertrand Russell on What Makes a Fulfilling Life"
+  url: "https://www.themarginalian.org/2026/07/13/how-to-grow-old-bertrand-russell/"
+  date: 2026-07-13
+  source: The Marginalian
+  category: philosophy
+- title: "How to Spot and How to Stop a Liar: Hannah Arendt on Deception, Self-Deception, and the Psychology of Defactualization"
+  url: "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt/"
+  date: 2026-07-13
+  source: The Marginalian
+  category: philosophy
 - title: The 12 Kinds of Time and How to Be More Fully Alive
   url: "https://www.themarginalian.org/2026/07/12/chronodiversity/"
   date: 2026-07-13
@@ -28,46 +83,6 @@
   date: 2026-07-12
   source: Simon Willison
   category: ai
-- title: Fable gets another bump
-  url: "https://simonwillison.net/2026/Jul/12/bump/#atom-everything"
-  date: 2026-07-12
-  source: Simon Willison
-  category: ai
-- title: sqlite-utils 4.1.1
-  url: "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything"
-  date: 2026-07-12
-  source: Simon Willison
-  category: ai
-- title: "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS"
-  url: "https://scrapfly.dev/posts/browser-math-os-fingerprint/"
-  date: 2026-07-12
-  source: Hacker News Best
-  category: programming
-- title: Tiny Emulators
-  url: "https://floooh.github.io/tiny8bit-preview/index.html"
-  date: 2026-07-12
-  source: Hacker News Best
-  category: programming
-- title: "Irish datacenters now guzzle 23% of the country's electricity"
-  url: "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013"
-  date: 2026-07-12
-  source: Hacker News Best
-  category: programming
-- title: Do Not Spare Yourself
-  url: "https://www.themarginalian.org/2026/07/12/no-te-salves/"
-  date: 2026-07-12
-  source: The Marginalian
-  category: philosophy
-- title: sqlite-utils 4.1
-  url: "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything"
-  date: 2026-07-11
-  source: Simon Willison
-  category: ai
-- title: "Is There a God? Stephen Hawking Gives the Definitive Answer to the Eternal Question"
-  url: "https://www.themarginalian.org/2026/07/11/stephen-hawking-brief-answers-to-the-big-questions/"
-  date: 2026-07-11
-  source: The Marginalian
-  category: philosophy
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
@@ -78,11 +93,6 @@
   date: 2026-07-10
   source: Aeon
   category: philosophy
-- title: "The Art of Dignity Beyond Pride: How to Move Through Heartbreak Like Frida Kahlo"
-  url: "https://www.themarginalian.org/2026/07/10/frida-kahlo-nickolas-muray-letters/"
-  date: 2026-07-10
-  source: The Marginalian
-  category: philosophy
 - title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
   url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
   date: 2026-07-09
@@ -91,16 +101,6 @@
 - title: How to offset your brain
   url: "https://aeon.co/essays/can-mindfulness-help-you-overcome-your-cognitive-biases"
   date: 2026-07-09
-  source: Aeon
-  category: philosophy
-- title: Sangre violenta / sangre violeta
-  url: "https://aeon.co/videos/on-the-ground-with-the-voices-fighting-femicide-in-mexico"
-  date: 2026-07-08
-  source: Aeon
-  category: philosophy
-- title: ‘The emperor is far away’
-  url: "https://aeon.co/essays/how-little-we-really-know-of-the-mighty-ming-dynasty"
-  date: 2026-07-07
   source: Aeon
   category: philosophy
 - title: Harness Engineering for Self-Improvement
