@@ -1,48 +1,68 @@
-- title: Using uvx in GitHub Actions in a cache-friendly way
-  url: "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything"
+- title: Jurassic Park computers in excruciating detail
+  url: "https://fabiensanglard.net/jurrasic_park_computers/index.html"
+  date: 2026-07-15
+  source: Hacker News Best
+  category: programming
+- title: Quoting GitHub Changelog
+  url: "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything"
   date: 2026-07-14
   source: Simon Willison
   category: ai
-- title: "Japan develops a method to recover up to 90% of lithium from used EV batteries"
-  url: "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/"
+- title: simonw/pedalican
+  url: "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything"
+  date: 2026-07-14
+  source: Simon Willison
+  category: ai
+- title: lobste.rs is now running on SQLite
+  url: "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"
+  date: 2026-07-14
+  source: Simon Willison
+  category: ai
+- title: Quoting Armin Ronacher
+  url: "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"
+  date: 2026-07-14
+  source: Simon Willison
+  category: ai
+- title: datasette 1.0a37
+  url: "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything"
+  date: 2026-07-14
+  source: Simon Willison
+  category: ai
+- title: Notes on the Fourier Transform
+  url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
+  date: 2026-07-14
+  source: Eli Bendersky
+  category: programming
+- title: "Cursor 0day: When Full Disclosure Becomes the Only Protection Left"
+  url: "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left"
   date: 2026-07-14
   source: Hacker News Best
   category: programming
+- title: "Bonsai 27B: A 27B-Class model that runs on a phone"
+  url: "https://prismml.com/news/bonsai-27b"
+  date: 2026-07-14
+  source: Hacker News Best
+  category: programming
+- title: The Tower Keeps Rising
+  url: "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/"
+  date: 2026-07-14
+  source: Hacker News Best
+  category: programming
+- title: "S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-"
+  url: "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html"
+  date: 2026-07-14
+  source: Hacker News Best
+  category: programming
+- title: The looting of science fiction
+  url: "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem"
+  date: 2026-07-14
+  source: Aeon
+  category: philosophy
 - title: "How to Help Someone Change: The Samurai Guide to Giving Feedback"
   url: "https://www.themarginalian.org/2026/07/13/tsunetomo-feedback/"
   date: 2026-07-14
   source: The Marginalian
   category: philosophy
-- title: DOOMQL
-  url: "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything"
-  date: 2026-07-13
-  source: Simon Willison
-  category: ai
-- title: datasette code-frequency chart on GitHub
-  url: "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"
-  date: 2026-07-13
-  source: Simon Willison
-  category: ai
-- title: Samsung Health app threatens data deletion if users opt out AI training
-  url: "https://neow.in/cWsyMTV3"
-  date: 2026-07-13
-  source: Hacker News Best
-  category: programming
-- title: Former NOAA employees built Climate.us to preserve climate data and resources
-  url: "https://19thnews.org/2026/07/noaa-climate-data-website/"
-  date: 2026-07-13
-  source: Hacker News Best
-  category: programming
-- title: "Telegram's t.me domain has been suspended"
-  url: "https://www.whois.com/whois/t.me"
-  date: 2026-07-13
-  source: Hacker News Best
-  category: programming
-- title: Building and shipping Mac and iOS apps without opening Xcode
-  url: "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/"
-  date: 2026-07-13
-  source: Hacker News Best
-  category: programming
 - title: Patricia Evangelista on journalism
   url: "https://aeon.co/videos/a-filipino-journalist-on-the-terrible-privilege-of-bearing-witness"
   date: 2026-07-13
@@ -73,16 +93,6 @@
   date: 2026-07-13
   source: The Marginalian
   category: philosophy
-- title: Directly Responsible Individuals (DRI)
-  url: "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything"
-  date: 2026-07-12
-  source: Simon Willison
-  category: ai
-- title: shot-scraper 1.11
-  url: "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything"
-  date: 2026-07-12
-  source: Simon Willison
-  category: ai
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
@@ -95,11 +105,6 @@
   category: philosophy
 - title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
   url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
-  date: 2026-07-09
-  source: Aeon
-  category: philosophy
-- title: How to offset your brain
-  url: "https://aeon.co/essays/can-mindfulness-help-you-overcome-your-cognitive-biases"
   date: 2026-07-09
   source: Aeon
   category: philosophy
@@ -136,11 +141,6 @@
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
-  source: Eli Bendersky
-  category: programming
-- title: Notes on Fourier series
-  url: "https://eli.thegreenplace.net/2026/notes-on-fourier-series/"
-  date: 2026-05-27
   source: Eli Bendersky
   category: programming
 - title: "Moving away from Tailwind, and learning to structure my CSS"
