@@ -1,8 +1,58 @@
-- title: Jurassic Park computers in excruciating detail
-  url: "https://fabiensanglard.net/jurrasic_park_computers/index.html"
+- title: Mermaid to Unicode box art (grok-mermaid)
+  url: "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything"
+  date: 2026-07-16
+  source: Simon Willison
+  category: ai
+- title: "xai-org/grok-build, now open source"
+  url: "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
+  date: 2026-07-15
+  source: Simon Willison
+  category: ai
+- title: "How I tricked Claude into leaking your deepest, darkest secrets"
+  url: "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+  date: 2026-07-15
+  source: Simon Willison
+  category: ai
+- title: SQLite should have (Rust-style) editions
+  url: "https://mort.coffee/home/sqlite-editions/"
   date: 2026-07-15
   source: Hacker News Best
   category: programming
+- title: Grok Build is open source
+  url: "https://github.com/xai-org/grok-build"
+  date: 2026-07-15
+  source: Hacker News Best
+  category: programming
+- title: Why I Left Google DeepMind
+  url: "https://turntrout.com/why-i-left-google-deepmind"
+  date: 2026-07-15
+  source: Hacker News Best
+  category: programming
+- title: "Inkling: Our Open-Weights Model"
+  url: "https://thinkingmachines.ai/news/introducing-inkling/"
+  date: 2026-07-15
+  source: Hacker News Best
+  category: programming
+- title: Collection of Digital Clock Designs
+  url: "https://clocks.dev"
+  date: 2026-07-15
+  source: Hacker News Best
+  category: programming
+- title: The diffusion pilot
+  url: "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities"
+  date: 2026-07-15
+  source: Aeon
+  category: philosophy
+- title: Fernando Pessoa on Unselfing into Who You Really Are
+  url: "https://www.themarginalian.org/2026/07/14/fernando-pessoa-disquiet-self/"
+  date: 2026-07-15
+  source: The Marginalian
+  category: philosophy
+- title: "How to Get Love Less Wrong: George Saunders on Breaking the Patterns that Break Our Hearts"
+  url: "https://www.themarginalian.org/2026/07/14/love-chekhov-the-darling-saunders/"
+  date: 2026-07-15
+  source: The Marginalian
+  category: philosophy
 - title: Quoting GitHub Changelog
   url: "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything"
   date: 2026-07-14
@@ -13,45 +63,10 @@
   date: 2026-07-14
   source: Simon Willison
   category: ai
-- title: lobste.rs is now running on SQLite
-  url: "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"
-  date: 2026-07-14
-  source: Simon Willison
-  category: ai
-- title: Quoting Armin Ronacher
-  url: "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"
-  date: 2026-07-14
-  source: Simon Willison
-  category: ai
-- title: datasette 1.0a37
-  url: "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything"
-  date: 2026-07-14
-  source: Simon Willison
-  category: ai
 - title: Notes on the Fourier Transform
   url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
   date: 2026-07-14
   source: Eli Bendersky
-  category: programming
-- title: "Cursor 0day: When Full Disclosure Becomes the Only Protection Left"
-  url: "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left"
-  date: 2026-07-14
-  source: Hacker News Best
-  category: programming
-- title: "Bonsai 27B: A 27B-Class model that runs on a phone"
-  url: "https://prismml.com/news/bonsai-27b"
-  date: 2026-07-14
-  source: Hacker News Best
-  category: programming
-- title: The Tower Keeps Rising
-  url: "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/"
-  date: 2026-07-14
-  source: Hacker News Best
-  category: programming
-- title: "S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-"
-  url: "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html"
-  date: 2026-07-14
-  source: Hacker News Best
   category: programming
 - title: The looting of science fiction
   url: "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem"
@@ -83,16 +98,6 @@
   date: 2026-07-13
   source: The Marginalian
   category: philosophy
-- title: The 12 Kinds of Time and How to Be More Fully Alive
-  url: "https://www.themarginalian.org/2026/07/12/chronodiversity/"
-  date: 2026-07-13
-  source: The Marginalian
-  category: philosophy
-- title: Pythagoras on the Purpose of Life and the Meaning of Wisdom
-  url: "https://www.themarginalian.org/2026/07/12/pythagoras-olympic-games/"
-  date: 2026-07-13
-  source: The Marginalian
-  category: philosophy
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
@@ -101,11 +106,6 @@
 - title: Lore of the rings
   url: "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings"
   date: 2026-07-10
-  source: Aeon
-  category: philosophy
-- title: "Africa’s cultural landmarks: rock-hewn churches of Lalibela, Ethiopia"
-  url: "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth"
-  date: 2026-07-09
   source: Aeon
   category: philosophy
 - title: Harness Engineering for Self-Improvement
