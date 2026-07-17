@@ -1,47 +1,82 @@
-- title: Mermaid to Unicode box art (grok-mermaid)
-  url: "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything"
+- title: Spot birds not golf
+  url: "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything"
+  date: 2026-07-17
+  source: Simon Willison
+  category: ai
+- title: Firefox in WebAssembly
+  url: "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything"
   date: 2026-07-16
   source: Simon Willison
   category: ai
-- title: "xai-org/grok-build, now open source"
-  url: "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
-  date: 2026-07-15
+- title: "Kimi K3, and what we can still learn from the pelican benchmark"
+  url: "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
+  date: 2026-07-16
   source: Simon Willison
   category: ai
-- title: "How I tricked Claude into leaking your deepest, darkest secrets"
-  url: "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
-  date: 2026-07-15
+- title: Quoting Thibault Sottiaux
+  url: "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything"
+  date: 2026-07-16
   source: Simon Willison
   category: ai
-- title: SQLite should have (Rust-style) editions
-  url: "https://mort.coffee/home/sqlite-editions/"
-  date: 2026-07-15
+- title: "Inkling: Our open-weights model"
+  url: "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything"
+  date: 2026-07-16
+  source: Simon Willison
+  category: ai
+- title: "LM Studio Bionic: the AI agent for open models"
+  url: "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
+  date: 2026-07-16
   source: Hacker News Best
   category: programming
-- title: Grok Build is open source
-  url: "https://github.com/xai-org/grok-build"
-  date: 2026-07-15
+- title: "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol"
+  url: "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6"
+  date: 2026-07-16
   source: Hacker News Best
   category: programming
-- title: Why I Left Google DeepMind
-  url: "https://turntrout.com/why-i-left-google-deepmind"
-  date: 2026-07-15
+- title: Decoy Font
+  url: "https://www.mixfont.com/experiments/decoy-font"
+  date: 2026-07-16
   source: Hacker News Best
   category: programming
-- title: "Inkling: Our Open-Weights Model"
-  url: "https://thinkingmachines.ai/news/introducing-inkling/"
-  date: 2026-07-15
+- title: NotebookLM is now Gemini Notebook
+  url: "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+  date: 2026-07-16
   source: Hacker News Best
   category: programming
-- title: Collection of Digital Clock Designs
-  url: "https://clocks.dev"
-  date: 2026-07-15
+- title: Microsoft Comic Chat is now open source
+  url: "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/"
+  date: 2026-07-16
   source: Hacker News Best
   category: programming
+- title: What remains
+  url: "https://aeon.co/videos/how-oyster-cultivation-protects-louisianas-fragile-coastline"
+  date: 2026-07-16
+  source: Aeon
+  category: philosophy
+- title: Loitering towards war
+  url: "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent"
+  date: 2026-07-16
+  source: Aeon
+  category: philosophy
 - title: The diffusion pilot
   url: "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities"
   date: 2026-07-15
   source: Aeon
+  category: philosophy
+- title: "How to Bear Your Sorrows: Nick Cave on Integrating the Darkness of Loss with the Bright Ongoingness of Life"
+  url: "https://www.themarginalian.org/2026/07/15/nick-cave-loss/"
+  date: 2026-07-15
+  source: The Marginalian
+  category: philosophy
+- title: "Diseases of the Will: Neuroscience Founding Father Santiago Ramón y Cajal on the Six Psychological Flaws That Keep the Gifted from Living Up to Their Gift"
+  url: "https://www.themarginalian.org/2026/07/15/diseases-of-the-will-cajal-advice-for-a-young-investigator/"
+  date: 2026-07-15
+  source: The Marginalian
+  category: philosophy
+- title: The Four Buddhist Mantras for Turning Fear into Love
+  url: "https://www.themarginalian.org/2026/07/15/thich-nhat-hanh-fear-love/"
+  date: 2026-07-15
+  source: The Marginalian
   category: philosophy
 - title: Fernando Pessoa on Unselfing into Who You Really Are
   url: "https://www.themarginalian.org/2026/07/14/fernando-pessoa-disquiet-self/"
@@ -53,16 +88,6 @@
   date: 2026-07-15
   source: The Marginalian
   category: philosophy
-- title: Quoting GitHub Changelog
-  url: "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything"
-  date: 2026-07-14
-  source: Simon Willison
-  category: ai
-- title: simonw/pedalican
-  url: "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything"
-  date: 2026-07-14
-  source: Simon Willison
-  category: ai
 - title: Notes on the Fourier Transform
   url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
   date: 2026-07-14
@@ -73,41 +98,16 @@
   date: 2026-07-14
   source: Aeon
   category: philosophy
-- title: "How to Help Someone Change: The Samurai Guide to Giving Feedback"
-  url: "https://www.themarginalian.org/2026/07/13/tsunetomo-feedback/"
-  date: 2026-07-14
-  source: The Marginalian
-  category: philosophy
 - title: Patricia Evangelista on journalism
   url: "https://aeon.co/videos/a-filipino-journalist-on-the-terrible-privilege-of-bearing-witness"
   date: 2026-07-13
   source: Aeon
-  category: philosophy
-- title: Unmothered
-  url: "https://aeon.co/essays/when-my-ties-to-my-mother-faded-so-did-my-memories"
-  date: 2026-07-13
-  source: Aeon
-  category: philosophy
-- title: "How to Grow Old: Bertrand Russell on What Makes a Fulfilling Life"
-  url: "https://www.themarginalian.org/2026/07/13/how-to-grow-old-bertrand-russell/"
-  date: 2026-07-13
-  source: The Marginalian
-  category: philosophy
-- title: "How to Spot and How to Stop a Liar: Hannah Arendt on Deception, Self-Deception, and the Psychology of Defactualization"
-  url: "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt/"
-  date: 2026-07-13
-  source: The Marginalian
   category: philosophy
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
   source: Eli Bendersky
   category: programming
-- title: Lore of the rings
-  url: "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings"
-  date: 2026-07-10
-  source: Aeon
-  category: philosophy
 - title: Harness Engineering for Self-Improvement
   url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
   date: 2026-07-04
