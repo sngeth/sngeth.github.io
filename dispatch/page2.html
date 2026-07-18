@@ -34,6 +34,7 @@
   .permalink{color:var(--dark-red);text-decoration:none;font-size:9px;vertical-align:middle;margin-left:8px;opacity:0;transition:opacity .2s;font-family:'IBM Plex Mono',monospace;letter-spacing:0;cursor:pointer;position:relative;}
   .headline:hover .permalink,.x-item:hover .permalink{opacity:.6;}
   .permalink:hover{opacity:1!important;}
+  .permalink:focus-visible{opacity:1;outline:2px solid var(--dark-red);outline-offset:3px;border-radius:2px;}
   .permalink .copied{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:var(--black);color:var(--cream);padding:2px 8px;border-radius:3px;font-size:9px;white-space:nowrap;opacity:0;transition:opacity .3s;pointer-events:none;}
   .permalink .copied.show{opacity:1;}
   .headline:target,.x-item:target{background:linear-gradient(120deg,rgba(139,26,26,.07) 0%,transparent 100%);border-radius:2px;padding:2px 4px;margin:-2px -4px;}
@@ -107,6 +108,9 @@
     .page-two-story::after{display:none;}
     .page-two-story.feature .headline{font-size:26px!important;}
     .reading-list-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  }
+  @media(hover:none),(pointer:coarse){
+    .permalink{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;margin-left:4px;opacity:1;font-size:10px;touch-action:manipulation;}
   }
 </style>
 </head>
@@ -266,5 +270,56 @@
     <span>Generated 07:06 AM EDT</span>
   </footer>
 </div>
+<script>
+function showShareStatus(slug, message) {
+  var item = document.getElementById(slug);
+  var tip = item && item.querySelector('.copied');
+  if (!tip) return;
+  tip.textContent = message;
+  tip.classList.add('show');
+  setTimeout(function() { tip.classList.remove('show'); }, 1500);
+}
+
+function fallbackCopy(url) {
+  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(url);
+  return new Promise(function(resolve, reject) {
+    var input = document.createElement('textarea');
+    input.value = url;
+    input.setAttribute('readonly', '');
+    input.style.position = 'fixed';
+    input.style.opacity = '0';
+    document.body.appendChild(input);
+    input.select();
+    try { document.execCommand('copy') ? resolve() : reject(); }
+    catch (error) { reject(error); }
+    document.body.removeChild(input);
+  });
+}
+
+function copyLink(slug) {
+  var url = location.href.split('#')[0] + '#' + slug;
+  var item = document.getElementById(slug);
+  var title = item && item.querySelector('a, .x-headline');
+  var shareData = { title: title ? title.textContent.trim() : document.title, url: url };
+  if (navigator.share) {
+    navigator.share(shareData).catch(function(error) {
+      if (error.name !== 'AbortError') fallbackCopy(url).then(function() { showShareStatus(slug, 'Copied!'); })
+        .catch(function() { showShareStatus(slug, 'Copy failed'); });
+    });
+    return;
+  }
+  fallbackCopy(url).then(function() { showShareStatus(slug, 'Copied!'); })
+    .catch(function() { showShareStatus(slug, 'Copy failed'); });
+}
+
+document.querySelectorAll('.permalink').forEach(function(button) {
+  button.setAttribute('role', 'button');
+  button.setAttribute('tabindex', '0');
+  button.setAttribute('aria-label', button.title || 'Share this item');
+  button.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); button.click(); }
+  });
+});
+</script>
 </body>
 </html>
