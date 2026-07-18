@@ -1,53 +1,63 @@
+- title: Claude make Fable 5 permanent
+  url: "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
+  date: 2026-07-18
+  source: Simon Willison
+  category: ai
+- title: nascheme/quixote
+  url: "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything"
+  date: 2026-07-18
+  source: Simon Willison
+  category: ai
+- title: Quoting Kimi K3
+  url: "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
+  date: 2026-07-17
+  source: Simon Willison
+  category: ai
+- title: LLM cliché highlighter
+  url: "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything"
+  date: 2026-07-17
+  source: Simon Willison
+  category: ai
 - title: Spot birds not golf
   url: "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything"
   date: 2026-07-17
   source: Simon Willison
   category: ai
-- title: Firefox in WebAssembly
-  url: "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything"
-  date: 2026-07-16
-  source: Simon Willison
-  category: ai
+- title: Learning a few things about running SQLite
+  url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+  date: 2026-07-17
+  source: Julia Evans
+  category: programming
+- title: "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse"
+  url: "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/"
+  date: 2026-07-17
+  source: Hacker News Best
+  category: programming
+- title: Learning a few things about running SQLite
+  url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+  date: 2026-07-17
+  source: Hacker News Best
+  category: programming
+- title: "Thanks HN for 15 years of support and helping me find my life's work"
+  url: "https://news.ycombinator.com/item?id=48949551"
+  date: 2026-07-17
+  source: Hacker News Best
+  category: programming
+- title: The state of open source AI
+  url: "https://stateofopensource.ai/"
+  date: 2026-07-17
+  source: Hacker News Best
+  category: programming
 - title: "Kimi K3, and what we can still learn from the pelican benchmark"
-  url: "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
-  date: 2026-07-16
-  source: Simon Willison
-  category: ai
-- title: Quoting Thibault Sottiaux
-  url: "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything"
-  date: 2026-07-16
-  source: Simon Willison
-  category: ai
-- title: "Inkling: Our open-weights model"
-  url: "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything"
-  date: 2026-07-16
-  source: Simon Willison
-  category: ai
-- title: "LM Studio Bionic: the AI agent for open models"
-  url: "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
-  date: 2026-07-16
+  url: "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+  date: 2026-07-17
   source: Hacker News Best
   category: programming
-- title: "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol"
-  url: "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6"
-  date: 2026-07-16
-  source: Hacker News Best
-  category: programming
-- title: Decoy Font
-  url: "https://www.mixfont.com/experiments/decoy-font"
-  date: 2026-07-16
-  source: Hacker News Best
-  category: programming
-- title: NotebookLM is now Gemini Notebook
-  url: "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
-  date: 2026-07-16
-  source: Hacker News Best
-  category: programming
-- title: Microsoft Comic Chat is now open source
-  url: "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/"
-  date: 2026-07-16
-  source: Hacker News Best
-  category: programming
+- title: Transit of wonder
+  url: "https://aeon.co/essays/why-has-venus-obsessed-so-many-astronomers"
+  date: 2026-07-17
+  source: Aeon
+  category: philosophy
 - title: What remains
   url: "https://aeon.co/videos/how-oyster-cultivation-protects-louisianas-fragile-coastline"
   date: 2026-07-16
@@ -57,6 +67,16 @@
   url: "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent"
   date: 2026-07-16
   source: Aeon
+  category: philosophy
+- title: "The Wild Iris: Nobel Laureate Louise Glück on the Door at the End of Your Suffering"
+  url: "https://www.themarginalian.org/2026/07/16/louse-gluck-wild-iris/"
+  date: 2026-07-16
+  source: The Marginalian
+  category: philosophy
+- title: "Marcus Aurelius on the Good Luck of Your Bad Luck: The Stoic Strategy for Weathering Life’s Waves and Turning Suffering into Strength"
+  url: "https://www.themarginalian.org/2026/07/16/marcus-aurelius-luck/"
+  date: 2026-07-16
+  source: The Marginalian
   category: philosophy
 - title: The diffusion pilot
   url: "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities"
@@ -78,16 +98,6 @@
   date: 2026-07-15
   source: The Marginalian
   category: philosophy
-- title: Fernando Pessoa on Unselfing into Who You Really Are
-  url: "https://www.themarginalian.org/2026/07/14/fernando-pessoa-disquiet-self/"
-  date: 2026-07-15
-  source: The Marginalian
-  category: philosophy
-- title: "How to Get Love Less Wrong: George Saunders on Breaking the Patterns that Break Our Hearts"
-  url: "https://www.themarginalian.org/2026/07/14/love-chekhov-the-darling-saunders/"
-  date: 2026-07-15
-  source: The Marginalian
-  category: philosophy
 - title: Notes on the Fourier Transform
   url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
   date: 2026-07-14
@@ -96,11 +106,6 @@
 - title: The looting of science fiction
   url: "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem"
   date: 2026-07-14
-  source: Aeon
-  category: philosophy
-- title: Patricia Evangelista on journalism
-  url: "https://aeon.co/videos/a-filipino-journalist-on-the-terrible-privilege-of-bearing-witness"
-  date: 2026-07-13
   source: Aeon
   category: philosophy
 - title: "Dot product: Component vs. Geometric definition"
@@ -133,11 +138,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -158,11 +158,6 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: Examples for the tcpdump and dig man pages
   url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
   date: 2026-03-10
@@ -173,26 +168,6 @@
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: Notes on clarifying man pages
-  url: "https://jvns.ca/blog/2026/02/18/man-pages/"
-  date: 2026-02-18
-  source: Julia Evans
-  category: programming
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-05-26
   source: Dan Luu
   category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
