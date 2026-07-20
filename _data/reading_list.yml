@@ -1,3 +1,13 @@
+- title: Quoting Sam Altman
+  url: "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+  date: 2026-07-20
+  source: Simon Willison
+  category: ai
+- title: Claude Fable produced a counterexample to the Jacobian Conjecture
+  url: "https://xcancel.com/__alpoge__/status/2079028340955197566"
+  date: 2026-07-20
+  source: Hacker News Best
+  category: programming
 - title: AI Mania Is Eviscerating Global Decision-Making
   url: "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
   date: 2026-07-19
@@ -8,11 +18,31 @@
   date: 2026-07-19
   source: Simon Willison
   category: ai
-- title: Transcribe.cpp
-  url: "https://workshop.cjpais.com/projects/transcribe-cpp"
+- title: AI advice made people less accurate but more confident – sudy
+  url: "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study"
   date: 2026-07-19
   source: Hacker News Best
   category: programming
+- title: The Last MPEG-4 Visual Patent Has Expired
+  url: "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired"
+  date: 2026-07-19
+  source: Hacker News Best
+  category: programming
+- title: Moonshot AI suspends new subscriptions due to Kimi K3 demand
+  url: "https://twitter.com/kimi_moonshot/status/2078855608565207130"
+  date: 2026-07-19
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s"
+  url: "https://news.ycombinator.com/item?id=48968606"
+  date: 2026-07-19
+  source: Hacker News Best
+  category: programming
+- title: Borges on How to Conquer Time
+  url: "https://www.themarginalian.org/2026/07/18/a-new-refutation-of-time-borges/"
+  date: 2026-07-19
+  source: The Marginalian
+  category: philosophy
 - title: SQLite Query Explainer
   url: "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"
   date: 2026-07-18
@@ -23,31 +53,11 @@
   date: 2026-07-18
   source: Simon Willison
   category: ai
-- title: nascheme/quixote
-  url: "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything"
+- title: "How to Be a Lichen: Adaptive Strategies for the Vulnerabilities of Being Human from Nature’s Tiny Titans of Tenacity"
+  url: "https://www.themarginalian.org/2026/07/18/lichen/"
   date: 2026-07-18
-  source: Simon Willison
-  category: ai
-- title: "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise"
-  url: "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/"
-  date: 2026-07-18
-  source: Hacker News Best
-  category: programming
-- title: The Kimi K3 Moment
-  url: "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/"
-  date: 2026-07-18
-  source: Hacker News Best
-  category: programming
-- title: "Goodbye, and Thanks for All the Bikesheds"
-  url: "https://queue.acm.org/detail.cfm?id=3818307"
-  date: 2026-07-18
-  source: Hacker News Best
-  category: programming
-- title: "Setting up your spare Mac for Claude Code to control, a step-by-step guide"
-  url: "https://ykdojo.github.io/claude-controls-mac/"
-  date: 2026-07-18
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: Learning a few things about running SQLite
   url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
   date: 2026-07-17
@@ -82,16 +92,6 @@
   url: "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent"
   date: 2026-07-16
   source: Aeon
-  category: philosophy
-- title: "The Wild Iris: Nobel Laureate Louise Glück on the Door at the End of Your Suffering"
-  url: "https://www.themarginalian.org/2026/07/16/louse-gluck-wild-iris/"
-  date: 2026-07-16
-  source: The Marginalian
-  category: philosophy
-- title: "Marcus Aurelius on the Good Luck of Your Bad Luck: The Stoic Strategy for Weathering Life’s Waves and Turning Suffering into Strength"
-  url: "https://www.themarginalian.org/2026/07/16/marcus-aurelius-luck/"
-  date: 2026-07-16
-  source: The Marginalian
   category: philosophy
 - title: The diffusion pilot
   url: "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities"
