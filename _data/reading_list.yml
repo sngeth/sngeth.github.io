@@ -1,13 +1,53 @@
+- title: "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding"
+  url: "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding"
+  date: 2026-07-21
+  source: Hacker News Best
+  category: programming
+- title: "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public"
+  url: "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country"
+  date: 2026-07-21
+  source: Hacker News Best
+  category: programming
+- title: Reverse-engineering is cheap now
+  url: "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
+  date: 2026-07-20
+  source: Simon Willison
+  category: ai
+- title: "Who’s Afraid of Chinese Models?"
+  url: "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything"
+  date: 2026-07-20
+  source: Simon Willison
+  category: ai
 - title: Quoting Sam Altman
   url: "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
   date: 2026-07-20
   source: Simon Willison
   category: ai
-- title: Claude Fable produced a counterexample to the Jacobian Conjecture
-  url: "https://xcancel.com/__alpoge__/status/2079028340955197566"
+- title: Jellyfin founder Andrew leaves team
+  url: "https://forum.jellyfin.org/t-project-leadership-changes"
   date: 2026-07-20
   source: Hacker News Best
   category: programming
+- title: Human mathematicians are being outcounterexampled
+  url: "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
+  date: 2026-07-20
+  source: Hacker News Best
+  category: programming
+- title: "Nativ: Run frontier open models locally on your Mac"
+  url: "https://blaizzy.github.io/nativ/"
+  date: 2026-07-20
+  source: Hacker News Best
+  category: programming
+- title: The Skinner revolution
+  url: "https://aeon.co/videos/how-bf-skinner-upended-our-understanding-of-behaviour-and-control"
+  date: 2026-07-20
+  source: Aeon
+  category: philosophy
+- title: Beyond Greece and Rome
+  url: "https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome"
+  date: 2026-07-20
+  source: Aeon
+  category: philosophy
 - title: AI Mania Is Eviscerating Global Decision-Making
   url: "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
   date: 2026-07-19
@@ -18,41 +58,21 @@
   date: 2026-07-19
   source: Simon Willison
   category: ai
-- title: AI advice made people less accurate but more confident – sudy
-  url: "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study"
+- title: "From Mitochondria to Minds: The Illustrated Science of the Psychedelic Dream Called Life"
+  url: "https://www.themarginalian.org/2026/07/19/the-forgotten-teachers/"
   date: 2026-07-19
-  source: Hacker News Best
-  category: programming
-- title: The Last MPEG-4 Visual Patent Has Expired
-  url: "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired"
+  source: The Marginalian
+  category: philosophy
+- title: "Notes on Complexity: A Buddhist Scientist on the Murmuration of Being"
+  url: "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise/"
   date: 2026-07-19
-  source: Hacker News Best
-  category: programming
-- title: Moonshot AI suspends new subscriptions due to Kimi K3 demand
-  url: "https://twitter.com/kimi_moonshot/status/2078855608565207130"
-  date: 2026-07-19
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s"
-  url: "https://news.ycombinator.com/item?id=48968606"
-  date: 2026-07-19
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: Borges on How to Conquer Time
   url: "https://www.themarginalian.org/2026/07/18/a-new-refutation-of-time-borges/"
   date: 2026-07-19
   source: The Marginalian
   category: philosophy
-- title: SQLite Query Explainer
-  url: "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"
-  date: 2026-07-18
-  source: Simon Willison
-  category: ai
-- title: Claude make Fable 5 permanent
-  url: "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
-  date: 2026-07-18
-  source: Simon Willison
-  category: ai
 - title: "How to Be a Lichen: Adaptive Strategies for the Vulnerabilities of Being Human from Nature’s Tiny Titans of Tenacity"
   url: "https://www.themarginalian.org/2026/07/18/lichen/"
   date: 2026-07-18
@@ -73,16 +93,6 @@
   date: 2026-07-17
   source: The Marginalian
   category: philosophy
-- title: "How to Love: Legendary Zen Buddhist Teacher Thich Nhat Hanh on Mastering the Art of “Interbeing”"
-  url: "https://www.themarginalian.org/2026/07/17/how-to-love-thich-nhat-hanh/"
-  date: 2026-07-17
-  source: The Marginalian
-  category: philosophy
-- title: "De Profundis: Patti Smith Reads Oscar Wilde’s Stirring Letter on Suffering and Transcendence, Penned in Prison"
-  url: "https://www.themarginalian.org/2026/07/17/patti-smith-reads-oscar-wilde-de-profundis/"
-  date: 2026-07-17
-  source: The Marginalian
-  category: philosophy
 - title: What remains
   url: "https://aeon.co/videos/how-oyster-cultivation-protects-louisianas-fragile-coastline"
   date: 2026-07-16
@@ -93,21 +103,11 @@
   date: 2026-07-16
   source: Aeon
   category: philosophy
-- title: The diffusion pilot
-  url: "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities"
-  date: 2026-07-15
-  source: Aeon
-  category: philosophy
 - title: Notes on the Fourier Transform
   url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
   date: 2026-07-14
   source: Eli Bendersky
   category: programming
-- title: The looting of science fiction
-  url: "https://aeon.co/essays/silicon-valley-has-a-science-fiction-problem"
-  date: 2026-07-14
-  source: Aeon
-  category: philosophy
 - title: "Dot product: Component vs. Geometric definition"
   url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
   date: 2026-07-10
