@@ -1,13 +1,48 @@
-- title: "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding"
-  url: "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding"
+- title: "Nativ: Run AI models locally on your Mac"
+  url: "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything"
+  date: 2026-07-21
+  source: Simon Willison
+  category: ai
+- title: A Fireside Chat with Cat and Thariq from the Claude Code team
+  url: "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything"
+  date: 2026-07-21
+  source: Simon Willison
+  category: ai
+- title: "Some more things about Django I've been enjoying"
+  url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
+  date: 2026-07-21
+  source: Julia Evans
+  category: programming
+- title: Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA
+  url: "https://fireworks.ai/blog/kimik3-fable"
   date: 2026-07-21
   source: Hacker News Best
   category: programming
-- title: "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public"
-  url: "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country"
+- title: OpenAI and Hugging Face address security incident during model evaluation
+  url: "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
   date: 2026-07-21
   source: Hacker News Best
   category: programming
+- title: "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling"
+  url: "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling"
+  date: 2026-07-21
+  source: Hacker News Best
+  category: programming
+- title: Judge approves $1.5B Anthropic settlement for pirated books used to train Claude
+  url: "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63"
+  date: 2026-07-21
+  source: Hacker News Best
+  category: programming
+- title: Advertise in ChatGPT
+  url: "https://ads.openai.com/"
+  date: 2026-07-21
+  source: Hacker News Best
+  category: programming
+- title: The people’s atheist
+  url: "https://aeon.co/essays/the-rural-french-priest-who-preached-atheism-to-the-people"
+  date: 2026-07-21
+  source: Aeon
+  category: philosophy
 - title: Reverse-engineering is cheap now
   url: "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
   date: 2026-07-20
@@ -23,21 +58,6 @@
   date: 2026-07-20
   source: Simon Willison
   category: ai
-- title: Jellyfin founder Andrew leaves team
-  url: "https://forum.jellyfin.org/t-project-leadership-changes"
-  date: 2026-07-20
-  source: Hacker News Best
-  category: programming
-- title: Human mathematicians are being outcounterexampled
-  url: "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
-  date: 2026-07-20
-  source: Hacker News Best
-  category: programming
-- title: "Nativ: Run frontier open models locally on your Mac"
-  url: "https://blaizzy.github.io/nativ/"
-  date: 2026-07-20
-  source: Hacker News Best
-  category: programming
 - title: The Skinner revolution
   url: "https://aeon.co/videos/how-bf-skinner-upended-our-understanding-of-behaviour-and-control"
   date: 2026-07-20
@@ -48,16 +68,21 @@
   date: 2026-07-20
   source: Aeon
   category: philosophy
-- title: AI Mania Is Eviscerating Global Decision-Making
-  url: "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
-  date: 2026-07-19
-  source: Simon Willison
-  category: ai
-- title: Claude Code uses Bun written in Rust now
-  url: "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything"
-  date: 2026-07-19
-  source: Simon Willison
-  category: ai
+- title: "Epictetus on Love and Loss: The Stoic Strategy for Surviving Heartbreak"
+  url: "https://www.themarginalian.org/2026/07/20/epictetus-love-loss/"
+  date: 2026-07-20
+  source: The Marginalian
+  category: philosophy
+- title: "How to Love the World More: George Saunders on the Courage of Uncertainty"
+  url: "https://www.themarginalian.org/2026/07/20/george-saunders-uncertainty/"
+  date: 2026-07-20
+  source: The Marginalian
+  category: philosophy
+- title: "Sleep and the Meaning of Life: Fernando Pessoa on the Existential Dimension of the Horizontal Hours"
+  url: "https://www.themarginalian.org/2026/07/20/fernando-pessoa-sleep/"
+  date: 2026-07-20
+  source: The Marginalian
+  category: philosophy
 - title: "From Mitochondria to Minds: The Illustrated Science of the Psychedelic Dream Called Life"
   url: "https://www.themarginalian.org/2026/07/19/the-forgotten-teachers/"
   date: 2026-07-19
@@ -66,16 +91,6 @@
 - title: "Notes on Complexity: A Buddhist Scientist on the Murmuration of Being"
   url: "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise/"
   date: 2026-07-19
-  source: The Marginalian
-  category: philosophy
-- title: Borges on How to Conquer Time
-  url: "https://www.themarginalian.org/2026/07/18/a-new-refutation-of-time-borges/"
-  date: 2026-07-19
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be a Lichen: Adaptive Strategies for the Vulnerabilities of Being Human from Nature’s Tiny Titans of Tenacity"
-  url: "https://www.themarginalian.org/2026/07/18/lichen/"
-  date: 2026-07-18
   source: The Marginalian
   category: philosophy
 - title: Learning a few things about running SQLite
@@ -88,18 +103,8 @@
   date: 2026-07-17
   source: Aeon
   category: philosophy
-- title: The Art of the Sacred Pause and Despair as a Catalyst of Regeneration
-  url: "https://www.themarginalian.org/2026/07/17/marett-humility/"
-  date: 2026-07-17
-  source: The Marginalian
-  category: philosophy
 - title: What remains
   url: "https://aeon.co/videos/how-oyster-cultivation-protects-louisianas-fragile-coastline"
-  date: 2026-07-16
-  source: Aeon
-  category: philosophy
-- title: Loitering towards war
-  url: "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent"
   date: 2026-07-16
   source: Aeon
   category: philosophy
@@ -168,11 +173,6 @@
   date: 2026-04-23
   source: Stronger By Science
   category: strength
-- title: Examples for the tcpdump and dig man pages
-  url: "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
-  date: 2026-03-10
-  source: Julia Evans
-  category: programming
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
