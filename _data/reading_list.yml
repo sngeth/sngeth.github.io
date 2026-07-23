@@ -1,63 +1,78 @@
-- title: "Nativ: Run AI models locally on your Mac"
-  url: "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything"
-  date: 2026-07-21
+- title: Quoting Seth Larson
+  url: "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything"
+  date: 2026-07-23
   source: Simon Willison
   category: ai
-- title: A Fireside Chat with Cat and Thariq from the Claude Code team
-  url: "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything"
-  date: 2026-07-21
+- title: Quoting Thomas Ptacek
+  url: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
+  date: 2026-07-22
   source: Simon Willison
   category: ai
+- title: OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened
+  url: "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything"
+  date: 2026-07-22
+  source: Simon Willison
+  category: ai
+- title: "Are AI labs pelicanmaxxing?"
+  url: "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything"
+  date: 2026-07-22
+  source: Simon Willison
+  category: ai
+- title: Orchestrions
+  url: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
+  date: 2026-07-22
+  source: Simon Willison
+  category: ai
+- title: I Inspected My Take-Home Interview Project. It Was a Whole Operation
+  url: "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/"
+  date: 2026-07-22
+  source: Hacker News Best
+  category: programming
+- title: John C. Dvorak has died
+  url: "https://twitter.com/na_announce/status/2079952538040672302"
+  date: 2026-07-22
+  source: Hacker News Best
+  category: programming
+- title: Everyone should know SIMD
+  url: "https://mitchellh.com/writing/everyone-should-know-simd"
+  date: 2026-07-22
+  source: Hacker News Best
+  category: programming
+- title: "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample"
+  url: "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56"
+  date: 2026-07-22
+  source: Hacker News Best
+  category: programming
+- title: "GigaToken: ~1000x faster Language model tokenization"
+  url: "https://github.com/marcelroed/gigatoken/"
+  date: 2026-07-22
+  source: Hacker News Best
+  category: programming
+- title: "Can cells think?"
+  url: "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains"
+  date: 2026-07-22
+  source: Aeon
+  category: philosophy
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
   date: 2026-07-21
   source: Julia Evans
-  category: programming
-- title: Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA
-  url: "https://fireworks.ai/blog/kimik3-fable"
-  date: 2026-07-21
-  source: Hacker News Best
-  category: programming
-- title: OpenAI and Hugging Face address security incident during model evaluation
-  url: "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
-  date: 2026-07-21
-  source: Hacker News Best
-  category: programming
-- title: "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling"
-  url: "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling"
-  date: 2026-07-21
-  source: Hacker News Best
-  category: programming
-- title: Judge approves $1.5B Anthropic settlement for pirated books used to train Claude
-  url: "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63"
-  date: 2026-07-21
-  source: Hacker News Best
-  category: programming
-- title: Advertise in ChatGPT
-  url: "https://ads.openai.com/"
-  date: 2026-07-21
-  source: Hacker News Best
   category: programming
 - title: The people’s atheist
   url: "https://aeon.co/essays/the-rural-french-priest-who-preached-atheism-to-the-people"
   date: 2026-07-21
   source: Aeon
   category: philosophy
-- title: Reverse-engineering is cheap now
-  url: "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
-  date: 2026-07-20
-  source: Simon Willison
-  category: ai
-- title: "Who’s Afraid of Chinese Models?"
-  url: "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything"
-  date: 2026-07-20
-  source: Simon Willison
-  category: ai
-- title: Quoting Sam Altman
-  url: "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
-  date: 2026-07-20
-  source: Simon Willison
-  category: ai
+- title: G.K. Chesterton on the Dandelion and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/07/21/g-k-chesterton-dandelion/"
+  date: 2026-07-21
+  source: The Marginalian
+  category: philosophy
+- title: How Not to Waste Your Life
+  url: "https://www.themarginalian.org/2026/07/21/hawthorne-life/"
+  date: 2026-07-21
+  source: The Marginalian
+  category: philosophy
 - title: The Skinner revolution
   url: "https://aeon.co/videos/how-bf-skinner-upended-our-understanding-of-behaviour-and-control"
   date: 2026-07-20
@@ -83,16 +98,6 @@
   date: 2026-07-20
   source: The Marginalian
   category: philosophy
-- title: "From Mitochondria to Minds: The Illustrated Science of the Psychedelic Dream Called Life"
-  url: "https://www.themarginalian.org/2026/07/19/the-forgotten-teachers/"
-  date: 2026-07-19
-  source: The Marginalian
-  category: philosophy
-- title: "Notes on Complexity: A Buddhist Scientist on the Murmuration of Being"
-  url: "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise/"
-  date: 2026-07-19
-  source: The Marginalian
-  category: philosophy
 - title: Learning a few things about running SQLite
   url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
   date: 2026-07-17
@@ -101,11 +106,6 @@
 - title: Transit of wonder
   url: "https://aeon.co/essays/why-has-venus-obsessed-so-many-astronomers"
   date: 2026-07-17
-  source: Aeon
-  category: philosophy
-- title: What remains
-  url: "https://aeon.co/videos/how-oyster-cultivation-protects-louisianas-fragile-coastline"
-  date: 2026-07-16
   source: Aeon
   category: philosophy
 - title: Notes on the Fourier Transform
