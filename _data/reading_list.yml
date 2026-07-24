@@ -1,8 +1,48 @@
+- title: "The first known runaway AI agent - or a very bad marketing stunt?"
+  url: "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
+  date: 2026-07-23
+  source: Simon Willison
+  category: ai
 - title: Quoting Seth Larson
   url: "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything"
   date: 2026-07-23
   source: Simon Willison
   category: ai
+- title: 98.css
+  url: "https://jdan.github.io/98.css/#status-bar"
+  date: 2026-07-23
+  source: Hacker News Best
+  category: programming
+- title: "Tell HN: Namecheap gave my account to an unverified third party"
+  url: "https://news.ycombinator.com/item?id=49028037"
+  date: 2026-07-23
+  source: Hacker News Best
+  category: programming
+- title: "Couple pay >$800k for a gene-editing therapy for their daughter. She died."
+  url: "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public"
+  date: 2026-07-23
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models"
+  url: "https://news.ycombinator.com/item?id=49026810"
+  date: 2026-07-23
+  source: Hacker News Best
+  category: programming
+- title: What happened to TheNumbers.com
+  url: "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all"
+  date: 2026-07-23
+  source: Hacker News Best
+  category: programming
+- title: All the Queens houses
+  url: "https://aeon.co/videos/tour-the-eclectic-residences-of-new-yorks-most-diverse-borough"
+  date: 2026-07-23
+  source: Aeon
+  category: philosophy
+- title: The savage bites back
+  url: "https://aeon.co/essays/anthropophagy-art-flips-the-cannibal-worries-of-colonialism"
+  date: 2026-07-23
+  source: Aeon
+  category: philosophy
 - title: Quoting Thomas Ptacek
   url: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
   date: 2026-07-22
@@ -18,40 +58,20 @@
   date: 2026-07-22
   source: Simon Willison
   category: ai
-- title: Orchestrions
-  url: "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything"
-  date: 2026-07-22
-  source: Simon Willison
-  category: ai
-- title: I Inspected My Take-Home Interview Project. It Was a Whole Operation
-  url: "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/"
-  date: 2026-07-22
-  source: Hacker News Best
-  category: programming
-- title: John C. Dvorak has died
-  url: "https://twitter.com/na_announce/status/2079952538040672302"
-  date: 2026-07-22
-  source: Hacker News Best
-  category: programming
-- title: Everyone should know SIMD
-  url: "https://mitchellh.com/writing/everyone-should-know-simd"
-  date: 2026-07-22
-  source: Hacker News Best
-  category: programming
-- title: "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample"
-  url: "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56"
-  date: 2026-07-22
-  source: Hacker News Best
-  category: programming
-- title: "GigaToken: ~1000x faster Language model tokenization"
-  url: "https://github.com/marcelroed/gigatoken/"
-  date: 2026-07-22
-  source: Hacker News Best
-  category: programming
 - title: "Can cells think?"
   url: "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains"
   date: 2026-07-22
   source: Aeon
+  category: philosophy
+- title: Carl Jung on Creativity
+  url: "https://www.themarginalian.org/2026/07/22/carl-jung-creativity/"
+  date: 2026-07-22
+  source: The Marginalian
+  category: philosophy
+- title: "How to Keep Life from Becoming a Parody of Itself: Simone de Beauvoir on the Art of Growing Older"
+  url: "https://www.themarginalian.org/2026/07/22/simone-de-beauvoir-coming-of-age/"
+  date: 2026-07-22
+  source: The Marginalian
   category: philosophy
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
@@ -78,23 +98,8 @@
   date: 2026-07-20
   source: Aeon
   category: philosophy
-- title: Beyond Greece and Rome
-  url: "https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome"
-  date: 2026-07-20
-  source: Aeon
-  category: philosophy
 - title: "Epictetus on Love and Loss: The Stoic Strategy for Surviving Heartbreak"
   url: "https://www.themarginalian.org/2026/07/20/epictetus-love-loss/"
-  date: 2026-07-20
-  source: The Marginalian
-  category: philosophy
-- title: "How to Love the World More: George Saunders on the Courage of Uncertainty"
-  url: "https://www.themarginalian.org/2026/07/20/george-saunders-uncertainty/"
-  date: 2026-07-20
-  source: The Marginalian
-  category: philosophy
-- title: "Sleep and the Meaning of Life: Fernando Pessoa on the Existential Dimension of the Horizontal Hours"
-  url: "https://www.themarginalian.org/2026/07/20/fernando-pessoa-sleep/"
   date: 2026-07-20
   source: The Marginalian
   category: philosophy
@@ -103,11 +108,6 @@
   date: 2026-07-17
   source: Julia Evans
   category: programming
-- title: Transit of wonder
-  url: "https://aeon.co/essays/why-has-venus-obsessed-so-many-astronomers"
-  date: 2026-07-17
-  source: Aeon
-  category: philosophy
 - title: Notes on the Fourier Transform
   url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
   date: 2026-07-14
@@ -143,11 +143,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -168,31 +163,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
