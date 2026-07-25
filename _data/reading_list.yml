@@ -1,3 +1,48 @@
+- title: Quoting Boris Cherny
+  url: "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
+  date: 2026-07-25
+  source: Simon Willison
+  category: ai
+- title: Introducing Claude Opus 5
+  url: "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
+  date: 2026-07-24
+  source: Simon Willison
+  category: ai
+- title: Postgres LISTEN/NOTIFY actually scales
+  url: "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
+  date: 2026-07-24
+  source: Hacker News Best
+  category: programming
+- title: Claude Opus 5
+  url: "https://www.anthropic.com/news/claude-opus-5"
+  date: 2026-07-24
+  source: Hacker News Best
+  category: programming
+- title: "Be skeptical of OpenAI's rogue hacker agent story"
+  url: "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker"
+  date: 2026-07-24
+  source: Hacker News Best
+  category: programming
+- title: "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
+  url: "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece"
+  date: 2026-07-24
+  source: Hacker News Best
+  category: programming
+- title: "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
+  url: "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+  date: 2026-07-24
+  source: Hacker News Best
+  category: programming
+- title: Signal then storm
+  url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
+  date: 2026-07-24
+  source: Aeon
+  category: philosophy
+- title: Albert Camus on the Three Antidotes to the Absurdity of Life
+  url: "https://www.themarginalian.org/2026/07/23/albert-camus-interview-absurd/"
+  date: 2026-07-24
+  source: The Marginalian
+  category: philosophy
 - title: "The first known runaway AI agent - or a very bad marketing stunt?"
   url: "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
   date: 2026-07-23
@@ -8,31 +53,6 @@
   date: 2026-07-23
   source: Simon Willison
   category: ai
-- title: 98.css
-  url: "https://jdan.github.io/98.css/#status-bar"
-  date: 2026-07-23
-  source: Hacker News Best
-  category: programming
-- title: "Tell HN: Namecheap gave my account to an unverified third party"
-  url: "https://news.ycombinator.com/item?id=49028037"
-  date: 2026-07-23
-  source: Hacker News Best
-  category: programming
-- title: "Couple pay >$800k for a gene-editing therapy for their daughter. She died."
-  url: "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public"
-  date: 2026-07-23
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models"
-  url: "https://news.ycombinator.com/item?id=49026810"
-  date: 2026-07-23
-  source: Hacker News Best
-  category: programming
-- title: What happened to TheNumbers.com
-  url: "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all"
-  date: 2026-07-23
-  source: Hacker News Best
-  category: programming
 - title: All the Queens houses
   url: "https://aeon.co/videos/tour-the-eclectic-residences-of-new-yorks-most-diverse-borough"
   date: 2026-07-23
@@ -43,18 +63,18 @@
   date: 2026-07-23
   source: Aeon
   category: philosophy
+- title: Dostoyevsky in Love
+  url: "https://www.themarginalian.org/2026/07/23/dostoyevsky-in-love/"
+  date: 2026-07-23
+  source: The Marginalian
+  category: philosophy
+- title: "Antidotes to Fear of Death: Astronomer and Poet Rebecca Elson’s Stunning Cosmic Salve for Existential Tremors"
+  url: "https://www.themarginalian.org/2026/07/23/antidotes-to-fear-of-death-rebecca-elson/"
+  date: 2026-07-23
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Thomas Ptacek
   url: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
-  date: 2026-07-22
-  source: Simon Willison
-  category: ai
-- title: OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened
-  url: "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything"
-  date: 2026-07-22
-  source: Simon Willison
-  category: ai
-- title: "Are AI labs pelicanmaxxing?"
-  url: "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything"
   date: 2026-07-22
   source: Simon Willison
   category: ai
@@ -82,26 +102,6 @@
   url: "https://aeon.co/essays/the-rural-french-priest-who-preached-atheism-to-the-people"
   date: 2026-07-21
   source: Aeon
-  category: philosophy
-- title: G.K. Chesterton on the Dandelion and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/07/21/g-k-chesterton-dandelion/"
-  date: 2026-07-21
-  source: The Marginalian
-  category: philosophy
-- title: How Not to Waste Your Life
-  url: "https://www.themarginalian.org/2026/07/21/hawthorne-life/"
-  date: 2026-07-21
-  source: The Marginalian
-  category: philosophy
-- title: The Skinner revolution
-  url: "https://aeon.co/videos/how-bf-skinner-upended-our-understanding-of-behaviour-and-control"
-  date: 2026-07-20
-  source: Aeon
-  category: philosophy
-- title: "Epictetus on Love and Loss: The Stoic Strategy for Surviving Heartbreak"
-  url: "https://www.themarginalian.org/2026/07/20/epictetus-love-loss/"
-  date: 2026-07-20
-  source: The Marginalian
   category: philosophy
 - title: Learning a few things about running SQLite
   url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
@@ -143,6 +143,11 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -163,11 +168,31 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
