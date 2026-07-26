@@ -1,42 +1,62 @@
+- title: JetZero
+  url: "https://www.jetzero.aero"
+  date: 2026-07-26
+  source: Hacker News Best
+  category: programming
+- title: Ruff v0.16.0
+  url: "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything"
+  date: 2026-07-25
+  source: Simon Willison
+  category: ai
 - title: Quoting Boris Cherny
   url: "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
   date: 2026-07-25
   source: Simon Willison
   category: ai
+- title: Turn And Face The Strange
+  url: "https://fly.io/blog/kurt-scott-money-sprites/"
+  date: 2026-07-25
+  source: Hacker News Best
+  category: programming
+- title: The new rules of context engineering for Claude 5 generation models
+  url: "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+  date: 2026-07-25
+  source: Hacker News Best
+  category: programming
+- title: "Did They Ghost You?"
+  url: "https://didtheyghostyou.com/"
+  date: 2026-07-25
+  source: Hacker News Best
+  category: programming
+- title: The growing vigilante movement to knock out Flock surveillance cameras
+  url: "https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras"
+  date: 2026-07-25
+  source: Hacker News Best
+  category: programming
+- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
+  url: "https://www.themarginalian.org/2026/07/24/henry-james-the-beast-in-the-jungle/"
+  date: 2026-07-25
+  source: The Marginalian
+  category: philosophy
 - title: Introducing Claude Opus 5
   url: "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
   date: 2026-07-24
   source: Simon Willison
   category: ai
-- title: Postgres LISTEN/NOTIFY actually scales
-  url: "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
-  date: 2026-07-24
-  source: Hacker News Best
-  category: programming
-- title: Claude Opus 5
-  url: "https://www.anthropic.com/news/claude-opus-5"
-  date: 2026-07-24
-  source: Hacker News Best
-  category: programming
-- title: "Be skeptical of OpenAI's rogue hacker agent story"
-  url: "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker"
-  date: 2026-07-24
-  source: Hacker News Best
-  category: programming
-- title: "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey"
-  url: "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece"
-  date: 2026-07-24
-  source: Hacker News Best
-  category: programming
-- title: "Nvidia, Microsoft, Meta warn against overregulating open-weight models"
-  url: "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
-  date: 2026-07-24
-  source: Hacker News Best
-  category: programming
 - title: Signal then storm
   url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
   date: 2026-07-24
   source: Aeon
+  category: philosophy
+- title: Kahlil Gibran on the Art of Becoming Yourself Across the Sweep of Life
+  url: "https://www.themarginalian.org/2026/07/24/youth-and-age-kahlil-gibran/"
+  date: 2026-07-24
+  source: The Marginalian
+  category: philosophy
+- title: "Dr. Jekyll, Mr. Hyde, and Ms. Boodle: Robert Louis Stevenson’s Advice on Writing to a Young Woman Aspiring to Be an Author"
+  url: "https://www.themarginalian.org/2026/07/24/robert-louis-stevenson-writing/"
+  date: 2026-07-24
+  source: The Marginalian
   category: philosophy
 - title: Albert Camus on the Three Antidotes to the Absurdity of Life
   url: "https://www.themarginalian.org/2026/07/23/albert-camus-interview-absurd/"
@@ -68,30 +88,10 @@
   date: 2026-07-23
   source: The Marginalian
   category: philosophy
-- title: "Antidotes to Fear of Death: Astronomer and Poet Rebecca Elson’s Stunning Cosmic Salve for Existential Tremors"
-  url: "https://www.themarginalian.org/2026/07/23/antidotes-to-fear-of-death-rebecca-elson/"
-  date: 2026-07-23
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Thomas Ptacek
-  url: "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything"
-  date: 2026-07-22
-  source: Simon Willison
-  category: ai
 - title: "Can cells think?"
   url: "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains"
   date: 2026-07-22
   source: Aeon
-  category: philosophy
-- title: Carl Jung on Creativity
-  url: "https://www.themarginalian.org/2026/07/22/carl-jung-creativity/"
-  date: 2026-07-22
-  source: The Marginalian
-  category: philosophy
-- title: "How to Keep Life from Becoming a Parody of Itself: Simone de Beauvoir on the Art of Growing Older"
-  url: "https://www.themarginalian.org/2026/07/22/simone-de-beauvoir-coming-of-age/"
-  date: 2026-07-22
-  source: The Marginalian
   category: philosophy
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
