@@ -1,8 +1,38 @@
-- title: JetZero
-  url: "https://www.jetzero.aero"
+- title: Kimi-K3 Releases on HuggingFace 7/27
+  url: "https://huggingface.co/moonshotai/Kimi-K3"
+  date: 2026-07-27
+  source: Hacker News Best
+  category: programming
+- title: PGSimCity - How PostgreSQL Works
+  url: "https://nikolays.github.io/PGSimCity/"
+  date: 2026-07-27
+  source: Hacker News Best
+  category: programming
+- title: An Inside Look at the Relay Market Powering Token Resellers and Fraud
+  url: "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+  date: 2026-07-26
+  source: Simon Willison
+  category: ai
+- title: US citizen charged after GrapheneOS phone wipes during airport search
+  url: "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
   date: 2026-07-26
   source: Hacker News Best
   category: programming
+- title: The Strongest El Niño Ever
+  url: "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever"
+  date: 2026-07-26
+  source: Hacker News Best
+  category: programming
+- title: "Decker, a platform that builds on the legacy of Hypercard and classic macOS"
+  url: "https://beyondloom.com/decker/"
+  date: 2026-07-26
+  source: Hacker News Best
+  category: programming
+- title: "The One Hundred Milliseconds Between the World and You: Oliver Sacks on Perception"
+  url: "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception/"
+  date: 2026-07-26
+  source: The Marginalian
+  category: philosophy
 - title: Ruff v0.16.0
   url: "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything"
   date: 2026-07-25
@@ -13,26 +43,16 @@
   date: 2026-07-25
   source: Simon Willison
   category: ai
-- title: Turn And Face The Strange
-  url: "https://fly.io/blog/kurt-scott-money-sprites/"
+- title: How to Live a Miraculous Life
+  url: "https://www.themarginalian.org/2026/07/25/brian-doyle-humility-love/"
   date: 2026-07-25
-  source: Hacker News Best
-  category: programming
-- title: The new rules of context engineering for Claude 5 generation models
-  url: "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+  source: The Marginalian
+  category: philosophy
+- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
+  url: "https://www.themarginalian.org/2026/07/25/simone-de-beauvoir-love-friendship/"
   date: 2026-07-25
-  source: Hacker News Best
-  category: programming
-- title: "Did They Ghost You?"
-  url: "https://didtheyghostyou.com/"
-  date: 2026-07-25
-  source: Hacker News Best
-  category: programming
-- title: The growing vigilante movement to knock out Flock surveillance cameras
-  url: "https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras"
-  date: 2026-07-25
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
   url: "https://www.themarginalian.org/2026/07/24/henry-james-the-beast-in-the-jungle/"
   date: 2026-07-25
@@ -53,23 +73,8 @@
   date: 2026-07-24
   source: The Marginalian
   category: philosophy
-- title: "Dr. Jekyll, Mr. Hyde, and Ms. Boodle: Robert Louis Stevenson’s Advice on Writing to a Young Woman Aspiring to Be an Author"
-  url: "https://www.themarginalian.org/2026/07/24/robert-louis-stevenson-writing/"
-  date: 2026-07-24
-  source: The Marginalian
-  category: philosophy
-- title: Albert Camus on the Three Antidotes to the Absurdity of Life
-  url: "https://www.themarginalian.org/2026/07/23/albert-camus-interview-absurd/"
-  date: 2026-07-24
-  source: The Marginalian
-  category: philosophy
 - title: "The first known runaway AI agent - or a very bad marketing stunt?"
   url: "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
-  date: 2026-07-23
-  source: Simon Willison
-  category: ai
-- title: Quoting Seth Larson
-  url: "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything"
   date: 2026-07-23
   source: Simon Willison
   category: ai
@@ -82,11 +87,6 @@
   url: "https://aeon.co/essays/anthropophagy-art-flips-the-cannibal-worries-of-colonialism"
   date: 2026-07-23
   source: Aeon
-  category: philosophy
-- title: Dostoyevsky in Love
-  url: "https://www.themarginalian.org/2026/07/23/dostoyevsky-in-love/"
-  date: 2026-07-23
-  source: The Marginalian
   category: philosophy
 - title: "Can cells think?"
   url: "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains"
