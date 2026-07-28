@@ -1,33 +1,73 @@
-- title: Kimi-K3 Releases on HuggingFace 7/27
-  url: "https://huggingface.co/moonshotai/Kimi-K3"
+- title: Using an open model feels surprisingly good
+  url: "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/"
+  date: 2026-07-28
+  source: Hacker News Best
+  category: programming
+- title: moonshotai/Kimi-K3
+  url: "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
+  date: 2026-07-27
+  source: Simon Willison
+  category: ai
+- title: An opinionated guide to which AI to use to do stuff
+  url: "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything"
+  date: 2026-07-27
+  source: Simon Willison
+  category: ai
+- title: Netflix employee fired for sharing personal details in retreat trust exercise
+  url: "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
   date: 2026-07-27
   source: Hacker News Best
   category: programming
-- title: PGSimCity - How PostgreSQL Works
-  url: "https://nikolays.github.io/PGSimCity/"
+- title: Benchmarking Opus 5 on SlopCodeBench
+  url: "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md"
   date: 2026-07-27
   source: Hacker News Best
   category: programming
+- title: A missing underscore sent innocent man to prison for 18 months
+  url: "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
+  date: 2026-07-27
+  source: Hacker News Best
+  category: programming
+- title: Our position on open-weights models
+  url: "https://www.anthropic.com/news/position-open-weights-models"
+  date: 2026-07-27
+  source: Hacker News Best
+  category: programming
+- title: In search of the northern cassowary
+  url: "https://aeon.co/videos/scientists-and-locals-unite-to-film-a-large-elusive-new-guinean-bird"
+  date: 2026-07-27
+  source: Aeon
+  category: philosophy
+- title: The taming of Black thought
+  url: "https://aeon.co/essays/epistemic-convergence-in-the-study-of-world-philosophies"
+  date: 2026-07-27
+  source: Aeon
+  category: philosophy
+- title: "Do the Next Right Thing: Carl Jung on How to Live and the Origin of His Famous Tenet for Navigating Uncertainty"
+  url: "https://www.themarginalian.org/2026/07/27/carl-jung-next-right-thing/"
+  date: 2026-07-27
+  source: The Marginalian
+  category: philosophy
 - title: An Inside Look at the Relay Market Powering Token Resellers and Fraud
   url: "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
   date: 2026-07-26
   source: Simon Willison
   category: ai
-- title: US citizen charged after GrapheneOS phone wipes during airport search
-  url: "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+- title: The Donkey and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/07/26/platero-and-i/"
   date: 2026-07-26
-  source: Hacker News Best
-  category: programming
-- title: The Strongest El Niño Ever
-  url: "https://www.theclimatebrink.com/p/the-strongest-el-nino-ever"
+  source: The Marginalian
+  category: philosophy
+- title: Love Anyway
+  url: "https://www.themarginalian.org/2026/07/26/love-anyway/"
   date: 2026-07-26
-  source: Hacker News Best
-  category: programming
-- title: "Decker, a platform that builds on the legacy of Hypercard and classic macOS"
-  url: "https://beyondloom.com/decker/"
+  source: The Marginalian
+  category: philosophy
+- title: Ursula K. Le Guin on the Meaning of Life
+  url: "https://www.themarginalian.org/2026/07/26/le-guin-life/"
   date: 2026-07-26
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "The One Hundred Milliseconds Between the World and You: Oliver Sacks on Perception"
   url: "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception/"
   date: 2026-07-26
@@ -43,41 +83,16 @@
   date: 2026-07-25
   source: Simon Willison
   category: ai
-- title: How to Live a Miraculous Life
-  url: "https://www.themarginalian.org/2026/07/25/brian-doyle-humility-love/"
-  date: 2026-07-25
-  source: The Marginalian
-  category: philosophy
-- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
-  url: "https://www.themarginalian.org/2026/07/25/simone-de-beauvoir-love-friendship/"
-  date: 2026-07-25
-  source: The Marginalian
-  category: philosophy
-- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
-  url: "https://www.themarginalian.org/2026/07/24/henry-james-the-beast-in-the-jungle/"
-  date: 2026-07-25
-  source: The Marginalian
-  category: philosophy
-- title: Introducing Claude Opus 5
-  url: "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
-  date: 2026-07-24
-  source: Simon Willison
-  category: ai
 - title: Signal then storm
   url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
   date: 2026-07-24
   source: Aeon
   category: philosophy
-- title: Kahlil Gibran on the Art of Becoming Yourself Across the Sweep of Life
-  url: "https://www.themarginalian.org/2026/07/24/youth-and-age-kahlil-gibran/"
-  date: 2026-07-24
-  source: The Marginalian
-  category: philosophy
-- title: "The first known runaway AI agent - or a very bad marketing stunt?"
-  url: "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
+- title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
+  url: "https://danluu.com/exercise-7/"
   date: 2026-07-23
-  source: Simon Willison
-  category: ai
+  source: Dan Luu
+  category: programming
 - title: All the Queens houses
   url: "https://aeon.co/videos/tour-the-eclectic-residences-of-new-yorks-most-diverse-borough"
   date: 2026-07-23
@@ -88,21 +103,11 @@
   date: 2026-07-23
   source: Aeon
   category: philosophy
-- title: "Can cells think?"
-  url: "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains"
-  date: 2026-07-22
-  source: Aeon
-  category: philosophy
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
   date: 2026-07-21
   source: Julia Evans
   category: programming
-- title: The people’s atheist
-  url: "https://aeon.co/essays/the-rural-french-priest-who-preached-atheism-to-the-people"
-  date: 2026-07-21
-  source: Aeon
-  category: philosophy
 - title: Learning a few things about running SQLite
   url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
   date: 2026-07-17
@@ -241,11 +246,6 @@
 - title: A discussion of discussions on AI bias
   url: "https://danluu.com/ai-bias/"
   date: 2024-06-16
-  source: Dan Luu
-  category: programming
-- title: What the FTC got wrong in the Google antitrust investigation
-  url: "https://danluu.com/ftc-google-antitrust/"
-  date: 2024-05-26
   source: Dan Luu
   category: programming
 - title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
