@@ -1,38 +1,63 @@
-- title: Using an open model feels surprisingly good
-  url: "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/"
+- title: Discovering cryptographic weaknesses with Claude
+  url: "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything"
+  date: 2026-07-28
+  source: Simon Willison
+  category: ai
+- title: Quoting Akshat Bubna
+  url: "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything"
+  date: 2026-07-28
+  source: Simon Willison
+  category: ai
+- title: uv 0.12.0
+  url: "https://simonwillison.net/2026/Jul/28/uv/#atom-everything"
+  date: 2026-07-28
+  source: Simon Willison
+  category: ai
+- title: "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident"
+  url: "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything"
+  date: 2026-07-28
+  source: Simon Willison
+  category: ai
+- title: "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript"
+  url: "https://github.com/twalichiewicz/HNewhere"
   date: 2026-07-28
   source: Hacker News Best
   category: programming
+- title: Codex Security
+  url: "https://github.com/openai/codex-security"
+  date: 2026-07-28
+  source: Hacker News Best
+  category: programming
+- title: Donate to GrapheneOS
+  url: "https://grapheneos.org/donate"
+  date: 2026-07-28
+  source: Hacker News Best
+  category: programming
+- title: Deflock Casa Grande
+  url: "https://deflockcg.com/"
+  date: 2026-07-28
+  source: Hacker News Best
+  category: programming
+- title: "Substack writers, you need a website"
+  url: "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/"
+  date: 2026-07-28
+  source: Hacker News Best
+  category: programming
+- title: The light narrows
+  url: "https://aeon.co/essays/what-kind-of-strength-did-i-chase-with-a-cojones-cheat-code"
+  date: 2026-07-28
+  source: Aeon
+  category: philosophy
+- title: "The Bird in You, the World in You, and the Art of Trusting Time: A Ceramics and Serpentine Raffle"
+  url: "https://www.themarginalian.org/2026/07/27/serpentine-birdworlds/"
+  date: 2026-07-28
+  source: The Marginalian
+  category: philosophy
 - title: moonshotai/Kimi-K3
   url: "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
   date: 2026-07-27
   source: Simon Willison
   category: ai
-- title: An opinionated guide to which AI to use to do stuff
-  url: "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything"
-  date: 2026-07-27
-  source: Simon Willison
-  category: ai
-- title: Netflix employee fired for sharing personal details in retreat trust exercise
-  url: "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
-  date: 2026-07-27
-  source: Hacker News Best
-  category: programming
-- title: Benchmarking Opus 5 on SlopCodeBench
-  url: "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md"
-  date: 2026-07-27
-  source: Hacker News Best
-  category: programming
-- title: A missing underscore sent innocent man to prison for 18 months
-  url: "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
-  date: 2026-07-27
-  source: Hacker News Best
-  category: programming
-- title: Our position on open-weights models
-  url: "https://www.anthropic.com/news/position-open-weights-models"
-  date: 2026-07-27
-  source: Hacker News Best
-  category: programming
 - title: In search of the northern cassowary
   url: "https://aeon.co/videos/scientists-and-locals-unite-to-film-a-large-elusive-new-guinean-bird"
   date: 2026-07-27
@@ -48,11 +73,6 @@
   date: 2026-07-27
   source: The Marginalian
   category: philosophy
-- title: An Inside Look at the Relay Market Powering Token Resellers and Fraud
-  url: "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
-  date: 2026-07-26
-  source: Simon Willison
-  category: ai
 - title: The Donkey and the Meaning of Life
   url: "https://www.themarginalian.org/2026/07/26/platero-and-i/"
   date: 2026-07-26
@@ -68,21 +88,6 @@
   date: 2026-07-26
   source: The Marginalian
   category: philosophy
-- title: "The One Hundred Milliseconds Between the World and You: Oliver Sacks on Perception"
-  url: "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception/"
-  date: 2026-07-26
-  source: The Marginalian
-  category: philosophy
-- title: Ruff v0.16.0
-  url: "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything"
-  date: 2026-07-25
-  source: Simon Willison
-  category: ai
-- title: Quoting Boris Cherny
-  url: "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
-  date: 2026-07-25
-  source: Simon Willison
-  category: ai
 - title: Signal then storm
   url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
   date: 2026-07-24
@@ -95,11 +100,6 @@
   category: programming
 - title: All the Queens houses
   url: "https://aeon.co/videos/tour-the-eclectic-residences-of-new-yorks-most-diverse-borough"
-  date: 2026-07-23
-  source: Aeon
-  category: philosophy
-- title: The savage bites back
-  url: "https://aeon.co/essays/anthropophagy-art-flips-the-cannibal-worries-of-colonialism"
   date: 2026-07-23
   source: Aeon
   category: philosophy
