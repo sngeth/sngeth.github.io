@@ -1,48 +1,68 @@
+- title: Quoting D. Richard Hipp
+  url: "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
+  date: 2026-07-29
+  source: Simon Willison
+  category: ai
+- title: AI Worming through Word
+  url: "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
+  date: 2026-07-29
+  source: Simon Willison
+  category: ai
+- title: Quoting Matthew Green
+  url: "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything"
+  date: 2026-07-29
+  source: Simon Willison
+  category: ai
+- title: Adding a custom MCP server to Claude and ChatGPT
+  url: "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything"
+  date: 2026-07-29
+  source: Simon Willison
+  category: ai
+- title: "AI's top startups are barely publishing their research"
+  url: "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research"
+  date: 2026-07-29
+  source: Hacker News Best
+  category: programming
+- title: The coolest use for the Vision Pro
+  url: "https://christianselig.com/2026/07/vision-pro-house/"
+  date: 2026-07-29
+  source: Hacker News Best
+  category: programming
+- title: "Claude: Elevated errors across all models – Resolved"
+  url: "https://status.claude.com/incidents/q2kg8n613kr3"
+  date: 2026-07-29
+  source: Hacker News Best
+  category: programming
+- title: Kimi K3-256k
+  url: "https://www.kimi.com/code/docs/en/kimi-code/models"
+  date: 2026-07-29
+  source: Hacker News Best
+  category: programming
+- title: Keychron announces first open-source firmware for gaming mice
+  url: "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
+  date: 2026-07-29
+  source: Hacker News Best
+  category: programming
+- title: How to spot pseudoscience
+  url: "https://aeon.co/videos/three-handy-tools-for-separating-pseudoscience-from-the-real-deal"
+  date: 2026-07-29
+  source: Aeon
+  category: philosophy
+- title: "Kahlil Gibran on Silence, Solitude, and the Courage to Know Yourself"
+  url: "https://www.themarginalian.org/2026/07/29/kahlil-gibran-prophet-talking/"
+  date: 2026-07-29
+  source: The Marginalian
+  category: philosophy
+- title: "Kindness Over Fear: Naomi Shihab Nye Tells the Remarkable Real-Life Story That Inspired Her Beloved Poem “Kindness”"
+  url: "https://www.themarginalian.org/2026/07/28/naomi-shihab-nye-kindness/"
+  date: 2026-07-29
+  source: The Marginalian
+  category: philosophy
 - title: Discovering cryptographic weaknesses with Claude
   url: "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything"
   date: 2026-07-28
   source: Simon Willison
   category: ai
-- title: Quoting Akshat Bubna
-  url: "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything"
-  date: 2026-07-28
-  source: Simon Willison
-  category: ai
-- title: uv 0.12.0
-  url: "https://simonwillison.net/2026/Jul/28/uv/#atom-everything"
-  date: 2026-07-28
-  source: Simon Willison
-  category: ai
-- title: "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident"
-  url: "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything"
-  date: 2026-07-28
-  source: Simon Willison
-  category: ai
-- title: "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript"
-  url: "https://github.com/twalichiewicz/HNewhere"
-  date: 2026-07-28
-  source: Hacker News Best
-  category: programming
-- title: Codex Security
-  url: "https://github.com/openai/codex-security"
-  date: 2026-07-28
-  source: Hacker News Best
-  category: programming
-- title: Donate to GrapheneOS
-  url: "https://grapheneos.org/donate"
-  date: 2026-07-28
-  source: Hacker News Best
-  category: programming
-- title: Deflock Casa Grande
-  url: "https://deflockcg.com/"
-  date: 2026-07-28
-  source: Hacker News Best
-  category: programming
-- title: "Substack writers, you need a website"
-  url: "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/"
-  date: 2026-07-28
-  source: Hacker News Best
-  category: programming
 - title: The light narrows
   url: "https://aeon.co/essays/what-kind-of-strength-did-i-chase-with-a-cojones-cheat-code"
   date: 2026-07-28
@@ -53,11 +73,6 @@
   date: 2026-07-28
   source: The Marginalian
   category: philosophy
-- title: moonshotai/Kimi-K3
-  url: "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
-  date: 2026-07-27
-  source: Simon Willison
-  category: ai
 - title: In search of the northern cassowary
   url: "https://aeon.co/videos/scientists-and-locals-unite-to-film-a-large-elusive-new-guinean-bird"
   date: 2026-07-27
@@ -78,16 +93,6 @@
   date: 2026-07-26
   source: The Marginalian
   category: philosophy
-- title: Love Anyway
-  url: "https://www.themarginalian.org/2026/07/26/love-anyway/"
-  date: 2026-07-26
-  source: The Marginalian
-  category: philosophy
-- title: Ursula K. Le Guin on the Meaning of Life
-  url: "https://www.themarginalian.org/2026/07/26/le-guin-life/"
-  date: 2026-07-26
-  source: The Marginalian
-  category: philosophy
 - title: Signal then storm
   url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
   date: 2026-07-24
@@ -98,11 +103,6 @@
   date: 2026-07-23
   source: Dan Luu
   category: programming
-- title: All the Queens houses
-  url: "https://aeon.co/videos/tour-the-eclectic-residences-of-new-yorks-most-diverse-borough"
-  date: 2026-07-23
-  source: Aeon
-  category: philosophy
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
   date: 2026-07-21
