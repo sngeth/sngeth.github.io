@@ -1,52 +1,52 @@
-- title: Quoting D. Richard Hipp
-  url: "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
-  date: 2026-07-29
+- title: Advancing the price-performance frontier with GPT‑5.6
+  url: "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
+  date: 2026-07-30
   source: Simon Willison
   category: ai
-- title: AI Worming through Word
-  url: "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"
-  date: 2026-07-29
+- title: Investigating three real-world incidents in our cybersecurity evaluations
+  url: "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything"
+  date: 2026-07-30
   source: Simon Willison
   category: ai
-- title: Quoting Matthew Green
-  url: "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything"
-  date: 2026-07-29
+- title: llm 0.32rc2
+  url: "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything"
+  date: 2026-07-30
   source: Simon Willison
   category: ai
-- title: Adding a custom MCP server to Claude and ChatGPT
-  url: "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything"
-  date: 2026-07-29
+- title: Quoting Bruce Schneier
+  url: "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything"
+  date: 2026-07-30
   source: Simon Willison
   category: ai
-- title: "AI's top startups are barely publishing their research"
-  url: "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research"
-  date: 2026-07-29
-  source: Hacker News Best
-  category: programming
-- title: The coolest use for the Vision Pro
-  url: "https://christianselig.com/2026/07/vision-pro-house/"
-  date: 2026-07-29
-  source: Hacker News Best
-  category: programming
-- title: "Claude: Elevated errors across all models – Resolved"
-  url: "https://status.claude.com/incidents/q2kg8n613kr3"
-  date: 2026-07-29
-  source: Hacker News Best
-  category: programming
-- title: Kimi K3-256k
-  url: "https://www.kimi.com/code/docs/en/kimi-code/models"
-  date: 2026-07-29
-  source: Hacker News Best
-  category: programming
-- title: Keychron announces first open-source firmware for gaming mice
-  url: "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
-  date: 2026-07-29
-  source: Hacker News Best
-  category: programming
+- title: llm-chat-completions-server 0.1a0
+  url: "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything"
+  date: 2026-07-30
+  source: Simon Willison
+  category: ai
+- title: "Mud below, sun above"
+  url: "https://aeon.co/videos/the-workforce-of-elderly-women-recycling-what-vietnam-throws-away"
+  date: 2026-07-30
+  source: Aeon
+  category: philosophy
+- title: How art invented humanity
+  url: "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around"
+  date: 2026-07-30
+  source: Aeon
+  category: philosophy
+- title: "Games People Play: The Revolutionary 1964 Model of Human Relationships That Changed How We (Mis)Understand Ourselves and Each Other"
+  url: "https://www.themarginalian.org/2026/07/29/eric-berne-games-people-play/"
+  date: 2026-07-30
+  source: The Marginalian
+  category: philosophy
 - title: How to spot pseudoscience
   url: "https://aeon.co/videos/three-handy-tools-for-separating-pseudoscience-from-the-real-deal"
   date: 2026-07-29
   source: Aeon
+  category: philosophy
+- title: "The Third Self: Mary Oliver on Creativity and Time"
+  url: "https://www.themarginalian.org/2026/07/29/mary-oliver-upstream-creativity-power-time/"
+  date: 2026-07-29
+  source: The Marginalian
   category: philosophy
 - title: "Kahlil Gibran on Silence, Solitude, and the Courage to Know Yourself"
   url: "https://www.themarginalian.org/2026/07/29/kahlil-gibran-prophet-talking/"
@@ -58,11 +58,6 @@
   date: 2026-07-29
   source: The Marginalian
   category: philosophy
-- title: Discovering cryptographic weaknesses with Claude
-  url: "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything"
-  date: 2026-07-28
-  source: Simon Willison
-  category: ai
 - title: The light narrows
   url: "https://aeon.co/essays/what-kind-of-strength-did-i-chase-with-a-cojones-cheat-code"
   date: 2026-07-28
@@ -76,26 +71,6 @@
 - title: In search of the northern cassowary
   url: "https://aeon.co/videos/scientists-and-locals-unite-to-film-a-large-elusive-new-guinean-bird"
   date: 2026-07-27
-  source: Aeon
-  category: philosophy
-- title: The taming of Black thought
-  url: "https://aeon.co/essays/epistemic-convergence-in-the-study-of-world-philosophies"
-  date: 2026-07-27
-  source: Aeon
-  category: philosophy
-- title: "Do the Next Right Thing: Carl Jung on How to Live and the Origin of His Famous Tenet for Navigating Uncertainty"
-  url: "https://www.themarginalian.org/2026/07/27/carl-jung-next-right-thing/"
-  date: 2026-07-27
-  source: The Marginalian
-  category: philosophy
-- title: The Donkey and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/07/26/platero-and-i/"
-  date: 2026-07-26
-  source: The Marginalian
-  category: philosophy
-- title: Signal then storm
-  url: "https://aeon.co/essays/a-researchers-50-year-hunt-for-the-source-of-chronic-pain"
-  date: 2026-07-24
   source: Aeon
   category: philosophy
 - title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
