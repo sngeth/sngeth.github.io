@@ -1,28 +1,68 @@
-- title: Advancing the price-performance frontier with GPT‑5.6
-  url: "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything"
-  date: 2026-07-30
+- title: deepseek-ai/DeepSeek-V4-Flash-0731
+  url: "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"
+  date: 2026-07-31
   source: Simon Willison
   category: ai
-- title: Investigating three real-world incidents in our cybersecurity evaluations
-  url: "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything"
-  date: 2026-07-30
+- title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
+  url: "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"
+  date: 2026-07-31
   source: Simon Willison
   category: ai
-- title: llm 0.32rc2
-  url: "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything"
-  date: 2026-07-30
+- title: llm-mcp-client 0.1a0
+  url: "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything"
+  date: 2026-07-31
   source: Simon Willison
   category: ai
-- title: Quoting Bruce Schneier
-  url: "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything"
-  date: 2026-07-30
+- title: "Oxide and Friends: The Open Weight Revolution with Simon Willison"
+  url: "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything"
+  date: 2026-07-31
   source: Simon Willison
   category: ai
-- title: llm-chat-completions-server 0.1a0
-  url: "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything"
-  date: 2026-07-30
+- title: "smevals - a small eval suite for evaluating models, prompts, and harnesses"
+  url: "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything"
+  date: 2026-07-31
   source: Simon Willison
   category: ai
+- title: "Tailscale didn't stop the Hugging Face intrusion"
+  url: "https://tailscale.com/blog/hugging-face-intrusion"
+  date: 2026-07-31
+  source: Hacker News Best
+  category: programming
+- title: qm – Multiplayer agent harness for work
+  url: "https://github.com/yc-software/qm"
+  date: 2026-07-31
+  source: Hacker News Best
+  category: programming
+- title: Severance
+  url: "https://lcamtuf.substack.com/p/severance"
+  date: 2026-07-31
+  source: Hacker News Best
+  category: programming
+- title: Elevators
+  url: "https://john.fun/elevators"
+  date: 2026-07-31
+  source: Hacker News Best
+  category: programming
+- title: Run Kimi K3 using 29 GB of RAM at 0.50 tok/s
+  url: "https://github.com/sqliteai/waste"
+  date: 2026-07-31
+  source: Hacker News Best
+  category: programming
+- title: Resist the technocrats
+  url: "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international"
+  date: 2026-07-31
+  source: Aeon
+  category: philosophy
+- title: "Blackie & Co.: A Blackbird’s Lesson in Friendship"
+  url: "https://www.themarginalian.org/2026/07/31/hockley-clarke-blackie/"
+  date: 2026-07-31
+  source: The Marginalian
+  category: philosophy
+- title: "No One You Love Is Ever Dead: Hemingway on the Most Devastating of Losses and the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/07/31/hemingway-loss-letter/"
+  date: 2026-07-31
+  source: The Marginalian
+  category: philosophy
 - title: "Mud below, sun above"
   url: "https://aeon.co/videos/the-workforce-of-elderly-women-recycling-what-vietnam-throws-away"
   date: 2026-07-30
@@ -32,6 +72,16 @@
   url: "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around"
   date: 2026-07-30
   source: Aeon
+  category: philosophy
+- title: "The Log from the Sea of Cortez: John Steinbeck’s Forgotten Masterpiece on How to Think and the Art of Seeing the Pattern Beyond the Particular"
+  url: "https://www.themarginalian.org/2026/07/30/steinbeck-log-from-the-sea-of-cortez/"
+  date: 2026-07-30
+  source: The Marginalian
+  category: philosophy
+- title: "A Heron, a Red Leaf, and a Hole in a Blue Star: Poet Jane Kenyon on the Art of Letting Go"
+  url: "https://www.themarginalian.org/2026/07/30/jane-kenyon-things-otherwise/"
+  date: 2026-07-30
+  source: The Marginalian
   category: philosophy
 - title: "Games People Play: The Revolutionary 1964 Model of Human Relationships That Changed How We (Mis)Understand Ourselves and Each Other"
   url: "https://www.themarginalian.org/2026/07/29/eric-berne-games-people-play/"
@@ -43,34 +93,9 @@
   date: 2026-07-29
   source: Aeon
   category: philosophy
-- title: "The Third Self: Mary Oliver on Creativity and Time"
-  url: "https://www.themarginalian.org/2026/07/29/mary-oliver-upstream-creativity-power-time/"
-  date: 2026-07-29
-  source: The Marginalian
-  category: philosophy
-- title: "Kahlil Gibran on Silence, Solitude, and the Courage to Know Yourself"
-  url: "https://www.themarginalian.org/2026/07/29/kahlil-gibran-prophet-talking/"
-  date: 2026-07-29
-  source: The Marginalian
-  category: philosophy
-- title: "Kindness Over Fear: Naomi Shihab Nye Tells the Remarkable Real-Life Story That Inspired Her Beloved Poem “Kindness”"
-  url: "https://www.themarginalian.org/2026/07/28/naomi-shihab-nye-kindness/"
-  date: 2026-07-29
-  source: The Marginalian
-  category: philosophy
 - title: The light narrows
   url: "https://aeon.co/essays/what-kind-of-strength-did-i-chase-with-a-cojones-cheat-code"
   date: 2026-07-28
-  source: Aeon
-  category: philosophy
-- title: "The Bird in You, the World in You, and the Art of Trusting Time: A Ceramics and Serpentine Raffle"
-  url: "https://www.themarginalian.org/2026/07/27/serpentine-birdworlds/"
-  date: 2026-07-28
-  source: The Marginalian
-  category: philosophy
-- title: In search of the northern cassowary
-  url: "https://aeon.co/videos/scientists-and-locals-unite-to-film-a-large-elusive-new-guinean-bird"
-  date: 2026-07-27
   source: Aeon
   category: philosophy
 - title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
