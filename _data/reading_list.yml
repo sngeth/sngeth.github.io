@@ -1,57 +1,47 @@
-- title: deepseek-ai/DeepSeek-V4-Flash-0731
-  url: "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"
-  date: 2026-07-31
+- title: Open letters about AI development
+  url: "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
+  date: 2026-08-02
   source: Simon Willison
   category: ai
-- title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
-  url: "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"
-  date: 2026-07-31
+- title: July 2026 newsletter
+  url: "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"
+  date: 2026-08-02
   source: Simon Willison
   category: ai
-- title: llm-mcp-client 0.1a0
-  url: "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything"
-  date: 2026-07-31
+- title: Quoting Greg Brockman
+  url: "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything"
+  date: 2026-08-01
   source: Simon Willison
   category: ai
-- title: "Oxide and Friends: The Open Weight Revolution with Simon Willison"
-  url: "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything"
-  date: 2026-07-31
+- title: datasette-apps 0.2a0
+  url: "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"
+  date: 2026-08-01
   source: Simon Willison
   category: ai
-- title: "smevals - a small eval suite for evaluating models, prompts, and harnesses"
-  url: "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything"
-  date: 2026-07-31
+- title: Ten advances in mathematics and theoretical computer science
+  url: "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything"
+  date: 2026-08-01
   source: Simon Willison
   category: ai
-- title: "Tailscale didn't stop the Hugging Face intrusion"
-  url: "https://tailscale.com/blog/hugging-face-intrusion"
-  date: 2026-07-31
-  source: Hacker News Best
-  category: programming
-- title: qm – Multiplayer agent harness for work
-  url: "https://github.com/yc-software/qm"
-  date: 2026-07-31
-  source: Hacker News Best
-  category: programming
-- title: Severance
-  url: "https://lcamtuf.substack.com/p/severance"
-  date: 2026-07-31
-  source: Hacker News Best
-  category: programming
-- title: Elevators
-  url: "https://john.fun/elevators"
-  date: 2026-07-31
-  source: Hacker News Best
-  category: programming
-- title: Run Kimi K3 using 29 GB of RAM at 0.50 tok/s
-  url: "https://github.com/sqliteai/waste"
-  date: 2026-07-31
-  source: Hacker News Best
-  category: programming
+- title: "Death and How to Be More Alive: Carl Jung on Immortality and the Rebirth of Middle Age"
+  url: "https://www.themarginalian.org/2026/07/31/carl-jung-death-immortality/"
+  date: 2026-08-01
+  source: The Marginalian
+  category: philosophy
 - title: Resist the technocrats
   url: "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international"
   date: 2026-07-31
   source: Aeon
+  category: philosophy
+- title: Darwin’s Greatest Regret and His Deathbed Reflection on What Makes Life Worth Living
+  url: "https://www.themarginalian.org/2026/07/31/darwin-life/"
+  date: 2026-07-31
+  source: The Marginalian
+  category: philosophy
+- title: "The Continuous Creative Act of Holding on and Letting Go: 10 Beautiful Minds on the Art of Growing Older"
+  url: "https://www.themarginalian.org/2026/07/31/growing-older/"
+  date: 2026-07-31
+  source: The Marginalian
   category: philosophy
 - title: "Blackie & Co.: A Blackbird’s Lesson in Friendship"
   url: "https://www.themarginalian.org/2026/07/31/hockley-clarke-blackie/"
@@ -72,21 +62,6 @@
   url: "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around"
   date: 2026-07-30
   source: Aeon
-  category: philosophy
-- title: "The Log from the Sea of Cortez: John Steinbeck’s Forgotten Masterpiece on How to Think and the Art of Seeing the Pattern Beyond the Particular"
-  url: "https://www.themarginalian.org/2026/07/30/steinbeck-log-from-the-sea-of-cortez/"
-  date: 2026-07-30
-  source: The Marginalian
-  category: philosophy
-- title: "A Heron, a Red Leaf, and a Hole in a Blue Star: Poet Jane Kenyon on the Art of Letting Go"
-  url: "https://www.themarginalian.org/2026/07/30/jane-kenyon-things-otherwise/"
-  date: 2026-07-30
-  source: The Marginalian
-  category: philosophy
-- title: "Games People Play: The Revolutionary 1964 Model of Human Relationships That Changed How We (Mis)Understand Ourselves and Each Other"
-  url: "https://www.themarginalian.org/2026/07/29/eric-berne-games-people-play/"
-  date: 2026-07-30
-  source: The Marginalian
   category: philosophy
 - title: How to spot pseudoscience
   url: "https://aeon.co/videos/three-handy-tools-for-separating-pseudoscience-from-the-real-deal"
@@ -148,11 +123,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: Thoughts on starting new projects with LLM agents
   url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
   date: 2026-06-06
@@ -173,31 +143,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +198,3 @@
   date: 2024-06-16
   source: Dan Luu
   category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
