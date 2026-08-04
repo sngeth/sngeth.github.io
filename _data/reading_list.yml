@@ -1,43 +1,83 @@
+- title: Quoting Steve Yegge
+  url: "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything"
+  date: 2026-08-04
+  source: Simon Willison
+  category: ai
 - title: "Don't be a meat proxy"
-  url: "https://gruhn.me/blog/2026-08-03/"
+  url: "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything"
+  date: 2026-08-03
+  source: Simon Willison
+  category: ai
+- title: "Quoting David Crawshaw's prompt"
+  url: "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"
+  date: 2026-08-03
+  source: Simon Willison
+  category: ai
+- title: Devtools must be open source (exe.dev)
+  url: "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything"
+  date: 2026-08-03
+  source: Simon Willison
+  category: ai
+- title: Relative velocity and closing speed
+  url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
+  date: 2026-08-03
+  source: Eli Bendersky
+  category: programming
+- title: LLMs reward expertise
+  url: "https://www.seangoedecke.com/llms-reward-expertise/"
   date: 2026-08-03
   source: Hacker News Best
   category: programming
-- title: "Qwen3.8-Max: A New Bar for Coding and Cowork"
-  url: "https://qwen.ai/blog?id=qwen3.8"
+- title: "Smaller, faster, safer: running Kimi and GLM at scale"
+  url: "https://blog.cloudflare.com/smaller-faster-safer-models/"
   date: 2026-08-03
   source: Hacker News Best
   category: programming
-- title: "Show HN: Isopolis – Isometric pixel map of SF"
-  url: "https://sf.isopolis.city/"
+- title: Ten advances in mathematics and theoretical computer science
+  url: "https://openai.com/index/ten-advances-in-mathematics/"
   date: 2026-08-03
   source: Hacker News Best
   category: programming
+- title: Taylor Farms has rewritten its cyclospora statement four times in sixteen days
+  url: "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/"
+  date: 2026-08-03
+  source: Hacker News Best
+  category: programming
+- title: Twenty Years of Pandoc
+  url: "https://pandoc.org/twenty-years-of-pandoc.html"
+  date: 2026-08-03
+  source: Hacker News Best
+  category: programming
+- title: "Ani Liu: eye heart womb"
+  url: "https://aeon.co/videos/transforming-scientific-enquiry-and-human-bodies-into-visceral-art"
+  date: 2026-08-03
+  source: Aeon
+  category: philosophy
+- title: Thucydides the perspicacious
+  url: "https://aeon.co/essays/thucydides-account-of-war-is-as-timely-as-it-is-misunderstood"
+  date: 2026-08-03
+  source: Aeon
+  category: philosophy
+- title: How to Live and How to Die
+  url: "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman/"
+  date: 2026-08-03
+  source: The Marginalian
+  category: philosophy
 - title: condense-json 1.0
   url: "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything"
   date: 2026-08-02
   source: Simon Willison
   category: ai
-- title: Open letters about AI development
-  url: "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
+- title: The Grasshopper and the “Lusory Attitude” Essential for Playing the Game of Life
+  url: "https://www.themarginalian.org/2026/08/02/suits-grasshopper/"
   date: 2026-08-02
-  source: Simon Willison
-  category: ai
-- title: July 2026 newsletter
-  url: "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"
+  source: The Marginalian
+  category: philosophy
+- title: "Rilke on the Relationship Between Solitude, Love, Sex, and Creativity"
+  url: "https://www.themarginalian.org/2026/08/02/rilke-letters-to-a-young-poet-macy-barrows/"
   date: 2026-08-02
-  source: Simon Willison
-  category: ai
-- title: EU Age Verification Project Mandates Hardware-Bound Attestation
-  url: "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/"
-  date: 2026-08-02
-  source: Hacker News Best
-  category: programming
-- title: "'Crush this lady': how eBay harassment campaign led to $56M payout"
-  url: "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2"
-  date: 2026-08-02
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "Enchantment and the Courage of Joy: René Magritte on the Antidote to the Banality of Pessimism"
   url: "https://www.themarginalian.org/2026/08/02/rene-magritte-enchantment/"
   date: 2026-08-02
@@ -48,35 +88,10 @@
   date: 2026-08-02
   source: The Marginalian
   category: philosophy
-- title: Quoting Greg Brockman
-  url: "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything"
-  date: 2026-08-01
-  source: Simon Willison
-  category: ai
-- title: datasette-apps 0.2a0
-  url: "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"
-  date: 2026-08-01
-  source: Simon Willison
-  category: ai
-- title: The Pleasure of Being Left Alone
-  url: "https://www.themarginalian.org/2026/08/01/rose-macaulay-personal-pleasures/"
-  date: 2026-08-01
-  source: The Marginalian
-  category: philosophy
-- title: "Death and How to Be More Alive: Carl Jung on Immortality and the Rebirth of Middle Age"
-  url: "https://www.themarginalian.org/2026/07/31/carl-jung-death-immortality/"
-  date: 2026-08-01
-  source: The Marginalian
-  category: philosophy
 - title: Resist the technocrats
   url: "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international"
   date: 2026-07-31
   source: Aeon
-  category: philosophy
-- title: Darwin’s Greatest Regret and His Deathbed Reflection on What Makes Life Worth Living
-  url: "https://www.themarginalian.org/2026/07/31/darwin-life/"
-  date: 2026-07-31
-  source: The Marginalian
   category: philosophy
 - title: "Mud below, sun above"
   url: "https://aeon.co/videos/the-workforce-of-elderly-women-recycling-what-vietnam-throws-away"
@@ -86,16 +101,6 @@
 - title: How art invented humanity
   url: "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around"
   date: 2026-07-30
-  source: Aeon
-  category: philosophy
-- title: How to spot pseudoscience
-  url: "https://aeon.co/videos/three-handy-tools-for-separating-pseudoscience-from-the-real-deal"
-  date: 2026-07-29
-  source: Aeon
-  category: philosophy
-- title: The light narrows
-  url: "https://aeon.co/essays/what-kind-of-strength-did-i-chase-with-a-cojones-cheat-code"
-  date: 2026-07-28
   source: Aeon
   category: philosophy
 - title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
@@ -148,11 +153,11 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: Thoughts on starting new projects with LLM agents
-  url: "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
-  date: 2026-06-06
-  source: Eli Bendersky
-  category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -168,11 +173,31 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-06-16
   source: Dan Luu
   category: programming
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
