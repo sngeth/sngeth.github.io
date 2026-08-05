@@ -1,52 +1,67 @@
+- title: "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging"
+  url: "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything"
+  date: 2026-08-04
+  source: Simon Willison
+  category: ai
+- title: llm-anthropic 0.26
+  url: "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything"
+  date: 2026-08-04
+  source: Simon Willison
+  category: ai
+- title: PipeNetwork/minimax-h3-mlx
+  url: "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything"
+  date: 2026-08-04
+  source: Simon Willison
+  category: ai
+- title: llm 0.32
+  url: "https://simonwillison.net/2026/Aug/4/llm/#atom-everything"
+  date: 2026-08-04
+  source: Simon Willison
+  category: ai
 - title: Quoting Steve Yegge
   url: "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything"
   date: 2026-08-04
   source: Simon Willison
   category: ai
-- title: "Don't be a meat proxy"
-  url: "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything"
-  date: 2026-08-03
-  source: Simon Willison
-  category: ai
-- title: "Quoting David Crawshaw's prompt"
-  url: "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"
-  date: 2026-08-03
-  source: Simon Willison
-  category: ai
-- title: Devtools must be open source (exe.dev)
-  url: "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything"
-  date: 2026-08-03
-  source: Simon Willison
-  category: ai
+- title: "Pi's Minimalism Is Its Advantage"
+  url: "https://earendil.com/posts/pi-autoresearch-and-databricks/"
+  date: 2026-08-04
+  source: Hacker News Best
+  category: programming
+- title: "Thanks FedEx, This Is Why We Keep Getting Phished (2024)"
+  url: "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/"
+  date: 2026-08-04
+  source: Hacker News Best
+  category: programming
+- title: "I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel"
+  url: "https://twitter.com/gwern/status/2084739205071343837"
+  date: 2026-08-04
+  source: Hacker News Best
+  category: programming
+- title: "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years"
+  url: "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/"
+  date: 2026-08-04
+  source: Hacker News Best
+  category: programming
+- title: Waymo in Dallas
+  url: "https://waymo.com/blog/shorts/dallas-open-to-all/"
+  date: 2026-08-04
+  source: Hacker News Best
+  category: programming
+- title: Towards an AI for Africa
+  url: "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics"
+  date: 2026-08-04
+  source: Aeon
+  category: philosophy
+- title: "Trial, Triumph, and the Art of the Possible: The Remarkable Story Behind Beethoven’s “Ode to Joy”"
+  url: "https://www.themarginalian.org/2026/08/04/beethoven-ode-to-joy/"
+  date: 2026-08-04
+  source: The Marginalian
+  category: philosophy
 - title: Relative velocity and closing speed
   url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
   date: 2026-08-03
   source: Eli Bendersky
-  category: programming
-- title: LLMs reward expertise
-  url: "https://www.seangoedecke.com/llms-reward-expertise/"
-  date: 2026-08-03
-  source: Hacker News Best
-  category: programming
-- title: "Smaller, faster, safer: running Kimi and GLM at scale"
-  url: "https://blog.cloudflare.com/smaller-faster-safer-models/"
-  date: 2026-08-03
-  source: Hacker News Best
-  category: programming
-- title: Ten advances in mathematics and theoretical computer science
-  url: "https://openai.com/index/ten-advances-in-mathematics/"
-  date: 2026-08-03
-  source: Hacker News Best
-  category: programming
-- title: Taylor Farms has rewritten its cyclospora statement four times in sixteen days
-  url: "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/"
-  date: 2026-08-03
-  source: Hacker News Best
-  category: programming
-- title: Twenty Years of Pandoc
-  url: "https://pandoc.org/twenty-years-of-pandoc.html"
-  date: 2026-08-03
-  source: Hacker News Best
   category: programming
 - title: "Ani Liu: eye heart womb"
   url: "https://aeon.co/videos/transforming-scientific-enquiry-and-human-bodies-into-visceral-art"
@@ -58,16 +73,16 @@
   date: 2026-08-03
   source: Aeon
   category: philosophy
+- title: "What Makes You You Makes the Universe: Nobel Laureate Erwin Schrödinger on Quantum Physics, Vedanta, and the Ongoing Mystery of What We Are"
+  url: "https://www.themarginalian.org/2026/08/03/erwin-shcrodinger-my-view-of-the-world/"
+  date: 2026-08-03
+  source: The Marginalian
+  category: philosophy
 - title: How to Live and How to Die
   url: "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman/"
   date: 2026-08-03
   source: The Marginalian
   category: philosophy
-- title: condense-json 1.0
-  url: "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything"
-  date: 2026-08-02
-  source: Simon Willison
-  category: ai
 - title: The Grasshopper and the “Lusory Attitude” Essential for Playing the Game of Life
   url: "https://www.themarginalian.org/2026/08/02/suits-grasshopper/"
   date: 2026-08-02
@@ -78,16 +93,6 @@
   date: 2026-08-02
   source: The Marginalian
   category: philosophy
-- title: "Enchantment and the Courage of Joy: René Magritte on the Antidote to the Banality of Pessimism"
-  url: "https://www.themarginalian.org/2026/08/02/rene-magritte-enchantment/"
-  date: 2026-08-02
-  source: The Marginalian
-  category: philosophy
-- title: "How to Hold the Darkness: Notes on Living Through Uncertainty"
-  url: "https://www.themarginalian.org/2026/08/02/francis-weller-ordinary/"
-  date: 2026-08-02
-  source: The Marginalian
-  category: philosophy
 - title: Resist the technocrats
   url: "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international"
   date: 2026-07-31
@@ -95,11 +100,6 @@
   category: philosophy
 - title: "Mud below, sun above"
   url: "https://aeon.co/videos/the-workforce-of-elderly-women-recycling-what-vietnam-throws-away"
-  date: 2026-07-30
-  source: Aeon
-  category: philosophy
-- title: How art invented humanity
-  url: "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around"
   date: 2026-07-30
   source: Aeon
   category: philosophy
