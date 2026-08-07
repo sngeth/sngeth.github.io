@@ -1,57 +1,72 @@
+- title: datasette 1.0a38
+  url: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
+  date: 2026-08-06
+  source: Simon Willison
+  category: ai
+- title: datasette 0.65.3
+  url: "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything"
+  date: 2026-08-06
+  source: Simon Willison
+  category: ai
+- title: Simon Willison on Technical Blogging
+  url: "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything"
+  date: 2026-08-06
+  source: Simon Willison
+  category: ai
 - title: An AI model from Meta also hacked another company during testing
   url: "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything"
   date: 2026-08-06
   source: Simon Willison
   category: ai
+- title: AMD acquires Taalas to boost inference performance by etching models in silicon
+  url: "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+  date: 2026-08-06
+  source: Hacker News Best
+  category: programming
+- title: Quake – 30th Anniversary Update
+  url: "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update"
+  date: 2026-08-06
+  source: Hacker News Best
+  category: programming
+- title: Qwen3.8 Max now ranked as the best overall model by agentic index
+  url: "https://artificialanalysis.ai/?intelligence=agentic-index"
+  date: 2026-08-06
+  source: Hacker News Best
+  category: programming
+- title: "Taste Is All That's Left"
+  url: "https://notashelf.dev/posts/taste-is-all-thats-left"
+  date: 2026-08-06
+  source: Hacker News Best
+  category: programming
+- title: GitHub Actions and Pages are experiencing degraded availability
+  url: "https://www.githubstatus.com/incidents/qcvjkzcs7j74"
+  date: 2026-08-06
+  source: Hacker News Best
+  category: programming
+- title: The great arc
+  url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
+  date: 2026-08-06
+  source: Aeon
+  category: philosophy
+- title: Culture clash
+  url: "https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash"
+  date: 2026-08-06
+  source: Aeon
+  category: philosophy
 - title: Introducing Muse Code and Muse Spark 1.2
   url: "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything"
   date: 2026-08-05
   source: Simon Willison
   category: ai
-- title: Third-party cyber evaluations involving OpenAI models
-  url: "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything"
-  date: 2026-08-05
-  source: Simon Willison
-  category: ai
-- title: "Incident Report: unsanctioned agent behaviour during cyber testing"
-  url: "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything"
-  date: 2026-08-05
-  source: Simon Willison
-  category: ai
-- title: One-shotting a Raccoon Heist game using Claude Fable 5
-  url: "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything"
-  date: 2026-08-05
-  source: Simon Willison
-  category: ai
-- title: "I'm switching my phone from Android to Linux"
-  url: "https://runarcn.no/android-to-linux/"
-  date: 2026-08-05
-  source: Hacker News Best
-  category: programming
-- title: Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery
-  url: "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/"
-  date: 2026-08-05
-  source: Hacker News Best
-  category: programming
-- title: Zed DeltaDB
-  url: "https://zed.dev/deltadb"
-  date: 2026-08-05
-  source: Hacker News Best
-  category: programming
-- title: Beating GPT-5.6 Sol on retrieval with 100x cheaper open models
-  url: "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency"
-  date: 2026-08-05
-  source: Hacker News Best
-  category: programming
-- title: Discovery Loop
-  url: "https://www.discoveryloop.com/"
-  date: 2026-08-05
-  source: Hacker News Best
-  category: programming
 - title: The last ice age
   url: "https://aeon.co/videos/as-glaciers-melt-a-writer-considers-what-stories-can-do-that-data-cannot"
   date: 2026-08-05
   source: Aeon
+  category: philosophy
+- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
+  url: "https://www.themarginalian.org/2026/08/05/polyvagal-theory/"
+  date: 2026-08-05
+  source: The Marginalian
   category: philosophy
 - title: The Only Three Distinctions Between People
   url: "https://www.themarginalian.org/2026/08/05/nathaniel-hawthorne-classification/"
@@ -83,25 +98,10 @@
   date: 2026-08-03
   source: Aeon
   category: philosophy
-- title: Thucydides the perspicacious
-  url: "https://aeon.co/essays/thucydides-account-of-war-is-as-timely-as-it-is-misunderstood"
-  date: 2026-08-03
-  source: Aeon
-  category: philosophy
 - title: "What Makes You You Makes the Universe: Nobel Laureate Erwin Schrödinger on Quantum Physics, Vedanta, and the Ongoing Mystery of What We Are"
   url: "https://www.themarginalian.org/2026/08/03/erwin-shcrodinger-my-view-of-the-world/"
   date: 2026-08-03
   source: The Marginalian
-  category: philosophy
-- title: How to Live and How to Die
-  url: "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman/"
-  date: 2026-08-03
-  source: The Marginalian
-  category: philosophy
-- title: Resist the technocrats
-  url: "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international"
-  date: 2026-07-31
-  source: Aeon
   category: philosophy
 - title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
   url: "https://danluu.com/exercise-7/"
