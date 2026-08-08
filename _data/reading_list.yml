@@ -1,48 +1,73 @@
+- title: Quoting John Gruber
+  url: "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything"
+  date: 2026-08-08
+  source: Simon Willison
+  category: ai
+- title: The Nixpkgs core team has disbanded
+  url: "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413"
+  date: 2026-08-08
+  source: Hacker News Best
+  category: programming
+- title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
+  url: "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything"
+  date: 2026-08-07
+  source: Simon Willison
+  category: ai
+- title: "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)"
+  url: "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything"
+  date: 2026-08-07
+  source: Simon Willison
+  category: ai
+- title: "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI"
+  url: "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
+  date: 2026-08-07
+  source: Simon Willison
+  category: ai
+- title: "App Store Rejection of the Week: Dark Hours"
+  url: "https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours"
+  date: 2026-08-07
+  source: Hacker News Best
+  category: programming
+- title: Managing AI Coding Costs at Scale
+  url: "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
+  date: 2026-08-07
+  source: Hacker News Best
+  category: programming
+- title: Assembly Hall of Shame
+  url: "https://github.com/xoreaxeaxeax/asm-hall-of-shame"
+  date: 2026-08-07
+  source: Hacker News Best
+  category: programming
+- title: DeepSeek V4 Flash 0731
+  url: "https://arcprize.org/results/deepseek-v4-flash-0731"
+  date: 2026-08-07
+  source: Hacker News Best
+  category: programming
+- title: Sasquatch science
+  url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
+  date: 2026-08-07
+  source: Aeon
+  category: philosophy
+- title: "Thank You, Everything: An Illustrated Love Letter to the World"
+  url: "https://www.themarginalian.org/2026/08/07/thank-you-everything-icinori/"
+  date: 2026-08-07
+  source: The Marginalian
+  category: philosophy
+- title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
+  url: "https://www.themarginalian.org/2026/08/07/yes-to-life-in-spite-of-everything-viktor-frankl/"
+  date: 2026-08-07
+  source: The Marginalian
+  category: philosophy
+- title: How to Hold What Harrows You
+  url: "https://www.themarginalian.org/2026/08/06/maggie-smith-harrowing/"
+  date: 2026-08-07
+  source: The Marginalian
+  category: philosophy
 - title: datasette 1.0a38
   url: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
   date: 2026-08-06
   source: Simon Willison
   category: ai
-- title: datasette 0.65.3
-  url: "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything"
-  date: 2026-08-06
-  source: Simon Willison
-  category: ai
-- title: Simon Willison on Technical Blogging
-  url: "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything"
-  date: 2026-08-06
-  source: Simon Willison
-  category: ai
-- title: An AI model from Meta also hacked another company during testing
-  url: "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything"
-  date: 2026-08-06
-  source: Simon Willison
-  category: ai
-- title: AMD acquires Taalas to boost inference performance by etching models in silicon
-  url: "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
-  date: 2026-08-06
-  source: Hacker News Best
-  category: programming
-- title: Quake – 30th Anniversary Update
-  url: "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update"
-  date: 2026-08-06
-  source: Hacker News Best
-  category: programming
-- title: Qwen3.8 Max now ranked as the best overall model by agentic index
-  url: "https://artificialanalysis.ai/?intelligence=agentic-index"
-  date: 2026-08-06
-  source: Hacker News Best
-  category: programming
-- title: "Taste Is All That's Left"
-  url: "https://notashelf.dev/posts/taste-is-all-thats-left"
-  date: 2026-08-06
-  source: Hacker News Best
-  category: programming
-- title: GitHub Actions and Pages are experiencing degraded availability
-  url: "https://www.githubstatus.com/incidents/qcvjkzcs7j74"
-  date: 2026-08-06
-  source: Hacker News Best
-  category: programming
 - title: The great arc
   url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
   date: 2026-08-06
@@ -53,11 +78,11 @@
   date: 2026-08-06
   source: Aeon
   category: philosophy
-- title: Introducing Muse Code and Muse Spark 1.2
-  url: "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything"
-  date: 2026-08-05
-  source: Simon Willison
-  category: ai
+- title: "A Spell Against Stagnation: John O’Donohue on Beginnings"
+  url: "https://www.themarginalian.org/2026/08/06/john-odonohue-blessings-beginnings/"
+  date: 2026-08-06
+  source: The Marginalian
+  category: philosophy
 - title: The last ice age
   url: "https://aeon.co/videos/as-glaciers-melt-a-writer-considers-what-stories-can-do-that-data-cannot"
   date: 2026-08-05
@@ -68,41 +93,16 @@
   date: 2026-08-05
   source: The Marginalian
   category: philosophy
-- title: The Only Three Distinctions Between People
-  url: "https://www.themarginalian.org/2026/08/05/nathaniel-hawthorne-classification/"
-  date: 2026-08-05
-  source: The Marginalian
-  category: philosophy
 - title: Towards an AI for Africa
   url: "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics"
   date: 2026-08-04
   source: Aeon
-  category: philosophy
-- title: Roots and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/08/04/roots/"
-  date: 2026-08-04
-  source: The Marginalian
-  category: philosophy
-- title: "Trial, Triumph, and the Art of the Possible: The Remarkable Story Behind Beethoven’s “Ode to Joy”"
-  url: "https://www.themarginalian.org/2026/08/04/beethoven-ode-to-joy/"
-  date: 2026-08-04
-  source: The Marginalian
   category: philosophy
 - title: Relative velocity and closing speed
   url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
   date: 2026-08-03
   source: Eli Bendersky
   category: programming
-- title: "Ani Liu: eye heart womb"
-  url: "https://aeon.co/videos/transforming-scientific-enquiry-and-human-bodies-into-visceral-art"
-  date: 2026-08-03
-  source: Aeon
-  category: philosophy
-- title: "What Makes You You Makes the Universe: Nobel Laureate Erwin Schrödinger on Quantum Physics, Vedanta, and the Ongoing Mystery of What We Are"
-  url: "https://www.themarginalian.org/2026/08/03/erwin-shcrodinger-my-view-of-the-world/"
-  date: 2026-08-03
-  source: The Marginalian
-  category: philosophy
 - title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
   url: "https://danluu.com/exercise-7/"
   date: 2026-07-23
