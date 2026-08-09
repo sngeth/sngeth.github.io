@@ -1,13 +1,53 @@
+- title: "Auto mode is now the default in Claude Code for Pro, Max, and Team plans"
+  url: "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
+  date: 2026-08-08
+  source: Simon Willison
+  category: ai
+- title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
+  url: "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
+  date: 2026-08-08
+  source: Simon Willison
+  category: ai
 - title: Quoting John Gruber
   url: "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything"
   date: 2026-08-08
   source: Simon Willison
   category: ai
-- title: The Nixpkgs core team has disbanded
-  url: "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413"
+- title: My server is a phone now
+  url: "https://seg6.space/posts/phone-server/"
   date: 2026-08-08
   source: Hacker News Best
   category: programming
+- title: Danish high schoolers will have to verbally defend written assignments
+  url: "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"
+  date: 2026-08-08
+  source: Hacker News Best
+  category: programming
+- title: Amazon Is Creating the Biggest Pollution Source in the Country
+  url: "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country"
+  date: 2026-08-08
+  source: Hacker News Best
+  category: programming
+- title: Fastmail offers EU data region
+  url: "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/"
+  date: 2026-08-08
+  source: Hacker News Best
+  category: programming
+- title: “Code was never the hard part” is an insult to all programmers
+  url: "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers"
+  date: 2026-08-08
+  source: Hacker News Best
+  category: programming
+- title: Hannah Arendt on Love and How to Live with the Fundamental Fear of Loss
+  url: "https://www.themarginalian.org/2026/08/08/love-and-saint-augustine-hannah-arendt/"
+  date: 2026-08-08
+  source: The Marginalian
+  category: philosophy
+- title: Swimming and the Meaning of Life
+  url: "https://www.themarginalian.org/2026/08/08/roger-deakin-waterlog/"
+  date: 2026-08-08
+  source: The Marginalian
+  category: philosophy
 - title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
   url: "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything"
   date: 2026-08-07
@@ -18,31 +58,6 @@
   date: 2026-08-07
   source: Simon Willison
   category: ai
-- title: "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI"
-  url: "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
-  date: 2026-08-07
-  source: Simon Willison
-  category: ai
-- title: "App Store Rejection of the Week: Dark Hours"
-  url: "https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours"
-  date: 2026-08-07
-  source: Hacker News Best
-  category: programming
-- title: Managing AI Coding Costs at Scale
-  url: "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
-  date: 2026-08-07
-  source: Hacker News Best
-  category: programming
-- title: Assembly Hall of Shame
-  url: "https://github.com/xoreaxeaxeax/asm-hall-of-shame"
-  date: 2026-08-07
-  source: Hacker News Best
-  category: programming
-- title: DeepSeek V4 Flash 0731
-  url: "https://arcprize.org/results/deepseek-v4-flash-0731"
-  date: 2026-08-07
-  source: Hacker News Best
-  category: programming
 - title: Sasquatch science
   url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
   date: 2026-08-07
@@ -63,11 +78,6 @@
   date: 2026-08-07
   source: The Marginalian
   category: philosophy
-- title: datasette 1.0a38
-  url: "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"
-  date: 2026-08-06
-  source: Simon Willison
-  category: ai
 - title: The great arc
   url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
   date: 2026-08-06
@@ -78,20 +88,10 @@
   date: 2026-08-06
   source: Aeon
   category: philosophy
-- title: "A Spell Against Stagnation: John O’Donohue on Beginnings"
-  url: "https://www.themarginalian.org/2026/08/06/john-odonohue-blessings-beginnings/"
-  date: 2026-08-06
-  source: The Marginalian
-  category: philosophy
 - title: The last ice age
   url: "https://aeon.co/videos/as-glaciers-melt-a-writer-considers-what-stories-can-do-that-data-cannot"
   date: 2026-08-05
   source: Aeon
-  category: philosophy
-- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
-  url: "https://www.themarginalian.org/2026/08/05/polyvagal-theory/"
-  date: 2026-08-05
-  source: The Marginalian
   category: philosophy
 - title: Towards an AI for Africa
   url: "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics"
@@ -153,11 +153,6 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -173,31 +168,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-06-16
   source: Dan Luu
   category: programming
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
