@@ -1,43 +1,63 @@
+- title: Quoting OpenClaw
+  url: "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
+  date: 2026-08-10
+  source: Simon Willison
+  category: ai
+- title: Quoting Claude Opus 5 system prompt
+  url: "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything"
+  date: 2026-08-09
+  source: Simon Willison
+  category: ai
+- title: GitHub Models is now retired
+  url: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
+  date: 2026-08-09
+  source: Simon Willison
+  category: ai
+- title: SQLite compressed text-history prototypes
+  url: "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything"
+  date: 2026-08-09
+  source: Simon Willison
+  category: ai
+- title: How I use LLMs to learn complex topics
+  url: "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/"
+  date: 2026-08-09
+  source: Hacker News Best
+  category: programming
+- title: "Ask HN: What are you working on? (August 2026)"
+  url: "https://news.ycombinator.com/item?id=49233423"
+  date: 2026-08-09
+  source: Hacker News Best
+  category: programming
+- title: Analyzing data from Silicon Valley ventures and founders prosecuted for fraud
+  url: "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981"
+  date: 2026-08-09
+  source: Hacker News Best
+  category: programming
+- title: "Taxi drivers rarely die of Alzheimer's"
+  url: "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650"
+  date: 2026-08-09
+  source: Hacker News Best
+  category: programming
+- title: Silicon Valley misreads science fiction and undermines democracy
+  url: "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/"
+  date: 2026-08-09
+  source: Hacker News Best
+  category: programming
+- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
+  url: "https://www.themarginalian.org/2026/08/09/pessoa-explorer/"
+  date: 2026-08-09
+  source: The Marginalian
+  category: philosophy
+- title: "The Stoic Antidote to Frustration: Marcus Aurelius on How to Keep Your Mental Composure and Emotional Equanimity When People Let You Down"
+  url: "https://www.themarginalian.org/2026/08/09/marcus-aurelius-meditations-robin-waterfield/"
+  date: 2026-08-09
+  source: The Marginalian
+  category: philosophy
 - title: "Auto mode is now the default in Claude Code for Pro, Max, and Team plans"
   url: "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
   date: 2026-08-08
   source: Simon Willison
   category: ai
-- title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
-  url: "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
-  date: 2026-08-08
-  source: Simon Willison
-  category: ai
-- title: Quoting John Gruber
-  url: "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything"
-  date: 2026-08-08
-  source: Simon Willison
-  category: ai
-- title: My server is a phone now
-  url: "https://seg6.space/posts/phone-server/"
-  date: 2026-08-08
-  source: Hacker News Best
-  category: programming
-- title: Danish high schoolers will have to verbally defend written assignments
-  url: "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/"
-  date: 2026-08-08
-  source: Hacker News Best
-  category: programming
-- title: Amazon Is Creating the Biggest Pollution Source in the Country
-  url: "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country"
-  date: 2026-08-08
-  source: Hacker News Best
-  category: programming
-- title: Fastmail offers EU data region
-  url: "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/"
-  date: 2026-08-08
-  source: Hacker News Best
-  category: programming
-- title: “Code was never the hard part” is an insult to all programmers
-  url: "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers"
-  date: 2026-08-08
-  source: Hacker News Best
-  category: programming
 - title: Hannah Arendt on Love and How to Live with the Fundamental Fear of Loss
   url: "https://www.themarginalian.org/2026/08/08/love-and-saint-augustine-hannah-arendt/"
   date: 2026-08-08
@@ -48,16 +68,6 @@
   date: 2026-08-08
   source: The Marginalian
   category: philosophy
-- title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
-  url: "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything"
-  date: 2026-08-07
-  source: Simon Willison
-  category: ai
-- title: "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)"
-  url: "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything"
-  date: 2026-08-07
-  source: Simon Willison
-  category: ai
 - title: Sasquatch science
   url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
   date: 2026-08-07
@@ -65,16 +75,6 @@
   category: philosophy
 - title: "Thank You, Everything: An Illustrated Love Letter to the World"
   url: "https://www.themarginalian.org/2026/08/07/thank-you-everything-icinori/"
-  date: 2026-08-07
-  source: The Marginalian
-  category: philosophy
-- title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
-  url: "https://www.themarginalian.org/2026/08/07/yes-to-life-in-spite-of-everything-viktor-frankl/"
-  date: 2026-08-07
-  source: The Marginalian
-  category: philosophy
-- title: How to Hold What Harrows You
-  url: "https://www.themarginalian.org/2026/08/06/maggie-smith-harrowing/"
   date: 2026-08-07
   source: The Marginalian
   category: philosophy
@@ -153,6 +153,11 @@
   date: 2026-06-13
   source: Eli Bendersky
   category: programming
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -168,11 +173,31 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +248,28 @@
   date: 2024-06-16
   source: Dan Luu
   category: programming
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
