@@ -1,8 +1,68 @@
+- title: Introducing Muse Glimmer
+  url: "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"
+  date: 2026-08-10
+  source: Simon Willison
+  category: ai
 - title: Quoting OpenClaw
   url: "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
   date: 2026-08-10
   source: Simon Willison
   category: ai
+- title: "The UK's War on Anonymity Has Come to America"
+  url: "https://www.effort.news/uk-lobby"
+  date: 2026-08-10
+  source: Hacker News Best
+  category: programming
+- title: "Stop Killing Games: It's time to sue Sony, join us"
+  url: "https://www.massaschadeconsument.nl/collectieve-acties/playstation/"
+  date: 2026-08-10
+  source: Hacker News Best
+  category: programming
+- title: Illinois just passed a law that puts Linux on the hook for age verification
+  url: "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/"
+  date: 2026-08-10
+  source: Hacker News Best
+  category: programming
+- title: "Learning more about Claude's mathematical capabilities"
+  url: "https://www.anthropic.com/research/riemann-zeta"
+  date: 2026-08-10
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
+  url: "https://cactuscompute.com/needle"
+  date: 2026-08-10
+  source: Hacker News Best
+  category: programming
+- title: Khosheutovsky khurul
+  url: "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple"
+  date: 2026-08-10
+  source: Aeon
+  category: philosophy
+- title: How we meet the future
+  url: "https://aeon.co/essays/when-is-stereotyping-a-handy-tool-and-when-is-it-a-sin"
+  date: 2026-08-10
+  source: Aeon
+  category: philosophy
+- title: "The Wisdom of Water: Alan Watts on the Ocean and the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/08/10/alan-watts-love-of-waters/"
+  date: 2026-08-10
+  source: The Marginalian
+  category: philosophy
+- title: Nick Cave on the Two Pillars of a Meaningful Life
+  url: "https://www.themarginalian.org/2026/08/10/nick-cave-humility-curiosity/"
+  date: 2026-08-10
+  source: The Marginalian
+  category: philosophy
+- title: "Your Brain on Grief, Your Heart on Healing"
+  url: "https://www.themarginalian.org/2026/08/10/the-grieving-brain-mary-frances-o-connor/"
+  date: 2026-08-10
+  source: The Marginalian
+  category: philosophy
+- title: Anaïs Nin on Why Emotional Excess is Essential to Creativity
+  url: "https://www.themarginalian.org/2026/08/10/anais-nin-on-emotion-and-writing/"
+  date: 2026-08-10
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Claude Opus 5 system prompt
   url: "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything"
   date: 2026-08-09
@@ -18,65 +78,15 @@
   date: 2026-08-09
   source: Simon Willison
   category: ai
-- title: How I use LLMs to learn complex topics
-  url: "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/"
-  date: 2026-08-09
-  source: Hacker News Best
-  category: programming
-- title: "Ask HN: What are you working on? (August 2026)"
-  url: "https://news.ycombinator.com/item?id=49233423"
-  date: 2026-08-09
-  source: Hacker News Best
-  category: programming
-- title: Analyzing data from Silicon Valley ventures and founders prosecuted for fraud
-  url: "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981"
-  date: 2026-08-09
-  source: Hacker News Best
-  category: programming
-- title: "Taxi drivers rarely die of Alzheimer's"
-  url: "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650"
-  date: 2026-08-09
-  source: Hacker News Best
-  category: programming
-- title: Silicon Valley misreads science fiction and undermines democracy
-  url: "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/"
-  date: 2026-08-09
-  source: Hacker News Best
-  category: programming
 - title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
   url: "https://www.themarginalian.org/2026/08/09/pessoa-explorer/"
   date: 2026-08-09
-  source: The Marginalian
-  category: philosophy
-- title: "The Stoic Antidote to Frustration: Marcus Aurelius on How to Keep Your Mental Composure and Emotional Equanimity When People Let You Down"
-  url: "https://www.themarginalian.org/2026/08/09/marcus-aurelius-meditations-robin-waterfield/"
-  date: 2026-08-09
-  source: The Marginalian
-  category: philosophy
-- title: "Auto mode is now the default in Claude Code for Pro, Max, and Team plans"
-  url: "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
-  date: 2026-08-08
-  source: Simon Willison
-  category: ai
-- title: Hannah Arendt on Love and How to Live with the Fundamental Fear of Loss
-  url: "https://www.themarginalian.org/2026/08/08/love-and-saint-augustine-hannah-arendt/"
-  date: 2026-08-08
-  source: The Marginalian
-  category: philosophy
-- title: Swimming and the Meaning of Life
-  url: "https://www.themarginalian.org/2026/08/08/roger-deakin-waterlog/"
-  date: 2026-08-08
   source: The Marginalian
   category: philosophy
 - title: Sasquatch science
   url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
   date: 2026-08-07
   source: Aeon
-  category: philosophy
-- title: "Thank You, Everything: An Illustrated Love Letter to the World"
-  url: "https://www.themarginalian.org/2026/08/07/thank-you-everything-icinori/"
-  date: 2026-08-07
-  source: The Marginalian
   category: philosophy
 - title: The great arc
   url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
@@ -86,16 +96,6 @@
 - title: Culture clash
   url: "https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash"
   date: 2026-08-06
-  source: Aeon
-  category: philosophy
-- title: The last ice age
-  url: "https://aeon.co/videos/as-glaciers-melt-a-writer-considers-what-stories-can-do-that-data-cannot"
-  date: 2026-08-05
-  source: Aeon
-  category: philosophy
-- title: Towards an AI for Africa
-  url: "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics"
-  date: 2026-08-04
   source: Aeon
   category: philosophy
 - title: Relative velocity and closing speed
