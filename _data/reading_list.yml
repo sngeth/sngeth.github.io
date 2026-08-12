@@ -1,38 +1,68 @@
+- title: There are no lossless transformations of natural-language text
+  url: "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything"
+  date: 2026-08-11
+  source: Simon Willison
+  category: ai
+- title: Stealing Reasoning Traces from Proprietary LLM APIs
+  url: "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
+  date: 2026-08-11
+  source: Simon Willison
+  category: ai
+- title: datasette-upload-dbs 0.5a0
+  url: "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything"
+  date: 2026-08-11
+  source: Simon Willison
+  category: ai
+- title: Compression is prediction
+  url: "https://ngrok.com/blog/compression-is-prediction"
+  date: 2026-08-11
+  source: Hacker News Best
+  category: programming
+- title: Grok Bot
+  url: "https://x.ai/bot"
+  date: 2026-08-11
+  source: Hacker News Best
+  category: programming
+- title: Woman pulled over twice after Flock-linked software connected her to homicide
+  url: "https://guessingheadlights.com/yall-failed-me-woman-pulled-over-at-gunpoint-twice-after-flock-camera-glitch/"
+  date: 2026-08-11
+  source: Hacker News Best
+  category: programming
+- title: Go is an ideal language for AI-assisted software engineering
+  url: "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+  date: 2026-08-11
+  source: Hacker News Best
+  category: programming
+- title: Mojo 1.0
+  url: "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here"
+  date: 2026-08-11
+  source: Hacker News Best
+  category: programming
+- title: A second sexual revolution
+  url: "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes"
+  date: 2026-08-11
+  source: Aeon
+  category: philosophy
+- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
+  url: "https://www.themarginalian.org/2026/08/11/j-r-r-tolkien-on-fairy-stories/"
+  date: 2026-08-11
+  source: The Marginalian
+  category: philosophy
+- title: The Story Behind Dylan Thomas’s “Do Not Go Gentle Into That Good Night” and the Poet’s Own Stirring Reading of His Masterpiece
+  url: "https://www.themarginalian.org/2026/08/11/dylan-thomas-do-not-go-gentle-into-that-good-night/"
+  date: 2026-08-11
+  source: The Marginalian
+  category: philosophy
 - title: Introducing Muse Glimmer
   url: "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"
   date: 2026-08-10
   source: Simon Willison
   category: ai
-- title: Quoting OpenClaw
+- title: Quoting OpenClaw (running Opus 4.6)
   url: "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
   date: 2026-08-10
   source: Simon Willison
   category: ai
-- title: "The UK's War on Anonymity Has Come to America"
-  url: "https://www.effort.news/uk-lobby"
-  date: 2026-08-10
-  source: Hacker News Best
-  category: programming
-- title: "Stop Killing Games: It's time to sue Sony, join us"
-  url: "https://www.massaschadeconsument.nl/collectieve-acties/playstation/"
-  date: 2026-08-10
-  source: Hacker News Best
-  category: programming
-- title: Illinois just passed a law that puts Linux on the hook for age verification
-  url: "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/"
-  date: 2026-08-10
-  source: Hacker News Best
-  category: programming
-- title: "Learning more about Claude's mathematical capabilities"
-  url: "https://www.anthropic.com/research/riemann-zeta"
-  date: 2026-08-10
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
-  url: "https://cactuscompute.com/needle"
-  date: 2026-08-10
-  source: Hacker News Best
-  category: programming
 - title: Khosheutovsky khurul
   url: "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple"
   date: 2026-08-10
@@ -58,31 +88,6 @@
   date: 2026-08-10
   source: The Marginalian
   category: philosophy
-- title: Anaïs Nin on Why Emotional Excess is Essential to Creativity
-  url: "https://www.themarginalian.org/2026/08/10/anais-nin-on-emotion-and-writing/"
-  date: 2026-08-10
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Claude Opus 5 system prompt
-  url: "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything"
-  date: 2026-08-09
-  source: Simon Willison
-  category: ai
-- title: GitHub Models is now retired
-  url: "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything"
-  date: 2026-08-09
-  source: Simon Willison
-  category: ai
-- title: SQLite compressed text-history prototypes
-  url: "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything"
-  date: 2026-08-09
-  source: Simon Willison
-  category: ai
-- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
-  url: "https://www.themarginalian.org/2026/08/09/pessoa-explorer/"
-  date: 2026-08-09
-  source: The Marginalian
-  category: philosophy
 - title: Sasquatch science
   url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
   date: 2026-08-07
@@ -90,11 +95,6 @@
   category: philosophy
 - title: The great arc
   url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
-  date: 2026-08-06
-  source: Aeon
-  category: philosophy
-- title: Culture clash
-  url: "https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash"
   date: 2026-08-06
   source: Aeon
   category: philosophy
