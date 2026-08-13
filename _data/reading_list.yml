@@ -1,43 +1,63 @@
+- title: DeepSeek V4 Pro 0813 (on OpenRouter)
+  url: "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
+  date: 2026-08-12
+  source: Simon Willison
+  category: ai
+- title: alchemy-utils 0.1a0
+  url: "https://simonwillison.net/2026/Aug/12/alchemy-utils/"
+  date: 2026-08-12
+  source: Simon Willison
+  category: ai
+- title: Quoting Florian Herrengt
+  url: "https://simonwillison.net/2026/Aug/12/florian-herrengt/"
+  date: 2026-08-12
+  source: Simon Willison
+  category: ai
+- title: Delta
+  url: "https://zed.dev/blog/introducing-delta"
+  date: 2026-08-12
+  source: Hacker News Best
+  category: programming
+- title: Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index
+  url: "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis"
+  date: 2026-08-12
+  source: Hacker News Best
+  category: programming
+- title: DeepSeek V4 Pro 0813
+  url: "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+  date: 2026-08-12
+  source: Hacker News Best
+  category: programming
+- title: Grok 4.6
+  url: "https://x.ai/news/grok-4-6"
+  date: 2026-08-12
+  source: Hacker News Best
+  category: programming
+- title: Qwen3.8-2.4T
+  url: "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  date: 2026-08-12
+  source: Hacker News Best
+  category: programming
+- title: Bouncy brothers
+  url: "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream"
+  date: 2026-08-12
+  source: Aeon
+  category: philosophy
+- title: Kurt Vonnegut’s 8 Tenets of Storytelling
+  url: "https://www.themarginalian.org/2026/08/12/kurt-vonnegut-on-writing-stories/"
+  date: 2026-08-12
+  source: The Marginalian
+  category: philosophy
 - title: There are no lossless transformations of natural-language text
-  url: "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything"
+  url: "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/"
   date: 2026-08-11
   source: Simon Willison
   category: ai
 - title: Stealing Reasoning Traces from Proprietary LLM APIs
-  url: "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
+  url: "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
   date: 2026-08-11
   source: Simon Willison
   category: ai
-- title: datasette-upload-dbs 0.5a0
-  url: "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything"
-  date: 2026-08-11
-  source: Simon Willison
-  category: ai
-- title: Compression is prediction
-  url: "https://ngrok.com/blog/compression-is-prediction"
-  date: 2026-08-11
-  source: Hacker News Best
-  category: programming
-- title: Grok Bot
-  url: "https://x.ai/bot"
-  date: 2026-08-11
-  source: Hacker News Best
-  category: programming
-- title: Woman pulled over twice after Flock-linked software connected her to homicide
-  url: "https://guessingheadlights.com/yall-failed-me-woman-pulled-over-at-gunpoint-twice-after-flock-camera-glitch/"
-  date: 2026-08-11
-  source: Hacker News Best
-  category: programming
-- title: Go is an ideal language for AI-assisted software engineering
-  url: "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
-  date: 2026-08-11
-  source: Hacker News Best
-  category: programming
-- title: Mojo 1.0
-  url: "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here"
-  date: 2026-08-11
-  source: Hacker News Best
-  category: programming
 - title: A second sexual revolution
   url: "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes"
   date: 2026-08-11
@@ -53,16 +73,6 @@
   date: 2026-08-11
   source: The Marginalian
   category: philosophy
-- title: Introducing Muse Glimmer
-  url: "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything"
-  date: 2026-08-10
-  source: Simon Willison
-  category: ai
-- title: Quoting OpenClaw (running Opus 4.6)
-  url: "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything"
-  date: 2026-08-10
-  source: Simon Willison
-  category: ai
 - title: Khosheutovsky khurul
   url: "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple"
   date: 2026-08-10
@@ -83,19 +93,9 @@
   date: 2026-08-10
   source: The Marginalian
   category: philosophy
-- title: "Your Brain on Grief, Your Heart on Healing"
-  url: "https://www.themarginalian.org/2026/08/10/the-grieving-brain-mary-frances-o-connor/"
-  date: 2026-08-10
-  source: The Marginalian
-  category: philosophy
 - title: Sasquatch science
   url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
   date: 2026-08-07
-  source: Aeon
-  category: philosophy
-- title: The great arc
-  url: "https://aeon.co/videos/pariss-business-district-boasts-imposing-art-but-who-is-it-for"
-  date: 2026-08-06
   source: Aeon
   category: philosophy
 - title: Relative velocity and closing speed
