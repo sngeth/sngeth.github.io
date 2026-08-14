@@ -1,43 +1,78 @@
+- title: sqlite-utils 4.2.1
+  url: "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"
+  date: 2026-08-13
+  source: Simon Willison
+  category: ai
+- title: sqlite-utils 4.2
+  url: "https://simonwillison.net/2026/Aug/13/sqlite-utils/"
+  date: 2026-08-13
+  source: Simon Willison
+  category: ai
+- title: llm-gemini 0.33
+  url: "https://simonwillison.net/2026/Aug/13/llm-gemini/"
+  date: 2026-08-13
+  source: Simon Willison
+  category: ai
+- title: alchemy-utils 0.1a1
+  url: "https://simonwillison.net/2026/Aug/13/alchemy-utils/"
+  date: 2026-08-13
+  source: Simon Willison
+  category: ai
+- title: Understanding is the new bottleneck
+  url: "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck"
+  date: 2026-08-13
+  source: Hacker News Best
+  category: programming
+- title: Accelerating GPT-5.6 Sol Ultrafast
+  url: "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+  date: 2026-08-13
+  source: Hacker News Best
+  category: programming
+- title: Choose Boring Technology (2015)
+  url: "https://mcfunley.com/choose-boring-technology"
+  date: 2026-08-13
+  source: Hacker News Best
+  category: programming
+- title: Gemini 3.7 Flash
+  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+  date: 2026-08-13
+  source: Hacker News Best
+  category: programming
+- title: Mistral OCR 4.1
+  url: "https://docs.mistral.ai/models/ocr-4-1"
+  date: 2026-08-13
+  source: Hacker News Best
+  category: programming
+- title: Where the earth meets the sky
+  url: "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space"
+  date: 2026-08-13
+  source: Aeon
+  category: philosophy
+- title: Mecca and the mall
+  url: "https://aeon.co/essays/my-pilgrimage-to-mecca-in-the-age-of-the-golf-cart-and-mall"
+  date: 2026-08-13
+  source: Aeon
+  category: philosophy
+- title: How Humanity Saved the Ginkgo
+  url: "https://www.themarginalian.org/2026/08/13/ginkgo/"
+  date: 2026-08-13
+  source: The Marginalian
+  category: philosophy
+- title: "The Measure of a Life Well Lived: Henry Miller on How to Grow Old and the Secret of Remaining Young at Heart"
+  url: "https://www.themarginalian.org/2026/08/13/henry-miller-on-turning-eighty/"
+  date: 2026-08-13
+  source: The Marginalian
+  category: philosophy
+- title: The Kiln and the Quantum of Relationships
+  url: "https://www.themarginalian.org/2026/08/13/kiln-quantum/"
+  date: 2026-08-13
+  source: The Marginalian
+  category: philosophy
 - title: DeepSeek V4 Pro 0813 (on OpenRouter)
   url: "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
   date: 2026-08-12
   source: Simon Willison
   category: ai
-- title: alchemy-utils 0.1a0
-  url: "https://simonwillison.net/2026/Aug/12/alchemy-utils/"
-  date: 2026-08-12
-  source: Simon Willison
-  category: ai
-- title: Quoting Florian Herrengt
-  url: "https://simonwillison.net/2026/Aug/12/florian-herrengt/"
-  date: 2026-08-12
-  source: Simon Willison
-  category: ai
-- title: Delta
-  url: "https://zed.dev/blog/introducing-delta"
-  date: 2026-08-12
-  source: Hacker News Best
-  category: programming
-- title: Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index
-  url: "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis"
-  date: 2026-08-12
-  source: Hacker News Best
-  category: programming
-- title: DeepSeek V4 Pro 0813
-  url: "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
-  date: 2026-08-12
-  source: Hacker News Best
-  category: programming
-- title: Grok 4.6
-  url: "https://x.ai/news/grok-4-6"
-  date: 2026-08-12
-  source: Hacker News Best
-  category: programming
-- title: Qwen3.8-2.4T
-  url: "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-  date: 2026-08-12
-  source: Hacker News Best
-  category: programming
 - title: Bouncy brothers
   url: "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream"
   date: 2026-08-12
@@ -48,16 +83,6 @@
   date: 2026-08-12
   source: The Marginalian
   category: philosophy
-- title: There are no lossless transformations of natural-language text
-  url: "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/"
-  date: 2026-08-11
-  source: Simon Willison
-  category: ai
-- title: Stealing Reasoning Traces from Proprietary LLM APIs
-  url: "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
-  date: 2026-08-11
-  source: Simon Willison
-  category: ai
 - title: A second sexual revolution
   url: "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes"
   date: 2026-08-11
@@ -68,36 +93,16 @@
   date: 2026-08-11
   source: The Marginalian
   category: philosophy
-- title: The Story Behind Dylan Thomas’s “Do Not Go Gentle Into That Good Night” and the Poet’s Own Stirring Reading of His Masterpiece
-  url: "https://www.themarginalian.org/2026/08/11/dylan-thomas-do-not-go-gentle-into-that-good-night/"
-  date: 2026-08-11
-  source: The Marginalian
-  category: philosophy
 - title: Khosheutovsky khurul
   url: "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple"
   date: 2026-08-10
   source: Aeon
   category: philosophy
-- title: How we meet the future
-  url: "https://aeon.co/essays/when-is-stereotyping-a-handy-tool-and-when-is-it-a-sin"
-  date: 2026-08-10
-  source: Aeon
-  category: philosophy
-- title: "The Wisdom of Water: Alan Watts on the Ocean and the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/08/10/alan-watts-love-of-waters/"
-  date: 2026-08-10
-  source: The Marginalian
-  category: philosophy
-- title: Nick Cave on the Two Pillars of a Meaningful Life
-  url: "https://www.themarginalian.org/2026/08/10/nick-cave-humility-curiosity/"
-  date: 2026-08-10
-  source: The Marginalian
-  category: philosophy
-- title: Sasquatch science
-  url: "https://aeon.co/essays/the-surprisingly-scientific-methods-of-bigfooters"
-  date: 2026-08-07
-  source: Aeon
-  category: philosophy
+- title: "What's the best programming language for coding agents?"
+  url: "https://danluu.com/pl-tokens/"
+  date: 2026-08-09
+  source: Dan Luu
+  category: programming
 - title: Relative velocity and closing speed
   url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
   date: 2026-08-03
@@ -243,11 +248,6 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: A discussion of discussions on AI bias
-  url: "https://danluu.com/ai-bias/"
-  date: 2024-06-16
-  source: Dan Luu
-  category: programming
 - title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
   url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
   date: 2023-08-23
