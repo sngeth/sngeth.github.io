@@ -1,3 +1,43 @@
+- title: Northern Gannet
+  url: "https://simonwillison.net/2026/Aug/15/sighting-391300422/"
+  date: 2026-08-15
+  source: Simon Willison
+  category: ai
+- title: "Don't classify. Hallucinate!"
+  url: "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+  date: 2026-08-14
+  source: Simon Willison
+  category: ai
+- title: "Going Dark, and the era of law enforcement hacking"
+  url: "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/"
+  date: 2026-08-14
+  source: Hacker News Best
+  category: programming
+- title: Firefox is now the last major browser that still supports uBlock Origin
+  url: "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"
+  date: 2026-08-14
+  source: Hacker News Best
+  category: programming
+- title: Count Binface receives over a quarter of votes in Clacton by-election
+  url: "https://www.bbc.com/news/articles/ce97mm3vvemo"
+  date: 2026-08-14
+  source: Hacker News Best
+  category: programming
+- title: RustDesk now supports true unattended remote access on Wayland
+  url: "https://rustdesk.com/blog/unattended-remote-access-wayland/"
+  date: 2026-08-14
+  source: Hacker News Best
+  category: programming
+- title: AI by Hand
+  url: "https://www.byhand.ai/"
+  date: 2026-08-14
+  source: Hacker News Best
+  category: programming
+- title: The neverending house
+  url: "https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes"
+  date: 2026-08-14
+  source: Aeon
+  category: philosophy
 - title: sqlite-utils 4.2.1
   url: "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"
   date: 2026-08-13
@@ -13,36 +53,6 @@
   date: 2026-08-13
   source: Simon Willison
   category: ai
-- title: alchemy-utils 0.1a1
-  url: "https://simonwillison.net/2026/Aug/13/alchemy-utils/"
-  date: 2026-08-13
-  source: Simon Willison
-  category: ai
-- title: Understanding is the new bottleneck
-  url: "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck"
-  date: 2026-08-13
-  source: Hacker News Best
-  category: programming
-- title: Accelerating GPT-5.6 Sol Ultrafast
-  url: "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
-  date: 2026-08-13
-  source: Hacker News Best
-  category: programming
-- title: Choose Boring Technology (2015)
-  url: "https://mcfunley.com/choose-boring-technology"
-  date: 2026-08-13
-  source: Hacker News Best
-  category: programming
-- title: Gemini 3.7 Flash
-  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
-  date: 2026-08-13
-  source: Hacker News Best
-  category: programming
-- title: Mistral OCR 4.1
-  url: "https://docs.mistral.ai/models/ocr-4-1"
-  date: 2026-08-13
-  source: Hacker News Best
-  category: programming
 - title: Where the earth meets the sky
   url: "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space"
   date: 2026-08-13
@@ -68,11 +78,6 @@
   date: 2026-08-13
   source: The Marginalian
   category: philosophy
-- title: DeepSeek V4 Pro 0813 (on OpenRouter)
-  url: "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
-  date: 2026-08-12
-  source: Simon Willison
-  category: ai
 - title: Bouncy brothers
   url: "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream"
   date: 2026-08-12
@@ -92,11 +97,6 @@
   url: "https://www.themarginalian.org/2026/08/11/j-r-r-tolkien-on-fairy-stories/"
   date: 2026-08-11
   source: The Marginalian
-  category: philosophy
-- title: Khosheutovsky khurul
-  url: "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple"
-  date: 2026-08-10
-  source: Aeon
   category: philosophy
 - title: "What's the best programming language for coding agents?"
   url: "https://danluu.com/pl-tokens/"
