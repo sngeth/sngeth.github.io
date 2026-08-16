@@ -1,42 +1,67 @@
+- title: CORS Chat
+  url: "https://simonwillison.net/2026/Aug/15/cors-chat/"
+  date: 2026-08-15
+  source: Simon Willison
+  category: ai
 - title: Northern Gannet
   url: "https://simonwillison.net/2026/Aug/15/sighting-391300422/"
   date: 2026-08-15
   source: Simon Willison
   category: ai
+- title: "Concurrent Servers: Part 7 - Rust"
+  url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
+  date: 2026-08-15
+  source: Eli Bendersky
+  category: programming
+- title: Abdominal fat predicts heart disease risk better than BMI
+  url: "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi"
+  date: 2026-08-15
+  source: Hacker News Best
+  category: programming
+- title: AI has access to a vastly larger working memory than the human brain
+  url: "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
+  date: 2026-08-15
+  source: Hacker News Best
+  category: programming
+- title: Semaglutide linked to lower predicted dementia risk
+  url: "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432"
+  date: 2026-08-15
+  source: Hacker News Best
+  category: programming
+- title: A spectre is haunting Unicode
+  url: "https://www.dampfkraft.com/ghost-characters.html"
+  date: 2026-08-15
+  source: Hacker News Best
+  category: programming
+- title: At-home test for infected ticks could improve Lyme Disease diagnosis
+  url: "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/"
+  date: 2026-08-15
+  source: Hacker News Best
+  category: programming
 - title: "Don't classify. Hallucinate!"
   url: "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
   date: 2026-08-14
   source: Simon Willison
   category: ai
-- title: "Going Dark, and the era of law enforcement hacking"
-  url: "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/"
-  date: 2026-08-14
-  source: Hacker News Best
-  category: programming
-- title: Firefox is now the last major browser that still supports uBlock Origin
-  url: "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"
-  date: 2026-08-14
-  source: Hacker News Best
-  category: programming
-- title: Count Binface receives over a quarter of votes in Clacton by-election
-  url: "https://www.bbc.com/news/articles/ce97mm3vvemo"
-  date: 2026-08-14
-  source: Hacker News Best
-  category: programming
-- title: RustDesk now supports true unattended remote access on Wayland
-  url: "https://rustdesk.com/blog/unattended-remote-access-wayland/"
-  date: 2026-08-14
-  source: Hacker News Best
-  category: programming
-- title: AI by Hand
-  url: "https://www.byhand.ai/"
-  date: 2026-08-14
-  source: Hacker News Best
-  category: programming
 - title: The neverending house
   url: "https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes"
   date: 2026-08-14
   source: Aeon
+  category: philosophy
+- title: How Love Comes to You
+  url: "https://www.themarginalian.org/2026/08/14/how-love-comes-to-you/"
+  date: 2026-08-14
+  source: The Marginalian
+  category: philosophy
+- title: "Constellating Wonder: Celebrating 20 Years of The Marginalian (October 23, 2026)"
+  url: "https://www.themarginalian.org/2026/08/14/marginalian-20/"
+  date: 2026-08-14
+  source: The Marginalian
+  category: philosophy
+- title: Arundhati Roy on the Deepest Measure of Success
+  url: "https://www.themarginalian.org/2026/08/14/arundhati-roy-success/"
+  date: 2026-08-14
+  source: The Marginalian
   category: philosophy
 - title: sqlite-utils 4.2.1
   url: "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"
@@ -45,11 +70,6 @@
   category: ai
 - title: sqlite-utils 4.2
   url: "https://simonwillison.net/2026/Aug/13/sqlite-utils/"
-  date: 2026-08-13
-  source: Simon Willison
-  category: ai
-- title: llm-gemini 0.33
-  url: "https://simonwillison.net/2026/Aug/13/llm-gemini/"
   date: 2026-08-13
   source: Simon Willison
   category: ai
@@ -73,30 +93,15 @@
   date: 2026-08-13
   source: The Marginalian
   category: philosophy
-- title: The Kiln and the Quantum of Relationships
-  url: "https://www.themarginalian.org/2026/08/13/kiln-quantum/"
-  date: 2026-08-13
-  source: The Marginalian
-  category: philosophy
 - title: Bouncy brothers
   url: "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream"
   date: 2026-08-12
   source: Aeon
   category: philosophy
-- title: Kurt Vonnegut’s 8 Tenets of Storytelling
-  url: "https://www.themarginalian.org/2026/08/12/kurt-vonnegut-on-writing-stories/"
-  date: 2026-08-12
-  source: The Marginalian
-  category: philosophy
 - title: A second sexual revolution
   url: "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes"
   date: 2026-08-11
   source: Aeon
-  category: philosophy
-- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
-  url: "https://www.themarginalian.org/2026/08/11/j-r-r-tolkien-on-fairy-stories/"
-  date: 2026-08-11
-  source: The Marginalian
   category: philosophy
 - title: "What's the best programming language for coding agents?"
   url: "https://danluu.com/pl-tokens/"
@@ -153,11 +158,6 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: "Plugins case study: Pluggy"
-  url: "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/"
-  date: 2026-06-13
-  source: Eli Bendersky
-  category: programming
 - title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
   url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
   date: 2026-06-11
