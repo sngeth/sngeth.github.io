@@ -1,13 +1,48 @@
-- title: "The Life and Death of Direct File [pdf]"
-  url: "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf"
+- title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
+  url: "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
+  date: 2026-08-17
+  source: Simon Willison
+  category: ai
+- title: We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility
+  url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+  date: 2026-08-17
+  source: Simon Willison
+  category: ai
+- title: How Bluesky draws its logo on screenshots
+  url: "https://timmarinin.net/2026/bluesky-screenshots/"
   date: 2026-08-17
   source: Hacker News Best
   category: programming
-- title: The federal keyword lists that canceled billions in research funding
-  url: "https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/"
+- title: "Quake Shareware, a CD-ROM just a little too full"
+  url: "https://fabiensanglard.net/quake_shareware_cd/index.html"
   date: 2026-08-17
   source: Hacker News Best
   category: programming
+- title: "GPT-5.6 Sol Pricing Cut by 50%"
+  url: "https://openrouter.ai/openai/gpt-5.6-sol"
+  date: 2026-08-17
+  source: Hacker News Best
+  category: programming
+- title: Israel creates fake think tank in likely attempt to dupe AI chatbots
+  url: "https://responsiblestatecraft.org/israel-influence-chatgpt/"
+  date: 2026-08-17
+  source: Hacker News Best
+  category: programming
+- title: "AI;DR (AI; Didn't Read)"
+  url: "https://www.rickmanelius.com/p/aidr-ai-didnt-read"
+  date: 2026-08-17
+  source: Hacker News Best
+  category: programming
+- title: The World Famous Gopher Hole Museum
+  url: "https://aeon.co/videos/torrington-has-some-240-residents-and-one-unusual-tourist-attraction"
+  date: 2026-08-17
+  source: Aeon
+  category: philosophy
+- title: Worm munch matters
+  url: "https://aeon.co/essays/worm-munch-matters-the-new-acoustic-ecology-of-the-soil"
+  date: 2026-08-17
+  source: Aeon
+  category: philosophy
 - title: Markdown SVG upgrades
   url: "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"
   date: 2026-08-16
@@ -23,31 +58,11 @@
   date: 2026-08-16
   source: Simon Willison
   category: ai
-- title: "Qwen 3.8 27B is excellent, but it defaults to overthinking things"
-  url: "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+- title: "The Art of Looking: Eleven Ways of Viewing the Multiple Realities of Our Everyday Wonderland"
+  url: "https://www.themarginalian.org/2026/08/16/on-looking-eleven-walks-with-expert-eyes/"
   date: 2026-08-16
-  source: Hacker News Best
-  category: programming
-- title: "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing"
-  url: "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"
-  date: 2026-08-16
-  source: Hacker News Best
-  category: programming
-- title: Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee
-  url: "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
-  date: 2026-08-16
-  source: Hacker News Best
-  category: programming
-- title: CORS Chat
-  url: "https://simonwillison.net/2026/Aug/15/cors-chat/"
-  date: 2026-08-15
-  source: Simon Willison
-  category: ai
-- title: Northern Gannet
-  url: "https://simonwillison.net/2026/Aug/15/sighting-391300422/"
-  date: 2026-08-15
-  source: Simon Willison
-  category: ai
+  source: The Marginalian
+  category: philosophy
 - title: "Concurrent Servers: Part 7 - Rust"
   url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
   date: 2026-08-15
@@ -78,11 +93,6 @@
   date: 2026-08-14
   source: The Marginalian
   category: philosophy
-- title: "Constellating Wonder: Celebrating 20 Years of The Marginalian (October 23, 2026)"
-  url: "https://www.themarginalian.org/2026/08/14/marginalian-20/"
-  date: 2026-08-14
-  source: The Marginalian
-  category: philosophy
 - title: Where the earth meets the sky
   url: "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space"
   date: 2026-08-13
@@ -91,16 +101,6 @@
 - title: Mecca and the mall
   url: "https://aeon.co/essays/my-pilgrimage-to-mecca-in-the-age-of-the-golf-cart-and-mall"
   date: 2026-08-13
-  source: Aeon
-  category: philosophy
-- title: Bouncy brothers
-  url: "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream"
-  date: 2026-08-12
-  source: Aeon
-  category: philosophy
-- title: A second sexual revolution
-  url: "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes"
-  date: 2026-08-11
   source: Aeon
   category: philosophy
 - title: "What's the best programming language for coding agents?"
