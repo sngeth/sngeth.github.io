@@ -1,45 +1,85 @@
-- title: Sticky wage norms and the real wage cost of unexpected inflation
-  url: "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf"
+- title: "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript"
+  url: "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/"
+  date: 2026-08-19
+  source: Simon Willison
+  category: ai
+- title: Quoting Jeremy Morrell
+  url: "https://simonwillison.net/2026/Aug/19/jeremy-morrell/"
+  date: 2026-08-19
+  source: Simon Willison
+  category: ai
+- title: Conceptual integrity and counting lines of code
+  url: "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"
+  date: 2026-08-19
+  source: Simon Willison
+  category: ai
+- title: Go 1.27
+  url: "https://go.dev/blog/go1.27"
   date: 2026-08-19
   source: Hacker News Best
   category: programming
+- title: Google replaced Git tags for certain source code with obtaining via Google Drive
+  url: "https://grapheneos.social/@GrapheneOS/117057099753905023"
+  date: 2026-08-19
+  source: Hacker News Best
+  category: programming
+- title: OpenRouter is joining Stripe
+  url: "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/"
+  date: 2026-08-19
+  source: Hacker News Best
+  category: programming
+- title: Civic Hygiene – avoid building technologies that could be used by a police state (2013)
+  url: "https://shkspr.mobi/blog/2013/11/civic-hygiene/"
+  date: 2026-08-19
+  source: Hacker News Best
+  category: programming
+- title: "Remote workers report the highest well-being in study of 7,700 employees"
+  url: "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees"
+  date: 2026-08-19
+  source: Hacker News Best
+  category: programming
+- title: The conscience files
+  url: "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
+  date: 2026-08-19
+  source: Aeon
+  category: philosophy
+- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
+  url: "https://www.themarginalian.org/2026/08/19/rockwell-kent-wilderness/"
+  date: 2026-08-19
+  source: The Marginalian
+  category: philosophy
+- title: "How to Hold Death and Carry Life: A Zen Master Explains Existence to a Child and Outlines the Three Essential Principles of Zen Mind"
+  url: "https://www.themarginalian.org/2026/08/19/dropping-ashes-on-the-buddha-death/"
+  date: 2026-08-19
+  source: The Marginalian
+  category: philosophy
+- title: Moonlight and the Magic of the Unnecessary
+  url: "https://www.themarginalian.org/2026/08/18/moonlight/"
+  date: 2026-08-19
+  source: The Marginalian
+  category: philosophy
 - title: Mojo🔥 is now open source
   url: "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/"
   date: 2026-08-18
   source: Simon Willison
   category: ai
-- title: Beware Management Consultants
-  url: "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/"
-  date: 2026-08-18
-  source: Hacker News Best
-  category: programming
-- title: "How does IKEA come up with names for its products?"
-  url: "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html"
-  date: 2026-08-18
-  source: Hacker News Best
-  category: programming
-- title: Field measurements of neighborhood-scale air temperature impacts of data centers
-  url: "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban"
-  date: 2026-08-18
-  source: Hacker News Best
-  category: programming
-- title: The Amazon tax
-  url: "https://seths.blog/2026/08/the-amazon-tax/"
-  date: 2026-08-18
-  source: Hacker News Best
-  category: programming
 - title: In praise of zealotry
   url: "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry"
   date: 2026-08-18
   source: Aeon
   category: philosophy
+- title: "How to Be a Sea: Albert Camus on Learning to Die and Learning to Live"
+  url: "https://www.themarginalian.org/2026/08/18/camus-sea/"
+  date: 2026-08-18
+  source: The Marginalian
+  category: philosophy
+- title: "The Bird in the Heart: Terry Tempest Williams on the Paradox of Transformation and How to Live with Uncertainty"
+  url: "https://www.themarginalian.org/2026/08/18/when-women-were-birds/"
+  date: 2026-08-18
+  source: The Marginalian
+  category: philosophy
 - title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
   url: "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
-  date: 2026-08-17
-  source: Simon Willison
-  category: ai
-- title: We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility
-  url: "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
   date: 2026-08-17
   source: Simon Willison
   category: ai
@@ -53,54 +93,14 @@
   date: 2026-08-17
   source: Aeon
   category: philosophy
-- title: "Nature’s Oldest Mandolin: The Poetic Science of How Cicadas Sing"
-  url: "https://www.themarginalian.org/2026/08/17/cicadas/"
-  date: 2026-08-17
-  source: The Marginalian
-  category: philosophy
-- title: "Wholeness and the Implicate Order: Physicist David Bohm on Bridging Consciousness and Reality"
-  url: "https://www.themarginalian.org/2026/08/17/wholeness-and-the-implicate-order-david-bohm/"
-  date: 2026-08-17
-  source: The Marginalian
-  category: philosophy
-- title: Markdown SVG upgrades
-  url: "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/"
-  date: 2026-08-16
-  source: Simon Willison
-  category: ai
-- title: "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things"
-  url: "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
-  date: 2026-08-16
-  source: Simon Willison
-  category: ai
-- title: "The Art of Looking: Eleven Ways of Viewing the Multiple Realities of Our Everyday Wonderland"
-  url: "https://www.themarginalian.org/2026/08/16/on-looking-eleven-walks-with-expert-eyes/"
-  date: 2026-08-16
-  source: The Marginalian
-  category: philosophy
 - title: "Concurrent Servers: Part 7 - Rust"
   url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
   date: 2026-08-15
   source: Eli Bendersky
   category: programming
-- title: How to Read the Signal of Your Life
-  url: "https://www.themarginalian.org/2026/08/15/george-kubler-actuality/"
-  date: 2026-08-15
-  source: The Marginalian
-  category: philosophy
-- title: "The Gentle Giant: Oliver Sacks and the Art of Choosing Empathy Over Vengeance"
-  url: "https://www.themarginalian.org/2026/08/15/oliver-sacks-on-the-move-empathy/"
-  date: 2026-08-15
-  source: The Marginalian
-  category: philosophy
 - title: The neverending house
   url: "https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes"
   date: 2026-08-14
-  source: Aeon
-  category: philosophy
-- title: Where the earth meets the sky
-  url: "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space"
-  date: 2026-08-13
   source: Aeon
   category: philosophy
 - title: "What's the best programming language for coding agents?"
