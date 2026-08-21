@@ -1,3 +1,73 @@
+- title: "AI companies destroy physical books – let's scan rare books before it's too late"
+  url: "https://annas-archive.gl/blog/physical-destruction.html"
+  date: 2026-08-21
+  source: Hacker News Best
+  category: programming
+- title: How to Bear Your Desolations
+  url: "https://www.themarginalian.org/2026/08/20/any-common-desolation-ellen-bass/"
+  date: 2026-08-21
+  source: The Marginalian
+  category: philosophy
+- title: "ChatGPT search now uses the site:operator at scale"
+  url: "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+  date: 2026-08-20
+  source: Simon Willison
+  category: ai
+- title: "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView"
+  url: "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"
+  date: 2026-08-20
+  source: Simon Willison
+  category: ai
+- title: "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence"
+  url: "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/"
+  date: 2026-08-20
+  source: Hacker News Best
+  category: programming
+- title: The August 17 outage
+  url: "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
+  date: 2026-08-20
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Huzzah – a novel approach to coding with AI"
+  url: "https://www.danielvaughn.dev/posts/huzzah/"
+  date: 2026-08-20
+  source: Hacker News Best
+  category: programming
+- title: "Watching TikTok and Instagram deactivates the cognitive control network: Study"
+  url: "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/"
+  date: 2026-08-20
+  source: Hacker News Best
+  category: programming
+- title: "A vocabulary for the future: touch"
+  url: "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch"
+  date: 2026-08-20
+  source: Aeon
+  category: philosophy
+- title: Dolphins and other lovers
+  url: "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin"
+  date: 2026-08-20
+  source: Aeon
+  category: philosophy
+- title: "The Resilience of Uncertainty: How to Hold the Universe in You"
+  url: "https://www.themarginalian.org/2026/08/20/weeds-and-stars-lisa-rosenberg/"
+  date: 2026-08-20
+  source: The Marginalian
+  category: philosophy
+- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
+  url: "https://www.themarginalian.org/2026/08/20/martha-nussbaum-loves-knowledge/"
+  date: 2026-08-20
+  source: The Marginalian
+  category: philosophy
+- title: Where Love Goes When It Goes
+  url: "https://www.themarginalian.org/2026/08/20/traversal-love/"
+  date: 2026-08-20
+  source: The Marginalian
+  category: philosophy
+- title: How to Bear Your Loneliness
+  url: "https://www.themarginalian.org/2026/08/20/pema-chodron-loneliness/"
+  date: 2026-08-20
+  source: The Marginalian
+  category: philosophy
 - title: "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript"
   url: "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/"
   date: 2026-08-19
@@ -13,83 +83,18 @@
   date: 2026-08-19
   source: Simon Willison
   category: ai
-- title: Go 1.27
-  url: "https://go.dev/blog/go1.27"
-  date: 2026-08-19
-  source: Hacker News Best
-  category: programming
-- title: Google replaced Git tags for certain source code with obtaining via Google Drive
-  url: "https://grapheneos.social/@GrapheneOS/117057099753905023"
-  date: 2026-08-19
-  source: Hacker News Best
-  category: programming
-- title: OpenRouter is joining Stripe
-  url: "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/"
-  date: 2026-08-19
-  source: Hacker News Best
-  category: programming
-- title: Civic Hygiene – avoid building technologies that could be used by a police state (2013)
-  url: "https://shkspr.mobi/blog/2013/11/civic-hygiene/"
-  date: 2026-08-19
-  source: Hacker News Best
-  category: programming
-- title: "Remote workers report the highest well-being in study of 7,700 employees"
-  url: "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees"
-  date: 2026-08-19
-  source: Hacker News Best
-  category: programming
 - title: The conscience files
   url: "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
   date: 2026-08-19
   source: Aeon
   category: philosophy
-- title: "Wilderness, Solitude, and Creativity: Artist and Philosopher Rockwell Kent’s Century-Old Meditations on Art and Life During Seven Months on a Small Alaskan Island"
-  url: "https://www.themarginalian.org/2026/08/19/rockwell-kent-wilderness/"
-  date: 2026-08-19
-  source: The Marginalian
-  category: philosophy
-- title: "How to Hold Death and Carry Life: A Zen Master Explains Existence to a Child and Outlines the Three Essential Principles of Zen Mind"
-  url: "https://www.themarginalian.org/2026/08/19/dropping-ashes-on-the-buddha-death/"
-  date: 2026-08-19
-  source: The Marginalian
-  category: philosophy
-- title: Moonlight and the Magic of the Unnecessary
-  url: "https://www.themarginalian.org/2026/08/18/moonlight/"
-  date: 2026-08-19
-  source: The Marginalian
-  category: philosophy
-- title: Mojo🔥 is now open source
-  url: "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/"
-  date: 2026-08-18
-  source: Simon Willison
-  category: ai
 - title: In praise of zealotry
   url: "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry"
   date: 2026-08-18
   source: Aeon
   category: philosophy
-- title: "How to Be a Sea: Albert Camus on Learning to Die and Learning to Live"
-  url: "https://www.themarginalian.org/2026/08/18/camus-sea/"
-  date: 2026-08-18
-  source: The Marginalian
-  category: philosophy
-- title: "The Bird in the Heart: Terry Tempest Williams on the Paradox of Transformation and How to Live with Uncertainty"
-  url: "https://www.themarginalian.org/2026/08/18/when-women-were-birds/"
-  date: 2026-08-18
-  source: The Marginalian
-  category: philosophy
-- title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-  url: "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
-  date: 2026-08-17
-  source: Simon Willison
-  category: ai
 - title: The World Famous Gopher Hole Museum
   url: "https://aeon.co/videos/torrington-has-some-240-residents-and-one-unusual-tourist-attraction"
-  date: 2026-08-17
-  source: Aeon
-  category: philosophy
-- title: Worm munch matters
-  url: "https://aeon.co/essays/worm-munch-matters-the-new-acoustic-ecology-of-the-soil"
   date: 2026-08-17
   source: Aeon
   category: philosophy
@@ -98,11 +103,6 @@
   date: 2026-08-15
   source: Eli Bendersky
   category: programming
-- title: The neverending house
-  url: "https://aeon.co/essays/the-art-of-dwelling-in-santiagos-self-built-homes"
-  date: 2026-08-14
-  source: Aeon
-  category: philosophy
 - title: "What's the best programming language for coding agents?"
   url: "https://danluu.com/pl-tokens/"
   date: 2026-08-09
