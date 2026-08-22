@@ -1,8 +1,68 @@
-- title: "AI companies destroy physical books – let's scan rare books before it's too late"
-  url: "https://annas-archive.gl/blog/physical-destruction.html"
+- title: "There's no reason for software to be slow anymore"
+  url: "https://danluu.com/perf-opt/"
+  date: 2026-08-22
+  source: Hacker News Best
+  category: programming
+- title: "The Loveliness of Letting Go: An Illustrated Ode to Life’s Lasts"
+  url: "https://www.themarginalian.org/2026/08/21/odds-and-ends-maija-hurme/"
+  date: 2026-08-22
+  source: The Marginalian
+  category: philosophy
+- title: "How to Be Un-Dead: Notes on Waking Up from the Trance of Near-Living"
+  url: "https://www.themarginalian.org/2026/08/21/anais-nin-d-h-lawrence/"
+  date: 2026-08-22
+  source: The Marginalian
+  category: philosophy
+- title: llm 0.32.1
+  url: "https://simonwillison.net/2026/Aug/21/llm/"
+  date: 2026-08-21
+  source: Simon Willison
+  category: ai
+- title: llm-openrouter 0.7
+  url: "https://simonwillison.net/2026/Aug/21/llm-openrouter/"
+  date: 2026-08-21
+  source: Simon Willison
+  category: ai
+- title: Stop Making TUIs
+  url: "https://simonwillison.net/2026/Aug/21/stop-making-tuis/"
+  date: 2026-08-21
+  source: Simon Willison
+  category: ai
+- title: Quoting Matt Webb
+  url: "https://simonwillison.net/2026/Aug/21/matt-webb/"
+  date: 2026-08-21
+  source: Simon Willison
+  category: ai
+- title: Kobo can run apps now
+  url: "https://bandarlabs.github.io/Cobalt/"
   date: 2026-08-21
   source: Hacker News Best
   category: programming
+- title: Felony Bench
+  url: "https://www.felonybench.com/"
+  date: 2026-08-21
+  source: Hacker News Best
+  category: programming
+- title: "Claudette: Make Claude stop talking like a BuzzFeed article"
+  url: "https://github.com/adnanakil/nobuzz/blob/main/README.md"
+  date: 2026-08-21
+  source: Hacker News Best
+  category: programming
+- title: Kagi added a setting for removing paywalled links from search results
+  url: "https://kagi.com/changelog#11296"
+  date: 2026-08-21
+  source: Hacker News Best
+  category: programming
+- title: The fog of hunger
+  url: "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman"
+  date: 2026-08-21
+  source: Aeon
+  category: philosophy
+- title: "The Other Significant Others: Living and Loving Outside the Confines of Conventional Friendship and Compulsory Coupledom"
+  url: "https://www.themarginalian.org/2026/08/21/the-other-significant-others/"
+  date: 2026-08-21
+  source: The Marginalian
+  category: philosophy
 - title: How to Bear Your Desolations
   url: "https://www.themarginalian.org/2026/08/20/any-common-desolation-ellen-bass/"
   date: 2026-08-21
@@ -13,31 +73,6 @@
   date: 2026-08-20
   source: Simon Willison
   category: ai
-- title: "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView"
-  url: "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"
-  date: 2026-08-20
-  source: Simon Willison
-  category: ai
-- title: "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence"
-  url: "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/"
-  date: 2026-08-20
-  source: Hacker News Best
-  category: programming
-- title: The August 17 outage
-  url: "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
-  date: 2026-08-20
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Huzzah – a novel approach to coding with AI"
-  url: "https://www.danielvaughn.dev/posts/huzzah/"
-  date: 2026-08-20
-  source: Hacker News Best
-  category: programming
-- title: "Watching TikTok and Instagram deactivates the cognitive control network: Study"
-  url: "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/"
-  date: 2026-08-20
-  source: Hacker News Best
-  category: programming
 - title: "A vocabulary for the future: touch"
   url: "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch"
   date: 2026-08-20
@@ -53,36 +88,6 @@
   date: 2026-08-20
   source: The Marginalian
   category: philosophy
-- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
-  url: "https://www.themarginalian.org/2026/08/20/martha-nussbaum-loves-knowledge/"
-  date: 2026-08-20
-  source: The Marginalian
-  category: philosophy
-- title: Where Love Goes When It Goes
-  url: "https://www.themarginalian.org/2026/08/20/traversal-love/"
-  date: 2026-08-20
-  source: The Marginalian
-  category: philosophy
-- title: How to Bear Your Loneliness
-  url: "https://www.themarginalian.org/2026/08/20/pema-chodron-loneliness/"
-  date: 2026-08-20
-  source: The Marginalian
-  category: philosophy
-- title: "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript"
-  url: "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/"
-  date: 2026-08-19
-  source: Simon Willison
-  category: ai
-- title: Quoting Jeremy Morrell
-  url: "https://simonwillison.net/2026/Aug/19/jeremy-morrell/"
-  date: 2026-08-19
-  source: Simon Willison
-  category: ai
-- title: Conceptual integrity and counting lines of code
-  url: "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"
-  date: 2026-08-19
-  source: Simon Willison
-  category: ai
 - title: The conscience files
   url: "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
   date: 2026-08-19
@@ -91,11 +96,6 @@
 - title: In praise of zealotry
   url: "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry"
   date: 2026-08-18
-  source: Aeon
-  category: philosophy
-- title: The World Famous Gopher Hole Museum
-  url: "https://aeon.co/videos/torrington-has-some-240-residents-and-one-unusual-tourist-attraction"
-  date: 2026-08-17
   source: Aeon
   category: philosophy
 - title: "Concurrent Servers: Part 7 - Rust"
