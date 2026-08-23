@@ -1,8 +1,58 @@
-- title: "There's no reason for software to be slow anymore"
-  url: "https://danluu.com/perf-opt/"
+- title: "The Black Robin and the Power of Tenacious Tenderness: How a Single Mother Brought an Entire Species Back from the Brink of Extinction"
+  url: "https://www.themarginalian.org/2026/08/23/old-blue-black-robin/"
+  date: 2026-08-23
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Linus Torvalds
+  url: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
+  date: 2026-08-22
+  source: Simon Willison
+  category: ai
+- title: llm 0.33
+  url: "https://simonwillison.net/2026/Aug/22/llm/"
+  date: 2026-08-22
+  source: Simon Willison
+  category: ai
+- title: More than just code review
+  url: "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
+  date: 2026-08-22
+  source: Simon Willison
+  category: ai
+- title: "Concurrent Servers: Part 8 - Go"
+  url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-8-go/"
+  date: 2026-08-22
+  source: Eli Bendersky
+  category: programming
+- title: Why your local LLM feels dumber than it is
+  url: "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
   date: 2026-08-22
   source: Hacker News Best
   category: programming
+- title: Scrap (2006)
+  url: "https://twitter.com/moxie/status/2091218652133732491"
+  date: 2026-08-22
+  source: Hacker News Best
+  category: programming
+- title: Anthropic appears to be A/B testing reduced effort levels in Claude Code
+  url: "https://twitter.com/argofowl/status/2091150597374537729"
+  date: 2026-08-22
+  source: Hacker News Best
+  category: programming
+- title: "ElevenLabs, TwelveLabs, ThirteenLabs"
+  url: "https://quantumi.sh/public/labs.html"
+  date: 2026-08-22
+  source: Hacker News Best
+  category: programming
+- title: A Friendly Introduction to Racket
+  url: "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/"
+  date: 2026-08-22
+  source: Hacker News Best
+  category: programming
+- title: "The More Loving One: The Science of Entropy and the Art of Alternative Endings"
+  url: "https://www.themarginalian.org/2026/08/22/the-more-loving-one-auden-universe-in-verse/"
+  date: 2026-08-22
+  source: The Marginalian
+  category: philosophy
 - title: "The Loveliness of Letting Go: An Illustrated Ode to Life’s Lasts"
   url: "https://www.themarginalian.org/2026/08/21/odds-and-ends-maija-hurme/"
   date: 2026-08-22
@@ -23,36 +73,6 @@
   date: 2026-08-21
   source: Simon Willison
   category: ai
-- title: Stop Making TUIs
-  url: "https://simonwillison.net/2026/Aug/21/stop-making-tuis/"
-  date: 2026-08-21
-  source: Simon Willison
-  category: ai
-- title: Quoting Matt Webb
-  url: "https://simonwillison.net/2026/Aug/21/matt-webb/"
-  date: 2026-08-21
-  source: Simon Willison
-  category: ai
-- title: Kobo can run apps now
-  url: "https://bandarlabs.github.io/Cobalt/"
-  date: 2026-08-21
-  source: Hacker News Best
-  category: programming
-- title: Felony Bench
-  url: "https://www.felonybench.com/"
-  date: 2026-08-21
-  source: Hacker News Best
-  category: programming
-- title: "Claudette: Make Claude stop talking like a BuzzFeed article"
-  url: "https://github.com/adnanakil/nobuzz/blob/main/README.md"
-  date: 2026-08-21
-  source: Hacker News Best
-  category: programming
-- title: Kagi added a setting for removing paywalled links from search results
-  url: "https://kagi.com/changelog#11296"
-  date: 2026-08-21
-  source: Hacker News Best
-  category: programming
 - title: The fog of hunger
   url: "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman"
   date: 2026-08-21
@@ -63,16 +83,6 @@
   date: 2026-08-21
   source: The Marginalian
   category: philosophy
-- title: How to Bear Your Desolations
-  url: "https://www.themarginalian.org/2026/08/20/any-common-desolation-ellen-bass/"
-  date: 2026-08-21
-  source: The Marginalian
-  category: philosophy
-- title: "ChatGPT search now uses the site:operator at scale"
-  url: "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
-  date: 2026-08-20
-  source: Simon Willison
-  category: ai
 - title: "A vocabulary for the future: touch"
   url: "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch"
   date: 2026-08-20
@@ -82,11 +92,6 @@
   url: "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin"
   date: 2026-08-20
   source: Aeon
-  category: philosophy
-- title: "The Resilience of Uncertainty: How to Hold the Universe in You"
-  url: "https://www.themarginalian.org/2026/08/20/weeds-and-stars-lisa-rosenberg/"
-  date: 2026-08-20
-  source: The Marginalian
   category: philosophy
 - title: The conscience files
   url: "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
@@ -147,11 +152,6 @@
   url: "https://danluu.com/ai-coding/"
   date: 2026-07-03
   source: Dan Luu
-  category: programming
-- title: "Summary of reading: April - June 2026"
-  url: "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/"
-  date: 2026-06-30
-  source: Eli Bendersky
   category: programming
 - title: "Scaling Laws, Carefully"
   url: "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
