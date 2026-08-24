@@ -1,3 +1,48 @@
+- title: "The Building Blocks of Personhood: Oliver Sacks on Neurocognitive Pillar of What Makes Us Who We Are"
+  url: "https://www.themarginalian.org/2026/08/23/oliver-sacks-identity-self-narrative/"
+  date: 2026-08-24
+  source: The Marginalian
+  category: philosophy
+- title: Anthropic’s best AI model struggles to attract users as cheaper tools thrive
+  url: "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
+  date: 2026-08-23
+  source: Simon Willison
+  category: ai
+- title: Quoting Drew Breunig
+  url: "https://simonwillison.net/2026/Aug/23/drew-breunig/"
+  date: 2026-08-23
+  source: Simon Willison
+  category: ai
+- title: How Complex Systems Fail
+  url: "https://how.complexsystems.fail/"
+  date: 2026-08-23
+  source: Hacker News Best
+  category: programming
+- title: Slovakia finds Russian backdoor in traffic speed cameras
+  url: "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/"
+  date: 2026-08-23
+  source: Hacker News Best
+  category: programming
+- title: "What Is a Harness?"
+  url: "https://earendil.com/posts/what-is-a-harness/"
+  date: 2026-08-23
+  source: Hacker News Best
+  category: programming
+- title: I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day
+  url: "https://ericpardee.github.io/fire-hd-ownership/"
+  date: 2026-08-23
+  source: Hacker News Best
+  category: programming
+- title: "My favorite nonfiction books about cults, scams, and schemes"
+  url: "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes"
+  date: 2026-08-23
+  source: Hacker News Best
+  category: programming
+- title: Sylvia Plath on Living with the Darkness and Making Art from the Barely Bearable Lightness of Being
+  url: "https://www.themarginalian.org/2026/08/23/sylvia-plath-letter-mother/"
+  date: 2026-08-23
+  source: The Marginalian
+  category: philosophy
 - title: "The Black Robin and the Power of Tenacious Tenderness: How a Single Mother Brought an Entire Species Back from the Brink of Extinction"
   url: "https://www.themarginalian.org/2026/08/23/old-blue-black-robin/"
   date: 2026-08-23
@@ -23,31 +68,6 @@
   date: 2026-08-22
   source: Eli Bendersky
   category: programming
-- title: Why your local LLM feels dumber than it is
-  url: "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
-  date: 2026-08-22
-  source: Hacker News Best
-  category: programming
-- title: Scrap (2006)
-  url: "https://twitter.com/moxie/status/2091218652133732491"
-  date: 2026-08-22
-  source: Hacker News Best
-  category: programming
-- title: Anthropic appears to be A/B testing reduced effort levels in Claude Code
-  url: "https://twitter.com/argofowl/status/2091150597374537729"
-  date: 2026-08-22
-  source: Hacker News Best
-  category: programming
-- title: "ElevenLabs, TwelveLabs, ThirteenLabs"
-  url: "https://quantumi.sh/public/labs.html"
-  date: 2026-08-22
-  source: Hacker News Best
-  category: programming
-- title: A Friendly Introduction to Racket
-  url: "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/"
-  date: 2026-08-22
-  source: Hacker News Best
-  category: programming
 - title: "The More Loving One: The Science of Entropy and the Art of Alternative Endings"
   url: "https://www.themarginalian.org/2026/08/22/the-more-loving-one-auden-universe-in-verse/"
   date: 2026-08-22
@@ -58,30 +78,10 @@
   date: 2026-08-22
   source: The Marginalian
   category: philosophy
-- title: "How to Be Un-Dead: Notes on Waking Up from the Trance of Near-Living"
-  url: "https://www.themarginalian.org/2026/08/21/anais-nin-d-h-lawrence/"
-  date: 2026-08-22
-  source: The Marginalian
-  category: philosophy
-- title: llm 0.32.1
-  url: "https://simonwillison.net/2026/Aug/21/llm/"
-  date: 2026-08-21
-  source: Simon Willison
-  category: ai
-- title: llm-openrouter 0.7
-  url: "https://simonwillison.net/2026/Aug/21/llm-openrouter/"
-  date: 2026-08-21
-  source: Simon Willison
-  category: ai
 - title: The fog of hunger
   url: "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman"
   date: 2026-08-21
   source: Aeon
-  category: philosophy
-- title: "The Other Significant Others: Living and Loving Outside the Confines of Conventional Friendship and Compulsory Coupledom"
-  url: "https://www.themarginalian.org/2026/08/21/the-other-significant-others/"
-  date: 2026-08-21
-  source: The Marginalian
   category: philosophy
 - title: "A vocabulary for the future: touch"
   url: "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch"
