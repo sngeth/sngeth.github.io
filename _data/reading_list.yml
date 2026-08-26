@@ -1,3 +1,48 @@
+- title: "Uncoding Creativity in the Age of AI: What Makes a Great Poem, What Makes a Great Storyteller, and What Makes Great Person"
+  url: "https://www.themarginalian.org/2026/08/26/suffering-creativity-canetti-rilke/"
+  date: 2026-08-26
+  source: The Marginalian
+  category: philosophy
+- title: "EVE Online: The Move to Python 3 Begins!"
+  url: "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
+  date: 2026-08-25
+  source: Simon Willison
+  category: ai
+- title: FDA authorizes first wearable device that monitors ketone and blood sugar levels
+  url: "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar"
+  date: 2026-08-25
+  source: Hacker News Best
+  category: programming
+- title: Dolly Parton has died
+  url: "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
+  date: 2026-08-25
+  source: Hacker News Best
+  category: programming
+- title: Firefox 157 will include JPEG XL by default on all platforms
+  url: "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
+  date: 2026-08-25
+  source: Hacker News Best
+  category: programming
+- title: Nitter and XCancel receive cease and desist notices
+  url: "https://github.com/zedeus/nitter/issues/1442"
+  date: 2026-08-25
+  source: Hacker News Best
+  category: programming
+- title: My Friend Aaron
+  url: "https://rorz.io/writing/my-friend-aaron"
+  date: 2026-08-25
+  source: Hacker News Best
+  category: programming
+- title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
+  url: "https://www.themarginalian.org/2026/08/25/leonard-cohen-anger-resistance/"
+  date: 2026-08-25
+  source: The Marginalian
+  category: philosophy
+- title: "How to Delight in Your Days: Poet and Gardener Ross Gay’s Yearlong Experiment in Willful Gladness"
+  url: "https://www.themarginalian.org/2026/08/25/ross-gay-book-of-delights/"
+  date: 2026-08-25
+  source: The Marginalian
+  category: philosophy
 - title: "The Vocabulary of Vulnerability: 10 Wonderfully Untranslatable Words from Around the World for Complex and Difficult Emotions"
   url: "https://www.themarginalian.org/2026/08/24/book-of-human-emotions/"
   date: 2026-08-25
@@ -18,41 +63,6 @@
   date: 2026-08-24
   source: Simon Willison
   category: ai
-- title: iCloud+ Hide My Email addresses will remain on icloud.com
-  url: "https://developer.apple.com/news/?id=1ptvdtcm"
-  date: 2026-08-24
-  source: Hacker News Best
-  category: programming
-- title: Oceans hit highest temperature on record
-  url: "https://www.bbc.com/news/articles/c62m4gpnp78o"
-  date: 2026-08-24
-  source: Hacker News Best
-  category: programming
-- title: The entire city of San Francisco as a video game
-  url: "https://sf.thijs.gg/"
-  date: 2026-08-24
-  source: Hacker News Best
-  category: programming
-- title: Coding expertise is going to collapse from AI reliance
-  url: "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
-  date: 2026-08-24
-  source: Hacker News Best
-  category: programming
-- title: IPFS Maintainers Winding Down
-  url: "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/"
-  date: 2026-08-24
-  source: Hacker News Best
-  category: programming
-- title: The Moomin Strategy for Living with Uncertainty
-  url: "https://www.themarginalian.org/2026/08/24/too-ticky-quotes-tove-jansson/"
-  date: 2026-08-24
-  source: The Marginalian
-  category: philosophy
-- title: "The Building Blocks of Personhood: Oliver Sacks on Neurocognitive Pillar of What Makes Us Who We Are"
-  url: "https://www.themarginalian.org/2026/08/23/oliver-sacks-identity-self-narrative/"
-  date: 2026-08-24
-  source: The Marginalian
-  category: philosophy
 - title: Anthropic’s best AI model struggles to attract users as cheaper tools thrive
   url: "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
   date: 2026-08-23
@@ -61,16 +71,6 @@
 - title: Quoting Drew Breunig
   url: "https://simonwillison.net/2026/Aug/23/drew-breunig/"
   date: 2026-08-23
-  source: Simon Willison
-  category: ai
-- title: Sylvia Plath on Living with the Darkness and Making Art from the Barely Bearable Lightness of Being
-  url: "https://www.themarginalian.org/2026/08/23/sylvia-plath-letter-mother/"
-  date: 2026-08-23
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Linus Torvalds
-  url: "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
-  date: 2026-08-22
   source: Simon Willison
   category: ai
 - title: "Concurrent Servers: Part 8 - Go"
@@ -103,6 +103,11 @@
   date: 2026-08-18
   source: Aeon
   category: philosophy
+- title: The benchmarkpocalypse
+  url: "https://danluu.com/benchpocalypse/"
+  date: 2026-08-17
+  source: Dan Luu
+  category: programming
 - title: "Concurrent Servers: Part 7 - Rust"
   url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
   date: 2026-08-15
@@ -118,7 +123,7 @@
   date: 2026-08-03
   source: Eli Bendersky
   category: programming
-- title: "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires"
+- title: "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires"
   url: "https://danluu.com/exercise-7/"
   date: 2026-07-23
   source: Dan Luu
@@ -233,11 +238,6 @@
   date: 2024-09-09
   source: The Gradient
   category: ai
-- title: "How good can you be at Codenames without knowing any words?"
-  url: "https://danluu.com/codenames/"
-  date: 2024-08-11
-  source: Dan Luu
-  category: programming
 - title: We Need Positive Visions for AI Grounded in Wellbeing
   url: "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/"
   date: 2024-08-03
