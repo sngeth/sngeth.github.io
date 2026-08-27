@@ -1,3 +1,28 @@
+- title: The Moving Letter James Baldwin Received from His Childhood Teacher at the Peak of His Fame and His Heartbreak
+  url: "https://www.themarginalian.org/2026/08/26/james-baldwin-orilla-bill-miller/"
+  date: 2026-08-27
+  source: The Marginalian
+  category: philosophy
+- title: Kahlil Gibran on the Art of Becoming Yourself Across the Sweep of Life
+  url: "https://www.themarginalian.org/2026/08/26/youth-and-age-kahlil-gibran/"
+  date: 2026-08-27
+  source: The Marginalian
+  category: philosophy
+- title: Qwen3.8-Flash-Next
+  url: "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/"
+  date: 2026-08-26
+  source: Simon Willison
+  category: ai
+- title: Quoting Paul Dix
+  url: "https://simonwillison.net/2026/Aug/26/paul-dix/"
+  date: 2026-08-26
+  source: Simon Willison
+  category: ai
+- title: "Decoding the Mystery of Intuition: AI Prophet Margaret Boden on the Three Elements of Creativity"
+  url: "https://www.themarginalian.org/2026/08/26/margaret-boden-creativity/"
+  date: 2026-08-26
+  source: The Marginalian
+  category: philosophy
 - title: "Uncoding Creativity in the Age of AI: What Makes a Great Poem, What Makes a Great Storyteller, and What Makes Great Person"
   url: "https://www.themarginalian.org/2026/08/26/suffering-creativity-canetti-rilke/"
   date: 2026-08-26
@@ -8,48 +33,8 @@
   date: 2026-08-25
   source: Simon Willison
   category: ai
-- title: FDA authorizes first wearable device that monitors ketone and blood sugar levels
-  url: "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar"
-  date: 2026-08-25
-  source: Hacker News Best
-  category: programming
-- title: Dolly Parton has died
-  url: "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
-  date: 2026-08-25
-  source: Hacker News Best
-  category: programming
-- title: Firefox 157 will include JPEG XL by default on all platforms
-  url: "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
-  date: 2026-08-25
-  source: Hacker News Best
-  category: programming
-- title: Nitter and XCancel receive cease and desist notices
-  url: "https://github.com/zedeus/nitter/issues/1442"
-  date: 2026-08-25
-  source: Hacker News Best
-  category: programming
-- title: My Friend Aaron
-  url: "https://rorz.io/writing/my-friend-aaron"
-  date: 2026-08-25
-  source: Hacker News Best
-  category: programming
 - title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
   url: "https://www.themarginalian.org/2026/08/25/leonard-cohen-anger-resistance/"
-  date: 2026-08-25
-  source: The Marginalian
-  category: philosophy
-- title: "How to Delight in Your Days: Poet and Gardener Ross Gay’s Yearlong Experiment in Willful Gladness"
-  url: "https://www.themarginalian.org/2026/08/25/ross-gay-book-of-delights/"
-  date: 2026-08-25
-  source: The Marginalian
-  category: philosophy
-- title: "The Vocabulary of Vulnerability: 10 Wonderfully Untranslatable Words from Around the World for Complex and Difficult Emotions"
-  url: "https://www.themarginalian.org/2026/08/24/book-of-human-emotions/"
-  date: 2026-08-25
-  source: The Marginalian
-  category: philosophy
-- title: "What Makes a Person: The Seven Layers of Selfhood in Literature and Life"
-  url: "https://www.themarginalian.org/2026/08/24/amelie-rorty-the-identities-of-persons/"
   date: 2026-08-25
   source: The Marginalian
   category: philosophy
@@ -63,20 +48,15 @@
   date: 2026-08-24
   source: Simon Willison
   category: ai
-- title: Anthropic’s best AI model struggles to attract users as cheaper tools thrive
-  url: "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
-  date: 2026-08-23
-  source: Simon Willison
-  category: ai
-- title: Quoting Drew Breunig
-  url: "https://simonwillison.net/2026/Aug/23/drew-breunig/"
-  date: 2026-08-23
-  source: Simon Willison
-  category: ai
 - title: "Concurrent Servers: Part 8 - Go"
   url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-8-go/"
   date: 2026-08-22
   source: Eli Bendersky
+  category: programming
+- title: "There's no reason for software to be slow anymore"
+  url: "https://danluu.com/perf-opt/"
+  date: 2026-08-21
+  source: Dan Luu
   category: programming
 - title: The fog of hunger
   url: "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman"
@@ -113,7 +93,7 @@
   date: 2026-08-15
   source: Eli Bendersky
   category: programming
-- title: "What's the best programming language for coding agents?"
+- title: "How does programming language affect token efficiency and correctness?"
   url: "https://danluu.com/pl-tokens/"
   date: 2026-08-09
   source: Dan Luu
@@ -163,11 +143,6 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -183,31 +158,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -228,11 +183,6 @@
   date: 2024-11-16
   source: The Gradient
   category: ai
-- title: Steve Ballmer was an underrated CEO
-  url: "https://danluu.com/ballmer/"
-  date: 2024-10-28
-  source: Dan Luu
-  category: programming
 - title: "What's Missing From LLM Chatbots: A Sense of Purpose"
   url: "https://thegradient.pub/dialog/"
   date: 2024-09-09
@@ -248,28 +198,3 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
