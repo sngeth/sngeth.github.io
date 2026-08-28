@@ -1,3 +1,53 @@
+- title: GLM-5.3 is now open-weight
+  url: "https://twitter.com/Zai_org/status/2093354097122455713"
+  date: 2026-08-28
+  source: Hacker News Best
+  category: programming
+- title: Get your Windows license refund
+  url: "https://en.refund4freedom.org/"
+  date: 2026-08-28
+  source: Hacker News Best
+  category: programming
+- title: “It works better in the app”
+  url: "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/"
+  date: 2026-08-28
+  source: Hacker News Best
+  category: programming
+- title: "Pentagon's blacklisting of Anthropic was unlawful, US judge rules"
+  url: "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"
+  date: 2026-08-28
+  source: Hacker News Best
+  category: programming
+- title: Luanti removed from Google Play due to baseless AI copyright notice
+  url: "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/"
+  date: 2026-08-28
+  source: Hacker News Best
+  category: programming
+- title: "The Four Desires Driving All Human Behavior: Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech"
+  url: "https://www.themarginalian.org/2026/08/28/bertrand-russell-nobel-prize-acceptance-speech/"
+  date: 2026-08-28
+  source: The Marginalian
+  category: philosophy
+- title: Breaking Claude Code Opus 5 Auto Mode
+  url: "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
+  date: 2026-08-27
+  source: Simon Willison
+  category: ai
+- title: "How big are factorials?"
+  url: "https://eli.thegreenplace.net/2026/how-big-are-factorials/"
+  date: 2026-08-27
+  source: Eli Bendersky
+  category: programming
+- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
+  url: "https://www.themarginalian.org/2026/08/27/bruce-springsteen-depression/"
+  date: 2026-08-27
+  source: The Marginalian
+  category: philosophy
+- title: "Ode to a Good Pen: A Poem About Writing the Book of Love, Read by Nick Cave"
+  url: "https://www.themarginalian.org/2026/08/27/ode-to-a-good-pen/"
+  date: 2026-08-27
+  source: The Marginalian
+  category: philosophy
 - title: The Moving Letter James Baldwin Received from His Childhood Teacher at the Peak of His Fame and His Heartbreak
   url: "https://www.themarginalian.org/2026/08/26/james-baldwin-orilla-bill-miller/"
   date: 2026-08-27
@@ -18,33 +68,13 @@
   date: 2026-08-26
   source: Simon Willison
   category: ai
-- title: "Decoding the Mystery of Intuition: AI Prophet Margaret Boden on the Three Elements of Creativity"
-  url: "https://www.themarginalian.org/2026/08/26/margaret-boden-creativity/"
-  date: 2026-08-26
-  source: The Marginalian
-  category: philosophy
-- title: "Uncoding Creativity in the Age of AI: What Makes a Great Poem, What Makes a Great Storyteller, and What Makes Great Person"
-  url: "https://www.themarginalian.org/2026/08/26/suffering-creativity-canetti-rilke/"
-  date: 2026-08-26
-  source: The Marginalian
-  category: philosophy
 - title: "EVE Online: The Move to Python 3 Begins!"
   url: "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
   date: 2026-08-25
   source: Simon Willison
   category: ai
-- title: Leonard Cohen on the Antidote to Anger and the Meaning of Resistance
-  url: "https://www.themarginalian.org/2026/08/25/leonard-cohen-anger-resistance/"
-  date: 2026-08-25
-  source: The Marginalian
-  category: philosophy
 - title: llm-anthropic 0.27
   url: "https://simonwillison.net/2026/Aug/24/llm-anthropic/"
-  date: 2026-08-24
-  source: Simon Willison
-  category: ai
-- title: Your executable is a SQLite database
-  url: "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/"
   date: 2026-08-24
   source: Simon Willison
   category: ai
@@ -123,11 +153,6 @@
   date: 2026-07-14
   source: Eli Bendersky
   category: programming
-- title: "Dot product: Component vs. Geometric definition"
-  url: "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/"
-  date: 2026-07-10
-  source: Eli Bendersky
-  category: programming
 - title: Harness Engineering for Self-Improvement
   url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
   date: 2026-07-04
@@ -143,6 +168,11 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -158,11 +188,31 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -198,3 +248,28 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
