@@ -1,28 +1,28 @@
-- title: GLM-5.3 is now open-weight
-  url: "https://twitter.com/Zai_org/status/2093354097122455713"
+- title: "A Life of One’s Own: A Brilliant Young Woman’s Forgotten Field Guide to the Art of Knowing What You Really Want"
+  url: "https://www.themarginalian.org/2026/08/29/a-life-of-ones-own-joanna-field-marion-milner/"
+  date: 2026-08-29
+  source: The Marginalian
+  category: philosophy
+- title: Just a rumour of a bug is enough to find a security exploit these days
+  url: "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
   date: 2026-08-28
-  source: Hacker News Best
-  category: programming
-- title: Get your Windows license refund
-  url: "https://en.refund4freedom.org/"
+  source: Simon Willison
+  category: ai
+- title: "The Tree and the River: A Wordless Love Letter to How Nature Always Wins"
+  url: "https://www.themarginalian.org/2026/08/28/tree-river-becker/"
   date: 2026-08-28
-  source: Hacker News Best
-  category: programming
-- title: “It works better in the app”
-  url: "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/"
+  source: The Marginalian
+  category: philosophy
+- title: "How to Be a Tree: Notes on the Resilience of Letting Go"
+  url: "https://www.themarginalian.org/2026/08/28/trees/"
   date: 2026-08-28
-  source: Hacker News Best
-  category: programming
-- title: "Pentagon's blacklisting of Anthropic was unlawful, US judge rules"
-  url: "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"
+  source: The Marginalian
+  category: philosophy
+- title: How to Be Reborn Each Day
+  url: "https://www.themarginalian.org/2026/08/28/hannah-emerson-center-of-the-universe/"
   date: 2026-08-28
-  source: Hacker News Best
-  category: programming
-- title: Luanti removed from Google Play due to baseless AI copyright notice
-  url: "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/"
-  date: 2026-08-28
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "The Four Desires Driving All Human Behavior: Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech"
   url: "https://www.themarginalian.org/2026/08/28/bertrand-russell-nobel-prize-acceptance-speech/"
   date: 2026-08-28
@@ -38,26 +38,6 @@
   date: 2026-08-27
   source: Eli Bendersky
   category: programming
-- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
-  url: "https://www.themarginalian.org/2026/08/27/bruce-springsteen-depression/"
-  date: 2026-08-27
-  source: The Marginalian
-  category: philosophy
-- title: "Ode to a Good Pen: A Poem About Writing the Book of Love, Read by Nick Cave"
-  url: "https://www.themarginalian.org/2026/08/27/ode-to-a-good-pen/"
-  date: 2026-08-27
-  source: The Marginalian
-  category: philosophy
-- title: The Moving Letter James Baldwin Received from His Childhood Teacher at the Peak of His Fame and His Heartbreak
-  url: "https://www.themarginalian.org/2026/08/26/james-baldwin-orilla-bill-miller/"
-  date: 2026-08-27
-  source: The Marginalian
-  category: philosophy
-- title: Kahlil Gibran on the Art of Becoming Yourself Across the Sweep of Life
-  url: "https://www.themarginalian.org/2026/08/26/youth-and-age-kahlil-gibran/"
-  date: 2026-08-27
-  source: The Marginalian
-  category: philosophy
 - title: Qwen3.8-Flash-Next
   url: "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/"
   date: 2026-08-26
@@ -71,11 +51,6 @@
 - title: "EVE Online: The Move to Python 3 Begins!"
   url: "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
   date: 2026-08-25
-  source: Simon Willison
-  category: ai
-- title: llm-anthropic 0.27
-  url: "https://simonwillison.net/2026/Aug/24/llm-anthropic/"
-  date: 2026-08-24
   source: Simon Willison
   category: ai
 - title: "Concurrent Servers: Part 8 - Go"
