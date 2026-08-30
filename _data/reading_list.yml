@@ -1,3 +1,48 @@
+- title: California lawmakers unanimously pass Linux exemption from age-verification law
+  url: "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt"
+  date: 2026-08-30
+  source: Hacker News Best
+  category: programming
+- title: Bug Blindness
+  url: "https://danluu.com/bug-blind/"
+  date: 2026-08-30
+  source: Hacker News Best
+  category: programming
+- title: Frankenstein Author Mary Shelley on the Surest Remedy for a Sunken Spirit and What Makes Life Worth Living
+  url: "https://www.themarginalian.org/2026/08/30/mary-shelley-the-last-man/"
+  date: 2026-08-30
+  source: The Marginalian
+  category: philosophy
+- title: Introducing Hy4 Preview
+  url: "https://simonwillison.net/2026/Aug/29/hy4/"
+  date: 2026-08-29
+  source: Simon Willison
+  category: ai
+- title: Lawmakers added $1 to car insurance policies. That money paid for Flock cameras
+  url: "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/"
+  date: 2026-08-29
+  source: Hacker News Best
+  category: programming
+- title: Hy4 preview
+  url: "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
+  date: 2026-08-29
+  source: Hacker News Best
+  category: programming
+- title: "DHS is using obscure law to snoop on journalists, non-profits, unions"
+  url: "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits"
+  date: 2026-08-29
+  source: Hacker News Best
+  category: programming
+- title: Barry Lopez on the Cure for Our Existential Loneliness and the Three Tenets of a Full Life
+  url: "https://www.themarginalian.org/2026/08/29/barry-lopez-place-loneliness/"
+  date: 2026-08-29
+  source: The Marginalian
+  category: philosophy
+- title: "Life, Loss, and the Wisdom of Rivers"
+  url: "https://www.themarginalian.org/2026/08/29/olivia-laing-to-the-river/"
+  date: 2026-08-29
+  source: The Marginalian
+  category: philosophy
 - title: "A Life of One’s Own: A Brilliant Young Woman’s Forgotten Field Guide to the Art of Knowing What You Really Want"
   url: "https://www.themarginalian.org/2026/08/29/a-life-of-ones-own-joanna-field-marion-milner/"
   date: 2026-08-29
@@ -10,21 +55,6 @@
   category: ai
 - title: "The Tree and the River: A Wordless Love Letter to How Nature Always Wins"
   url: "https://www.themarginalian.org/2026/08/28/tree-river-becker/"
-  date: 2026-08-28
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be a Tree: Notes on the Resilience of Letting Go"
-  url: "https://www.themarginalian.org/2026/08/28/trees/"
-  date: 2026-08-28
-  source: The Marginalian
-  category: philosophy
-- title: How to Be Reborn Each Day
-  url: "https://www.themarginalian.org/2026/08/28/hannah-emerson-center-of-the-universe/"
-  date: 2026-08-28
-  source: The Marginalian
-  category: philosophy
-- title: "The Four Desires Driving All Human Behavior: Bertrand Russell’s Magnificent Nobel Prize Acceptance Speech"
-  url: "https://www.themarginalian.org/2026/08/28/bertrand-russell-nobel-prize-acceptance-speech/"
   date: 2026-08-28
   source: The Marginalian
   category: philosophy
@@ -46,11 +76,6 @@
 - title: Quoting Paul Dix
   url: "https://simonwillison.net/2026/Aug/26/paul-dix/"
   date: 2026-08-26
-  source: Simon Willison
-  category: ai
-- title: "EVE Online: The Move to Python 3 Begins!"
-  url: "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
-  date: 2026-08-25
   source: Simon Willison
   category: ai
 - title: "Concurrent Servers: Part 8 - Go"
