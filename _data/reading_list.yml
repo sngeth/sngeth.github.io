@@ -1,13 +1,48 @@
-- title: California lawmakers unanimously pass Linux exemption from age-verification law
-  url: "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt"
+- title: "A 12TB Steam \"teraleak\" spills more than a decade of lost PC gaming history"
+  url: "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/"
+  date: 2026-08-31
+  source: Hacker News Best
+  category: programming
+- title: Understanding ChatGPT Work
+  url: "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+  date: 2026-08-31
+  source: Hacker News Best
+  category: programming
+- title: The Singapore strategies
+  url: "https://aeon.co/essays/did-singapore-go-wrong-in-its-quest-for-food-security"
+  date: 2026-08-31
+  source: Aeon
+  category: philosophy
+- title: "How We Render Reality: Attention as an Instrument of Love"
+  url: "https://www.themarginalian.org/2026/08/31/iain-mcgilchrist-the-matter-with-things/"
+  date: 2026-08-31
+  source: The Marginalian
+  category: philosophy
+- title: Understanding ChatGPT Work
+  url: "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+  date: 2026-08-30
+  source: Simon Willison
+  category: ai
+- title: “I just chose words carefully”
+  url: "https://unsung.aresluna.org/i-just-chose-words-carefully/"
   date: 2026-08-30
   source: Hacker News Best
   category: programming
-- title: Bug Blindness
-  url: "https://danluu.com/bug-blind/"
+- title: Haiku R1/beta6 has been released
+  url: "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6"
   date: 2026-08-30
   source: Hacker News Best
   category: programming
+- title: "Omarchy: Any User Process Can Escalate to Root"
+  url: "https://0xcc.io/posts/omarchy-root-creds/"
+  date: 2026-08-30
+  source: Hacker News Best
+  category: programming
+- title: "Matter, Memory, and the Paradox of Perception: Henri Bergson on How to See Reality"
+  url: "https://www.themarginalian.org/2026/08/30/matter-memory-bergson/"
+  date: 2026-08-30
+  source: The Marginalian
+  category: philosophy
 - title: Frankenstein Author Mary Shelley on the Surest Remedy for a Sunken Spirit and What Makes Life Worth Living
   url: "https://www.themarginalian.org/2026/08/30/mary-shelley-the-last-man/"
   date: 2026-08-30
@@ -18,21 +53,6 @@
   date: 2026-08-29
   source: Simon Willison
   category: ai
-- title: Lawmakers added $1 to car insurance policies. That money paid for Flock cameras
-  url: "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/"
-  date: 2026-08-29
-  source: Hacker News Best
-  category: programming
-- title: Hy4 preview
-  url: "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
-  date: 2026-08-29
-  source: Hacker News Best
-  category: programming
-- title: "DHS is using obscure law to snoop on journalists, non-profits, unions"
-  url: "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits"
-  date: 2026-08-29
-  source: Hacker News Best
-  category: programming
 - title: Barry Lopez on the Cure for Our Existential Loneliness and the Three Tenets of a Full Life
   url: "https://www.themarginalian.org/2026/08/29/barry-lopez-place-loneliness/"
   date: 2026-08-29
@@ -43,21 +63,11 @@
   date: 2026-08-29
   source: The Marginalian
   category: philosophy
-- title: "A Life of One’s Own: A Brilliant Young Woman’s Forgotten Field Guide to the Art of Knowing What You Really Want"
-  url: "https://www.themarginalian.org/2026/08/29/a-life-of-ones-own-joanna-field-marion-milner/"
-  date: 2026-08-29
-  source: The Marginalian
-  category: philosophy
 - title: Just a rumour of a bug is enough to find a security exploit these days
   url: "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
   date: 2026-08-28
   source: Simon Willison
   category: ai
-- title: "The Tree and the River: A Wordless Love Letter to How Nature Always Wins"
-  url: "https://www.themarginalian.org/2026/08/28/tree-river-becker/"
-  date: 2026-08-28
-  source: The Marginalian
-  category: philosophy
 - title: Breaking Claude Code Opus 5 Auto Mode
   url: "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
   date: 2026-08-27
@@ -70,11 +80,6 @@
   category: programming
 - title: Qwen3.8-Flash-Next
   url: "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/"
-  date: 2026-08-26
-  source: Simon Willison
-  category: ai
-- title: Quoting Paul Dix
-  url: "https://simonwillison.net/2026/Aug/26/paul-dix/"
   date: 2026-08-26
   source: Simon Willison
   category: ai
@@ -106,11 +111,6 @@
 - title: The conscience files
   url: "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
   date: 2026-08-19
-  source: Aeon
-  category: philosophy
-- title: In praise of zealotry
-  url: "https://aeon.co/essays/polite-debate-has-privilege-the-marginalised-need-zealotry"
-  date: 2026-08-18
   source: Aeon
   category: philosophy
 - title: The benchmarkpocalypse
