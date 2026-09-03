@@ -1,20 +1,45 @@
+- title: Neuroqueering on the lawn
+  url: "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance"
+  date: 2026-09-03
+  source: Aeon
+  category: philosophy
+- title: "The Creative Power of Uncertainty: Polish Poet Wisława Szymborska’s Magnificent Nobel Prize Acceptance Speech"
+  url: "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech/"
+  date: 2026-09-03
+  source: The Marginalian
+  category: philosophy
+- title: llm-gemini 0.34
+  url: "https://simonwillison.net/2026/Sep/2/llm-gemini/"
+  date: 2026-09-02
+  source: Simon Willison
+  category: ai
+- title: "Claude's new system prompt really doesn't want to reproduce song lyrics"
+  url: "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+  date: 2026-09-02
+  source: Simon Willison
+  category: ai
 - title: Quoting Rick Brewster
   url: "https://simonwillison.net/2026/Sep/2/rick-brewster/"
   date: 2026-09-02
   source: Simon Willison
   category: ai
-- title: True Rate of Unemployment
-  url: "https://www.lisep.org/tru"
-  date: 2026-09-02
-  source: Hacker News Best
-  category: programming
-- title: "The Invention of Zero: How Ancient Mesopotamia Created the Mathematical Concept of Nought and Ancient India Gave It Symbolic Form"
-  url: "https://www.themarginalian.org/2026/09/02/zero-robert-kaplan/"
+- title: "The Paradox of Knowing Who You Are and What You Want: Cristina Campo on Fairy Tales, Time, and the Meaning of Maturity"
+  url: "https://www.themarginalian.org/2026/09/02/cristina-campo-unforgivable-fairy-tales/"
   date: 2026-09-02
   source: The Marginalian
   category: philosophy
-- title: "The Thing Itself: C.S. Lewis on What We Long for in Our Existential Longing"
-  url: "https://www.themarginalian.org/2026/09/01/c-s-lewis-longing/"
+- title: "Wendell Berry on Hope, Despair, and the Measure of Effective Protest"
+  url: "https://www.themarginalian.org/2026/09/02/wendell-berry-protest/"
+  date: 2026-09-02
+  source: The Marginalian
+  category: philosophy
+- title: "How to Have Enough: Wendell Berry on Creativity and Love"
+  url: "https://www.themarginalian.org/2026/09/02/wendell-berry-sabbath/"
+  date: 2026-09-02
+  source: The Marginalian
+  category: philosophy
+- title: "The Invention of Zero: How Ancient Mesopotamia Created the Mathematical Concept of Nought and Ancient India Gave It Symbolic Form"
+  url: "https://www.themarginalian.org/2026/09/02/zero-robert-kaplan/"
   date: 2026-09-02
   source: The Marginalian
   category: philosophy
@@ -28,71 +53,16 @@
   date: 2026-09-01
   source: Simon Willison
   category: ai
-- title: GeoJSON Map Viewer
-  url: "https://simonwillison.net/2026/Sep/1/geojson/"
-  date: 2026-09-01
-  source: Simon Willison
-  category: ai
-- title: Quoting Tarn Adams
-  url: "https://simonwillison.net/2026/Sep/1/tarn-adams/"
-  date: 2026-09-01
-  source: Simon Willison
-  category: ai
-- title: "How accurate have Ed Zitron's AI skeptic predictions been?"
-  url: "https://danluu.com/zitron/"
-  date: 2026-09-01
-  source: Dan Luu
-  category: programming
-- title: Hang on to Your Firefox
-  url: "https://www.newsonaut.com/articles/hang-on-to-your-firefox"
-  date: 2026-09-01
-  source: Hacker News Best
-  category: programming
-- title: "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit"
-  url: "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
-  date: 2026-09-01
-  source: Hacker News Best
-  category: programming
-- title: The ChatGPT/Codex app bundles a full copy of LibreOffice
-  url: "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
-  date: 2026-09-01
-  source: Hacker News Best
-  category: programming
-- title: "How accurate have Ed Zitron's AI skeptic predictions been?"
-  url: "https://danluu.com/zitron/"
-  date: 2026-09-01
-  source: Hacker News Best
-  category: programming
 - title: More nothing now
   url: "https://aeon.co/essays/play-is-doing-its-work-even-if-were-not-keeping-score"
   date: 2026-09-01
   source: Aeon
-  category: philosophy
-- title: "A Lei for Your Losses: Joan Didion on the Art of Letting Go"
-  url: "https://www.themarginalian.org/2026/09/01/joan-didion-loss/"
-  date: 2026-09-01
-  source: The Marginalian
-  category: philosophy
-- title: The 3 Buddhist Steps to Repairing a Relationship
-  url: "https://www.themarginalian.org/2026/09/01/thich-nhat-hanh-listening-love/"
-  date: 2026-09-01
-  source: The Marginalian
-  category: philosophy
-- title: "How Do We Know What We Want: Milan Kundera on the Central Ambivalences of Life and Love"
-  url: "https://www.themarginalian.org/2026/09/01/milan-kundera-unbearable-lightness-of-being/"
-  date: 2026-09-01
-  source: The Marginalian
   category: philosophy
 - title: The Singapore strategies
   url: "https://aeon.co/essays/did-singapore-go-wrong-in-its-quest-for-food-security"
   date: 2026-08-31
   source: Aeon
   category: philosophy
-- title: Bug blindness
-  url: "https://danluu.com/bug-blind/"
-  date: 2026-08-30
-  source: Dan Luu
-  category: programming
 - title: "How big are factorials?"
   url: "https://eli.thegreenplace.net/2026/how-big-are-factorials/"
   date: 2026-08-27
@@ -118,11 +88,6 @@
   date: 2026-08-20
   source: Aeon
   category: philosophy
-- title: Dolphins and other lovers
-  url: "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin"
-  date: 2026-08-20
-  source: Aeon
-  category: philosophy
 - title: The benchmarkpocalypse
   url: "https://danluu.com/benchpocalypse/"
   date: 2026-08-17
@@ -142,6 +107,11 @@
   url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
   date: 2026-08-03
   source: Eli Bendersky
+  category: programming
+- title: "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires"
+  url: "https://danluu.com/exercise-7/"
+  date: 2026-07-23
+  source: Dan Luu
   category: programming
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
@@ -163,11 +133,21 @@
   date: 2026-07-04
   source: Lilian Weng
   category: ai
+- title: "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island"
+  url: "https://danluu.com/ai-coding/"
+  date: 2026-07-03
+  source: Dan Luu
+  category: programming
 - title: "Scaling Laws, Carefully"
   url: "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/"
   date: 2026-06-24
   source: Lilian Weng
   category: ai
+- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
+  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
+  date: 2026-06-11
+  source: Stronger By Science
+  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -183,11 +163,31 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
+- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
+  url: "https://www.strongerbyscience.com/isometric-training/"
+  date: 2026-04-23
+  source: Stronger By Science
+  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
+- title: "High volume vs high intensity: which builds more muscle?"
+  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
+  date: 2025-12-31
+  source: Stronger By Science
+  category: strength
+- title: "Is lifting during pregnancy healthy?"
+  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
+  date: 2025-12-24
+  source: Stronger By Science
+  category: strength
+- title: "How does sleep deprivation affect your workouts?"
+  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
+  date: 2025-12-17
+  source: Stronger By Science
+  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -223,3 +223,28 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
+- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
+  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
+  date: 2023-08-23
+  source: Daily Stoic
+  category: philosophy
+- title: "What Does It Mean To Be Wealthy?"
+  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
+  date: 2023-07-31
+  source: Daily Stoic
+  category: philosophy
+- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
+  url: "https://dailystoic.com/perseverance/"
+  date: 2023-05-09
+  source: Daily Stoic
+  category: philosophy
+- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
+  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
+  date: 2022-11-02
+  source: Daily Stoic
+  category: philosophy
+- title: How To Find And Keep Joy
+  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
+  date: 2022-08-08
+  source: Daily Stoic
+  category: philosophy
