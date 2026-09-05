@@ -1,12 +1,62 @@
+- title: The Pelican comparison grid for Astra is pretty interesting
+  url: "https://simonwillison.net/2026/Sep/4/astra-pelicans/"
+  date: 2026-09-04
+  source: Simon Willison
+  category: ai
+- title: "OpenAI's rogue agents were caught communicating via public wikis"
+  url: "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
+  date: 2026-09-04
+  source: Simon Willison
+  category: ai
 - title: August newsletter is out
   url: "https://simonwillison.net/2026/Sep/4/august-newsletter/"
   date: 2026-09-04
   source: Simon Willison
   category: ai
+- title: "Record-High 89% in U.S. Say Government Corruption Widespread"
+  url: "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx"
+  date: 2026-09-04
+  source: Hacker News Best
+  category: programming
+- title: Actively exploited sandbox RCE in all Chromium versions
+  url: "https://nvd.nist.gov/vuln/detail/cve-2026-85046"
+  date: 2026-09-04
+  source: Hacker News Best
+  category: programming
+- title: Statichost.eu – European static site hosting
+  url: "https://www.statichost.eu/"
+  date: 2026-09-04
+  source: Hacker News Best
+  category: programming
+- title: "Can AI design circuit boards yet?"
+  url: "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+  date: 2026-09-04
+  source: Hacker News Best
+  category: programming
+- title: Shutting down our public encrypted DNS
+  url: "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead"
+  date: 2026-09-04
+  source: Hacker News Best
+  category: programming
 - title: Upend the trickle-down
   url: "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it"
   date: 2026-09-04
   source: Aeon
+  category: philosophy
+- title: "The Art of Choosing Love Over Not-Love: Rumi’s Antidote to Our Human Tragedy"
+  url: "https://www.themarginalian.org/2026/09/04/rumi-love-gold/"
+  date: 2026-09-04
+  source: The Marginalian
+  category: philosophy
+- title: "The Power of Being a Threshold Person: Liminality, Communitas, and the Anti-structures of Possibility"
+  url: "https://www.themarginalian.org/2026/09/04/turner-liminality-communitas/"
+  date: 2026-09-04
+  source: The Marginalian
+  category: philosophy
+- title: "Everything Is Already There: Javier Marías on the Courage to Heed Your Intuitions"
+  url: "https://www.themarginalian.org/2026/09/03/javier-marias-your-face-tomorrow/"
+  date: 2026-09-04
+  source: The Marginalian
   category: philosophy
 - title: GPT‑6 Astra
   url: "https://simonwillison.net/2026/Sep/3/gpt6-astra/"
@@ -18,13 +68,13 @@
   date: 2026-09-03
   source: Aeon
   category: philosophy
-- title: "The Creative Power of Uncertainty: Polish Poet Wisława Szymborska’s Magnificent Nobel Prize Acceptance Speech"
-  url: "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech/"
+- title: Wendell Berry on Solitude and the Two Great Enemies of Creative Work
+  url: "https://www.themarginalian.org/2026/09/03/wendell-berry-pride-despair-solitude/"
   date: 2026-09-03
   source: The Marginalian
   category: philosophy
-- title: Italo Calvino on Reading and Sex
-  url: "https://www.themarginalian.org/2026/09/03/calvino-if-on-a-winters-night-a-traveler-love/"
+- title: "The Creative Power of Uncertainty: Polish Poet Wisława Szymborska’s Magnificent Nobel Prize Acceptance Speech"
+  url: "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech/"
   date: 2026-09-03
   source: The Marginalian
   category: philosophy
@@ -33,31 +83,6 @@
   date: 2026-09-02
   source: Simon Willison
   category: ai
-- title: "Claude's new system prompt really doesn't want to reproduce song lyrics"
-  url: "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
-  date: 2026-09-02
-  source: Simon Willison
-  category: ai
-- title: Quoting Rick Brewster
-  url: "https://simonwillison.net/2026/Sep/2/rick-brewster/"
-  date: 2026-09-02
-  source: Simon Willison
-  category: ai
-- title: "The Paradox of Knowing Who You Are and What You Want: Cristina Campo on Fairy Tales, Time, and the Meaning of Maturity"
-  url: "https://www.themarginalian.org/2026/09/02/cristina-campo-unforgivable-fairy-tales/"
-  date: 2026-09-02
-  source: The Marginalian
-  category: philosophy
-- title: "Wendell Berry on Hope, Despair, and the Measure of Effective Protest"
-  url: "https://www.themarginalian.org/2026/09/02/wendell-berry-protest/"
-  date: 2026-09-02
-  source: The Marginalian
-  category: philosophy
-- title: "How to Have Enough: Wendell Berry on Creativity and Love"
-  url: "https://www.themarginalian.org/2026/09/02/wendell-berry-sabbath/"
-  date: 2026-09-02
-  source: The Marginalian
-  category: philosophy
 - title: "How accurate have Ed Zitron's AI skeptic predictions been?"
   url: "https://danluu.com/zitron/"
   date: 2026-09-01
