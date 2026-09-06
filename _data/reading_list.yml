@@ -1,3 +1,33 @@
+- title: Quoting Zach Kehs
+  url: "https://simonwillison.net/2026/Sep/6/zach-kehs/"
+  date: 2026-09-06
+  source: Simon Willison
+  category: ai
+- title: Introducing GPT-6 Astra for developers
+  url: "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"
+  date: 2026-09-05
+  source: Simon Willison
+  category: ai
+- title: Using Blender with coding agents on macOS
+  url: "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/"
+  date: 2026-09-05
+  source: Simon Willison
+  category: ai
+- title: "How to Relate to Your Worst Mistakes: The Life-Shaping Difference Between Regret and Remorse"
+  url: "https://www.themarginalian.org/2026/09/05/regret-remorse/"
+  date: 2026-09-05
+  source: The Marginalian
+  category: philosophy
+- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
+  url: "https://www.themarginalian.org/2026/09/05/simone-de-beauvoir-love-friendship/"
+  date: 2026-09-05
+  source: The Marginalian
+  category: philosophy
+- title: The Most Important Thing to Remember About Your Mother
+  url: "https://www.themarginalian.org/2026/09/05/florida-scott-maxwell-mother/"
+  date: 2026-09-05
+  source: The Marginalian
+  category: philosophy
 - title: The Pelican comparison grid for Astra is pretty interesting
   url: "https://simonwillison.net/2026/Sep/4/astra-pelicans/"
   date: 2026-09-04
@@ -8,81 +38,26 @@
   date: 2026-09-04
   source: Simon Willison
   category: ai
-- title: August newsletter is out
-  url: "https://simonwillison.net/2026/Sep/4/august-newsletter/"
-  date: 2026-09-04
-  source: Simon Willison
-  category: ai
-- title: "Record-High 89% in U.S. Say Government Corruption Widespread"
-  url: "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx"
-  date: 2026-09-04
-  source: Hacker News Best
-  category: programming
-- title: Actively exploited sandbox RCE in all Chromium versions
-  url: "https://nvd.nist.gov/vuln/detail/cve-2026-85046"
-  date: 2026-09-04
-  source: Hacker News Best
-  category: programming
-- title: Statichost.eu – European static site hosting
-  url: "https://www.statichost.eu/"
-  date: 2026-09-04
-  source: Hacker News Best
-  category: programming
-- title: "Can AI design circuit boards yet?"
-  url: "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
-  date: 2026-09-04
-  source: Hacker News Best
-  category: programming
-- title: Shutting down our public encrypted DNS
-  url: "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead"
-  date: 2026-09-04
-  source: Hacker News Best
-  category: programming
 - title: Upend the trickle-down
   url: "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it"
   date: 2026-09-04
   source: Aeon
+  category: philosophy
+- title: "How to Handle Provocation: Bertrand Russell’s Remarkable Response to a Fascist"
+  url: "https://www.themarginalian.org/2026/09/04/bertrand-russell-oswald-mosley/"
+  date: 2026-09-04
+  source: The Marginalian
   category: philosophy
 - title: "The Art of Choosing Love Over Not-Love: Rumi’s Antidote to Our Human Tragedy"
   url: "https://www.themarginalian.org/2026/09/04/rumi-love-gold/"
   date: 2026-09-04
   source: The Marginalian
   category: philosophy
-- title: "The Power of Being a Threshold Person: Liminality, Communitas, and the Anti-structures of Possibility"
-  url: "https://www.themarginalian.org/2026/09/04/turner-liminality-communitas/"
-  date: 2026-09-04
-  source: The Marginalian
-  category: philosophy
-- title: "Everything Is Already There: Javier Marías on the Courage to Heed Your Intuitions"
-  url: "https://www.themarginalian.org/2026/09/03/javier-marias-your-face-tomorrow/"
-  date: 2026-09-04
-  source: The Marginalian
-  category: philosophy
-- title: GPT‑6 Astra
-  url: "https://simonwillison.net/2026/Sep/3/gpt6-astra/"
-  date: 2026-09-03
-  source: Simon Willison
-  category: ai
 - title: Neuroqueering on the lawn
   url: "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance"
   date: 2026-09-03
   source: Aeon
   category: philosophy
-- title: Wendell Berry on Solitude and the Two Great Enemies of Creative Work
-  url: "https://www.themarginalian.org/2026/09/03/wendell-berry-pride-despair-solitude/"
-  date: 2026-09-03
-  source: The Marginalian
-  category: philosophy
-- title: "The Creative Power of Uncertainty: Polish Poet Wisława Szymborska’s Magnificent Nobel Prize Acceptance Speech"
-  url: "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech/"
-  date: 2026-09-03
-  source: The Marginalian
-  category: philosophy
-- title: llm-gemini 0.34
-  url: "https://simonwillison.net/2026/Sep/2/llm-gemini/"
-  date: 2026-09-02
-  source: Simon Willison
-  category: ai
 - title: "How accurate have Ed Zitron's AI skeptic predictions been?"
   url: "https://danluu.com/zitron/"
   date: 2026-09-01
@@ -248,28 +223,3 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
