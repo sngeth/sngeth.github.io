@@ -1,13 +1,58 @@
-- title: LG smart TVs caught logging audio with screen off and snooping on local devices
-  url: "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html"
-  date: 2026-09-07
+- title: "Navier-Stokes – Tristan Buckmaster [pdf]"
+  url: "https://cims.nyu.edu/~tristanb/statement.pdf"
+  date: 2026-09-08
   source: Hacker News Best
   category: programming
-- title: Keep Our Servers Running
-  url: "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"
-  date: 2026-09-07
+- title: Mistral raises €3B
+  url: "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+  date: 2026-09-08
   source: Hacker News Best
   category: programming
+- title: We have a year to fix security everywhere
+  url: "https://jyn.dev/a-year-to-fix-security/"
+  date: 2026-09-08
+  source: Hacker News Best
+  category: programming
+- title: Jellyfin 12.0
+  url: "https://jellyfin.org/posts/jellyfin-release-12.0/"
+  date: 2026-09-08
+  source: Hacker News Best
+  category: programming
+- title: "I've factored the RSA keys of a Certificate Authority from the 90s"
+  url: "https://mcpherrin.ca/2026/09/07/rsa.html"
+  date: 2026-09-08
+  source: Hacker News Best
+  category: programming
+- title: Our eloquent hands
+  url: "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common"
+  date: 2026-09-08
+  source: Aeon
+  category: philosophy
+- title: llm 0.35
+  url: "https://simonwillison.net/2026/Sep/7/llm/"
+  date: 2026-09-07
+  source: Simon Willison
+  category: ai
+- title: Creepy crawlies
+  url: "https://simonwillison.net/2026/Sep/7/creepy-crawlies/"
+  date: 2026-09-07
+  source: Simon Willison
+  category: ai
+- title: Quoting Jakub Pachocki
+  url: "https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
+  date: 2026-09-07
+  source: Simon Willison
+  category: ai
+- title: Video compressor
+  url: "https://simonwillison.net/2026/Sep/7/video-compressor/"
+  date: 2026-09-07
+  source: Simon Willison
+  category: ai
+- title: Mercator ↔ Equal Earth
+  url: "https://simonwillison.net/2026/Sep/7/equal-earth/"
+  date: 2026-09-07
+  source: Simon Willison
+  category: ai
 - title: The planet is… up to something
   url: "https://aeon.co/videos/is-this-artemis-ii-timelapse-the-pale-blue-dot-for-our-times"
   date: 2026-09-07
@@ -18,41 +63,21 @@
   date: 2026-09-07
   source: Aeon
   category: philosophy
-- title: "Research acceleration: The view inside OpenAI"
-  url: "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
-  date: 2026-09-06
-  source: Simon Willison
-  category: ai
-- title: The purpose of DNS is to spread scams
-  url: "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/"
-  date: 2026-09-06
-  source: Simon Willison
-  category: ai
-- title: "There's No Limit to How Bad Code Can Get"
-  url: "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"
-  date: 2026-09-06
-  source: Simon Willison
-  category: ai
-- title: Quoting Zach Kehs
-  url: "https://simonwillison.net/2026/Sep/6/zach-kehs/"
-  date: 2026-09-06
-  source: Simon Willison
-  category: ai
-- title: Making a Python interpreter in 1024 bytes
-  url: "https://austinhenley.com/blog/python1024.html"
-  date: 2026-09-06
-  source: Hacker News Best
-  category: programming
-- title: It took a year to ship WebAssembly in Anubis
-  url: "https://anubis.techaro.lol/blog/2026/anubis-wasm/"
-  date: 2026-09-06
-  source: Hacker News Best
-  category: programming
-- title: GrapheneOS Overhauled Default Apps and Secure Clipboard
-  url: "https://grapheneos.social/@GrapheneOS/117225539756835649"
-  date: 2026-09-06
-  source: Hacker News Best
-  category: programming
+- title: How Not to Waste Your Wildness
+  url: "https://www.themarginalian.org/2026/09/07/dont-waste-your-wildness/"
+  date: 2026-09-07
+  source: The Marginalian
+  category: philosophy
+- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
+  url: "https://www.themarginalian.org/2026/09/07/polyvagal-theory/"
+  date: 2026-09-07
+  source: The Marginalian
+  category: philosophy
+- title: "I Long to Read More in the Book of You: Moomins Creator Tove Jansson’s Tender and Passionate Letters to the Love of Her Life"
+  url: "https://www.themarginalian.org/2026/09/06/tove-jansson-letters-tuulikki-pietila/"
+  date: 2026-09-07
+  source: The Marginalian
+  category: philosophy
 - title: The True Purpose of Tarot
   url: "https://www.themarginalian.org/2026/09/06/alejandro-jorodowsky-tarot/"
   date: 2026-09-06
@@ -61,26 +86,6 @@
 - title: "How to Apologize: Reflections on Forgiveness, Self-Forgiveness, and the Vulnerabilities of Being Human"
   url: "https://www.themarginalian.org/2026/09/06/how-to-apologize-ellen-bass/"
   date: 2026-09-06
-  source: The Marginalian
-  category: philosophy
-- title: "Erich Fromm’s 6 Rules of Listening: The Great Humanistic Philosopher and Psychologist on the Art of Unselfish Understanding"
-  url: "https://www.themarginalian.org/2026/09/06/erich-fromm-the-art-of-listening/"
-  date: 2026-09-06
-  source: The Marginalian
-  category: philosophy
-- title: Introducing GPT-6 Astra for developers
-  url: "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"
-  date: 2026-09-05
-  source: Simon Willison
-  category: ai
-- title: "How to Reconcile Your Most Painful Mistakes: The Life-Shaping Difference Between Regret and Remorse"
-  url: "https://www.themarginalian.org/2026/09/05/regret-remorse/"
-  date: 2026-09-05
-  source: The Marginalian
-  category: philosophy
-- title: "How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship"
-  url: "https://www.themarginalian.org/2026/09/05/simone-de-beauvoir-love-friendship/"
-  date: 2026-09-05
   source: The Marginalian
   category: philosophy
 - title: Upend the trickle-down
@@ -98,11 +103,6 @@
   date: 2026-09-01
   source: Dan Luu
   category: programming
-- title: More nothing now
-  url: "https://aeon.co/essays/play-is-doing-its-work-even-if-were-not-keeping-score"
-  date: 2026-09-01
-  source: Aeon
-  category: philosophy
 - title: Bug blindness
   url: "https://danluu.com/bug-blind/"
   date: 2026-08-30
