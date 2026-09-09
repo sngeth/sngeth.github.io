@@ -1,25 +1,45 @@
-- title: "Navier-Stokes – Tristan Buckmaster [pdf]"
-  url: "https://cims.nyu.edu/~tristanb/statement.pdf"
+- title: Quoting Terence Tao
+  url: "https://simonwillison.net/2026/Sep/9/terence-tao/"
+  date: 2026-09-09
+  source: Simon Willison
+  category: ai
+- title: I resigned from Anthropic today
+  url: "https://twitter.com/hilbertspaess/status/2097476196791709843#m"
+  date: 2026-09-09
+  source: Hacker News Best
+  category: programming
+- title: Making revisions
+  url: "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past"
+  date: 2026-09-09
+  source: Aeon
+  category: philosophy
+- title: On the Navier–Stokes Millennium Prize Problem
+  url: "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
+  date: 2026-09-08
+  source: Simon Willison
+  category: ai
+- title: Introducing ChatGPT Images 2.5
+  url: "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/"
+  date: 2026-09-08
+  source: Simon Willison
+  category: ai
+- title: How to build a printer
+  url: "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/"
   date: 2026-09-08
   source: Hacker News Best
   category: programming
-- title: Mistral raises €3B
-  url: "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+- title: "Tao: Open math problems being non-renewably mined by AI"
+  url: "https://mathstodon.xyz/@tao/117237320796901560"
   date: 2026-09-08
   source: Hacker News Best
   category: programming
-- title: We have a year to fix security everywhere
-  url: "https://jyn.dev/a-year-to-fix-security/"
+- title: Muse – Meta’s personal AI agent
+  url: "https://ai.meta.com/muse/"
   date: 2026-09-08
   source: Hacker News Best
   category: programming
-- title: Jellyfin 12.0
-  url: "https://jellyfin.org/posts/jellyfin-release-12.0/"
-  date: 2026-09-08
-  source: Hacker News Best
-  category: programming
-- title: "I've factored the RSA keys of a Certificate Authority from the 90s"
-  url: "https://mcpherrin.ca/2026/09/07/rsa.html"
+- title: ChatGPT Images 2.5
+  url: "https://openai.com/index/introducing-chatgpt-images-2-5/"
   date: 2026-09-08
   source: Hacker News Best
   category: programming
@@ -28,6 +48,16 @@
   date: 2026-09-08
   source: Aeon
   category: philosophy
+- title: Kahlil Gibran on the Courage to Weather the Uncertainties of Love
+  url: "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love/"
+  date: 2026-09-08
+  source: The Marginalian
+  category: philosophy
+- title: "How to Break Free from the Tyranny of Certainty: The Japanese Concept of “Ma”"
+  url: "https://www.themarginalian.org/2026/09/07/ma/"
+  date: 2026-09-08
+  source: The Marginalian
+  category: philosophy
 - title: llm 0.35
   url: "https://simonwillison.net/2026/Sep/7/llm/"
   date: 2026-09-07
@@ -35,21 +65,6 @@
   category: ai
 - title: Creepy crawlies
   url: "https://simonwillison.net/2026/Sep/7/creepy-crawlies/"
-  date: 2026-09-07
-  source: Simon Willison
-  category: ai
-- title: Quoting Jakub Pachocki
-  url: "https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
-  date: 2026-09-07
-  source: Simon Willison
-  category: ai
-- title: Video compressor
-  url: "https://simonwillison.net/2026/Sep/7/video-compressor/"
-  date: 2026-09-07
-  source: Simon Willison
-  category: ai
-- title: Mercator ↔ Equal Earth
-  url: "https://simonwillison.net/2026/Sep/7/equal-earth/"
   date: 2026-09-07
   source: Simon Willison
   category: ai
@@ -78,24 +93,9 @@
   date: 2026-09-07
   source: The Marginalian
   category: philosophy
-- title: The True Purpose of Tarot
-  url: "https://www.themarginalian.org/2026/09/06/alejandro-jorodowsky-tarot/"
-  date: 2026-09-06
-  source: The Marginalian
-  category: philosophy
-- title: "How to Apologize: Reflections on Forgiveness, Self-Forgiveness, and the Vulnerabilities of Being Human"
-  url: "https://www.themarginalian.org/2026/09/06/how-to-apologize-ellen-bass/"
-  date: 2026-09-06
-  source: The Marginalian
-  category: philosophy
 - title: Upend the trickle-down
   url: "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it"
   date: 2026-09-04
-  source: Aeon
-  category: philosophy
-- title: Neuroqueering on the lawn
-  url: "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance"
-  date: 2026-09-03
   source: Aeon
   category: philosophy
 - title: "How accurate have Ed Zitron's AI skeptic predictions been?"
