@@ -1,10 +1,50 @@
+- title: Quoting Calif Research
+  url: "https://simonwillison.net/2026/Sep/10/calif-research/"
+  date: 2026-09-10
+  source: Simon Willison
+  category: ai
+- title: DeepSeek v4.1 Flash
+  url: "https://twitter.com/deepseek_ai/status/2097930608790167907"
+  date: 2026-09-10
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: What if the speed of light was 5 km/h?"
+  url: "https://rivendell.dmitrybrant.com/relativity/"
+  date: 2026-09-10
+  source: Hacker News Best
+  category: programming
+- title: The Chinese room
+  url: "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness"
+  date: 2026-09-10
+  source: Aeon
+  category: philosophy
+- title: Medieval mental health
+  url: "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health"
+  date: 2026-09-10
+  source: Aeon
+  category: philosophy
+- title: .blend URL Viewer
+  url: "https://simonwillison.net/2026/Sep/9/blender-viewer/"
+  date: 2026-09-09
+  source: Simon Willison
+  category: ai
 - title: Quoting Terence Tao
   url: "https://simonwillison.net/2026/Sep/9/terence-tao/"
   date: 2026-09-09
   source: Simon Willison
   category: ai
-- title: I resigned from Anthropic today
-  url: "https://twitter.com/hilbertspaess/status/2097476196791709843#m"
+- title: iPhone Duo
+  url: "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+  date: 2026-09-09
+  source: Hacker News Best
+  category: programming
+- title: iPhone Duo
+  url: "https://www.apple.com/iphone-duo/"
+  date: 2026-09-09
+  source: Hacker News Best
+  category: programming
+- title: AirPods 5
+  url: "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
   date: 2026-09-09
   source: Hacker News Best
   category: programming
@@ -12,6 +52,21 @@
   url: "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past"
   date: 2026-09-09
   source: Aeon
+  category: philosophy
+- title: How to Change Your Life
+  url: "https://www.themarginalian.org/2026/09/09/how-to-change-your-life/"
+  date: 2026-09-09
+  source: The Marginalian
+  category: philosophy
+- title: Kahlil Gibran on the Courage to Weather the Uncertainties of Love
+  url: "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love/"
+  date: 2026-09-09
+  source: The Marginalian
+  category: philosophy
+- title: "The Paradoxes and Possibilities of Transformation: Adam Phillips on Our Ambivalent Desire for Change"
+  url: "https://www.themarginalian.org/2026/09/08/on-wanting-to-change-adam-phillips/"
+  date: 2026-09-09
+  source: The Marginalian
   category: philosophy
 - title: On the Navier–Stokes Millennium Prize Problem
   url: "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
@@ -23,58 +78,18 @@
   date: 2026-09-08
   source: Simon Willison
   category: ai
-- title: How to build a printer
-  url: "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/"
-  date: 2026-09-08
-  source: Hacker News Best
-  category: programming
-- title: "Tao: Open math problems being non-renewably mined by AI"
-  url: "https://mathstodon.xyz/@tao/117237320796901560"
-  date: 2026-09-08
-  source: Hacker News Best
-  category: programming
-- title: Muse – Meta’s personal AI agent
-  url: "https://ai.meta.com/muse/"
-  date: 2026-09-08
-  source: Hacker News Best
-  category: programming
-- title: ChatGPT Images 2.5
-  url: "https://openai.com/index/introducing-chatgpt-images-2-5/"
-  date: 2026-09-08
-  source: Hacker News Best
-  category: programming
 - title: Our eloquent hands
   url: "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common"
   date: 2026-09-08
   source: Aeon
-  category: philosophy
-- title: Kahlil Gibran on the Courage to Weather the Uncertainties of Love
-  url: "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love/"
-  date: 2026-09-08
-  source: The Marginalian
   category: philosophy
 - title: "How to Break Free from the Tyranny of Certainty: The Japanese Concept of “Ma”"
   url: "https://www.themarginalian.org/2026/09/07/ma/"
   date: 2026-09-08
   source: The Marginalian
   category: philosophy
-- title: llm 0.35
-  url: "https://simonwillison.net/2026/Sep/7/llm/"
-  date: 2026-09-07
-  source: Simon Willison
-  category: ai
-- title: Creepy crawlies
-  url: "https://simonwillison.net/2026/Sep/7/creepy-crawlies/"
-  date: 2026-09-07
-  source: Simon Willison
-  category: ai
 - title: The planet is… up to something
   url: "https://aeon.co/videos/is-this-artemis-ii-timelapse-the-pale-blue-dot-for-our-times"
-  date: 2026-09-07
-  source: Aeon
-  category: philosophy
-- title: Continental divide
-  url: "https://aeon.co/essays/why-the-pan-american-highway-only-half-exists"
   date: 2026-09-07
   source: Aeon
   category: philosophy
@@ -82,21 +97,6 @@
   url: "https://www.themarginalian.org/2026/09/07/dont-waste-your-wildness/"
   date: 2026-09-07
   source: The Marginalian
-  category: philosophy
-- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
-  url: "https://www.themarginalian.org/2026/09/07/polyvagal-theory/"
-  date: 2026-09-07
-  source: The Marginalian
-  category: philosophy
-- title: "I Long to Read More in the Book of You: Moomins Creator Tove Jansson’s Tender and Passionate Letters to the Love of Her Life"
-  url: "https://www.themarginalian.org/2026/09/06/tove-jansson-letters-tuulikki-pietila/"
-  date: 2026-09-07
-  source: The Marginalian
-  category: philosophy
-- title: Upend the trickle-down
-  url: "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it"
-  date: 2026-09-04
-  source: Aeon
   category: philosophy
 - title: "How accurate have Ed Zitron's AI skeptic predictions been?"
   url: "https://danluu.com/zitron/"
