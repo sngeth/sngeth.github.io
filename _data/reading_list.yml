@@ -1,10 +1,55 @@
-- title: Datasette 1.0a39 and 0.65.4 security releases
-  url: "https://simonwillison.net/2026/Sep/11/datasette-security/"
+- title: OpenAI agents attacked RubyGems back in May
+  url: "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
+  date: 2026-09-12
+  source: Simon Willison
+  category: ai
+- title: "google.com/goto: Google's anti-scraping update"
+  url: "https://www.autom.dev/blog/google-search-goto-links"
+  date: 2026-09-12
+  source: Hacker News Best
+  category: programming
+- title: "A Beginning, Not a Decline: Colette on the Splendor of Autumn and the Autumn of Life"
+  url: "https://www.themarginalian.org/2026/09/11/colette-autumn/"
+  date: 2026-09-12
+  source: The Marginalian
+  category: philosophy
+- title: "So you want to use OpenRouter?"
+  url: "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/"
   date: 2026-09-11
   source: Simon Willison
   category: ai
-- title: "Astra for Coding: Why Are We Doing This Again?"
-  url: "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+- title: Quoting Boris Cherny
+  url: "https://simonwillison.net/2026/Sep/11/boris-cherny/"
+  date: 2026-09-11
+  source: Simon Willison
+  category: ai
+- title: Feeling sad about AI
+  url: "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"
+  date: 2026-09-11
+  source: Simon Willison
+  category: ai
+- title: Quoting huggingface.co/security.txt
+  url: "https://simonwillison.net/2026/Sep/11/hugging-face-security/"
+  date: 2026-09-11
+  source: Simon Willison
+  category: ai
+- title: OpenAI agents carried out an undisclosed attack on RubyGems
+  url: "https://www.rubyhack.ai/"
+  date: 2026-09-11
+  source: Hacker News Best
+  category: programming
+- title: "GrapheneOS' rewritten Messages app is released"
+  url: "https://github.com/GrapheneOS/Messaging/releases/tag/13"
+  date: 2026-09-11
+  source: Hacker News Best
+  category: programming
+- title: "I spent $220 on Google app ads and 60% of the installs were robots"
+  url: "https://dayzlegame.com/blog/google-ads-bot-farm/"
+  date: 2026-09-11
+  source: Hacker News Best
+  category: programming
+- title: The EPA is planning to scrap public review rules for data center pollution
+  url: "https://capitalbnews.org/data-centers-permit-rules-epa/"
   date: 2026-09-11
   source: Hacker News Best
   category: programming
@@ -13,41 +58,21 @@
   date: 2026-09-11
   source: Aeon
   category: philosophy
-- title: "Any Nix package, live in your browser"
-  url: "https://simonwillison.net/2026/Sep/10/trynix/"
-  date: 2026-09-10
-  source: Simon Willison
-  category: ai
-- title: Native is now the future of mobile at Shopify
-  url: "https://simonwillison.net/2026/Sep/10/shopify-react-native/"
-  date: 2026-09-10
-  source: Simon Willison
-  category: ai
-- title: Quoting Calif Research
-  url: "https://simonwillison.net/2026/Sep/10/calif-research/"
-  date: 2026-09-10
-  source: Simon Willison
-  category: ai
-- title: I have a theory that software drives people insane
-  url: "https://graybeard.ing/software-drives-people-insane/"
-  date: 2026-09-10
-  source: Hacker News Best
-  category: programming
-- title: "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra"
-  url: "https://cognition.com/blog/swe-2"
-  date: 2026-09-10
-  source: Hacker News Best
-  category: programming
-- title: Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)
-  url: "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images"
-  date: 2026-09-10
-  source: Hacker News Best
-  category: programming
-- title: "Don't let anyone take away your big box of cables"
-  url: "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
-  date: 2026-09-10
-  source: Hacker News Best
-  category: programming
+- title: The Day Dostoyevsky Discovered the Meaning of Life in a Dream
+  url: "https://www.themarginalian.org/2026/09/11/dostoyevsky-dream/"
+  date: 2026-09-11
+  source: The Marginalian
+  category: philosophy
+- title: "Why Leaves Change Color and How We Become Who We Are: The Science of Chlorophyll and the Poetics of Personhood"
+  url: "https://www.themarginalian.org/2026/09/11/why-leaves-change-color/"
+  date: 2026-09-11
+  source: The Marginalian
+  category: philosophy
+- title: "The Unspeakable World: Alan Watts on How to Touch the Pulse of Life"
+  url: "https://www.themarginalian.org/2026/09/10/alan-watts-unspeakable-world/"
+  date: 2026-09-11
+  source: The Marginalian
+  category: philosophy
 - title: The Chinese room
   url: "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness"
   date: 2026-09-10
@@ -63,35 +88,10 @@
   date: 2026-09-10
   source: The Marginalian
   category: philosophy
-- title: The New Science of Plant Intelligence and the Mystery of What Makes a Mind
-  url: "https://www.themarginalian.org/2026/09/09/the-light-eaters/"
-  date: 2026-09-10
-  source: The Marginalian
-  category: philosophy
-- title: .blend URL Viewer
-  url: "https://simonwillison.net/2026/Sep/9/blender-viewer/"
-  date: 2026-09-09
-  source: Simon Willison
-  category: ai
 - title: Making revisions
   url: "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past"
   date: 2026-09-09
   source: Aeon
-  category: philosophy
-- title: How to Change Your Life
-  url: "https://www.themarginalian.org/2026/09/09/how-to-change-your-life/"
-  date: 2026-09-09
-  source: The Marginalian
-  category: philosophy
-- title: Kahlil Gibran on the Courage to Weather the Uncertainties of Love
-  url: "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love/"
-  date: 2026-09-09
-  source: The Marginalian
-  category: philosophy
-- title: "The Paradoxes and Possibilities of Transformation: Adam Phillips on Our Ambivalent Desire for Change"
-  url: "https://www.themarginalian.org/2026/09/08/on-wanting-to-change-adam-phillips/"
-  date: 2026-09-09
-  source: The Marginalian
   category: philosophy
 - title: Our eloquent hands
   url: "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common"
