@@ -1,13 +1,53 @@
+- title: "Why are AI agents lying, cheating and coordinating?"
+  url: "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+  date: 2026-09-13
+  source: Hacker News Best
+  category: programming
+- title: Everyone should slow down AI development except for me
+  url: "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"
+  date: 2026-09-13
+  source: Hacker News Best
+  category: programming
+- title: Generating running routes with GPT-6 Astra and ChatGPT Work
+  url: "https://simonwillison.net/2026/Sep/12/astra-running-routes/"
+  date: 2026-09-12
+  source: Simon Willison
+  category: ai
+- title: California Brown Pelican
+  url: "https://simonwillison.net/2026/Sep/12/sighting-399708714/"
+  date: 2026-09-12
+  source: Simon Willison
+  category: ai
+- title: Quoting Paul Ford
+  url: "https://simonwillison.net/2026/Sep/12/paul-ford/"
+  date: 2026-09-12
+  source: Simon Willison
+  category: ai
 - title: OpenAI agents attacked RubyGems back in May
   url: "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
   date: 2026-09-12
   source: Simon Willison
   category: ai
-- title: "google.com/goto: Google's anti-scraping update"
-  url: "https://www.autom.dev/blog/google-search-goto-links"
+- title: "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
+  url: "https://withspecific.com/benchmarks/real-swe"
   date: 2026-09-12
   source: Hacker News Best
   category: programming
+- title: "LG Says We're Fake News [video]"
+  url: "https://www.youtube.com/watch?v=ToP9xfLDSME"
+  date: 2026-09-12
+  source: Hacker News Best
+  category: programming
+- title: "An open letter to Dario: if you mean it, open the weights"
+  url: "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/"
+  date: 2026-09-12
+  source: Hacker News Best
+  category: programming
+- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
+  url: "https://www.themarginalian.org/2026/09/12/pessoa-explorer/"
+  date: 2026-09-12
+  source: The Marginalian
+  category: philosophy
 - title: "A Beginning, Not a Decline: Colette on the Splendor of Autumn and the Autumn of Life"
   url: "https://www.themarginalian.org/2026/09/11/colette-autumn/"
   date: 2026-09-12
@@ -18,41 +58,6 @@
   date: 2026-09-11
   source: Simon Willison
   category: ai
-- title: Quoting Boris Cherny
-  url: "https://simonwillison.net/2026/Sep/11/boris-cherny/"
-  date: 2026-09-11
-  source: Simon Willison
-  category: ai
-- title: Feeling sad about AI
-  url: "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"
-  date: 2026-09-11
-  source: Simon Willison
-  category: ai
-- title: Quoting huggingface.co/security.txt
-  url: "https://simonwillison.net/2026/Sep/11/hugging-face-security/"
-  date: 2026-09-11
-  source: Simon Willison
-  category: ai
-- title: OpenAI agents carried out an undisclosed attack on RubyGems
-  url: "https://www.rubyhack.ai/"
-  date: 2026-09-11
-  source: Hacker News Best
-  category: programming
-- title: "GrapheneOS' rewritten Messages app is released"
-  url: "https://github.com/GrapheneOS/Messaging/releases/tag/13"
-  date: 2026-09-11
-  source: Hacker News Best
-  category: programming
-- title: "I spent $220 on Google app ads and 60% of the installs were robots"
-  url: "https://dayzlegame.com/blog/google-ads-bot-farm/"
-  date: 2026-09-11
-  source: Hacker News Best
-  category: programming
-- title: The EPA is planning to scrap public review rules for data center pollution
-  url: "https://capitalbnews.org/data-centers-permit-rules-epa/"
-  date: 2026-09-11
-  source: Hacker News Best
-  category: programming
 - title: Penchants of the polymaths
   url: "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation"
   date: 2026-09-11
@@ -83,11 +88,6 @@
   date: 2026-09-10
   source: Aeon
   category: philosophy
-- title: Albert Camus on the Source of Strength and How to Save Our Sanity in Trying Times
-  url: "https://www.themarginalian.org/2026/09/10/albert-camus-almond-trees-character/"
-  date: 2026-09-10
-  source: The Marginalian
-  category: philosophy
 - title: Making revisions
   url: "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past"
   date: 2026-09-09
@@ -98,7 +98,12 @@
   date: 2026-09-08
   source: Aeon
   category: philosophy
-- title: "How accurate have Ed Zitron's AI skeptic predictions been?"
+- title: "How well do agents use test/verification techniques?"
+  url: "https://danluu.com/agentic-testing/"
+  date: 2026-09-07
+  source: Dan Luu
+  category: programming
+- title: "Ed Zitron's AI prediction track record"
   url: "https://danluu.com/zitron/"
   date: 2026-09-01
   source: Dan Luu
@@ -132,11 +137,6 @@
   url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
   date: 2026-08-15
   source: Eli Bendersky
-  category: programming
-- title: "How does programming language affect token efficiency and correctness?"
-  url: "https://danluu.com/pl-tokens/"
-  date: 2026-08-09
-  source: Dan Luu
   category: programming
 - title: Relative velocity and closing speed
   url: "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/"
