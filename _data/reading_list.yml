@@ -1,13 +1,53 @@
-- title: "Why are AI agents lying, cheating and coordinating?"
-  url: "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+- title: commit-rewriter 0.1
+  url: "https://simonwillison.net/2026/Sep/14/commit-rewriter/"
+  date: 2026-09-14
+  source: Simon Willison
+  category: ai
+- title: "Apple's Dimensional Drawings"
+  url: "https://developer.apple.com/accessories/dimensional-drawings/"
+  date: 2026-09-14
+  source: Hacker News Best
+  category: programming
+- title: "Once upon a screen: explosive paradox"
+  url: "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory"
+  date: 2026-09-14
+  source: Aeon
+  category: philosophy
+- title: The bombarding of childhood
+  url: "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media"
+  date: 2026-09-14
+  source: Aeon
+  category: philosophy
+- title: shot-scraper 1.12
+  url: "https://simonwillison.net/2026/Sep/13/shot-scraper/"
+  date: 2026-09-13
+  source: Simon Willison
+  category: ai
+- title: The contagion of fear
+  url: "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/"
   date: 2026-09-13
   source: Hacker News Best
   category: programming
-- title: Everyone should slow down AI development except for me
-  url: "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"
+- title: Registration without a phone number on Signal will use zero-knowledge proofs
+  url: "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10"
   date: 2026-09-13
   source: Hacker News Best
   category: programming
+- title: "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
+  url: "https://www.vals.ai/blogs/fable-solves-cyphral-distich"
+  date: 2026-09-13
+  source: Hacker News Best
+  category: programming
+- title: "Mark Zuckerberg: \"Cambridge Analytica\" (2017)"
+  url: "https://twitter.com/TechEmails/status/2099214399840059428"
+  date: 2026-09-13
+  source: Hacker News Best
+  category: programming
+- title: The Fascinating Science of How We Think Not with the Brain But with the World
+  url: "https://www.themarginalian.org/2026/09/13/the-extended-mind/"
+  date: 2026-09-13
+  source: The Marginalian
+  category: philosophy
 - title: Generating running routes with GPT-6 Astra and ChatGPT Work
   url: "https://simonwillison.net/2026/Sep/12/astra-running-routes/"
   date: 2026-09-12
@@ -23,26 +63,6 @@
   date: 2026-09-12
   source: Simon Willison
   category: ai
-- title: OpenAI agents attacked RubyGems back in May
-  url: "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
-  date: 2026-09-12
-  source: Simon Willison
-  category: ai
-- title: "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases"
-  url: "https://withspecific.com/benchmarks/real-swe"
-  date: 2026-09-12
-  source: Hacker News Best
-  category: programming
-- title: "LG Says We're Fake News [video]"
-  url: "https://www.youtube.com/watch?v=ToP9xfLDSME"
-  date: 2026-09-12
-  source: Hacker News Best
-  category: programming
-- title: "An open letter to Dario: if you mean it, open the weights"
-  url: "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/"
-  date: 2026-09-12
-  source: Hacker News Best
-  category: programming
 - title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
   url: "https://www.themarginalian.org/2026/09/12/pessoa-explorer/"
   date: 2026-09-12
@@ -53,11 +73,6 @@
   date: 2026-09-12
   source: The Marginalian
   category: philosophy
-- title: "So you want to use OpenRouter?"
-  url: "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/"
-  date: 2026-09-11
-  source: Simon Willison
-  category: ai
 - title: Penchants of the polymaths
   url: "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation"
   date: 2026-09-11
@@ -73,11 +88,6 @@
   date: 2026-09-11
   source: The Marginalian
   category: philosophy
-- title: "The Unspeakable World: Alan Watts on How to Touch the Pulse of Life"
-  url: "https://www.themarginalian.org/2026/09/10/alan-watts-unspeakable-world/"
-  date: 2026-09-11
-  source: The Marginalian
-  category: philosophy
 - title: The Chinese room
   url: "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness"
   date: 2026-09-10
@@ -88,17 +98,7 @@
   date: 2026-09-10
   source: Aeon
   category: philosophy
-- title: Making revisions
-  url: "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past"
-  date: 2026-09-09
-  source: Aeon
-  category: philosophy
-- title: Our eloquent hands
-  url: "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common"
-  date: 2026-09-08
-  source: Aeon
-  category: philosophy
-- title: "How well do agents use test/verification techniques?"
+- title: "How well do agents use test and verification techniques?"
   url: "https://danluu.com/agentic-testing/"
   date: 2026-09-07
   source: Dan Luu
