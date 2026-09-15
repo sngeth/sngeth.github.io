@@ -1,10 +1,50 @@
+- title: "I can't stop thinking about Papua New Guinea"
+  url: "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua"
+  date: 2026-09-15
+  source: Hacker News Best
+  category: programming
+- title: Chasing la dolce vita
+  url: "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
+  date: 2026-09-15
+  source: Aeon
+  category: philosophy
+- title: The contagion of fear
+  url: "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/"
+  date: 2026-09-14
+  source: Simon Willison
+  category: ai
+- title: "What blog posts influenced your thinking the most?"
+  url: "https://simonwillison.net/2026/Sep/14/influences/"
+  date: 2026-09-14
+  source: Simon Willison
+  category: ai
+- title: Quoting Laurie Voss
+  url: "https://simonwillison.net/2026/Sep/14/laurie-voss/"
+  date: 2026-09-14
+  source: Simon Willison
+  category: ai
 - title: commit-rewriter 0.1
   url: "https://simonwillison.net/2026/Sep/14/commit-rewriter/"
   date: 2026-09-14
   source: Simon Willison
   category: ai
-- title: "Apple's Dimensional Drawings"
-  url: "https://developer.apple.com/accessories/dimensional-drawings/"
+- title: Charts built for Chat
+  url: "https://dbtcharts.com/blog/charts-built-for-chat/"
+  date: 2026-09-14
+  source: Hacker News Best
+  category: programming
+- title: "iOS 27, iPadOS 27, and macOS 27"
+  url: "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
+  date: 2026-09-14
+  source: Hacker News Best
+  category: programming
+- title: Steam Frame starts at $1059
+  url: "https://store.steampowered.com/hardware/steamframe"
+  date: 2026-09-14
+  source: Hacker News Best
+  category: programming
+- title: "Pion, an agent designed to run any company autonomously"
+  url: "https://andonlabs.com/blog/why-we-built-pion"
   date: 2026-09-14
   source: Hacker News Best
   category: programming
@@ -23,46 +63,21 @@
   date: 2026-09-13
   source: Simon Willison
   category: ai
-- title: The contagion of fear
-  url: "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/"
+- title: Seneca on True and False Friendship
+  url: "https://www.themarginalian.org/2026/09/13/seneca-friendship/"
   date: 2026-09-13
-  source: Hacker News Best
-  category: programming
-- title: Registration without a phone number on Signal will use zero-knowledge proofs
-  url: "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10"
+  source: The Marginalian
+  category: philosophy
+- title: "The Moving Story of the Dawn Redwood: How a Fossil Came Back to Life to Bring Humanity Together in the Middle of Our Deadliest War"
+  url: "https://www.themarginalian.org/2026/09/13/dawn-redwood-metasequoia/"
   date: 2026-09-13
-  source: Hacker News Best
-  category: programming
-- title: "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher"
-  url: "https://www.vals.ai/blogs/fable-solves-cyphral-distich"
-  date: 2026-09-13
-  source: Hacker News Best
-  category: programming
-- title: "Mark Zuckerberg: \"Cambridge Analytica\" (2017)"
-  url: "https://twitter.com/TechEmails/status/2099214399840059428"
-  date: 2026-09-13
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: The Fascinating Science of How We Think Not with the Brain But with the World
   url: "https://www.themarginalian.org/2026/09/13/the-extended-mind/"
   date: 2026-09-13
   source: The Marginalian
   category: philosophy
-- title: Generating running routes with GPT-6 Astra and ChatGPT Work
-  url: "https://simonwillison.net/2026/Sep/12/astra-running-routes/"
-  date: 2026-09-12
-  source: Simon Willison
-  category: ai
-- title: California Brown Pelican
-  url: "https://simonwillison.net/2026/Sep/12/sighting-399708714/"
-  date: 2026-09-12
-  source: Simon Willison
-  category: ai
-- title: Quoting Paul Ford
-  url: "https://simonwillison.net/2026/Sep/12/paul-ford/"
-  date: 2026-09-12
-  source: Simon Willison
-  category: ai
 - title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
   url: "https://www.themarginalian.org/2026/09/12/pessoa-explorer/"
   date: 2026-09-12
@@ -78,23 +93,8 @@
   date: 2026-09-11
   source: Aeon
   category: philosophy
-- title: The Day Dostoyevsky Discovered the Meaning of Life in a Dream
-  url: "https://www.themarginalian.org/2026/09/11/dostoyevsky-dream/"
-  date: 2026-09-11
-  source: The Marginalian
-  category: philosophy
-- title: "Why Leaves Change Color and How We Become Who We Are: The Science of Chlorophyll and the Poetics of Personhood"
-  url: "https://www.themarginalian.org/2026/09/11/why-leaves-change-color/"
-  date: 2026-09-11
-  source: The Marginalian
-  category: philosophy
 - title: The Chinese room
   url: "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness"
-  date: 2026-09-10
-  source: Aeon
-  category: philosophy
-- title: Medieval mental health
-  url: "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health"
   date: 2026-09-10
   source: Aeon
   category: philosophy
