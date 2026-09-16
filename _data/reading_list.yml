@@ -1,5 +1,35 @@
-- title: "I can't stop thinking about Papua New Guinea"
-  url: "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua"
+- title: The meaning of fake marble
+  url: "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble"
+  date: 2026-09-16
+  source: Aeon
+  category: philosophy
+- title: Gemini Live audio
+  url: "https://simonwillison.net/2026/Sep/15/gemini-live/"
+  date: 2026-09-15
+  source: Simon Willison
+  category: ai
+- title: Building a Linux GPU Driver for the M4 Mac Mini in One Month
+  url: "https://codyho.dev/blog/gpu-driver/"
+  date: 2026-09-15
+  source: Hacker News Best
+  category: programming
+- title: Introducing System One Models and Jev
+  url: "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+  date: 2026-09-15
+  source: Hacker News Best
+  category: programming
+- title: "We got admin access to Baseten's production GitHub"
+  url: "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
+  date: 2026-09-15
+  source: Hacker News Best
+  category: programming
+- title: An update on Wayback Machine access
+  url: "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/"
+  date: 2026-09-15
+  source: Hacker News Best
+  category: programming
+- title: Gemini 3.8 Live and 3.8 Live Extended Thinking
+  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
   date: 2026-09-15
   source: Hacker News Best
   category: programming
@@ -7,6 +37,21 @@
   url: "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
   date: 2026-09-15
   source: Aeon
+  category: philosophy
+- title: J.R.R. Tolkien on How to Fall in Love with Life
+  url: "https://www.themarginalian.org/2026/09/15/tolkien-faery/"
+  date: 2026-09-15
+  source: The Marginalian
+  category: philosophy
+- title: "Thomas Bernhard on Walking, Thinking, and the Paradox of Self-Reflection"
+  url: "https://www.themarginalian.org/2026/09/15/thomas-bernhard-walking/"
+  date: 2026-09-15
+  source: The Marginalian
+  category: philosophy
+- title: "The Peace of Wild Things: Wendell Berry’s Poetic Antidote to Despair, Animated"
+  url: "https://www.themarginalian.org/2026/09/15/wendell-berry-the-peace-of-wild-things-animated/"
+  date: 2026-09-15
+  source: The Marginalian
   category: philosophy
 - title: The contagion of fear
   url: "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/"
@@ -28,26 +73,6 @@
   date: 2026-09-14
   source: Simon Willison
   category: ai
-- title: Charts built for Chat
-  url: "https://dbtcharts.com/blog/charts-built-for-chat/"
-  date: 2026-09-14
-  source: Hacker News Best
-  category: programming
-- title: "iOS 27, iPadOS 27, and macOS 27"
-  url: "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
-  date: 2026-09-14
-  source: Hacker News Best
-  category: programming
-- title: Steam Frame starts at $1059
-  url: "https://store.steampowered.com/hardware/steamframe"
-  date: 2026-09-14
-  source: Hacker News Best
-  category: programming
-- title: "Pion, an agent designed to run any company autonomously"
-  url: "https://andonlabs.com/blog/why-we-built-pion"
-  date: 2026-09-14
-  source: Hacker News Best
-  category: programming
 - title: "Once upon a screen: explosive paradox"
   url: "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory"
   date: 2026-09-14
@@ -58,11 +83,6 @@
   date: 2026-09-14
   source: Aeon
   category: philosophy
-- title: shot-scraper 1.12
-  url: "https://simonwillison.net/2026/Sep/13/shot-scraper/"
-  date: 2026-09-13
-  source: Simon Willison
-  category: ai
 - title: Seneca on True and False Friendship
   url: "https://www.themarginalian.org/2026/09/13/seneca-friendship/"
   date: 2026-09-13
@@ -73,29 +93,9 @@
   date: 2026-09-13
   source: The Marginalian
   category: philosophy
-- title: The Fascinating Science of How We Think Not with the Brain But with the World
-  url: "https://www.themarginalian.org/2026/09/13/the-extended-mind/"
-  date: 2026-09-13
-  source: The Marginalian
-  category: philosophy
-- title: How to Be a Good Explorer on the Lifelong Expedition to Yourself
-  url: "https://www.themarginalian.org/2026/09/12/pessoa-explorer/"
-  date: 2026-09-12
-  source: The Marginalian
-  category: philosophy
-- title: "A Beginning, Not a Decline: Colette on the Splendor of Autumn and the Autumn of Life"
-  url: "https://www.themarginalian.org/2026/09/11/colette-autumn/"
-  date: 2026-09-12
-  source: The Marginalian
-  category: philosophy
 - title: Penchants of the polymaths
   url: "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation"
   date: 2026-09-11
-  source: Aeon
-  category: philosophy
-- title: The Chinese room
-  url: "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness"
-  date: 2026-09-10
   source: Aeon
   category: philosophy
 - title: "How well do agents use test and verification techniques?"
