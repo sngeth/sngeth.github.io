@@ -1,38 +1,83 @@
+- title: Animal eye
+  url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
+  date: 2026-09-17
+  source: Aeon
+  category: philosophy
+- title: "Who will taste the cherries?"
+  url: "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries"
+  date: 2026-09-17
+  source: Aeon
+  category: philosophy
+- title: datasette 1.0a40
+  url: "https://simonwillison.net/2026/Sep/16/datasette/"
+  date: 2026-09-16
+  source: Simon Willison
+  category: ai
+- title: datasette 0.65.5
+  url: "https://simonwillison.net/2026/Sep/16/datasette-2/"
+  date: 2026-09-16
+  source: Simon Willison
+  category: ai
+- title: Claude Cowork and chat are now one Claude
+  url: "https://simonwillison.net/2026/Sep/16/one-claude/"
+  date: 2026-09-16
+  source: Simon Willison
+  category: ai
+- title: Quoting Mustafa Suleyman
+  url: "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/"
+  date: 2026-09-16
+  source: Simon Willison
+  category: ai
+- title: Xiaomi Mimo 2.6 live post-training dashboard
+  url: "https://mimo.xiaomi.com/rl/"
+  date: 2026-09-16
+  source: Hacker News Best
+  category: programming
+- title: "Training a 4B model to produce 81% faster query plans than Postgres"
+  url: "https://rohanbansal.com/qorl"
+  date: 2026-09-16
+  source: Hacker News Best
+  category: programming
+- title: Small programming tricks
+  url: "https://will-keleher.com/posts/small-programming-tricks-matter/"
+  date: 2026-09-16
+  source: Hacker News Best
+  category: programming
+- title: "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\""
+  url: "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/"
+  date: 2026-09-16
+  source: Hacker News Best
+  category: programming
+- title: Hackers Got Inside a Flock Camera
+  url: "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/"
+  date: 2026-09-16
+  source: Hacker News Best
+  category: programming
 - title: The meaning of fake marble
   url: "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble"
   date: 2026-09-16
   source: Aeon
+  category: philosophy
+- title: How to Promise and How to Keep Promises from Breaking
+  url: "https://www.themarginalian.org/2026/09/16/how-to-promise-and-how-to-keep-promises-from-breaking/"
+  date: 2026-09-16
+  source: The Marginalian
+  category: philosophy
+- title: Virginia Woolf on Creativity
+  url: "https://www.themarginalian.org/2026/09/16/virginia-woolf-cotton-wool-moments-of-being/"
+  date: 2026-09-16
+  source: The Marginalian
+  category: philosophy
+- title: "On Children: Poignant Parenting Advice from Kahlil Gibran"
+  url: "https://www.themarginalian.org/2026/09/16/on-children-kahlil-gibran/"
+  date: 2026-09-16
+  source: The Marginalian
   category: philosophy
 - title: Gemini Live audio
   url: "https://simonwillison.net/2026/Sep/15/gemini-live/"
   date: 2026-09-15
   source: Simon Willison
   category: ai
-- title: Building a Linux GPU Driver for the M4 Mac Mini in One Month
-  url: "https://codyho.dev/blog/gpu-driver/"
-  date: 2026-09-15
-  source: Hacker News Best
-  category: programming
-- title: Introducing System One Models and Jev
-  url: "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-  date: 2026-09-15
-  source: Hacker News Best
-  category: programming
-- title: "We got admin access to Baseten's production GitHub"
-  url: "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
-  date: 2026-09-15
-  source: Hacker News Best
-  category: programming
-- title: An update on Wayback Machine access
-  url: "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/"
-  date: 2026-09-15
-  source: Hacker News Best
-  category: programming
-- title: Gemini 3.8 Live and 3.8 Live Extended Thinking
-  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
-  date: 2026-09-15
-  source: Hacker News Best
-  category: programming
 - title: Chasing la dolce vita
   url: "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
   date: 2026-09-15
@@ -48,54 +93,9 @@
   date: 2026-09-15
   source: The Marginalian
   category: philosophy
-- title: "The Peace of Wild Things: Wendell Berry’s Poetic Antidote to Despair, Animated"
-  url: "https://www.themarginalian.org/2026/09/15/wendell-berry-the-peace-of-wild-things-animated/"
-  date: 2026-09-15
-  source: The Marginalian
-  category: philosophy
-- title: The contagion of fear
-  url: "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/"
-  date: 2026-09-14
-  source: Simon Willison
-  category: ai
-- title: "What blog posts influenced your thinking the most?"
-  url: "https://simonwillison.net/2026/Sep/14/influences/"
-  date: 2026-09-14
-  source: Simon Willison
-  category: ai
-- title: Quoting Laurie Voss
-  url: "https://simonwillison.net/2026/Sep/14/laurie-voss/"
-  date: 2026-09-14
-  source: Simon Willison
-  category: ai
-- title: commit-rewriter 0.1
-  url: "https://simonwillison.net/2026/Sep/14/commit-rewriter/"
-  date: 2026-09-14
-  source: Simon Willison
-  category: ai
 - title: "Once upon a screen: explosive paradox"
   url: "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory"
   date: 2026-09-14
-  source: Aeon
-  category: philosophy
-- title: The bombarding of childhood
-  url: "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media"
-  date: 2026-09-14
-  source: Aeon
-  category: philosophy
-- title: Seneca on True and False Friendship
-  url: "https://www.themarginalian.org/2026/09/13/seneca-friendship/"
-  date: 2026-09-13
-  source: The Marginalian
-  category: philosophy
-- title: "The Moving Story of the Dawn Redwood: How a Fossil Came Back to Life to Bring Humanity Together in the Middle of Our Deadliest War"
-  url: "https://www.themarginalian.org/2026/09/13/dawn-redwood-metasequoia/"
-  date: 2026-09-13
-  source: The Marginalian
-  category: philosophy
-- title: Penchants of the polymaths
-  url: "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation"
-  date: 2026-09-11
   source: Aeon
   category: philosophy
 - title: "How well do agents use test and verification techniques?"
