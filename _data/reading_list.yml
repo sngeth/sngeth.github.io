@@ -1,5 +1,45 @@
-- title: A heap overflow and SSO misconfiguration to compromise OpenAI internal repos
-  url: "https://www.hacktron.ai/blog/hacking-openai"
+- title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+  url: "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
+  date: 2026-09-18
+  source: Simon Willison
+  category: ai
+- title: Note on 18th September 2026
+  url: "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
+  date: 2026-09-18
+  source: Simon Willison
+  category: ai
+- title: Quoting Thariq Shihipar
+  url: "https://simonwillison.net/2026/Sep/18/thariq-shihipar/"
+  date: 2026-09-18
+  source: Simon Willison
+  category: ai
+- title: The Creative Spirit of Who Framed Roger Rabbit
+  url: "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/"
+  date: 2026-09-18
+  source: Simon Willison
+  category: ai
+- title: Claude Code now reads AGENTS.md if there is no Claude.md
+  url: "https://code.claude.com/docs/en/changelog"
+  date: 2026-09-18
+  source: Hacker News Best
+  category: programming
+- title: "Korea raises data breach fines to 10% of revenue"
+  url: "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"
+  date: 2026-09-18
+  source: Hacker News Best
+  category: programming
+- title: Android 17 is the first since 3.x to add new APIs without releasing to the AOSP
+  url: "https://grapheneos.social/@GrapheneOS/117282080803799576"
+  date: 2026-09-18
+  source: Hacker News Best
+  category: programming
+- title: Saving another 100TB of RAM
+  url: "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/"
+  date: 2026-09-18
+  source: Hacker News Best
+  category: programming
+- title: US Military had close call after using AI for hallucinated intelligence report
+  url: "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship"
   date: 2026-09-18
   source: Hacker News Best
   category: programming
@@ -7,6 +47,16 @@
   url: "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger"
   date: 2026-09-18
   source: Aeon
+  category: philosophy
+- title: "Against the Cartesian Myth of Work/Life Balance: André Gregory’s Extraordinary Letter to Richard Avedon about the Nature of Creativity"
+  url: "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter/"
+  date: 2026-09-18
+  source: The Marginalian
+  category: philosophy
+- title: "The Stoic Key to Living with Presence: Seneca on Time Spent vs. Saved vs. Wasted"
+  url: "https://www.themarginalian.org/2026/09/18/seneca-letter-1-time/"
+  date: 2026-09-18
+  source: The Marginalian
   category: philosophy
 - title: "The Coziest Place on the Moon: Or, How to Bear Your Loneliness"
   url: "https://www.themarginalian.org/2026/09/17/the-coziest-place-on-the-moon/"
@@ -18,36 +68,6 @@
   date: 2026-09-17
   source: Simon Willison
   category: ai
-- title: How To Write With An LLM
-  url: "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/"
-  date: 2026-09-17
-  source: Simon Willison
-  category: ai
-- title: Self-generated prompt injections in compaction summaries
-  url: "https://simonwillison.net/2026/Sep/17/compaction-summaries/"
-  date: 2026-09-17
-  source: Simon Willison
-  category: ai
-- title: "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint"
-  url: "https://prismml.com/news/bonsai-2-27b"
-  date: 2026-09-17
-  source: Hacker News Best
-  category: programming
-- title: "Bend – A language that blocks AI mistakes via proof, on CPU and GPU"
-  url: "https://bend-lang.com/"
-  date: 2026-09-17
-  source: Hacker News Best
-  category: programming
-- title: Astra for Law
-  url: "https://openai.com/index/astra-for-law/"
-  date: 2026-09-17
-  source: Hacker News Best
-  category: programming
-- title: "Everybody's Lost Their Minds"
-  url: "https://www.netmeister.org/blog/everybodys-lost-their-minds.html"
-  date: 2026-09-17
-  source: Hacker News Best
-  category: programming
 - title: Animal eye
   url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
   date: 2026-09-17
@@ -68,26 +88,6 @@
   date: 2026-09-17
   source: The Marginalian
   category: philosophy
-- title: "The Canon of Solitude: 200 Years of Great Writers, Artists, and Scientists on the Creative and Spiritual Rewards of Fertile Aloneness"
-  url: "https://www.themarginalian.org/2026/09/17/solitude/"
-  date: 2026-09-17
-  source: The Marginalian
-  category: philosophy
-- title: "The Measure of a Life Well Lived: Henry Miller on How to Grow Old and the Secret of Remaining Young at Heart"
-  url: "https://www.themarginalian.org/2026/09/17/henry-miller-on-turning-eighty/"
-  date: 2026-09-17
-  source: The Marginalian
-  category: philosophy
-- title: datasette 1.0a40
-  url: "https://simonwillison.net/2026/Sep/16/datasette/"
-  date: 2026-09-16
-  source: Simon Willison
-  category: ai
-- title: datasette 0.65.5
-  url: "https://simonwillison.net/2026/Sep/16/datasette-2/"
-  date: 2026-09-16
-  source: Simon Willison
-  category: ai
 - title: The meaning of fake marble
   url: "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble"
   date: 2026-09-16
