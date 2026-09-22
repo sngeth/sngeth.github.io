@@ -1,5 +1,40 @@
-- title: "Grim Fandango Puzzle Document (1996) [pdf]"
-  url: "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf"
+- title: Toadstools and toxins
+  url: "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies"
+  date: 2026-09-22
+  source: Aeon
+  category: philosophy
+- title: "Jev introduces a new shape of LLM - System One, aka Decision Models"
+  url: "https://simonwillison.net/2026/Sep/21/jev/"
+  date: 2026-09-21
+  source: Simon Willison
+  category: ai
+- title: Cloudflare Python Workers are now generally available
+  url: "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/"
+  date: 2026-09-21
+  source: Simon Willison
+  category: ai
+- title: "Spymarks, Not Watermarks"
+  url: "https://brand.io/article/spymarks/"
+  date: 2026-09-21
+  source: Hacker News Best
+  category: programming
+- title: "I don't want to read what you didn't write"
+  url: "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/"
+  date: 2026-09-21
+  source: Hacker News Best
+  category: programming
+- title: MiMo v2.6
+  url: "https://mimo.xiaomi.com/mimo-v2-6"
+  date: 2026-09-21
+  source: Hacker News Best
+  category: programming
+- title: Transformers Explained Visually
+  url: "https://poloclub.github.io/transformer-explainer/"
+  date: 2026-09-21
+  source: Hacker News Best
+  category: programming
+- title: NASA’s Mars Sample Return mission is dead
+  url: "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead"
   date: 2026-09-21
   source: Hacker News Best
   category: programming
@@ -13,8 +48,23 @@
   date: 2026-09-21
   source: Aeon
   category: philosophy
+- title: The Science of Waiting and the Art of Delay
+  url: "https://www.themarginalian.org/2026/09/21/wait-frank-partnoy/"
+  date: 2026-09-21
+  source: The Marginalian
+  category: philosophy
+- title: Steinbeck and the Difficult Art of the Friend Breakup
+  url: "https://www.themarginalian.org/2026/09/21/john-steinbeck-george-albee-friend-breakup-letter/"
+  date: 2026-09-21
+  source: The Marginalian
+  category: philosophy
 - title: Quoting voxium
   url: "https://simonwillison.net/2026/Sep/20/voxium/"
+  date: 2026-09-20
+  source: Simon Willison
+  category: ai
+- title: "MCP was always a bad idea?"
+  url: "https://simonwillison.net/2026/Sep/20/hn-49779718/"
   date: 2026-09-20
   source: Simon Willison
   category: ai
@@ -23,31 +73,6 @@
   date: 2026-09-20
   source: Simon Willison
   category: ai
-- title: datasette-explain 0.2.2
-  url: "https://simonwillison.net/2026/Sep/20/datasette-explain/"
-  date: 2026-09-20
-  source: Simon Willison
-  category: ai
-- title: What happened to the Snowden archive
-  url: "https://libroot.org/posts/what-happened-to-the-snowden-archive"
-  date: 2026-09-20
-  source: Hacker News Best
-  category: programming
-- title: AX – Google’s Open Agentic Orchestrator
-  url: "https://agentexecutor.io"
-  date: 2026-09-20
-  source: Hacker News Best
-  category: programming
-- title: Bill to Ban Private Equity from Owning Medical Practices
-  url: "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/"
-  date: 2026-09-20
-  source: Hacker News Best
-  category: programming
-- title: "Nobody pays for FOSS, we can force them to"
-  url: "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/"
-  date: 2026-09-20
-  source: Hacker News Best
-  category: programming
 - title: "Are You Working: In Defense of the Invisible Labors of Creativitiy"
   url: "https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/"
   date: 2026-09-20
@@ -58,16 +83,6 @@
   date: 2026-09-20
   source: The Marginalian
   category: philosophy
-- title: datasette-auth-github 1.0
-  url: "https://simonwillison.net/2026/Sep/19/datasette-auth-github/"
-  date: 2026-09-19
-  source: Simon Willison
-  category: ai
-- title: "California Sea Lion, Brandt's Cormorant"
-  url: "https://simonwillison.net/2026/Sep/19/sighting-401567341/"
-  date: 2026-09-19
-  source: Simon Willison
-  category: ai
 - title: Notes on discrete-time Fourier series and transform
   url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
   date: 2026-09-19
@@ -83,23 +98,8 @@
   date: 2026-09-18
   source: Aeon
   category: philosophy
-- title: "Against the Cartesian Myth of Work/Life Balance: André Gregory’s Extraordinary Letter to Richard Avedon about the Nature of Creativity"
-  url: "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter/"
-  date: 2026-09-18
-  source: The Marginalian
-  category: philosophy
-- title: "The Stoic Key to Living with Presence: Seneca on Time Spent vs. Saved vs. Wasted"
-  url: "https://www.themarginalian.org/2026/09/18/seneca-letter-1-time/"
-  date: 2026-09-18
-  source: The Marginalian
-  category: philosophy
 - title: Animal eye
   url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
-  date: 2026-09-17
-  source: Aeon
-  category: philosophy
-- title: "Who will taste the cherries?"
-  url: "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries"
   date: 2026-09-17
   source: Aeon
   category: philosophy
