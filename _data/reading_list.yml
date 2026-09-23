@@ -1,43 +1,78 @@
+- title: "SF October 14th: A Birds of a Feather Session on Agentic Engineering"
+  url: "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
+  date: 2026-09-23
+  source: Simon Willison
+  category: ai
+- title: How the West was fun
+  url: "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed"
+  date: 2026-09-23
+  source: Aeon
+  category: philosophy
+- title: "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
+  url: "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+  date: 2026-09-22
+  source: Simon Willison
+  category: ai
+- title: llm 0.36
+  url: "https://simonwillison.net/2026/Sep/22/llm/"
+  date: 2026-09-22
+  source: Simon Willison
+  category: ai
+- title: "Quoting @therealcornpop"
+  url: "https://simonwillison.net/2026/Sep/22/therealcornpop/"
+  date: 2026-09-22
+  source: Simon Willison
+  category: ai
+- title: llm-anthropic 0.29
+  url: "https://simonwillison.net/2026/Sep/22/llm-anthropic/"
+  date: 2026-09-22
+  source: Simon Willison
+  category: ai
+- title: "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived"
+  url: "https://foxscript.org/"
+  date: 2026-09-22
+  source: Hacker News Best
+  category: programming
+- title: Pentagon says overreliance on AI contributed to missile strike on Iran school
+  url: "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+  date: 2026-09-22
+  source: Hacker News Best
+  category: programming
+- title: GPT-6 Sol and Luna
+  url: "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  date: 2026-09-22
+  source: Hacker News Best
+  category: programming
+- title: "'We hacked the FBI:' Hackers say they have data on all FBI employees"
+  url: "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/"
+  date: 2026-09-22
+  source: Hacker News Best
+  category: programming
+- title: "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027"
+  url: "https://grapheneos.social/@GrapheneOS/117299954135808210"
+  date: 2026-09-22
+  source: Hacker News Best
+  category: programming
 - title: Toadstools and toxins
   url: "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies"
   date: 2026-09-22
   source: Aeon
   category: philosophy
-- title: "Jev introduces a new shape of LLM - System One, aka Decision Models"
-  url: "https://simonwillison.net/2026/Sep/21/jev/"
-  date: 2026-09-21
-  source: Simon Willison
-  category: ai
-- title: Cloudflare Python Workers are now generally available
-  url: "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/"
-  date: 2026-09-21
-  source: Simon Willison
-  category: ai
-- title: "Spymarks, Not Watermarks"
-  url: "https://brand.io/article/spymarks/"
-  date: 2026-09-21
-  source: Hacker News Best
-  category: programming
-- title: "I don't want to read what you didn't write"
-  url: "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/"
-  date: 2026-09-21
-  source: Hacker News Best
-  category: programming
-- title: MiMo v2.6
-  url: "https://mimo.xiaomi.com/mimo-v2-6"
-  date: 2026-09-21
-  source: Hacker News Best
-  category: programming
-- title: Transformers Explained Visually
-  url: "https://poloclub.github.io/transformer-explainer/"
-  date: 2026-09-21
-  source: Hacker News Best
-  category: programming
-- title: NASA’s Mars Sample Return mission is dead
-  url: "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead"
-  date: 2026-09-21
-  source: Hacker News Best
-  category: programming
+- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/09/22/dostoyevsky-execution-life/"
+  date: 2026-09-22
+  source: The Marginalian
+  category: philosophy
+- title: "The Vampire Problem: The Paradoxical Psychology of Why It Is So Hard to Change"
+  url: "https://www.themarginalian.org/2026/09/22/transformative-experience-vampire-problem/"
+  date: 2026-09-22
+  source: The Marginalian
+  category: philosophy
+- title: "How to Hold the Darkness: Notes on Living Through Uncertainty"
+  url: "https://www.themarginalian.org/2026/09/22/francis-weller-ordinary/"
+  date: 2026-09-22
+  source: The Marginalian
+  category: philosophy
 - title: Sound guardians
   url: "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost"
   date: 2026-09-21
@@ -58,49 +93,14 @@
   date: 2026-09-21
   source: The Marginalian
   category: philosophy
-- title: Quoting voxium
-  url: "https://simonwillison.net/2026/Sep/20/voxium/"
-  date: 2026-09-20
-  source: Simon Willison
-  category: ai
-- title: "MCP was always a bad idea?"
-  url: "https://simonwillison.net/2026/Sep/20/hn-49779718/"
-  date: 2026-09-20
-  source: Simon Willison
-  category: ai
-- title: llm-keys-ui 0.1
-  url: "https://simonwillison.net/2026/Sep/20/llm-keys-ui/"
-  date: 2026-09-20
-  source: Simon Willison
-  category: ai
-- title: "Are You Working: In Defense of the Invisible Labors of Creativitiy"
-  url: "https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/"
-  date: 2026-09-20
-  source: The Marginalian
-  category: philosophy
-- title: "The Courage to Be Yourself: E.E. Cummings on Art, Life, and Being Unafraid to Feel"
-  url: "https://www.themarginalian.org/2026/09/20/e-e-cummings-advice/"
-  date: 2026-09-20
-  source: The Marginalian
-  category: philosophy
 - title: Notes on discrete-time Fourier series and transform
   url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
   date: 2026-09-19
   source: Eli Bendersky
   category: programming
-- title: Edward Abbey on How to Live and How to Die
-  url: "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die/"
-  date: 2026-09-19
-  source: The Marginalian
-  category: philosophy
 - title: Cosmic amnesia
   url: "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger"
   date: 2026-09-18
-  source: Aeon
-  category: philosophy
-- title: Animal eye
-  url: "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes"
-  date: 2026-09-17
   source: Aeon
   category: philosophy
 - title: "How well do agents use test and verification techniques?"
