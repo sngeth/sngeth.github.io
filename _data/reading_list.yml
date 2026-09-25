@@ -1,5 +1,40 @@
-- title: "Feds Target AI Critics as \"Foreign Agents\""
-  url: "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign"
+- title: Reasoning together
+  url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
+  date: 2026-09-25
+  source: Aeon
+  category: philosophy
+- title: commit-rewriter 0.2
+  url: "https://simonwillison.net/2026/Sep/24/commit-rewriter/"
+  date: 2026-09-24
+  source: Simon Willison
+  category: ai
+- title: datasette 1.0a41
+  url: "https://simonwillison.net/2026/Sep/24/datasette/"
+  date: 2026-09-24
+  source: Simon Willison
+  category: ai
+- title: Opus 5.5 is good at explainer videos
+  url: "https://launchvideo.io"
+  date: 2026-09-24
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design"
+  url: "https://github.com/devdotfast/whiteboard"
+  date: 2026-09-24
+  source: Hacker News Best
+  category: programming
+- title: "Why is the liver so weirdly regenerative?"
+  url: "https://dynomight.substack.com/p/liver"
+  date: 2026-09-24
+  source: Hacker News Best
+  category: programming
+- title: GitHub has not removed malicious imitation software after 3 weeks
+  url: "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/"
+  date: 2026-09-24
+  source: Hacker News Best
+  category: programming
+- title: F-Droid 2.0
+  url: "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
   date: 2026-09-24
   source: Hacker News Best
   category: programming
@@ -12,6 +47,16 @@
   url: "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic"
   date: 2026-09-24
   source: Aeon
+  category: philosophy
+- title: "How to Fall in Love Better: A Field Guide to Enlightened Enchantment"
+  url: "https://www.themarginalian.org/2026/09/24/love-enchantment/"
+  date: 2026-09-24
+  source: The Marginalian
+  category: philosophy
+- title: Emerson on How to Trust Yourself
+  url: "https://www.themarginalian.org/2026/09/24/emerson-character-solitude-nature/"
+  date: 2026-09-24
+  source: The Marginalian
   category: philosophy
 - title: Gemini 3.8 TTS Playground
   url: "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
@@ -28,26 +73,6 @@
   date: 2026-09-23
   source: Simon Willison
   category: ai
-- title: Meta VR Glasses
-  url: "https://www.meta.com/vr-glasses/"
-  date: 2026-09-23
-  source: Hacker News Best
-  category: programming
-- title: Linux support is coming to Snapdragon X2 Series
-  url: "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux"
-  date: 2026-09-23
-  source: Hacker News Best
-  category: programming
-- title: DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why
-  url: "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/"
-  date: 2026-09-23
-  source: Hacker News Best
-  category: programming
-- title: Claude discovers a novel enzyme system with CRISPR-like repeats
-  url: "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-  date: 2026-09-23
-  source: Hacker News Best
-  category: programming
 - title: How the West was fun
   url: "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed"
   date: 2026-09-23
@@ -68,34 +93,9 @@
   date: 2026-09-23
   source: The Marginalian
   category: philosophy
-- title: "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
-  url: "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
-  date: 2026-09-22
-  source: Simon Willison
-  category: ai
-- title: llm 0.36
-  url: "https://simonwillison.net/2026/Sep/22/llm/"
-  date: 2026-09-22
-  source: Simon Willison
-  category: ai
 - title: Toadstools and toxins
   url: "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies"
   date: 2026-09-22
-  source: Aeon
-  category: philosophy
-- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/09/22/dostoyevsky-execution-life/"
-  date: 2026-09-22
-  source: The Marginalian
-  category: philosophy
-- title: "The Vampire Problem: The Paradoxical Psychology of Why It Is So Hard to Change"
-  url: "https://www.themarginalian.org/2026/09/22/transformative-experience-vampire-problem/"
-  date: 2026-09-22
-  source: The Marginalian
-  category: philosophy
-- title: Sound guardians
-  url: "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost"
-  date: 2026-09-21
   source: Aeon
   category: philosophy
 - title: Notes on discrete-time Fourier series and transform
