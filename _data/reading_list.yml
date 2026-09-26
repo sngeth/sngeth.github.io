@@ -1,8 +1,58 @@
+- title: Jury finds Facebook liable for deceiving users in Cambridge Analytica case
+  url: "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/"
+  date: 2026-09-26
+  source: Hacker News Best
+  category: programming
+- title: How to Speak Forest
+  url: "https://www.themarginalian.org/2026/09/25/a-forest-language-hannah-fries/"
+  date: 2026-09-26
+  source: The Marginalian
+  category: philosophy
+- title: Quoting John Gruber
+  url: "https://simonwillison.net/2026/Sep/25/john-gruber/"
+  date: 2026-09-25
+  source: Simon Willison
+  category: ai
+- title: "Northern Gannet, Great Blue Heron, California Brown Pelican"
+  url: "https://simonwillison.net/2026/Sep/25/sighting-403293902/"
+  date: 2026-09-25
+  source: Simon Willison
+  category: ai
+- title: "What even is an OS now?"
+  url: "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/"
+  date: 2026-09-25
+  source: Hacker News Best
+  category: programming
+- title: Revealing the details of how OpenAI agents hacked Hugging Face
+  url: "https://swarmtraces.org/"
+  date: 2026-09-25
+  source: Hacker News Best
+  category: programming
+- title: How we learned to stop worrying and love campus surveillance
+  url: "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/"
+  date: 2026-09-25
+  source: Hacker News Best
+  category: programming
+- title: "Ollaya – Ollama for open-source, Jev-style decision models"
+  url: "https://ollaya.dev/"
+  date: 2026-09-25
+  source: Hacker News Best
+  category: programming
 - title: Reasoning together
   url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
   date: 2026-09-25
   source: Aeon
   category: philosophy
+- title: Nietzsche on How to Find Yourself and the True Value of Education
+  url: "https://www.themarginalian.org/2026/09/25/nietzsche-find-yourself-schopenhauer-as-educator/"
+  date: 2026-09-25
+  source: The Marginalian
+  category: philosophy
+- title: Note on 24th September 2026
+  url: "https://simonwillison.net/2026/Sep/24/harder/"
+  date: 2026-09-24
+  source: Simon Willison
+  category: ai
 - title: commit-rewriter 0.2
   url: "https://simonwillison.net/2026/Sep/24/commit-rewriter/"
   date: 2026-09-24
@@ -13,31 +63,6 @@
   date: 2026-09-24
   source: Simon Willison
   category: ai
-- title: Opus 5.5 is good at explainer videos
-  url: "https://launchvideo.io"
-  date: 2026-09-24
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design"
-  url: "https://github.com/devdotfast/whiteboard"
-  date: 2026-09-24
-  source: Hacker News Best
-  category: programming
-- title: "Why is the liver so weirdly regenerative?"
-  url: "https://dynomight.substack.com/p/liver"
-  date: 2026-09-24
-  source: Hacker News Best
-  category: programming
-- title: GitHub has not removed malicious imitation software after 3 weeks
-  url: "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/"
-  date: 2026-09-24
-  source: Hacker News Best
-  category: programming
-- title: F-Droid 2.0
-  url: "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
-  date: 2026-09-24
-  source: Hacker News Best
-  category: programming
 - title: Britain’s last great airship
   url: "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship"
   date: 2026-09-24
@@ -58,21 +83,6 @@
   date: 2026-09-24
   source: The Marginalian
   category: philosophy
-- title: Gemini 3.8 TTS Playground
-  url: "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
-  date: 2026-09-23
-  source: Simon Willison
-  category: ai
-- title: "Shadow roots, explained with live examples"
-  url: "https://simonwillison.net/2026/Sep/23/shadow-roots/"
-  date: 2026-09-23
-  source: Simon Willison
-  category: ai
-- title: "SF October 14th: A Birds of a Feather Session on Agentic Engineering"
-  url: "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
-  date: 2026-09-23
-  source: Simon Willison
-  category: ai
 - title: How the West was fun
   url: "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed"
   date: 2026-09-23
@@ -80,16 +90,6 @@
   category: philosophy
 - title: "A Stoic’s Key to Peace of Mind: Seneca on the Antidote to Anxiety"
   url: "https://www.themarginalian.org/2026/09/23/seneca-anxiety/"
-  date: 2026-09-23
-  source: The Marginalian
-  category: philosophy
-- title: The Three Elements of the Good Life
-  url: "https://www.themarginalian.org/2026/09/23/carl-rogers-good-life/"
-  date: 2026-09-23
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be a Poet: Elizabeth Alexander on the Yin-Yang of Connection and Contradiction"
-  url: "https://www.themarginalian.org/2026/09/23/elizabeth-alexander-signas-across-vast-distances/"
   date: 2026-09-23
   source: The Marginalian
   category: philosophy
@@ -168,11 +168,6 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -188,31 +183,11 @@
   date: 2026-05-02
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
