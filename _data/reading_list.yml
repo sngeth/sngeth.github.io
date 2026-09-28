@@ -1,8 +1,73 @@
-- title: "OpenAI Feared \"Optics\" of what might appear on Hacker News"
-  url: "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+- title: Quoting Muse AI Agent
+  url: "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+  date: 2026-09-28
+  source: Simon Willison
+  category: ai
+- title: "Musk, the Movie"
+  url: "https://bleeckerstreetmedia.com/musk"
+  date: 2026-09-28
+  source: Hacker News Best
+  category: programming
+- title: Owed a billion dollars in Nvidia stock
+  url: "https://colo.to/nvidia-stock-narrative.html"
+  date: 2026-09-28
+  source: Hacker News Best
+  category: programming
+- title: Affect theory
+  url: "https://aeon.co/videos/beyond-the-mind-body-divide-on-the-affective-turn-in-the-humanities"
+  date: 2026-09-28
+  source: Aeon
+  category: philosophy
+- title: Paternity is poetical
+  url: "https://aeon.co/essays/when-a-man-becomes-a-father-and-a-poetic-revolution-follows"
+  date: 2026-09-28
+  source: Aeon
+  category: philosophy
+- title: 2026 in LLMs (so far)
+  url: "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+  date: 2026-09-27
+  source: Simon Willison
+  category: ai
+- title: "S3 Is the Future, S3 Is the Past"
+  url: "https://simonwillison.net/2026/Sep/27/hn-49871741/"
+  date: 2026-09-27
+  source: Simon Willison
+  category: ai
+- title: Bluesky reply bot checker
+  url: "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
+  date: 2026-09-27
+  source: Simon Willison
+  category: ai
+- title: Replacing the old battery on rechargeable bike lights
+  url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
+  date: 2026-09-27
+  source: Julia Evans
+  category: programming
+- title: "When did Google get so weird?"
+  url: "https://sancho.bearblog.dev/google-weird/"
   date: 2026-09-27
   source: Hacker News Best
   category: programming
+- title: Self-Hosting on the Dark Web
+  url: "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/"
+  date: 2026-09-27
+  source: Hacker News Best
+  category: programming
+- title: "Alan Kay's answer to “Did the ENIAC have a BIOS”?"
+  url: "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11"
+  date: 2026-09-27
+  source: Hacker News Best
+  category: programming
+- title: "The Weasel and the Meaning of It All: Annie Dillard on How to Live"
+  url: "https://www.themarginalian.org/2026/09/27/annie-dillard-weasel/"
+  date: 2026-09-27
+  source: The Marginalian
+  category: philosophy
+- title: "Do Not Spare Yourself: An Antidote to Feeling Like You Are Waiting to Start Living"
+  url: "https://www.themarginalian.org/2026/09/27/no-te-salves/"
+  date: 2026-09-27
+  source: The Marginalian
+  category: philosophy
 - title: Hermann Hesse on Discovering the Soul Beneath the Self and the Key to Finding Peace
   url: "https://www.themarginalian.org/2026/09/26/hesse-soul/"
   date: 2026-09-27
@@ -18,26 +83,6 @@
   date: 2026-09-26
   source: Eli Bendersky
   category: programming
-- title: DeepSeek Elastic Compute (DSec)
-  url: "https://arxiv.org/abs/2609.22978"
-  date: 2026-09-26
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Reladraw – A diagram language where you decide where to place things"
-  url: "https://github.com/reladraw/reladraw"
-  date: 2026-09-26
-  source: Hacker News Best
-  category: programming
-- title: "I'm the mom in that viral Giants clip. Let me tell you about my husband"
-  url: "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip"
-  date: 2026-09-26
-  source: Hacker News Best
-  category: programming
-- title: Go Concurrency Distilled
-  url: "https://antonz.org/go-concurrency-distilled/"
-  date: 2026-09-26
-  source: Hacker News Best
-  category: programming
 - title: "How to Handle a Narcissistic and Abusive Parent: Kafka’s Remarkable Letter to Father"
   url: "https://www.themarginalian.org/2026/09/26/franz-kafka-letter-father/"
   date: 2026-09-26
@@ -48,36 +93,11 @@
   date: 2026-09-26
   source: The Marginalian
   category: philosophy
-- title: Quoting John Gruber
-  url: "https://simonwillison.net/2026/Sep/25/john-gruber/"
-  date: 2026-09-25
-  source: Simon Willison
-  category: ai
-- title: "Northern Gannet, Great Blue Heron, California Brown Pelican"
-  url: "https://simonwillison.net/2026/Sep/25/sighting-403293902/"
-  date: 2026-09-25
-  source: Simon Willison
-  category: ai
 - title: Reasoning together
   url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
   date: 2026-09-25
   source: Aeon
   category: philosophy
-- title: Nietzsche on How to Find Yourself and the True Value of Education
-  url: "https://www.themarginalian.org/2026/09/25/nietzsche-find-yourself-schopenhauer-as-educator/"
-  date: 2026-09-25
-  source: The Marginalian
-  category: philosophy
-- title: Note on 24th September 2026
-  url: "https://simonwillison.net/2026/Sep/24/harder/"
-  date: 2026-09-24
-  source: Simon Willison
-  category: ai
-- title: commit-rewriter 0.2
-  url: "https://simonwillison.net/2026/Sep/24/commit-rewriter/"
-  date: 2026-09-24
-  source: Simon Willison
-  category: ai
 - title: Britain’s last great airship
   url: "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship"
   date: 2026-09-24
@@ -88,25 +108,15 @@
   date: 2026-09-24
   source: Aeon
   category: philosophy
-- title: "How to Fall in Love Better: A Field Guide to Enlightened Enchantment"
-  url: "https://www.themarginalian.org/2026/09/24/love-enchantment/"
-  date: 2026-09-24
-  source: The Marginalian
-  category: philosophy
-- title: How the West was fun
-  url: "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed"
-  date: 2026-09-23
-  source: Aeon
-  category: philosophy
-- title: Toadstools and toxins
-  url: "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies"
-  date: 2026-09-22
-  source: Aeon
-  category: philosophy
 - title: Notes on discrete-time Fourier series and transform
   url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
   date: 2026-09-19
   source: Eli Bendersky
+  category: programming
+- title: "There's no point at which turning your brain off will work"
+  url: "https://danluu.com/brain-off/"
+  date: 2026-09-18
+  source: Dan Luu
   category: programming
 - title: "How well do agents use test and verification techniques?"
   url: "https://danluu.com/agentic-testing/"
@@ -136,11 +146,6 @@
 - title: "There's no reason for software to be slow anymore"
   url: "https://danluu.com/perf-opt/"
   date: 2026-08-21
-  source: Dan Luu
-  category: programming
-- title: The benchmarkpocalypse
-  url: "https://danluu.com/benchpocalypse/"
-  date: 2026-08-17
   source: Dan Luu
   category: programming
 - title: "Concurrent Servers: Part 7 - Rust"
@@ -181,11 +186,6 @@
 - title: Links to CSS colour palettes
   url: "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
   date: 2026-05-04
-  source: Julia Evans
-  category: programming
-- title: Testing Vue components in the browser
-  url: "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-  date: 2026-05-02
   source: Julia Evans
   category: programming
 - title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
