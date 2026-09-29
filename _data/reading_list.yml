@@ -1,15 +1,45 @@
+- title: Don’t use the ‘C-word’
+  url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
+  date: 2026-09-29
+  source: Aeon
+  category: philosophy
+- title: Claude Sonnet 5.5
+  url: "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+  date: 2026-09-28
+  source: Simon Willison
+  category: ai
+- title: "Quoting @joedaroo"
+  url: "https://simonwillison.net/2026/Sep/28/joedaroo/"
+  date: 2026-09-28
+  source: Simon Willison
+  category: ai
 - title: Quoting Muse AI Agent
   url: "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
   date: 2026-09-28
   source: Simon Willison
   category: ai
-- title: "Musk, the Movie"
-  url: "https://bleeckerstreetmedia.com/musk"
+- title: "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms"
+  url: "https://github.com/firelex/jeff"
   date: 2026-09-28
   source: Hacker News Best
   category: programming
-- title: Owed a billion dollars in Nvidia stock
-  url: "https://colo.to/nvidia-stock-narrative.html"
+- title: World Labs is Joining AMD
+  url: "https://www.worldlabs.ai/blog/amd-announcement"
+  date: 2026-09-28
+  source: Hacker News Best
+  category: programming
+- title: California farmers are struggling to sell grapes as demand for wine drops
+  url: "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops"
+  date: 2026-09-28
+  source: Hacker News Best
+  category: programming
+- title: "It's Time to Investigate the AI Labs"
+  url: "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
+  date: 2026-09-28
+  source: Hacker News Best
+  category: programming
+- title: "MicroLLM Lab – Try 7 tiny LLM's in the browser"
+  url: "https://stateofutopia.com/experiments/microllmlab/"
   date: 2026-09-28
   source: Hacker News Best
   category: programming
@@ -23,6 +53,21 @@
   date: 2026-09-28
   source: Aeon
   category: philosophy
+- title: "Inner Space, Outer Space, and How to Be an Astronaut in the Cosmos of Connection: Eric Berne on the Key to True Intimacy"
+  url: "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy/"
+  date: 2026-09-28
+  source: The Marginalian
+  category: philosophy
+- title: "Orcas and the Price of Consciousness: Lessons in Love and Loss from Earth’s Most Successful and Creative Predator"
+  url: "https://www.themarginalian.org/2026/09/28/orcas/"
+  date: 2026-09-28
+  source: The Marginalian
+  category: philosophy
+- title: Bertrand Russell on the Secret of Happiness
+  url: "https://www.themarginalian.org/2026/09/28/bertrand-russell-happiness/"
+  date: 2026-09-28
+  source: The Marginalian
+  category: philosophy
 - title: 2026 in LLMs (so far)
   url: "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
   date: 2026-09-27
@@ -33,30 +78,10 @@
   date: 2026-09-27
   source: Simon Willison
   category: ai
-- title: Bluesky reply bot checker
-  url: "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/"
-  date: 2026-09-27
-  source: Simon Willison
-  category: ai
 - title: Replacing the old battery on rechargeable bike lights
   url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
   date: 2026-09-27
   source: Julia Evans
-  category: programming
-- title: "When did Google get so weird?"
-  url: "https://sancho.bearblog.dev/google-weird/"
-  date: 2026-09-27
-  source: Hacker News Best
-  category: programming
-- title: Self-Hosting on the Dark Web
-  url: "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/"
-  date: 2026-09-27
-  source: Hacker News Best
-  category: programming
-- title: "Alan Kay's answer to “Did the ENIAC have a BIOS”?"
-  url: "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11"
-  date: 2026-09-27
-  source: Hacker News Best
   category: programming
 - title: "The Weasel and the Meaning of It All: Annie Dillard on How to Live"
   url: "https://www.themarginalian.org/2026/09/27/annie-dillard-weasel/"
@@ -68,31 +93,11 @@
   date: 2026-09-27
   source: The Marginalian
   category: philosophy
-- title: Hermann Hesse on Discovering the Soul Beneath the Self and the Key to Finding Peace
-  url: "https://www.themarginalian.org/2026/09/26/hesse-soul/"
-  date: 2026-09-27
-  source: The Marginalian
-  category: philosophy
-- title: Kākāpō Party
-  url: "https://simonwillison.net/2026/Sep/26/kakapo-party/"
-  date: 2026-09-26
-  source: Simon Willison
-  category: ai
 - title: "Rusty thoughts on \"Parse, don't validate\""
   url: "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/"
   date: 2026-09-26
   source: Eli Bendersky
   category: programming
-- title: "How to Handle a Narcissistic and Abusive Parent: Kafka’s Remarkable Letter to Father"
-  url: "https://www.themarginalian.org/2026/09/26/franz-kafka-letter-father/"
-  date: 2026-09-26
-  source: The Marginalian
-  category: philosophy
-- title: How to Speak Forest
-  url: "https://www.themarginalian.org/2026/09/25/a-forest-language-hannah-fries/"
-  date: 2026-09-26
-  source: The Marginalian
-  category: philosophy
 - title: Reasoning together
   url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
   date: 2026-09-25
@@ -100,11 +105,6 @@
   category: philosophy
 - title: Britain’s last great airship
   url: "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship"
-  date: 2026-09-24
-  source: Aeon
-  category: philosophy
-- title: Where a land ethic blooms
-  url: "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic"
   date: 2026-09-24
   source: Aeon
   category: philosophy
