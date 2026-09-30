@@ -1,3 +1,58 @@
+- title: Passportless mess
+  url: "https://aeon.co/videos/searching-for-a-local-legend-a-filmmaker-stumbles-into-a-tragicomedy"
+  date: 2026-09-30
+  source: Aeon
+  category: philosophy
+- title: C.S. Lewis on How to Structure the Days of a Creative Life and Train the Receptive Imagination
+  url: "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule/"
+  date: 2026-09-30
+  source: The Marginalian
+  category: philosophy
+- title: David Bowie Answers the Famous Proust Questionnaire
+  url: "https://www.themarginalian.org/2026/09/29/david-bowie-proust-questionnaire-vanity-fair/"
+  date: 2026-09-30
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Anthropic Frontier Red Team
+  url: "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
+  date: 2026-09-29
+  source: Simon Willison
+  category: ai
+- title: "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price"
+  url: "https://simonwillison.net/2026/Sep/29/hn-49898129/"
+  date: 2026-09-29
+  source: Simon Willison
+  category: ai
+- title: OpenAI DevDay 2026 live blog
+  url: "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+  date: 2026-09-29
+  source: Simon Willison
+  category: ai
+- title: "Livenerf: Has Opus 5.5 been nerfed yet?"
+  url: "https://github.com/ninjahawk/livenerf"
+  date: 2026-09-29
+  source: Hacker News Best
+  category: programming
+- title: Tcl/Tk 9.1
+  url: "https://www.tcl-lang.org/software/tcltk/9.1.html"
+  date: 2026-09-29
+  source: Hacker News Best
+  category: programming
+- title: "Dots: Always-on agents"
+  url: "https://openai.com/index/introducing-dots/"
+  date: 2026-09-29
+  source: Hacker News Best
+  category: programming
+- title: "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price"
+  url: "https://openai.com/index/introducing-gpt-6-1-sol/"
+  date: 2026-09-29
+  source: Hacker News Best
+  category: programming
+- title: DraftKings is using AI to behaviorally target chronic gamblers
+  url: "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising"
+  date: 2026-09-29
+  source: Hacker News Best
+  category: programming
 - title: Don’t use the ‘C-word’
   url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
   date: 2026-09-29
@@ -13,36 +68,6 @@
   date: 2026-09-28
   source: Simon Willison
   category: ai
-- title: Quoting Muse AI Agent
-  url: "https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
-  date: 2026-09-28
-  source: Simon Willison
-  category: ai
-- title: "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms"
-  url: "https://github.com/firelex/jeff"
-  date: 2026-09-28
-  source: Hacker News Best
-  category: programming
-- title: World Labs is Joining AMD
-  url: "https://www.worldlabs.ai/blog/amd-announcement"
-  date: 2026-09-28
-  source: Hacker News Best
-  category: programming
-- title: California farmers are struggling to sell grapes as demand for wine drops
-  url: "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops"
-  date: 2026-09-28
-  source: Hacker News Best
-  category: programming
-- title: "It's Time to Investigate the AI Labs"
-  url: "https://calnewport.com/its-time-to-investigate-the-ai-labs/"
-  date: 2026-09-28
-  source: Hacker News Best
-  category: programming
-- title: "MicroLLM Lab – Try 7 tiny LLM's in the browser"
-  url: "https://stateofutopia.com/experiments/microllmlab/"
-  date: 2026-09-28
-  source: Hacker News Best
-  category: programming
 - title: Affect theory
   url: "https://aeon.co/videos/beyond-the-mind-body-divide-on-the-affective-turn-in-the-humanities"
   date: 2026-09-28
@@ -68,31 +93,11 @@
   date: 2026-09-28
   source: The Marginalian
   category: philosophy
-- title: 2026 in LLMs (so far)
-  url: "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
-  date: 2026-09-27
-  source: Simon Willison
-  category: ai
-- title: "S3 Is the Future, S3 Is the Past"
-  url: "https://simonwillison.net/2026/Sep/27/hn-49871741/"
-  date: 2026-09-27
-  source: Simon Willison
-  category: ai
 - title: Replacing the old battery on rechargeable bike lights
   url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
   date: 2026-09-27
   source: Julia Evans
   category: programming
-- title: "The Weasel and the Meaning of It All: Annie Dillard on How to Live"
-  url: "https://www.themarginalian.org/2026/09/27/annie-dillard-weasel/"
-  date: 2026-09-27
-  source: The Marginalian
-  category: philosophy
-- title: "Do Not Spare Yourself: An Antidote to Feeling Like You Are Waiting to Start Living"
-  url: "https://www.themarginalian.org/2026/09/27/no-te-salves/"
-  date: 2026-09-27
-  source: The Marginalian
-  category: philosophy
 - title: "Rusty thoughts on \"Parse, don't validate\""
   url: "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/"
   date: 2026-09-26
@@ -101,11 +106,6 @@
 - title: Reasoning together
   url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
   date: 2026-09-25
-  source: Aeon
-  category: philosophy
-- title: Britain’s last great airship
-  url: "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship"
-  date: 2026-09-24
   source: Aeon
   category: philosophy
 - title: Notes on discrete-time Fourier series and transform
