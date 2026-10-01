@@ -1,7 +1,62 @@
+- title: Quoting Matthew Green
+  url: "https://simonwillison.net/2026/Oct/1/matthew-green/"
+  date: 2026-10-01
+  source: Simon Willison
+  category: ai
+- title: Fuck Android Developer Verification Program
+  url: "https://twitter.com/0xcrypto/status/2105515822643114182"
+  date: 2026-10-01
+  source: Hacker News Best
+  category: programming
+- title: Green tree ants are famous in the tropics
+  url: "https://aeon.co/videos/green-tree-ants-have-been-successful-for-ages-enter-the-imposters"
+  date: 2026-10-01
+  source: Aeon
+  category: philosophy
+- title: Reason is more than a tool
+  url: "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation"
+  date: 2026-10-01
+  source: Aeon
+  category: philosophy
+- title: James Baldwin’s Advice on Writing
+  url: "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing/"
+  date: 2026-10-01
+  source: The Marginalian
+  category: philosophy
+- title: He Built This City
+  url: "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
+  date: 2026-09-30
+  source: Simon Willison
+  category: ai
+- title: "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)"
+  url: "https://www.thespacereview.com/article/4951/1"
+  date: 2026-09-30
+  source: Hacker News Best
+  category: programming
+- title: Gemini 4 Argon
+  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+  date: 2026-09-30
+  source: Hacker News Best
+  category: programming
+- title: The AI Race Just Got Awkward
+  url: "https://insufferable.dev/posts/the-ai-race-just-got-awkward/"
+  date: 2026-09-30
+  source: Hacker News Best
+  category: programming
+- title: A brief history of the Bloomberg terminal
+  url: "https://spectrum.ieee.org/bloomberg-terminal"
+  date: 2026-09-30
+  source: Hacker News Best
+  category: programming
 - title: Passportless mess
   url: "https://aeon.co/videos/searching-for-a-local-legend-a-filmmaker-stumbles-into-a-tragicomedy"
   date: 2026-09-30
   source: Aeon
+  category: philosophy
+- title: What Happens When We Die
+  url: "https://www.themarginalian.org/2026/09/30/alan-lightman-death/"
+  date: 2026-09-30
+  source: The Marginalian
   category: philosophy
 - title: C.S. Lewis on How to Structure the Days of a Creative Life and Train the Receptive Imagination
   url: "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule/"
@@ -23,73 +78,23 @@
   date: 2026-09-29
   source: Simon Willison
   category: ai
-- title: OpenAI DevDay 2026 live blog
-  url: "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+- title: "Photo Scrubber — local face blur & metadata removal"
+  url: "https://simonwillison.net/2026/Sep/29/photo-scrubber/"
   date: 2026-09-29
   source: Simon Willison
   category: ai
-- title: "Livenerf: Has Opus 5.5 been nerfed yet?"
-  url: "https://github.com/ninjahawk/livenerf"
-  date: 2026-09-29
-  source: Hacker News Best
-  category: programming
-- title: Tcl/Tk 9.1
-  url: "https://www.tcl-lang.org/software/tcltk/9.1.html"
-  date: 2026-09-29
-  source: Hacker News Best
-  category: programming
-- title: "Dots: Always-on agents"
-  url: "https://openai.com/index/introducing-dots/"
-  date: 2026-09-29
-  source: Hacker News Best
-  category: programming
-- title: "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price"
-  url: "https://openai.com/index/introducing-gpt-6-1-sol/"
-  date: 2026-09-29
-  source: Hacker News Best
-  category: programming
-- title: DraftKings is using AI to behaviorally target chronic gamblers
-  url: "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising"
-  date: 2026-09-29
-  source: Hacker News Best
-  category: programming
 - title: Don’t use the ‘C-word’
   url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
   date: 2026-09-29
   source: Aeon
   category: philosophy
-- title: Claude Sonnet 5.5
-  url: "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
-  date: 2026-09-28
-  source: Simon Willison
-  category: ai
-- title: "Quoting @joedaroo"
-  url: "https://simonwillison.net/2026/Sep/28/joedaroo/"
-  date: 2026-09-28
-  source: Simon Willison
-  category: ai
 - title: Affect theory
   url: "https://aeon.co/videos/beyond-the-mind-body-divide-on-the-affective-turn-in-the-humanities"
   date: 2026-09-28
   source: Aeon
   category: philosophy
-- title: Paternity is poetical
-  url: "https://aeon.co/essays/when-a-man-becomes-a-father-and-a-poetic-revolution-follows"
-  date: 2026-09-28
-  source: Aeon
-  category: philosophy
 - title: "Inner Space, Outer Space, and How to Be an Astronaut in the Cosmos of Connection: Eric Berne on the Key to True Intimacy"
   url: "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy/"
-  date: 2026-09-28
-  source: The Marginalian
-  category: philosophy
-- title: "Orcas and the Price of Consciousness: Lessons in Love and Loss from Earth’s Most Successful and Creative Predator"
-  url: "https://www.themarginalian.org/2026/09/28/orcas/"
-  date: 2026-09-28
-  source: The Marginalian
-  category: philosophy
-- title: Bertrand Russell on the Secret of Happiness
-  url: "https://www.themarginalian.org/2026/09/28/bertrand-russell-happiness/"
   date: 2026-09-28
   source: The Marginalian
   category: philosophy
@@ -103,11 +108,6 @@
   date: 2026-09-26
   source: Eli Bendersky
   category: programming
-- title: Reasoning together
-  url: "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind"
-  date: 2026-09-25
-  source: Aeon
-  category: philosophy
 - title: Notes on discrete-time Fourier series and transform
   url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
   date: 2026-09-19
