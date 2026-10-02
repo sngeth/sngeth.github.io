@@ -1,10 +1,35 @@
+- title: DeepSeek Harness Desktop for macOS and Windows
+  url: "https://www.deepseek.com/en/harness/"
+  date: 2026-10-02
+  source: Hacker News Best
+  category: programming
+- title: Life on a hair trigger
+  url: "https://aeon.co/essays/early-violence-is-a-bad-teacher-but-the-mind-can-learn-anew"
+  date: 2026-10-02
+  source: Aeon
+  category: philosophy
 - title: Quoting Matthew Green
   url: "https://simonwillison.net/2026/Oct/1/matthew-green/"
   date: 2026-10-01
   source: Simon Willison
   category: ai
-- title: Fuck Android Developer Verification Program
-  url: "https://twitter.com/0xcrypto/status/2105515822643114182"
+- title: Several vulnerabilities have been discovered in the Linux kernel
+  url: "https://lwn.net/Articles/1097401/"
+  date: 2026-10-01
+  source: Hacker News Best
+  category: programming
+- title: SvelteKit 3
+  url: "https://svelte.dev/blog/sveltekit-3-is-here"
+  date: 2026-10-01
+  source: Hacker News Best
+  category: programming
+- title: Pi 1.0
+  url: "https://earendil.com/posts/pi-1-0/"
+  date: 2026-10-01
+  source: Hacker News Best
+  category: programming
+- title: Pi Durable
+  url: "https://earendil.com/posts/pi-durable/"
   date: 2026-10-01
   source: Hacker News Best
   category: programming
@@ -18,6 +43,16 @@
   date: 2026-10-01
   source: Aeon
   category: philosophy
+- title: How to Say “YES” to Life
+  url: "https://www.themarginalian.org/2026/10/01/yes/"
+  date: 2026-10-01
+  source: The Marginalian
+  category: philosophy
+- title: Richard Dawkins on the Luckiness of Death
+  url: "https://www.themarginalian.org/2026/10/01/richard-dawkins-death/"
+  date: 2026-10-01
+  source: The Marginalian
+  category: philosophy
 - title: James Baldwin’s Advice on Writing
   url: "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing/"
   date: 2026-10-01
@@ -28,25 +63,10 @@
   date: 2026-09-30
   source: Simon Willison
   category: ai
-- title: "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)"
-  url: "https://www.thespacereview.com/article/4951/1"
+- title: "Summary of reading: July - September 2026"
+  url: "https://eli.thegreenplace.net/2026/summary-of-reading-july-september-2026/"
   date: 2026-09-30
-  source: Hacker News Best
-  category: programming
-- title: Gemini 4 Argon
-  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
-  date: 2026-09-30
-  source: Hacker News Best
-  category: programming
-- title: The AI Race Just Got Awkward
-  url: "https://insufferable.dev/posts/the-ai-race-just-got-awkward/"
-  date: 2026-09-30
-  source: Hacker News Best
-  category: programming
-- title: A brief history of the Bloomberg terminal
-  url: "https://spectrum.ieee.org/bloomberg-terminal"
-  date: 2026-09-30
-  source: Hacker News Best
+  source: Eli Bendersky
   category: programming
 - title: Passportless mess
   url: "https://aeon.co/videos/searching-for-a-local-legend-a-filmmaker-stumbles-into-a-tragicomedy"
@@ -60,11 +80,6 @@
   category: philosophy
 - title: C.S. Lewis on How to Structure the Days of a Creative Life and Train the Receptive Imagination
   url: "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule/"
-  date: 2026-09-30
-  source: The Marginalian
-  category: philosophy
-- title: David Bowie Answers the Famous Proust Questionnaire
-  url: "https://www.themarginalian.org/2026/09/29/david-bowie-proust-questionnaire-vanity-fair/"
   date: 2026-09-30
   source: The Marginalian
   category: philosophy
@@ -87,16 +102,6 @@
   url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
   date: 2026-09-29
   source: Aeon
-  category: philosophy
-- title: Affect theory
-  url: "https://aeon.co/videos/beyond-the-mind-body-divide-on-the-affective-turn-in-the-humanities"
-  date: 2026-09-28
-  source: Aeon
-  category: philosophy
-- title: "Inner Space, Outer Space, and How to Be an Astronaut in the Cosmos of Connection: Eric Berne on the Key to True Intimacy"
-  url: "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy/"
-  date: 2026-09-28
-  source: The Marginalian
   category: philosophy
 - title: Replacing the old battery on rechargeable bike lights
   url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
@@ -147,11 +152,6 @@
   url: "https://danluu.com/perf-opt/"
   date: 2026-08-21
   source: Dan Luu
-  category: programming
-- title: "Concurrent Servers: Part 7 - Rust"
-  url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/"
-  date: 2026-08-15
-  source: Eli Bendersky
   category: programming
 - title: "Some more things about Django I've been enjoying"
   url: "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
