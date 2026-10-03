@@ -1,5 +1,40 @@
-- title: DeepSeek Harness Desktop for macOS and Windows
-  url: "https://www.deepseek.com/en/harness/"
+- title: Extra Big Ass Intelligence
+  url: "https://www.extrabigassintelligence.com/"
+  date: 2026-10-03
+  source: Hacker News Best
+  category: programming
+- title: "The Dandelion and the Meaning of Life: G.K. Chesterton on How to Live in Wonder"
+  url: "https://www.themarginalian.org/2026/10/03/g-k-chesterton-dandelion/"
+  date: 2026-10-03
+  source: The Marginalian
+  category: philosophy
+- title: "Ocean of Stars: A Painted Poem About How to Bear the Astonishment of Life"
+  url: "https://www.themarginalian.org/2026/10/02/ocean-of-stars-azita-ardakani/"
+  date: 2026-10-03
+  source: The Marginalian
+  category: philosophy
+- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
+  url: "https://www.themarginalian.org/2026/10/02/martha-nussbaum-loves-knowledge/"
+  date: 2026-10-03
+  source: The Marginalian
+  category: philosophy
+- title: Apple Pass Designer
+  url: "https://developer.apple.com/pass-designer/"
+  date: 2026-10-02
+  source: Hacker News Best
+  category: programming
+- title: "The Legend of von Neumann (1973) [pdf]"
+  url: "https://gwern.net/doc/math/1973-halmos.pdf"
+  date: 2026-10-02
+  source: Hacker News Best
+  category: programming
+- title: A 12-year sequence of telescope images of a star and four planets orbiting
+  url: "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f"
+  date: 2026-10-02
+  source: Hacker News Best
+  category: programming
+- title: Shimano Bicycle Museum Review
+  url: "https://inrng.com/2026/10/shimano-bicycle-museum/"
   date: 2026-10-02
   source: Hacker News Best
   category: programming
@@ -8,31 +43,16 @@
   date: 2026-10-02
   source: Aeon
   category: philosophy
+- title: "The Common Language of Science: Einstein’s Clarion Call to Divided Humanity in a Rare 1941 Recording"
+  url: "https://www.themarginalian.org/2026/10/02/albert-einstein-the-common-language-of-science/"
+  date: 2026-10-02
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Matthew Green
   url: "https://simonwillison.net/2026/Oct/1/matthew-green/"
   date: 2026-10-01
   source: Simon Willison
   category: ai
-- title: Several vulnerabilities have been discovered in the Linux kernel
-  url: "https://lwn.net/Articles/1097401/"
-  date: 2026-10-01
-  source: Hacker News Best
-  category: programming
-- title: SvelteKit 3
-  url: "https://svelte.dev/blog/sveltekit-3-is-here"
-  date: 2026-10-01
-  source: Hacker News Best
-  category: programming
-- title: Pi 1.0
-  url: "https://earendil.com/posts/pi-1-0/"
-  date: 2026-10-01
-  source: Hacker News Best
-  category: programming
-- title: Pi Durable
-  url: "https://earendil.com/posts/pi-durable/"
-  date: 2026-10-01
-  source: Hacker News Best
-  category: programming
 - title: Green tree ants are famous in the tropics
   url: "https://aeon.co/videos/green-tree-ants-have-been-successful-for-ages-enter-the-imposters"
   date: 2026-10-01
@@ -45,16 +65,6 @@
   category: philosophy
 - title: How to Say “YES” to Life
   url: "https://www.themarginalian.org/2026/10/01/yes/"
-  date: 2026-10-01
-  source: The Marginalian
-  category: philosophy
-- title: Richard Dawkins on the Luckiness of Death
-  url: "https://www.themarginalian.org/2026/10/01/richard-dawkins-death/"
-  date: 2026-10-01
-  source: The Marginalian
-  category: philosophy
-- title: James Baldwin’s Advice on Writing
-  url: "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing/"
   date: 2026-10-01
   source: The Marginalian
   category: philosophy
@@ -72,16 +82,6 @@
   url: "https://aeon.co/videos/searching-for-a-local-legend-a-filmmaker-stumbles-into-a-tragicomedy"
   date: 2026-09-30
   source: Aeon
-  category: philosophy
-- title: What Happens When We Die
-  url: "https://www.themarginalian.org/2026/09/30/alan-lightman-death/"
-  date: 2026-09-30
-  source: The Marginalian
-  category: philosophy
-- title: C.S. Lewis on How to Structure the Days of a Creative Life and Train the Receptive Imagination
-  url: "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule/"
-  date: 2026-09-30
-  source: The Marginalian
   category: philosophy
 - title: Quoting Anthropic Frontier Red Team
   url: "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
