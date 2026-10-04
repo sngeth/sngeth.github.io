@@ -1,8 +1,43 @@
-- title: Extra Big Ass Intelligence
-  url: "https://www.extrabigassintelligence.com/"
+- title: "Tell HN: Bob Cringely has died"
+  url: "https://news.ycombinator.com/item?id=49949438"
+  date: 2026-10-04
+  source: Hacker News Best
+  category: programming
+- title: "We're going to need default hard budget caps on pretty much everything"
+  url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  date: 2026-10-04
+  source: Hacker News Best
+  category: programming
+- title: "We're going to need default hard budget caps on pretty much everything"
+  url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  date: 2026-10-03
+  source: Simon Willison
+  category: ai
+- title: September sponsors-only newsletter
+  url: "https://simonwillison.net/2026/Oct/3/newsletter/"
+  date: 2026-10-03
+  source: Simon Willison
+  category: ai
+- title: "OpenAI safety leader quits, warning AI company's culture is 'broken'"
+  url: "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
   date: 2026-10-03
   source: Hacker News Best
   category: programming
+- title: "Federal judge calls Flock 'indiscriminate mass surveillance'"
+  url: "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/"
+  date: 2026-10-03
+  source: Hacker News Best
+  category: programming
+- title: "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux"
+  url: "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
+  date: 2026-10-03
+  source: Hacker News Best
+  category: programming
+- title: "Against Brute Force: D.H. Lawrence on the Superpower of Vulnerability"
+  url: "https://www.themarginalian.org/2026/10/03/d-h-lawrence-brute-force/"
+  date: 2026-10-03
+  source: The Marginalian
+  category: philosophy
 - title: "The Dandelion and the Meaning of Life: G.K. Chesterton on How to Live in Wonder"
   url: "https://www.themarginalian.org/2026/10/03/g-k-chesterton-dandelion/"
   date: 2026-10-03
@@ -18,26 +53,11 @@
   date: 2026-10-03
   source: The Marginalian
   category: philosophy
-- title: Apple Pass Designer
-  url: "https://developer.apple.com/pass-designer/"
+- title: "Rex's Dino Store"
+  url: "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
   date: 2026-10-02
-  source: Hacker News Best
-  category: programming
-- title: "The Legend of von Neumann (1973) [pdf]"
-  url: "https://gwern.net/doc/math/1973-halmos.pdf"
-  date: 2026-10-02
-  source: Hacker News Best
-  category: programming
-- title: A 12-year sequence of telescope images of a star and four planets orbiting
-  url: "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f"
-  date: 2026-10-02
-  source: Hacker News Best
-  category: programming
-- title: Shimano Bicycle Museum Review
-  url: "https://inrng.com/2026/10/shimano-bicycle-museum/"
-  date: 2026-10-02
-  source: Hacker News Best
-  category: programming
+  source: Simon Willison
+  category: ai
 - title: Life on a hair trigger
   url: "https://aeon.co/essays/early-violence-is-a-bad-teacher-but-the-mind-can-learn-anew"
   date: 2026-10-02
@@ -63,11 +83,6 @@
   date: 2026-10-01
   source: Aeon
   category: philosophy
-- title: How to Say “YES” to Life
-  url: "https://www.themarginalian.org/2026/10/01/yes/"
-  date: 2026-10-01
-  source: The Marginalian
-  category: philosophy
 - title: He Built This City
   url: "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
   date: 2026-09-30
@@ -83,21 +98,6 @@
   date: 2026-09-30
   source: Aeon
   category: philosophy
-- title: Quoting Anthropic Frontier Red Team
-  url: "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
-  date: 2026-09-29
-  source: Simon Willison
-  category: ai
-- title: "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price"
-  url: "https://simonwillison.net/2026/Sep/29/hn-49898129/"
-  date: 2026-09-29
-  source: Simon Willison
-  category: ai
-- title: "Photo Scrubber — local face blur & metadata removal"
-  url: "https://simonwillison.net/2026/Sep/29/photo-scrubber/"
-  date: 2026-09-29
-  source: Simon Willison
-  category: ai
 - title: Don’t use the ‘C-word’
   url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
   date: 2026-09-29
