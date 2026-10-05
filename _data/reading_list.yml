@@ -1,13 +1,43 @@
-- title: "Tell HN: Bob Cringely has died"
-  url: "https://news.ycombinator.com/item?id=49949438"
+- title: "Denmark Data Breach Exposes 8.8M People's Personal Data"
+  url: "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger"
+  date: 2026-10-05
+  source: Hacker News Best
+  category: programming
+- title: Nearly 200 people under observation after Irkutsk lab worker dies from plague
+  url: "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"
+  date: 2026-10-05
+  source: Hacker News Best
+  category: programming
+- title: Powerless F1 drivers frustrated by Bahrain F1 software glitch
+  url: "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/"
+  date: 2026-10-05
+  source: Hacker News Best
+  category: programming
+- title: All-around junior male
+  url: "https://aeon.co/videos/a-traditional-inuit-game-of-balance-and-strength-stylishly-captured"
+  date: 2026-10-05
+  source: Aeon
+  category: philosophy
+- title: A life in episodes
+  url: "https://aeon.co/essays/what-i-have-learned-from-posting-episodes-of-my-life-on-facebook"
+  date: 2026-10-05
+  source: Aeon
+  category: philosophy
+- title: Self-hosted HTTP tunnels with SSH and Nginx
+  url: "https://vincent.bernat.ch/en/blog/2026-http-over-ssh"
   date: 2026-10-04
   source: Hacker News Best
   category: programming
-- title: "We're going to need default hard budget caps on pretty much everything"
-  url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+- title: "In the wake of Tippett Studios’ closure, a digital archive appears online"
+  url: "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/"
   date: 2026-10-04
   source: Hacker News Best
   category: programming
+- title: Dostoyevsky on What Makes a Good Person
+  url: "https://www.themarginalian.org/2026/10/04/dostoyevsy-good-person/"
+  date: 2026-10-04
+  source: The Marginalian
+  category: philosophy
 - title: "We're going to need default hard budget caps on pretty much everything"
   url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
   date: 2026-10-03
@@ -18,21 +48,6 @@
   date: 2026-10-03
   source: Simon Willison
   category: ai
-- title: "OpenAI safety leader quits, warning AI company's culture is 'broken'"
-  url: "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
-  date: 2026-10-03
-  source: Hacker News Best
-  category: programming
-- title: "Federal judge calls Flock 'indiscriminate mass surveillance'"
-  url: "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/"
-  date: 2026-10-03
-  source: Hacker News Best
-  category: programming
-- title: "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux"
-  url: "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
-  date: 2026-10-03
-  source: Hacker News Best
-  category: programming
 - title: "Against Brute Force: D.H. Lawrence on the Superpower of Vulnerability"
   url: "https://www.themarginalian.org/2026/10/03/d-h-lawrence-brute-force/"
   date: 2026-10-03
@@ -63,11 +78,6 @@
   date: 2026-10-02
   source: Aeon
   category: philosophy
-- title: "The Common Language of Science: Einstein’s Clarion Call to Divided Humanity in a Rare 1941 Recording"
-  url: "https://www.themarginalian.org/2026/10/02/albert-einstein-the-common-language-of-science/"
-  date: 2026-10-02
-  source: The Marginalian
-  category: philosophy
 - title: Quoting Matthew Green
   url: "https://simonwillison.net/2026/Oct/1/matthew-green/"
   date: 2026-10-01
@@ -93,16 +103,6 @@
   date: 2026-09-30
   source: Eli Bendersky
   category: programming
-- title: Passportless mess
-  url: "https://aeon.co/videos/searching-for-a-local-legend-a-filmmaker-stumbles-into-a-tragicomedy"
-  date: 2026-09-30
-  source: Aeon
-  category: philosophy
-- title: Don’t use the ‘C-word’
-  url: "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer"
-  date: 2026-09-29
-  source: Aeon
-  category: philosophy
 - title: Replacing the old battery on rechargeable bike lights
   url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
   date: 2026-09-27
