@@ -1,15 +1,45 @@
-- title: "Denmark Data Breach Exposes 8.8M People's Personal Data"
-  url: "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger"
+- title: Why Common Lisp is now the best programming language
+  url: "https://www.vivienhenz.com/common-lisp"
+  date: 2026-10-06
+  source: Hacker News Best
+  category: programming
+- title: How to assemble science
+  url: "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight"
+  date: 2026-10-06
+  source: Aeon
+  category: philosophy
+- title: "Loneliness, Resilience, and the Right Choice: Poet Diane Ackerman on What She Learned While Working at a Suicide Prevention Hotline"
+  url: "https://www.themarginalian.org/2026/10/05/diane-ackerman-a-slender-thread/"
+  date: 2026-10-06
+  source: The Marginalian
+  category: philosophy
+- title: David Bowie on Creativity and His Advice to Artists
+  url: "https://www.themarginalian.org/2026/10/05/david-bowie-creativity-advice/"
+  date: 2026-10-06
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Felix Rieseberg
+  url: "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+  date: 2026-10-05
+  source: Simon Willison
+  category: ai
+- title: Example.com just launched the biggest redesign in decades
+  url: "https://www.debugbear.com/blog/example-dot-com-redesign-history"
   date: 2026-10-05
   source: Hacker News Best
   category: programming
-- title: Nearly 200 people under observation after Irkutsk lab worker dies from plague
-  url: "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"
+- title: "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons"
+  url: "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/"
   date: 2026-10-05
   source: Hacker News Best
   category: programming
-- title: Powerless F1 drivers frustrated by Bahrain F1 software glitch
-  url: "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/"
+- title: "Friendship ended with Deno, now Node is my best friend"
+  url: "https://dbushell.com/2026/10/03/deno-to-node/"
+  date: 2026-10-05
+  source: Hacker News Best
+  category: programming
+- title: Texas city demands $2M for public records on Flock usage
+  url: "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/"
   date: 2026-10-05
   source: Hacker News Best
   category: programming
@@ -23,21 +53,26 @@
   date: 2026-10-05
   source: Aeon
   category: philosophy
-- title: Self-hosted HTTP tunnels with SSH and Nginx
-  url: "https://vincent.bernat.ch/en/blog/2026-http-over-ssh"
-  date: 2026-10-04
-  source: Hacker News Best
-  category: programming
-- title: "In the wake of Tippett Studios’ closure, a digital archive appears online"
-  url: "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/"
-  date: 2026-10-04
-  source: Hacker News Best
-  category: programming
-- title: Dostoyevsky on What Makes a Good Person
-  url: "https://www.themarginalian.org/2026/10/04/dostoyevsy-good-person/"
-  date: 2026-10-04
+- title: Nietzsche on Walking and Creativity
+  url: "https://www.themarginalian.org/2026/10/05/nietzsche-walking/"
+  date: 2026-10-05
   source: The Marginalian
   category: philosophy
+- title: Mister Rogers on the Most Important Mindset for a Parent
+  url: "https://www.themarginalian.org/2026/10/05/mister-rogers-parenting/"
+  date: 2026-10-05
+  source: The Marginalian
+  category: philosophy
+- title: "The Importance of Being Scared: Polish Nobel Laureate Wisława Szymborska on Fairy Tales and the Necessity of Fear"
+  url: "https://www.themarginalian.org/2026/10/05/wislawa-szymborska-fairy-tales-fear/"
+  date: 2026-10-05
+  source: The Marginalian
+  category: philosophy
+- title: Qwen3.8 27B addition in words
+  url: "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+  date: 2026-10-04
+  source: Simon Willison
+  category: ai
 - title: "We're going to need default hard budget caps on pretty much everything"
   url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
   date: 2026-10-03
@@ -48,26 +83,6 @@
   date: 2026-10-03
   source: Simon Willison
   category: ai
-- title: "Against Brute Force: D.H. Lawrence on the Superpower of Vulnerability"
-  url: "https://www.themarginalian.org/2026/10/03/d-h-lawrence-brute-force/"
-  date: 2026-10-03
-  source: The Marginalian
-  category: philosophy
-- title: "The Dandelion and the Meaning of Life: G.K. Chesterton on How to Live in Wonder"
-  url: "https://www.themarginalian.org/2026/10/03/g-k-chesterton-dandelion/"
-  date: 2026-10-03
-  source: The Marginalian
-  category: philosophy
-- title: "Ocean of Stars: A Painted Poem About How to Bear the Astonishment of Life"
-  url: "https://www.themarginalian.org/2026/10/02/ocean-of-stars-azita-ardakani/"
-  date: 2026-10-03
-  source: The Marginalian
-  category: philosophy
-- title: "How Do You Know That You Love Somebody? Philosopher Martha Nussbaum’s Incompleteness Theorem of the Heart’s Truth, from Plato to Proust"
-  url: "https://www.themarginalian.org/2026/10/02/martha-nussbaum-loves-knowledge/"
-  date: 2026-10-03
-  source: The Marginalian
-  category: philosophy
 - title: "Rex's Dino Store"
   url: "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
   date: 2026-10-02
@@ -78,26 +93,11 @@
   date: 2026-10-02
   source: Aeon
   category: philosophy
-- title: Quoting Matthew Green
-  url: "https://simonwillison.net/2026/Oct/1/matthew-green/"
-  date: 2026-10-01
-  source: Simon Willison
-  category: ai
 - title: Green tree ants are famous in the tropics
   url: "https://aeon.co/videos/green-tree-ants-have-been-successful-for-ages-enter-the-imposters"
   date: 2026-10-01
   source: Aeon
   category: philosophy
-- title: Reason is more than a tool
-  url: "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation"
-  date: 2026-10-01
-  source: Aeon
-  category: philosophy
-- title: He Built This City
-  url: "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
-  date: 2026-09-30
-  source: Simon Willison
-  category: ai
 - title: "Summary of reading: July - September 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-july-september-2026/"
   date: 2026-09-30
