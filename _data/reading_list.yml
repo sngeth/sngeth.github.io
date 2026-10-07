@@ -1,5 +1,65 @@
-- title: Why Common Lisp is now the best programming language
-  url: "https://www.vivienhenz.com/common-lisp"
+- title: Quoting Jake Boggan
+  url: "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+  date: 2026-10-07
+  source: Simon Willison
+  category: ai
+- title: OpenAI “rogue” agent activities found on Wikimedia projects
+  url: "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
+  date: 2026-10-07
+  source: Simon Willison
+  category: ai
+- title: I won’t remain alone
+  url: "https://aeon.co/videos/an-iranian-couple-seek-out-the-recipient-of-their-late-sons-heart"
+  date: 2026-10-07
+  source: Aeon
+  category: philosophy
+- title: Why Are We Not Better Than We Are
+  url: "https://www.themarginalian.org/2026/10/07/jon-mooallem-serious-face-poetry/"
+  date: 2026-10-07
+  source: The Marginalian
+  category: philosophy
+- title: "But We Had Music: Nick Cave Reads an Animated Poem about How to Be More Alive"
+  url: "https://www.themarginalian.org/2026/10/06/but-we-had-music/"
+  date: 2026-10-07
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Victoria Kim
+  url: "https://simonwillison.net/2026/Oct/6/victoria-kim/"
+  date: 2026-10-06
+  source: Simon Willison
+  category: ai
+- title: llm-openai-decisions 0.1a0
+  url: "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
+  date: 2026-10-06
+  source: Simon Willison
+  category: ai
+- title: llm-mistral 0.16
+  url: "https://simonwillison.net/2026/Oct/6/llm-mistral/"
+  date: 2026-10-06
+  source: Simon Willison
+  category: ai
+- title: "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)"
+  url: "https://github.com/boykopovar/AnyPS5"
+  date: 2026-10-06
+  source: Hacker News Best
+  category: programming
+- title: Sharing AI progress in mathematics
+  url: "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+  date: 2026-10-06
+  source: Hacker News Best
+  category: programming
+- title: Decisions API is in public beta
+  url: "https://developers.openai.com/api/docs/guides/decisions"
+  date: 2026-10-06
+  source: Hacker News Best
+  category: programming
+- title: Paramount Skydance has completed its $111B merger with Warner Bros. Discovery
+  url: "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/"
+  date: 2026-10-06
+  source: Hacker News Best
+  category: programming
+- title: "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
+  url: "https://news.ycombinator.com/item?id=49982498"
   date: 2026-10-06
   source: Hacker News Best
   category: programming
@@ -8,41 +68,21 @@
   date: 2026-10-06
   source: Aeon
   category: philosophy
+- title: "A Constellation of Amazements: An Illustrated Love Letter to the Joy of Collecting Things"
+  url: "https://www.themarginalian.org/2026/10/06/these-are-my-rocks/"
+  date: 2026-10-06
+  source: The Marginalian
+  category: philosophy
+- title: "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently"
+  url: "https://www.themarginalian.org/2026/10/06/daniel-dennett-rapoport-rules-criticism/"
+  date: 2026-10-06
+  source: The Marginalian
+  category: philosophy
 - title: "Loneliness, Resilience, and the Right Choice: Poet Diane Ackerman on What She Learned While Working at a Suicide Prevention Hotline"
   url: "https://www.themarginalian.org/2026/10/05/diane-ackerman-a-slender-thread/"
   date: 2026-10-06
   source: The Marginalian
   category: philosophy
-- title: David Bowie on Creativity and His Advice to Artists
-  url: "https://www.themarginalian.org/2026/10/05/david-bowie-creativity-advice/"
-  date: 2026-10-06
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Felix Rieseberg
-  url: "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
-  date: 2026-10-05
-  source: Simon Willison
-  category: ai
-- title: Example.com just launched the biggest redesign in decades
-  url: "https://www.debugbear.com/blog/example-dot-com-redesign-history"
-  date: 2026-10-05
-  source: Hacker News Best
-  category: programming
-- title: "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons"
-  url: "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/"
-  date: 2026-10-05
-  source: Hacker News Best
-  category: programming
-- title: "Friendship ended with Deno, now Node is my best friend"
-  url: "https://dbushell.com/2026/10/03/deno-to-node/"
-  date: 2026-10-05
-  source: Hacker News Best
-  category: programming
-- title: Texas city demands $2M for public records on Flock usage
-  url: "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/"
-  date: 2026-10-05
-  source: Hacker News Best
-  category: programming
 - title: All-around junior male
   url: "https://aeon.co/videos/a-traditional-inuit-game-of-balance-and-strength-stylishly-captured"
   date: 2026-10-05
@@ -53,49 +93,9 @@
   date: 2026-10-05
   source: Aeon
   category: philosophy
-- title: Nietzsche on Walking and Creativity
-  url: "https://www.themarginalian.org/2026/10/05/nietzsche-walking/"
-  date: 2026-10-05
-  source: The Marginalian
-  category: philosophy
-- title: Mister Rogers on the Most Important Mindset for a Parent
-  url: "https://www.themarginalian.org/2026/10/05/mister-rogers-parenting/"
-  date: 2026-10-05
-  source: The Marginalian
-  category: philosophy
-- title: "The Importance of Being Scared: Polish Nobel Laureate Wisława Szymborska on Fairy Tales and the Necessity of Fear"
-  url: "https://www.themarginalian.org/2026/10/05/wislawa-szymborska-fairy-tales-fear/"
-  date: 2026-10-05
-  source: The Marginalian
-  category: philosophy
-- title: Qwen3.8 27B addition in words
-  url: "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
-  date: 2026-10-04
-  source: Simon Willison
-  category: ai
-- title: "We're going to need default hard budget caps on pretty much everything"
-  url: "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
-  date: 2026-10-03
-  source: Simon Willison
-  category: ai
-- title: September sponsors-only newsletter
-  url: "https://simonwillison.net/2026/Oct/3/newsletter/"
-  date: 2026-10-03
-  source: Simon Willison
-  category: ai
-- title: "Rex's Dino Store"
-  url: "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
-  date: 2026-10-02
-  source: Simon Willison
-  category: ai
 - title: Life on a hair trigger
   url: "https://aeon.co/essays/early-violence-is-a-bad-teacher-but-the-mind-can-learn-anew"
   date: 2026-10-02
-  source: Aeon
-  category: philosophy
-- title: Green tree ants are famous in the tropics
-  url: "https://aeon.co/videos/green-tree-ants-have-been-successful-for-ages-enter-the-imposters"
-  date: 2026-10-01
   source: Aeon
   category: philosophy
 - title: "Summary of reading: July - September 2026"
