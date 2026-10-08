@@ -1,3 +1,33 @@
+- title: Evolution of Manhattan
+  url: "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
+  date: 2026-10-08
+  source: Aeon
+  category: philosophy
+- title: The ghetto on the lagoon
+  url: "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516"
+  date: 2026-10-08
+  source: Aeon
+  category: philosophy
+- title: "Vincent van Gogh on Fear, Taking Risks, and How Inspired Mistakes Propel Us Forward"
+  url: "https://www.themarginalian.org/2026/10/07/van-gogh-fear-risk/"
+  date: 2026-10-08
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Ben Affleck
+  url: "https://simonwillison.net/2026/Oct/7/ben-affleck/"
+  date: 2026-10-07
+  source: Simon Willison
+  category: ai
+- title: Claude Haiku 5.5
+  url: "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+  date: 2026-10-07
+  source: Simon Willison
+  category: ai
+- title: Anti-Patterns in Software Blogging
+  url: "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
+  date: 2026-10-07
+  source: Simon Willison
+  category: ai
 - title: Quoting Jake Boggan
   url: "https://simonwillison.net/2026/Oct/7/jake-boggan/"
   date: 2026-10-07
@@ -8,10 +38,20 @@
   date: 2026-10-07
   source: Simon Willison
   category: ai
+- title: Monte-Carlo simulations
+  url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
+  date: 2026-10-07
+  source: Eli Bendersky
+  category: programming
 - title: I won’t remain alone
   url: "https://aeon.co/videos/an-iranian-couple-seek-out-the-recipient-of-their-late-sons-heart"
   date: 2026-10-07
   source: Aeon
+  category: philosophy
+- title: "Walt Whitman, Shortly After His Paralytic Stroke, on What Makes Life Worth Living"
+  url: "https://www.themarginalian.org/2026/10/07/walt-whitman-specimen-days-meaning-of-life/"
+  date: 2026-10-07
+  source: The Marginalian
   category: philosophy
 - title: Why Are We Not Better Than We Are
   url: "https://www.themarginalian.org/2026/10/07/jon-mooallem-serious-face-poetry/"
@@ -23,46 +63,6 @@
   date: 2026-10-07
   source: The Marginalian
   category: philosophy
-- title: Quoting Victoria Kim
-  url: "https://simonwillison.net/2026/Oct/6/victoria-kim/"
-  date: 2026-10-06
-  source: Simon Willison
-  category: ai
-- title: llm-openai-decisions 0.1a0
-  url: "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"
-  date: 2026-10-06
-  source: Simon Willison
-  category: ai
-- title: llm-mistral 0.16
-  url: "https://simonwillison.net/2026/Oct/6/llm-mistral/"
-  date: 2026-10-06
-  source: Simon Willison
-  category: ai
-- title: "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)"
-  url: "https://github.com/boykopovar/AnyPS5"
-  date: 2026-10-06
-  source: Hacker News Best
-  category: programming
-- title: Sharing AI progress in mathematics
-  url: "https://openai.com/index/sharing-ai-progress-in-mathematics/"
-  date: 2026-10-06
-  source: Hacker News Best
-  category: programming
-- title: Decisions API is in public beta
-  url: "https://developers.openai.com/api/docs/guides/decisions"
-  date: 2026-10-06
-  source: Hacker News Best
-  category: programming
-- title: Paramount Skydance has completed its $111B merger with Warner Bros. Discovery
-  url: "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/"
-  date: 2026-10-06
-  source: Hacker News Best
-  category: programming
-- title: "Tell HN: GitHub refuses to remove cracked copies of my software after a month"
-  url: "https://news.ycombinator.com/item?id=49982498"
-  date: 2026-10-06
-  source: Hacker News Best
-  category: programming
 - title: How to assemble science
   url: "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight"
   date: 2026-10-06
@@ -73,29 +73,9 @@
   date: 2026-10-06
   source: The Marginalian
   category: philosophy
-- title: "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently"
-  url: "https://www.themarginalian.org/2026/10/06/daniel-dennett-rapoport-rules-criticism/"
-  date: 2026-10-06
-  source: The Marginalian
-  category: philosophy
-- title: "Loneliness, Resilience, and the Right Choice: Poet Diane Ackerman on What She Learned While Working at a Suicide Prevention Hotline"
-  url: "https://www.themarginalian.org/2026/10/05/diane-ackerman-a-slender-thread/"
-  date: 2026-10-06
-  source: The Marginalian
-  category: philosophy
 - title: All-around junior male
   url: "https://aeon.co/videos/a-traditional-inuit-game-of-balance-and-strength-stylishly-captured"
   date: 2026-10-05
-  source: Aeon
-  category: philosophy
-- title: A life in episodes
-  url: "https://aeon.co/essays/what-i-have-learned-from-posting-episodes-of-my-life-on-facebook"
-  date: 2026-10-05
-  source: Aeon
-  category: philosophy
-- title: Life on a hair trigger
-  url: "https://aeon.co/essays/early-violence-is-a-bad-teacher-but-the-mind-can-learn-anew"
-  date: 2026-10-02
   source: Aeon
   category: philosophy
 - title: "Summary of reading: July - September 2026"
@@ -141,11 +121,6 @@
 - title: "How big are factorials?"
   url: "https://eli.thegreenplace.net/2026/how-big-are-factorials/"
   date: 2026-08-27
-  source: Eli Bendersky
-  category: programming
-- title: "Concurrent Servers: Part 8 - Go"
-  url: "https://eli.thegreenplace.net/2026/concurrent-servers-part-8-go/"
-  date: 2026-08-22
   source: Eli Bendersky
   category: programming
 - title: "There's no reason for software to be slow anymore"
