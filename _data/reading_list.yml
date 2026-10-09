@@ -1,3 +1,53 @@
+- title: ttok 1.0
+  url: "https://simonwillison.net/2026/Oct/9/ttok/"
+  date: 2026-10-09
+  source: Simon Willison
+  category: ai
+- title: Barbara Ward’s vision
+  url: "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice"
+  date: 2026-10-09
+  source: Aeon
+  category: philosophy
+- title: "Sleeping Beauties: David Byrne on Why Transformative Ideas Fall Dormant and How They Awaken to Change the World"
+  url: "https://www.themarginalian.org/2026/10/08/david-byrne-sleeping-beauties/"
+  date: 2026-10-09
+  source: The Marginalian
+  category: philosophy
+- title: ttok 0.4
+  url: "https://simonwillison.net/2026/Oct/8/ttok/"
+  date: 2026-10-08
+  source: Simon Willison
+  category: ai
+- title: Quoting Carson Gross
+  url: "https://simonwillison.net/2026/Oct/8/carson-gross/"
+  date: 2026-10-08
+  source: Simon Willison
+  category: ai
+- title: "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)"
+  url: "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full"
+  date: 2026-10-08
+  source: Hacker News Best
+  category: programming
+- title: Theranos.world
+  url: "https://www.theranos.world/"
+  date: 2026-10-08
+  source: Hacker News Best
+  category: programming
+- title: "Whistle: Speech to Text in 16.9 MB"
+  url: "https://cactuscompute.com/blog/whistle"
+  date: 2026-10-08
+  source: Hacker News Best
+  category: programming
+- title: OpenAI annualised revenues $20B less than previously signalled
+  url: "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+  date: 2026-10-08
+  source: Hacker News Best
+  category: programming
+- title: 4-hour battery storage is cheaper to install than gas turbines all across globe
+  url: "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/"
+  date: 2026-10-08
+  source: Hacker News Best
+  category: programming
 - title: Evolution of Manhattan
   url: "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
   date: 2026-10-08
@@ -7,6 +57,16 @@
   url: "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516"
   date: 2026-10-08
   source: Aeon
+  category: philosophy
+- title: Improvisation and the Quantum of Consciousness
+  url: "https://www.themarginalian.org/2026/10/08/improvisation/"
+  date: 2026-10-08
+  source: The Marginalian
+  category: philosophy
+- title: "How to Remake Yourself When You Are Undone: Lincoln and the Gift of His Suicidal Depression"
+  url: "https://www.themarginalian.org/2026/10/08/lincoln-melancholy-depression/"
+  date: 2026-10-08
+  source: The Marginalian
   category: philosophy
 - title: "Vincent van Gogh on Fear, Taking Risks, and How Inspired Mistakes Propel Us Forward"
   url: "https://www.themarginalian.org/2026/10/07/van-gogh-fear-risk/"
@@ -20,21 +80,6 @@
   category: ai
 - title: Claude Haiku 5.5
   url: "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
-  date: 2026-10-07
-  source: Simon Willison
-  category: ai
-- title: Anti-Patterns in Software Blogging
-  url: "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
-  date: 2026-10-07
-  source: Simon Willison
-  category: ai
-- title: Quoting Jake Boggan
-  url: "https://simonwillison.net/2026/Oct/7/jake-boggan/"
-  date: 2026-10-07
-  source: Simon Willison
-  category: ai
-- title: OpenAI “rogue” agent activities found on Wikimedia projects
-  url: "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
   date: 2026-10-07
   source: Simon Willison
   category: ai
@@ -53,29 +98,9 @@
   date: 2026-10-07
   source: The Marginalian
   category: philosophy
-- title: Why Are We Not Better Than We Are
-  url: "https://www.themarginalian.org/2026/10/07/jon-mooallem-serious-face-poetry/"
-  date: 2026-10-07
-  source: The Marginalian
-  category: philosophy
-- title: "But We Had Music: Nick Cave Reads an Animated Poem about How to Be More Alive"
-  url: "https://www.themarginalian.org/2026/10/06/but-we-had-music/"
-  date: 2026-10-07
-  source: The Marginalian
-  category: philosophy
 - title: How to assemble science
   url: "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight"
   date: 2026-10-06
-  source: Aeon
-  category: philosophy
-- title: "A Constellation of Amazements: An Illustrated Love Letter to the Joy of Collecting Things"
-  url: "https://www.themarginalian.org/2026/10/06/these-are-my-rocks/"
-  date: 2026-10-06
-  source: The Marginalian
-  category: philosophy
-- title: All-around junior male
-  url: "https://aeon.co/videos/a-traditional-inuit-game-of-balance-and-strength-stylishly-captured"
-  date: 2026-10-05
   source: Aeon
   category: philosophy
 - title: "Summary of reading: July - September 2026"
