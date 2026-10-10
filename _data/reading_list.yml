@@ -1,8 +1,63 @@
+- title: Quoting The New York Times
+  url: "https://simonwillison.net/2026/Oct/10/the-new-york-times/"
+  date: 2026-10-10
+  source: Simon Willison
+  category: ai
+- title: REA Reverse – Engineer Anything
+  url: "https://rea.tools/"
+  date: 2026-10-10
+  source: Hacker News Best
+  category: programming
+- title: How to Doubt Your Way into a Truer Life
+  url: "https://www.themarginalian.org/2026/10/09/jeff-foster-indecision/"
+  date: 2026-10-10
+  source: The Marginalian
+  category: philosophy
+- title: "How Memory Makes Us and Breaks Truth: The Rashomon Effect and the Science of How Memories Form and Falter in the Brain"
+  url: "https://www.themarginalian.org/2026/10/09/rashomon-effect-memory/"
+  date: 2026-10-10
+  source: The Marginalian
+  category: philosophy
+- title: Deno is joining Cloudflare
+  url: "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"
+  date: 2026-10-09
+  source: Simon Willison
+  category: ai
+- title: Quoting Matthew Green
+  url: "https://simonwillison.net/2026/Oct/9/matthew-green/"
+  date: 2026-10-09
+  source: Simon Willison
+  category: ai
+- title: "A new feature for my blog, built using my voice"
+  url: "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+  date: 2026-10-09
+  source: Simon Willison
+  category: ai
 - title: ttok 1.0
   url: "https://simonwillison.net/2026/Oct/9/ttok/"
   date: 2026-10-09
   source: Simon Willison
   category: ai
+- title: YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops
+  url: "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306"
+  date: 2026-10-09
+  source: Hacker News Best
+  category: programming
+- title: No Man Is an Island
+  url: "https://borretti.me/article/no-man-is-an-island"
+  date: 2026-10-09
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded"
+  url: "https://carrierexplode.com/"
+  date: 2026-10-09
+  source: Hacker News Best
+  category: programming
+- title: Typesafe AI raises $870M at $7.5B
+  url: "https://typesafe.ai/blog/series-ai"
+  date: 2026-10-09
+  source: Hacker News Best
+  category: programming
 - title: Barbara Ward’s vision
   url: "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice"
   date: 2026-10-09
@@ -13,41 +68,6 @@
   date: 2026-10-09
   source: The Marginalian
   category: philosophy
-- title: ttok 0.4
-  url: "https://simonwillison.net/2026/Oct/8/ttok/"
-  date: 2026-10-08
-  source: Simon Willison
-  category: ai
-- title: Quoting Carson Gross
-  url: "https://simonwillison.net/2026/Oct/8/carson-gross/"
-  date: 2026-10-08
-  source: Simon Willison
-  category: ai
-- title: "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)"
-  url: "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full"
-  date: 2026-10-08
-  source: Hacker News Best
-  category: programming
-- title: Theranos.world
-  url: "https://www.theranos.world/"
-  date: 2026-10-08
-  source: Hacker News Best
-  category: programming
-- title: "Whistle: Speech to Text in 16.9 MB"
-  url: "https://cactuscompute.com/blog/whistle"
-  date: 2026-10-08
-  source: Hacker News Best
-  category: programming
-- title: OpenAI annualised revenues $20B less than previously signalled
-  url: "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
-  date: 2026-10-08
-  source: Hacker News Best
-  category: programming
-- title: 4-hour battery storage is cheaper to install than gas turbines all across globe
-  url: "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/"
-  date: 2026-10-08
-  source: Hacker News Best
-  category: programming
 - title: Evolution of Manhattan
   url: "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
   date: 2026-10-08
@@ -68,21 +88,6 @@
   date: 2026-10-08
   source: The Marginalian
   category: philosophy
-- title: "Vincent van Gogh on Fear, Taking Risks, and How Inspired Mistakes Propel Us Forward"
-  url: "https://www.themarginalian.org/2026/10/07/van-gogh-fear-risk/"
-  date: 2026-10-08
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Ben Affleck
-  url: "https://simonwillison.net/2026/Oct/7/ben-affleck/"
-  date: 2026-10-07
-  source: Simon Willison
-  category: ai
-- title: Claude Haiku 5.5
-  url: "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
-  date: 2026-10-07
-  source: Simon Willison
-  category: ai
 - title: Monte-Carlo simulations
   url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
   date: 2026-10-07
@@ -92,11 +97,6 @@
   url: "https://aeon.co/videos/an-iranian-couple-seek-out-the-recipient-of-their-late-sons-heart"
   date: 2026-10-07
   source: Aeon
-  category: philosophy
-- title: "Walt Whitman, Shortly After His Paralytic Stroke, on What Makes Life Worth Living"
-  url: "https://www.themarginalian.org/2026/10/07/walt-whitman-specimen-days-meaning-of-life/"
-  date: 2026-10-07
-  source: The Marginalian
   category: philosophy
 - title: How to assemble science
   url: "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight"
