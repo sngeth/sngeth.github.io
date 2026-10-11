@@ -1,10 +1,45 @@
+- title: Dwarf Fortress uses version control now
+  url: "https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
+  date: 2026-10-11
+  source: Simon Willison
+  category: ai
+- title: 3rd Yandex Cloud Data Center Was Hit
+  url: "https://status.yandex.cloud/en/incidents/2136"
+  date: 2026-10-11
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: WallHop – 12ft.io is gone, so I built a replacement"
+  url: "https://wallhop.io/"
+  date: 2026-10-11
+  source: Hacker News Best
+  category: programming
+- title: "Elizabeth Gilbert on Love, Loss, and How to Move Through Grief as Grief Moves Through You"
+  url: "https://www.themarginalian.org/2026/10/10/elizabeth-gilbert-ted-podcast-love-loss/"
+  date: 2026-10-11
+  source: The Marginalian
+  category: philosophy
+- title: Python 3.15.0 added to actions/python-versions
+  url: "https://simonwillison.net/2026/Oct/10/python-actions/"
+  date: 2026-10-10
+  source: Simon Willison
+  category: ai
 - title: Quoting The New York Times
   url: "https://simonwillison.net/2026/Oct/10/the-new-york-times/"
   date: 2026-10-10
   source: Simon Willison
   category: ai
-- title: REA Reverse – Engineer Anything
-  url: "https://rea.tools/"
+- title: Build your own decision model
+  url: "https://nishtahir.com/build-your-own-decision-model/"
+  date: 2026-10-10
+  source: Hacker News Best
+  category: programming
+- title: "A city-building game in which the city would prefer you didn't"
+  url: "https://housing.over.pizza/"
+  date: 2026-10-10
+  source: Hacker News Best
+  category: programming
+- title: Why DuckDB 2.0 is faster
+  url: "https://motherduck.com/blog/why-duckdb-20-is-faster/"
   date: 2026-10-10
   source: Hacker News Best
   category: programming
@@ -28,36 +63,6 @@
   date: 2026-10-09
   source: Simon Willison
   category: ai
-- title: "A new feature for my blog, built using my voice"
-  url: "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
-  date: 2026-10-09
-  source: Simon Willison
-  category: ai
-- title: ttok 1.0
-  url: "https://simonwillison.net/2026/Oct/9/ttok/"
-  date: 2026-10-09
-  source: Simon Willison
-  category: ai
-- title: YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops
-  url: "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306"
-  date: 2026-10-09
-  source: Hacker News Best
-  category: programming
-- title: No Man Is an Island
-  url: "https://borretti.me/article/no-man-is-an-island"
-  date: 2026-10-09
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded"
-  url: "https://carrierexplode.com/"
-  date: 2026-10-09
-  source: Hacker News Best
-  category: programming
-- title: Typesafe AI raises $870M at $7.5B
-  url: "https://typesafe.ai/blog/series-ai"
-  date: 2026-10-09
-  source: Hacker News Best
-  category: programming
 - title: Barbara Ward’s vision
   url: "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice"
   date: 2026-10-09
@@ -80,11 +85,6 @@
   category: philosophy
 - title: Improvisation and the Quantum of Consciousness
   url: "https://www.themarginalian.org/2026/10/08/improvisation/"
-  date: 2026-10-08
-  source: The Marginalian
-  category: philosophy
-- title: "How to Remake Yourself When You Are Undone: Lincoln and the Gift of His Suicidal Depression"
-  url: "https://www.themarginalian.org/2026/10/08/lincoln-melancholy-depression/"
   date: 2026-10-08
   source: The Marginalian
   category: philosophy
