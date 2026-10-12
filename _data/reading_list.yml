@@ -1,18 +1,53 @@
+- title: "Deloitte falsified documents to evade tax on Abramovich's wealth"
+  url: "https://www.bbc.com/news/articles/c64g1l5389kvo"
+  date: 2026-10-12
+  source: Hacker News Best
+  category: programming
+- title: "Yandex bot traffic down 99% after data center attack"
+  url: "https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic"
+  date: 2026-10-12
+  source: Hacker News Best
+  category: programming
+- title: "Africa’s cultural landmarks: tombs of Buganda kings"
+  url: "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda"
+  date: 2026-10-12
+  source: Aeon
+  category: philosophy
+- title: "Is everything conscious?"
+  url: "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true"
+  date: 2026-10-12
+  source: Aeon
+  category: philosophy
 - title: Dwarf Fortress uses version control now
   url: "https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
   date: 2026-10-11
   source: Simon Willison
   category: ai
-- title: 3rd Yandex Cloud Data Center Was Hit
-  url: "https://status.yandex.cloud/en/incidents/2136"
+- title: Fingerprints are the new cookies
+  url: "https://royfish.dev/fingerprints-are-the-new-cookies"
   date: 2026-10-11
   source: Hacker News Best
   category: programming
-- title: "Show HN: WallHop – 12ft.io is gone, so I built a replacement"
-  url: "https://wallhop.io/"
+- title: Google told to halt work on datacentres in Finland over environmental concerns
+  url: "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment"
   date: 2026-10-11
   source: Hacker News Best
   category: programming
+- title: Passkeys are a trap
+  url: "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them"
+  date: 2026-10-11
+  source: Hacker News Best
+  category: programming
+- title: James Baldwin on How Love (Finally) Finds You
+  url: "https://www.themarginalian.org/2026/10/11/baldwin-love/"
+  date: 2026-10-11
+  source: The Marginalian
+  category: philosophy
+- title: "The Madman Who Saved Mothers: The Invention of Handwashing and the Bittersweet True Love Story Behind ‘Frankenstein’"
+  url: "https://www.themarginalian.org/2026/10/11/wollstonecraft-godwin-semmelweis/"
+  date: 2026-10-11
+  source: The Marginalian
+  category: philosophy
 - title: "Elizabeth Gilbert on Love, Loss, and How to Move Through Grief as Grief Moves Through You"
   url: "https://www.themarginalian.org/2026/10/10/elizabeth-gilbert-ted-podcast-love-loss/"
   date: 2026-10-11
@@ -28,21 +63,6 @@
   date: 2026-10-10
   source: Simon Willison
   category: ai
-- title: Build your own decision model
-  url: "https://nishtahir.com/build-your-own-decision-model/"
-  date: 2026-10-10
-  source: Hacker News Best
-  category: programming
-- title: "A city-building game in which the city would prefer you didn't"
-  url: "https://housing.over.pizza/"
-  date: 2026-10-10
-  source: Hacker News Best
-  category: programming
-- title: Why DuckDB 2.0 is faster
-  url: "https://motherduck.com/blog/why-duckdb-20-is-faster/"
-  date: 2026-10-10
-  source: Hacker News Best
-  category: programming
 - title: How to Doubt Your Way into a Truer Life
   url: "https://www.themarginalian.org/2026/10/09/jeff-foster-indecision/"
   date: 2026-10-10
@@ -68,11 +88,6 @@
   date: 2026-10-09
   source: Aeon
   category: philosophy
-- title: "Sleeping Beauties: David Byrne on Why Transformative Ideas Fall Dormant and How They Awaken to Change the World"
-  url: "https://www.themarginalian.org/2026/10/08/david-byrne-sleeping-beauties/"
-  date: 2026-10-09
-  source: The Marginalian
-  category: philosophy
 - title: Evolution of Manhattan
   url: "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
   date: 2026-10-08
@@ -83,26 +98,11 @@
   date: 2026-10-08
   source: Aeon
   category: philosophy
-- title: Improvisation and the Quantum of Consciousness
-  url: "https://www.themarginalian.org/2026/10/08/improvisation/"
-  date: 2026-10-08
-  source: The Marginalian
-  category: philosophy
 - title: Monte-Carlo simulations
   url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
   date: 2026-10-07
   source: Eli Bendersky
   category: programming
-- title: I won’t remain alone
-  url: "https://aeon.co/videos/an-iranian-couple-seek-out-the-recipient-of-their-late-sons-heart"
-  date: 2026-10-07
-  source: Aeon
-  category: philosophy
-- title: How to assemble science
-  url: "https://aeon.co/essays/the-life-saving-scientific-knowledge-hiding-in-plain-sight"
-  date: 2026-10-06
-  source: Aeon
-  category: philosophy
 - title: "Summary of reading: July - September 2026"
   url: "https://eli.thegreenplace.net/2026/summary-of-reading-july-september-2026/"
   date: 2026-09-30
