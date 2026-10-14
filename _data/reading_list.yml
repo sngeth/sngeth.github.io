@@ -1,25 +1,80 @@
+- title: Into the fire
+  url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
+  date: 2026-10-14
+  source: Aeon
+  category: philosophy
+- title: "NostradamusGPT: The Psychology of Prophecy and How to Break Free from the Prison of Predictive Technologies"
+  url: "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy/"
+  date: 2026-10-14
+  source: The Marginalian
+  category: philosophy
+- title: Redesigning source control at Anthropic
+  url: "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  date: 2026-10-13
+  source: Simon Willison
+  category: ai
+- title: llm-gemini 0.35
+  url: "https://simonwillison.net/2026/Oct/13/llm-gemini/"
+  date: 2026-10-13
+  source: Simon Willison
+  category: ai
+- title: Quoting Geoffrey Huntley
+  url: "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
+  date: 2026-10-13
+  source: Simon Willison
+  category: ai
+- title: web-edit 0.1a1
+  url: "https://simonwillison.net/2026/Oct/13/web-edit/"
+  date: 2026-10-13
+  source: Simon Willison
+  category: ai
+- title: OpenAI engineer arrested in bugging of executive conference room
+  url: "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+  date: 2026-10-13
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Guitoro, a virtual guitar you strum with your keyboard"
+  url: "https://guitoro.com/"
+  date: 2026-10-13
+  source: Hacker News Best
+  category: programming
+- title: Gemini 4 Argon
+  url: "https://deepmind.google/models/gemini/"
+  date: 2026-10-13
+  source: Hacker News Best
+  category: programming
+- title: Redesigning source control at Anthropic
+  url: "https://www.anthropic.com/engineering/redesigning-source-control"
+  date: 2026-10-13
+  source: Hacker News Best
+  category: programming
+- title: "I posted to HN, and then my website was flooded with AI bot traffic"
+  url: "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic"
+  date: 2026-10-13
+  source: Hacker News Best
+  category: programming
 - title: Deskilling the body
   url: "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
   date: 2026-10-13
   source: Aeon
+  category: philosophy
+- title: Probability Theory Pioneer Mark Kac on the Unpredictability of Creativity and the Two Types of Geniuses
+  url: "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses/"
+  date: 2026-10-13
+  source: The Marginalian
+  category: philosophy
+- title: Nobel Laureate Doris Lessing on Breaking Free from the Prisons We Choose to Live Inside
+  url: "https://www.themarginalian.org/2026/10/13/doris-lessing-massey-lectures/"
+  date: 2026-10-13
+  source: The Marginalian
   category: philosophy
 - title: Hermann Hesse on How to Read a Book and How to Read Yourself
   url: "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/"
   date: 2026-10-13
   source: The Marginalian
   category: philosophy
-- title: "Hello Python 3.15, goodbye 3.10, and now I can use 3.11"
-  url: "https://simonwillison.net/2026/Oct/12/python-3-15/"
-  date: 2026-10-12
-  source: Simon Willison
-  category: ai
-- title: web-edit 0.1a0
-  url: "https://simonwillison.net/2026/Oct/12/web-edit/"
-  date: 2026-10-12
-  source: Simon Willison
-  category: ai
-- title: datasette-ports 0.4
-  url: "https://simonwillison.net/2026/Oct/12/datasette-ports/"
+- title: llm-meta-ai 0.2
+  url: "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
   date: 2026-10-12
   source: Simon Willison
   category: ai
@@ -33,44 +88,14 @@
   date: 2026-10-12
   source: Aeon
   category: philosophy
-- title: Dwarf Fortress uses version control now
-  url: "https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
-  date: 2026-10-11
-  source: Simon Willison
-  category: ai
 - title: James Baldwin on How Love (Finally) Finds You
   url: "https://www.themarginalian.org/2026/10/11/baldwin-love/"
   date: 2026-10-11
   source: The Marginalian
   category: philosophy
-- title: "The Madman Who Saved Mothers: The Invention of Handwashing and the Bittersweet True Love Story Behind ‘Frankenstein’"
-  url: "https://www.themarginalian.org/2026/10/11/wollstonecraft-godwin-semmelweis/"
-  date: 2026-10-11
-  source: The Marginalian
-  category: philosophy
-- title: "Elizabeth Gilbert on Love, Loss, and How to Move Through Grief as Grief Moves Through You"
-  url: "https://www.themarginalian.org/2026/10/10/elizabeth-gilbert-ted-podcast-love-loss/"
-  date: 2026-10-11
-  source: The Marginalian
-  category: philosophy
-- title: Python 3.15.0 added to actions/python-versions
-  url: "https://simonwillison.net/2026/Oct/10/python-actions/"
-  date: 2026-10-10
-  source: Simon Willison
-  category: ai
-- title: How to Doubt Your Way into a Truer Life
-  url: "https://www.themarginalian.org/2026/10/09/jeff-foster-indecision/"
-  date: 2026-10-10
-  source: The Marginalian
-  category: philosophy
 - title: Barbara Ward’s vision
   url: "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice"
   date: 2026-10-09
-  source: Aeon
-  category: philosophy
-- title: Evolution of Manhattan
-  url: "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
-  date: 2026-10-08
   source: Aeon
   category: philosophy
 - title: Monte-Carlo simulations
