@@ -1,7 +1,62 @@
+- title: The secrets of Hohle Fels cave
+  url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
+  date: 2026-10-15
+  source: Aeon
+  category: philosophy
+- title: The ladder of knowledge
+  url: "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
+  date: 2026-10-15
+  source: Aeon
+  category: philosophy
+- title: How Not to Waste Your Life
+  url: "https://www.themarginalian.org/2026/10/15/hawthorne-life/"
+  date: 2026-10-15
+  source: The Marginalian
+  category: philosophy
+- title: Tree Appreciator
+  url: "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+  date: 2026-10-14
+  source: Simon Willison
+  category: ai
+- title: "AI is mass decompiling games. That's both awesome and scary."
+  url: "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+  date: 2026-10-14
+  source: Simon Willison
+  category: ai
+- title: Tiny Little Office
+  url: "https://tinylittleoffice.com/"
+  date: 2026-10-14
+  source: Hacker News Best
+  category: programming
+- title: OpenCode 2.0
+  url: "https://anoma.ly/notes/opencode-2-0/"
+  date: 2026-10-14
+  source: Hacker News Best
+  category: programming
+- title: "Anthropic's Scion is heavily inspired by Mononoke"
+  url: "https://sunshowers.io/posts/anthropic-mononoke/"
+  date: 2026-10-14
+  source: Hacker News Best
+  category: programming
+- title: Things to know when you get cancer
+  url: "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/"
+  date: 2026-10-14
+  source: Hacker News Best
+  category: programming
+- title: Suicide rates highest ever among middle-aged men
+  url: "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/"
+  date: 2026-10-14
+  source: Hacker News Best
+  category: programming
 - title: Into the fire
   url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
   date: 2026-10-14
   source: Aeon
+  category: philosophy
+- title: "An Introvert’s Field Guide to Friendship: Thoreau on the Challenges and Rewards of Candid Connection"
+  url: "https://www.themarginalian.org/2026/10/14/thoreau-friendship/"
+  date: 2026-10-14
+  source: The Marginalian
   category: philosophy
 - title: "NostradamusGPT: The Psychology of Prophecy and How to Break Free from the Prison of Predictive Technologies"
   url: "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy/"
@@ -23,36 +78,6 @@
   date: 2026-10-13
   source: Simon Willison
   category: ai
-- title: web-edit 0.1a1
-  url: "https://simonwillison.net/2026/Oct/13/web-edit/"
-  date: 2026-10-13
-  source: Simon Willison
-  category: ai
-- title: OpenAI engineer arrested in bugging of executive conference room
-  url: "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
-  date: 2026-10-13
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Guitoro, a virtual guitar you strum with your keyboard"
-  url: "https://guitoro.com/"
-  date: 2026-10-13
-  source: Hacker News Best
-  category: programming
-- title: Gemini 4 Argon
-  url: "https://deepmind.google/models/gemini/"
-  date: 2026-10-13
-  source: Hacker News Best
-  category: programming
-- title: Redesigning source control at Anthropic
-  url: "https://www.anthropic.com/engineering/redesigning-source-control"
-  date: 2026-10-13
-  source: Hacker News Best
-  category: programming
-- title: "I posted to HN, and then my website was flooded with AI bot traffic"
-  url: "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic"
-  date: 2026-10-13
-  source: Hacker News Best
-  category: programming
 - title: Deskilling the body
   url: "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
   date: 2026-10-13
@@ -68,34 +93,9 @@
   date: 2026-10-13
   source: The Marginalian
   category: philosophy
-- title: Hermann Hesse on How to Read a Book and How to Read Yourself
-  url: "https://www.themarginalian.org/2026/10/12/hermann-hesse-books-poem/"
-  date: 2026-10-13
-  source: The Marginalian
-  category: philosophy
-- title: llm-meta-ai 0.2
-  url: "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
-  date: 2026-10-12
-  source: Simon Willison
-  category: ai
 - title: "Africa’s cultural landmarks: tombs of Buganda kings"
   url: "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda"
   date: 2026-10-12
-  source: Aeon
-  category: philosophy
-- title: "Is everything conscious?"
-  url: "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true"
-  date: 2026-10-12
-  source: Aeon
-  category: philosophy
-- title: James Baldwin on How Love (Finally) Finds You
-  url: "https://www.themarginalian.org/2026/10/11/baldwin-love/"
-  date: 2026-10-11
-  source: The Marginalian
-  category: philosophy
-- title: Barbara Ward’s vision
-  url: "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice"
-  date: 2026-10-09
   source: Aeon
   category: philosophy
 - title: Monte-Carlo simulations
