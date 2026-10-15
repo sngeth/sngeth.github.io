@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dispatch — Thursday, October 15, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+  :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--black);font-family:'Lora',Georgia,serif;font-size:15px;line-height:1.65;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px 48px;}
+  .top-bar{display:flex;justify-content:space-between;align-items:center;padding:10px 0 6px;border-bottom:1px solid var(--black);font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--mid);text-transform:uppercase;}
+  .masthead{text-align:center;padding:18px 0 12px;border-bottom:3px double var(--black);border-top:1px solid var(--black);margin-top:8px;}
+  .masthead-name{font-family:'UnifrakturMaguntia',cursive;font-size:clamp(48px,8vw,90px);line-height:1;color:var(--black);}
+  .masthead-tagline{font-family:'Lora',serif;font-style:italic;font-size:13px;color:var(--mid);margin:6px 0 8px;}
+  .masthead-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  .section-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;display:flex;align-items:center;gap:10px;margin:16px 0 10px;}
+  .section-label::after{content:'';flex:1;height:1px;background:var(--dark-red);opacity:.4;}
+  .main-grid{margin-top:4px;}
+  .hn-col{width:100%;}
+  .story-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;}
+  .lead{grid-column:1/3;padding-right:24px;border-right:1px solid var(--light);padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .sec{grid-column:3/4;padding:0 20px 24px;border-right:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .sec-alt{grid-column:4/5;padding:0 0 24px 20px;border-bottom:1px solid var(--light);}
+  .bot-row{grid-column:1/5;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding-top:18px;}
+  .tert{padding:0 20px;border-right:1px solid var(--light);}
+  .tert:first-child{padding-left:0;}
+  .tert:last-child{padding-right:0;border-right:none;}
+  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;position:relative;}
+  .permalink{color:var(--dark-red);text-decoration:none;font-size:9px;vertical-align:middle;margin-left:8px;opacity:0;transition:opacity .2s;font-family:'IBM Plex Mono',monospace;letter-spacing:0;cursor:pointer;position:relative;}
+  .headline:hover .permalink,.x-item:hover .permalink{opacity:.6;}
+  .permalink:hover{opacity:1!important;}
+  .permalink .copied{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:var(--black);color:var(--cream);padding:2px 8px;border-radius:3px;font-size:9px;white-space:nowrap;opacity:0;transition:opacity .3s;pointer-events:none;}
+  .permalink .copied.show{opacity:1;}
+  .headline:target,.x-item:target{background:linear-gradient(120deg,rgba(139,26,26,.07) 0%,transparent 100%);border-radius:2px;padding:2px 4px;margin:-2px -4px;}
+  .deck{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--mid);line-height:1.4;margin-bottom:10px;border-left:3px solid var(--dark-red);padding-left:12px;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+  .byline::before{content:'';display:inline-block;width:24px;height:1px;background:var(--mid);}
+  .body-text{font-family:'Lora',serif;font-size:14.5px;line-height:1.72;color:#1a1a1a;}
+  .body-text p+p{margin-top:10px;}
+  .drop-cap::first-letter{font-family:'Playfair Display',serif;font-size:68px;font-weight:900;float:left;line-height:.78;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .pull-quote{border-top:2px solid var(--black);border-bottom:1px solid var(--black);margin:14px 0;padding:10px 0;font-family:'Playfair Display',serif;font-style:italic;font-size:16px;line-height:1.4;color:var(--dark-red);}
+  .tag{display:inline-block;border:1px solid currentColor;padding:1px 5px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--dark-red);margin-bottom:6px;}
+  .sidebar-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;border-bottom:1px solid var(--dark-red);padding-bottom:6px;margin-bottom:16px;}
+  .x-item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--light);}
+  .x-item:last-child{border-bottom:none;}
+  .x-handle{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dark-red);font-weight:500;letter-spacing:.05em;margin-bottom:4px;}
+  .x-handle::before{content:'𝕏 ';font-size:11px;}
+  .x-headline{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;line-height:1.25;margin-bottom:6px;}
+  .x-body{font-family:'Lora',serif;font-size:13px;line-height:1.65;color:#2a2a2a;}
+  .page-two-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 28px;align-items:start;}
+  .page-two-story{padding:0 0 28px;position:relative;}
+  .page-two-story::after{content:'';position:absolute;right:-14px;top:0;bottom:0;width:1px;background:var(--light);}
+  .page-two-story:nth-child(1){grid-column:1 / span 7;padding-right:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2){grid-column:8 / span 5;padding-left:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2)::after{display:none;}
+  .page-two-story:nth-child(n+3){grid-column:span 6;padding-top:20px;}
+  .page-two-story:nth-child(2n)::after{display:none;}
+  .page-two-story .headline{margin-bottom:8px;}
+  .page-two-story .body-text{max-width:62ch;}
+  .page-two-story.feature .headline{font-size:30px!important;}
+  .page-two-story.feature .deck{font-size:16px;}
+  .page-two-story.feature .body-text p:first-child::first-letter{font-family:'Playfair Display',serif;font-size:58px;font-weight:900;float:left;line-height:.82;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .reading-list-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 24px;margin-top:14px;}
+  .reading-item{padding:18px 18px 16px;border-top:2px solid var(--black);border-bottom:1px solid var(--light);background:rgba(255,255,255,.4);min-height:100%;}
+  .reading-item .headline{font-size:19px!important;line-height:1.16;}
+  .reading-item .byline{margin-bottom:10px;}
+  .reading-item .body-text{font-size:13.5px;line-height:1.68;}
+  .page-nav{display:flex;justify-content:center;gap:24px;margin:32px 0 0;padding:16px 0;border-top:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .page-nav a{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dark-red);text-decoration:none;padding:6px 14px;border:1px solid var(--dark-red);}
+  .page-nav a:hover{background:var(--dark-red);color:#fff;}
+  .page-nav .current{background:var(--dark-red);color:#fff;}
+  footer{border-top:3px double var(--black);margin-top:32px;padding-top:10px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  .masthead{animation:fadeIn .6s ease both;}
+  .lead{animation:fadeIn .7s .1s ease both;}
+  .sec{animation:fadeIn .7s .2s ease both;}
+  .bot-row{animation:fadeIn .7s .3s ease both;}
+  .sec-alt{animation:fadeIn .7s .25s ease both;}
+  .page-two-story{animation:fadeIn .65s ease both;}
+  .page-two-story:nth-child(2){animation-delay:.08s;}
+  .page-two-story:nth-child(3){animation-delay:.16s;}
+  .page-two-story:nth-child(4){animation-delay:.24s;}
+  .reading-item{animation:fadeIn .65s ease both;}
+  @media(max-width:900px){
+    .hn-col{padding-right:0;border-right:none;}
+    .story-grid{grid-template-columns:1fr;}
+    .lead,.sec,.sec-alt{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
+    .bot-row{grid-template-columns:1fr;}
+    .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
+    .page-two-grid{grid-template-columns:1fr;gap:0;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:1;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:24px!important;}
+    .reading-list-grid{grid-template-columns:1fr;gap:16px;}
+    .reading-item{padding:16px 0 14px;background:transparent;}
+  }
+  @media(min-width:901px) and (max-width:1180px){
+    .page-two-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:auto;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story:nth-child(odd){padding-right:12px;}
+    .page-two-story:nth-child(even){padding-left:12px;}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:26px!important;}
+    .reading-list-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  
+  <div class="top-bar">
+    <span>Vol. 399 &nbsp;·&nbsp; No. 345</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Thursday, October 15, 2026</span>
+      <span>Powered by Codex &nbsp;·&nbsp; HN + RSS</span>
+    </div>
+  </div>
+  
+  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div class="story-grid">
+        <div class="lead">
+    <div class="tag">Health · Patient knowledge</div>
+    <h1 class="headline" id="a-cancer-guide-becomes-hacker-news-s-most-urgent-read" style="font-size:34px"><a href="https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/" target="_blank" style="color:inherit;text-decoration:none;">A cancer guide becomes Hacker News’s most urgent read</a><span class="permalink" onclick="copyLink('a-cancer-guide-becomes-hacker-news-s-most-urgent-read')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+    <div class="deck">A personal primer drew 1,430 points and 352 comments.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50093568" target="_blank" style="color:inherit;text-decoration:none;">▲ 1430 pts &nbsp;·&nbsp; 352 comments</a>
+    </div>
+    <div class="body-text">
+      <p class="drop-cap">The day’s most-read Hacker News item is not a launch or a benchmark but a guide to the bewildering practical knowledge surrounding cancer. Its 1,430 points and 352 comments show how forcefully an account of institutional complexity can travel through a technical community.</p><p>The metadata offers no clinical claims to adjudicate, only a clear signal of need: readers made room for a resource framed around what people should know when the diagnosis arrives. That is a reminder that useful systems knowledge is not confined to software.</p>
+      <div class="pull-quote">The most consequential information problems often begin outside the terminal.</div>
+    </div></div>
+        <div class="sec">
+    <div class="tag">Health · Institutions</div>
+    <h2 class="headline" id="a-skeptical-look-at-dentistry-opens-a-large-argument" style="font-size:21px"><a href="https://mapwriting.substack.com/p/dentists" target="_blank" style="color:inherit;text-decoration:none;">A skeptical look at dentistry opens a large argument</a><span class="permalink" onclick="copyLink('a-skeptical-look-at-dentistry-opens-a-large-argument')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">The question drew 733 points and an unusually busy 531-comment thread.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50050553" target="_blank" style="color:inherit;text-decoration:none;">▲ 733 pts &nbsp;·&nbsp; 531 comments</a>
+    </div>
+    <div class="body-text">
+      <p>A provocative question about whether dentists know what they are doing has become a substantial Hacker News debate, collecting 733 points alongside 531 comments. That near-parity is the story: readers did not merely register the link; they arrived with experience, disagreement, and suspicion.</p><p>The item’s title is deliberately broad, and the available record supplies no verdict. But the response underlines a familiar pattern in technical culture: opaque expert systems attract intense scrutiny when ordinary people must trust them anyway.</p>
+      
+    </div></div>
+        <div class="sec-alt">
+    <div class="tag">Developer tools · AI coding</div>
+    <h2 class="headline" id="opencode-s-second-act-lands-to-a-crowded-room" style="font-size:21px"><a href="https://anoma.ly/notes/opencode-2-0/" target="_blank" style="color:inherit;text-decoration:none;">OpenCode’s second act lands to a crowded room</a><span class="permalink" onclick="copyLink('opencode-s-second-act-lands-to-a-crowded-room')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">The 2.0 release logged 637 points and 256 comments.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50094994" target="_blank" style="color:inherit;text-decoration:none;">▲ 637 pts &nbsp;·&nbsp; 256 comments</a>
+    </div>
+    <div class="body-text">
+      <p>OpenCode 2.0 has arrived with the kind of reception reserved for tools that invite developers to reconsider their daily loop: 637 points and 256 comments on Hacker News. The numbers put this release squarely inside the current argument over where coding assistance belongs.</p><p>We have only the announcement title and the thread’s response, not a feature list to audit. Still, attention at this scale is a useful fact in itself: developer-tool launches are being judged not only as products, but as positions in a rapidly changing workflow.</p>
+      
+    </div></div>
+        <div class="bot-row">
+          <div class="tert">
+    <div class="tag">Work · Collaboration</div>
+    <h2 class="headline" id="tiny-little-office-makes-a-small-case-for-a-different-workpl" style="font-size:19px"><a href="https://tinylittleoffice.com/" target="_blank" style="color:inherit;text-decoration:none;">Tiny Little Office makes a small case for a different workplace</a><span class="permalink" onclick="copyLink('tiny-little-office-makes-a-small-case-for-a-different-workpl')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">A compact office concept earned 467 points and 79 comments.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50096142" target="_blank" style="color:inherit;text-decoration:none;">▲ 467 pts &nbsp;·&nbsp; 79 comments</a>
+    </div>
+    <div class="body-text">
+      <p>Tiny Little Office reached Hacker News with an appealingly modest proposition in its name and a sizeable response: 467 points, 79 comments. In an era of maximal remote-work discourse, small physical arrangements still carry enough intrigue to command attention.</p><p>The listing does not establish what the project offers beyond its title and URL. What it does show is an appetite for concrete alternatives to the default office story—especially ones that sound designed around scale, proximity, and daily practice rather than corporate real estate.</p>
+      
+    </div></div><div class="tert">
+    <div class="tag">Society · Data</div>
+    <h2 class="headline" id="the-long-retreat-from-social-life-becomes-a-data-debate" style="font-size:19px"><a href="https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years" target="_blank" style="color:inherit;text-decoration:none;">The long retreat from social life becomes a data debate</a><span class="permalink" onclick="copyLink('the-long-retreat-from-social-life-becomes-a-data-debate')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">A report on declining activity generated 420 points and 390 comments.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50089921" target="_blank" style="color:inherit;text-decoration:none;">▲ 420 pts &nbsp;·&nbsp; 390 comments</a>
+    </div>
+    <div class="body-text">
+      <p>A report arguing that Americans’ social activity has fallen steeply over three decades produced one of the day’s densest discussions: 420 points and 390 comments. That response suggests readers recognize the subject not as an abstraction but as a lived change with competing explanations.</p><p>The source metadata gives us the claim, not its methodology or conclusions. Even so, the thread’s intensity is a useful index of the stakes: social infrastructure has become a technical, economic, and cultural concern all at once.</p>
+      
+    </div></div><div class="tert">
+    <div class="tag">Programming · Go</div>
+    <h2 class="headline" id="go-1-27-targets-the-unglamorous-economics-of-connection-reus" style="font-size:19px"><a href="https://go.dev/blog/http-connection-reuse" target="_blank" style="color:inherit;text-decoration:none;">Go 1.27 targets the unglamorous economics of connection reuse</a><span class="permalink" onclick="copyLink('go-1-27-targets-the-unglamorous-economics-of-connection-reus')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">An HTTP/1 improvement earned 259 points and 40 comments.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50090369" target="_blank" style="color:inherit;text-decoration:none;">▲ 259 pts &nbsp;·&nbsp; 40 comments</a>
+    </div>
+    <div class="body-text">
+      <p>Go 1.27 is putting a spotlight on better HTTP/1 connection reuse, a change whose value lies precisely in its lack of spectacle. The post drew 259 points and 40 comments, a healthy audience for infrastructure work that mostly matters by quietly avoiding waste.</p><p>Connection handling is where application behavior meets the stubborn realities of networks. Without reaching beyond the supplied title, the significance is clear enough: mature ecosystems keep advancing through operational refinements, not only through new abstractions.</p>
+      
+    </div></div>
+        </div>
+      </div>
+      
+    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+      
+        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+          <div class="tag">AI · On-device agents</div>
+          <a href="../page2.html" style="text-decoration:none;color:inherit;">
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Liquid AI pitches a 24B model for agents at the edge</div>
+          </a>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 220 · 51 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+        </div>
+        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+          <div class="tag">Games · Independent work</div>
+          <a href="../page2.html" style="text-decoration:none;color:inherit;">
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Catch a Bird is a game made to restore its maker</div>
+          </a>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 199 · 53 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="page-nav"><a class="current" href="../index.html">Page 1</a>
+      <a  href="../page2.html">Page 2</a></div>
+  <footer>
+    <span>The Dispatch &nbsp;·&nbsp; Thursday, October 15, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; RSS Feeds &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+    <span>Generated 07:07 AM EDT</span>
+  </footer>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #ccc;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;">
+    <a href="2026-10-14.html" style="color:var(--dark-red);text-decoration:none;">← 2026-10-14</a>
+    <a href="index.html" style="color:var(--mid);text-decoration:none;">All Editions ↑</a>
+    <span style="color:#ccc;">Latest →</span>
+  </div>
+</div>
+</body>
+</html>
