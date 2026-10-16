@@ -1,3 +1,43 @@
+- title: Tesla Roadster
+  url: "https://www.tesla.com/roadster"
+  date: 2026-10-16
+  source: Hacker News Best
+  category: programming
+- title: How to be a (Roman) man
+  url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
+  date: 2026-10-16
+  source: Aeon
+  category: philosophy
+- title: Chirp Pong
+  url: "https://simonwillison.net/2026/Oct/15/chirp-pong/"
+  date: 2026-10-15
+  source: Simon Willison
+  category: ai
+- title: "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
+  url: "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+  date: 2026-10-15
+  source: Simon Willison
+  category: ai
+- title: "Meta’s new commercial terms will allow the scraping of news sites: experts"
+  url: "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
+  date: 2026-10-15
+  source: Hacker News Best
+  category: programming
+- title: What I self-host
+  url: "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/"
+  date: 2026-10-15
+  source: Hacker News Best
+  category: programming
+- title: New Withings Users Must Pay $99/Year for Apple Health Syncing
+  url: "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts"
+  date: 2026-10-15
+  source: Hacker News Best
+  category: programming
+- title: Someone on Torrent Sites Kept Fucking with My Sonarr
+  url: "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup"
+  date: 2026-10-15
+  source: Hacker News Best
+  category: programming
 - title: The secrets of Hohle Fels cave
   url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
   date: 2026-10-15
@@ -7,6 +47,11 @@
   url: "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
   date: 2026-10-15
   source: Aeon
+  category: philosophy
+- title: "How to Hold Your Helplessness: Nobel Laureate Bertrand Russell’s Salve for the Anxiety of Overwhelm"
+  url: "https://www.themarginalian.org/2026/10/15/new-hopes-for-a-changing-world-russell/"
+  date: 2026-10-15
+  source: The Marginalian
   category: philosophy
 - title: How Not to Waste Your Life
   url: "https://www.themarginalian.org/2026/10/15/hawthorne-life/"
@@ -23,31 +68,6 @@
   date: 2026-10-14
   source: Simon Willison
   category: ai
-- title: Tiny Little Office
-  url: "https://tinylittleoffice.com/"
-  date: 2026-10-14
-  source: Hacker News Best
-  category: programming
-- title: OpenCode 2.0
-  url: "https://anoma.ly/notes/opencode-2-0/"
-  date: 2026-10-14
-  source: Hacker News Best
-  category: programming
-- title: "Anthropic's Scion is heavily inspired by Mononoke"
-  url: "https://sunshowers.io/posts/anthropic-mononoke/"
-  date: 2026-10-14
-  source: Hacker News Best
-  category: programming
-- title: Things to know when you get cancer
-  url: "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/"
-  date: 2026-10-14
-  source: Hacker News Best
-  category: programming
-- title: Suicide rates highest ever among middle-aged men
-  url: "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/"
-  date: 2026-10-14
-  source: Hacker News Best
-  category: programming
 - title: Into the fire
   url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
   date: 2026-10-14
@@ -68,16 +88,6 @@
   date: 2026-10-13
   source: Simon Willison
   category: ai
-- title: llm-gemini 0.35
-  url: "https://simonwillison.net/2026/Oct/13/llm-gemini/"
-  date: 2026-10-13
-  source: Simon Willison
-  category: ai
-- title: Quoting Geoffrey Huntley
-  url: "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
-  date: 2026-10-13
-  source: Simon Willison
-  category: ai
 - title: Deskilling the body
   url: "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
   date: 2026-10-13
@@ -87,16 +97,6 @@
   url: "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses/"
   date: 2026-10-13
   source: The Marginalian
-  category: philosophy
-- title: Nobel Laureate Doris Lessing on Breaking Free from the Prisons We Choose to Live Inside
-  url: "https://www.themarginalian.org/2026/10/13/doris-lessing-massey-lectures/"
-  date: 2026-10-13
-  source: The Marginalian
-  category: philosophy
-- title: "Africa’s cultural landmarks: tombs of Buganda kings"
-  url: "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda"
-  date: 2026-10-12
-  source: Aeon
   category: philosophy
 - title: Monte-Carlo simulations
   url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
