@@ -1,5 +1,30 @@
-- title: Tesla Roadster
-  url: "https://www.tesla.com/roadster"
+- title: "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
+  url: "https://simonwillison.net/2026/Oct/16/code-review/"
+  date: 2026-10-16
+  source: Simon Willison
+  category: ai
+- title: How the Claude Code team does code review
+  url: "https://claude.dev/blog/solving-code-review-at-anthropic/"
+  date: 2026-10-16
+  source: Hacker News Best
+  category: programming
+- title: You could have invented transformers from memory
+  url: "https://alexwang.ai/posts/associative-memory/"
+  date: 2026-10-16
+  source: Hacker News Best
+  category: programming
+- title: Claude reveals ECDSA curve origins
+  url: "https://www.anthropic.com/research/ecdsa-curve-origins"
+  date: 2026-10-16
+  source: Hacker News Best
+  category: programming
+- title: "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console"
+  url: "https://github.com/cobanov/PS5LM"
+  date: 2026-10-16
+  source: Hacker News Best
+  category: programming
+- title: "90% of US working hours are spent on tasks not covered well by AI benchmarks"
+  url: "https://www.mercor.com/research/labor-index/benchmark-map/"
   date: 2026-10-16
   source: Hacker News Best
   category: programming
@@ -7,6 +32,21 @@
   url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
   date: 2026-10-16
   source: Aeon
+  category: philosophy
+- title: The Day Dostoyevsky Discovered the Meaning of Life in a Dream
+  url: "https://www.themarginalian.org/2026/10/16/dostoyevsky-dream/"
+  date: 2026-10-16
+  source: The Marginalian
+  category: philosophy
+- title: "The Other Significant Others: Living and Loving Outside the Confines of Conventional Friendship and Compulsory Coupledom"
+  url: "https://www.themarginalian.org/2026/10/16/the-other-significant-others/"
+  date: 2026-10-16
+  source: The Marginalian
+  category: philosophy
+- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
+  url: "https://www.themarginalian.org/2026/10/16/bruce-springsteen-depression/"
+  date: 2026-10-16
+  source: The Marginalian
   category: philosophy
 - title: Chirp Pong
   url: "https://simonwillison.net/2026/Oct/15/chirp-pong/"
@@ -18,26 +58,11 @@
   date: 2026-10-15
   source: Simon Willison
   category: ai
-- title: "Meta’s new commercial terms will allow the scraping of news sites: experts"
-  url: "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
+- title: LaTeX renderer
+  url: "https://simonwillison.net/2026/Oct/15/latex/"
   date: 2026-10-15
-  source: Hacker News Best
-  category: programming
-- title: What I self-host
-  url: "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/"
-  date: 2026-10-15
-  source: Hacker News Best
-  category: programming
-- title: New Withings Users Must Pay $99/Year for Apple Health Syncing
-  url: "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts"
-  date: 2026-10-15
-  source: Hacker News Best
-  category: programming
-- title: Someone on Torrent Sites Kept Fucking with My Sonarr
-  url: "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup"
-  date: 2026-10-15
-  source: Hacker News Best
-  category: programming
+  source: Simon Willison
+  category: ai
 - title: The secrets of Hohle Fels cave
   url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
   date: 2026-10-15
@@ -63,40 +88,15 @@
   date: 2026-10-14
   source: Simon Willison
   category: ai
-- title: "AI is mass decompiling games. That's both awesome and scary."
-  url: "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
-  date: 2026-10-14
-  source: Simon Willison
-  category: ai
 - title: Into the fire
   url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
   date: 2026-10-14
   source: Aeon
   category: philosophy
-- title: "An Introvert’s Field Guide to Friendship: Thoreau on the Challenges and Rewards of Candid Connection"
-  url: "https://www.themarginalian.org/2026/10/14/thoreau-friendship/"
-  date: 2026-10-14
-  source: The Marginalian
-  category: philosophy
-- title: "NostradamusGPT: The Psychology of Prophecy and How to Break Free from the Prison of Predictive Technologies"
-  url: "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy/"
-  date: 2026-10-14
-  source: The Marginalian
-  category: philosophy
-- title: Redesigning source control at Anthropic
-  url: "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
-  date: 2026-10-13
-  source: Simon Willison
-  category: ai
 - title: Deskilling the body
   url: "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
   date: 2026-10-13
   source: Aeon
-  category: philosophy
-- title: Probability Theory Pioneer Mark Kac on the Unpredictability of Creativity and the Two Types of Geniuses
-  url: "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses/"
-  date: 2026-10-13
-  source: The Marginalian
   category: philosophy
 - title: Monte-Carlo simulations
   url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
