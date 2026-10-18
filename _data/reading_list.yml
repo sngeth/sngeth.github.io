@@ -1,33 +1,68 @@
+- title: "Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day"
+  url: "https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day"
+  date: 2026-10-18
+  source: Hacker News Best
+  category: programming
+- title: NY announces game ownership bill requiring ownership rather than licensing
+  url: "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+  date: 2026-10-18
+  source: Hacker News Best
+  category: programming
+- title: "Celebrating 20 Years of The Marginalian and the Search for Meaning: Free Livestream This Friday"
+  url: "https://www.themarginalian.org/2026/10/18/20/"
+  date: 2026-10-18
+  source: The Marginalian
+  category: philosophy
+- title: Inline rendering with document​.currentScript
+  url: "https://simonwillison.net/2026/Oct/17/document-currentscript/"
+  date: 2026-10-17
+  source: Simon Willison
+  category: ai
+- title: web-edit 0.1a2
+  url: "https://simonwillison.net/2026/Oct/17/web-edit/"
+  date: 2026-10-17
+  source: Simon Willison
+  category: ai
+- title: Notes on the complex roots of unity
+  url: "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/"
+  date: 2026-10-17
+  source: Eli Bendersky
+  category: programming
+- title: "OpenCode Hacked: User credentials leaked"
+  url: "https://twitter.com/opencode/status/2111516673953935833"
+  date: 2026-10-17
+  source: Hacker News Best
+  category: programming
+- title: Gold is now the top U.S. export
+  url: "https://www.numismaticnews.net/gold-now-top-u-s-export"
+  date: 2026-10-17
+  source: Hacker News Best
+  category: programming
+- title: Pele – Mermaid diagrams as themeable SVG
+  url: "https://pele.run/"
+  date: 2026-10-17
+  source: Hacker News Best
+  category: programming
+- title: The Map to the Route of Your Life
+  url: "https://www.themarginalian.org/2026/10/17/benedetti-ruta/"
+  date: 2026-10-17
+  source: The Marginalian
+  category: philosophy
+- title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
+  url: "https://www.themarginalian.org/2026/10/17/bloom-depression/"
+  date: 2026-10-17
+  source: The Marginalian
+  category: philosophy
+- title: "The Single Most Effective Remedy for Despair: Advice from T.H. White’s Merlyn"
+  url: "https://www.themarginalian.org/2026/10/17/t-h-white-once-and-future-king-merlyn/"
+  date: 2026-10-17
+  source: The Marginalian
+  category: philosophy
 - title: "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
   url: "https://simonwillison.net/2026/Oct/16/code-review/"
   date: 2026-10-16
   source: Simon Willison
   category: ai
-- title: How the Claude Code team does code review
-  url: "https://claude.dev/blog/solving-code-review-at-anthropic/"
-  date: 2026-10-16
-  source: Hacker News Best
-  category: programming
-- title: You could have invented transformers from memory
-  url: "https://alexwang.ai/posts/associative-memory/"
-  date: 2026-10-16
-  source: Hacker News Best
-  category: programming
-- title: Claude reveals ECDSA curve origins
-  url: "https://www.anthropic.com/research/ecdsa-curve-origins"
-  date: 2026-10-16
-  source: Hacker News Best
-  category: programming
-- title: "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console"
-  url: "https://github.com/cobanov/PS5LM"
-  date: 2026-10-16
-  source: Hacker News Best
-  category: programming
-- title: "90% of US working hours are spent on tasks not covered well by AI benchmarks"
-  url: "https://www.mercor.com/research/labor-index/benchmark-map/"
-  date: 2026-10-16
-  source: Hacker News Best
-  category: programming
 - title: How to be a (Roman) man
   url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
   date: 2026-10-16
@@ -35,16 +70,6 @@
   category: philosophy
 - title: The Day Dostoyevsky Discovered the Meaning of Life in a Dream
   url: "https://www.themarginalian.org/2026/10/16/dostoyevsky-dream/"
-  date: 2026-10-16
-  source: The Marginalian
-  category: philosophy
-- title: "The Other Significant Others: Living and Loving Outside the Confines of Conventional Friendship and Compulsory Coupledom"
-  url: "https://www.themarginalian.org/2026/10/16/the-other-significant-others/"
-  date: 2026-10-16
-  source: The Marginalian
-  category: philosophy
-- title: Bruce Springsteen on Surviving Depression and His Strategy for Living Through the Visitations of the Darkness
-  url: "https://www.themarginalian.org/2026/10/16/bruce-springsteen-depression/"
   date: 2026-10-16
   source: The Marginalian
   category: philosophy
@@ -58,11 +83,6 @@
   date: 2026-10-15
   source: Simon Willison
   category: ai
-- title: LaTeX renderer
-  url: "https://simonwillison.net/2026/Oct/15/latex/"
-  date: 2026-10-15
-  source: Simon Willison
-  category: ai
 - title: The secrets of Hohle Fels cave
   url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
   date: 2026-10-15
@@ -73,21 +93,6 @@
   date: 2026-10-15
   source: Aeon
   category: philosophy
-- title: "How to Hold Your Helplessness: Nobel Laureate Bertrand Russell’s Salve for the Anxiety of Overwhelm"
-  url: "https://www.themarginalian.org/2026/10/15/new-hopes-for-a-changing-world-russell/"
-  date: 2026-10-15
-  source: The Marginalian
-  category: philosophy
-- title: How Not to Waste Your Life
-  url: "https://www.themarginalian.org/2026/10/15/hawthorne-life/"
-  date: 2026-10-15
-  source: The Marginalian
-  category: philosophy
-- title: Tree Appreciator
-  url: "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
-  date: 2026-10-14
-  source: Simon Willison
-  category: ai
 - title: Into the fire
   url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
   date: 2026-10-14
@@ -142,11 +147,6 @@
   url: "https://danluu.com/bug-blind/"
   date: 2026-08-30
   source: Dan Luu
-  category: programming
-- title: "How big are factorials?"
-  url: "https://eli.thegreenplace.net/2026/how-big-are-factorials/"
-  date: 2026-08-27
-  source: Eli Bendersky
   category: programming
 - title: "There's no reason for software to be slow anymore"
   url: "https://danluu.com/perf-opt/"
