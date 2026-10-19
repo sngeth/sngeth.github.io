@@ -1,13 +1,58 @@
-- title: "Zuckerberg's Meta Takes Down No Kings Instagram During Protest Day"
-  url: "https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day"
+- title: Linux 7.3 Released
+  url: "https://lwn.net/Articles/1101143/"
+  date: 2026-10-19
+  source: Hacker News Best
+  category: programming
+- title: "A vocabulary for the future: nature"
+  url: "https://aeon.co/videos/theres-nothing-inherently-good-in-the-natural-argues-bruno-latour"
+  date: 2026-10-19
+  source: Aeon
+  category: philosophy
+- title: "Horrible, unmanly, indispensable"
+  url: "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias"
+  date: 2026-10-19
+  source: Aeon
+  category: philosophy
+- title: llm-tools-datasette 0.1.1
+  url: "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+  date: 2026-10-18
+  source: Simon Willison
+  category: ai
+- title: llm-echo 0.5
+  url: "https://simonwillison.net/2026/Oct/18/llm-echo/"
+  date: 2026-10-18
+  source: Simon Willison
+  category: ai
+- title: William Gibson and the trademarking of cyberspace
+  url: "https://colo.to/cyberspace.html"
   date: 2026-10-18
   source: Hacker News Best
   category: programming
-- title: NY announces game ownership bill requiring ownership rather than licensing
-  url: "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+- title: "If you don't run your own LLM proxy, how do you know whats going on?"
+  url: "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
   date: 2026-10-18
   source: Hacker News Best
   category: programming
+- title: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
+  url: "https://arxiv.org/abs/2610.18861"
+  date: 2026-10-18
+  source: Hacker News Best
+  category: programming
+- title: "Florida's HOAs and condo associations are making the housing crisis worse"
+  url: "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html"
+  date: 2026-10-18
+  source: Hacker News Best
+  category: programming
+- title: Nineteen Truths and One Beguiling Lie about Life from 20 Years of The Marginalian
+  url: "https://www.themarginalian.org/2026/10/18/refiguring/"
+  date: 2026-10-18
+  source: The Marginalian
+  category: philosophy
+- title: How to Unself in Order to Be Who You Really Are
+  url: "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing/"
+  date: 2026-10-18
+  source: The Marginalian
+  category: philosophy
 - title: "Celebrating 20 Years of The Marginalian and the Search for Meaning: Free Livestream This Friday"
   url: "https://www.themarginalian.org/2026/10/18/20/"
   date: 2026-10-18
@@ -28,21 +73,6 @@
   date: 2026-10-17
   source: Eli Bendersky
   category: programming
-- title: "OpenCode Hacked: User credentials leaked"
-  url: "https://twitter.com/opencode/status/2111516673953935833"
-  date: 2026-10-17
-  source: Hacker News Best
-  category: programming
-- title: Gold is now the top U.S. export
-  url: "https://www.numismaticnews.net/gold-now-top-u-s-export"
-  date: 2026-10-17
-  source: Hacker News Best
-  category: programming
-- title: Pele – Mermaid diagrams as themeable SVG
-  url: "https://pele.run/"
-  date: 2026-10-17
-  source: Hacker News Best
-  category: programming
 - title: The Map to the Route of Your Life
   url: "https://www.themarginalian.org/2026/10/17/benedetti-ruta/"
   date: 2026-10-17
@@ -50,11 +80,6 @@
   category: philosophy
 - title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
   url: "https://www.themarginalian.org/2026/10/17/bloom-depression/"
-  date: 2026-10-17
-  source: The Marginalian
-  category: philosophy
-- title: "The Single Most Effective Remedy for Despair: Advice from T.H. White’s Merlyn"
-  url: "https://www.themarginalian.org/2026/10/17/t-h-white-once-and-future-king-merlyn/"
   date: 2026-10-17
   source: The Marginalian
   category: philosophy
@@ -68,21 +93,6 @@
   date: 2026-10-16
   source: Aeon
   category: philosophy
-- title: The Day Dostoyevsky Discovered the Meaning of Life in a Dream
-  url: "https://www.themarginalian.org/2026/10/16/dostoyevsky-dream/"
-  date: 2026-10-16
-  source: The Marginalian
-  category: philosophy
-- title: Chirp Pong
-  url: "https://simonwillison.net/2026/Oct/15/chirp-pong/"
-  date: 2026-10-15
-  source: Simon Willison
-  category: ai
-- title: "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
-  url: "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
-  date: 2026-10-15
-  source: Simon Willison
-  category: ai
 - title: The secrets of Hohle Fels cave
   url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
   date: 2026-10-15
@@ -91,16 +101,6 @@
 - title: The ladder of knowledge
   url: "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
   date: 2026-10-15
-  source: Aeon
-  category: philosophy
-- title: Into the fire
-  url: "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy"
-  date: 2026-10-14
-  source: Aeon
-  category: philosophy
-- title: Deskilling the body
-  url: "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
-  date: 2026-10-13
   source: Aeon
   category: philosophy
 - title: Monte-Carlo simulations
