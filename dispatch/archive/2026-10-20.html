@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dispatch — Tuesday, October 20, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+  :root { --cream:#FAF7F2; --black:#0d0d0d; --dark-red:#8B1A1A; --mid:#555; --light:#ccc; --sidebar:#F3EFE8; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--black);font-family:'Lora',Georgia,serif;font-size:15px;line-height:1.65;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px 48px;}
+  .top-bar{display:flex;justify-content:space-between;align-items:center;padding:10px 0 6px;border-bottom:1px solid var(--black);font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--mid);text-transform:uppercase;}
+  .masthead{text-align:center;padding:18px 0 12px;border-bottom:3px double var(--black);border-top:1px solid var(--black);margin-top:8px;}
+  .masthead-name{font-family:'UnifrakturMaguntia',cursive;font-size:clamp(48px,8vw,90px);line-height:1;color:var(--black);}
+  .masthead-tagline{font-family:'Lora',serif;font-style:italic;font-size:13px;color:var(--mid);margin:6px 0 8px;}
+  .masthead-meta{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  .section-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;display:flex;align-items:center;gap:10px;margin:16px 0 10px;}
+  .section-label::after{content:'';flex:1;height:1px;background:var(--dark-red);opacity:.4;}
+  .main-grid{margin-top:4px;}
+  .hn-col{width:100%;}
+  .story-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;}
+  .lead{grid-column:1/3;padding-right:24px;border-right:1px solid var(--light);padding-bottom:24px;border-bottom:1px solid var(--light);}
+  .sec{grid-column:3/4;padding:0 20px 24px;border-right:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .sec-alt{grid-column:4/5;padding:0 0 24px 20px;border-bottom:1px solid var(--light);}
+  .bot-row{grid-column:1/5;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding-top:18px;}
+  .tert{padding:0 20px;border-right:1px solid var(--light);}
+  .tert:first-child{padding-left:0;}
+  .tert:last-child{padding-right:0;border-right:none;}
+  .headline{font-family:'Playfair Display',serif;font-weight:900;line-height:1.1;letter-spacing:-.02em;margin-bottom:6px;position:relative;}
+  .permalink{color:var(--dark-red);text-decoration:none;font-size:9px;vertical-align:middle;margin-left:8px;opacity:0;transition:opacity .2s;font-family:'IBM Plex Mono',monospace;letter-spacing:0;cursor:pointer;position:relative;}
+  .headline:hover .permalink,.x-item:hover .permalink{opacity:.6;}
+  .permalink:hover{opacity:1!important;}
+  .permalink .copied{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);background:var(--black);color:var(--cream);padding:2px 8px;border-radius:3px;font-size:9px;white-space:nowrap;opacity:0;transition:opacity .3s;pointer-events:none;}
+  .permalink .copied.show{opacity:1;}
+  .headline:target,.x-item:target{background:linear-gradient(120deg,rgba(139,26,26,.07) 0%,transparent 100%);border-radius:2px;padding:2px 4px;margin:-2px -4px;}
+  .deck{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--mid);line-height:1.4;margin-bottom:10px;border-left:3px solid var(--dark-red);padding-left:12px;}
+  .byline{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+  .byline::before{content:'';display:inline-block;width:24px;height:1px;background:var(--mid);}
+  .body-text{font-family:'Lora',serif;font-size:14.5px;line-height:1.72;color:#1a1a1a;}
+  .body-text p+p{margin-top:10px;}
+  .drop-cap::first-letter{font-family:'Playfair Display',serif;font-size:68px;font-weight:900;float:left;line-height:.78;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .pull-quote{border-top:2px solid var(--black);border-bottom:1px solid var(--black);margin:14px 0;padding:10px 0;font-family:'Playfair Display',serif;font-style:italic;font-size:16px;line-height:1.4;color:var(--dark-red);}
+  .tag{display:inline-block;border:1px solid currentColor;padding:1px 5px;font-family:'IBM Plex Mono',monospace;font-size:8.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--dark-red);margin-bottom:6px;}
+  .sidebar-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--dark-red);font-weight:500;border-bottom:1px solid var(--dark-red);padding-bottom:6px;margin-bottom:16px;}
+  .x-item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--light);}
+  .x-item:last-child{border-bottom:none;}
+  .x-handle{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dark-red);font-weight:500;letter-spacing:.05em;margin-bottom:4px;}
+  .x-handle::before{content:'𝕏 ';font-size:11px;}
+  .x-headline{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;line-height:1.25;margin-bottom:6px;}
+  .x-body{font-family:'Lora',serif;font-size:13px;line-height:1.65;color:#2a2a2a;}
+  .page-two-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 28px;align-items:start;}
+  .page-two-story{padding:0 0 28px;position:relative;}
+  .page-two-story::after{content:'';position:absolute;right:-14px;top:0;bottom:0;width:1px;background:var(--light);}
+  .page-two-story:nth-child(1){grid-column:1 / span 7;padding-right:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2){grid-column:8 / span 5;padding-left:6px;border-bottom:1px solid var(--light);}
+  .page-two-story:nth-child(2)::after{display:none;}
+  .page-two-story:nth-child(n+3){grid-column:span 6;padding-top:20px;}
+  .page-two-story:nth-child(2n)::after{display:none;}
+  .page-two-story .headline{margin-bottom:8px;}
+  .page-two-story .body-text{max-width:62ch;}
+  .page-two-story.feature .headline{font-size:30px!important;}
+  .page-two-story.feature .deck{font-size:16px;}
+  .page-two-story.feature .body-text p:first-child::first-letter{font-family:'Playfair Display',serif;font-size:58px;font-weight:900;float:left;line-height:.82;margin:6px 8px -4px 0;color:var(--dark-red);}
+  .reading-list-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 24px;margin-top:14px;}
+  .reading-item{padding:18px 18px 16px;border-top:2px solid var(--black);border-bottom:1px solid var(--light);background:rgba(255,255,255,.4);min-height:100%;}
+  .reading-item .headline{font-size:19px!important;line-height:1.16;}
+  .reading-item .byline{margin-bottom:10px;}
+  .reading-item .body-text{font-size:13.5px;line-height:1.68;}
+  .page-nav{display:flex;justify-content:center;gap:24px;margin:32px 0 0;padding:16px 0;border-top:1px solid var(--light);border-bottom:1px solid var(--light);}
+  .page-nav a{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--dark-red);text-decoration:none;padding:6px 14px;border:1px solid var(--dark-red);}
+  .page-nav a:hover{background:var(--dark-red);color:#fff;}
+  .page-nav .current{background:var(--dark-red);color:#fff;}
+  footer{border-top:3px double var(--black);margin-top:32px;padding-top:10px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mid);}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  .masthead{animation:fadeIn .6s ease both;}
+  .lead{animation:fadeIn .7s .1s ease both;}
+  .sec{animation:fadeIn .7s .2s ease both;}
+  .bot-row{animation:fadeIn .7s .3s ease both;}
+  .sec-alt{animation:fadeIn .7s .25s ease both;}
+  .page-two-story{animation:fadeIn .65s ease both;}
+  .page-two-story:nth-child(2){animation-delay:.08s;}
+  .page-two-story:nth-child(3){animation-delay:.16s;}
+  .page-two-story:nth-child(4){animation-delay:.24s;}
+  .reading-item{animation:fadeIn .65s ease both;}
+  @media(max-width:900px){
+    .hn-col{padding-right:0;border-right:none;}
+    .story-grid{grid-template-columns:1fr;}
+    .lead,.sec,.sec-alt{grid-column:1;padding:0 0 24px;border:none;border-bottom:1px solid var(--light);}
+    .bot-row{grid-template-columns:1fr;}
+    .tert{padding:0 0 20px;border-right:none;border-bottom:1px solid var(--light);}
+    .page-two-grid{grid-template-columns:1fr;gap:0;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:1;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:24px!important;}
+    .reading-list-grid{grid-template-columns:1fr;gap:16px;}
+    .reading-item{padding:16px 0 14px;background:transparent;}
+  }
+  @media(min-width:901px) and (max-width:1180px){
+    .page-two-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;}
+    .page-two-story,.page-two-story:nth-child(1),.page-two-story:nth-child(2),.page-two-story:nth-child(n+3){grid-column:auto;padding:0 0 24px;border-bottom:1px solid var(--light);}
+    .page-two-story:nth-child(odd){padding-right:12px;}
+    .page-two-story:nth-child(even){padding-left:12px;}
+    .page-two-story::after{display:none;}
+    .page-two-story.feature .headline{font-size:26px!important;}
+    .reading-list-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  
+  <div class="top-bar">
+    <span>Vol. 404 &nbsp;·&nbsp; No. 358</span>
+    <span>⬥ &nbsp; Tech · Markets · Discourse &nbsp; ⬥</span>
+    <span>Page 1 of 2 &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:none;">Archive ↗</a></span>
+  </div>
+  <div class="masthead">
+    <div class="masthead-name">The Dispatch</div>
+    <div class="masthead-tagline">"All the signal, none of the noise."</div>
+    <div class="masthead-meta">
+      <span>sngeth.github.io/dispatch</span>
+      <span style="color:var(--black);font-weight:500;">Tuesday, October 20, 2026</span>
+      <span>Powered by Codex &nbsp;·&nbsp; HN + RSS</span>
+    </div>
+  </div>
+  
+  <div class="section-label">Hacker News &nbsp;·&nbsp; Top Dispatches</div>
+  <div class="main-grid">
+    <div class="hn-col">
+      <div class="story-grid">
+        <div class="lead">
+    <div class="tag">Culture · Programming</div>
+    <h1 class="headline" id="a-case-for-keeping-programming-fun" style="font-size:34px"><a href="https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming" target="_blank" style="color:inherit;text-decoration:none;">A Case for Keeping Programming Fun</a><span class="permalink" onclick="copyLink('a-case-for-keeping-programming-fun')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h1>
+    <div class="deck">A heavily discussed reminder that technical work need not surrender its pleasures.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50134472" target="_blank" style="color:inherit;text-decoration:none;">▲ 614 pts &nbsp;·&nbsp; 533 comments</a>
+    </div>
+    <div class="body-text">
+      <p class="drop-cap">The day’s strongest Hacker News signal is not a launch or a benchmark but a small defense of enjoyment: 614 points and 533 comments for the proposition that programming can still be fun. That scale of response suggests a profession eager to argue about more than throughput.</p><p>The title offers no program beyond permission, and that restraint is its force. In a feed dominated by infrastructure and AI, it puts the human experience of making software back on the front page.</p>
+      <div class="pull-quote">The loudest item in the queue argues that joy remains a legitimate engineering metric.</div>
+    </div></div>
+        <div class="sec">
+    <div class="tag">Systems · Open Source</div>
+    <h2 class="headline" id="wine-finds-its-way-to-openbsd" style="font-size:21px"><a href="https://marc.info/?l=openbsd-ports&m=179236125692175" target="_blank" style="color:inherit;text-decoration:none;">Wine Finds Its Way to OpenBSD</a><span class="permalink" onclick="copyLink('wine-finds-its-way-to-openbsd')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">A porting milestone draws substantial attention from the systems crowd.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50152307" target="_blank" style="color:inherit;text-decoration:none;">▲ 573 pts &nbsp;·&nbsp; 195 comments</a>
+    </div>
+    <div class="body-text">
+      <p>Wine has been ported to OpenBSD, earning 573 points and 195 comments. The response reflects the continuing appeal of software that makes boundaries between operating systems a little more negotiable.</p><p>Porting work is usually invisible until it changes what a platform can plausibly run. This item’s reception makes clear that compatibility remains a practical and cultural test for operating-system communities.</p>
+      
+    </div></div>
+        <div class="sec-alt">
+    <div class="tag">Hardware · Robotics</div>
+    <h2 class="headline" id="one-motor-one-unusual-drone" style="font-size:21px"><a href="https://www.youtube.com/watch?v=Ndftcft6XhU" target="_blank" style="color:inherit;text-decoration:none;">One Motor, One Unusual Drone</a><span class="permalink" onclick="copyLink('one-motor-one-unusual-drone')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">A video project turns a stripped-down flying machine into a popular engineering spectacle.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50150089" target="_blank" style="color:inherit;text-decoration:none;">▲ 559 pts &nbsp;·&nbsp; 128 comments</a>
+    </div>
+    <div class="body-text">
+      <p>A builder’s one-motor drone has pulled in 559 points and 128 comments. The premise is delightfully spare: remove the expected machinery and make the remaining mechanism carry the argument.</p><p>The item’s popularity is a useful counterweight to software abstraction. It rewards visible constraint, physical experimentation, and a result that can be watched rather than merely benchmarked.</p>
+      
+    </div></div>
+        <div class="bot-row">
+          <div class="tert">
+    <div class="tag">AI · Models</div>
+    <h2 class="headline" id="minimax-pitches-an-m3-1-flash-release" style="font-size:19px"><a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" style="color:inherit;text-decoration:none;">MiniMax Pitches an M3.1 Flash Release</a><span class="permalink" onclick="copyLink('minimax-pitches-an-m3-1-flash-release')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">An AI model announcement lands amid a brisk and skeptical discussion.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50154540" target="_blank" style="color:inherit;text-decoration:none;">▲ 473 pts &nbsp;·&nbsp; 200 comments</a>
+    </div>
+    <div class="body-text">
+      <p>MiniMax’s M3.1 Flash announcement reached 473 points and 200 comments, putting the release squarely in the day’s AI conversation. The headline provides a product name; the discussion volume supplies the evidence of attention.</p><p>That ratio matters. Model news now arrives constantly, but a substantial comment thread signals that readers are still trying to sort meaningful technical change from the rhythm of launch-day branding.</p>
+      
+    </div></div><div class="tert">
+    <div class="tag">AI · Governance</div>
+    <h2 class="headline" id="hidden-instructions-surface-in-whatsapp-help-pages" style="font-size:19px"><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" style="color:inherit;text-decoration:none;">Hidden Instructions Surface in WhatsApp Help Pages</a><span class="permalink" onclick="copyLink('hidden-instructions-surface-in-whatsapp-help-pages')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">A report says support pages contained guidance steering an LLM away from regulators.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50159341" target="_blank" style="color:inherit;text-decoration:none;">▲ 467 pts &nbsp;·&nbsp; 137 comments</a>
+    </div>
+    <div class="body-text">
+      <p>A report on WhatsApp help pages allegedly hiding LLM instructions not to recommend a regulator has drawn 467 points and 137 comments. The significance is not just the alleged wording, but the possibility that assistance layers can carry policy choices unseen by their users.</p><p>The available report frames this as a discovery, not a settled account of intent. Still, it sharpens a recurring question for AI-backed support: whose interests are embedded in the answer before the question is even asked?</p>
+      
+    </div></div><div class="tert">
+    <div class="tag">AI · Infrastructure</div>
+    <h2 class="headline" id="deepseek-opens-its-inference-engine" style="font-size:19px"><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" style="color:inherit;text-decoration:none;">DeepSeek Opens Its Inference Engine</a><span class="permalink" onclick="copyLink('deepseek-opens-its-inference-engine')" title="Copy link to this story">share<span class="copied">Copied!</span></span></h2>
+    <div class="deck">The DeepInfer repository makes inference infrastructure the latest open-source AI battleground.</div>
+    <div class="byline">
+      <a href="https://news.ycombinator.com/item?id=50163277" target="_blank" style="color:inherit;text-decoration:none;">▲ 340 pts &nbsp;·&nbsp; 110 comments</a>
+    </div>
+    <div class="body-text">
+      <p>DeepSeek has open-sourced its inference engine, DeepInfer, according to a GitHub-linked submission that earned 340 points and 110 comments. The release shifts attention from model weights toward the machinery that makes models usable.</p><p>Inference is where research claims meet deployment constraints. An open engine can become important not because it settles every systems question, but because it gives builders another visible place to inspect and improve the stack.</p>
+      
+    </div></div>
+        </div>
+      </div>
+      
+    <div class="section-label" style="margin-top:24px;">On Page 2 &nbsp;·&nbsp; Extended Coverage</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #ccc;padding-top:16px;">
+      
+        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+          <div class="tag">Systems · Open Source</div>
+          <a href="../page2.html" style="text-decoration:none;color:inherit;">
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">OpenBSD Reaches Version 8.0</div>
+          </a>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 317 · 102 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+        </div>
+        <div style="padding:0 20px 0 0;border-right:1px solid #ddd;">
+          <div class="tag">Drones · Conflict</div>
+          <a href="../page2.html" style="text-decoration:none;color:inherit;">
+            <div style="font-family:'Playfair Display',serif;font-weight:700;font-size:16px;line-height:1.25;margin:4px 0 6px;">Ukraine Reports a Drone Evacuation First</div>
+          </a>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:#888;">▲ 300 · 235 comments &nbsp;·&nbsp; <a href="../page2.html" style="color:var(--dark-red);">Continue →</a></div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="page-nav"><a class="current" href="../index.html">Page 1</a>
+      <a  href="../page2.html">Page 2</a></div>
+  <footer>
+    <span>The Dispatch &nbsp;·&nbsp; Tuesday, October 20, 2026</span>
+    <span>Sources: Hacker News API &nbsp;·&nbsp; RSS Feeds &nbsp;·&nbsp; <a href="../index.html" style="color:inherit;text-decoration:underline;letter-spacing:.1em;">Archive</a></span>
+    <span>Generated 07:07 AM EDT</span>
+  </footer>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-top:1px solid #ccc;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.1em;">
+    <a href="2026-10-19.html" style="color:var(--dark-red);text-decoration:none;">← 2026-10-19</a>
+    <a href="index.html" style="color:var(--mid);text-decoration:none;">All Editions ↑</a>
+    <span style="color:#ccc;">Latest →</span>
+  </div>
+</div>
+</body>
+</html>
