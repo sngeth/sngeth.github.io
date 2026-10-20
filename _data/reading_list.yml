@@ -1,5 +1,35 @@
-- title: Linux 7.3 Released
-  url: "https://lwn.net/Articles/1101143/"
+- title: OpenBSD 8.0
+  url: "https://www.openbsd.org/80.html"
+  date: 2026-10-20
+  source: Hacker News Best
+  category: programming
+- title: "Lula supporters protest against Meta to denounce its 'electoral interference'"
+  url: "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/"
+  date: 2026-10-20
+  source: Hacker News Best
+  category: programming
+- title: How intuitions work
+  url: "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how"
+  date: 2026-10-20
+  source: Aeon
+  category: philosophy
+- title: My obituary for programming
+  url: "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+  date: 2026-10-19
+  source: Simon Willison
+  category: ai
+- title: "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
+  url: "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+  date: 2026-10-19
+  source: Hacker News Best
+  category: programming
+- title: "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account"
+  url: "https://josie.lol/blog/linux-rtx-spark"
+  date: 2026-10-19
+  source: Hacker News Best
+  category: programming
+- title: The reverts will continue until morale improves
+  url: "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"
   date: 2026-10-19
   source: Hacker News Best
   category: programming
@@ -13,6 +43,16 @@
   date: 2026-10-19
   source: Aeon
   category: philosophy
+- title: "Love After Life: Nobel-Winning Physicist Richard Feynman’s Extraordinary Letter to His Departed Wife"
+  url: "https://www.themarginalian.org/2026/10/19/richard-feynman-arline-letter/"
+  date: 2026-10-19
+  source: The Marginalian
+  category: philosophy
+- title: "When Relationships Change: Anne Morrow Lindbergh on Embracing the Intermittency and Mutability of Love"
+  url: "https://www.themarginalian.org/2026/10/19/anne-morrow-lindbergh-change/"
+  date: 2026-10-19
+  source: The Marginalian
+  category: philosophy
 - title: llm-tools-datasette 0.1.1
   url: "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
   date: 2026-10-18
@@ -23,26 +63,6 @@
   date: 2026-10-18
   source: Simon Willison
   category: ai
-- title: William Gibson and the trademarking of cyberspace
-  url: "https://colo.to/cyberspace.html"
-  date: 2026-10-18
-  source: Hacker News Best
-  category: programming
-- title: "If you don't run your own LLM proxy, how do you know whats going on?"
-  url: "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
-  date: 2026-10-18
-  source: Hacker News Best
-  category: programming
-- title: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
-  url: "https://arxiv.org/abs/2610.18861"
-  date: 2026-10-18
-  source: Hacker News Best
-  category: programming
-- title: "Florida's HOAs and condo associations are making the housing crisis worse"
-  url: "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html"
-  date: 2026-10-18
-  source: Hacker News Best
-  category: programming
 - title: Nineteen Truths and One Beguiling Lie about Life from 20 Years of The Marginalian
   url: "https://www.themarginalian.org/2026/10/18/refiguring/"
   date: 2026-10-18
@@ -73,21 +93,6 @@
   date: 2026-10-17
   source: Eli Bendersky
   category: programming
-- title: The Map to the Route of Your Life
-  url: "https://www.themarginalian.org/2026/10/17/benedetti-ruta/"
-  date: 2026-10-17
-  source: The Marginalian
-  category: philosophy
-- title: "Bloom: A Touching Animated Short Film about Depression and What It Takes to Recover the Light of Being"
-  url: "https://www.themarginalian.org/2026/10/17/bloom-depression/"
-  date: 2026-10-17
-  source: The Marginalian
-  category: philosophy
-- title: "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
-  url: "https://simonwillison.net/2026/Oct/16/code-review/"
-  date: 2026-10-16
-  source: Simon Willison
-  category: ai
 - title: How to be a (Roman) man
   url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
   date: 2026-10-16
@@ -95,11 +100,6 @@
   category: philosophy
 - title: The secrets of Hohle Fels cave
   url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
-  date: 2026-10-15
-  source: Aeon
-  category: philosophy
-- title: The ladder of knowledge
-  url: "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
   date: 2026-10-15
   source: Aeon
   category: philosophy
