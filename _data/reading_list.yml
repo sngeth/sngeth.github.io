@@ -1,10 +1,45 @@
-- title: OpenBSD 8.0
-  url: "https://www.openbsd.org/80.html"
+- title: The Future of CSS
+  url: "https://www.joshwcomeau.com/css/interop-2027/"
+  date: 2026-10-21
+  source: Hacker News Best
+  category: programming
+- title: When it started to burn
+  url: "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians"
+  date: 2026-10-21
+  source: Aeon
+  category: philosophy
+- title: "How to Be Un-Dead: Notes on Waking Up from the Trance of Near-Living"
+  url: "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence/"
+  date: 2026-10-21
+  source: The Marginalian
+  category: philosophy
+- title: eMudhra Intermediate CA Compromise
+  url: "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+  date: 2026-10-20
+  source: Simon Willison
+  category: ai
+- title: Battle Drones - a vibe coded RTS with audio-based multiplayer
+  url: "https://simonwillison.net/2026/Oct/20/battledrones/"
+  date: 2026-10-20
+  source: Simon Willison
+  category: ai
+- title: Upcoming critical PHP security release (CVE-2026-109618 / -109619)
+  url: "https://news-web.php.net/php.announce/509"
   date: 2026-10-20
   source: Hacker News Best
   category: programming
-- title: "Lula supporters protest against Meta to denounce its 'electoral interference'"
-  url: "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/"
+- title: "Show HN: SimCity, but with Permits"
+  url: "https://permit.petercai.com/"
+  date: 2026-10-20
+  source: Hacker News Best
+  category: programming
+- title: "What shall I teach my son?"
+  url: "https://stevekrouse.com/ends"
+  date: 2026-10-20
+  source: Hacker News Best
+  category: programming
+- title: "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
+  url: "https://github.com/google-pytorch/torch_tpu"
   date: 2026-10-20
   source: Hacker News Best
   category: programming
@@ -13,26 +48,26 @@
   date: 2026-10-20
   source: Aeon
   category: philosophy
+- title: How to Grow Old without Letting Life Become a Parody of Itself
+  url: "https://www.themarginalian.org/2026/10/20/simone-de-beauvoir-coming-of-age/"
+  date: 2026-10-20
+  source: The Marginalian
+  category: philosophy
+- title: "The Constitution of the Inner Country: Leonard Cohen on Language and the Poetry of Presence"
+  url: "https://www.themarginalian.org/2026/10/20/leonard-cohen-death-of-a-ladys-man-words/"
+  date: 2026-10-20
+  source: The Marginalian
+  category: philosophy
+- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
+  url: "https://www.themarginalian.org/2026/10/20/henry-james-the-beast-in-the-jungle/"
+  date: 2026-10-20
+  source: The Marginalian
+  category: philosophy
 - title: My obituary for programming
   url: "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
   date: 2026-10-19
   source: Simon Willison
   category: ai
-- title: "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
-  url: "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
-  date: 2026-10-19
-  source: Hacker News Best
-  category: programming
-- title: "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account"
-  url: "https://josie.lol/blog/linux-rtx-spark"
-  date: 2026-10-19
-  source: Hacker News Best
-  category: programming
-- title: The reverts will continue until morale improves
-  url: "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves"
-  date: 2026-10-19
-  source: Hacker News Best
-  category: programming
 - title: "A vocabulary for the future: nature"
   url: "https://aeon.co/videos/theres-nothing-inherently-good-in-the-natural-argues-bruno-latour"
   date: 2026-10-19
@@ -48,11 +83,6 @@
   date: 2026-10-19
   source: The Marginalian
   category: philosophy
-- title: "When Relationships Change: Anne Morrow Lindbergh on Embracing the Intermittency and Mutability of Love"
-  url: "https://www.themarginalian.org/2026/10/19/anne-morrow-lindbergh-change/"
-  date: 2026-10-19
-  source: The Marginalian
-  category: philosophy
 - title: llm-tools-datasette 0.1.1
   url: "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
   date: 2026-10-18
@@ -63,31 +93,6 @@
   date: 2026-10-18
   source: Simon Willison
   category: ai
-- title: Nineteen Truths and One Beguiling Lie about Life from 20 Years of The Marginalian
-  url: "https://www.themarginalian.org/2026/10/18/refiguring/"
-  date: 2026-10-18
-  source: The Marginalian
-  category: philosophy
-- title: How to Unself in Order to Be Who You Really Are
-  url: "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing/"
-  date: 2026-10-18
-  source: The Marginalian
-  category: philosophy
-- title: "Celebrating 20 Years of The Marginalian and the Search for Meaning: Free Livestream This Friday"
-  url: "https://www.themarginalian.org/2026/10/18/20/"
-  date: 2026-10-18
-  source: The Marginalian
-  category: philosophy
-- title: Inline rendering with document​.currentScript
-  url: "https://simonwillison.net/2026/Oct/17/document-currentscript/"
-  date: 2026-10-17
-  source: Simon Willison
-  category: ai
-- title: web-edit 0.1a2
-  url: "https://simonwillison.net/2026/Oct/17/web-edit/"
-  date: 2026-10-17
-  source: Simon Willison
-  category: ai
 - title: Notes on the complex roots of unity
   url: "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/"
   date: 2026-10-17
@@ -96,11 +101,6 @@
 - title: How to be a (Roman) man
   url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
   date: 2026-10-16
-  source: Aeon
-  category: philosophy
-- title: The secrets of Hohle Fels cave
-  url: "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
-  date: 2026-10-15
   source: Aeon
   category: philosophy
 - title: Monte-Carlo simulations
