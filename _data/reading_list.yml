@@ -1,5 +1,45 @@
-- title: The Future of CSS
-  url: "https://www.joshwcomeau.com/css/interop-2027/"
+- title: "Bhutan: the last place"
+  url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
+  date: 2026-10-22
+  source: Aeon
+  category: philosophy
+- title: Other people
+  url: "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die"
+  date: 2026-10-22
+  source: Aeon
+  category: philosophy
+- title: "Today's PHP Security Release, and How We're Strengthening PHP Security"
+  url: "https://simonwillison.net/2026/Oct/21/php-security-release/"
+  date: 2026-10-21
+  source: Simon Willison
+  category: ai
+- title: Panache — RTS Belle Époque pour mobile
+  url: "https://simonwillison.net/2026/Oct/21/panache/"
+  date: 2026-10-21
+  source: Simon Willison
+  category: ai
+- title: mitmproxy adds --emudhra option
+  url: "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b"
+  date: 2026-10-21
+  source: Hacker News Best
+  category: programming
+- title: "There isn't an easy exploit for this PHP vulnerability"
+  url: "https://eliastaylor.com/noexploit/"
+  date: 2026-10-21
+  source: Hacker News Best
+  category: programming
+- title: Security Disclosure
+  url: "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
+  date: 2026-10-21
+  source: Hacker News Best
+  category: programming
+- title: Claude Duet
+  url: "https://claude.com/product/claude-duet"
+  date: 2026-10-21
+  source: Hacker News Best
+  category: programming
+- title: GitLab critical patch release
+  url: "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/"
   date: 2026-10-21
   source: Hacker News Best
   category: programming
@@ -7,6 +47,11 @@
   url: "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians"
   date: 2026-10-21
   source: Aeon
+  category: philosophy
+- title: Corrective for a Broken Heart
+  url: "https://www.themarginalian.org/2026/10/21/corrective-for-a-broken-heart/"
+  date: 2026-10-21
+  source: The Marginalian
   category: philosophy
 - title: "How to Be Un-Dead: Notes on Waking Up from the Trance of Near-Living"
   url: "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence/"
@@ -23,26 +68,6 @@
   date: 2026-10-20
   source: Simon Willison
   category: ai
-- title: Upcoming critical PHP security release (CVE-2026-109618 / -109619)
-  url: "https://news-web.php.net/php.announce/509"
-  date: 2026-10-20
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: SimCity, but with Permits"
-  url: "https://permit.petercai.com/"
-  date: 2026-10-20
-  source: Hacker News Best
-  category: programming
-- title: "What shall I teach my son?"
-  url: "https://stevekrouse.com/ends"
-  date: 2026-10-20
-  source: Hacker News Best
-  category: programming
-- title: "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
-  url: "https://github.com/google-pytorch/torch_tpu"
-  date: 2026-10-20
-  source: Hacker News Best
-  category: programming
 - title: How intuitions work
   url: "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how"
   date: 2026-10-20
@@ -73,36 +98,11 @@
   date: 2026-10-19
   source: Aeon
   category: philosophy
-- title: "Horrible, unmanly, indispensable"
-  url: "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias"
-  date: 2026-10-19
-  source: Aeon
-  category: philosophy
-- title: "Love After Life: Nobel-Winning Physicist Richard Feynman’s Extraordinary Letter to His Departed Wife"
-  url: "https://www.themarginalian.org/2026/10/19/richard-feynman-arline-letter/"
-  date: 2026-10-19
-  source: The Marginalian
-  category: philosophy
-- title: llm-tools-datasette 0.1.1
-  url: "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
-  date: 2026-10-18
-  source: Simon Willison
-  category: ai
-- title: llm-echo 0.5
-  url: "https://simonwillison.net/2026/Oct/18/llm-echo/"
-  date: 2026-10-18
-  source: Simon Willison
-  category: ai
 - title: Notes on the complex roots of unity
   url: "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/"
   date: 2026-10-17
   source: Eli Bendersky
   category: programming
-- title: How to be a (Roman) man
-  url: "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic"
-  date: 2026-10-16
-  source: Aeon
-  category: philosophy
 - title: Monte-Carlo simulations
   url: "https://eli.thegreenplace.net/2026/monte-carlo-simulations/"
   date: 2026-10-07
