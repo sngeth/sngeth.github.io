@@ -1,3 +1,53 @@
+- title: "Traction!"
+  url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
+  date: 2026-10-23
+  source: Aeon
+  category: philosophy
+- title: The Wildest Bet Is the Winning Bet
+  url: "https://www.themarginalian.org/2026/10/22/bet/"
+  date: 2026-10-23
+  source: The Marginalian
+  category: philosophy
+- title: DE STAAT - FREEDOM (Official Music Video)
+  url: "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
+  date: 2026-10-22
+  source: Simon Willison
+  category: ai
+- title: Donating Agent Skills to the Agentic AI Foundation
+  url: "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+  date: 2026-10-22
+  source: Simon Willison
+  category: ai
+- title: Quoting Armin Ronacher
+  url: "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
+  date: 2026-10-22
+  source: Simon Willison
+  category: ai
+- title: Docker is weird
+  url: "https://codeandcake.dev/posts/2026-10-22-docker-is-weird"
+  date: 2026-10-22
+  source: Hacker News Best
+  category: programming
+- title: "Local Wikipedia: Wikipedia, but only for things a half hour walk from you"
+  url: "https://edjefferson.com/localwiki/"
+  date: 2026-10-22
+  source: Hacker News Best
+  category: programming
+- title: LLMs are making formal software verification feasible at a much larger scale
+  url: "https://www.anthropic.com/research/formal-verification"
+  date: 2026-10-22
+  source: Hacker News Best
+  category: programming
+- title: "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions"
+  url: "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations"
+  date: 2026-10-22
+  source: Hacker News Best
+  category: programming
+- title: "OpenShell – A safe, private runtime for fleets of autonomous AI agents"
+  url: "https://github.com/NVIDIA/OpenShell"
+  date: 2026-10-22
+  source: Hacker News Best
+  category: programming
 - title: "Bhutan: the last place"
   url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
   date: 2026-10-22
@@ -7,6 +57,26 @@
   url: "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die"
   date: 2026-10-22
   source: Aeon
+  category: philosophy
+- title: Ursula K. Le Guin on the Meaning of Life
+  url: "https://www.themarginalian.org/2026/10/22/le-guin-life/"
+  date: 2026-10-22
+  source: The Marginalian
+  category: philosophy
+- title: Nathaniel Hawthorne on How to Look and Really See
+  url: "https://www.themarginalian.org/2026/10/22/nathaniel-hawthorne-nature/"
+  date: 2026-10-22
+  source: The Marginalian
+  category: philosophy
+- title: Introducing the Museum of Delight
+  url: "https://www.themarginalian.org/2026/10/22/museum-of-delight/"
+  date: 2026-10-22
+  source: The Marginalian
+  category: philosophy
+- title: How to Hold Your Heart with Golden Hands
+  url: "https://www.themarginalian.org/2026/10/22/wood/"
+  date: 2026-10-22
+  source: The Marginalian
   category: philosophy
 - title: "Today's PHP Security Release, and How We're Strengthening PHP Security"
   url: "https://simonwillison.net/2026/Oct/21/php-security-release/"
@@ -18,84 +88,14 @@
   date: 2026-10-21
   source: Simon Willison
   category: ai
-- title: mitmproxy adds --emudhra option
-  url: "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b"
-  date: 2026-10-21
-  source: Hacker News Best
-  category: programming
-- title: "There isn't an easy exploit for this PHP vulnerability"
-  url: "https://eliastaylor.com/noexploit/"
-  date: 2026-10-21
-  source: Hacker News Best
-  category: programming
-- title: Security Disclosure
-  url: "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
-  date: 2026-10-21
-  source: Hacker News Best
-  category: programming
-- title: Claude Duet
-  url: "https://claude.com/product/claude-duet"
-  date: 2026-10-21
-  source: Hacker News Best
-  category: programming
-- title: GitLab critical patch release
-  url: "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/"
-  date: 2026-10-21
-  source: Hacker News Best
-  category: programming
 - title: When it started to burn
   url: "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians"
   date: 2026-10-21
   source: Aeon
   category: philosophy
-- title: Corrective for a Broken Heart
-  url: "https://www.themarginalian.org/2026/10/21/corrective-for-a-broken-heart/"
-  date: 2026-10-21
-  source: The Marginalian
-  category: philosophy
-- title: "How to Be Un-Dead: Notes on Waking Up from the Trance of Near-Living"
-  url: "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence/"
-  date: 2026-10-21
-  source: The Marginalian
-  category: philosophy
-- title: eMudhra Intermediate CA Compromise
-  url: "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
-  date: 2026-10-20
-  source: Simon Willison
-  category: ai
-- title: Battle Drones - a vibe coded RTS with audio-based multiplayer
-  url: "https://simonwillison.net/2026/Oct/20/battledrones/"
-  date: 2026-10-20
-  source: Simon Willison
-  category: ai
 - title: How intuitions work
   url: "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how"
   date: 2026-10-20
-  source: Aeon
-  category: philosophy
-- title: How to Grow Old without Letting Life Become a Parody of Itself
-  url: "https://www.themarginalian.org/2026/10/20/simone-de-beauvoir-coming-of-age/"
-  date: 2026-10-20
-  source: The Marginalian
-  category: philosophy
-- title: "The Constitution of the Inner Country: Leonard Cohen on Language and the Poetry of Presence"
-  url: "https://www.themarginalian.org/2026/10/20/leonard-cohen-death-of-a-ladys-man-words/"
-  date: 2026-10-20
-  source: The Marginalian
-  category: philosophy
-- title: "How to Stop Waiting and Start Living: A Jolt from Henry James"
-  url: "https://www.themarginalian.org/2026/10/20/henry-james-the-beast-in-the-jungle/"
-  date: 2026-10-20
-  source: The Marginalian
-  category: philosophy
-- title: My obituary for programming
-  url: "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
-  date: 2026-10-19
-  source: Simon Willison
-  category: ai
-- title: "A vocabulary for the future: nature"
-  url: "https://aeon.co/videos/theres-nothing-inherently-good-in-the-natural-argues-bruno-latour"
-  date: 2026-10-19
   source: Aeon
   category: philosophy
 - title: Notes on the complex roots of unity
