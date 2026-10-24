@@ -1,7 +1,47 @@
+- title: Quick Study
+  url: "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
+  date: 2026-10-23
+  source: Simon Willison
+  category: ai
+- title: Introducing Kimi K3.1 Pro
+  url: "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+  date: 2026-10-23
+  source: Simon Willison
+  category: ai
+- title: Now Google says it might use your Gmail and Google Photos data to target ads
+  url: "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+  date: 2026-10-23
+  source: Hacker News Best
+  category: programming
+- title: "Dessa: Conversation Model trained only on speech"
+  url: "https://block.xyz/dessa"
+  date: 2026-10-23
+  source: Hacker News Best
+  category: programming
+- title: Kimi K3.1 Pro and K3.1 Pro Highspeed
+  url: "https://www.kimi.ai/blog/kimi-k3-1-pro"
+  date: 2026-10-23
+  source: Hacker News Best
+  category: programming
+- title: "Today, we hacked what we'd set out to hack: the iPhone"
+  url: "https://blog.calif.io/p/iphone"
+  date: 2026-10-23
+  source: Hacker News Best
+  category: programming
+- title: "Investor-owned utilities charge 23% more for electricity than public providers"
+  url: "https://www.kadoa.com/energy-prices/insights/investor-owned-utilities"
+  date: 2026-10-23
+  source: Hacker News Best
+  category: programming
 - title: "Traction!"
   url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
   date: 2026-10-23
   source: Aeon
+  category: philosophy
+- title: How to Be Transformed When Things Fall Apart
+  url: "https://www.themarginalian.org/2026/10/23/when-things-fall-apart-pema-chodron/"
+  date: 2026-10-23
+  source: The Marginalian
   category: philosophy
 - title: The Wildest Bet Is the Winning Bet
   url: "https://www.themarginalian.org/2026/10/22/bet/"
@@ -23,31 +63,6 @@
   date: 2026-10-22
   source: Simon Willison
   category: ai
-- title: Docker is weird
-  url: "https://codeandcake.dev/posts/2026-10-22-docker-is-weird"
-  date: 2026-10-22
-  source: Hacker News Best
-  category: programming
-- title: "Local Wikipedia: Wikipedia, but only for things a half hour walk from you"
-  url: "https://edjefferson.com/localwiki/"
-  date: 2026-10-22
-  source: Hacker News Best
-  category: programming
-- title: LLMs are making formal software verification feasible at a much larger scale
-  url: "https://www.anthropic.com/research/formal-verification"
-  date: 2026-10-22
-  source: Hacker News Best
-  category: programming
-- title: "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions"
-  url: "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations"
-  date: 2026-10-22
-  source: Hacker News Best
-  category: programming
-- title: "OpenShell – A safe, private runtime for fleets of autonomous AI agents"
-  url: "https://github.com/NVIDIA/OpenShell"
-  date: 2026-10-22
-  source: Hacker News Best
-  category: programming
 - title: "Bhutan: the last place"
   url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
   date: 2026-10-22
@@ -73,21 +88,6 @@
   date: 2026-10-22
   source: The Marginalian
   category: philosophy
-- title: How to Hold Your Heart with Golden Hands
-  url: "https://www.themarginalian.org/2026/10/22/wood/"
-  date: 2026-10-22
-  source: The Marginalian
-  category: philosophy
-- title: "Today's PHP Security Release, and How We're Strengthening PHP Security"
-  url: "https://simonwillison.net/2026/Oct/21/php-security-release/"
-  date: 2026-10-21
-  source: Simon Willison
-  category: ai
-- title: Panache — RTS Belle Époque pour mobile
-  url: "https://simonwillison.net/2026/Oct/21/panache/"
-  date: 2026-10-21
-  source: Simon Willison
-  category: ai
 - title: When it started to burn
   url: "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians"
   date: 2026-10-21
