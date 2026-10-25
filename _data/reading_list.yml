@@ -1,3 +1,43 @@
+- title: "battledrones v14: Compass Rose, a four player map"
+  url: "https://simonwillison.net/2026/Oct/24/battledrones/"
+  date: 2026-10-24
+  source: Simon Willison
+  category: ai
+- title: “We should be more ambitious with the software we build”
+  url: "https://danluu.com/ambitious/"
+  date: 2026-10-24
+  source: Dan Luu
+  category: programming
+- title: "America has lost 200k of jobs in media, film and the arts. How much is AI?"
+  url: "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+  date: 2026-10-24
+  source: Hacker News Best
+  category: programming
+- title: We should be more ambitious with the software we build
+  url: "https://danluu.com/ambitious/"
+  date: 2026-10-24
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Steal My Bitcoin"
+  url: "https://stealmybitcoin.com/"
+  date: 2026-10-24
+  source: Hacker News Best
+  category: programming
+- title: No signs of AI payoff outside the tech sector
+  url: "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+  date: 2026-10-24
+  source: Hacker News Best
+  category: programming
+- title: The Goose Programming Language
+  url: "https://aardappel.github.io/goose/"
+  date: 2026-10-24
+  source: Hacker News Best
+  category: programming
+- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/10/24/dostoyevsky-execution-life/"
+  date: 2026-10-24
+  source: The Marginalian
+  category: philosophy
 - title: Quick Study
   url: "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
   date: 2026-10-23
@@ -8,31 +48,6 @@
   date: 2026-10-23
   source: Simon Willison
   category: ai
-- title: Now Google says it might use your Gmail and Google Photos data to target ads
-  url: "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
-  date: 2026-10-23
-  source: Hacker News Best
-  category: programming
-- title: "Dessa: Conversation Model trained only on speech"
-  url: "https://block.xyz/dessa"
-  date: 2026-10-23
-  source: Hacker News Best
-  category: programming
-- title: Kimi K3.1 Pro and K3.1 Pro Highspeed
-  url: "https://www.kimi.ai/blog/kimi-k3-1-pro"
-  date: 2026-10-23
-  source: Hacker News Best
-  category: programming
-- title: "Today, we hacked what we'd set out to hack: the iPhone"
-  url: "https://blog.calif.io/p/iphone"
-  date: 2026-10-23
-  source: Hacker News Best
-  category: programming
-- title: "Investor-owned utilities charge 23% more for electricity than public providers"
-  url: "https://www.kadoa.com/energy-prices/insights/investor-owned-utilities"
-  date: 2026-10-23
-  source: Hacker News Best
-  category: programming
 - title: "Traction!"
   url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
   date: 2026-10-23
@@ -58,11 +73,6 @@
   date: 2026-10-22
   source: Simon Willison
   category: ai
-- title: Quoting Armin Ronacher
-  url: "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
-  date: 2026-10-22
-  source: Simon Willison
-  category: ai
 - title: "Bhutan: the last place"
   url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
   date: 2026-10-22
@@ -80,11 +90,6 @@
   category: philosophy
 - title: Nathaniel Hawthorne on How to Look and Really See
   url: "https://www.themarginalian.org/2026/10/22/nathaniel-hawthorne-nature/"
-  date: 2026-10-22
-  source: The Marginalian
-  category: philosophy
-- title: Introducing the Museum of Delight
-  url: "https://www.themarginalian.org/2026/10/22/museum-of-delight/"
   date: 2026-10-22
   source: The Marginalian
   category: philosophy
@@ -146,11 +151,6 @@
 - title: Bug blindness
   url: "https://danluu.com/bug-blind/"
   date: 2026-08-30
-  source: Dan Luu
-  category: programming
-- title: "There's no reason for software to be slow anymore"
-  url: "https://danluu.com/perf-opt/"
-  date: 2026-08-21
   source: Dan Luu
   category: programming
 - title: "Some more things about Django I've been enjoying"
