@@ -1,3 +1,58 @@
+- title: "Show HN: TitleArt – Make text like it's 1997"
+  url: "https://titleart.dvy.io/"
+  date: 2026-10-26
+  source: Hacker News Best
+  category: programming
+- title: IBM CEO says open weight models are now good and cheap on-prem
+  url: "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
+  date: 2026-10-26
+  source: Hacker News Best
+  category: programming
+- title: Lula wins election after final votes tallied
+  url: "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/"
+  date: 2026-10-26
+  source: Hacker News Best
+  category: programming
+- title: "Great art explained: Tamara in the green Bugatti"
+  url: "https://aeon.co/videos/the-bisexual-artist-who-reimagined-womanhood-for-the-jazz-age"
+  date: 2026-10-26
+  source: Aeon
+  category: philosophy
+- title: How to build real peace
+  url: "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like"
+  date: 2026-10-26
+  source: Aeon
+  category: philosophy
+- title: Seam Cutter
+  url: "https://simonwillison.net/2026/Oct/25/seam-cutter/"
+  date: 2026-10-25
+  source: Simon Willison
+  category: ai
+- title: "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
+  url: "https://minimaxir.com/2026/10/cheap-llms/"
+  date: 2026-10-25
+  source: Hacker News Best
+  category: programming
+- title: "Serbia's Vucic concedes election defeat in historic win for student movement"
+  url: "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/"
+  date: 2026-10-25
+  source: Hacker News Best
+  category: programming
+- title: 20 Favorite Children’s Books from 20 Years of The Marginalian
+  url: "https://www.themarginalian.org/2026/10/25/20-childrens-books/"
+  date: 2026-10-25
+  source: The Marginalian
+  category: philosophy
+- title: "The Dark Wood of the Golden Birds: Margaret Wise Brown’s Lost Masterpiece about Mortality and the Meaning of Life, Newly Illustrated"
+  url: "https://www.themarginalian.org/2026/10/25/dark-wood-margaret-wise-brown-ofra-amit/"
+  date: 2026-10-25
+  source: The Marginalian
+  category: philosophy
+- title: 20 Favorite Books from 20 Years of The Marginalian
+  url: "https://www.themarginalian.org/2026/10/24/20-books/"
+  date: 2026-10-25
+  source: The Marginalian
+  category: philosophy
 - title: "battledrones v14: Compass Rose, a four player map"
   url: "https://simonwillison.net/2026/Oct/24/battledrones/"
   date: 2026-10-24
@@ -8,31 +63,11 @@
   date: 2026-10-24
   source: Dan Luu
   category: programming
-- title: "America has lost 200k of jobs in media, film and the arts. How much is AI?"
-  url: "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+- title: "The Baloney Detection Kit: Carl Sagan’s Timeless Tenets of Critical Thinking"
+  url: "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan/"
   date: 2026-10-24
-  source: Hacker News Best
-  category: programming
-- title: We should be more ambitious with the software we build
-  url: "https://danluu.com/ambitious/"
-  date: 2026-10-24
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Steal My Bitcoin"
-  url: "https://stealmybitcoin.com/"
-  date: 2026-10-24
-  source: Hacker News Best
-  category: programming
-- title: No signs of AI payoff outside the tech sector
-  url: "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
-  date: 2026-10-24
-  source: Hacker News Best
-  category: programming
-- title: The Goose Programming Language
-  url: "https://aardappel.github.io/goose/"
-  date: 2026-10-24
-  source: Hacker News Best
-  category: programming
+  source: The Marginalian
+  category: philosophy
 - title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
   url: "https://www.themarginalian.org/2026/10/24/dostoyevsky-execution-life/"
   date: 2026-10-24
@@ -53,23 +88,8 @@
   date: 2026-10-23
   source: Aeon
   category: philosophy
-- title: How to Be Transformed When Things Fall Apart
-  url: "https://www.themarginalian.org/2026/10/23/when-things-fall-apart-pema-chodron/"
-  date: 2026-10-23
-  source: The Marginalian
-  category: philosophy
-- title: The Wildest Bet Is the Winning Bet
-  url: "https://www.themarginalian.org/2026/10/22/bet/"
-  date: 2026-10-23
-  source: The Marginalian
-  category: philosophy
 - title: DE STAAT - FREEDOM (Official Music Video)
   url: "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
-  date: 2026-10-22
-  source: Simon Willison
-  category: ai
-- title: Donating Agent Skills to the Agentic AI Foundation
-  url: "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
   date: 2026-10-22
   source: Simon Willison
   category: ai
@@ -81,26 +101,6 @@
 - title: Other people
   url: "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die"
   date: 2026-10-22
-  source: Aeon
-  category: philosophy
-- title: Ursula K. Le Guin on the Meaning of Life
-  url: "https://www.themarginalian.org/2026/10/22/le-guin-life/"
-  date: 2026-10-22
-  source: The Marginalian
-  category: philosophy
-- title: Nathaniel Hawthorne on How to Look and Really See
-  url: "https://www.themarginalian.org/2026/10/22/nathaniel-hawthorne-nature/"
-  date: 2026-10-22
-  source: The Marginalian
-  category: philosophy
-- title: When it started to burn
-  url: "https://aeon.co/videos/what-four-years-of-ceaseless-war-looks-like-to-ukrainian-civilians"
-  date: 2026-10-21
-  source: Aeon
-  category: philosophy
-- title: How intuitions work
-  url: "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how"
-  date: 2026-10-20
   source: Aeon
   category: philosophy
 - title: Notes on the complex roots of unity
