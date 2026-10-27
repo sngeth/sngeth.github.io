@@ -1,15 +1,45 @@
-- title: "Show HN: TitleArt – Make text like it's 1997"
-  url: "https://titleart.dvy.io/"
+- title: Love with nowhere to go
+  url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
+  date: 2026-10-27
+  source: Aeon
+  category: philosophy
+- title: GPT-6.1 Terra
+  url: "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+  date: 2026-10-26
+  source: Simon Willison
+  category: ai
+- title: Quoting Jason Koebler
+  url: "https://simonwillison.net/2026/Oct/26/jason-koebler/"
+  date: 2026-10-26
+  source: Simon Willison
+  category: ai
+- title: "webframe: evaluated as a scraper and a sandbox"
+  url: "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
+  date: 2026-10-26
+  source: Simon Willison
+  category: ai
+- title: "The Exponential Time Hypothesis Is False [pdf]"
+  url: "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
   date: 2026-10-26
   source: Hacker News Best
   category: programming
-- title: IBM CEO says open weight models are now good and cheap on-prem
-  url: "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640"
+- title: "Three new discoveries in mathematics, computer science, and physics"
+  url: "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
   date: 2026-10-26
   source: Hacker News Best
   category: programming
-- title: Lula wins election after final votes tallied
-  url: "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/"
+- title: The EPA Is Quietly Killing Its Web Archive
+  url: "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/"
+  date: 2026-10-26
+  source: Hacker News Best
+  category: programming
+- title: GPT-6.1 Terra
+  url: "https://openai.com/index/introducing-gpt-6-1-terra/"
+  date: 2026-10-26
+  source: Hacker News Best
+  category: programming
+- title: Meta Employees Denounce Interference in Brazilian Elections
+  url: "https://www.panamericandispatch.org/p/meta-employees-denounce-interference"
   date: 2026-10-26
   source: Hacker News Best
   category: programming
@@ -23,21 +53,21 @@
   date: 2026-10-26
   source: Aeon
   category: philosophy
+- title: Walt Whitman’s Advice on Living a Vibrant and Rewarding Life
+  url: "https://www.themarginalian.org/2026/10/26/walt-whitman-leaves-of-grass-preface/"
+  date: 2026-10-26
+  source: The Marginalian
+  category: philosophy
+- title: Bob Dylan on the Unconscious Mind and the Ideal Conditions for Creative Work
+  url: "https://www.themarginalian.org/2026/10/26/bob-dylan-songwriters-on-songwriting-interview/"
+  date: 2026-10-26
+  source: The Marginalian
+  category: philosophy
 - title: Seam Cutter
   url: "https://simonwillison.net/2026/Oct/25/seam-cutter/"
   date: 2026-10-25
   source: Simon Willison
   category: ai
-- title: "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
-  url: "https://minimaxir.com/2026/10/cheap-llms/"
-  date: 2026-10-25
-  source: Hacker News Best
-  category: programming
-- title: "Serbia's Vucic concedes election defeat in historic win for student movement"
-  url: "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/"
-  date: 2026-10-25
-  source: Hacker News Best
-  category: programming
 - title: 20 Favorite Children’s Books from 20 Years of The Marginalian
   url: "https://www.themarginalian.org/2026/10/25/20-childrens-books/"
   date: 2026-10-25
@@ -63,43 +93,13 @@
   date: 2026-10-24
   source: Dan Luu
   category: programming
-- title: "The Baloney Detection Kit: Carl Sagan’s Timeless Tenets of Critical Thinking"
-  url: "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan/"
-  date: 2026-10-24
-  source: The Marginalian
-  category: philosophy
-- title: "Dostoyevsky, Just After His Death Sentence Was Repealed, on the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/10/24/dostoyevsky-execution-life/"
-  date: 2026-10-24
-  source: The Marginalian
-  category: philosophy
-- title: Quick Study
-  url: "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
-  date: 2026-10-23
-  source: Simon Willison
-  category: ai
-- title: Introducing Kimi K3.1 Pro
-  url: "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
-  date: 2026-10-23
-  source: Simon Willison
-  category: ai
 - title: "Traction!"
   url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
   date: 2026-10-23
   source: Aeon
   category: philosophy
-- title: DE STAAT - FREEDOM (Official Music Video)
-  url: "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
-  date: 2026-10-22
-  source: Simon Willison
-  category: ai
 - title: "Bhutan: the last place"
   url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
-  date: 2026-10-22
-  source: Aeon
-  category: philosophy
-- title: Other people
-  url: "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die"
   date: 2026-10-22
   source: Aeon
   category: philosophy
