@@ -1,7 +1,62 @@
+- title: Quoting Terk Terkowitz
+  url: "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+  date: 2026-10-28
+  source: Simon Willison
+  category: ai
+- title: The Amarna letters
+  url: "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed"
+  date: 2026-10-28
+  source: Aeon
+  category: philosophy
+- title: What It Takes to Be Free
+  url: "https://www.themarginalian.org/2026/10/27/freedom/"
+  date: 2026-10-28
+  source: The Marginalian
+  category: philosophy
+- title: Game Boy Color on My Conference Badge
+  url: "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
+  date: 2026-10-27
+  source: Simon Willison
+  category: ai
+- title: "Survival LLM: AI assistant and emergency library that runs on your own computer"
+  url: "https://www.brangus.io/survival-llm"
+  date: 2026-10-27
+  source: Hacker News Best
+  category: programming
+- title: Discord will soon let anyone find public server messages through Google
+  url: "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover"
+  date: 2026-10-27
+  source: Hacker News Best
+  category: programming
+- title: Ghostty 1.4
+  url: "https://ghostty.org/docs/install/release-notes/1-4-0"
+  date: 2026-10-27
+  source: Hacker News Best
+  category: programming
+- title: "Police are using AI to pull over drivers for 'suspicious' behavior"
+  url: "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
+  date: 2026-10-27
+  source: Hacker News Best
+  category: programming
+- title: Amazon Is Gutting Its AI Division After Sustained Failure
+  url: "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
+  date: 2026-10-27
+  source: Hacker News Best
+  category: programming
 - title: Love with nowhere to go
   url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
   date: 2026-10-27
   source: Aeon
+  category: philosophy
+- title: Sylvia Plath on Living with the Darkness and Making Art from the Barely Bearable Lightness of Being
+  url: "https://www.themarginalian.org/2026/10/27/sylvia-plath-letter-mother/"
+  date: 2026-10-27
+  source: The Marginalian
+  category: philosophy
+- title: Marcus Aurelius on the Good Luck of Your Bad Luck
+  url: "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck/"
+  date: 2026-10-27
+  source: The Marginalian
   category: philosophy
 - title: GPT-6.1 Terra
   url: "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
@@ -18,31 +73,6 @@
   date: 2026-10-26
   source: Simon Willison
   category: ai
-- title: "The Exponential Time Hypothesis Is False [pdf]"
-  url: "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
-  date: 2026-10-26
-  source: Hacker News Best
-  category: programming
-- title: "Three new discoveries in mathematics, computer science, and physics"
-  url: "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
-  date: 2026-10-26
-  source: Hacker News Best
-  category: programming
-- title: The EPA Is Quietly Killing Its Web Archive
-  url: "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/"
-  date: 2026-10-26
-  source: Hacker News Best
-  category: programming
-- title: GPT-6.1 Terra
-  url: "https://openai.com/index/introducing-gpt-6-1-terra/"
-  date: 2026-10-26
-  source: Hacker News Best
-  category: programming
-- title: Meta Employees Denounce Interference in Brazilian Elections
-  url: "https://www.panamericandispatch.org/p/meta-employees-denounce-interference"
-  date: 2026-10-26
-  source: Hacker News Best
-  category: programming
 - title: "Great art explained: Tamara in the green Bugatti"
   url: "https://aeon.co/videos/the-bisexual-artist-who-reimagined-womanhood-for-the-jazz-age"
   date: 2026-10-26
@@ -63,31 +93,6 @@
   date: 2026-10-26
   source: The Marginalian
   category: philosophy
-- title: Seam Cutter
-  url: "https://simonwillison.net/2026/Oct/25/seam-cutter/"
-  date: 2026-10-25
-  source: Simon Willison
-  category: ai
-- title: 20 Favorite Children’s Books from 20 Years of The Marginalian
-  url: "https://www.themarginalian.org/2026/10/25/20-childrens-books/"
-  date: 2026-10-25
-  source: The Marginalian
-  category: philosophy
-- title: "The Dark Wood of the Golden Birds: Margaret Wise Brown’s Lost Masterpiece about Mortality and the Meaning of Life, Newly Illustrated"
-  url: "https://www.themarginalian.org/2026/10/25/dark-wood-margaret-wise-brown-ofra-amit/"
-  date: 2026-10-25
-  source: The Marginalian
-  category: philosophy
-- title: 20 Favorite Books from 20 Years of The Marginalian
-  url: "https://www.themarginalian.org/2026/10/24/20-books/"
-  date: 2026-10-25
-  source: The Marginalian
-  category: philosophy
-- title: "battledrones v14: Compass Rose, a four player map"
-  url: "https://simonwillison.net/2026/Oct/24/battledrones/"
-  date: 2026-10-24
-  source: Simon Willison
-  category: ai
 - title: “We should be more ambitious with the software we build”
   url: "https://danluu.com/ambitious/"
   date: 2026-10-24
@@ -96,11 +101,6 @@
 - title: "Traction!"
   url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
   date: 2026-10-23
-  source: Aeon
-  category: philosophy
-- title: "Bhutan: the last place"
-  url: "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
-  date: 2026-10-22
   source: Aeon
   category: philosophy
 - title: Notes on the complex roots of unity
