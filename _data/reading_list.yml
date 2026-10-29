@@ -1,3 +1,33 @@
+- title: Hills and mountains
+  url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
+  date: 2026-10-29
+  source: Aeon
+  category: philosophy
+- title: The physics of getting fired
+  url: "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life"
+  date: 2026-10-29
+  source: Aeon
+  category: philosophy
+- title: The Most Important Thing to Remember About Your Mother
+  url: "https://www.themarginalian.org/2026/10/28/florida-scott-maxwell-mother/"
+  date: 2026-10-29
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Ted Sanders
+  url: "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+  date: 2026-10-28
+  source: Simon Willison
+  category: ai
+- title: GitHub Octoverse 2026
+  url: "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+  date: 2026-10-28
+  source: Simon Willison
+  category: ai
+- title: The October inflection point for vibe game development
+  url: "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+  date: 2026-10-28
+  source: Simon Willison
+  category: ai
 - title: Quoting Terk Terkowitz
   url: "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
   date: 2026-10-28
@@ -18,31 +48,6 @@
   date: 2026-10-27
   source: Simon Willison
   category: ai
-- title: "Survival LLM: AI assistant and emergency library that runs on your own computer"
-  url: "https://www.brangus.io/survival-llm"
-  date: 2026-10-27
-  source: Hacker News Best
-  category: programming
-- title: Discord will soon let anyone find public server messages through Google
-  url: "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover"
-  date: 2026-10-27
-  source: Hacker News Best
-  category: programming
-- title: Ghostty 1.4
-  url: "https://ghostty.org/docs/install/release-notes/1-4-0"
-  date: 2026-10-27
-  source: Hacker News Best
-  category: programming
-- title: "Police are using AI to pull over drivers for 'suspicious' behavior"
-  url: "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
-  date: 2026-10-27
-  source: Hacker News Best
-  category: programming
-- title: Amazon Is Gutting Its AI Division After Sustained Failure
-  url: "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
-  date: 2026-10-27
-  source: Hacker News Best
-  category: programming
 - title: Love with nowhere to go
   url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
   date: 2026-10-27
@@ -58,28 +63,8 @@
   date: 2026-10-27
   source: The Marginalian
   category: philosophy
-- title: GPT-6.1 Terra
-  url: "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
-  date: 2026-10-26
-  source: Simon Willison
-  category: ai
-- title: Quoting Jason Koebler
-  url: "https://simonwillison.net/2026/Oct/26/jason-koebler/"
-  date: 2026-10-26
-  source: Simon Willison
-  category: ai
-- title: "webframe: evaluated as a scraper and a sandbox"
-  url: "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
-  date: 2026-10-26
-  source: Simon Willison
-  category: ai
 - title: "Great art explained: Tamara in the green Bugatti"
   url: "https://aeon.co/videos/the-bisexual-artist-who-reimagined-womanhood-for-the-jazz-age"
-  date: 2026-10-26
-  source: Aeon
-  category: philosophy
-- title: How to build real peace
-  url: "https://aeon.co/essays/what-cooperatives-for-an-anticapitalist-peace-look-like"
   date: 2026-10-26
   source: Aeon
   category: philosophy
@@ -88,21 +73,11 @@
   date: 2026-10-26
   source: The Marginalian
   category: philosophy
-- title: Bob Dylan on the Unconscious Mind and the Ideal Conditions for Creative Work
-  url: "https://www.themarginalian.org/2026/10/26/bob-dylan-songwriters-on-songwriting-interview/"
-  date: 2026-10-26
-  source: The Marginalian
-  category: philosophy
 - title: “We should be more ambitious with the software we build”
   url: "https://danluu.com/ambitious/"
   date: 2026-10-24
   source: Dan Luu
   category: programming
-- title: "Traction!"
-  url: "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress"
-  date: 2026-10-23
-  source: Aeon
-  category: philosophy
 - title: Notes on the complex roots of unity
   url: "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/"
   date: 2026-10-17
