@@ -1,3 +1,53 @@
+- title: In praise of the dilettante
+  url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
+  date: 2026-10-30
+  source: Aeon
+  category: philosophy
+- title: "When Your Parents Are Dying: Some of the Simplest, Most Difficult and Redemptive Life-Advice You’ll Ever Receive"
+  url: "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill/"
+  date: 2026-10-30
+  source: The Marginalian
+  category: philosophy
+- title: API credits benefit for eligible ChatGPT subscriptions
+  url: "https://simonwillison.net/2026/Oct/29/api-credits/"
+  date: 2026-10-29
+  source: Simon Willison
+  category: ai
+- title: Building a multiplayer game world with autonomous Fable-class models
+  url: "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
+  date: 2026-10-29
+  source: Simon Willison
+  category: ai
+- title: Quoting Ben Hylak
+  url: "https://simonwillison.net/2026/Oct/29/ben-hylak/"
+  date: 2026-10-29
+  source: Simon Willison
+  category: ai
+- title: We ran AI agent swarms in Minecraft and Mindustry
+  url: "https://labs.ycombinator.com/projects/games/index.html"
+  date: 2026-10-29
+  source: Hacker News Best
+  category: programming
+- title: Binance-hacker-1029 – $5.6B stolen from Binance
+  url: "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"
+  date: 2026-10-29
+  source: Hacker News Best
+  category: programming
+- title: Patrick Stewart has died
+  url: "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"
+  date: 2026-10-29
+  source: Hacker News Best
+  category: programming
+- title: "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang"
+  url: "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/"
+  date: 2026-10-29
+  source: Hacker News Best
+  category: programming
+- title: Google Search is now less than half of Alphabet’s revenue
+  url: "https://www.kadoa.com/companies/insights/google-search-below-half"
+  date: 2026-10-29
+  source: Hacker News Best
+  category: programming
 - title: Hills and mountains
   url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
   date: 2026-10-29
@@ -7,6 +57,11 @@
   url: "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life"
   date: 2026-10-29
   source: Aeon
+  category: philosophy
+- title: "What Is Your Refugium?"
+  url: "https://www.themarginalian.org/2026/10/29/horse-chestnut-refugium/"
+  date: 2026-10-29
+  source: The Marginalian
   category: philosophy
 - title: The Most Important Thing to Remember About Your Mother
   url: "https://www.themarginalian.org/2026/10/28/florida-scott-maxwell-mother/"
@@ -23,16 +78,6 @@
   date: 2026-10-28
   source: Simon Willison
   category: ai
-- title: The October inflection point for vibe game development
-  url: "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
-  date: 2026-10-28
-  source: Simon Willison
-  category: ai
-- title: Quoting Terk Terkowitz
-  url: "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
-  date: 2026-10-28
-  source: Simon Willison
-  category: ai
 - title: The Amarna letters
   url: "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed"
   date: 2026-10-28
@@ -43,11 +88,6 @@
   date: 2026-10-28
   source: The Marginalian
   category: philosophy
-- title: Game Boy Color on My Conference Badge
-  url: "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
-  date: 2026-10-27
-  source: Simon Willison
-  category: ai
 - title: Love with nowhere to go
   url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
   date: 2026-10-27
@@ -56,21 +96,6 @@
 - title: Sylvia Plath on Living with the Darkness and Making Art from the Barely Bearable Lightness of Being
   url: "https://www.themarginalian.org/2026/10/27/sylvia-plath-letter-mother/"
   date: 2026-10-27
-  source: The Marginalian
-  category: philosophy
-- title: Marcus Aurelius on the Good Luck of Your Bad Luck
-  url: "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck/"
-  date: 2026-10-27
-  source: The Marginalian
-  category: philosophy
-- title: "Great art explained: Tamara in the green Bugatti"
-  url: "https://aeon.co/videos/the-bisexual-artist-who-reimagined-womanhood-for-the-jazz-age"
-  date: 2026-10-26
-  source: Aeon
-  category: philosophy
-- title: Walt Whitman’s Advice on Living a Vibrant and Rewarding Life
-  url: "https://www.themarginalian.org/2026/10/26/walt-whitman-leaves-of-grass-preface/"
-  date: 2026-10-26
   source: The Marginalian
   category: philosophy
 - title: “We should be more ambitious with the software we build”
