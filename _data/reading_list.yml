@@ -1,7 +1,47 @@
+- title: dbreunig/nesformer
+  url: "https://simonwillison.net/2026/Oct/30/nesformer/"
+  date: 2026-10-30
+  source: Simon Willison
+  category: ai
+- title: "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man"
+  url: "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"
+  date: 2026-10-30
+  source: Hacker News Best
+  category: programming
+- title: "Anthropic may not secure investment-grade rating after IPO, Blackstone says"
+  url: "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f"
+  date: 2026-10-30
+  source: Hacker News Best
+  category: programming
+- title: My favourite PowerMac is a Nintendo Wii
+  url: "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"
+  date: 2026-10-30
+  source: Hacker News Best
+  category: programming
+- title: "AI isn't replacing SREs, it's deskilling them"
+  url: "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+  date: 2026-10-30
+  source: Hacker News Best
+  category: programming
+- title: "Florilegium: Procedural Flowers in LaTeX"
+  url: "https://github.com/kevinraymond/florilegium"
+  date: 2026-10-30
+  source: Hacker News Best
+  category: programming
 - title: In praise of the dilettante
   url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
   date: 2026-10-30
   source: Aeon
+  category: philosophy
+- title: "Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the Insurgent Botanical Origin of the Broomstick in Flying-Witch Legends"
+  url: "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick/"
+  date: 2026-10-30
+  source: The Marginalian
+  category: philosophy
+- title: "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World"
+  url: "https://www.themarginalian.org/2026/10/30/virginia-woolf-truth/"
+  date: 2026-10-30
+  source: The Marginalian
   category: philosophy
 - title: "When Your Parents Are Dying: Some of the Simplest, Most Difficult and Redemptive Life-Advice You’ll Ever Receive"
   url: "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill/"
@@ -23,31 +63,6 @@
   date: 2026-10-29
   source: Simon Willison
   category: ai
-- title: We ran AI agent swarms in Minecraft and Mindustry
-  url: "https://labs.ycombinator.com/projects/games/index.html"
-  date: 2026-10-29
-  source: Hacker News Best
-  category: programming
-- title: Binance-hacker-1029 – $5.6B stolen from Binance
-  url: "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"
-  date: 2026-10-29
-  source: Hacker News Best
-  category: programming
-- title: Patrick Stewart has died
-  url: "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"
-  date: 2026-10-29
-  source: Hacker News Best
-  category: programming
-- title: "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang"
-  url: "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/"
-  date: 2026-10-29
-  source: Hacker News Best
-  category: programming
-- title: Google Search is now less than half of Alphabet’s revenue
-  url: "https://www.kadoa.com/companies/insights/google-search-below-half"
-  date: 2026-10-29
-  source: Hacker News Best
-  category: programming
 - title: Hills and mountains
   url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
   date: 2026-10-29
@@ -73,30 +88,15 @@
   date: 2026-10-28
   source: Simon Willison
   category: ai
-- title: GitHub Octoverse 2026
-  url: "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
-  date: 2026-10-28
-  source: Simon Willison
-  category: ai
 - title: The Amarna letters
   url: "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed"
   date: 2026-10-28
   source: Aeon
   category: philosophy
-- title: What It Takes to Be Free
-  url: "https://www.themarginalian.org/2026/10/27/freedom/"
-  date: 2026-10-28
-  source: The Marginalian
-  category: philosophy
 - title: Love with nowhere to go
   url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
   date: 2026-10-27
   source: Aeon
-  category: philosophy
-- title: Sylvia Plath on Living with the Darkness and Making Art from the Barely Bearable Lightness of Being
-  url: "https://www.themarginalian.org/2026/10/27/sylvia-plath-letter-mother/"
-  date: 2026-10-27
-  source: The Marginalian
   category: philosophy
 - title: “We should be more ambitious with the software we build”
   url: "https://danluu.com/ambitious/"
