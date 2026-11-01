@@ -1,33 +1,33 @@
+- title: How We Took Over ChatGPT Accounts
+  url: "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+  date: 2026-10-31
+  source: Simon Willison
+  category: ai
+- title: datasette-llm 0.1a9
+  url: "https://simonwillison.net/2026/Oct/31/datasette-llm/"
+  date: 2026-10-31
+  source: Simon Willison
+  category: ai
+- title: "Meteor of Joy: The Young People’s Chorus of New York City Sings Bird Divinations"
+  url: "https://www.themarginalian.org/2026/10/31/meteor-of-joy-paola-prestini/"
+  date: 2026-10-31
+  source: The Marginalian
+  category: philosophy
+- title: Albert Camus on the Three Antidotes to the Absurdity of Life
+  url: "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/"
+  date: 2026-10-31
+  source: The Marginalian
+  category: philosophy
+- title: "Music and the Body: Richard Powers on the Power of Song"
+  url: "https://www.themarginalian.org/2026/10/31/richard-powers-music/"
+  date: 2026-10-31
+  source: The Marginalian
+  category: philosophy
 - title: dbreunig/nesformer
   url: "https://simonwillison.net/2026/Oct/30/nesformer/"
   date: 2026-10-30
   source: Simon Willison
   category: ai
-- title: "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man"
-  url: "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"
-  date: 2026-10-30
-  source: Hacker News Best
-  category: programming
-- title: "Anthropic may not secure investment-grade rating after IPO, Blackstone says"
-  url: "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f"
-  date: 2026-10-30
-  source: Hacker News Best
-  category: programming
-- title: My favourite PowerMac is a Nintendo Wii
-  url: "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"
-  date: 2026-10-30
-  source: Hacker News Best
-  category: programming
-- title: "AI isn't replacing SREs, it's deskilling them"
-  url: "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
-  date: 2026-10-30
-  source: Hacker News Best
-  category: programming
-- title: "Florilegium: Procedural Flowers in LaTeX"
-  url: "https://github.com/kevinraymond/florilegium"
-  date: 2026-10-30
-  source: Hacker News Best
-  category: programming
 - title: In praise of the dilettante
   url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
   date: 2026-10-30
@@ -43,11 +43,6 @@
   date: 2026-10-30
   source: The Marginalian
   category: philosophy
-- title: "When Your Parents Are Dying: Some of the Simplest, Most Difficult and Redemptive Life-Advice You’ll Ever Receive"
-  url: "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill/"
-  date: 2026-10-30
-  source: The Marginalian
-  category: philosophy
 - title: API credits benefit for eligible ChatGPT subscriptions
   url: "https://simonwillison.net/2026/Oct/29/api-credits/"
   date: 2026-10-29
@@ -55,11 +50,6 @@
   category: ai
 - title: Building a multiplayer game world with autonomous Fable-class models
   url: "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
-  date: 2026-10-29
-  source: Simon Willison
-  category: ai
-- title: Quoting Ben Hylak
-  url: "https://simonwillison.net/2026/Oct/29/ben-hylak/"
   date: 2026-10-29
   source: Simon Willison
   category: ai
@@ -73,21 +63,6 @@
   date: 2026-10-29
   source: Aeon
   category: philosophy
-- title: "What Is Your Refugium?"
-  url: "https://www.themarginalian.org/2026/10/29/horse-chestnut-refugium/"
-  date: 2026-10-29
-  source: The Marginalian
-  category: philosophy
-- title: The Most Important Thing to Remember About Your Mother
-  url: "https://www.themarginalian.org/2026/10/28/florida-scott-maxwell-mother/"
-  date: 2026-10-29
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Ted Sanders
-  url: "https://simonwillison.net/2026/Oct/28/ted-sanders/"
-  date: 2026-10-28
-  source: Simon Willison
-  category: ai
 - title: The Amarna letters
   url: "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed"
   date: 2026-10-28
