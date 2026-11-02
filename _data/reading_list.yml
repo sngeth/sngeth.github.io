@@ -1,3 +1,53 @@
+- title: The U.S. Census Bureau and “Super Intelligence”
+  url: "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+  date: 2026-11-02
+  source: Simon Willison
+  category: ai
+- title: "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
+  url: "https://wikihack.netlify.app"
+  date: 2026-11-02
+  source: Hacker News Best
+  category: programming
+- title: OccupySaaS
+  url: "https://occupysaas.com/"
+  date: 2026-11-02
+  source: Hacker News Best
+  category: programming
+- title: "Jo Marchant: In search of now"
+  url: "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now"
+  date: 2026-11-02
+  source: Aeon
+  category: philosophy
+- title: The self-making world
+  url: "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck"
+  date: 2026-11-02
+  source: Aeon
+  category: philosophy
+- title: "If in doubt, delete the uv.lock file"
+  url: "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
+  date: 2026-11-01
+  source: Simon Willison
+  category: ai
+- title: Quoting Kyle Kingsbury
+  url: "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+  date: 2026-11-01
+  source: Simon Willison
+  category: ai
+- title: U.S. workers took home their smallest share of capital since at least 1947
+  url: "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/"
+  date: 2026-11-01
+  source: Hacker News Best
+  category: programming
+- title: "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
+  url: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+  date: 2026-11-01
+  source: Hacker News Best
+  category: programming
+- title: "Ask HN: Which TV do you recommend for privacy?"
+  url: "https://news.ycombinator.com/item?id=50328896"
+  date: 2026-11-01
+  source: Hacker News Best
+  category: programming
 - title: How We Took Over ChatGPT Accounts
   url: "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
   date: 2026-10-31
@@ -8,51 +58,11 @@
   date: 2026-10-31
   source: Simon Willison
   category: ai
-- title: "Meteor of Joy: The Young People’s Chorus of New York City Sings Bird Divinations"
-  url: "https://www.themarginalian.org/2026/10/31/meteor-of-joy-paola-prestini/"
-  date: 2026-10-31
-  source: The Marginalian
-  category: philosophy
-- title: Albert Camus on the Three Antidotes to the Absurdity of Life
-  url: "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/"
-  date: 2026-10-31
-  source: The Marginalian
-  category: philosophy
-- title: "Music and the Body: Richard Powers on the Power of Song"
-  url: "https://www.themarginalian.org/2026/10/31/richard-powers-music/"
-  date: 2026-10-31
-  source: The Marginalian
-  category: philosophy
-- title: dbreunig/nesformer
-  url: "https://simonwillison.net/2026/Oct/30/nesformer/"
-  date: 2026-10-30
-  source: Simon Willison
-  category: ai
 - title: In praise of the dilettante
   url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
   date: 2026-10-30
   source: Aeon
   category: philosophy
-- title: "Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the Insurgent Botanical Origin of the Broomstick in Flying-Witch Legends"
-  url: "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick/"
-  date: 2026-10-30
-  source: The Marginalian
-  category: philosophy
-- title: "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World"
-  url: "https://www.themarginalian.org/2026/10/30/virginia-woolf-truth/"
-  date: 2026-10-30
-  source: The Marginalian
-  category: philosophy
-- title: API credits benefit for eligible ChatGPT subscriptions
-  url: "https://simonwillison.net/2026/Oct/29/api-credits/"
-  date: 2026-10-29
-  source: Simon Willison
-  category: ai
-- title: Building a multiplayer game world with autonomous Fable-class models
-  url: "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
-  date: 2026-10-29
-  source: Simon Willison
-  category: ai
 - title: Hills and mountains
   url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
   date: 2026-10-29
@@ -61,16 +71,6 @@
 - title: The physics of getting fired
   url: "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life"
   date: 2026-10-29
-  source: Aeon
-  category: philosophy
-- title: The Amarna letters
-  url: "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed"
-  date: 2026-10-28
-  source: Aeon
-  category: philosophy
-- title: Love with nowhere to go
-  url: "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death"
-  date: 2026-10-27
   source: Aeon
   category: philosophy
 - title: “We should be more ambitious with the software we build”
