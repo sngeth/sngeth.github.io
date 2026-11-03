@@ -1,15 +1,60 @@
+- title: "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube"
+  url: "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
+  date: 2026-11-03
+  source: Simon Willison
+  category: ai
+- title: October sponsors-only newsletter
+  url: "https://simonwillison.net/2026/Nov/3/october-newsletter/"
+  date: 2026-11-03
+  source: Simon Willison
+  category: ai
+- title: "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
+  url: "https://hackertimes.ca/"
+  date: 2026-11-03
+  source: Hacker News Best
+  category: programming
+- title: "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs"
+  url: "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
+  date: 2026-11-03
+  source: Hacker News Best
+  category: programming
+- title: Believing and thinking
+  url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
+  date: 2026-11-03
+  source: Aeon
+  category: philosophy
+- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
+  url: "https://www.themarginalian.org/2026/11/03/polyvagal-theory/"
+  date: 2026-11-03
+  source: The Marginalian
+  category: philosophy
+- title: "The Art of Advancing with Age: Bertrand Russell on What Makes a Fulfilling Life"
+  url: "https://www.themarginalian.org/2026/11/03/how-to-grow-old-bertrand-russell/"
+  date: 2026-11-03
+  source: The Marginalian
+  category: philosophy
+- title: llm 0.37
+  url: "https://simonwillison.net/2026/Nov/2/llm/"
+  date: 2026-11-02
+  source: Simon Willison
+  category: ai
 - title: The U.S. Census Bureau and “Super Intelligence”
   url: "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
   date: 2026-11-02
   source: Simon Willison
   category: ai
-- title: "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN"
-  url: "https://wikihack.netlify.app"
+- title: Scaling Git at OpenAI
+  url: "https://openai.com/index/scaling-git-at-openai/"
   date: 2026-11-02
   source: Hacker News Best
   category: programming
-- title: OccupySaaS
-  url: "https://occupysaas.com/"
+- title: "The SEC Should Block Anthropic's IPO to Protect the Public"
+  url: "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/"
+  date: 2026-11-02
+  source: Hacker News Best
+  category: programming
+- title: BYD sold more EVs last month than the US did all quarter
+  url: "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/"
   date: 2026-11-02
   source: Hacker News Best
   category: programming
@@ -23,41 +68,26 @@
   date: 2026-11-02
   source: Aeon
   category: philosophy
+- title: Love in the Time of Dinosaurs
+  url: "https://www.themarginalian.org/2026/11/02/mary-morland-buckland-megalosaurus/"
+  date: 2026-11-02
+  source: The Marginalian
+  category: philosophy
+- title: "Trial, Triumph, and the Art of the Possible: The Moving Story Behind Beethoven’s “Ode to Joy,” a Lifetime of Sorrow in the Making"
+  url: "https://www.themarginalian.org/2026/11/02/beethoven-ode-to-joy/"
+  date: 2026-11-02
+  source: The Marginalian
+  category: philosophy
 - title: "If in doubt, delete the uv.lock file"
   url: "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
   date: 2026-11-01
   source: Simon Willison
   category: ai
-- title: Quoting Kyle Kingsbury
-  url: "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+- title: "The Art of Being Alone: May Sarton’s Stunning 1938 Ode to Solitude"
+  url: "https://www.themarginalian.org/2026/11/01/may-sarton-canticle-6-considerations/"
   date: 2026-11-01
-  source: Simon Willison
-  category: ai
-- title: U.S. workers took home their smallest share of capital since at least 1947
-  url: "https://fortune.com/article/why-did-us-workers-just-take-home-smallest-share-of-capital-since-1947-lowest-ever-recorded/"
-  date: 2026-11-01
-  source: Hacker News Best
-  category: programming
-- title: "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
-  url: "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
-  date: 2026-11-01
-  source: Hacker News Best
-  category: programming
-- title: "Ask HN: Which TV do you recommend for privacy?"
-  url: "https://news.ycombinator.com/item?id=50328896"
-  date: 2026-11-01
-  source: Hacker News Best
-  category: programming
-- title: How We Took Over ChatGPT Accounts
-  url: "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
-  date: 2026-10-31
-  source: Simon Willison
-  category: ai
-- title: datasette-llm 0.1a9
-  url: "https://simonwillison.net/2026/Oct/31/datasette-llm/"
-  date: 2026-10-31
-  source: Simon Willison
-  category: ai
+  source: The Marginalian
+  category: philosophy
 - title: In praise of the dilettante
   url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
   date: 2026-10-30
@@ -65,11 +95,6 @@
   category: philosophy
 - title: Hills and mountains
   url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
-  date: 2026-10-29
-  source: Aeon
-  category: philosophy
-- title: The physics of getting fired
-  url: "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life"
   date: 2026-10-29
   source: Aeon
   category: philosophy
