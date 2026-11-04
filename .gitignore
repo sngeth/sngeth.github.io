@@ -49,3 +49,7 @@ logs/
 
 # Claude AI instructions
 CLAUDE.md
+
+# Local voice model, corpus, experiments, and rewrite skill
+/_voice_training/
+/.agents/skills/voice-rewrite/
