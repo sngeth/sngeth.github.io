@@ -1,3 +1,28 @@
+- title: Jelly Sheet
+  url: "https://mrdoob.github.io/codevember-2026/01/"
+  date: 2026-11-04
+  source: Hacker News Best
+  category: programming
+- title: C++26 Disapproved
+  url: "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+  date: 2026-11-04
+  source: Hacker News Best
+  category: programming
+- title: Like aliens
+  url: "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own"
+  date: 2026-11-04
+  source: Aeon
+  category: philosophy
+- title: "No One You Love Is Ever Dead: Hemingway on Loss and the Meaning of Life"
+  url: "https://www.themarginalian.org/2026/11/04/hemingway-loss-letter/"
+  date: 2026-11-04
+  source: The Marginalian
+  category: philosophy
+- title: "Qwen 3.8 27B on my laptop can interpret model weights, too"
+  url: "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+  date: 2026-11-03
+  source: Simon Willison
+  category: ai
 - title: "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube"
   url: "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
   date: 2026-11-03
@@ -8,13 +33,18 @@
   date: 2026-11-03
   source: Simon Willison
   category: ai
-- title: "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
-  url: "https://hackertimes.ca/"
+- title: The Internals of PostgreSQL
+  url: "https://www.interdb.jp/pg/index.html"
   date: 2026-11-03
   source: Hacker News Best
   category: programming
-- title: "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs"
-  url: "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
+- title: "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
+  url: "https://arxiv.org/abs/2605.29713"
+  date: 2026-11-03
+  source: Hacker News Best
+  category: programming
+- title: Safari introduces Adaptive Dark Mode in 27.3
+  url: "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/"
   date: 2026-11-03
   source: Hacker News Best
   category: programming
@@ -22,6 +52,16 @@
   url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
   date: 2026-11-03
   source: Aeon
+  category: philosophy
+- title: "The Founding Father of Neuroscience on Solitude, the Search for Truth, and the Ideal Environment for Breakthroughs"
+  url: "https://www.themarginalian.org/2026/11/03/cajal-science-solitude/"
+  date: 2026-11-03
+  source: The Marginalian
+  category: philosophy
+- title: "I Feel, Therefore I Am: Neuroscientist Antonio Damasio the Consciousness of the Body"
+  url: "https://www.themarginalian.org/2026/11/03/feeling-knowing-damasio/"
+  date: 2026-11-03
+  source: The Marginalian
   category: philosophy
 - title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
   url: "https://www.themarginalian.org/2026/11/03/polyvagal-theory/"
@@ -43,21 +83,6 @@
   date: 2026-11-02
   source: Simon Willison
   category: ai
-- title: Scaling Git at OpenAI
-  url: "https://openai.com/index/scaling-git-at-openai/"
-  date: 2026-11-02
-  source: Hacker News Best
-  category: programming
-- title: "The SEC Should Block Anthropic's IPO to Protect the Public"
-  url: "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/"
-  date: 2026-11-02
-  source: Hacker News Best
-  category: programming
-- title: BYD sold more EVs last month than the US did all quarter
-  url: "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/"
-  date: 2026-11-02
-  source: Hacker News Best
-  category: programming
 - title: "Jo Marchant: In search of now"
   url: "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now"
   date: 2026-11-02
@@ -68,34 +93,9 @@
   date: 2026-11-02
   source: Aeon
   category: philosophy
-- title: Love in the Time of Dinosaurs
-  url: "https://www.themarginalian.org/2026/11/02/mary-morland-buckland-megalosaurus/"
-  date: 2026-11-02
-  source: The Marginalian
-  category: philosophy
-- title: "Trial, Triumph, and the Art of the Possible: The Moving Story Behind Beethoven’s “Ode to Joy,” a Lifetime of Sorrow in the Making"
-  url: "https://www.themarginalian.org/2026/11/02/beethoven-ode-to-joy/"
-  date: 2026-11-02
-  source: The Marginalian
-  category: philosophy
-- title: "If in doubt, delete the uv.lock file"
-  url: "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
-  date: 2026-11-01
-  source: Simon Willison
-  category: ai
-- title: "The Art of Being Alone: May Sarton’s Stunning 1938 Ode to Solitude"
-  url: "https://www.themarginalian.org/2026/11/01/may-sarton-canticle-6-considerations/"
-  date: 2026-11-01
-  source: The Marginalian
-  category: philosophy
 - title: In praise of the dilettante
   url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
   date: 2026-10-30
-  source: Aeon
-  category: philosophy
-- title: Hills and mountains
-  url: "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own"
-  date: 2026-10-29
   source: Aeon
   category: philosophy
 - title: “We should be more ambitious with the software we build”
