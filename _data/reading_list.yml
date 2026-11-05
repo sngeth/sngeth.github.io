@@ -1,10 +1,55 @@
-- title: Jelly Sheet
-  url: "https://mrdoob.github.io/codevember-2026/01/"
+- title: Their eyes
+  url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
+  date: 2026-11-05
+  source: Aeon
+  category: philosophy
+- title: Methodical/mercurial
+  url: "https://aeon.co/essays/welcome-to-the-mixed-up-joyful-world-of-audhd"
+  date: 2026-11-05
+  source: Aeon
+  category: philosophy
+- title: "Umberto Eco’s Antilibrary: Why Unread Books Are More Valuable to Our Lives than Read Ones"
+  url: "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/"
+  date: 2026-11-05
+  source: The Marginalian
+  category: philosophy
+- title: "The Generosity of Selfishness: C.S. Lewis on How to Be Interesting"
+  url: "https://www.themarginalian.org/2026/11/05/interesting/"
+  date: 2026-11-05
+  source: The Marginalian
+  category: philosophy
+- title: datasette-llm 0.1a10
+  url: "https://simonwillison.net/2026/Nov/4/datasette-llm/"
+  date: 2026-11-04
+  source: Simon Willison
+  category: ai
+- title: datasette-apps 0.3a0
+  url: "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+  date: 2026-11-04
+  source: Simon Willison
+  category: ai
+- title: Images 2.6
+  url: "https://openai.com/index/introducing-images-2-6/"
   date: 2026-11-04
   source: Hacker News Best
   category: programming
-- title: C++26 Disapproved
-  url: "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/"
+- title: A thousand fewer paths to root
+  url: "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+  date: 2026-11-04
+  source: Hacker News Best
+  category: programming
+- title: Residential proxies detected on White House network
+  url: "https://layer3intel.com/blog/residential-proxies-white-house-network"
+  date: 2026-11-04
+  source: Hacker News Best
+  category: programming
+- title: "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding"
+  url: "https://www.ricursive.com/ripple"
+  date: 2026-11-04
+  source: Hacker News Best
+  category: programming
+- title: A new Go API for JSON
+  url: "https://go.dev/blog/jsonv2"
   date: 2026-11-04
   source: Hacker News Best
   category: programming
@@ -13,41 +58,31 @@
   date: 2026-11-04
   source: Aeon
   category: philosophy
+- title: The Souls of Animals
+  url: "https://www.themarginalian.org/2026/11/04/the-souls-of-animals/"
+  date: 2026-11-04
+  source: The Marginalian
+  category: philosophy
 - title: "No One You Love Is Ever Dead: Hemingway on Loss and the Meaning of Life"
   url: "https://www.themarginalian.org/2026/11/04/hemingway-loss-letter/"
   date: 2026-11-04
   source: The Marginalian
   category: philosophy
+- title: datasette-agent 0.5a0
+  url: "https://simonwillison.net/2026/Nov/3/datasette-agent/"
+  date: 2026-11-03
+  source: Simon Willison
+  category: ai
+- title: llm 0.37.1
+  url: "https://simonwillison.net/2026/Nov/3/llm/"
+  date: 2026-11-03
+  source: Simon Willison
+  category: ai
 - title: "Qwen 3.8 27B on my laptop can interpret model weights, too"
   url: "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
   date: 2026-11-03
   source: Simon Willison
   category: ai
-- title: "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube"
-  url: "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
-  date: 2026-11-03
-  source: Simon Willison
-  category: ai
-- title: October sponsors-only newsletter
-  url: "https://simonwillison.net/2026/Nov/3/october-newsletter/"
-  date: 2026-11-03
-  source: Simon Willison
-  category: ai
-- title: The Internals of PostgreSQL
-  url: "https://www.interdb.jp/pg/index.html"
-  date: 2026-11-03
-  source: Hacker News Best
-  category: programming
-- title: "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
-  url: "https://arxiv.org/abs/2605.29713"
-  date: 2026-11-03
-  source: Hacker News Best
-  category: programming
-- title: Safari introduces Adaptive Dark Mode in 27.3
-  url: "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/"
-  date: 2026-11-03
-  source: Hacker News Best
-  category: programming
 - title: Believing and thinking
   url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
   date: 2026-11-03
@@ -58,44 +93,9 @@
   date: 2026-11-03
   source: The Marginalian
   category: philosophy
-- title: "I Feel, Therefore I Am: Neuroscientist Antonio Damasio the Consciousness of the Body"
-  url: "https://www.themarginalian.org/2026/11/03/feeling-knowing-damasio/"
-  date: 2026-11-03
-  source: The Marginalian
-  category: philosophy
-- title: "Polyvagal Theory and the Neurobiology of Connection: The Science of Rupture, Repair, and Reciprocity"
-  url: "https://www.themarginalian.org/2026/11/03/polyvagal-theory/"
-  date: 2026-11-03
-  source: The Marginalian
-  category: philosophy
-- title: "The Art of Advancing with Age: Bertrand Russell on What Makes a Fulfilling Life"
-  url: "https://www.themarginalian.org/2026/11/03/how-to-grow-old-bertrand-russell/"
-  date: 2026-11-03
-  source: The Marginalian
-  category: philosophy
-- title: llm 0.37
-  url: "https://simonwillison.net/2026/Nov/2/llm/"
-  date: 2026-11-02
-  source: Simon Willison
-  category: ai
-- title: The U.S. Census Bureau and “Super Intelligence”
-  url: "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
-  date: 2026-11-02
-  source: Simon Willison
-  category: ai
 - title: "Jo Marchant: In search of now"
   url: "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now"
   date: 2026-11-02
-  source: Aeon
-  category: philosophy
-- title: The self-making world
-  url: "https://aeon.co/essays/the-self-making-world-of-jean-baptiste-lamarck"
-  date: 2026-11-02
-  source: Aeon
-  category: philosophy
-- title: In praise of the dilettante
-  url: "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age"
-  date: 2026-10-30
   source: Aeon
   category: philosophy
 - title: “We should be more ambitious with the software we build”
