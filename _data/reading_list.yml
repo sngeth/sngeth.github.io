@@ -1,3 +1,38 @@
+- title: "Blender's UI and Runtime: Much Faster Than GPUI"
+  url: "https://github.com/ppmpreetham/BUI"
+  date: 2026-11-06
+  source: Hacker News Best
+  category: programming
+- title: Britain to make salary disclosure in job ads mandatory
+  url: "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/"
+  date: 2026-11-06
+  source: Hacker News Best
+  category: programming
+- title: Celestial nuisance
+  url: "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
+  date: 2026-11-06
+  source: Aeon
+  category: philosophy
+- title: Quoting Paul Ford
+  url: "https://simonwillison.net/2026/Nov/5/paul-ford/"
+  date: 2026-11-05
+  source: Simon Willison
+  category: ai
+- title: "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
+  url: "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+  date: 2026-11-05
+  source: Hacker News Best
+  category: programming
+- title: Claude Code sends your email address to websites
+  url: "https://github.com/anthropics/claude-code/issues/107757"
+  date: 2026-11-05
+  source: Hacker News Best
+  category: programming
+- title: MS Paint Remote Code Execution Vulnerability
+  url: "https://www.cve.org/CVERecord?id=CVE-2026-83844"
+  date: 2026-11-05
+  source: Hacker News Best
+  category: programming
 - title: Their eyes
   url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
   date: 2026-11-05
@@ -8,13 +43,13 @@
   date: 2026-11-05
   source: Aeon
   category: philosophy
-- title: "Umberto Eco’s Antilibrary: Why Unread Books Are More Valuable to Our Lives than Read Ones"
-  url: "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/"
+- title: "The Generosity of Selfishness: C.S. Lewis on How to Be Interesting"
+  url: "https://www.themarginalian.org/2026/11/05/interesting/"
   date: 2026-11-05
   source: The Marginalian
   category: philosophy
-- title: "The Generosity of Selfishness: C.S. Lewis on How to Be Interesting"
-  url: "https://www.themarginalian.org/2026/11/05/interesting/"
+- title: "Umberto Eco’s Antilibrary: Why Unread Books Are More Valuable to Our Lives than Read Ones"
+  url: "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/"
   date: 2026-11-05
   source: The Marginalian
   category: philosophy
@@ -28,31 +63,6 @@
   date: 2026-11-04
   source: Simon Willison
   category: ai
-- title: Images 2.6
-  url: "https://openai.com/index/introducing-images-2-6/"
-  date: 2026-11-04
-  source: Hacker News Best
-  category: programming
-- title: A thousand fewer paths to root
-  url: "https://openai.com/index/a-thousand-fewer-paths-to-root/"
-  date: 2026-11-04
-  source: Hacker News Best
-  category: programming
-- title: Residential proxies detected on White House network
-  url: "https://layer3intel.com/blog/residential-proxies-white-house-network"
-  date: 2026-11-04
-  source: Hacker News Best
-  category: programming
-- title: "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding"
-  url: "https://www.ricursive.com/ripple"
-  date: 2026-11-04
-  source: Hacker News Best
-  category: programming
-- title: A new Go API for JSON
-  url: "https://go.dev/blog/jsonv2"
-  date: 2026-11-04
-  source: Hacker News Best
-  category: programming
 - title: Like aliens
   url: "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own"
   date: 2026-11-04
@@ -78,11 +88,6 @@
   date: 2026-11-03
   source: Simon Willison
   category: ai
-- title: "Qwen 3.8 27B on my laptop can interpret model weights, too"
-  url: "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
-  date: 2026-11-03
-  source: Simon Willison
-  category: ai
 - title: Believing and thinking
   url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
   date: 2026-11-03
@@ -92,11 +97,6 @@
   url: "https://www.themarginalian.org/2026/11/03/cajal-science-solitude/"
   date: 2026-11-03
   source: The Marginalian
-  category: philosophy
-- title: "Jo Marchant: In search of now"
-  url: "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now"
-  date: 2026-11-02
-  source: Aeon
   category: philosophy
 - title: “We should be more ambitious with the software we build”
   url: "https://danluu.com/ambitious/"
