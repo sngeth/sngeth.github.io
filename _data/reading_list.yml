@@ -1,10 +1,30 @@
-- title: "Blender's UI and Runtime: Much Faster Than GPUI"
-  url: "https://github.com/ppmpreetham/BUI"
+- title: Quoting Nilay Patel
+  url: "https://simonwillison.net/2026/Nov/6/nilay-patel/"
+  date: 2026-11-06
+  source: Simon Willison
+  category: ai
+- title: Libghostty 1.0
+  url: "https://mitchellh.com/writing/libghostty-1-0"
   date: 2026-11-06
   source: Hacker News Best
   category: programming
-- title: Britain to make salary disclosure in job ads mandatory
-  url: "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/"
+- title: AI is dramatically accelerating AI research
+  url: "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+  date: 2026-11-06
+  source: Hacker News Best
+  category: programming
+- title: A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost
+  url: "https://hightouch.com/blog/llm-judges-identity-resolution"
+  date: 2026-11-06
+  source: Hacker News Best
+  category: programming
+- title: Anthropic IPO buyers see valuation as low as $1.1T
+  url: "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+  date: 2026-11-06
+  source: Hacker News Best
+  category: programming
+- title: Deus Ex
+  url: "https://www.filfre.net/2026/11/deus-ex/"
   date: 2026-11-06
   source: Hacker News Best
   category: programming
@@ -13,26 +33,21 @@
   date: 2026-11-06
   source: Aeon
   category: philosophy
+- title: "The Relationship Between Comedy, Democracy, and AI"
+  url: "https://www.themarginalian.org/2026/11/06/humor/"
+  date: 2026-11-06
+  source: The Marginalian
+  category: philosophy
+- title: Marianne Moore on the Three Elements of Persuasive Writing
+  url: "https://www.themarginalian.org/2026/11/06/marianne-moore-predilections-writing/"
+  date: 2026-11-06
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Paul Ford
   url: "https://simonwillison.net/2026/Nov/5/paul-ford/"
   date: 2026-11-05
   source: Simon Willison
   category: ai
-- title: "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
-  url: "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
-  date: 2026-11-05
-  source: Hacker News Best
-  category: programming
-- title: Claude Code sends your email address to websites
-  url: "https://github.com/anthropics/claude-code/issues/107757"
-  date: 2026-11-05
-  source: Hacker News Best
-  category: programming
-- title: MS Paint Remote Code Execution Vulnerability
-  url: "https://www.cve.org/CVERecord?id=CVE-2026-83844"
-  date: 2026-11-05
-  source: Hacker News Best
-  category: programming
 - title: Their eyes
   url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
   date: 2026-11-05
@@ -73,18 +88,8 @@
   date: 2026-11-04
   source: The Marginalian
   category: philosophy
-- title: "No One You Love Is Ever Dead: Hemingway on Loss and the Meaning of Life"
-  url: "https://www.themarginalian.org/2026/11/04/hemingway-loss-letter/"
-  date: 2026-11-04
-  source: The Marginalian
-  category: philosophy
 - title: datasette-agent 0.5a0
   url: "https://simonwillison.net/2026/Nov/3/datasette-agent/"
-  date: 2026-11-03
-  source: Simon Willison
-  category: ai
-- title: llm 0.37.1
-  url: "https://simonwillison.net/2026/Nov/3/llm/"
   date: 2026-11-03
   source: Simon Willison
   category: ai
@@ -93,11 +98,11 @@
   date: 2026-11-03
   source: Aeon
   category: philosophy
-- title: "The Founding Father of Neuroscience on Solitude, the Search for Truth, and the Ideal Environment for Breakthroughs"
-  url: "https://www.themarginalian.org/2026/11/03/cajal-science-solitude/"
-  date: 2026-11-03
-  source: The Marginalian
-  category: philosophy
+- title: Test and verification technique effectiveness with GPT-6 Astra
+  url: "https://danluu.com/astra-testing/"
+  date: 2026-11-02
+  source: Dan Luu
+  category: programming
 - title: “We should be more ambitious with the software we build”
   url: "https://danluu.com/ambitious/"
   date: 2026-10-24
@@ -146,11 +151,6 @@
 - title: "Ed Zitron's AI prediction track record"
   url: "https://danluu.com/zitron/"
   date: 2026-09-01
-  source: Dan Luu
-  category: programming
-- title: Bug blindness
-  url: "https://danluu.com/bug-blind/"
-  date: 2026-08-30
   source: Dan Luu
   category: programming
 - title: "Some more things about Django I've been enjoying"
