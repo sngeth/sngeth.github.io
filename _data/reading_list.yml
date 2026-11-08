@@ -1,33 +1,48 @@
+- title: "Goodbye Claude, Hello Pi"
+  url: "https://caleb.software/posts/claude-to-pi.html"
+  date: 2026-11-08
+  source: Hacker News Best
+  category: programming
+- title: How to Harness Your Existential Wanderlust
+  url: "https://www.themarginalian.org/2026/11/07/rockwell-kent-wilderness-wanderlust/"
+  date: 2026-11-08
+  source: The Marginalian
+  category: philosophy
+- title: "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages"
+  url: "https://simonwillison.net/2026/Nov/7/link-rel-next/"
+  date: 2026-11-07
+  source: Simon Willison
+  category: ai
+- title: "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files"
+  url: "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+  date: 2026-11-07
+  source: Hacker News Best
+  category: programming
+- title: What I run on my $10 USD OpenStick homelab
+  url: "https://blog.bosscher.ch/posts/openstick/"
+  date: 2026-11-07
+  source: Hacker News Best
+  category: programming
+- title: "The end of Microsoft Research's AI Frontiers group"
+  url: "https://hunch.net/?p=13764006"
+  date: 2026-11-07
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
+  url: "https://github.com/hedgerow-dev/coldframe"
+  date: 2026-11-07
+  source: Hacker News Best
+  category: programming
+- title: Albert Camus on Stubbornness and Creativity
+  url: "https://www.themarginalian.org/2026/11/07/albert-camus-writing/"
+  date: 2026-11-07
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Nilay Patel
   url: "https://simonwillison.net/2026/Nov/6/nilay-patel/"
   date: 2026-11-06
   source: Simon Willison
   category: ai
-- title: Libghostty 1.0
-  url: "https://mitchellh.com/writing/libghostty-1-0"
-  date: 2026-11-06
-  source: Hacker News Best
-  category: programming
-- title: AI is dramatically accelerating AI research
-  url: "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
-  date: 2026-11-06
-  source: Hacker News Best
-  category: programming
-- title: A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost
-  url: "https://hightouch.com/blog/llm-judges-identity-resolution"
-  date: 2026-11-06
-  source: Hacker News Best
-  category: programming
-- title: Anthropic IPO buyers see valuation as low as $1.1T
-  url: "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
-  date: 2026-11-06
-  source: Hacker News Best
-  category: programming
-- title: Deus Ex
-  url: "https://www.filfre.net/2026/11/deus-ex/"
-  date: 2026-11-06
-  source: Hacker News Best
-  category: programming
 - title: Celestial nuisance
   url: "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
   date: 2026-11-06
@@ -63,11 +78,6 @@
   date: 2026-11-05
   source: The Marginalian
   category: philosophy
-- title: "Umberto Eco’s Antilibrary: Why Unread Books Are More Valuable to Our Lives than Read Ones"
-  url: "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary/"
-  date: 2026-11-05
-  source: The Marginalian
-  category: philosophy
 - title: datasette-llm 0.1a10
   url: "https://simonwillison.net/2026/Nov/4/datasette-llm/"
   date: 2026-11-04
@@ -83,16 +93,6 @@
   date: 2026-11-04
   source: Aeon
   category: philosophy
-- title: The Souls of Animals
-  url: "https://www.themarginalian.org/2026/11/04/the-souls-of-animals/"
-  date: 2026-11-04
-  source: The Marginalian
-  category: philosophy
-- title: datasette-agent 0.5a0
-  url: "https://simonwillison.net/2026/Nov/3/datasette-agent/"
-  date: 2026-11-03
-  source: Simon Willison
-  category: ai
 - title: Believing and thinking
   url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
   date: 2026-11-03
