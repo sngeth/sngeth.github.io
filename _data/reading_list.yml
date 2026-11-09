@@ -1,8 +1,63 @@
-- title: "Goodbye Claude, Hello Pi"
-  url: "https://caleb.software/posts/claude-to-pi.html"
+- title: "The Web Is More Than Enough, by Paul Ford"
+  url: "https://simonwillison.net/2026/Nov/9/hn-50421091/"
+  date: 2026-11-09
+  source: Simon Willison
+  category: ai
+- title: "Hide your slop PR descriptions behind <details><summary>"
+  url: "https://simonwillison.net/2026/Nov/9/details-summary/"
+  date: 2026-11-09
+  source: Simon Willison
+  category: ai
+- title: Fold Epic Paper Airplanes
+  url: "https://www.foldableflight.com"
+  date: 2026-11-09
+  source: Hacker News Best
+  category: programming
+- title: "Is Opus 5.5 nerfed? Thinking patterns changed on November 3"
+  url: "https://twitter.com/shanemelaugh/status/2119192075505893695"
+  date: 2026-11-09
+  source: Hacker News Best
+  category: programming
+- title: "RIP, Harvest"
+  url: "https://aphyr.com/posts/427-rip-harvest"
+  date: 2026-11-09
+  source: Hacker News Best
+  category: programming
+- title: Unlocking any car from X brand in most of the world
+  url: "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+  date: 2026-11-09
+  source: Hacker News Best
+  category: programming
+- title: A trip to upside-down world
+  url: "https://aeon.co/videos/a-cubist-painting-becomes-two-kids-immersive-animated-world"
+  date: 2026-11-09
+  source: Aeon
+  category: philosophy
+- title: Equality talk
+  url: "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world"
+  date: 2026-11-09
+  source: Aeon
+  category: philosophy
+- title: "parse_number() as a SQLite extension: C vs Rust"
+  url: "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+  date: 2026-11-08
+  source: Simon Willison
+  category: ai
+- title: "I'm not convinced the AI bubble exists"
+  url: "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
   date: 2026-11-08
   source: Hacker News Best
   category: programming
+- title: Wendell Berry on Where Our Loved Ones Gone Go
+  url: "https://www.themarginalian.org/2026/11/08/wendell-berry-loved-ones/"
+  date: 2026-11-08
+  source: The Marginalian
+  category: philosophy
+- title: "Hope Is the Thing with Feathers, and with Fangs: The Alchemy of Unrequited Love and the Story Behind Emily Dickinson’s Most Famous Poem"
+  url: "https://www.themarginalian.org/2026/11/08/emily-dickinson-hope-kate/"
+  date: 2026-11-08
+  source: The Marginalian
+  category: philosophy
 - title: How to Harness Your Existential Wanderlust
   url: "https://www.themarginalian.org/2026/11/07/rockwell-kent-wilderness-wanderlust/"
   date: 2026-11-08
@@ -13,36 +68,16 @@
   date: 2026-11-07
   source: Simon Willison
   category: ai
-- title: "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files"
-  url: "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+- title: "Terry Pratchett's Study"
+  url: "https://simonwillison.net/2026/Nov/7/hn-50407316/"
   date: 2026-11-07
-  source: Hacker News Best
-  category: programming
-- title: What I run on my $10 USD OpenStick homelab
-  url: "https://blog.bosscher.ch/posts/openstick/"
-  date: 2026-11-07
-  source: Hacker News Best
-  category: programming
-- title: "The end of Microsoft Research's AI Frontiers group"
-  url: "https://hunch.net/?p=13764006"
-  date: 2026-11-07
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
-  url: "https://github.com/hedgerow-dev/coldframe"
-  date: 2026-11-07
-  source: Hacker News Best
-  category: programming
+  source: Simon Willison
+  category: ai
 - title: Albert Camus on Stubbornness and Creativity
   url: "https://www.themarginalian.org/2026/11/07/albert-camus-writing/"
   date: 2026-11-07
   source: The Marginalian
   category: philosophy
-- title: Quoting Nilay Patel
-  url: "https://simonwillison.net/2026/Nov/6/nilay-patel/"
-  date: 2026-11-06
-  source: Simon Willison
-  category: ai
 - title: Celestial nuisance
   url: "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
   date: 2026-11-06
@@ -53,16 +88,6 @@
   date: 2026-11-06
   source: The Marginalian
   category: philosophy
-- title: Marianne Moore on the Three Elements of Persuasive Writing
-  url: "https://www.themarginalian.org/2026/11/06/marianne-moore-predilections-writing/"
-  date: 2026-11-06
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Paul Ford
-  url: "https://simonwillison.net/2026/Nov/5/paul-ford/"
-  date: 2026-11-05
-  source: Simon Willison
-  category: ai
 - title: Their eyes
   url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
   date: 2026-11-05
@@ -71,31 +96,6 @@
 - title: Methodical/mercurial
   url: "https://aeon.co/essays/welcome-to-the-mixed-up-joyful-world-of-audhd"
   date: 2026-11-05
-  source: Aeon
-  category: philosophy
-- title: "The Generosity of Selfishness: C.S. Lewis on How to Be Interesting"
-  url: "https://www.themarginalian.org/2026/11/05/interesting/"
-  date: 2026-11-05
-  source: The Marginalian
-  category: philosophy
-- title: datasette-llm 0.1a10
-  url: "https://simonwillison.net/2026/Nov/4/datasette-llm/"
-  date: 2026-11-04
-  source: Simon Willison
-  category: ai
-- title: datasette-apps 0.3a0
-  url: "https://simonwillison.net/2026/Nov/4/datasette-apps/"
-  date: 2026-11-04
-  source: Simon Willison
-  category: ai
-- title: Like aliens
-  url: "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own"
-  date: 2026-11-04
-  source: Aeon
-  category: philosophy
-- title: Believing and thinking
-  url: "https://aeon.co/essays/the-psychology-of-separating-church-and-state"
-  date: 2026-11-03
   source: Aeon
   category: philosophy
 - title: Test and verification technique effectiveness with GPT-6 Astra
