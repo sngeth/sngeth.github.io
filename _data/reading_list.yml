@@ -1,30 +1,55 @@
-- title: "The Web Is More Than Enough, by Paul Ford"
-  url: "https://simonwillison.net/2026/Nov/9/hn-50421091/"
+- title: "Introducing Our Smallest, Most Efficient Model: Muse Ember"
+  url: "https://simonwillison.net/2026/Nov/10/muse-ember/"
+  date: 2026-11-10
+  source: Simon Willison
+  category: ai
+- title: Quoting Prompting Claude Fable 5.2
+  url: "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+  date: 2026-11-10
+  source: Simon Willison
+  category: ai
+- title: Yonkers Rises
+  url: "https://simonwillison.net/2026/Nov/10/yonkers-rises/"
+  date: 2026-11-10
+  source: Simon Willison
+  category: ai
+- title: Amazon saves millions by replacing Sonnet 4.6 with Strands Decider
+  url: "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+  date: 2026-11-10
+  source: Hacker News Best
+  category: programming
+- title: The wholehearted life
+  url: "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life"
+  date: 2026-11-10
+  source: Aeon
+  category: philosophy
+- title: llm-anthropic 0.31
+  url: "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
   date: 2026-11-09
   source: Simon Willison
   category: ai
-- title: "Hide your slop PR descriptions behind <details><summary>"
-  url: "https://simonwillison.net/2026/Nov/9/details-summary/"
+- title: Locating the source of a mysterious beep with Claude
+  url: "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
   date: 2026-11-09
   source: Simon Willison
   category: ai
-- title: Fold Epic Paper Airplanes
-  url: "https://www.foldableflight.com"
+- title: "Fable 5.2 one-shotted my nephew's dream game"
+  url: "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
   date: 2026-11-09
   source: Hacker News Best
   category: programming
-- title: "Is Opus 5.5 nerfed? Thinking patterns changed on November 3"
-  url: "https://twitter.com/shanemelaugh/status/2119192075505893695"
+- title: "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
+  url: "https://artificialanalysis.ai/models/claude-fable-5-2"
   date: 2026-11-09
   source: Hacker News Best
   category: programming
-- title: "RIP, Harvest"
-  url: "https://aphyr.com/posts/427-rip-harvest"
+- title: USPS now offers official ZIP Code boundary polygons
+  url: "https://postalpro.usps.com/zcb"
   date: 2026-11-09
   source: Hacker News Best
   category: programming
-- title: Unlocking any car from X brand in most of the world
-  url: "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+- title: Claude Fable 5.2 and Mythos 5.2
+  url: "https://www.anthropic.com/claude-fable-and-mythos-5-2"
   date: 2026-11-09
   source: Hacker News Best
   category: programming
@@ -38,16 +63,11 @@
   date: 2026-11-09
   source: Aeon
   category: philosophy
-- title: "parse_number() as a SQLite extension: C vs Rust"
-  url: "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
-  date: 2026-11-08
-  source: Simon Willison
-  category: ai
-- title: "I'm not convinced the AI bubble exists"
-  url: "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
-  date: 2026-11-08
-  source: Hacker News Best
-  category: programming
+- title: Carl Sagan on How to Live with the Unknown
+  url: "https://www.themarginalian.org/2026/11/09/carl-sagan-jonathan-cott-rolling-stone-interview/"
+  date: 2026-11-09
+  source: The Marginalian
+  category: philosophy
 - title: Wendell Berry on Where Our Loved Ones Gone Go
   url: "https://www.themarginalian.org/2026/11/08/wendell-berry-loved-ones/"
   date: 2026-11-08
@@ -63,16 +83,6 @@
   date: 2026-11-08
   source: The Marginalian
   category: philosophy
-- title: "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages"
-  url: "https://simonwillison.net/2026/Nov/7/link-rel-next/"
-  date: 2026-11-07
-  source: Simon Willison
-  category: ai
-- title: "Terry Pratchett's Study"
-  url: "https://simonwillison.net/2026/Nov/7/hn-50407316/"
-  date: 2026-11-07
-  source: Simon Willison
-  category: ai
 - title: Albert Camus on Stubbornness and Creativity
   url: "https://www.themarginalian.org/2026/11/07/albert-camus-writing/"
   date: 2026-11-07
@@ -83,18 +93,8 @@
   date: 2026-11-06
   source: Aeon
   category: philosophy
-- title: "The Relationship Between Comedy, Democracy, and AI"
-  url: "https://www.themarginalian.org/2026/11/06/humor/"
-  date: 2026-11-06
-  source: The Marginalian
-  category: philosophy
 - title: Their eyes
   url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
-  date: 2026-11-05
-  source: Aeon
-  category: philosophy
-- title: Methodical/mercurial
-  url: "https://aeon.co/essays/welcome-to-the-mixed-up-joyful-world-of-audhd"
   date: 2026-11-05
   source: Aeon
   category: philosophy
