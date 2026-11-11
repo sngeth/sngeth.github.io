@@ -1,3 +1,13 @@
+- title: Decoding Ediacaran fossils
+  url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
+  date: 2026-11-11
+  source: Aeon
+  category: philosophy
+- title: llm-gemini 0.36
+  url: "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  date: 2026-11-10
+  source: Simon Willison
+  category: ai
 - title: "Introducing Our Smallest, Most Efficient Model: Muse Ember"
   url: "https://simonwillison.net/2026/Nov/10/muse-ember/"
   date: 2026-11-10
@@ -13,8 +23,33 @@
   date: 2026-11-10
   source: Simon Willison
   category: ai
-- title: Amazon saves millions by replacing Sonnet 4.6 with Strands Decider
-  url: "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+- title: Monads in Lean
+  url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
+  date: 2026-11-10
+  source: Eli Bendersky
+  category: programming
+- title: Tracking Anthropic-discovered vulnerabilities
+  url: "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+  date: 2026-11-10
+  source: Hacker News Best
+  category: programming
+- title: Scion is back and is going to sell a kei truck in America
+  url: "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+  date: 2026-11-10
+  source: Hacker News Best
+  category: programming
+- title: Starlink Mini 2
+  url: "https://starlink.com/mini-2"
+  date: 2026-11-10
+  source: Hacker News Best
+  category: programming
+- title: Synaptics patent claims stop work on DisplayLink drivers
+  url: "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+  date: 2026-11-10
+  source: Hacker News Best
+  category: programming
+- title: "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
+  url: "https://github.com/GoogleChrome/modern-web-guidance"
   date: 2026-11-10
   source: Hacker News Best
   category: programming
@@ -23,36 +58,21 @@
   date: 2026-11-10
   source: Aeon
   category: philosophy
+- title: Pablo Neruda on How to Hold Time
+  url: "https://www.themarginalian.org/2026/11/10/neruda-time/"
+  date: 2026-11-10
+  source: The Marginalian
+  category: philosophy
+- title: "What Makes You Yourself: Earth’s Largest Living Organism and the Paradox of Personhood"
+  url: "https://www.themarginalian.org/2026/11/09/pando/"
+  date: 2026-11-10
+  source: The Marginalian
+  category: philosophy
 - title: llm-anthropic 0.31
   url: "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
   date: 2026-11-09
   source: Simon Willison
   category: ai
-- title: Locating the source of a mysterious beep with Claude
-  url: "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
-  date: 2026-11-09
-  source: Simon Willison
-  category: ai
-- title: "Fable 5.2 one-shotted my nephew's dream game"
-  url: "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
-  date: 2026-11-09
-  source: Hacker News Best
-  category: programming
-- title: "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
-  url: "https://artificialanalysis.ai/models/claude-fable-5-2"
-  date: 2026-11-09
-  source: Hacker News Best
-  category: programming
-- title: USPS now offers official ZIP Code boundary polygons
-  url: "https://postalpro.usps.com/zcb"
-  date: 2026-11-09
-  source: Hacker News Best
-  category: programming
-- title: Claude Fable 5.2 and Mythos 5.2
-  url: "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-  date: 2026-11-09
-  source: Hacker News Best
-  category: programming
 - title: A trip to upside-down world
   url: "https://aeon.co/videos/a-cubist-painting-becomes-two-kids-immersive-animated-world"
   date: 2026-11-09
@@ -78,24 +98,9 @@
   date: 2026-11-08
   source: The Marginalian
   category: philosophy
-- title: How to Harness Your Existential Wanderlust
-  url: "https://www.themarginalian.org/2026/11/07/rockwell-kent-wilderness-wanderlust/"
-  date: 2026-11-08
-  source: The Marginalian
-  category: philosophy
-- title: Albert Camus on Stubbornness and Creativity
-  url: "https://www.themarginalian.org/2026/11/07/albert-camus-writing/"
-  date: 2026-11-07
-  source: The Marginalian
-  category: philosophy
 - title: Celestial nuisance
   url: "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
   date: 2026-11-06
-  source: Aeon
-  category: philosophy
-- title: Their eyes
-  url: "https://aeon.co/videos/meet-the-invisible-workers-who-teach-self-driving-cars-to-see"
-  date: 2026-11-05
   source: Aeon
   category: philosophy
 - title: Test and verification technique effectiveness with GPT-6 Astra
@@ -131,11 +136,6 @@
 - title: "Rusty thoughts on \"Parse, don't validate\""
   url: "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/"
   date: 2026-09-26
-  source: Eli Bendersky
-  category: programming
-- title: Notes on discrete-time Fourier series and transform
-  url: "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/"
-  date: 2026-09-19
   source: Eli Bendersky
   category: programming
 - title: "There's no point at which turning your brain off will work"
