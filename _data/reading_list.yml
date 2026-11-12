@@ -1,85 +1,100 @@
+- title: Humble Bundle just killed most of their security through vibecoding
+  url: "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/"
+  date: 2026-11-12
+  source: Hacker News Best
+  category: programming
+- title: My grandfather been tell me a lot of story about Lasseter
+  url: "https://aeon.co/videos/a-legendary-australian-gold-hunt-told-from-an-aboriginal-perspective"
+  date: 2026-11-12
+  source: Aeon
+  category: philosophy
+- title: Why anything exists
+  url: "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing"
+  date: 2026-11-12
+  source: Aeon
+  category: philosophy
+- title: Gemini Decisions API
+  url: "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+  date: 2026-11-11
+  source: Simon Willison
+  category: ai
+- title: aws-emulator
+  url: "https://simonwillison.net/2026/Nov/11/aws-emulator/"
+  date: 2026-11-11
+  source: Simon Willison
+  category: ai
+- title: Browse tools.simonwillison.net by tag
+  url: "https://simonwillison.net/2026/Nov/11/tools-tags/"
+  date: 2026-11-11
+  source: Simon Willison
+  category: ai
+- title: llm 0.37.2
+  url: "https://simonwillison.net/2026/Nov/11/llm/"
+  date: 2026-11-11
+  source: Simon Willison
+  category: ai
+- title: "Anthropic's IPO roadshow video"
+  url: "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+  date: 2026-11-11
+  source: Simon Willison
+  category: ai
+- title: "93% of paint splatters are valid Perl programs (2019)"
+  url: "https://www.mcmillen.dev/sigbovik/"
+  date: 2026-11-11
+  source: Hacker News Best
+  category: programming
+- title: Nvidia is preparing to oust Jensen Huang
+  url: "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+  date: 2026-11-11
+  source: Hacker News Best
+  category: programming
+- title: Lock Your GitHub Actions
+  url: "https://hugovk.dev/blog/2026/lock-github-actions/"
+  date: 2026-11-11
+  source: Hacker News Best
+  category: programming
+- title: Jensen Huang said to have had relationship with executive who reports to him
+  url: "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
+  date: 2026-11-11
+  source: Hacker News Best
+  category: programming
 - title: Decoding Ediacaran fossils
   url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
   date: 2026-11-11
   source: Aeon
   category: philosophy
-- title: llm-gemini 0.36
-  url: "https://simonwillison.net/2026/Nov/10/llm-gemini/"
-  date: 2026-11-10
-  source: Simon Willison
-  category: ai
-- title: "Introducing Our Smallest, Most Efficient Model: Muse Ember"
-  url: "https://simonwillison.net/2026/Nov/10/muse-ember/"
-  date: 2026-11-10
-  source: Simon Willison
-  category: ai
-- title: Quoting Prompting Claude Fable 5.2
-  url: "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
-  date: 2026-11-10
-  source: Simon Willison
-  category: ai
-- title: Yonkers Rises
-  url: "https://simonwillison.net/2026/Nov/10/yonkers-rises/"
-  date: 2026-11-10
-  source: Simon Willison
-  category: ai
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
   date: 2026-11-10
   source: Eli Bendersky
-  category: programming
-- title: Tracking Anthropic-discovered vulnerabilities
-  url: "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
-  date: 2026-11-10
-  source: Hacker News Best
-  category: programming
-- title: Scion is back and is going to sell a kei truck in America
-  url: "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
-  date: 2026-11-10
-  source: Hacker News Best
-  category: programming
-- title: Starlink Mini 2
-  url: "https://starlink.com/mini-2"
-  date: 2026-11-10
-  source: Hacker News Best
-  category: programming
-- title: Synaptics patent claims stop work on DisplayLink drivers
-  url: "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
-  date: 2026-11-10
-  source: Hacker News Best
-  category: programming
-- title: "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
-  url: "https://github.com/GoogleChrome/modern-web-guidance"
-  date: 2026-11-10
-  source: Hacker News Best
   category: programming
 - title: The wholehearted life
   url: "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life"
   date: 2026-11-10
   source: Aeon
   category: philosophy
+- title: How Not to Waste Your Life
+  url: "https://www.themarginalian.org/2026/11/10/hawthorne-life/"
+  date: 2026-11-10
+  source: The Marginalian
+  category: philosophy
+- title: "Now Yourself: The Elusive Science of What the Present Moment Is Made of and How It Makes You Who You Are"
+  url: "https://www.themarginalian.org/2026/11/10/jo-marchant-now/"
+  date: 2026-11-10
+  source: The Marginalian
+  category: philosophy
 - title: Pablo Neruda on How to Hold Time
   url: "https://www.themarginalian.org/2026/11/10/neruda-time/"
   date: 2026-11-10
   source: The Marginalian
   category: philosophy
-- title: "What Makes You Yourself: Earth’s Largest Living Organism and the Paradox of Personhood"
+- title: "What Makes You Yourself: Posidonia Australis, Pando, and the Paradox of Personhood"
   url: "https://www.themarginalian.org/2026/11/09/pando/"
   date: 2026-11-10
   source: The Marginalian
   category: philosophy
-- title: llm-anthropic 0.31
-  url: "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
-  date: 2026-11-09
-  source: Simon Willison
-  category: ai
 - title: A trip to upside-down world
   url: "https://aeon.co/videos/a-cubist-painting-becomes-two-kids-immersive-animated-world"
-  date: 2026-11-09
-  source: Aeon
-  category: philosophy
-- title: Equality talk
-  url: "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world"
   date: 2026-11-09
   source: Aeon
   category: philosophy
@@ -87,21 +102,6 @@
   url: "https://www.themarginalian.org/2026/11/09/carl-sagan-jonathan-cott-rolling-stone-interview/"
   date: 2026-11-09
   source: The Marginalian
-  category: philosophy
-- title: Wendell Berry on Where Our Loved Ones Gone Go
-  url: "https://www.themarginalian.org/2026/11/08/wendell-berry-loved-ones/"
-  date: 2026-11-08
-  source: The Marginalian
-  category: philosophy
-- title: "Hope Is the Thing with Feathers, and with Fangs: The Alchemy of Unrequited Love and the Story Behind Emily Dickinson’s Most Famous Poem"
-  url: "https://www.themarginalian.org/2026/11/08/emily-dickinson-hope-kate/"
-  date: 2026-11-08
-  source: The Marginalian
-  category: philosophy
-- title: Celestial nuisance
-  url: "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
-  date: 2026-11-06
-  source: Aeon
   category: philosophy
 - title: Test and verification technique effectiveness with GPT-6 Astra
   url: "https://danluu.com/astra-testing/"
