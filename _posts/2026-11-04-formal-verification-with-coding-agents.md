@@ -92,6 +92,28 @@ This exposed the model-to-code gap. The unchanged model still passed while the m
 
 The result was a project-local `verify-summary-quota` skill that records the properties, assumptions, bounds, covered code, and a repeatable command. The check reproduced historical bugs that ordinary sequential requests could miss. We did not discover or fix a new production bug in this run.
 
+## Why state machines help
+
+The quota example made the value of a state machine clearer to me. The state includes the stored counter, what each request has already read, and which step each request can take next. After A and B both read four, the counter still looks valid. But both requests have passed the check for the one remaining slot.
+
+Several books approach this problem from different directions. They help explain what an explicit state model gives us before we ask a verifier to check it.
+
+In Robert Nystrom's *Game Programming Patterns*, the [“State” chapter](https://github.com/munificent/game-programming-patterns/blob/master/book/state.markdown) starts with a game character controlled by Boolean flags. Separate flags for jumping and ducking permit combinations that make no sense for the character. Replacing them with one explicit state removes those combinations. The transitions then describe which inputs can change the character from one state to another.
+
+Alexander Granin shows a related problem in chapter 3, “Drafting the MVP application,” of [*Functional Design and Architecture*](https://livebook.manning.com/book/functional-design-and-architecture/chapter-3). His hardware model records a component's class in two places. That permits a controller definition with a sensor passport. Restricting construction through functions that create consistent values protects the relationship. Removing redundant information can also remove the opportunity for disagreement. Neither approach establishes that the physical device matches its description; that remains a separate check.
+
+These examples explain the value of making invalid states unrepresentable. If the representation excludes a contradictory combination, ordinary construction cannot produce it. But a valid value alone does not establish that a sequence of operations is safe.
+
+Martin Kleppmann's *Designing Data-Intensive Applications*, first edition, chapter 7, [“Transactions”](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/ch07.html), illustrates this with two doctors on call. Each transaction sees that both doctors are available and takes one doctor off call. Under snapshot isolation, both can commit because they update different rows. The combined result violates the rule that at least one doctor must remain on call. Each decision looked valid against the information it read.
+
+My quota race has the same important feature: a decision depends on shared data that another request can change. A state-machine model can represent the reads and updates as separate transitions. We can then ask whether the permitted orderings reach a state that violates the rule. A model checker such as TLC [explores reachable states and checks invariants](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Model-Checking-TLA-Specifications.pdf). Our Z3 check asked whether a violating sequence existed within its configured bounds. Neither requires us to guess the exact failing sequence first.
+
+Explicit states also help us write better tests. In Steve Freeman and Nat Pryce's *Growing Object-Oriented Software, Guided by Tests*, chapter 18, [“Filling In the Details”](https://growing-object-oriented-software.com/toc.html), the auction sniper needs a `Losing` state before the final `Lost` state. It has stopped bidding but must still display later prices until the auction closes. The state diagram provides a map of transitions to test, including behavior that one successful bidding example would miss.
+
+That is the connection I want to keep: a representation can exclude invalid combinations, a transition model can expose unsafe sequences, and tests can check how the real implementation behaves. For the quota bug, the advantage over ordinary sequential tests was checking request orderings those tests never exercised. The result still depends on the modeled steps, assumptions, and bounds. If we model a read and a write as one atomic step when the code performs them separately, we can hide the race we wanted to find.
+
+## Keeping the model connected to the code
+
 Brandon also explores using the same state-machine representation for execution and verification. That could reduce the amount of separate logic we need to maintain. Some tools already verify executable programs more directly; [Dafny](https://dafny.org/dafny/DafnyRef/DafnyRef.html) supports both verification and compilation. Building a new checker ourselves would introduce another piece of software whose correctness we need to establish.
 
 There are substantial results behind this discussion. [Anthropic reported proofs for 239 entry points across 123 open-source libraries](https://www.anthropic.com/research/formal-verification). These established specific no-crash properties for compiled RISC-V programs under stated input, memory, and operating-system assumptions. They did not establish that every library was free of every bug.
