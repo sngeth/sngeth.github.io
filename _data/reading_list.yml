@@ -1,5 +1,35 @@
-- title: Humble Bundle just killed most of their security through vibecoding
-  url: "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/"
+- title: Microsoft Outlook/365 still down after 12 hours
+  url: "https://twitter.com/MSFT365Status/status/2121079061774491735"
+  date: 2026-11-13
+  source: Hacker News Best
+  category: programming
+- title: Nvidia employees petition to bring back Jensen Huang
+  url: "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+  date: 2026-11-13
+  source: Hacker News Best
+  category: programming
+- title: Fugitive imagination
+  url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
+  date: 2026-11-13
+  source: Aeon
+  category: philosophy
+- title: llm-gemini 0.37
+  url: "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+  date: 2026-11-12
+  source: Simon Willison
+  category: ai
+- title: Chinese frontier AI models carry the fingerprint of export-controlled GPUs
+  url: "https://unemploymentlabs.com/checkpoint-forensics"
+  date: 2026-11-12
+  source: Hacker News Best
+  category: programming
+- title: "Former Nvidia CEO Huang had a relationship with a second employee, sources say"
+  url: "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/"
+  date: 2026-11-12
+  source: Hacker News Best
+  category: programming
+- title: Dwarf planet candidate appears which takes roughly 280 years to orbit our sun
+  url: "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/"
   date: 2026-11-12
   source: Hacker News Best
   category: programming
@@ -12,6 +42,16 @@
   url: "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing"
   date: 2026-11-12
   source: Aeon
+  category: philosophy
+- title: How to Hear the Song of Life
+  url: "https://www.themarginalian.org/2026/11/12/song-of-the-cedars/"
+  date: 2026-11-12
+  source: The Marginalian
+  category: philosophy
+- title: "Place, Personhood, and the Hippocampus: The Fascinating Science of Magnetism, Autonoeic Consciousness, and What Makes Us Who We Are"
+  url: "https://www.themarginalian.org/2026/11/12/wayfinding-m-r-oconnor/"
+  date: 2026-11-12
+  source: The Marginalian
   category: philosophy
 - title: Gemini Decisions API
   url: "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
@@ -33,35 +73,20 @@
   date: 2026-11-11
   source: Simon Willison
   category: ai
-- title: "Anthropic's IPO roadshow video"
-  url: "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
-  date: 2026-11-11
-  source: Simon Willison
-  category: ai
-- title: "93% of paint splatters are valid Perl programs (2019)"
-  url: "https://www.mcmillen.dev/sigbovik/"
-  date: 2026-11-11
-  source: Hacker News Best
-  category: programming
-- title: Nvidia is preparing to oust Jensen Huang
-  url: "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
-  date: 2026-11-11
-  source: Hacker News Best
-  category: programming
-- title: Lock Your GitHub Actions
-  url: "https://hugovk.dev/blog/2026/lock-github-actions/"
-  date: 2026-11-11
-  source: Hacker News Best
-  category: programming
-- title: Jensen Huang said to have had relationship with executive who reports to him
-  url: "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
-  date: 2026-11-11
-  source: Hacker News Best
-  category: programming
 - title: Decoding Ediacaran fossils
   url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
   date: 2026-11-11
   source: Aeon
+  category: philosophy
+- title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
+  url: "https://www.themarginalian.org/2026/11/11/vonnegut-marriage-divorce/"
+  date: 2026-11-11
+  source: The Marginalian
+  category: philosophy
+- title: The Intimate in the Infinite and the Responsibility of Rapture
+  url: "https://www.themarginalian.org/2026/11/11/diane-ackerman-the-planets/"
+  date: 2026-11-11
+  source: The Marginalian
   category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
@@ -76,31 +101,6 @@
 - title: How Not to Waste Your Life
   url: "https://www.themarginalian.org/2026/11/10/hawthorne-life/"
   date: 2026-11-10
-  source: The Marginalian
-  category: philosophy
-- title: "Now Yourself: The Elusive Science of What the Present Moment Is Made of and How It Makes You Who You Are"
-  url: "https://www.themarginalian.org/2026/11/10/jo-marchant-now/"
-  date: 2026-11-10
-  source: The Marginalian
-  category: philosophy
-- title: Pablo Neruda on How to Hold Time
-  url: "https://www.themarginalian.org/2026/11/10/neruda-time/"
-  date: 2026-11-10
-  source: The Marginalian
-  category: philosophy
-- title: "What Makes You Yourself: Posidonia Australis, Pando, and the Paradox of Personhood"
-  url: "https://www.themarginalian.org/2026/11/09/pando/"
-  date: 2026-11-10
-  source: The Marginalian
-  category: philosophy
-- title: A trip to upside-down world
-  url: "https://aeon.co/videos/a-cubist-painting-becomes-two-kids-immersive-animated-world"
-  date: 2026-11-09
-  source: Aeon
-  category: philosophy
-- title: Carl Sagan on How to Live with the Unknown
-  url: "https://www.themarginalian.org/2026/11/09/carl-sagan-jonathan-cott-rolling-stone-interview/"
-  date: 2026-11-09
   source: The Marginalian
   category: philosophy
 - title: Test and verification technique effectiveness with GPT-6 Astra
