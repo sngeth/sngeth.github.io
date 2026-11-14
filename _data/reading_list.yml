@@ -1,10 +1,35 @@
-- title: Microsoft Outlook/365 still down after 12 hours
-  url: "https://twitter.com/MSFT365Status/status/2121079061774491735"
+- title: Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs
+  url: "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+  date: 2026-11-14
+  source: Hacker News Best
+  category: programming
+- title: datasette-cluster-map 0.19
+  url: "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
+  date: 2026-11-13
+  source: Simon Willison
+  category: ai
+- title: datasette-leaflet 0.3
+  url: "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
+  date: 2026-11-13
+  source: Simon Willison
+  category: ai
+- title: FAA issues national ground stop – lifted 4.5 hours later
+  url: "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
   date: 2026-11-13
   source: Hacker News Best
   category: programming
-- title: Nvidia employees petition to bring back Jensen Huang
-  url: "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+- title: $11.4M in Nvidia hardware vanishes during shipment from CA to TX
+  url: "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
+  date: 2026-11-13
+  source: Hacker News Best
+  category: programming
+- title: It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad
+  url: "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/"
+  date: 2026-11-13
+  source: Hacker News Best
+  category: programming
+- title: "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
+  url: "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
   date: 2026-11-13
   source: Hacker News Best
   category: programming
@@ -13,26 +38,21 @@
   date: 2026-11-13
   source: Aeon
   category: philosophy
+- title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
+  url: "https://www.themarginalian.org/2026/11/13/yes-to-life-in-spite-of-everything-viktor-frankl/"
+  date: 2026-11-13
+  source: The Marginalian
+  category: philosophy
+- title: "Loving vs. Being in Love: Jane Welsh Carlyle on Navigating the Heart’s Contradictions"
+  url: "https://www.themarginalian.org/2026/11/13/jane-welsh-carlyle-love/"
+  date: 2026-11-13
+  source: The Marginalian
+  category: philosophy
 - title: llm-gemini 0.37
   url: "https://simonwillison.net/2026/Nov/12/llm-gemini/"
   date: 2026-11-12
   source: Simon Willison
   category: ai
-- title: Chinese frontier AI models carry the fingerprint of export-controlled GPUs
-  url: "https://unemploymentlabs.com/checkpoint-forensics"
-  date: 2026-11-12
-  source: Hacker News Best
-  category: programming
-- title: "Former Nvidia CEO Huang had a relationship with a second employee, sources say"
-  url: "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/"
-  date: 2026-11-12
-  source: Hacker News Best
-  category: programming
-- title: Dwarf planet candidate appears which takes roughly 280 years to orbit our sun
-  url: "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/"
-  date: 2026-11-12
-  source: Hacker News Best
-  category: programming
 - title: My grandfather been tell me a lot of story about Lasseter
   url: "https://aeon.co/videos/a-legendary-australian-gold-hunt-told-from-an-aboriginal-perspective"
   date: 2026-11-12
@@ -63,16 +83,6 @@
   date: 2026-11-11
   source: Simon Willison
   category: ai
-- title: Browse tools.simonwillison.net by tag
-  url: "https://simonwillison.net/2026/Nov/11/tools-tags/"
-  date: 2026-11-11
-  source: Simon Willison
-  category: ai
-- title: llm 0.37.2
-  url: "https://simonwillison.net/2026/Nov/11/llm/"
-  date: 2026-11-11
-  source: Simon Willison
-  category: ai
 - title: Decoding Ediacaran fossils
   url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
   date: 2026-11-11
@@ -80,11 +90,6 @@
   category: philosophy
 - title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
   url: "https://www.themarginalian.org/2026/11/11/vonnegut-marriage-divorce/"
-  date: 2026-11-11
-  source: The Marginalian
-  category: philosophy
-- title: The Intimate in the Infinite and the Responsibility of Rapture
-  url: "https://www.themarginalian.org/2026/11/11/diane-ackerman-the-planets/"
   date: 2026-11-11
   source: The Marginalian
   category: philosophy
@@ -97,11 +102,6 @@
   url: "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life"
   date: 2026-11-10
   source: Aeon
-  category: philosophy
-- title: How Not to Waste Your Life
-  url: "https://www.themarginalian.org/2026/11/10/hawthorne-life/"
-  date: 2026-11-10
-  source: The Marginalian
   category: philosophy
 - title: Test and verification technique effectiveness with GPT-6 Astra
   url: "https://danluu.com/astra-testing/"
