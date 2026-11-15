@@ -1,8 +1,43 @@
-- title: Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs
-  url: "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+- title: "We're Asking an Appeals Court to Require a Warrant for ALPR Searches"
+  url: "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches"
+  date: 2026-11-15
+  source: Hacker News Best
+  category: programming
+- title: datasette-llm 0.1a11
+  url: "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+  date: 2026-11-14
+  source: Simon Willison
+  category: ai
+- title: datasette-vega 0.7
+  url: "https://simonwillison.net/2026/Nov/14/datasette-vega/"
+  date: 2026-11-14
+  source: Simon Willison
+  category: ai
+- title: Nvidia deliberately kept GPU prices high through circular financing deals
+  url: "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
   date: 2026-11-14
   source: Hacker News Best
   category: programming
+- title: SpaceX catches the Starship to end Flight 15
+  url: "https://www.spacex.com/launches/starship-flight-15"
+  date: 2026-11-14
+  source: Hacker News Best
+  category: programming
+- title: "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation"
+  url: "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379"
+  date: 2026-11-14
+  source: Hacker News Best
+  category: programming
+- title: A family tree of software job titles
+  url: "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/"
+  date: 2026-11-14
+  source: Hacker News Best
+  category: programming
+- title: "Embrace Your Obsessions: Susan Orlean on the Antidote to the Meaninglessness of Life"
+  url: "https://www.themarginalian.org/2026/11/14/susan-orlean-orchid-thief/"
+  date: 2026-11-14
+  source: The Marginalian
+  category: philosophy
 - title: datasette-cluster-map 0.19
   url: "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
   date: 2026-11-13
@@ -13,26 +48,6 @@
   date: 2026-11-13
   source: Simon Willison
   category: ai
-- title: FAA issues national ground stop – lifted 4.5 hours later
-  url: "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
-  date: 2026-11-13
-  source: Hacker News Best
-  category: programming
-- title: $11.4M in Nvidia hardware vanishes during shipment from CA to TX
-  url: "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
-  date: 2026-11-13
-  source: Hacker News Best
-  category: programming
-- title: It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad
-  url: "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/"
-  date: 2026-11-13
-  source: Hacker News Best
-  category: programming
-- title: "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
-  url: "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
-  date: 2026-11-13
-  source: Hacker News Best
-  category: programming
 - title: Fugitive imagination
   url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
   date: 2026-11-13
@@ -73,25 +88,10 @@
   date: 2026-11-12
   source: The Marginalian
   category: philosophy
-- title: Gemini Decisions API
-  url: "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
-  date: 2026-11-11
-  source: Simon Willison
-  category: ai
-- title: aws-emulator
-  url: "https://simonwillison.net/2026/Nov/11/aws-emulator/"
-  date: 2026-11-11
-  source: Simon Willison
-  category: ai
 - title: Decoding Ediacaran fossils
   url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
   date: 2026-11-11
   source: Aeon
-  category: philosophy
-- title: "True Love Will Find You in the End: Kurt Vonnegut on When to Stop Trying and When to Try Again"
-  url: "https://www.themarginalian.org/2026/11/11/vonnegut-marriage-divorce/"
-  date: 2026-11-11
-  source: The Marginalian
   category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
