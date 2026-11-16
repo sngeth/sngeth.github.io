@@ -1,53 +1,83 @@
-- title: "We're Asking an Appeals Court to Require a Warrant for ALPR Searches"
-  url: "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches"
+- title: How to make almost anything
+  url: "https://pub.cba.mit.edu/863.26/site/"
+  date: 2026-11-16
+  source: Hacker News Best
+  category: programming
+- title: Qwen4-Max
+  url: "https://qwen.ai/blog?id=qwen4-max"
+  date: 2026-11-16
+  source: Hacker News Best
+  category: programming
+- title: Universal XSS in uBlock Origin from website-driven element picker
+  url: "https://iter.ca/post/ubo-uxss/"
+  date: 2026-11-16
+  source: Hacker News Best
+  category: programming
+- title: The last klavern
+  url: "https://aeon.co/videos/how-a-texas-community-chose-to-transform-a-former-klan-headquarters"
+  date: 2026-11-16
+  source: Aeon
+  category: philosophy
+- title: The horse made the state
+  url: "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist"
+  date: 2026-11-16
+  source: Aeon
+  category: philosophy
+- title: datasette-maplibre 0.1a0
+  url: "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
+  date: 2026-11-15
+  source: Simon Willison
+  category: ai
+- title: datasette 1.0a43
+  url: "https://simonwillison.net/2026/Nov/15/datasette/"
+  date: 2026-11-15
+  source: Simon Willison
+  category: ai
+- title: datasette 0.65.6
+  url: "https://simonwillison.net/2026/Nov/15/datasette-2/"
+  date: 2026-11-15
+  source: Simon Willison
+  category: ai
+- title: datasette-apps 0.4a0
+  url: "https://simonwillison.net/2026/Nov/15/datasette-apps/"
+  date: 2026-11-15
+  source: Simon Willison
+  category: ai
+- title: datasette-agent 0.6a0
+  url: "https://simonwillison.net/2026/Nov/15/datasette-agent/"
+  date: 2026-11-15
+  source: Simon Willison
+  category: ai
+- title: "What's Next for Nvidia?"
+  url: "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
   date: 2026-11-15
   source: Hacker News Best
   category: programming
-- title: datasette-llm 0.1a11
-  url: "https://simonwillison.net/2026/Nov/14/datasette-llm/"
-  date: 2026-11-14
-  source: Simon Willison
-  category: ai
-- title: datasette-vega 0.7
-  url: "https://simonwillison.net/2026/Nov/14/datasette-vega/"
-  date: 2026-11-14
-  source: Simon Willison
-  category: ai
-- title: Nvidia deliberately kept GPU prices high through circular financing deals
-  url: "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
-  date: 2026-11-14
+- title: Old Bitly links are being hijacked
+  url: "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+  date: 2026-11-15
   source: Hacker News Best
   category: programming
-- title: SpaceX catches the Starship to end Flight 15
-  url: "https://www.spacex.com/launches/starship-flight-15"
-  date: 2026-11-14
-  source: Hacker News Best
-  category: programming
-- title: "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation"
-  url: "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379"
-  date: 2026-11-14
-  source: Hacker News Best
-  category: programming
-- title: A family tree of software job titles
-  url: "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/"
-  date: 2026-11-14
-  source: Hacker News Best
-  category: programming
+- title: Love Anyway
+  url: "https://www.themarginalian.org/2026/11/15/love-anyway/"
+  date: 2026-11-15
+  source: The Marginalian
+  category: philosophy
+- title: "How to Have Enough: Wendell Berry on Creativity and Love"
+  url: "https://www.themarginalian.org/2026/11/15/wendell-berry-sabbath/"
+  date: 2026-11-15
+  source: The Marginalian
+  category: philosophy
+- title: The Four Buddhist Mantras for Turning Fear into Love
+  url: "https://www.themarginalian.org/2026/11/14/thich-nhat-hanh-fear-love/"
+  date: 2026-11-15
+  source: The Marginalian
+  category: philosophy
 - title: "Embrace Your Obsessions: Susan Orlean on the Antidote to the Meaninglessness of Life"
   url: "https://www.themarginalian.org/2026/11/14/susan-orlean-orchid-thief/"
   date: 2026-11-14
   source: The Marginalian
   category: philosophy
-- title: datasette-cluster-map 0.19
-  url: "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
-  date: 2026-11-13
-  source: Simon Willison
-  category: ai
-- title: datasette-leaflet 0.3
-  url: "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
-  date: 2026-11-13
-  source: Simon Willison
-  category: ai
 - title: Fugitive imagination
   url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
   date: 2026-11-13
@@ -58,16 +88,6 @@
   date: 2026-11-13
   source: The Marginalian
   category: philosophy
-- title: "Loving vs. Being in Love: Jane Welsh Carlyle on Navigating the Heart’s Contradictions"
-  url: "https://www.themarginalian.org/2026/11/13/jane-welsh-carlyle-love/"
-  date: 2026-11-13
-  source: The Marginalian
-  category: philosophy
-- title: llm-gemini 0.37
-  url: "https://simonwillison.net/2026/Nov/12/llm-gemini/"
-  date: 2026-11-12
-  source: Simon Willison
-  category: ai
 - title: My grandfather been tell me a lot of story about Lasseter
   url: "https://aeon.co/videos/a-legendary-australian-gold-hunt-told-from-an-aboriginal-perspective"
   date: 2026-11-12
@@ -78,32 +98,12 @@
   date: 2026-11-12
   source: Aeon
   category: philosophy
-- title: How to Hear the Song of Life
-  url: "https://www.themarginalian.org/2026/11/12/song-of-the-cedars/"
-  date: 2026-11-12
-  source: The Marginalian
-  category: philosophy
-- title: "Place, Personhood, and the Hippocampus: The Fascinating Science of Magnetism, Autonoeic Consciousness, and What Makes Us Who We Are"
-  url: "https://www.themarginalian.org/2026/11/12/wayfinding-m-r-oconnor/"
-  date: 2026-11-12
-  source: The Marginalian
-  category: philosophy
-- title: Decoding Ediacaran fossils
-  url: "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life"
-  date: 2026-11-11
-  source: Aeon
-  category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
   date: 2026-11-10
   source: Eli Bendersky
   category: programming
-- title: The wholehearted life
-  url: "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life"
-  date: 2026-11-10
-  source: Aeon
-  category: philosophy
-- title: Test and verification technique effectiveness with GPT-6 Astra
+- title: Test/verification technique effectiveness with Astra
   url: "https://danluu.com/astra-testing/"
   date: 2026-11-02
   source: Dan Luu
@@ -143,7 +143,7 @@
   date: 2026-09-18
   source: Dan Luu
   category: programming
-- title: "How well do agents use test and verification techniques?"
+- title: "How well do agents use test/verification techniques?"
   url: "https://danluu.com/agentic-testing/"
   date: 2026-09-07
   source: Dan Luu
