@@ -1,15 +1,40 @@
-- title: How to make almost anything
-  url: "https://pub.cba.mit.edu/863.26/site/"
+- title: Quoting Go Proverbs
+  url: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
+  date: 2026-11-17
+  source: Simon Willison
+  category: ai
+- title: New Evidence Shows School Phone Bans Are Gradually Improving Test Scores
+  url: "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html"
+  date: 2026-11-17
+  source: Hacker News Best
+  category: programming
+- title: Catwalks and crackdowns
+  url: "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran"
+  date: 2026-11-17
+  source: Aeon
+  category: philosophy
+- title: llm 0.37.3
+  url: "https://simonwillison.net/2026/Nov/16/llm/"
+  date: 2026-11-16
+  source: Simon Willison
+  category: ai
+- title: "Optimizely compromised, served malware on Zoom, GitLab"
+  url: "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
   date: 2026-11-16
   source: Hacker News Best
   category: programming
-- title: Qwen4-Max
-  url: "https://qwen.ai/blog?id=qwen4-max"
+- title: Windows 11 is collecting data on which coding agents and developer tools you use
+  url: "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
   date: 2026-11-16
   source: Hacker News Best
   category: programming
-- title: Universal XSS in uBlock Origin from website-driven element picker
-  url: "https://iter.ca/post/ubo-uxss/"
+- title: BugMeNot has closed
+  url: "https://www.bugmenot.com/"
+  date: 2026-11-16
+  source: Hacker News Best
+  category: programming
+- title: OpenCode Browse
+  url: "https://opencode.ai/product/browse"
   date: 2026-11-16
   source: Hacker News Best
   category: programming
@@ -22,6 +47,16 @@
   url: "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist"
   date: 2026-11-16
   source: Aeon
+  category: philosophy
+- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
+  url: "https://www.themarginalian.org/2026/11/16/j-r-r-tolkien-on-fairy-stories/"
+  date: 2026-11-16
+  source: The Marginalian
+  category: philosophy
+- title: "Atom, Archetype, and the Invention of Synchronicity: How Carl Jung and Wolfgang Pauli Bridged Mind and Matter"
+  url: "https://www.themarginalian.org/2026/11/15/atom-and-archetype-pauli-jung/"
+  date: 2026-11-16
+  source: The Marginalian
   category: philosophy
 - title: datasette-maplibre 0.1a0
   url: "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
@@ -38,26 +73,6 @@
   date: 2026-11-15
   source: Simon Willison
   category: ai
-- title: datasette-apps 0.4a0
-  url: "https://simonwillison.net/2026/Nov/15/datasette-apps/"
-  date: 2026-11-15
-  source: Simon Willison
-  category: ai
-- title: datasette-agent 0.6a0
-  url: "https://simonwillison.net/2026/Nov/15/datasette-agent/"
-  date: 2026-11-15
-  source: Simon Willison
-  category: ai
-- title: "What's Next for Nvidia?"
-  url: "https://steveblank.com/2026/11/15/whats-next-for-nvidia/"
-  date: 2026-11-15
-  source: Hacker News Best
-  category: programming
-- title: Old Bitly links are being hijacked
-  url: "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
-  date: 2026-11-15
-  source: Hacker News Best
-  category: programming
 - title: Love Anyway
   url: "https://www.themarginalian.org/2026/11/15/love-anyway/"
   date: 2026-11-15
@@ -73,28 +88,13 @@
   date: 2026-11-15
   source: The Marginalian
   category: philosophy
-- title: "Embrace Your Obsessions: Susan Orlean on the Antidote to the Meaninglessness of Life"
-  url: "https://www.themarginalian.org/2026/11/14/susan-orlean-orchid-thief/"
-  date: 2026-11-14
-  source: The Marginalian
-  category: philosophy
 - title: Fugitive imagination
   url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
   date: 2026-11-13
   source: Aeon
   category: philosophy
-- title: "Yes to Life, in Spite of Everything: Viktor Frankl’s Lost Lectures on Moving Beyond Optimism and Pessimism to Find the Deepest Source of Meaning"
-  url: "https://www.themarginalian.org/2026/11/13/yes-to-life-in-spite-of-everything-viktor-frankl/"
-  date: 2026-11-13
-  source: The Marginalian
-  category: philosophy
 - title: My grandfather been tell me a lot of story about Lasseter
   url: "https://aeon.co/videos/a-legendary-australian-gold-hunt-told-from-an-aboriginal-perspective"
-  date: 2026-11-12
-  source: Aeon
-  category: philosophy
-- title: Why anything exists
-  url: "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing"
   date: 2026-11-12
   source: Aeon
   category: philosophy
