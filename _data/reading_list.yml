@@ -1,10 +1,55 @@
+- title: The PSF end-of-year fundraiser
+  url: "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
+  date: 2026-11-18
+  source: Simon Willison
+  category: ai
+- title: AI is killing All About Berlin
+  url: "https://nicolasbouliane.com/blog/death-by-ai"
+  date: 2026-11-18
+  source: Hacker News Best
+  category: programming
+- title: "Interviewed at a YC startup, found out they used my LinkedIn without permission"
+  url: "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/"
+  date: 2026-11-18
+  source: Hacker News Best
+  category: programming
+- title: ID.me terms required for IRS sign-in
+  url: "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in"
+  date: 2026-11-18
+  source: Hacker News Best
+  category: programming
+- title: "Google's AI answers reducing search traffic by 40%"
+  url: "https://revscope.co/blog/search-seo-geo-2026/"
+  date: 2026-11-18
+  source: Hacker News Best
+  category: programming
+- title: Dreams of birds
+  url: "https://aeon.co/videos/a-physicists-audacious-plan-to-teach-birds-long-lost-songs"
+  date: 2026-11-18
+  source: Aeon
+  category: philosophy
+- title: External sandboxes for coding agents
+  url: "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+  date: 2026-11-17
+  source: Simon Willison
+  category: ai
+- title: GPT‑6.2 Astra and GPT‑6.2 Sol
+  url: "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+  date: 2026-11-17
+  source: Simon Willison
+  category: ai
+- title: Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+  url: "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+  date: 2026-11-17
+  source: Simon Willison
+  category: ai
 - title: Quoting Go Proverbs
   url: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
   date: 2026-11-17
   source: Simon Willison
   category: ai
-- title: New Evidence Shows School Phone Bans Are Gradually Improving Test Scores
-  url: "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html"
+- title: "Microsoft's ONNX Runtime has disappeared from GitHub"
+  url: "https://github.com/microsoft/onnxruntime"
   date: 2026-11-17
   source: Hacker News Best
   category: programming
@@ -13,31 +58,11 @@
   date: 2026-11-17
   source: Aeon
   category: philosophy
-- title: llm 0.37.3
-  url: "https://simonwillison.net/2026/Nov/16/llm/"
-  date: 2026-11-16
-  source: Simon Willison
-  category: ai
-- title: "Optimizely compromised, served malware on Zoom, GitLab"
-  url: "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/"
-  date: 2026-11-16
-  source: Hacker News Best
-  category: programming
-- title: Windows 11 is collecting data on which coding agents and developer tools you use
-  url: "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
-  date: 2026-11-16
-  source: Hacker News Best
-  category: programming
-- title: BugMeNot has closed
-  url: "https://www.bugmenot.com/"
-  date: 2026-11-16
-  source: Hacker News Best
-  category: programming
-- title: OpenCode Browse
-  url: "https://opencode.ai/product/browse"
-  date: 2026-11-16
-  source: Hacker News Best
-  category: programming
+- title: "Your Brain on Grief, Your Heart on Healing"
+  url: "https://www.themarginalian.org/2026/11/16/the-grieving-brain-mary-frances-o-connor/"
+  date: 2026-11-17
+  source: The Marginalian
+  category: philosophy
 - title: The last klavern
   url: "https://aeon.co/videos/how-a-texas-community-chose-to-transform-a-former-klan-headquarters"
   date: 2026-11-16
@@ -58,21 +83,6 @@
   date: 2026-11-16
   source: The Marginalian
   category: philosophy
-- title: datasette-maplibre 0.1a0
-  url: "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
-  date: 2026-11-15
-  source: Simon Willison
-  category: ai
-- title: datasette 1.0a43
-  url: "https://simonwillison.net/2026/Nov/15/datasette/"
-  date: 2026-11-15
-  source: Simon Willison
-  category: ai
-- title: datasette 0.65.6
-  url: "https://simonwillison.net/2026/Nov/15/datasette-2/"
-  date: 2026-11-15
-  source: Simon Willison
-  category: ai
 - title: Love Anyway
   url: "https://www.themarginalian.org/2026/11/15/love-anyway/"
   date: 2026-11-15
@@ -83,19 +93,9 @@
   date: 2026-11-15
   source: The Marginalian
   category: philosophy
-- title: The Four Buddhist Mantras for Turning Fear into Love
-  url: "https://www.themarginalian.org/2026/11/14/thich-nhat-hanh-fear-love/"
-  date: 2026-11-15
-  source: The Marginalian
-  category: philosophy
 - title: Fugitive imagination
   url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
   date: 2026-11-13
-  source: Aeon
-  category: philosophy
-- title: My grandfather been tell me a lot of story about Lasseter
-  url: "https://aeon.co/videos/a-legendary-australian-gold-hunt-told-from-an-aboriginal-perspective"
-  date: 2026-11-12
   source: Aeon
   category: philosophy
 - title: Monads in Lean
