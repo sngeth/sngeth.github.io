@@ -1,25 +1,55 @@
+- title: Wunderkammer
+  url: "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums"
+  date: 2026-11-19
+  source: Aeon
+  category: philosophy
+- title: At least it remembers
+  url: "https://aeon.co/essays/what-would-parenting-by-ai-look-like"
+  date: 2026-11-19
+  source: Aeon
+  category: philosophy
+- title: llm-gemini 0.38
+  url: "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+  date: 2026-11-18
+  source: Simon Willison
+  category: ai
+- title: datasette-arrows 0.1a0
+  url: "https://simonwillison.net/2026/Nov/18/datasette-arrows/"
+  date: 2026-11-18
+  source: Simon Willison
+  category: ai
+- title: Quoting Daniel Stenberg
+  url: "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+  date: 2026-11-18
+  source: Simon Willison
+  category: ai
 - title: The PSF end-of-year fundraiser
   url: "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
   date: 2026-11-18
   source: Simon Willison
   category: ai
-- title: AI is killing All About Berlin
-  url: "https://nicolasbouliane.com/blog/death-by-ai"
+- title: We need smart people who give a shit
+  url: "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/"
   date: 2026-11-18
   source: Hacker News Best
   category: programming
-- title: "Interviewed at a YC startup, found out they used my LinkedIn without permission"
-  url: "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/"
+- title: Anthropic prices initial public offering
+  url: "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
   date: 2026-11-18
   source: Hacker News Best
   category: programming
-- title: ID.me terms required for IRS sign-in
-  url: "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in"
+- title: Gemini 4 Neon
+  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
   date: 2026-11-18
   source: Hacker News Best
   category: programming
-- title: "Google's AI answers reducing search traffic by 40%"
-  url: "https://revscope.co/blog/search-seo-geo-2026/"
+- title: Seven new models at scalable price-performance
+  url: "https://microsoft.ai/news/microsoft-ignite-2026/"
+  date: 2026-11-18
+  source: Hacker News Best
+  category: programming
+- title: AI agents ask better questions than KPMG accountants in audit trial
+  url: "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
   date: 2026-11-18
   source: Hacker News Best
   category: programming
@@ -28,31 +58,26 @@
   date: 2026-11-18
   source: Aeon
   category: philosophy
+- title: Where the Joy Is
+  url: "https://www.themarginalian.org/2026/11/18/where-the-joy-is/"
+  date: 2026-11-18
+  source: The Marginalian
+  category: philosophy
+- title: "Between Psyche and Cyborg: Carl Jung’s Legacy and the Countercultural Courage to Reclaim the Deeply Human in a Posthuman Age"
+  url: "https://www.themarginalian.org/2026/11/18/jung-vs-borg/"
+  date: 2026-11-18
+  source: The Marginalian
+  category: philosophy
+- title: "Necessary Losses: The Life-Shaping Art of Letting Go"
+  url: "https://www.themarginalian.org/2026/11/17/necessary-losses/"
+  date: 2026-11-18
+  source: The Marginalian
+  category: philosophy
 - title: External sandboxes for coding agents
   url: "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
   date: 2026-11-17
   source: Simon Willison
   category: ai
-- title: GPT‑6.2 Astra and GPT‑6.2 Sol
-  url: "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
-  date: 2026-11-17
-  source: Simon Willison
-  category: ai
-- title: Running the full server-side Datasette Python app in the browser with service workers and Pyodide
-  url: "https://simonwillison.net/2026/Nov/17/datasette-lite/"
-  date: 2026-11-17
-  source: Simon Willison
-  category: ai
-- title: Quoting Go Proverbs
-  url: "https://simonwillison.net/2026/Nov/17/go-proverbs/"
-  date: 2026-11-17
-  source: Simon Willison
-  category: ai
-- title: "Microsoft's ONNX Runtime has disappeared from GitHub"
-  url: "https://github.com/microsoft/onnxruntime"
-  date: 2026-11-17
-  source: Hacker News Best
-  category: programming
 - title: Catwalks and crackdowns
   url: "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran"
   date: 2026-11-17
@@ -68,35 +93,10 @@
   date: 2026-11-16
   source: Aeon
   category: philosophy
-- title: The horse made the state
-  url: "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist"
-  date: 2026-11-16
-  source: Aeon
-  category: philosophy
 - title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
   url: "https://www.themarginalian.org/2026/11/16/j-r-r-tolkien-on-fairy-stories/"
   date: 2026-11-16
   source: The Marginalian
-  category: philosophy
-- title: "Atom, Archetype, and the Invention of Synchronicity: How Carl Jung and Wolfgang Pauli Bridged Mind and Matter"
-  url: "https://www.themarginalian.org/2026/11/15/atom-and-archetype-pauli-jung/"
-  date: 2026-11-16
-  source: The Marginalian
-  category: philosophy
-- title: Love Anyway
-  url: "https://www.themarginalian.org/2026/11/15/love-anyway/"
-  date: 2026-11-15
-  source: The Marginalian
-  category: philosophy
-- title: "How to Have Enough: Wendell Berry on Creativity and Love"
-  url: "https://www.themarginalian.org/2026/11/15/wendell-berry-sabbath/"
-  date: 2026-11-15
-  source: The Marginalian
-  category: philosophy
-- title: Fugitive imagination
-  url: "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world"
-  date: 2026-11-13
-  source: Aeon
   category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
