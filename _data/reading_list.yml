@@ -1,3 +1,43 @@
+- title: Token fraud is here and it’s BAD (YouTube)
+  url: "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+  date: 2026-11-20
+  source: Simon Willison
+  category: ai
+- title: "Frostbite: A new CPU architecture discovered, designed and verified by AI"
+  url: "https://architectlabs.com/blog/frostbite"
+  date: 2026-11-20
+  source: Hacker News Best
+  category: programming
+- title: "\"I can tell you wrote this yourself\""
+  url: "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/"
+  date: 2026-11-20
+  source: Hacker News Best
+  category: programming
+- title: Google is pushing OEMs against GrapheneOS and bootloader unlocking
+  url: "https://grapheneos.social/@GrapheneOS/117645038299496084"
+  date: 2026-11-20
+  source: Hacker News Best
+  category: programming
+- title: "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)"
+  url: "https://github.com/openssl/openssl/pull/33652"
+  date: 2026-11-20
+  source: Hacker News Best
+  category: programming
+- title: My grandmother was a seal
+  url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
+  date: 2026-11-20
+  source: Aeon
+  category: philosophy
+- title: PostgreSQL 19 Released
+  url: "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+  date: 2026-11-19
+  source: Simon Willison
+  category: ai
+- title: "Gemini 4 Neon is the new #1 on the Models Engineering Index"
+  url: "https://git-aarvin.github.io/mei/"
+  date: 2026-11-19
+  source: Hacker News Best
+  category: programming
 - title: Wunderkammer
   url: "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums"
   date: 2026-11-19
@@ -7,6 +47,16 @@
   url: "https://aeon.co/essays/what-would-parenting-by-ai-look-like"
   date: 2026-11-19
   source: Aeon
+  category: philosophy
+- title: "Legendary Cellist Pablo Casals, at Age 93, on Creative Vitality and How Working with Love Prolongs Your Life"
+  url: "https://www.themarginalian.org/2026/11/19/pablo-casals-work-age/"
+  date: 2026-11-19
+  source: The Marginalian
+  category: philosophy
+- title: "The Art of Conversation: Timeless Do’s and Don’ts from 1866"
+  url: "https://www.themarginalian.org/2026/11/19/the-art-of-conversation-martine-etiquette-1866/"
+  date: 2026-11-19
+  source: The Marginalian
   category: philosophy
 - title: llm-gemini 0.38
   url: "https://simonwillison.net/2026/Nov/18/llm-gemini/"
@@ -23,36 +73,6 @@
   date: 2026-11-18
   source: Simon Willison
   category: ai
-- title: The PSF end-of-year fundraiser
-  url: "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
-  date: 2026-11-18
-  source: Simon Willison
-  category: ai
-- title: We need smart people who give a shit
-  url: "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/"
-  date: 2026-11-18
-  source: Hacker News Best
-  category: programming
-- title: Anthropic prices initial public offering
-  url: "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-  date: 2026-11-18
-  source: Hacker News Best
-  category: programming
-- title: Gemini 4 Neon
-  url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
-  date: 2026-11-18
-  source: Hacker News Best
-  category: programming
-- title: Seven new models at scalable price-performance
-  url: "https://microsoft.ai/news/microsoft-ignite-2026/"
-  date: 2026-11-18
-  source: Hacker News Best
-  category: programming
-- title: AI agents ask better questions than KPMG accountants in audit trial
-  url: "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
-  date: 2026-11-18
-  source: Hacker News Best
-  category: programming
 - title: Dreams of birds
   url: "https://aeon.co/videos/a-physicists-audacious-plan-to-teach-birds-long-lost-songs"
   date: 2026-11-18
@@ -73,30 +93,10 @@
   date: 2026-11-18
   source: The Marginalian
   category: philosophy
-- title: External sandboxes for coding agents
-  url: "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
-  date: 2026-11-17
-  source: Simon Willison
-  category: ai
 - title: Catwalks and crackdowns
   url: "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran"
   date: 2026-11-17
   source: Aeon
-  category: philosophy
-- title: "Your Brain on Grief, Your Heart on Healing"
-  url: "https://www.themarginalian.org/2026/11/16/the-grieving-brain-mary-frances-o-connor/"
-  date: 2026-11-17
-  source: The Marginalian
-  category: philosophy
-- title: The last klavern
-  url: "https://aeon.co/videos/how-a-texas-community-chose-to-transform-a-former-klan-headquarters"
-  date: 2026-11-16
-  source: Aeon
-  category: philosophy
-- title: "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”"
-  url: "https://www.themarginalian.org/2026/11/16/j-r-r-tolkien-on-fairy-stories/"
-  date: 2026-11-16
-  source: The Marginalian
   category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
@@ -173,11 +173,6 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -188,31 +183,11 @@
   date: 2026-05-04
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
