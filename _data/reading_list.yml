@@ -1,3 +1,48 @@
+- title: "87% of the Anthropic power will come from gas and 11% from coal in 2028"
+  url: "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+  date: 2026-11-22
+  source: Hacker News Best
+  category: programming
+- title: "Toyota, Nissan, and Honda to standardize parts to lower costs"
+  url: "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/"
+  date: 2026-11-22
+  source: Hacker News Best
+  category: programming
+- title: Sandwich Simulator
+  url: "https://stulle.app/"
+  date: 2026-11-22
+  source: Hacker News Best
+  category: programming
+- title: The Only Three Distinctions Between People
+  url: "https://www.themarginalian.org/2026/11/21/nathaniel-hawthorne-classification/"
+  date: 2026-11-22
+  source: The Marginalian
+  category: philosophy
+- title: Muru
+  url: "https://simonwillison.net/2026/Nov/21/muru/"
+  date: 2026-11-21
+  source: Simon Willison
+  category: ai
+- title: Notes on the discrete Fourier transform (DFT)
+  url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
+  date: 2026-11-21
+  source: Eli Bendersky
+  category: programming
+- title: Inkling-2-Mini in 5.4 GB Memory
+  url: "https://github.com/ShinMegamiBoson/lookatmyquant"
+  date: 2026-11-21
+  source: Hacker News Best
+  category: programming
+- title: Lean verification of the Riemann Hypothesis
+  url: "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+  date: 2026-11-21
+  source: Hacker News Best
+  category: programming
+- title: "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently"
+  url: "https://www.themarginalian.org/2026/11/20/daniel-dennett-rapoport-rules-criticism/"
+  date: 2026-11-21
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Ravi Vakil
   url: "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
   date: 2026-11-20
@@ -8,36 +53,16 @@
   date: 2026-11-20
   source: Simon Willison
   category: ai
+- title: llm-gemini 0.38.1
+  url: "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+  date: 2026-11-20
+  source: Simon Willison
+  category: ai
 - title: Token fraud is here and it’s BAD (YouTube)
   url: "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
   date: 2026-11-20
   source: Simon Willison
   category: ai
-- title: Inkling 2 Mini
-  url: "https://thinkingmachines.ai/news/inkling-2-mini/"
-  date: 2026-11-20
-  source: Hacker News Best
-  category: programming
-- title: The stochastic parrots have apparently proved the Riemann Hypothesis
-  url: "https://scottaaronson.blog/?p=10344"
-  date: 2026-11-20
-  source: Hacker News Best
-  category: programming
-- title: "Hurried Announcement: Alessandro Masullo GRH"
-  url: "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
-  date: 2026-11-20
-  source: Hacker News Best
-  category: programming
-- title: We promoted developers into architects without informing them
-  url: "https://manidoraisamy.com/developer-to-architect.html"
-  date: 2026-11-20
-  source: Hacker News Best
-  category: programming
-- title: Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis
-  url: "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
-  date: 2026-11-20
-  source: Hacker News Best
-  category: programming
 - title: My grandmother was a seal
   url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
   date: 2026-11-20
@@ -48,11 +73,6 @@
   date: 2026-11-20
   source: The Marginalian
   category: philosophy
-- title: PostgreSQL 19 Released
-  url: "https://simonwillison.net/2026/Nov/19/postgresql-19/"
-  date: 2026-11-19
-  source: Simon Willison
-  category: ai
 - title: Wunderkammer
   url: "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums"
   date: 2026-11-19
@@ -73,25 +93,10 @@
   date: 2026-11-19
   source: The Marginalian
   category: philosophy
-- title: llm-gemini 0.38
-  url: "https://simonwillison.net/2026/Nov/18/llm-gemini/"
-  date: 2026-11-18
-  source: Simon Willison
-  category: ai
 - title: Dreams of birds
   url: "https://aeon.co/videos/a-physicists-audacious-plan-to-teach-birds-long-lost-songs"
   date: 2026-11-18
   source: Aeon
-  category: philosophy
-- title: Where the Joy Is
-  url: "https://www.themarginalian.org/2026/11/18/where-the-joy-is/"
-  date: 2026-11-18
-  source: The Marginalian
-  category: philosophy
-- title: "Between Psyche and Cyborg: Carl Jung’s Legacy and the Countercultural Courage to Reclaim the Deeply Human in a Posthuman Age"
-  url: "https://www.themarginalian.org/2026/11/18/jung-vs-borg/"
-  date: 2026-11-18
-  source: The Marginalian
   category: philosophy
 - title: Catwalks and crackdowns
   url: "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran"
@@ -132,11 +137,6 @@
   url: "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/"
   date: 2026-09-27
   source: Julia Evans
-  category: programming
-- title: "Rusty thoughts on \"Parse, don't validate\""
-  url: "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/"
-  date: 2026-09-26
-  source: Eli Bendersky
   category: programming
 - title: "There's no point at which turning your brain off will work"
   url: "https://danluu.com/brain-off/"
