@@ -1,18 +1,53 @@
-- title: "87% of the Anthropic power will come from gas and 11% from coal in 2028"
-  url: "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
-  date: 2026-11-22
+- title: Ladybird Is Now in Alpha
+  url: "https://ladybird.org/posts/alpha/"
+  date: 2026-11-23
   source: Hacker News Best
   category: programming
-- title: "Toyota, Nissan, and Honda to standardize parts to lower costs"
-  url: "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/"
-  date: 2026-11-22
+- title: Jensen Huang Reinstated as Nvidia CEO
+  url: "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+  date: 2026-11-23
   source: Hacker News Best
   category: programming
-- title: Sandwich Simulator
-  url: "https://stulle.app/"
-  date: 2026-11-22
+- title: Nvidia Reinstates Jensen Huang as CEO
+  url: "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+  date: 2026-11-23
   source: Hacker News Best
   category: programming
+- title: "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer"
+  url: "https://z.ai/blog/glm-5.4"
+  date: 2026-11-23
+  source: Hacker News Best
+  category: programming
+- title: "Yes, 17M lines of Lean is a lot"
+  url: "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/"
+  date: 2026-11-23
+  source: Hacker News Best
+  category: programming
+- title: "The wind and the song: the treachery of AI"
+  url: "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable"
+  date: 2026-11-23
+  source: Aeon
+  category: philosophy
+- title: A colossal oscillation
+  url: "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino"
+  date: 2026-11-23
+  source: Aeon
+  category: philosophy
+- title: Select Styling Specimens
+  url: "https://simonwillison.net/2026/Nov/22/select-styling/"
+  date: 2026-11-22
+  source: Simon Willison
+  category: ai
+- title: The Most Powerful Attitude You Can Take Toward Your Life and the Life of the World
+  url: "https://www.themarginalian.org/2026/11/22/richard-powers-advice/"
+  date: 2026-11-22
+  source: The Marginalian
+  category: philosophy
+- title: The Seven Selves
+  url: "https://www.themarginalian.org/2026/11/21/the-seven-selves-kahlil-gibran/"
+  date: 2026-11-22
+  source: The Marginalian
+  category: philosophy
 - title: The Only Three Distinctions Between People
   url: "https://www.themarginalian.org/2026/11/21/nathaniel-hawthorne-classification/"
   date: 2026-11-22
@@ -27,16 +62,6 @@
   url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
   date: 2026-11-21
   source: Eli Bendersky
-  category: programming
-- title: Inkling-2-Mini in 5.4 GB Memory
-  url: "https://github.com/ShinMegamiBoson/lookatmyquant"
-  date: 2026-11-21
-  source: Hacker News Best
-  category: programming
-- title: Lean verification of the Riemann Hypothesis
-  url: "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
-  date: 2026-11-21
-  source: Hacker News Best
   category: programming
 - title: "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently"
   url: "https://www.themarginalian.org/2026/11/20/daniel-dennett-rapoport-rules-criticism/"
@@ -58,11 +83,6 @@
   date: 2026-11-20
   source: Simon Willison
   category: ai
-- title: Token fraud is here and it’s BAD (YouTube)
-  url: "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
-  date: 2026-11-20
-  source: Simon Willison
-  category: ai
 - title: My grandmother was a seal
   url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
   date: 2026-11-20
@@ -81,26 +101,6 @@
 - title: At least it remembers
   url: "https://aeon.co/essays/what-would-parenting-by-ai-look-like"
   date: 2026-11-19
-  source: Aeon
-  category: philosophy
-- title: "Legendary Cellist Pablo Casals, at Age 93, on Creative Vitality and How Working with Love Prolongs Your Life"
-  url: "https://www.themarginalian.org/2026/11/19/pablo-casals-work-age/"
-  date: 2026-11-19
-  source: The Marginalian
-  category: philosophy
-- title: "The Art of Conversation: Timeless Do’s and Don’ts from 1866"
-  url: "https://www.themarginalian.org/2026/11/19/the-art-of-conversation-martine-etiquette-1866/"
-  date: 2026-11-19
-  source: The Marginalian
-  category: philosophy
-- title: Dreams of birds
-  url: "https://aeon.co/videos/a-physicists-audacious-plan-to-teach-birds-long-lost-songs"
-  date: 2026-11-18
-  source: Aeon
-  category: philosophy
-- title: Catwalks and crackdowns
-  url: "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran"
-  date: 2026-11-17
   source: Aeon
   category: philosophy
 - title: Monads in Lean
