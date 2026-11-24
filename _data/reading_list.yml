@@ -1,25 +1,55 @@
-- title: Ladybird Is Now in Alpha
-  url: "https://ladybird.org/posts/alpha/"
-  date: 2026-11-23
+- title: datasette-charts 0.2a0
+  url: "https://simonwillison.net/2026/Nov/24/datasette-charts/"
+  date: 2026-11-24
+  source: Simon Willison
+  category: ai
+- title: datasette-agent 0.7a1
+  url: "https://simonwillison.net/2026/Nov/24/datasette-agent/"
+  date: 2026-11-24
+  source: Simon Willison
+  category: ai
+- title: "LLM agents work for their parent companies, not for you"
+  url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+  date: 2026-11-24
   source: Hacker News Best
   category: programming
-- title: Jensen Huang Reinstated as Nvidia CEO
-  url: "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
-  date: 2026-11-23
+- title: Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang
+  url: "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/"
+  date: 2026-11-24
   source: Hacker News Best
   category: programming
-- title: Nvidia Reinstates Jensen Huang as CEO
-  url: "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
-  date: 2026-11-23
+- title: 2035 came early
+  url: "https://fzakaria.com/2026/11/23/2035-came-early"
+  date: 2026-11-24
   source: Hacker News Best
   category: programming
+- title: New York Bans Subscription and Post-Purchase Fees on Cars
+  url: "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription"
+  date: 2026-11-24
+  source: Hacker News Best
+  category: programming
+- title: "Is mental illness universal?"
+  url: "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
+  date: 2026-11-24
+  source: Aeon
+  category: philosophy
 - title: "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer"
-  url: "https://z.ai/blog/glm-5.4"
+  url: "https://simonwillison.net/2026/Nov/23/glm-54/"
   date: 2026-11-23
-  source: Hacker News Best
-  category: programming
-- title: "Yes, 17M lines of Lean is a lot"
-  url: "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/"
+  source: Simon Willison
+  category: ai
+- title: "Ladybird's first alpha release"
+  url: "https://simonwillison.net/2026/Nov/23/ladybird/"
+  date: 2026-11-23
+  source: Simon Willison
+  category: ai
+- title: datasette-charts 0.1a0
+  url: "https://simonwillison.net/2026/Nov/23/datasette-charts/"
+  date: 2026-11-23
+  source: Simon Willison
+  category: ai
+- title: "Huang's Return Is the Biggest National Security Scandal in U.S. History"
+  url: "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
   date: 2026-11-23
   source: Hacker News Best
   category: programming
@@ -33,11 +63,16 @@
   date: 2026-11-23
   source: Aeon
   category: philosophy
-- title: Select Styling Specimens
-  url: "https://simonwillison.net/2026/Nov/22/select-styling/"
-  date: 2026-11-22
-  source: Simon Willison
-  category: ai
+- title: "Heart, the Heretic: The Forgotten Visionary Jane Ellen Harrison on Critical Thinking, Emotional Imagination, and How to Fix the World"
+  url: "https://www.themarginalian.org/2026/11/23/jane-ellen-harrison-heresy-and-humanity/"
+  date: 2026-11-23
+  source: The Marginalian
+  category: philosophy
+- title: How to Bear Your Desolations
+  url: "https://www.themarginalian.org/2026/11/22/any-common-desolation-ellen-bass/"
+  date: 2026-11-23
+  source: The Marginalian
+  category: philosophy
 - title: The Most Powerful Attitude You Can Take Toward Your Life and the Life of the World
   url: "https://www.themarginalian.org/2026/11/22/richard-powers-advice/"
   date: 2026-11-22
@@ -53,53 +88,18 @@
   date: 2026-11-22
   source: The Marginalian
   category: philosophy
-- title: Muru
-  url: "https://simonwillison.net/2026/Nov/21/muru/"
-  date: 2026-11-21
-  source: Simon Willison
-  category: ai
 - title: Notes on the discrete Fourier transform (DFT)
   url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
   date: 2026-11-21
   source: Eli Bendersky
   category: programming
-- title: "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently"
-  url: "https://www.themarginalian.org/2026/11/20/daniel-dennett-rapoport-rules-criticism/"
-  date: 2026-11-21
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Ravi Vakil
-  url: "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
-  date: 2026-11-20
-  source: Simon Willison
-  category: ai
-- title: Quoting Levent Alpöge
-  url: "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
-  date: 2026-11-20
-  source: Simon Willison
-  category: ai
-- title: llm-gemini 0.38.1
-  url: "https://simonwillison.net/2026/Nov/20/llm-gemini/"
-  date: 2026-11-20
-  source: Simon Willison
-  category: ai
 - title: My grandmother was a seal
   url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
   date: 2026-11-20
   source: Aeon
   category: philosophy
-- title: "The Relief of Rock Bottom: George Orwell and the Secret Springboard of Success"
-  url: "https://www.themarginalian.org/2026/11/20/rock-bottom/"
-  date: 2026-11-20
-  source: The Marginalian
-  category: philosophy
 - title: Wunderkammer
   url: "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums"
-  date: 2026-11-19
-  source: Aeon
-  category: philosophy
-- title: At least it remembers
-  url: "https://aeon.co/essays/what-would-parenting-by-ai-look-like"
   date: 2026-11-19
   source: Aeon
   category: philosophy
