@@ -1,3 +1,43 @@
+- title: Button Sounds – collection of professionally-recorded button clicks and presses
+  url: "https://buttons.joshwcomeau.com/"
+  date: 2026-11-25
+  source: Hacker News Best
+  category: programming
+- title: "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native"
+  url: "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
+  date: 2026-11-25
+  source: Hacker News Best
+  category: programming
+- title: Models Can Communicate via Inference Servers Despite Being Sandboxed
+  url: "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+  date: 2026-11-25
+  source: Hacker News Best
+  category: programming
+- title: "Matrix Multiplication is Θ(n^2.25) [pdf]"
+  url: "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+  date: 2026-11-25
+  source: Hacker News Best
+  category: programming
+- title: "PenGPT: A Generative Transformer for Handwriting and Sketches"
+  url: "https://greydanus.github.io/2026/11/12/pengpt/"
+  date: 2026-11-25
+  source: Hacker News Best
+  category: programming
+- title: The passing
+  url: "https://aeon.co/videos/a-veterinarian-helps-cindy-say-goodbye-to-fiona-her-17-year-old-dog"
+  date: 2026-11-25
+  source: Aeon
+  category: philosophy
+- title: Three LLM inflection points in twelve months
+  url: "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+  date: 2026-11-24
+  source: Simon Willison
+  category: ai
+- title: GPT 6.2 Astra Solves a Historical Mystery
+  url: "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+  date: 2026-11-24
+  source: Simon Willison
+  category: ai
 - title: datasette-charts 0.2a0
   url: "https://simonwillison.net/2026/Nov/24/datasette-charts/"
   date: 2026-11-24
@@ -8,51 +48,26 @@
   date: 2026-11-24
   source: Simon Willison
   category: ai
-- title: "LLM agents work for their parent companies, not for you"
-  url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
-  date: 2026-11-24
-  source: Hacker News Best
-  category: programming
-- title: Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang
-  url: "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/"
-  date: 2026-11-24
-  source: Hacker News Best
-  category: programming
-- title: 2035 came early
-  url: "https://fzakaria.com/2026/11/23/2035-came-early"
-  date: 2026-11-24
-  source: Hacker News Best
-  category: programming
-- title: New York Bans Subscription and Post-Purchase Fees on Cars
-  url: "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription"
-  date: 2026-11-24
-  source: Hacker News Best
-  category: programming
 - title: "Is mental illness universal?"
   url: "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
   date: 2026-11-24
   source: Aeon
+  category: philosophy
+- title: Silence and Love
+  url: "https://www.themarginalian.org/2026/11/24/silence-and-love/"
+  date: 2026-11-24
+  source: The Marginalian
+  category: philosophy
+- title: "How to Touch the Nothingness Behind Everything: Kahlil Gibran on the Seven Selves"
+  url: "https://www.themarginalian.org/2026/11/24/the-seven-selves-kahlil-gibran/"
+  date: 2026-11-24
+  source: The Marginalian
   category: philosophy
 - title: "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer"
   url: "https://simonwillison.net/2026/Nov/23/glm-54/"
   date: 2026-11-23
   source: Simon Willison
   category: ai
-- title: "Ladybird's first alpha release"
-  url: "https://simonwillison.net/2026/Nov/23/ladybird/"
-  date: 2026-11-23
-  source: Simon Willison
-  category: ai
-- title: datasette-charts 0.1a0
-  url: "https://simonwillison.net/2026/Nov/23/datasette-charts/"
-  date: 2026-11-23
-  source: Simon Willison
-  category: ai
-- title: "Huang's Return Is the Biggest National Security Scandal in U.S. History"
-  url: "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
-  date: 2026-11-23
-  source: Hacker News Best
-  category: programming
 - title: "The wind and the song: the treachery of AI"
   url: "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable"
   date: 2026-11-23
@@ -78,16 +93,6 @@
   date: 2026-11-22
   source: The Marginalian
   category: philosophy
-- title: The Seven Selves
-  url: "https://www.themarginalian.org/2026/11/21/the-seven-selves-kahlil-gibran/"
-  date: 2026-11-22
-  source: The Marginalian
-  category: philosophy
-- title: The Only Three Distinctions Between People
-  url: "https://www.themarginalian.org/2026/11/21/nathaniel-hawthorne-classification/"
-  date: 2026-11-22
-  source: The Marginalian
-  category: philosophy
 - title: Notes on the discrete Fourier transform (DFT)
   url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
   date: 2026-11-21
@@ -96,11 +101,6 @@
 - title: My grandmother was a seal
   url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
   date: 2026-11-20
-  source: Aeon
-  category: philosophy
-- title: Wunderkammer
-  url: "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums"
-  date: 2026-11-19
   source: Aeon
   category: philosophy
 - title: Monads in Lean
