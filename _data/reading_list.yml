@@ -1,25 +1,65 @@
-- title: Button Sounds – collection of professionally-recorded button clicks and presses
-  url: "https://buttons.joshwcomeau.com/"
-  date: 2026-11-25
+- title: Quoting Jack Despain Zhou
+  url: "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+  date: 2026-11-26
+  source: Simon Willison
+  category: ai
+- title: "sqlite3_rsync: Database Remote-Copy Tool For SQLite"
+  url: "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+  date: 2026-11-26
+  source: Simon Willison
+  category: ai
+- title: The New York Times warns photographers not to update Photoshop over AI features
+  url: "https://simonwillison.net/2026/Nov/26/hn-50651685/"
+  date: 2026-11-26
+  source: Simon Willison
+  category: ai
+- title: Intel One Mono font
+  url: "https://github.com/intel/intel-one-mono"
+  date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native"
-  url: "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
-  date: 2026-11-25
+- title: "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster"
+  url: "https://twitter.com/thsottiaux/status/2125784147889393806"
+  date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: Models Can Communicate via Inference Servers Despite Being Sandboxed
-  url: "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
-  date: 2026-11-25
+- title: "Tell HN: Lots of Ask HNs again"
+  url: "https://news.ycombinator.com/item?id=50649864"
+  date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: "Matrix Multiplication is Θ(n^2.25) [pdf]"
-  url: "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
-  date: 2026-11-25
+- title: Collection of preserved UI style guides
+  url: "https://aresluna.org/ui-style-guides/"
+  date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: "PenGPT: A Generative Transformer for Handwriting and Sketches"
-  url: "https://greydanus.github.io/2026/11/12/pengpt/"
+- title: "Lina Ghotmeh: archaeology of the future"
+  url: "https://aeon.co/videos/a-lebanese-architects-mission-to-build-structures-that-heal"
+  date: 2026-11-26
+  source: Aeon
+  category: philosophy
+- title: The pretendian wars
+  url: "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft"
+  date: 2026-11-26
+  source: Aeon
+  category: philosophy
+- title: "How to Love the World More: Artist and Poet Rachel Hébert’s Breathtaking Catalogue of Gratitudes"
+  url: "https://www.themarginalian.org/2026/11/25/rachel-hebert-thanks/"
+  date: 2026-11-26
+  source: The Marginalian
+  category: philosophy
+- title: Quoting Scott Aaronson
+  url: "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+  date: 2026-11-25
+  source: Simon Willison
+  category: ai
+- title: datasette-charts 0.3a0
+  url: "https://simonwillison.net/2026/Nov/25/datasette-charts/"
+  date: 2026-11-25
+  source: Simon Willison
+  category: ai
+- title: Jev is probably Qwen3.5-35B-A3B
+  url: "https://modaic.dev/blog/latency-doesnt-lie"
   date: 2026-11-25
   source: Hacker News Best
   category: programming
@@ -28,26 +68,11 @@
   date: 2026-11-25
   source: Aeon
   category: philosophy
-- title: Three LLM inflection points in twelve months
-  url: "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
-  date: 2026-11-24
-  source: Simon Willison
-  category: ai
-- title: GPT 6.2 Astra Solves a Historical Mystery
-  url: "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
-  date: 2026-11-24
-  source: Simon Willison
-  category: ai
-- title: datasette-charts 0.2a0
-  url: "https://simonwillison.net/2026/Nov/24/datasette-charts/"
-  date: 2026-11-24
-  source: Simon Willison
-  category: ai
-- title: datasette-agent 0.7a1
-  url: "https://simonwillison.net/2026/Nov/24/datasette-agent/"
-  date: 2026-11-24
-  source: Simon Willison
-  category: ai
+- title: The Paradox of “Finding Yourself”
+  url: "https://www.themarginalian.org/2026/11/25/robert-penn-warren-democracy-poetry-finding-yourself/"
+  date: 2026-11-25
+  source: The Marginalian
+  category: philosophy
 - title: "Is mental illness universal?"
   url: "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
   date: 2026-11-24
@@ -63,18 +88,8 @@
   date: 2026-11-24
   source: The Marginalian
   category: philosophy
-- title: "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer"
-  url: "https://simonwillison.net/2026/Nov/23/glm-54/"
-  date: 2026-11-23
-  source: Simon Willison
-  category: ai
 - title: "The wind and the song: the treachery of AI"
   url: "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable"
-  date: 2026-11-23
-  source: Aeon
-  category: philosophy
-- title: A colossal oscillation
-  url: "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino"
   date: 2026-11-23
   source: Aeon
   category: philosophy
@@ -83,26 +98,11 @@
   date: 2026-11-23
   source: The Marginalian
   category: philosophy
-- title: How to Bear Your Desolations
-  url: "https://www.themarginalian.org/2026/11/22/any-common-desolation-ellen-bass/"
-  date: 2026-11-23
-  source: The Marginalian
-  category: philosophy
-- title: The Most Powerful Attitude You Can Take Toward Your Life and the Life of the World
-  url: "https://www.themarginalian.org/2026/11/22/richard-powers-advice/"
-  date: 2026-11-22
-  source: The Marginalian
-  category: philosophy
 - title: Notes on the discrete Fourier transform (DFT)
   url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
   date: 2026-11-21
   source: Eli Bendersky
   category: programming
-- title: My grandmother was a seal
-  url: "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family"
-  date: 2026-11-20
-  source: Aeon
-  category: philosophy
 - title: Monads in Lean
   url: "https://eli.thegreenplace.net/2026/monads-in-lean/"
   date: 2026-11-10
