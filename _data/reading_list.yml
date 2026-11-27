@@ -1,3 +1,23 @@
+- title: The group chat where your AI talks behind your back
+  url: "https://construct22.com/"
+  date: 2026-11-27
+  source: Hacker News Best
+  category: programming
+- title: Hard Drive pricing has gotten bad
+  url: "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/"
+  date: 2026-11-27
+  source: Hacker News Best
+  category: programming
+- title: The energy of thought
+  url: "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something"
+  date: 2026-11-27
+  source: Aeon
+  category: philosophy
+- title: Vladimir Nabokov on What Makes a Good Reader
+  url: "https://www.themarginalian.org/2026/11/26/nabokov-on-what-makes-a-good-reader/"
+  date: 2026-11-27
+  source: The Marginalian
+  category: philosophy
 - title: Quoting Jack Despain Zhou
   url: "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
   date: 2026-11-26
@@ -13,23 +33,18 @@
   date: 2026-11-26
   source: Simon Willison
   category: ai
-- title: Intel One Mono font
-  url: "https://github.com/intel/intel-one-mono"
+- title: AI made self-hosting fun again
+  url: "https://janlukas.blog/posts/ai-self-hosting"
   date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster"
-  url: "https://twitter.com/thsottiaux/status/2125784147889393806"
+- title: "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad"
+  url: "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"
   date: 2026-11-26
   source: Hacker News Best
   category: programming
-- title: "Tell HN: Lots of Ask HNs again"
-  url: "https://news.ycombinator.com/item?id=50649864"
-  date: 2026-11-26
-  source: Hacker News Best
-  category: programming
-- title: Collection of preserved UI style guides
-  url: "https://aresluna.org/ui-style-guides/"
+- title: Company Culture = Slack Emoji ÷ √Headcount
+  url: "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/"
   date: 2026-11-26
   source: Hacker News Best
   category: programming
@@ -42,6 +57,11 @@
   url: "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft"
   date: 2026-11-26
   source: Aeon
+  category: philosophy
+- title: "The Third Thing: Poet Donald Hall on the Secret to Lasting Love"
+  url: "https://www.themarginalian.org/2026/11/26/donald-hall-the-third-thing/"
+  date: 2026-11-26
+  source: The Marginalian
   category: philosophy
 - title: "How to Love the World More: Artist and Poet Rachel Hébert’s Breathtaking Catalogue of Gratitudes"
   url: "https://www.themarginalian.org/2026/11/25/rachel-hebert-thanks/"
@@ -58,11 +78,6 @@
   date: 2026-11-25
   source: Simon Willison
   category: ai
-- title: Jev is probably Qwen3.5-35B-A3B
-  url: "https://modaic.dev/blog/latency-doesnt-lie"
-  date: 2026-11-25
-  source: Hacker News Best
-  category: programming
 - title: The passing
   url: "https://aeon.co/videos/a-veterinarian-helps-cindy-say-goodbye-to-fiona-her-17-year-old-dog"
   date: 2026-11-25
@@ -81,21 +96,6 @@
 - title: Silence and Love
   url: "https://www.themarginalian.org/2026/11/24/silence-and-love/"
   date: 2026-11-24
-  source: The Marginalian
-  category: philosophy
-- title: "How to Touch the Nothingness Behind Everything: Kahlil Gibran on the Seven Selves"
-  url: "https://www.themarginalian.org/2026/11/24/the-seven-selves-kahlil-gibran/"
-  date: 2026-11-24
-  source: The Marginalian
-  category: philosophy
-- title: "The wind and the song: the treachery of AI"
-  url: "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable"
-  date: 2026-11-23
-  source: Aeon
-  category: philosophy
-- title: "Heart, the Heretic: The Forgotten Visionary Jane Ellen Harrison on Critical Thinking, Emotional Imagination, and How to Fix the World"
-  url: "https://www.themarginalian.org/2026/11/23/jane-ellen-harrison-heresy-and-humanity/"
-  date: 2026-11-23
   source: The Marginalian
   category: philosophy
 - title: Notes on the discrete Fourier transform (DFT)
@@ -173,11 +173,6 @@
   date: 2026-06-24
   source: Lilian Weng
   category: ai
-- title: "Is the Correlation Between Hypertrophy and Strength Gains Stronger Than We Realized?"
-  url: "https://www.strongerbyscience.com/correlation-strength-hypertrophy/"
-  date: 2026-06-11
-  source: Stronger By Science
-  category: strength
 - title: "Moving away from Tailwind, and learning to structure my CSS"
   url: "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
   date: 2026-05-15
@@ -188,31 +183,11 @@
   date: 2026-05-04
   source: Julia Evans
   category: programming
-- title: "Hold Still: What Does the Evidence Actually Say About Isometric Training for Strength and Hypertrophy?"
-  url: "https://www.strongerbyscience.com/isometric-training/"
-  date: 2026-04-23
-  source: Stronger By Science
-  category: strength
 - title: "After Orthogonality: Virtue-Ethical Agency and AI Alignment"
   url: "https://thegradient.pub/virtue-ethics-ai-alignment/"
   date: 2026-02-18
   source: The Gradient
   category: ai
-- title: "High volume vs high intensity: which builds more muscle?"
-  url: "https://www.strongerbyscience.com/high-volume-vs-high-intensity/"
-  date: 2025-12-31
-  source: Stronger By Science
-  category: strength
-- title: "Is lifting during pregnancy healthy?"
-  url: "https://www.strongerbyscience.com/lifting-during-pregnancy/"
-  date: 2025-12-24
-  source: Stronger By Science
-  category: strength
-- title: "How does sleep deprivation affect your workouts?"
-  url: "https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/"
-  date: 2025-12-17
-  source: Stronger By Science
-  category: strength
 - title: AGI Is Not Multimodal
   url: "https://thegradient.pub/agi-is-not-multimodal/"
   date: 2025-06-04
@@ -248,28 +223,3 @@
   date: 2024-07-07
   source: Lilian Weng
   category: ai
-- title: How To Deal With Regret ( 3 Stoic Strategies to Live Free)
-  url: "https://dailystoic.com/how-to-deal-with-regret-3-stoic-strategies-to-live-free/"
-  date: 2023-08-23
-  source: Daily Stoic
-  category: philosophy
-- title: "What Does It Mean To Be Wealthy?"
-  url: "https://dailystoic.com/what-does-it-mean-to-be-wealthy/"
-  date: 2023-07-31
-  source: Daily Stoic
-  category: philosophy
-- title: "Perseverance: 7 Stoic Lessons on How To Keep Going"
-  url: "https://dailystoic.com/perseverance/"
-  date: 2023-05-09
-  source: Daily Stoic
-  category: philosophy
-- title: The 16 Greatest Lessons From 16 Years With Marcus Aurelius
-  url: "https://dailystoic.com/the-16-greatest-lessons-from-16-years-with-marcus-aurelius/"
-  date: 2022-11-02
-  source: Daily Stoic
-  category: philosophy
-- title: How To Find And Keep Joy
-  url: "https://dailystoic.com/how-to-find-and-keep-joy/"
-  date: 2022-08-08
-  source: Daily Stoic
-  category: philosophy
