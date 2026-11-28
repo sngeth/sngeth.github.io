@@ -1,10 +1,40 @@
-- title: The group chat where your AI talks behind your back
-  url: "https://construct22.com/"
+- title: Farewell
+  url: "https://github.com/p-e-w/heretic/issues/601"
+  date: 2026-11-28
+  source: Hacker News Best
+  category: programming
+- title: "Knuth: Moratorium on Error Reports"
+  url: "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html"
+  date: 2026-11-28
+  source: Hacker News Best
+  category: programming
+- title: "Unkernel: Real Linux kernel, compiled to WebAssembly"
+  url: "https://unkernel.dev"
+  date: 2026-11-28
+  source: Hacker News Best
+  category: programming
+- title: "The Dark Wood of the Golden Birds: Margaret Wise Brown’s Lost Masterpiece about Mortality and the Meaning of Life, Newly Illustrated"
+  url: "https://www.themarginalian.org/2026/11/27/dark-wood-margaret-wise-brown-ofra-amit/"
+  date: 2026-11-28
+  source: The Marginalian
+  category: philosophy
+- title: datasette-charts 0.4a0
+  url: "https://simonwillison.net/2026/Nov/27/datasette-charts/"
+  date: 2026-11-27
+  source: Simon Willison
+  category: ai
+- title: datasette-mcp 0.4
+  url: "https://simonwillison.net/2026/Nov/27/datasette-mcp/"
+  date: 2026-11-27
+  source: Simon Willison
+  category: ai
+- title: "Google's DeepCrossAttention achieves comparable model quality up to 3x faster"
+  url: "https://research.google/blog/supercharging-transformer-residual-connections/"
   date: 2026-11-27
   source: Hacker News Best
   category: programming
-- title: Hard Drive pricing has gotten bad
-  url: "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/"
+- title: "States sue SpaceX to stop Grok from generating child sex images, revenge porn"
+  url: "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
   date: 2026-11-27
   source: Hacker News Best
   category: programming
@@ -12,6 +42,16 @@
   url: "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something"
   date: 2026-11-27
   source: Aeon
+  category: philosophy
+- title: "The Pain in You and the God in You: Carl Jung on the Relationship Between Psychological Suffering and Creativity"
+  url: "https://www.themarginalian.org/2026/11/27/carl-jung-neurosis-creativity/"
+  date: 2026-11-27
+  source: The Marginalian
+  category: philosophy
+- title: Nobel-Winning Biochemist Gerty Cori on the Single Most Important Element of a Meaningful Life
+  url: "https://www.themarginalian.org/2026/11/27/gerty-cori-this-i-believe/"
+  date: 2026-11-27
+  source: The Marginalian
   category: philosophy
 - title: Vladimir Nabokov on What Makes a Good Reader
   url: "https://www.themarginalian.org/2026/11/26/nabokov-on-what-makes-a-good-reader/"
@@ -33,21 +73,6 @@
   date: 2026-11-26
   source: Simon Willison
   category: ai
-- title: AI made self-hosting fun again
-  url: "https://janlukas.blog/posts/ai-self-hosting"
-  date: 2026-11-26
-  source: Hacker News Best
-  category: programming
-- title: "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad"
-  url: "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"
-  date: 2026-11-26
-  source: Hacker News Best
-  category: programming
-- title: Company Culture = Slack Emoji ÷ √Headcount
-  url: "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/"
-  date: 2026-11-26
-  source: Hacker News Best
-  category: programming
 - title: "Lina Ghotmeh: archaeology of the future"
   url: "https://aeon.co/videos/a-lebanese-architects-mission-to-build-structures-that-heal"
   date: 2026-11-26
@@ -63,40 +88,15 @@
   date: 2026-11-26
   source: The Marginalian
   category: philosophy
-- title: "How to Love the World More: Artist and Poet Rachel Hébert’s Breathtaking Catalogue of Gratitudes"
-  url: "https://www.themarginalian.org/2026/11/25/rachel-hebert-thanks/"
-  date: 2026-11-26
-  source: The Marginalian
-  category: philosophy
-- title: Quoting Scott Aaronson
-  url: "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
-  date: 2026-11-25
-  source: Simon Willison
-  category: ai
-- title: datasette-charts 0.3a0
-  url: "https://simonwillison.net/2026/Nov/25/datasette-charts/"
-  date: 2026-11-25
-  source: Simon Willison
-  category: ai
 - title: The passing
   url: "https://aeon.co/videos/a-veterinarian-helps-cindy-say-goodbye-to-fiona-her-17-year-old-dog"
   date: 2026-11-25
   source: Aeon
   category: philosophy
-- title: The Paradox of “Finding Yourself”
-  url: "https://www.themarginalian.org/2026/11/25/robert-penn-warren-democracy-poetry-finding-yourself/"
-  date: 2026-11-25
-  source: The Marginalian
-  category: philosophy
 - title: "Is mental illness universal?"
   url: "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
   date: 2026-11-24
   source: Aeon
-  category: philosophy
-- title: Silence and Love
-  url: "https://www.themarginalian.org/2026/11/24/silence-and-love/"
-  date: 2026-11-24
-  source: The Marginalian
   category: philosophy
 - title: Notes on the discrete Fourier transform (DFT)
   url: "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/"
